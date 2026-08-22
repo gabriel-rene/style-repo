@@ -219,7 +219,15 @@ for (const { file, stem, doc, isDraft } of all) {
     if (isStr(img.source_url) && !/^https?:\/\//.test(img.source_url)) {
       err(file, `images[${i}].source_url must be an http(s) URL`);
     }
-    if (!isStr(img.file)) err(file, `images[${i}].file (local path) is required`);
+    // Open images are downloaded locally; restricted ones may only hotlink.
+    const hasFile = isStr(img.file);
+    const hasRemote = isStr(img.remote_image) && /^https?:\/\//.test(img.remote_image);
+    if (!hasFile && !hasRemote) {
+      err(file, `images[${i}] needs a local "file" or a "remote_image" URL`);
+    }
+    if (img.rights_status === 'restricted' && hasFile) {
+      err(file, `images[${i}] is restricted — must not have a local file copy`);
+    }
   }
 
   // ---- provenance ----

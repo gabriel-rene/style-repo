@@ -51,7 +51,88 @@ facets:
     people: [] # HARVEST-ONLY
     studios: []
 
-images: []
+images:
+  - file: assets/frutiger-aero/Frutiger_Aero_Bubbles_And_Grass.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Frutiger_Aero_Bubbles_And_Grass.jpg
+    license: CC0
+    attribution: ThePixelman on Pixabay, CC0, via Wikimedia Commons
+    rights_status: open
+    caption: Close-up of green grass seen from the ground, floating bubbles in the
+      air bathed in the sunlight, trees and a yellow sky in the background.
+    depicts: null
+  - file: assets/frutiger-aero/Frutiger_Aero_4_.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Frutiger_Aero_(4).jpg
+    license: CC0
+    attribution: leeviaho12, CC0, via Wikimedia Commons
+    rights_status: open
+    caption: Artwork depicting Frutiger Aero
+    depicts: null
+  - file: assets/frutiger-aero/Frutiger_Aero_2_.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Frutiger_Aero_(2).jpg
+    license: CC0
+    attribution: leeviaho12, CC0, via Wikimedia Commons
+    rights_status: open
+    caption: Artwork depicting Frutiger Aero
+    depicts: null
+  - file: assets/frutiger-aero/Frutiger_Aero_1_.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Frutiger_Aero_(1).jpg
+    license: CC0
+    attribution: leeviaho12, CC0, via Wikimedia Commons
+    rights_status: open
+    caption: Artwork depicting Frutiger Aero
+    depicts: null
+  - file: assets/frutiger-aero/Frutiger_Aero_3_.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Frutiger_Aero_(3).jpg
+    license: CC0
+    attribution: leeviaho12, CC0, via Wikimedia Commons
+    rights_status: open
+    caption: Artwork depicting Frutiger Aero
+    depicts: null
+  - file: assets/frutiger-aero/Frutiger_aero-style_wallpaper.png
+    source_url: https://commons.wikimedia.org/wiki/File:Frutiger_aero-style_wallpaper.png
+    license: Public domain
+    attribution: Stable Diffusion по запросу Tucvbif, Public domain, via Wikimedia Commons
+    rights_status: open
+    caption: Изображение, напоминающее обои для рабочего стола середины 00-х
+    depicts: null
+  - file: assets/frutiger-aero/Frutiger_aero-style_wallpaper_cropped_.png
+    source_url: https://commons.wikimedia.org/wiki/File:Frutiger_aero-style_wallpaper_(cropped).png
+    license: Public domain
+    attribution: Stable Diffusion по запросу Tucvbif, Public domain, via Wikimedia Commons
+    rights_status: open
+    caption: Изображение, напоминающее обои для рабочего стола середины 00-х
+    depicts: null
+  - file: assets/frutiger-aero/Frutiger_Aero_Bubbles_And_Grass-Square.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Frutiger_Aero_Bubbles_And_Grass-Square.jpg
+    license: CC0
+    attribution: ThePixelman on Pixabay, CC0, via Wikimedia Commons
+    rights_status: open
+    caption: A square version of this excellent Frutiger Aero aesthetic piece, for
+      use in user templates. Simply crop it.
+    depicts: null
+  - file: assets/frutiger-aero/Frutiger_Metro_Type.png
+    source_url: https://commons.wikimedia.org/wiki/File:Frutiger_Metro_Type.png
+    license: CC0
+    attribution: Sssine21, CC0, via Wikimedia Commons
+    rights_status: open
+    caption: Artwork in Frutiger Metro style with abstract circles, ink splashes,
+      and musical elements on a green background. Includes a speaker with notes
+      and a Wikipedia globe
+    depicts: null
+  - file: assets/frutiger-aero/Frutiger_Aero_Composite.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Frutiger_Aero_Composite.jpg
+    license: Public domain
+    attribution: Aarón Ramirez, Public domain, via Wikimedia Commons
+    rights_status: open
+    caption: Frutiger Aero landscape
+    depicts: null
+  - file: assets/frutiger-aero/Frutiger_aero_icons_-_Beautiful_3D_Business_Icons.png
+    source_url: https://commons.wikimedia.org/wiki/File:Frutiger_aero_icons_-_Beautiful_3D_Business_Icons.png
+    license: CC0
+    attribution: http://www.creativealys.com, CC0, via Wikimedia Commons
+    rights_status: open
+    caption: frutiger aero icons 3D - Beautiful 3D Business Icons
+    depicts: null
 
 todo:
   - names.variants
@@ -63,7 +144,6 @@ todo:
   - facets.lifecycle.first_observed
   - facets.lifecycle.review_due
   - facets.practitioners
-  - images
 
 provenance:
   facets.formal_properties:
@@ -79,3 +159,8 @@ provenance:
       url: https://www.wikidata.org/wiki/Q118114289
       accessed: 2026-08-23
       method: exact-label-match
+  images:
+    - source: wikimedia-commons
+      url: https://commons.wikimedia.org/w/index.php?search=Frutiger%20Aero%20graphic%20design
+      accessed: 2026-08-23
+      note: "query: Frutiger Aero graphic design"

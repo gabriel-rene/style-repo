@@ -59,7 +59,97 @@ facets:
     people: [] # HARVEST-ONLY
     studios: []
 
-images: []
+images:
+  - file: assets/art-deco/Yvonne_Serruys_-_Douleur.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Yvonne_Serruys_-_Douleur.jpg
+    license: CC0
+    attribution: Paulgosselin, CC0, via Wikimedia Commons
+    rights_status: open
+    caption: Douleur (Pijn) door de Belgische beeldhouwster en schilderes Yvonne
+      Serruys (1873-1953) - Tuin van het O.C.M.W. in Menen (België) - Stijl:Art
+      Deco - Foto Paul Gosselin 2012
+    depicts: null
+  - file: assets/art-deco/20er_ArtDeco.png
+    source_url: https://commons.wikimedia.org/wiki/File:20er_ArtDeco.png
+    license: CC BY 4.0
+    attribution: U971331, CC BY 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Möbel des Art Deco
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2012FE8115/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O107751
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: 'Branfield, Peter, "Art Deco: French Decorative arts in the
+      Twenties", 1972. © Victoria and Albert Museum, London'
+    rights_status: restricted
+    caption: "Art Deco: French Decorative arts in the Twenties, 1972, UK"
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2012FE8113/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O107750
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: 'Branfield, Peter, "Art Deco: French Decorative arts in the
+      Twenties", 1972. © Victoria and Albert Museum, London'
+    rights_status: restricted
+    caption: "Art Deco: French Decorative arts in the Twenties, 1972, UK"
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2010EJ2299/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O152349
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: B. E. Co., "Clock", ca. 1935. © Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: Clock, ca. 1935, Shanghai
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2026PP9772/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O1820167
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Pightling, William, "Art Deco Interior", ca. 1945 - 1955. ©
+      Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: Art Deco Interior, ca. 1945 - 1955, Great Britain
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2008BT9054/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O198636
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: M. H. Birge & Sons Co., "Wallpaper", Early 20th century. © Victoria
+      and Albert Museum, London
+    rights_status: restricted
+    caption: Wallpaper, Early 20th century, United States
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2006AL4799/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O1103502
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Loupot, Charles, "Exposition Internationale des Arts Décoratifs,
+      Paris, 1925", 1925. © Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: Exposition Internationale des Arts Décoratifs, Paris, 1925, 1925, France
+    depicts: null
+  - file: null
+    remote_image: https://www.moma.org/media/W1siZiIsIjMyNDU4NSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=e70fb75400942c23
+    source_url: https://www.moma.org/collection/works/192193
+    license: "MoMA collection image — rights not cleared for reuse (metadata CC0:
+      https://github.com/MuseumofModernArt/collection)"
+    attribution: György Bp. Szabó, László= Lugo, "Koncert az Almássy téri
+      Szabadidőközpontban (Art deco, Bp. Service Band, Cs.V. Workshop Band,
+      Atlantis Bear Funeral (Atlantisz Medvetor) Performances concert)", 1986.
+      The Museum of Modern Art, New York (Committee on Architecture and Design
+      Funds)
+    rights_status: restricted
+    caption: Koncert az Almássy téri Szabadidőközpontban (Art deco, Bp. Service
+      Band, Cs.V. Workshop Band, Atlantis Bear Funeral (Atlantisz Medvetor)
+      Performances concert). 1986. Lithograph
+    depicts: null
 
 todo:
   - external_ids
@@ -68,7 +158,6 @@ todo:
   - facets.lineage
   - facets.revival
   - facets.practitioners
-  - images
 
 provenance:
   facets.formal_properties:
@@ -92,3 +181,16 @@ provenance:
     - source: getty-aat
       url: https://vocab.getty.edu/aat/300021426
       accessed: 2026-08-23
+  images:
+    - source: wikimedia-commons
+      url: https://commons.wikimedia.org/w/index.php?search=Art%20Deco%20graphic%20design
+      accessed: 2026-08-23
+      note: "query: Art Deco graphic design"
+    - source: vam
+      url: https://api.vam.ac.uk/v2/objects/search?images_exist=1&page_size=20&q=Art%20Deco
+      accessed: 2026-08-23
+      note: "query: Art Deco"
+    - source: moma-dataset
+      url: https://github.com/MuseumofModernArt/collection
+      accessed: 2026-08-23
+      note: "title contains: art deco"

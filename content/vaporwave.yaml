@@ -53,7 +53,49 @@ facets:
     people: [] # HARVEST-ONLY
     studios: []
 
-images: []
+images:
+  - file: assets/vaporwave/Portuguese_Vaporwave.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Portuguese_Vaporwave.jpg
+    license: CC BY-SA 4.0
+    attribution: Rezkiel, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: A primeira obra do movimento Portuguese Vaporwave
+    depicts: null
+  - file: assets/vaporwave/Vaporwave_art_example.png
+    source_url: https://commons.wikimedia.org/wiki/File:Vaporwave_art_example.png
+    license: CC BY-SA 4.0
+    attribution: Ostarisk, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Vaporwave art example created by me.
+    depicts: null
+  - file: assets/vaporwave/Portuguese_Vaporwave_cropped_.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Portuguese_Vaporwave_(cropped).jpg
+    license: CC BY-SA 4.0
+    attribution: Rezkiel, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: A primeira obra do movimento Portuguese Vaporwave
+    depicts: null
+  - file: assets/vaporwave/Vaporwave_for_China.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Vaporwave_for_China.jpg
+    license: CC BY-SA 4.0
+    attribution: Leonard Norling, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: The Album cover of Vaporwave for China
+    depicts: null
+  - file: assets/vaporwave/Wikiwave_00000.png
+    source_url: https://commons.wikimedia.org/wiki/File:Wikiwave_00000.png
+    license: CC BY-SA 4.0
+    attribution: AtikaAtikawa, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: an example of vaporwave art
+    depicts: null
+  - file: assets/vaporwave/Sample_Vaporwave_Artwork.png
+    source_url: https://commons.wikimedia.org/wiki/File:Sample_Vaporwave_Artwork.png
+    license: Public domain
+    attribution: Kazachstanski nygus, Public domain, via Wikimedia Commons
+    rights_status: open
+    caption: Przykład grafiki utrzymanej w klimacie Vaporwave.
+    depicts: null
 
 todo:
   - names.variants
@@ -62,7 +104,6 @@ todo:
   - facets.lifecycle.first_observed
   - facets.lifecycle.review_due
   - facets.practitioners
-  - images
 
 provenance:
   facets.formal_properties:
@@ -88,3 +129,8 @@ provenance:
       url: https://www.wikidata.org/wiki/Q15733887
       accessed: 2026-08-23
       property: P495
+  images:
+    - source: wikimedia-commons
+      url: https://commons.wikimedia.org/w/index.php?search=vaporwave
+      accessed: 2026-08-23
+      note: "query: vaporwave"

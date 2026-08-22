@@ -52,7 +52,186 @@ facets:
     people: []
     studios: []
 
-images: [] # TODO: harvest with full rights fields
+images:
+  - file: assets/bauhaus/Bauhaus_Chair_Breuer.png
+    source_url: https://commons.wikimedia.org/wiki/File:Bauhaus_Chair_Breuer.png
+    license: Public domain
+    attribution: No machine-readable author provided. Borowski~commonswiki assumed
+      (based on copyright claims)., Public domain, via Wikimedia Commons
+    rights_status: open
+    caption: A - not totally accurate - computer graphic of a famous chair designed
+      by Marcel Breuer and marketed by Knoll.
+    depicts: null
+  - file: assets/bauhaus/Flag_of_Plano_Texas.png
+    source_url: https://commons.wikimedia.org/wiki/File:Flag_of_Plano,_Texas.png
+    license: Public domain
+    attribution: António Martins-Tuválkin (PNG), Public domain, via Wikimedia Commons
+    rights_status: open
+    caption: The official city flag of Plano, Texas. In 1981, the Plano City Council
+      officially adopted the logo that is featured on the flag, which was based
+      on a design submitted via a community contest by James R. "Jim" Wainner, a
+      professional artist and graphic designer from Plano. The flag is a
+      5:7-proporti
+    depicts: null
+  - file: assets/bauhaus/Herm._E._Warlich_1929_circa_Plakat_Orpil_Seifen-Spender_fl_ssige_Seife_Henkel_Co
+    source_url: https://commons.wikimedia.org/wiki/File:Herm._E._Warlich_1929_circa_Plakat_Orpil_Seifen-Spender_fl%C3%BCssige_Seife_Henkel_%26_Co._Hannover.jpg
+    license: Public domain
+    attribution: Hermann Warlich, Public domain, via Wikimedia Commons
+    rights_status: open
+    caption: Werbegrafik für den „Orpil Seifen-Spender flüssige Seife für Haushalt
+      und Betrieb“ der damaligen Henkel &amp; Co. Hannover Dampfseifen- und
+      Soda-Fabrik, Abteilung Flüssige Seifen. Eine junge Frau mit Pagenfrisur
+      der 1920er Jahre steht lächelnd an einem Waschbecken, eine Hand an einem
+      kippbaren Flüss
+    depicts: null
+  - file: assets/bauhaus/Armchair_-_Josef_Albers_39733421922_.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Armchair_-_Josef_Albers_(39733421922).jpg
+    license: CC BY-SA 2.0
+    attribution: Tim Evanson from Cleveland Heights, Ohio, USA, CC BY-SA 2.0, via
+      Wikimedia Commons
+    rights_status: open
+    caption: Armchair by Josef Albers on display as part of the "Jazz Age" exhibit
+      at the Cleveland Museum of Art in Cleveland, Ohio, in the United States.
+      Josef Albers (1888-1976) was born ino Bottrop, Germany. He worked as a
+      school teacher from 1908 to 1913 before returning to school and getting an
+      education a
+    depicts: null
+  - file: assets/bauhaus/Hermann_Warlich_Plakat_Orpil_Seifen-Spender_ca_1929.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Hermann_Warlich_Plakat_Orpil_Seifen-Spender_ca_1929.jpg
+    license: Public domain
+    attribution: Hermann Warlich, Public domain, via Wikimedia Commons
+    rights_status: open
+    caption: Plakat für den Orpil Seifen-Spender flüssige Seife für Haushalt und
+      Betrieb der damaligen Henkel &amp; Co. Hannover, Dampfseifen- und
+      Soda-Fabrik, Abteilung Flüssige Seifen. Eine junge Frau mit Pagenfrisur
+      der 1920er Jahre steht lächelnd an einem Waschbecken, eine Hand an einem
+      kippbaren Flüssigseif
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2006AU9915/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O58657
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Breuer, Marcel Lajos, "Wooden armchair", 1922. © Victoria and
+      Albert Museum, London
+    rights_status: restricted
+    caption: Wooden armchair, 1922, Weimar
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2012FM3065/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O95603
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Dell, Christian, "Sugar Bowl", ca. 1925. © Victoria and Albert
+      Museum, London
+    rights_status: restricted
+    caption: Sugar Bowl, ca. 1925, Weimar
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2012FM3065/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O95604
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Dell, Christian, "Tray", ca. 1925. © Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: Tray, ca. 1925, Weimar
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2006AB5929/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O113442
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Moholy-Nagy, László, "Bauhaus Verlag Bauhaus Bücher", ca. 1924. ©
+      Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: Bauhaus Verlag Bauhaus Bücher, ca. 1924, Germany
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2012FM3065/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O95602
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Dell, Christian, "Milk Jug", ca. 1925. © Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: Milk Jug, ca. 1925, Weimar
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2012FM3065/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O94916
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Dell, Christian, "Teapot", ca. 1925. © Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: Teapot, ca. 1925, Weimar
+    depicts: null
+  - file: null
+    remote_image: https://www.moma.org/media/W1siZiIsIjUyNjcyNyJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=76245560497bac0e
+    source_url: https://www.moma.org/collection/works/287
+    license: "MoMA collection image — rights not cleared for reuse (metadata CC0:
+      https://github.com/MuseumofModernArt/collection)"
+    attribution: Herbert Bayer, "Floor plan for the exhibition "Bauhaus 1919-1928,"
+      The Museum of Modern Art, New York, December 7, 1938-January 30, 1939",
+      1938. The Museum of Modern Art, New York (Purchase)
+    rights_status: restricted
+    caption: Floor plan for the exhibition "Bauhaus 1919-1928," The Museum of Modern
+      Art, New York, December 7, 1938-January 30, 1939. 1938. Ink, gouache, and
+      cut-and-pasted coated papers
+    depicts: null
+  - file: null
+    remote_image: https://www.moma.org/media/W1siZiIsIjUxNzkyNyJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=f94460422c7c8dcf
+    source_url: https://www.moma.org/collection/works/2724
+    license: "MoMA collection image — rights not cleared for reuse (metadata CC0:
+      https://github.com/MuseumofModernArt/collection)"
+    attribution: Josef Albers, "Bauhaus Stencil Lettering System
+      (Kombinations-Schrift)", 1926–1928. The Museum of Modern Art, New York
+      (Gift of the designer)
+    rights_status: restricted
+    caption: Bauhaus Stencil Lettering System (Kombinations-Schrift). 1926–1928.
+      Milk glass and painted wood
+    depicts: null
+  - file: null
+    remote_image: https://www.moma.org/media/W1siZiIsIjU3MDQwMSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=19541ce9ad4c3cc2
+    source_url: https://www.moma.org/collection/works/5179
+    license: "MoMA collection image — rights not cleared for reuse (metadata CC0:
+      https://github.com/MuseumofModernArt/collection)"
+    attribution: Cyan, "Bauhaus-Block von Mischa Kuball", 1992. The Museum of Modern
+      Art, New York (Gift of the designers)
+    rights_status: restricted
+    caption: Bauhaus-Block von Mischa Kuball. 1992. Offset lithograph
+    depicts: null
+  - file: null
+    remote_image: https://www.moma.org/media/W1siZiIsIjU0MDAwOCJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=7ff00e8316e8ec3b
+    source_url: https://www.moma.org/collection/works/5188
+    license: "MoMA collection image — rights not cleared for reuse (metadata CC0:
+      https://github.com/MuseumofModernArt/collection)"
+    attribution: Cyan, Sophie Alex, Wilhelm Ebentreich, Detlef Fiedler, Daniela
+      Haufe, Siegfried Jablonsky, "Buhnenklasse am Bauhaus", 1993. The Museum of
+      Modern Art, New York (Gift of the designers)
+    rights_status: restricted
+    caption: Buhnenklasse am Bauhaus. 1993. Offset lithograph
+    depicts: null
+  - file: null
+    remote_image: https://www.moma.org/media/W1siZiIsIjU3MDQwNCJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=acf4222fd67568e6
+    source_url: https://www.moma.org/collection/works/5205
+    license: "MoMA collection image — rights not cleared for reuse (metadata CC0:
+      https://github.com/MuseumofModernArt/collection)"
+    attribution: Cyan, "Bauhaus-Block von Mischa Kuball (Installations by Mischa
+      Kuball)", 1993. The Museum of Modern Art, New York (Gift of the designers)
+    rights_status: restricted
+    caption: Bauhaus-Block von Mischa Kuball (Installations by Mischa Kuball). 1993.
+      Offset lithograph
+    depicts: null
+  - file: null
+    remote_image: https://www.moma.org/media/W1siZiIsIjUyNzQwNSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=8da7d4848f17c82f
+    source_url: https://www.moma.org/collection/works/5211
+    license: "MoMA collection image — rights not cleared for reuse (metadata CC0:
+      https://github.com/MuseumofModernArt/collection)"
+    attribution: Cyan, Sophie Alex, Wilhelm Ebentreich, Detlef Fiedler, Daniela
+      Haufe, Siegfried Jablonsky, "Stiftung Bauhaus Dessau November-Dezember",
+      1994. The Museum of Modern Art, New York (Gift of the designers)
+    rights_status: restricted
+    caption: Stiftung Bauhaus Dessau November-Dezember. 1994. Offset lithograph
+    depicts: null
 
 todo:
   - names.variants
@@ -63,7 +242,6 @@ todo:
   - facets.commercial_context
   - facets.revival
   - facets.practitioners
-  - images
 
 provenance:
   facets.formal_properties:
@@ -81,3 +259,16 @@ provenance:
     - source: getty-aat
       url: https://vocab.getty.edu/aat/300021432
       accessed: 2026-08-23
+  images:
+    - source: wikimedia-commons
+      url: https://commons.wikimedia.org/w/index.php?search=Bauhaus%20graphic%20design
+      accessed: 2026-08-23
+      note: "query: Bauhaus graphic design"
+    - source: vam
+      url: https://api.vam.ac.uk/v2/objects/search?images_exist=1&page_size=20&q=Bauhaus
+      accessed: 2026-08-23
+      note: "query: Bauhaus"
+    - source: moma-dataset
+      url: https://github.com/MuseumofModernArt/collection
+      accessed: 2026-08-23
+      note: "title contains: bauhaus"

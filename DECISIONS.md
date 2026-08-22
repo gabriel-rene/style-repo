@@ -69,3 +69,44 @@
 
 - **Repo initialized as git even though Phase 1 is a proposal.** Commits are
   labeled as proposal; nothing is final until user approval per hard rule 3.
+
+## Phase 3 — image harvesting
+
+- **Three image sources shipped; two blocked on keys.** Wikimedia Commons
+  (open licenses, downloaded locally), V&A (restricted, hotlinked via IIIF),
+  MoMA dataset (metadata CC0, image rights not cleared → restricted,
+  hotlinked). Cooper Hewitt rejects keyless calls; the legacy Rijksmuseum API
+  is retired (HTTP 410) and its replacement needs a key. Both are wired-up
+  candidates once the user provides tokens.
+
+- **rights_status maps to storage policy.** `open` images must have a local
+  file under assets/; `restricted` images must NOT be copied locally — the
+  record stores a `remote_image` URL instead and the validator enforces both
+  directions. This keeps hard rule 2 honest: we never redistribute imagery we
+  don't have rights to.
+
+- **Commons license allowlist, not blocklist.** Only `pd`, `cc0`, `cc-by-*`,
+  `cc-by-sa-*` machine-readable license ids are accepted; anything else is
+  skipped, not marked restricted, because unvetted Commons files aren't worth
+  a record.
+
+- **Ambiguous term names get `null` query overrides instead of guesses.**
+  "Memphis" matched Tennessee photography at MoMA; "acid graphics" matched
+  etching and unrelated files. harvest/image-queries*.yaml maps term-id →
+  search string, and an explicit `null` means "skip until the user writes a
+  curated query." The harvester never invents a disambiguation on its own.
+
+- **Relevance guard on Commons full-text search.** A result is only kept if
+  its title/description contains a distinctive (non-generic) word from the
+  term name or query. This killed a "Flag of Plano, Texas" match for Bauhaus
+  that slipped in because its description said "graphic designer".
+
+- **Download politeness.** upload.wikimedia.org rate-limits bursts (HTTP 429);
+  cachedDownload now paces ~1 req/s and retries 429/5xx with backoff.
+  Some downloads still fail on a first pass — a re-run picks up survivors
+  from cache and only re-fetches the failures.
+
+- **Coverage report is generated, not curated.** scripts/coverage-report.js
+  writes harvest/COVERAGE.md (per-term counts, gap lists, open-license
+  coverage bucketed by origin-period era). "Era unknown" is itself reported
+  as a harvest gap rather than being guessed.

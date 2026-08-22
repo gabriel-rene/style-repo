@@ -51,7 +51,70 @@ facets:
     people: [] # HARVEST-ONLY
     studios: []
 
-images: []
+images:
+  - file: assets/blackletter/Caslon_1841_specimen_Ten-line_Pica_blackletter_typeface.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Caslon_1841_specimen_Ten-line_Pica_blackletter_typeface.jpg
+    license: Public domain
+    attribution: Caslon Type Foundry, 1841, Public domain, via Wikimedia Commons
+    rights_status: open
+    caption: Specimen of the Caslon type foundry's Ten-line Pica blackletter typeface
+    depicts: null
+  - file: assets/blackletter/Blackletter_and_Roman_font.png
+    source_url: https://commons.wikimedia.org/wiki/File:Blackletter_and_Roman_font.png
+    license: CC BY-SA 4.0
+    attribution: Gupta, Anshul; Gutierrez-Osuna, Ricardo; Christy, Matthew; Furuta,
+      Richard; Mandell, Laura, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Identifying the type of font (e.g., Roman, Blackletter) used in
+      historical documents can help optical character recognition (OCR) systems
+      produce more accurate text transcriptions.
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2015HV9352/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O118936
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Unknown, "Ring", early 16th century. © Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: Ring, early 16th century, England
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2014HH1073/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O1023971
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: '"Poster", ca. 1938. © Victoria and Albert Museum, London'
+    rights_status: restricted
+    caption: Poster, ca. 1938, Austria
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2014HH1101/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O1023965
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Mjolnir, "Poster", 1941. © Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: Poster, 1941, Germany
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2025PG7503/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O38501
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: '"Weekly Dispatch...Baby Girl Competition", 1921 (dated). ©
+      Victoria and Albert Museum, London'
+    rights_status: restricted
+    caption: Weekly Dispatch...Baby Girl Competition, 1921 (dated), United Kingdom
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2015HM0367/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O118934
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Unknown, "Ring", 16th century. © Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: Ring, 16th century, Ireland
+    depicts: null
 
 todo:
   - names.variants
@@ -64,7 +127,6 @@ todo:
   - facets.revival
   - facets.lifecycle
   - facets.practitioners
-  - images
 
 provenance:
   facets.formal_properties:
@@ -79,3 +141,12 @@ provenance:
       url: https://www.wikidata.org/wiki/Q213686
       accessed: 2026-08-23
       property: P571
+  images:
+    - source: wikimedia-commons
+      url: https://commons.wikimedia.org/w/index.php?search=blackletter%20typography
+      accessed: 2026-08-23
+      note: "query: blackletter typography"
+    - source: vam
+      url: https://api.vam.ac.uk/v2/objects/search?images_exist=1&page_size=20&q=Blackletter
+      accessed: 2026-08-23
+      note: "query: Blackletter"

@@ -1,0 +1,10 @@
+# Per-term Wikimedia Commons search overrides for commons-images.js.
+# These are search strings only — not factual claims.
+# null = do not auto-search; the term name is too ambiguous. Set a query to enable.
+acid-graphics: null
+blackletter: blackletter typography
+brutalist-web-design: brutalist web design
+memphis: Memphis Milano design
+risograph: risograph print
+swiss-international-style: Swiss Style poster
+vaporwave: vaporwave

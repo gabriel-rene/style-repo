@@ -3,49 +3,132 @@ term_type: style
 status: stub
 names:
   primary: Swiss International Style
-  variants: []             # TODO: harvest (known alternates exist)
-summary: null              # TODO
+  variants: [] # TODO: harvest (known alternates exist)
+summary: null # TODO
 external_ids:
-  getty_aat: null          # TODO
-  wikidata: null           # TODO
+  getty_aat: null # TODO
+  wikidata: null # TODO
 
 facets:
   era:
-    periods: []            # TODO: harvest
+    periods: [] # TODO: harvest
   geography:
-    origin_places: []      # TODO: harvest
+    origin_places: [] # TODO: harvest
     spread: []
   lineage:
-    parents: []            # TODO: harvest
-    influences: []         # TODO: harvest
+    parents: [] # TODO: harvest
+    influences: [] # TODO: harvest
     influenced: []
     reacted_against: []
     revival_of: []
   production:
     apparatus: []
-    techniques: []         # TODO
-  formal_properties:       # editorial, unreviewed
+    techniques: [] # TODO
+  formal_properties:
+    # editorial, unreviewed
     grid_discipline: strict
-    palette_logic: {descriptor: restricted, note: null}
+    palette_logic: { descriptor: restricted, note: null }
     contrast: high
     texture: flat
     hierarchy: strict
     ornament_level: none
-  ideological_stance: strongly-rationalist   # editorial, unreviewed
+  ideological_stance: strongly-rationalist # editorial, unreviewed
   commercial_context:
-    contexts: [corporate-identity, signage, editorial]   # editorial, unreviewed
+    contexts: [ corporate-identity, signage, editorial ] # editorial, unreviewed
   revival:
-    status: null           # TODO
+    status: null # TODO
     revivals: []
   lifecycle:
     state: historical
     first_observed: null
     review_due: null
   practitioners:
-    people: []             # HARVEST-ONLY
+    people: [] # HARVEST-ONLY
     studios: []
 
-images: []
+images:
+  - file: assets/swiss-international-style/1959_-_Kunsthalle_Basel_-_4_Bildhauer.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:1959_-_Kunsthalle_Basel_-_4_Bildhauer.jpg
+    license: Public domain
+    attribution: Armin Hofmann, Public domain, via Wikimedia Commons
+    rights_status: open
+    caption: "Poster for a 1959 exhibition of artworks by four swiss sculptors: Hans
+      Aeschbacher, Max Bill, Walter Linck, Robert Müller. Poster design by Armin
+      Hofmann."
+    depicts: null
+  - file: assets/swiss-international-style/CH-NB_Poster_Collection_SNL_TOUR_2238.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:CH-NB_Poster_Collection_SNL_TOUR_2238.jpg
+    license: Public domain
+    attribution: Gottfried Keller - There is no publicly available detailed
+      biographical data for Gottfried Keller, who was the graphic artist for the
+      Swissair poster. Research consistently returns information about the
+      famous Swiss poet and novelist of the same name (1819–1890). What is known
+      is that the poster artist was a Swiss graphic designer working around the
+      1950s. His work on this iconic 1951 poster is notable for establishing a
+      style that influenced other designers of the time and served as a model
+      for Swissair's visual identity for decades., Public domain, via Wikimedia
+      Commons
+    rights_status: open
+    caption: Swissair, DC-6B, das modernste Flugzeug nach New York / G. Keller
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2010EB0013/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O1155283
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Weingart, Wolfgang, "Kunsthalle Basel Kunstkredit 76-77", 1977. ©
+      Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: Kunsthalle Basel Kunstkredit 76-77, 1977, Switzerland
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2006AP7010/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O77549
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Kirkby, Thomas, "Plate", ca. 1855. © Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: Plate, ca. 1855, Stoke-on-Trent
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2022NC8368/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O1663932
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: OSPAAAL (the Organization in Solidarity with the People of Africa,
+      Asia and Latin America), "Week of World Solidarity with the peoples of
+      Asia", c. 1970. © Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: Week of World Solidarity with the peoples of Asia, c. 1970, Cuba
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2010CT5648/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O344824
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: '"Vase", ca. 1877. © Victoria and Albert Museum, London'
+    rights_status: restricted
+    caption: Vase, ca. 1877, Thun
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2007BP3506/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O60303
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Spindler, Carl (Charles), "Panelling", ca. 1900. © Victoria and
+      Albert Museum, London
+    rights_status: restricted
+    caption: Panelling, ca. 1900, Strasbourg
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2006AL8267/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O58757
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Unknown, "Cabinet", 1550-1580. © Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: Cabinet, 1550-1580, South Germany
+    depicts: null
 
 todo:
   - names.variants
@@ -57,14 +140,22 @@ todo:
   - facets.production.techniques
   - facets.revival
   - facets.practitioners
-  - images
 
 provenance:
   facets.formal_properties:
-    - {source: editorial, reviewed: false}
+    - { source: editorial, reviewed: false }
   facets.ideological_stance:
-    - {source: editorial, reviewed: false}
+    - { source: editorial, reviewed: false }
   facets.commercial_context:
-    - {source: editorial, reviewed: false}
+    - { source: editorial, reviewed: false }
   facets.lifecycle.state:
-    - {source: editorial, reviewed: false}
+    - { source: editorial, reviewed: false }
+  images:
+    - source: wikimedia-commons
+      url: https://commons.wikimedia.org/w/index.php?search=Swiss%20Style%20poster
+      accessed: 2026-08-23
+      note: "query: Swiss Style poster"
+    - source: vam
+      url: https://api.vam.ac.uk/v2/objects/search?images_exist=1&page_size=20&q=Swiss%20International%20Style
+      accessed: 2026-08-23
+      note: "query: Swiss International Style"

@@ -1,50 +1,127 @@
 id: risograph
-term_type: apparatus       # THE KEY TEST — a machine, not a style peer.
-                           # Styles reference it via production.apparatus;
-                           # the build index computes the reverse link.
+term_type: apparatus
+  # THE KEY TEST — a machine, not a style peer.
+  # Styles reference it via production.apparatus;
+  # the build index computes the reverse link.
 status: stub
 names:
   primary: Risograph
-  variants: []             # TODO: harvest (short forms, brand vs generic)
-summary: null              # TODO
+  variants: [] # TODO: harvest (short forms, brand vs generic)
+summary: null # TODO
 external_ids:
-  getty_aat: null          # TODO
-  wikidata: null           # TODO
+  getty_aat: null # TODO
+  wikidata: null # TODO
 
 facets:
   era:
-    periods: []            # TODO: harvest (introduction date, design-scene adoption)
+    periods: [] # TODO: harvest (introduction date, design-scene adoption)
   geography:
-    origin_places: []      # TODO: harvest
+    origin_places: [] # TODO: harvest
     spread: []
   lineage:
-    parents: []            # TODO: harvest (related duplicator/print lineage)
+    parents: [] # TODO: harvest (related duplicator/print lineage)
     influences: []
     influenced: []
     reacted_against: []
     revival_of: []
   # No formal_properties, no ideological_stance — apparatus entries don't get them.
-  formal_consequences:     # what the machine imposes on output; editorial, unreviewed
+  formal_consequences:
+    # what the machine imposes on output; editorial, unreviewed
     grid_discipline: not-applicable
-    palette_logic: {descriptor: restricted, note: "limited spot-ink layers per pass; overprint mixing"}
+    palette_logic:
+      {
+        descriptor: restricted,
+        note: "limited spot-ink layers per pass; overprint mixing"
+      }
     contrast: medium
-    texture: pronounced    # visible grain, misregistration between layers
+    texture: pronounced # visible grain, misregistration between layers
     hierarchy: not-applicable
     ornament_level: not-applicable
   commercial_context:
-    contexts: [self-published, poster]   # editorial, unreviewed
+    contexts: [ self-published, poster ] # editorial, unreviewed
   revival:
-    status: null           # TODO — utilitarian-to-artistic adoption arc; harvest
+    status: null # TODO — utilitarian-to-artistic adoption arc; harvest
     revivals: []
   lifecycle:
-    state: null            # TODO
+    state: null # TODO
     first_observed: null
     review_due: null
   practitioners:
-    people: []             # HARVEST-ONLY (notable presses/studios)
+    people: [] # HARVEST-ONLY (notable presses/studios)
     studios: []
 
-images: []
+images:
+  - file: assets/risograph/Risographe_.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Risographe_.jpg
+    license: CC BY-SA 4.0
+    attribution: Adam Nineuzon, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Modèle MZ 1070E 2 couleurs format A3 atelier Chez Rosi Bruxelles
+    depicts: null
+  - file: assets/risograph/Risograph-herr-und-frau-rio-muc-2020.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Risograph-herr-und-frau-rio-muc-2020.jpg
+    license: CC BY-SA 4.0
+    attribution: Kaethe17, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Riso RZ 970 im Atelier von Herr und Frau Rio in München (2020)
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2019LX8833/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O1490117
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Aqui, "Mansplain This", ca. 2018. © Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: Mansplain This, ca. 2018, London
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2019LX8834/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O1490118
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Aqui, "Rape is a Weapon of War", ca. 2018. © Victoria and Albert
+      Museum, London
+    rights_status: restricted
+    caption: Rape is a Weapon of War, ca. 2018, London
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2019LX8825/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O1490114
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Aqui, "Food is our archive", ca. 2018. © Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: Food is our archive, ca. 2018, London
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2019LX8826/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O1490115
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Aqui, "Resisters", ca. 2018. © Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: Resisters, ca. 2018, London
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2023NJ1563/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O1735590
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Ghazal Foroutan, "Rosie the Riveter", 2022. © Victoria and Albert
+      Museum, London
+    rights_status: restricted
+    caption: Rosie the Riveter, 2022, California
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2019LX8832/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O1490116
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Aqui, "Girls are the future", ca. 2018. © Victoria and Albert
+      Museum, London
+    rights_status: restricted
+    caption: Girls are the future, ca. 2018, London
+    depicts: null
 
 todo:
   - names.variants
@@ -56,10 +133,18 @@ todo:
   - facets.revival
   - facets.lifecycle
   - facets.practitioners
-  - images
 
 provenance:
   facets.formal_consequences:
-    - {source: editorial, reviewed: false}
+    - { source: editorial, reviewed: false }
   facets.commercial_context:
-    - {source: editorial, reviewed: false}
+    - { source: editorial, reviewed: false }
+  images:
+    - source: wikimedia-commons
+      url: https://commons.wikimedia.org/w/index.php?search=risograph%20print
+      accessed: 2026-08-23
+      note: "query: risograph print"
+    - source: vam
+      url: https://api.vam.ac.uk/v2/objects/search?images_exist=1&page_size=20&q=Risograph
+      accessed: 2026-08-23
+      note: "query: Risograph"

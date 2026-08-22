@@ -1,0 +1,4 @@
+# Per-term MoMA title-search overrides for moma-images.js.
+# null = do not auto-search; the term name is too ambiguous (matches the
+# Tennessee city in photo titles). Set a query to enable.
+memphis: null

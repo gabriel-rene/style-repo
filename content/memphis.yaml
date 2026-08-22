@@ -59,7 +59,109 @@ facets:
     people: [] # HARVEST-ONLY
     studios: []
 
-images: []
+images:
+  - file: assets/memphis/Memphis_Belle.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Memphis_Belle.jpg
+    license: Public domain
+    attribution: Unknown authorUnknown author, Public domain, via Wikimedia Commons
+    rights_status: open
+    caption: The B-17 Flying Fortress "The Memphis Belle" is shown on her way back
+      to the United States June 9, 1943, after successfully completing 25
+      missions from an airbase in England.
+    depicts: null
+  - file: assets/memphis/Beale_Street_in_Memphis_Tennessee.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Beale_Street_in_Memphis_Tennessee.jpg
+    license: CC BY 2.0
+    attribution: Rafi B. from Somewhere in Texas :), CC BY 2.0, via Wikimedia Commons
+    rights_status: open
+    caption: Beale Street in Memphis, TennesseeMemphis!
+    depicts: null
+  - file: assets/memphis/Clark_Tower_Memphis_TN_01.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Clark_Tower_Memphis_TN_01.jpg
+    license: CC BY 3.0
+    attribution: Thomas R Machnitzki, CC BY 3.0, via Wikimedia Commons
+    rights_status: open
+    caption: Clark Tower at 5100 Poplar Aveue and Mendenhall Road in Memphis, Tennessee.
+    depicts: null
+  - file: assets/memphis/Memphis_BW_2.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Memphis_BW_2.jpg
+    license: CC BY 3.0
+    attribution: Berthold Werner, CC BY 3.0, via Wikimedia Commons
+    rights_status: open
+    caption: Egypt, Memphis, Sphinx of Memphis
+    depicts: null
+  - file: assets/memphis/Memphis-Milano_Movement.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Memphis-Milano_Movement.jpg
+    license: CC BY-SA 3.0
+    attribution: Zanone, CC BY-SA 3.0, via Wikimedia Commons
+    rights_status: open
+    caption: 1980s design movement started in 1981 by Ettore Sottsass and a group of
+      young designers who wanted to challenge the established notions of good
+      design at the time.
+    depicts: null
+  - file: assets/memphis/Memphis-Milano_Design_Collection.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Memphis-Milano_Design_Collection.jpg
+    license: CC BY-SA 3.0
+    attribution: Dennis Zanone, CC BY-SA 3.0, via Wikimedia Commons
+    rights_status: open
+    caption: Room view of part of a Memphis-Milano design collection.
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2018LE5979/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O294419
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Memphis, "Swatch", 1985. © Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: Swatch, 1985, Italy
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2010EM4883/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O1178780
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Sottsass, Ettore (Jr), "Drawing for 'Murmansk' Centrepiece", 1982.
+      © Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: Drawing for 'Murmansk' Centrepiece, 1982, Italy
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2011EN2433/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O1191355
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: George Sowden, "Heisenberg", 1983. © Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: Heisenberg, 1983, Milan
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2011ET6774/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O1177310
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Martine Bedin, "Super Lamp", ca. 1977. © Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: Super Lamp, ca. 1977, Milan
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2011EW5715/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O1194268
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Sowden, George, "View of an Interior", 1983. © Victoria and Albert
+      Museum, London
+    rights_status: restricted
+    caption: View of an Interior, 1983, Milano
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2011EW5714/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O1194267
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Sowden, George, "Design", 1983. © Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: Design, 1983, Milano
+    depicts: null
 
 todo:
   - external_ids
@@ -68,7 +170,6 @@ todo:
   - facets.lineage
   - facets.revival
   - facets.practitioners
-  - images
 
 provenance:
   facets.formal_properties:
@@ -92,3 +193,12 @@ provenance:
     - source: getty-aat
       url: https://vocab.getty.edu/aat/300265730
       accessed: 2026-08-23
+  images:
+    - source: wikimedia-commons
+      url: https://commons.wikimedia.org/w/index.php?search=Memphis%20Milano%20design
+      accessed: 2026-08-23
+      note: "query: Memphis Milano design"
+    - source: vam
+      url: https://api.vam.ac.uk/v2/objects/search?images_exist=1&page_size=20&q=Memphis%20Milano
+      accessed: 2026-08-23
+      note: "query: Memphis Milano"
