@@ -1,0 +1,153 @@
+# Trend candidate triage queue — written by scripts/trends/collect-candidates.js.
+#
+# YOUR file to edit. For each candidate set status to one of:
+#   pending              — not looked at yet (collector default)
+#   dismissed            — not a style signal; stays here so it is never re-added
+#   accepted:<term-id>   — evidence for a term; cite the queue entry's url in
+#                          that term's research note or lifecycle provenance
+#
+# The collector only APPENDS new pending entries. It never edits or removes
+# yours, and it never re-adds a url that is already listed.
+
+candidates:
+  - url: https://fontsinuse.com/uses/79221/design-with-type-by-carl-dair-university-of-t
+    title: Design with Type by Carl Dair, University of Toronto Press
+    source: rss:fontsinuse.com/main.rss
+    kind: rss-item
+    published_at: 2026-08-23
+    first_seen: 2026-08-23
+    status: pending
+  - url: https://fontsinuse.com/uses/79263/die-phoenizier-by-gerhard-herm
+    title: Die Phönizier by Gerhard Herm
+    source: rss:fontsinuse.com/main.rss
+    kind: rss-item
+    published_at: 2026-08-23
+    first_seen: 2026-08-23
+    status: pending
+  - url: https://fontsinuse.com/uses/79273/magic-postcard-series-2
+    title: Magic Postcard Series 2
+    source: rss:fontsinuse.com/main.rss
+    kind: rss-item
+    published_at: 2026-08-23
+    first_seen: 2026-08-23
+    status: pending
+  - url: https://fontsinuse.com/uses/79288/bartered-mates-by-thomas-k-makagon
+    title: Bartered Mates by Thomas K. Makagon
+    source: rss:fontsinuse.com/main.rss
+    kind: rss-item
+    published_at: 2026-08-23
+    first_seen: 2026-08-23
+    status: pending
+  - url: https://fontsinuse.com/uses/79530/moreish-by-super-hans
+    title: Moreish by Super Hans
+    source: rss:fontsinuse.com/main.rss
+    kind: rss-item
+    published_at: 2026-08-23
+    first_seen: 2026-08-23
+    status: pending
+  - url: https://fontsinuse.com/uses/76259/inugami-korone-doggy-god-s-street-single-cove
+    title: Inugami Korone – “Doggy God’s Street” single cover and music video
+    source: rss:fontsinuse.com/main.rss
+    kind: rss-item
+    published_at: 2026-08-23
+    first_seen: 2026-08-23
+    status: pending
+  - url: https://fontsinuse.com/uses/77591/now-brand-by-hasbro-s-tiger-electronics
+    title: Now brand by Hasbro’s Tiger Electronics
+    source: rss:fontsinuse.com/main.rss
+    kind: rss-item
+    published_at: 2026-08-23
+    first_seen: 2026-08-23
+    status: pending
+  - url: https://fontsinuse.com/uses/78661/head-to-toes-and-ten-in-the-bed-by-zita-newco
+    title: Head to Toes and Ten in the Bed by Zita Newcome
+    source: rss:fontsinuse.com/main.rss
+    kind: rss-item
+    published_at: 2026-08-23
+    first_seen: 2026-08-23
+    status: pending
+  - url: https://fontsinuse.com/uses/79402/eddsworld-web-cartoon
+    title: Eddsworld web cartoon
+    source: rss:fontsinuse.com/main.rss
+    kind: rss-item
+    published_at: 2026-08-23
+    first_seen: 2026-08-23
+    status: pending
+  - url: https://fontsinuse.com/uses/78540/blooket-logo
+    title: Blooket logo
+    source: rss:fontsinuse.com/main.rss
+    kind: rss-item
+    published_at: 2026-08-23
+    first_seen: 2026-08-23
+    status: pending
+  - url: https://fontsinuse.com/uses/79345/the-gay-alternative-number-5
+    title: The Gay Alternative, number 5
+    source: rss:fontsinuse.com/main.rss
+    kind: rss-item
+    published_at: 2026-08-22
+    first_seen: 2026-08-23
+    status: pending
+  - url: https://fontsinuse.com/uses/76547/teresa-graves-teresa-graves-album-art-1
+    title: Teresa Graves – Teresa Graves album art
+    source: rss:fontsinuse.com/main.rss
+    kind: rss-item
+    published_at: 2026-08-22
+    first_seen: 2026-08-23
+    status: pending
+  - url: https://fontsinuse.com/uses/79381/spyro-gyra-spyro-gyra-album-art
+    title: Spyro Gyra – Spyro Gyra album art
+    source: rss:fontsinuse.com/main.rss
+    kind: rss-item
+    published_at: 2026-08-22
+    first_seen: 2026-08-23
+    status: pending
+  - url: https://fontsinuse.com/uses/79229/psychic-killer-title-card
+    title: Psychic Killer title card
+    source: rss:fontsinuse.com/main.rss
+    kind: rss-item
+    published_at: 2026-08-22
+    first_seen: 2026-08-23
+    status: pending
+  - url: https://fontsinuse.com/uses/79105/beach-house-depression-cherry-album-art
+    title: Beach House – Depression Cherry album art
+    source: rss:fontsinuse.com/main.rss
+    kind: rss-item
+    published_at: 2026-08-22
+    first_seen: 2026-08-23
+    status: pending
+  - url: https://fontsinuse.com/uses/79393/metric-synthetica-album-art
+    title: Metric – Synthetica album art
+    source: rss:fontsinuse.com/main.rss
+    kind: rss-item
+    published_at: 2026-08-22
+    first_seen: 2026-08-23
+    status: pending
+  - url: https://fontsinuse.com/uses/79619/la-revolucion-de-emiliano-zapata-nasty-sex-ci
+    title: La Revolución de Emiliano Zapata – “Nasty Sex” / “Ciudad Perdida” Spanish
+      single cover
+    source: rss:fontsinuse.com/main.rss
+    kind: rss-item
+    published_at: 2026-08-22
+    first_seen: 2026-08-23
+    status: pending
+  - url: https://fontsinuse.com/uses/79593/cnc-systems-roseville
+    title: CNC Systems, Roseville
+    source: rss:fontsinuse.com/main.rss
+    kind: rss-item
+    published_at: 2026-08-22
+    first_seen: 2026-08-23
+    status: pending
+  - url: https://fontsinuse.com/uses/79209/edna-tacon-by-renee-van-der-avoird
+    title: Edna Taçon by Renée van der Avoird
+    source: rss:fontsinuse.com/main.rss
+    kind: rss-item
+    published_at: 2026-08-21
+    first_seen: 2026-08-23
+    status: pending
+  - url: https://fontsinuse.com/uses/79222/pauline-deltour-une-apparente-simplicite
+    title: Pauline Deltour, une apparente simplicité
+    source: rss:fontsinuse.com/main.rss
+    kind: rss-item
+    published_at: 2026-08-21
+    first_seen: 2026-08-23
+    status: pending

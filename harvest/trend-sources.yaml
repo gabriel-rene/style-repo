@@ -1,0 +1,16 @@
+# Sources for the trend-candidate collector (scripts/trends/collect-candidates.js).
+#
+# The collector only GATHERS candidates into trends/queue.yaml.
+# It never creates terms, never publishes, never decides anything.
+#
+# arena_channels: public Are.na channel slugs to poll.
+#   Which channels to watch is a curation decision — yours, not the script's.
+#   The list ships empty. Add slugs like:
+#     - graphic-design-tumzsdjhbju
+#   (the slug is the last path segment of the channel URL on are.na)
+arena_channels: []
+
+# fontsinuse_feeds: RSS feeds from fontsinuse.com. main.rss is the site-wide
+# firehose of new contributions — generic, so it is on by default.
+fontsinuse_feeds:
+  - https://fontsinuse.com/main.rss

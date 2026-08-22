@@ -135,3 +135,30 @@
   warnings (a draft is allowed to be incomplete). Image rights fields and
   provenance policy stay hard errors everywhere — incompleteness is a state,
   unlicensed imagery is a violation.
+
+## Phase 5 — trend pipeline
+
+- **The collector gathers; the user decides.** collect-candidates.js only
+  appends `status: pending` entries to trends/queue.yaml. It never creates a
+  term, never touches content/, never auto-publishes. Triage = the user edits
+  status to `dismissed` or `accepted:<term-id>`.
+
+- **queue.yaml is user-owned; the collector is append-only.** Existing
+  entries are never modified, and a URL already present (any status,
+  including dismissed) is never re-added — so a dismissal is permanent
+  without a separate tombstone file.
+
+- **Trend feeds are NOT cached.** Unlike the museum harvesters, freshness is
+  the whole point; a stale feed defeats it. Politeness is 1 req/s pacing
+  instead. A failed source is skipped with an error; the queue is untouched.
+
+- **Are.na channel list ships empty.** Which channels signal trends is a
+  curation judgment. harvest/trend-sources.yaml documents how to add slugs.
+  fontsinuse.com/main.rss is on by default because it is the site-wide
+  contributions firehose, not a topical pick. (Feed URL read from the site's
+  own <link rel="alternate"> tags; /rss and /feed 500.)
+
+- **review-due.js reports, exits 1 on overdue, changes nothing.** Terms in
+  emerging/peaking/saturated states claim to describe live phenomena;
+  review_due is when that claim expires. Missing date = "NO DATE" flag.
+  Updating state/dates stays a human edit with provenance.

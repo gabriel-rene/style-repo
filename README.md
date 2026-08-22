@@ -28,6 +28,14 @@ node --no-warnings scripts/harvest/commons-images.js # open-license images (loca
 node --no-warnings scripts/harvest/vam-images.js     # V&A objects (restricted, hotlinked)
 node --no-warnings scripts/harvest/moma-images.js    # MoMA objects (restricted, hotlinked)
 node --no-warnings scripts/coverage-report.js        # → harvest/COVERAGE.md
+
+# research ingest
+node --no-warnings scripts/ingest-research.js        # research/inbox → content/drafts
+                                                     # (format: research/FORMAT.md)
+
+# trends (no caching — feeds are polled fresh)
+node --no-warnings scripts/trends/collect-candidates.js  # feeds → trends/queue.yaml
+node --no-warnings scripts/trends/review-due.js          # list overdue lifecycle reviews
 ```
 
 ## Your review queue
@@ -39,8 +47,16 @@ node --no-warnings scripts/coverage-report.js        # → harvest/COVERAGE.md
 - `harvest/aat-hierarchy.yaml`, `harvest/wd-relations.yaml` — cross-vocabulary
   relations awaiting your mapping decisions.
 - Cooper Hewitt and Rijksmuseum harvesters need API keys from you.
+- `CONFLICTS.md` (when it exists) — research-note claims that disagree with
+  existing data; each block needs your decision.
+- `trends/queue.yaml` — pending trend candidates; mark each `dismissed` or
+  `accepted:<term-id>`.
+- `harvest/trend-sources.yaml` — `arena_channels` is empty; add the Are.na
+  channel slugs you want watched.
+- `scripts/trends/review-due.js` output — tracked lifecycle states
+  (emerging/peaking/saturated) that are overdue or missing a review date.
 
-Status: Phase 3 harvesting done (Commons/V&A/MoMA + Getty/Wikidata).
+Status: Phases 3–5 done (harvesting, research ingest, trend pipeline).
 
 Hard rules:
 1. No date, attribution, origin claim, or practitioner name is ever written
