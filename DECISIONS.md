@@ -110,3 +110,28 @@
   writes harvest/COVERAGE.md (per-term counts, gap lists, open-license
   coverage bucketed by origin-period era). "Era unknown" is itself reported
   as a harvest gap rather than being guessed.
+
+## Phase 4 — research ingest
+
+- **Notes are structured markdown, not free prose.** research/FORMAT.md
+  defines `## era`, `## geography`, `## lineage`, `## practitioners`,
+  `## variants`, `## summary`, `## notes` sections with strict bullet
+  grammars. A note that doesn't parse is rejected loudly and left in the
+  inbox — the parser never guesses at intent. `term` + `source` frontmatter
+  are mandatory so every ingested fact has a citation.
+
+- **Drafts only, and drafts may shadow published terms.** Ingest writes to
+  content/drafts/<id>.yaml even when content/<id>.yaml exists; promotion to
+  /content is always a manual git mv by the user. New facts about a published
+  term accumulate in its draft overlay for review.
+
+- **Conflict = existing non-empty value ≠ incoming value.** Both claims,
+  both sources, and the date go to CONFLICTS.md; the existing value is kept
+  untouched. Identical values are skipped silently (agreement isn't a
+  conflict). This is the "never silently pick one" rule made executable.
+
+- **Validator is draft-tolerant but never rights-tolerant.** In drafts,
+  missing term_type/names.primary and unknown lineage targets degrade to
+  warnings (a draft is allowed to be incomplete). Image rights fields and
+  provenance policy stay hard errors everywhere — incompleteness is a state,
+  unlicensed imagery is a violation.

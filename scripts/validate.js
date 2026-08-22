@@ -84,7 +84,9 @@ for (const { file, stem, doc, isDraft } of all) {
     if (!/^[a-z0-9]+(-[a-z0-9]+)*$/.test(doc.id)) err(file, `id "${doc.id}" is not kebab-case`);
     if (doc.id !== stem) err(file, `id "${doc.id}" does not match filename stem "${stem}"`);
   }
-  checkEnum(file, doc.term_type, TERM_TYPES, 'term_type', { nullable: false });
+  // drafts may not know their term_type yet — warn instead of fail
+  checkEnum(file, doc.term_type, TERM_TYPES, 'term_type', { nullable: isDraft });
+  if (isDraft && doc.term_type === null) warn(file, 'term_type still null (fine for a draft)');
   if (doc.secondary_types !== undefined) {
     if (!isArr(doc.secondary_types)) err(file, 'secondary_types must be a list');
     else for (const t of doc.secondary_types) checkEnum(file, t, TERM_TYPES, 'secondary_types entry');
@@ -92,7 +94,10 @@ for (const { file, stem, doc, isDraft } of all) {
   checkEnum(file, doc.status, STATUSES, 'status', { nullable: false });
   if (isDraft && doc.status === 'published') err(file, 'a draft cannot have status published');
 
-  if (!isObj(doc.names) || !isStr(doc.names.primary)) err(file, 'names.primary is required');
+  if (!isObj(doc.names) || !isStr(doc.names.primary)) {
+    if (isDraft) warn(file, 'names.primary still null (required before promotion)');
+    else err(file, 'names.primary is required');
+  }
 
   const isProduction = PRODUCTION_TYPES.includes(doc.term_type);
   const facets = doc.facets;
@@ -122,7 +127,11 @@ for (const { file, stem, doc, isDraft } of all) {
       if (!isArr(lin[key])) { err(file, `facets.lineage.${key} must be a list`); continue; }
       for (const ref of lin[key]) {
         if (!isStr(ref)) err(file, `facets.lineage.${key} entries must be term-id strings`);
-        else if (!idSet.has(ref)) err(file, `facets.lineage.${key} references unknown term "${ref}"`);
+        else if (!idSet.has(ref)) {
+          // drafts may reference terms that don't exist yet; ingest flags them in todo
+          if (isDraft) warn(file, `facets.lineage.${key} references unknown term "${ref}"`);
+          else err(file, `facets.lineage.${key} references unknown term "${ref}"`);
+        }
         else if (ref === doc.id) err(file, `facets.lineage.${key} references itself`);
       }
     }
@@ -158,7 +167,7 @@ for (const { file, stem, doc, isDraft } of all) {
     if (facets.formal_consequences !== undefined) {
       err(file, `only apparatus/technique entries take formal_consequences`);
     }
-    if (facets.formal_properties !== undefined) {
+    if (facets.formal_properties !== undefined && facets.formal_properties !== null) {
       checkFormalBlock(file, facets.formal_properties, 'formal_properties');
     }
     checkEnum(file, facets.ideological_stance, ENUMS.ideological_stance, 'ideological_stance');
