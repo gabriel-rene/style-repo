@@ -1,0 +1,70 @@
+id: bauhaus
+term_type: movement
+secondary_types: [style]   # movement that was also a school; hybrid via secondary_types
+status: stub
+names:
+  primary: Bauhaus
+  variants: []             # TODO: harvest
+summary: null              # TODO: source or author
+external_ids:
+  getty_aat: null          # TODO: harvest
+  wikidata: null           # TODO: harvest
+
+facets:
+  era:
+    periods: []            # TODO: harvest (origin span; influence continues)
+  geography:
+    origin_places: []      # TODO: harvest
+    spread: []
+  lineage:
+    parents: []            # TODO: harvest from AAT hierarchy
+    influences: []         # TODO: harvest
+    influenced: []
+    reacted_against: []
+    revival_of: []
+  production:
+    apparatus: []
+    techniques: []         # TODO: harvest/author
+  formal_properties:       # editorial, unreviewed — structural demo only
+    grid_discipline: strict
+    palette_logic: {descriptor: primary, note: null}
+    contrast: high
+    texture: flat
+    hierarchy: strict
+    ornament_level: none
+  ideological_stance: strongly-rationalist   # editorial, unreviewed
+  commercial_context:
+    contexts: []           # TODO
+  revival:
+    status: null           # TODO
+    revivals: []
+  lifecycle:
+    state: historical
+    first_observed: null
+    review_due: null
+  practitioners:           # HARVEST-ONLY (Wikidata, Phase 3)
+    people: []
+    studios: []
+
+images: []                 # TODO: harvest with full rights fields
+
+todo:
+  - names.variants
+  - summary
+  - external_ids.getty_aat
+  - external_ids.wikidata
+  - facets.era.periods
+  - facets.geography.origin_places
+  - facets.lineage
+  - facets.commercial_context
+  - facets.revival
+  - facets.practitioners
+  - images
+
+provenance:
+  facets.formal_properties:
+    - {source: editorial, reviewed: false}
+  facets.ideological_stance:
+    - {source: editorial, reviewed: false}
+  facets.lifecycle.state:
+    - {source: editorial, reviewed: false}

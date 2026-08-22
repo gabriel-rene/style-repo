@@ -1,0 +1,69 @@
+id: art-deco
+term_type: style
+status: stub
+names:
+  primary: Art Deco
+  variants: []             # TODO: harvest
+summary: null              # TODO
+external_ids:
+  getty_aat: null          # TODO
+  wikidata: null           # TODO
+
+facets:
+  era:
+    periods: []            # TODO: harvest
+  geography:
+    origin_places: []      # TODO: harvest
+    spread: []             # TODO — spread is broad; harvest
+  lineage:
+    parents: []            # TODO
+    influences: []
+    influenced: []
+    reacted_against: []
+    revival_of: []
+  production:
+    apparatus: []
+    techniques: []         # TODO
+  formal_properties:       # editorial, unreviewed
+    grid_discipline: moderate
+    palette_logic: {descriptor: restricted, note: "metallics and saturated accents"}
+    contrast: high
+    texture: subtle
+    hierarchy: strict
+    ornament_level: high
+  ideological_stance: mixed   # editorial, unreviewed — geometric order + luxury ornament
+  commercial_context:
+    contexts: [advertising, architecture, poster, product]   # editorial, unreviewed
+  revival:
+    status: null           # TODO — revivals exist; harvest claims
+    revivals: []
+  lifecycle:
+    state: historical
+    first_observed: null
+    review_due: null
+  practitioners:
+    people: []             # HARVEST-ONLY
+    studios: []
+
+images: []
+
+todo:
+  - names.variants
+  - summary
+  - external_ids
+  - facets.era.periods
+  - facets.geography
+  - facets.lineage
+  - facets.revival
+  - facets.practitioners
+  - images
+
+provenance:
+  facets.formal_properties:
+    - {source: editorial, reviewed: false}
+  facets.ideological_stance:
+    - {source: editorial, reviewed: false}
+  facets.commercial_context:
+    - {source: editorial, reviewed: false}
+  facets.lifecycle.state:
+    - {source: editorial, reviewed: false}

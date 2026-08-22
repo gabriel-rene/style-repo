@@ -1,0 +1,65 @@
+id: risograph
+term_type: apparatus       # THE KEY TEST — a machine, not a style peer.
+                           # Styles reference it via production.apparatus;
+                           # the build index computes the reverse link.
+status: stub
+names:
+  primary: Risograph
+  variants: []             # TODO: harvest (short forms, brand vs generic)
+summary: null              # TODO
+external_ids:
+  getty_aat: null          # TODO
+  wikidata: null           # TODO
+
+facets:
+  era:
+    periods: []            # TODO: harvest (introduction date, design-scene adoption)
+  geography:
+    origin_places: []      # TODO: harvest
+    spread: []
+  lineage:
+    parents: []            # TODO: harvest (related duplicator/print lineage)
+    influences: []
+    influenced: []
+    reacted_against: []
+    revival_of: []
+  # No formal_properties, no ideological_stance — apparatus entries don't get them.
+  formal_consequences:     # what the machine imposes on output; editorial, unreviewed
+    grid_discipline: not-applicable
+    palette_logic: {descriptor: restricted, note: "limited spot-ink layers per pass; overprint mixing"}
+    contrast: medium
+    texture: pronounced    # visible grain, misregistration between layers
+    hierarchy: not-applicable
+    ornament_level: not-applicable
+  commercial_context:
+    contexts: [self-published, poster]   # editorial, unreviewed
+  revival:
+    status: null           # TODO — utilitarian-to-artistic adoption arc; harvest
+    revivals: []
+  lifecycle:
+    state: null            # TODO
+    first_observed: null
+    review_due: null
+  practitioners:
+    people: []             # HARVEST-ONLY (notable presses/studios)
+    studios: []
+
+images: []
+
+todo:
+  - names.variants
+  - summary
+  - external_ids
+  - facets.era.periods
+  - facets.geography
+  - facets.lineage
+  - facets.revival
+  - facets.lifecycle
+  - facets.practitioners
+  - images
+
+provenance:
+  facets.formal_consequences:
+    - {source: editorial, reviewed: false}
+  facets.commercial_context:
+    - {source: editorial, reviewed: false}

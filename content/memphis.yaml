@@ -1,0 +1,71 @@
+id: memphis
+term_type: movement          # entry models the style; the collective itself is
+                             # metadata (membership harvested in Phase 3)
+secondary_types: [style]
+status: stub
+names:
+  primary: Memphis
+  variants: []               # TODO: harvest (group name form, alternates)
+summary: null                # TODO
+external_ids:
+  getty_aat: null            # TODO
+  wikidata: null             # TODO
+
+facets:
+  era:
+    periods: []              # TODO: harvest
+  geography:
+    origin_places: []        # TODO: harvest
+    spread: []
+  lineage:
+    parents: []              # TODO
+    influences: []           # TODO
+    influenced: []
+    reacted_against: []      # TODO: harvest — reaction relations are factual claims
+    revival_of: []
+  production:
+    apparatus: []
+    techniques: []
+  formal_properties:         # editorial, unreviewed
+    grid_discipline: broken
+    palette_logic: {descriptor: full-spectrum, note: "clashing combinations as a strategy"}
+    contrast: high
+    texture: pronounced
+    hierarchy: chaotic
+    ornament_level: maximal
+  ideological_stance: strongly-expressive   # editorial, unreviewed
+  commercial_context:
+    contexts: [product, fashion]            # editorial, unreviewed
+  revival:
+    status: null             # TODO
+    revivals: []
+  lifecycle:
+    state: historical
+    first_observed: null
+    review_due: null
+  practitioners:
+    people: []               # HARVEST-ONLY
+    studios: []
+
+images: []
+
+todo:
+  - names.variants
+  - summary
+  - external_ids
+  - facets.era.periods
+  - facets.geography
+  - facets.lineage
+  - facets.revival
+  - facets.practitioners
+  - images
+
+provenance:
+  facets.formal_properties:
+    - {source: editorial, reviewed: false}
+  facets.ideological_stance:
+    - {source: editorial, reviewed: false}
+  facets.commercial_context:
+    - {source: editorial, reviewed: false}
+  facets.lifecycle.state:
+    - {source: editorial, reviewed: false}

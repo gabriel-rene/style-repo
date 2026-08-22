@@ -1,0 +1,73 @@
+id: frutiger-aero
+term_type: aesthetic       # retrospectively-named internet aesthetic
+status: stub
+names:
+  primary: Frutiger Aero
+  variants: []             # TODO: harvest
+summary: null              # TODO
+external_ids:
+  getty_aat: null          # likely absent from AAT — record null result
+  wikidata: null           # TODO
+
+facets:
+  era:
+    # Needs TWO period roles: the original design-era it names, and the
+    # revival/nostalgia period when the label was coined. Both TODO: harvest.
+    periods: []
+  geography:
+    origin_places: []      # TODO
+    spread: []
+  lineage:
+    parents: []            # TODO
+    influences: []
+    influenced: []
+    reacted_against: []
+    revival_of: []         # NOTE: candidate for revival_of pointing at the
+                           # original corporate style — a factual claim; harvest
+  production:
+    apparatus: []
+    techniques: []
+  formal_properties:       # editorial, unreviewed
+    grid_discipline: moderate
+    palette_logic: {descriptor: full-spectrum, note: "glossy blues/greens, skeuomorphic light"}
+    contrast: medium
+    texture: pronounced
+    hierarchy: moderate
+    ornament_level: high
+  ideological_stance: mixed   # editorial, unreviewed — corporate optimism aesthetic
+  commercial_context:
+    contexts: [corporate-identity, web-ui, advertising]   # editorial, unreviewed
+  revival:
+    status: null           # TODO — the label itself is a revival phenomenon
+    revivals: []
+  lifecycle:               # aesthetic ⇒ lifecycle required
+    state: revived         # editorial, unreviewed — needs your call
+    first_observed: null   # TODO
+    review_due: null       # TODO: you set
+  practitioners:
+    people: []             # HARVEST-ONLY
+    studios: []
+
+images: []
+
+todo:
+  - names.variants
+  - summary
+  - external_ids
+  - facets.era.periods
+  - facets.lineage
+  - facets.revival
+  - facets.lifecycle.first_observed
+  - facets.lifecycle.review_due
+  - facets.practitioners
+  - images
+
+provenance:
+  facets.formal_properties:
+    - {source: editorial, reviewed: false}
+  facets.ideological_stance:
+    - {source: editorial, reviewed: false}
+  facets.commercial_context:
+    - {source: editorial, reviewed: false}
+  facets.lifecycle.state:
+    - {source: editorial, reviewed: false}
