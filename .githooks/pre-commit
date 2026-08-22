@@ -1,0 +1,13 @@
+#!/bin/sh
+# Block commits when /content fails validation.
+# Installed via: git config core.hooksPath .githooks  (run scripts/setup.sh)
+set -e
+
+if git diff --cached --name-only | grep -qE '^(content/|schema/|scripts/)'; then
+  echo "pre-commit: validating content..."
+  node scripts/validate.js || {
+    echo ""
+    echo "pre-commit: BLOCKED — fix validation errors above, then retry."
+    exit 1
+  }
+fi

@@ -1,0 +1,19 @@
+{
+  "name": "style-repo",
+  "version": "1.0.0",
+  "description": "A browsable encyclopedia of graphic design, illustration, and typographic styles. Facet navigation, historical context, reference imagery.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "validate": "node scripts/validate.js",
+    "build:index": "node --no-warnings scripts/build-index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "private": "true",
+  "dependencies": {
+    "yaml": "^2.9.0"
+  }
+}
