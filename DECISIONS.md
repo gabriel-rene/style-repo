@@ -162,3 +162,53 @@
   emerging/peaking/saturated states claim to describe live phenomena;
   review_due is when that claim expires. Missing date = "NO DATE" flag.
   Updating state/dates stays a human edit with provenance.
+
+## Phase 6 — static site (Astro)
+
+- **YAML is read directly at build time; the SQLite index is not a site
+  dependency.** site/src/lib/data.js re-derives the same views build-index.js
+  does (inverse relations, facet values, era spans) from content/*.yaml, so
+  `astro build` needs nothing but the repo checkout. One source of truth,
+  two disposable consumers.
+
+- **Repo root found by walking up from cwd, not import.meta.url.** Astro
+  bundles lib code into dist/, which breaks URL-relative paths. data.js walks
+  up until it sees content/ + schema/.
+
+- **Empty state is the signature design element.** Dashed "TODO" slots render
+  wherever a fact is missing (summary, era, connections, images). The corpus
+  is 10 stubs with 2 dated periods; the site shows that honestly instead of
+  faking density. Timeline splits into a dated chart (2 terms) and a "not
+  dated yet" list (8).
+
+- **Provenance renders from the top-level per-path map** (e.g.
+  `provenance["facets.era.periods"]`), the shape the harvesters write — not
+  from per-item fields. Era rows link their source; editorial facet blocks
+  get an "Editorial reading, not yet reviewed" note. Computed reverse links
+  are marked with * and explained.
+
+- **Images: open → local file via symlink site/public/assets → ../../assets
+  (no copies); restricted → hotlink remote_image only.** Matches the rights
+  model: restricted items are never stored in the repo or the build. Every
+  figure shows attribution, license, and source link.
+
+- **"Embeddings" v1 = offline hashed TF-IDF (256-dim), committed as
+  site/src/data/embeddings.json.** No API key, deterministic, rebuilt by
+  `npm run build` in site/. Good enough for "reads like" chips over 10 stubs;
+  the JSON contract survives a swap to a real model later. The UI labels it
+  text similarity, "not a historical claim".
+
+- **Facet composition is one small inline script** (AND across dimensions,
+  OR within one), filtering server-rendered cards by data attributes. No
+  framework island; the whole page still works as a plain list without JS.
+
+- **Design tokens:** Archivo Variable (self-hosted) + system mono for data;
+  paper #f7f7f4 / ink #1c1c1a, dark scheme via prefers-color-scheme; single
+  accent #0078bf (riso spot-ink blue — grounded in print vocabulary, avoids
+  the AI-default cream/terracotta and acid-green looks); radius 0 throughout;
+  1px-gap card grid reads as a specimen sheet.
+
+- **Trending page mirrors the pipeline's restraint.** It shows tracked
+  lifecycle states with their review flags (acid-graphics renders its "no
+  date" warning) and the pending queue read-only, stating that triage
+  happens in trends/queue.yaml, not in the UI.

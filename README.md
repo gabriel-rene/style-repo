@@ -10,6 +10,7 @@ styles. Facet navigation, historical context, reference imagery.
 - `/harvest` — harvest state: mappings.yaml (id review queue), query
   overrides, relation reports, COVERAGE.md.
 - `/assets` — downloaded open-license images (committed).
+- `/site` — Astro static site (browse UI). `site/dist` is gitignored.
 - `/cache` — raw API responses (gitignored, disposable).
 - `DECISIONS.md` — log of non-obvious choices.
 
@@ -36,6 +37,11 @@ node --no-warnings scripts/ingest-research.js        # research/inbox → conten
 # trends (no caching — feeds are polled fresh)
 node --no-warnings scripts/trends/collect-candidates.js  # feeds → trends/queue.yaml
 node --no-warnings scripts/trends/review-due.js          # list overdue lifecycle reviews
+
+# site (Astro, static; reads content/*.yaml directly at build time)
+cd site && npm install    # once
+npm run dev               # live preview at localhost:4321
+npm run build             # rebuilds embeddings.json, then site/dist/
 ```
 
 ## Your review queue
@@ -57,6 +63,8 @@ node --no-warnings scripts/trends/review-due.js          # list overdue lifecycl
   (emerging/peaking/saturated) that are overdue or missing a review date.
 
 Status: Phases 3–5 done (harvesting, research ingest, trend pipeline).
+Phase 6 site in `/site`: index, per-term pages, timeline, facet composition,
+trending. Missing facts render as visible TODO slots, never invented.
 
 Hard rules:
 1. No date, attribution, origin claim, or practitioner name is ever written
