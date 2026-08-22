@@ -1,0 +1,165 @@
+---
+import Base from '../../layouts/Base.astro';
+import { loadAll, relationsFor, imageSrc, eraSpan, related } from '../../lib/data.js';
+
+export function getStaticPaths() {
+  return loadAll().terms.map((t) => ({ params: { id: t.id }, props: { term: t } }));
+}
+
+const { term } = Astro.props;
+const { byId } = loadAll();
+const rels = relationsFor(term.id);
+const span = eraSpan(term);
+const formal = term.facets?.formal_properties ?? term.facets?.formal_consequences ?? null;
+const formalLabel = term.facets?.formal_properties ? 'Formal properties' : 'Formal consequences';
+const lc = term.facets?.lifecycle ?? null;
+const near = related(term.id)
+  .map((r) => ({ ...r, term: byId.get(r.id) }))
+  .filter((r) => r.term);
+
+const REL_LABEL = {
+  parents: 'descends from',
+  parent_of: 'ancestor of',
+  influences: 'influences',
+  influenced: 'influenced by',
+  reacted_against: 'reacted against',
+  reacted_against_by: 'reacted against by',
+  revival_of: 'revival of',
+  revived_by: 'revived by',
+  uses_apparatus: 'uses apparatus',
+  apparatus_used_by: 'apparatus used by',
+  uses_technique: 'uses technique',
+  technique_used_by: 'technique used by',
+};
+
+const name = (id) => byId.get(id)?.names?.primary ?? id;
+
+// Provenance is a top-level map keyed by dotted field path.
+const prov = (path) => term.provenance?.[path] ?? [];
+const eraProv = prov('facets.era.periods').filter((p) => p.url);
+const formalProv = prov(term.facets?.formal_properties ? 'facets.formal_properties' : 'facets.formal_consequences');
+const formalEditorial = formalProv.some((p) => p.source === 'editorial' && p.reviewed === false);
+---
+<Base title={term.names?.primary ?? term.id} current="">
+  <div class="term-head">
+    <h1>{term.names?.primary ?? term.id}</h1>
+    <span class="chip">{term.term_type}</span>
+    {(term.secondary_types ?? []).map((s) => <span class="chip">{s}</span>)}
+    <span class="chip">{term.status}</span>
+    {lc?.state && <span class="chip accent">lifecycle: {lc.state}</span>}
+  </div>
+
+  <div class="term-cols">
+    <div>
+      <section>
+        {term.summary
+          ? <p>{term.summary}</p>
+          : <p><span class="todo-slot">summary TODO: not yet harvested or authored</span></p>}
+      </section>
+
+      <section>
+        <h2>Era</h2>
+        {span ? (
+          <table>
+            <thead><tr><th>Label</th><th>Role</th><th>Years</th><th>Source</th></tr></thead>
+            <tbody>
+              {span.periods.map((p) => (
+                <tr>
+                  <td>{p.label}</td>
+                  <td class="value">{p.role ?? ''}</td>
+                  <td class="value">{p.start_year ?? '?'}{'-'}{p.end_year ?? ''}</td>
+                  <td class="value">
+                    {eraProv.length
+                      ? eraProv.map((s) => (
+                          <a href={s.url}>{s.source}{s.property ? ` ${s.property}` : ''}, accessed {s.accessed}</a>
+                        ))
+                      : <span class="todo-slot">no source recorded</span>}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        ) : (
+          <p><span class="todo-slot">no dated period yet. A sourced date must be harvested first.</span></p>
+        )}
+      </section>
+
+      <section>
+        <h2>Connections</h2>
+        {Object.keys(rels).length ? (
+          <table>
+            <tbody>
+              {Object.entries(rels).map(([rel, rows]) => (
+                <tr>
+                  <th>{REL_LABEL[rel] ?? rel}</th>
+                  <td>
+                    {rows.map((r) => (
+                      <a class="chip" href={`/term/${r.to}/`}>
+                        {name(r.to)}{r.inferred ? ' *' : ''}
+                      </a>
+                    ))}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        ) : (
+          <p><span class="todo-slot">no recorded connections yet</span></p>
+        )}
+        <p class="meta">Links with * are computed reverse links, not stored claims.</p>
+      </section>
+
+      {near.length > 0 && (
+        <section>
+          <h2>Reads like</h2>
+          <p class="meta">Nearest terms by text similarity of what is on file. Not a historical claim.</p>
+          <p>{near.map((r) => <a class="chip" href={`/term/${r.id}/`}>{name(r.id)}</a>)}</p>
+        </section>
+      )}
+    </div>
+
+    <div>
+      {formal && (
+        <section>
+          <h2>{formalLabel}</h2>
+          {formalEditorial && <p class="meta">Editorial reading, not yet reviewed.</p>}
+          <table>
+            <tbody>
+              {Object.entries(formal).map(([k, v]) => (
+                <tr>
+                  <th>{k.replaceAll('_', ' ')}</th>
+                  <td class="value">{typeof v === 'object' && v ? `${v.descriptor}${v.note ? ` (${v.note})` : ''}` : String(v)}</td>
+                </tr>
+              ))}
+              {term.facets?.ideological_stance && (
+                <tr><th>stance</th><td class="value">{term.facets.ideological_stance}</td></tr>
+              )}
+            </tbody>
+          </table>
+        </section>
+      )}
+
+      <section>
+        <h2>Images</h2>
+        {(term.images ?? []).length ? (
+          term.images.map((img) => {
+            const src = imageSrc(img);
+            return src ? (
+              <figure>
+                <img src={src} alt={img.caption ?? term.names?.primary ?? term.id} loading="lazy" />
+                <figcaption>
+                  {img.caption && <span>{img.caption}. </span>}
+                  {img.attribution}. {img.license}.
+                  {' '}<a href={img.source_url}>source</a>
+                  {img.rights_status === 'restricted' && <span> · shown from the source, not stored here</span>}
+                </figcaption>
+              </figure>
+            ) : null;
+          })
+        ) : (
+          <p><span class="todo-slot">no images harvested yet</span></p>
+        )}
+      </section>
+    </div>
+  </div>
+</Base>

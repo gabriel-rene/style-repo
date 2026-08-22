@@ -1,0 +1,43 @@
+---
+import '@fontsource-variable/archivo';
+import '../styles/global.css';
+
+const { title, current = '' } = Astro.props;
+const nav = [
+  ['/', 'index', 'index'],
+  ['/timeline/', 'timeline', 'timeline'],
+  ['/facets/', 'facets', 'facets'],
+  ['/trending/', 'trending', 'trending'],
+];
+---
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>{title ? `${title} | Style Index` : 'Style Index'}</title>
+    <meta name="description" content="A browsable reference library of graphic design, illustration, and typographic styles." />
+  </head>
+  <body>
+    <header class="site-head">
+      <div class="wrap">
+        <a class="site-name" href="/">Style Index</a>
+        <nav class="site-nav" aria-label="Main">
+          {nav.map(([href, label, key]) => (
+            <a href={href} aria-current={current === key ? 'page' : undefined}>{label}</a>
+          ))}
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="wrap">
+        <slot />
+      </div>
+    </main>
+    <footer class="site-foot">
+      <div class="wrap">
+        Every date and claim on this site is either harvested with a source, or shown as an open TODO. Blanks are honest.
+      </div>
+    </footer>
+  </body>
+</html>

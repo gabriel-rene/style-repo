@@ -1,0 +1,24 @@
+---
+import { thumb, eraSpan } from '../lib/data.js';
+
+const { term } = Astro.props;
+const t = thumb(term);
+const span = eraSpan(term);
+const era = span
+  ? `${span.start ?? '?'}-${span.end ?? ''}`
+  : null;
+---
+<a class="card" href={`/term/${term.id}/`}>
+  {t ? (
+    <div class="card-img">
+      <img src={t.src} alt={t.img.caption ?? term.names?.primary ?? term.id} loading="lazy" />
+    </div>
+  ) : (
+    <div class="card-img empty">no image yet</div>
+  )}
+  <span class="card-name">{term.names?.primary ?? term.id}</span>
+  <span class="card-meta meta">
+    <span>{term.term_type}</span>
+    {era ? <span>{era}</span> : <span class="todo-slot">era TODO</span>}
+  </span>
+</a>

@@ -1,0 +1,17 @@
+---
+import Base from '../layouts/Base.astro';
+import TermCard from '../components/TermCard.astro';
+import { loadAll } from '../lib/data.js';
+
+const { terms } = loadAll();
+const stubs = terms.filter((t) => t.status === 'stub').length;
+---
+<Base current="index">
+  <h1>Style Index</h1>
+  <p class="meta">
+    {terms.length} terms. {stubs} are stubs waiting for harvested facts.
+  </p>
+  <div class="grid">
+    {terms.map((t) => <TermCard term={t} />)}
+  </div>
+</Base>
