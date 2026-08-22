@@ -34,5 +34,38 @@
 - **Bauhaus-style hybrids use `secondary_types`.** A movement that was also a
   school stays one entry; the hybrid nature is recorded, not split.
 
+## 2026-08-23 — Phase 2
+
+- **Node's built-in `node:sqlite` instead of better-sqlite3.** Node v22.22 ships
+  SQLite 3.51 with FTS5 compiled in. Zero native-build dependency; the module is
+  marked experimental, so build scripts run with `--no-warnings`. If the API
+  shifts on a Node upgrade, swapping to better-sqlite3 is a small mechanical change.
+
+- **Only runtime dependency is `yaml`.** No validation framework (ajv etc.) —
+  the rules are mostly cross-field and provenance-shaped, which JSON Schema
+  handles poorly. Hand-rolled validator in `scripts/validate.js`, constants
+  shared with the index builder via `scripts/lib/schema.js`.
+
+- **Validator enforces provenance policy, not just shape.** Harvest-only fields
+  (era periods, geography, lineage, practitioners) that contain data but lack a
+  non-editorial source entry are an error. `source: editorial` outside the
+  allowed interpretive fields is an error. Published entries with unreviewed
+  editorial fields are an error. This is hard rule 1 made executable.
+
+- **`source: user` is a valid provenance source, no URL required.** For facts
+  the user personally asserts (e.g. review-due dates, revival notes). The model
+  never writes it; only the user does.
+
+- **Lifecycle date requirements skip stubs.** `emerging/peaking/saturated`
+  require first_observed + review_due, but only once status is draft/published —
+  otherwise stubs couldn't exist before Phase 5 tooling fills dates.
+
+- **Index computes inverse relations** (influenced_by ↔ influences,
+  apparatus_used_by, children) with an `inferred` flag, so YAML stores each
+  relation once and the UI can still navigate both directions.
+
+- **Hook via `core.hooksPath .githooks`**, not a copied `.git/hooks` file, so
+  the hook itself is version-controlled. `scripts/setup.sh` wires it on clone.
+
 - **Repo initialized as git even though Phase 1 is a proposal.** Commits are
   labeled as proposal; nothing is final until user approval per hard rule 3.
