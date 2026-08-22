@@ -1,0 +1,16 @@
+{
+  "name": "style-repo-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "embeddings": "node scripts/build-embeddings.js",
+    "build": "node scripts/build-embeddings.js && astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@fontsource-variable/archivo": "^5.3.0",
+    "astro": "^7.2.4",
+    "yaml": "^2.9.0"
+  }
+}
