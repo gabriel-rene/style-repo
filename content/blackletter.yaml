@@ -1,49 +1,54 @@
 id: blackletter
-term_type: letterform-tradition   # NOT a style peer — spans eras, scripts, revivals
+term_type: letterform-tradition # NOT a style peer — spans eras, scripts, revivals
 status: stub
 names:
   primary: Blackletter
-  variants: []             # TODO: harvest (sub-script names are factual claims)
-summary: null              # TODO
+  variants: [] # TODO: harvest (sub-script names are factual claims)
+summary: null # TODO
 external_ids:
-  getty_aat: null          # TODO
-  wikidata: null           # TODO
+  getty_aat: null # TODO
+  wikidata: Q213686
 
 facets:
   era:
     # Multiple periods with roles — the case that forced era to be a list.
-    periods: []            # TODO: harvest origin, print era, revival spans
+    periods:
+      - label: Wikidata inception
+        role: origin
+        start_year: 1050
+        end_year: null
   geography:
-    origin_places: []      # TODO: harvest
+    origin_places: [] # TODO: harvest
     spread: []
   lineage:
-    parents: []            # TODO
+    parents: [] # TODO
     influences: []
     influenced: []
     reacted_against: []
     revival_of: []
   production:
     apparatus: []
-    techniques: []         # TODO: manuscript and print techniques — harvest
-  formal_properties:       # editorial, unreviewed; applies to the letterform class
+    techniques: [] # TODO: manuscript and print techniques — harvest
+  formal_properties:
+    # editorial, unreviewed; applies to the letterform class
     grid_discipline: not-applicable
-    palette_logic: {descriptor: monochrome, note: "letterform tradition; palette varies by use"}
+    palette_logic: { descriptor: monochrome, note: "letterform tradition; palette varies by use" }
     contrast: high
     texture: pronounced
     hierarchy: not-applicable
     ornament_level: high
-  ideological_stance: null   # optional for letterform-tradition; varies by use context
+  ideological_stance: null # optional for letterform-tradition; varies by use context
   commercial_context:
-    contexts: []           # TODO — modern uses vary widely; harvest/author
+    contexts: [] # TODO — modern uses vary widely; harvest/author
   revival:
-    status: null           # TODO
-    revivals: []           # TODO: multiple revival waves — harvest claims
+    status: null # TODO
+    revivals: [] # TODO: multiple revival waves — harvest claims
   lifecycle:
-    state: null            # TODO — arguably residual-with-revivals; needs review
+    state: null # TODO — arguably residual-with-revivals; needs review
     first_observed: null
     review_due: null
   practitioners:
-    people: []             # HARVEST-ONLY
+    people: [] # HARVEST-ONLY
     studios: []
 
 images: []
@@ -52,7 +57,6 @@ todo:
   - names.variants
   - summary
   - external_ids
-  - facets.era.periods
   - facets.geography
   - facets.lineage
   - facets.production.techniques
@@ -64,4 +68,14 @@ todo:
 
 provenance:
   facets.formal_properties:
-    - {source: editorial, reviewed: false}
+    - { source: editorial, reviewed: false }
+  external_ids.wikidata:
+    - source: wikidata
+      url: https://www.wikidata.org/wiki/Q213686
+      accessed: 2026-08-23
+      method: exact-label-match
+  facets.era.periods:
+    - source: wikidata
+      url: https://www.wikidata.org/wiki/Q213686
+      accessed: 2026-08-23
+      property: P571

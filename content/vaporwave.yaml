@@ -1,48 +1,56 @@
 id: vaporwave
-term_type: aesthetic       # internet-native, loosely bounded, lifecycle-active
+term_type: aesthetic # internet-native, loosely bounded, lifecycle-active
 status: stub
 names:
   primary: Vaporwave
-  variants: []             # TODO: harvest
-summary: null              # TODO
+  variants: [] # TODO: harvest
+summary: null # TODO
 external_ids:
-  getty_aat: null          # likely absent from AAT — record null result in Phase 3
-  wikidata: null           # TODO
+  getty_aat: null # likely absent from AAT — record null result in Phase 3
+  wikidata: Q15733887
 
 facets:
   era:
-    periods: []            # TODO: harvest
+    periods:
+      - label: Wikidata inception
+        role: origin
+        start_year: 2009
+        end_year: null
   geography:
-    origin_places: []      # TODO — internet-native; may stay empty by design
+    origin_places:
+      - wikidata: Q30
+        label: United States
     spread: []
   lineage:
-    parents: []            # TODO
-    influences: []         # TODO: harvest (music-scene origin is a factual claim)
+    parents: [] # TODO
+    influences: [] # TODO: harvest (music-scene origin is a factual claim)
     influenced: []
     reacted_against: []
     revival_of: []
   production:
     apparatus: []
     techniques: []
-  formal_properties:       # editorial, unreviewed
+  formal_properties:
+    # editorial, unreviewed
     grid_discipline: loose
-    palette_logic: {descriptor: pastel, note: "gradient-heavy; magenta/cyan tendency"}
+    palette_logic: { descriptor: pastel, note: "gradient-heavy; magenta/cyan tendency" }
     contrast: medium
     texture: pronounced
     hierarchy: flat
     ornament_level: high
-  ideological_stance: expressive   # editorial, unreviewed
+  ideological_stance: expressive # editorial, unreviewed
   commercial_context:
-    contexts: [music-packaging, web-ui]   # editorial, unreviewed
+    contexts: [ music-packaging, web-ui ] # editorial, unreviewed
   revival:
     status: null
     revivals: []
-  lifecycle:               # aesthetic ⇒ lifecycle required
-    state: residual        # editorial, unreviewed — needs your call
-    first_observed: null   # TODO: harvest or you set
-    review_due: null       # TODO: you set
+  lifecycle:
+    # aesthetic ⇒ lifecycle required
+    state: residual # editorial, unreviewed — needs your call
+    first_observed: null # TODO: harvest or you set
+    review_due: null # TODO: you set
   practitioners:
-    people: []             # HARVEST-ONLY
+    people: [] # HARVEST-ONLY
     studios: []
 
 images: []
@@ -50,8 +58,6 @@ images: []
 todo:
   - names.variants
   - summary
-  - external_ids.wikidata
-  - facets.era.periods
   - facets.lineage
   - facets.lifecycle.first_observed
   - facets.lifecycle.review_due
@@ -60,10 +66,25 @@ todo:
 
 provenance:
   facets.formal_properties:
-    - {source: editorial, reviewed: false}
+    - { source: editorial, reviewed: false }
   facets.ideological_stance:
-    - {source: editorial, reviewed: false}
+    - { source: editorial, reviewed: false }
   facets.commercial_context:
-    - {source: editorial, reviewed: false}
+    - { source: editorial, reviewed: false }
   facets.lifecycle.state:
-    - {source: editorial, reviewed: false}
+    - { source: editorial, reviewed: false }
+  external_ids.wikidata:
+    - source: wikidata
+      url: https://www.wikidata.org/wiki/Q15733887
+      accessed: 2026-08-23
+      method: exact-label-match
+  facets.era.periods:
+    - source: wikidata
+      url: https://www.wikidata.org/wiki/Q15733887
+      accessed: 2026-08-23
+      property: P571
+  facets.geography.origin_places:
+    - source: wikidata
+      url: https://www.wikidata.org/wiki/Q15733887
+      accessed: 2026-08-23
+      property: P495

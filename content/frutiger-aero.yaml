@@ -1,13 +1,13 @@
 id: frutiger-aero
-term_type: aesthetic       # retrospectively-named internet aesthetic
+term_type: aesthetic # retrospectively-named internet aesthetic
 status: stub
 names:
   primary: Frutiger Aero
-  variants: []             # TODO: harvest
-summary: null              # TODO
+  variants: [] # TODO: harvest
+summary: null # TODO
 external_ids:
-  getty_aat: null          # likely absent from AAT — record null result
-  wikidata: null           # TODO
+  getty_aat: null # likely absent from AAT — record null result
+  wikidata: Q118114289
 
 facets:
   era:
@@ -15,37 +15,40 @@ facets:
     # revival/nostalgia period when the label was coined. Both TODO: harvest.
     periods: []
   geography:
-    origin_places: []      # TODO
+    origin_places: [] # TODO
     spread: []
   lineage:
-    parents: []            # TODO
+    parents: [] # TODO
     influences: []
     influenced: []
     reacted_against: []
-    revival_of: []         # NOTE: candidate for revival_of pointing at the
-                           # original corporate style — a factual claim; harvest
+    revival_of: []
+      # NOTE: candidate for revival_of pointing at the
+      # original corporate style — a factual claim; harvest
   production:
     apparatus: []
     techniques: []
-  formal_properties:       # editorial, unreviewed
+  formal_properties:
+    # editorial, unreviewed
     grid_discipline: moderate
-    palette_logic: {descriptor: full-spectrum, note: "glossy blues/greens, skeuomorphic light"}
+    palette_logic: { descriptor: full-spectrum, note: "glossy blues/greens, skeuomorphic light" }
     contrast: medium
     texture: pronounced
     hierarchy: moderate
     ornament_level: high
-  ideological_stance: mixed   # editorial, unreviewed — corporate optimism aesthetic
+  ideological_stance: mixed # editorial, unreviewed — corporate optimism aesthetic
   commercial_context:
-    contexts: [corporate-identity, web-ui, advertising]   # editorial, unreviewed
+    contexts: [ corporate-identity, web-ui, advertising ] # editorial, unreviewed
   revival:
-    status: null           # TODO — the label itself is a revival phenomenon
+    status: null # TODO — the label itself is a revival phenomenon
     revivals: []
-  lifecycle:               # aesthetic ⇒ lifecycle required
-    state: revived         # editorial, unreviewed — needs your call
-    first_observed: null   # TODO
-    review_due: null       # TODO: you set
+  lifecycle:
+    # aesthetic ⇒ lifecycle required
+    state: revived # editorial, unreviewed — needs your call
+    first_observed: null # TODO
+    review_due: null # TODO: you set
   practitioners:
-    people: []             # HARVEST-ONLY
+    people: [] # HARVEST-ONLY
     studios: []
 
 images: []
@@ -64,10 +67,15 @@ todo:
 
 provenance:
   facets.formal_properties:
-    - {source: editorial, reviewed: false}
+    - { source: editorial, reviewed: false }
   facets.ideological_stance:
-    - {source: editorial, reviewed: false}
+    - { source: editorial, reviewed: false }
   facets.commercial_context:
-    - {source: editorial, reviewed: false}
+    - { source: editorial, reviewed: false }
   facets.lifecycle.state:
-    - {source: editorial, reviewed: false}
+    - { source: editorial, reviewed: false }
+  external_ids.wikidata:
+    - source: wikidata
+      url: https://www.wikidata.org/wiki/Q118114289
+      accessed: 2026-08-23
+      method: exact-label-match
