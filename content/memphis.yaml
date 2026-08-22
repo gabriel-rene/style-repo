@@ -1,57 +1,67 @@
 id: memphis
-term_type: movement          # entry models the style; the collective itself is
-                             # metadata (membership harvested in Phase 3)
-secondary_types: [style]
+term_type: movement
+  # entry models the style; the collective itself is
+  # metadata (membership harvested in Phase 3)
+secondary_types: [ style ]
 status: stub
 names:
   primary: Memphis
-  variants: []               # TODO: harvest (group name form, alternates)
-summary: null                # TODO
+  variants:
+    - Memphis movement
+    - Memphis style
+summary: "Memphis, the group, was founded in Milan, 11 December 1980, by Ettore
+  Sottsass, Barbara Radice, Marco Zanini, Aldo Cibic, Matteo Thun, Michele De
+  Lucchi, and Martine Bedin. Others who did work in the Memphis idiom were:
+  Peter Shire, Shiro Kuramata, and Michael Graves. Objects such as furniture and
+  lighting designed in the Memphis style feature bright colors and bold
+  geometric shapes, made from industrial materials such as plastic laminate. The
+  group was formed in reaction to modernist design sensibilities, and advocated
+  forms derived from popular culture and kitsch sources. The style associated
+  with Memphis was influential and developed many international followers."
 external_ids:
-  getty_aat: null            # TODO
-  wikidata: null             # TODO
+  getty_aat: aat:300265730
+  wikidata: null # TODO
 
 facets:
   era:
-    periods: []              # TODO: harvest
+    periods: [] # TODO: harvest
   geography:
-    origin_places: []        # TODO: harvest
+    origin_places: [] # TODO: harvest
     spread: []
   lineage:
-    parents: []              # TODO
-    influences: []           # TODO
+    parents: [] # TODO
+    influences: [] # TODO
     influenced: []
-    reacted_against: []      # TODO: harvest — reaction relations are factual claims
+    reacted_against: [] # TODO: harvest — reaction relations are factual claims
     revival_of: []
   production:
     apparatus: []
     techniques: []
-  formal_properties:         # editorial, unreviewed
+  formal_properties:
+    # editorial, unreviewed
     grid_discipline: broken
-    palette_logic: {descriptor: full-spectrum, note: "clashing combinations as a strategy"}
+    palette_logic: { descriptor: full-spectrum, note: "clashing combinations as a strategy" }
     contrast: high
     texture: pronounced
     hierarchy: chaotic
     ornament_level: maximal
-  ideological_stance: strongly-expressive   # editorial, unreviewed
+  ideological_stance: strongly-expressive # editorial, unreviewed
   commercial_context:
-    contexts: [product, fashion]            # editorial, unreviewed
+    contexts: [ product, fashion ] # editorial, unreviewed
   revival:
-    status: null             # TODO
+    status: null # TODO
     revivals: []
   lifecycle:
     state: historical
     first_observed: null
     review_due: null
   practitioners:
-    people: []               # HARVEST-ONLY
+    people: [] # HARVEST-ONLY
     studios: []
 
 images: []
 
 todo:
-  - names.variants
-  - summary
   - external_ids
   - facets.era.periods
   - facets.geography
@@ -62,10 +72,23 @@ todo:
 
 provenance:
   facets.formal_properties:
-    - {source: editorial, reviewed: false}
+    - { source: editorial, reviewed: false }
   facets.ideological_stance:
-    - {source: editorial, reviewed: false}
+    - { source: editorial, reviewed: false }
   facets.commercial_context:
-    - {source: editorial, reviewed: false}
+    - { source: editorial, reviewed: false }
   facets.lifecycle.state:
-    - {source: editorial, reviewed: false}
+    - { source: editorial, reviewed: false }
+  external_ids.getty_aat:
+    - source: getty-aat
+      url: https://vocab.getty.edu/aat/300265730
+      accessed: 2026-08-23
+      method: exact-label-match
+  summary:
+    - source: getty-aat
+      url: https://vocab.getty.edu/aat/300265730
+      accessed: 2026-08-23
+  names.variants:
+    - source: getty-aat
+      url: https://vocab.getty.edu/aat/300265730
+      accessed: 2026-08-23

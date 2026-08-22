@@ -1,57 +1,61 @@
 id: bauhaus
 term_type: movement
-secondary_types: [style]   # movement that was also a school; hybrid via secondary_types
+secondary_types: [ style ] # movement that was also a school; hybrid via secondary_types
 status: stub
 names:
   primary: Bauhaus
-  variants: []             # TODO: harvest
-summary: null              # TODO: source or author
+  variants: [] # TODO: harvest
+summary: Refers to the German School of art, design, and architecture active in
+  Weimar from 1919 to 1925, in Dessau from 1925 to 1932, and in Berlin from 1932
+  to 1933. Training students in both fine art and craftsmanship, it produced
+  objects and building designs intended for mass production using simple,
+  geometric forms.
 external_ids:
-  getty_aat: null          # TODO: harvest
-  wikidata: null           # TODO: harvest
+  getty_aat: aat:300021432
+  wikidata: null # TODO: harvest
 
 facets:
   era:
-    periods: []            # TODO: harvest (origin span; influence continues)
+    periods: [] # TODO: harvest (origin span; influence continues)
   geography:
-    origin_places: []      # TODO: harvest
+    origin_places: [] # TODO: harvest
     spread: []
   lineage:
-    parents: []            # TODO: harvest from AAT hierarchy
-    influences: []         # TODO: harvest
+    parents: [] # TODO: harvest from AAT hierarchy
+    influences: [] # TODO: harvest
     influenced: []
     reacted_against: []
     revival_of: []
   production:
     apparatus: []
-    techniques: []         # TODO: harvest/author
-  formal_properties:       # editorial, unreviewed — structural demo only
+    techniques: [] # TODO: harvest/author
+  formal_properties:
+    # editorial, unreviewed — structural demo only
     grid_discipline: strict
-    palette_logic: {descriptor: primary, note: null}
+    palette_logic: { descriptor: primary, note: null }
     contrast: high
     texture: flat
     hierarchy: strict
     ornament_level: none
-  ideological_stance: strongly-rationalist   # editorial, unreviewed
+  ideological_stance: strongly-rationalist # editorial, unreviewed
   commercial_context:
-    contexts: []           # TODO
+    contexts: [] # TODO
   revival:
-    status: null           # TODO
+    status: null # TODO
     revivals: []
   lifecycle:
     state: historical
     first_observed: null
     review_due: null
-  practitioners:           # HARVEST-ONLY (Wikidata, Phase 3)
+  practitioners:
+    # HARVEST-ONLY (Wikidata, Phase 3)
     people: []
     studios: []
 
-images: []                 # TODO: harvest with full rights fields
+images: [] # TODO: harvest with full rights fields
 
 todo:
   - names.variants
-  - summary
-  - external_ids.getty_aat
   - external_ids.wikidata
   - facets.era.periods
   - facets.geography.origin_places
@@ -63,8 +67,17 @@ todo:
 
 provenance:
   facets.formal_properties:
-    - {source: editorial, reviewed: false}
+    - { source: editorial, reviewed: false }
   facets.ideological_stance:
-    - {source: editorial, reviewed: false}
+    - { source: editorial, reviewed: false }
   facets.lifecycle.state:
-    - {source: editorial, reviewed: false}
+    - { source: editorial, reviewed: false }
+  external_ids.getty_aat:
+    - source: getty-aat
+      url: https://vocab.getty.edu/aat/300021432
+      accessed: 2026-08-23
+      method: exact-label-match
+  summary:
+    - source: getty-aat
+      url: https://vocab.getty.edu/aat/300021432
+      accessed: 2026-08-23

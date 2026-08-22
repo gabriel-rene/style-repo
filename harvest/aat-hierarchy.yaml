@@ -1,0 +1,21 @@
+art-deco:
+  aat: aat:300021426
+  parents:
+    - uri: http://vocab.getty.edu/aat/300021424
+      label: <modern European styles and movements>
+  source_url: https://vocab.getty.edu/aat/300021426
+  accessed: 2026-08-23
+bauhaus:
+  aat: aat:300021432
+  parents:
+    - uri: http://vocab.getty.edu/aat/300021311
+      label: <modern German styles and movements>
+  source_url: https://vocab.getty.edu/aat/300021432
+  accessed: 2026-08-23
+memphis:
+  aat: aat:300265730
+  parents:
+    - uri: http://vocab.getty.edu/aat/300111998
+      label: <post-1945 architecture and design styles and movements>
+  source_url: https://vocab.getty.edu/aat/300265730
+  accessed: 2026-08-23

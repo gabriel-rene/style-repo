@@ -1,0 +1,395 @@
+acid-graphics:
+  name: Acid graphics
+  checked: 2026-08-23
+  getty_aat:
+    accept: null
+    method: no-exact-match
+    candidates:
+      - id: aat:300426696
+        url: http://vocab.getty.edu/aat/300426696
+        label: graphics software
+      - id: aat:300444002
+        url: http://vocab.getty.edu/aat/300444002
+        label: phytic acid
+      - id: aat:300386561
+        url: http://vocab.getty.edu/aat/300386561
+        label: adipic acid
+      - id: aat:300380283
+        url: http://vocab.getty.edu/aat/300380283
+        label: lactic acid
+      - id: aat:300380258
+        url: http://vocab.getty.edu/aat/300380258
+        label: stearic acid
+      - id: aat:300380219
+        url: http://vocab.getty.edu/aat/300380219
+        label: acrylic acid
+      - id: aat:300391382
+        url: http://vocab.getty.edu/aat/300391382
+        label: sulfurous acid
+      - id: aat:300379610
+        url: http://vocab.getty.edu/aat/300379610
+        label: formic acid
+  wikidata:
+    accept: null
+    method: no-exact-match
+    candidates: []
+art-deco:
+  name: Art Deco
+  checked: 2026-08-23
+  getty_aat:
+    accept: aat:300021426
+    method: exact-label-match
+    candidates:
+      - id: aat:300021426
+        url: http://vocab.getty.edu/aat/300021426
+        label: Art Deco
+      - id: aat:300443478
+        url: http://vocab.getty.edu/aat/300443478
+        label: Rondo-Cubist
+      - id: aat:300387102
+        url: http://vocab.getty.edu/aat/300387102
+        label: Nose art
+      - id: aat:300443929
+        url: http://vocab.getty.edu/aat/300443929
+        label: art studios (organizations)
+      - id: aat:300443852
+        url: http://vocab.getty.edu/aat/300443852
+        label: art agents
+      - id: aat:300443853
+        url: http://vocab.getty.edu/aat/300443853
+        label: art brokers
+      - id: aat:300435215
+        url: http://vocab.getty.edu/aat/300435215
+        label: art stores (built works)
+      - id: aat:300444407
+        url: http://vocab.getty.edu/aat/300444407
+        label: art schools (buildings)
+  wikidata:
+    accept: null
+    method: ambiguous-exact
+    candidates:
+      - id: Q173782
+        url: https://www.wikidata.org/wiki/Q173782
+        label: Art Deco
+        description: influential visual arts design style which first appeared in France
+          during the 1920s
+      - id: Q12720942
+        url: https://www.wikidata.org/wiki/Q12720942
+        label: Art Deco architecture
+        description: architectural style
+      - id: Q136558276
+        url: https://www.wikidata.org/wiki/Q136558276
+        label: Art Deco
+        description: compilation album series
+      - id: Q4796770
+        url: https://www.wikidata.org/wiki/Q4796770
+        label: Art Deco
+        description: album by Don Cherry
+      - id: Q30024694
+        url: https://www.wikidata.org/wiki/Q30024694
+        label: Art déco
+        description: entry in Dictionnaire du patrimoine rennais
+      - id: Q28739788
+        url: https://www.wikidata.org/wiki/Q28739788
+        label: Art Deco
+        description: song with lyrics by Rick Nowels, Lana Del Rey performed by Lana Del Rey
+      - id: Q103890945
+        url: https://www.wikidata.org/wiki/Q103890945
+        label: Art Deco
+        description: encyclopedia article
+      - id: Q137126874
+        url: https://www.wikidata.org/wiki/Q137126874
+        label: Indo-European Colonial architecture style
+        description: Indo-European Colonial architecture represents a hybrid style
+          blending European architectural forms with Indian materials and
+          craftsmanship, often seen in administrative buildings and residences
+          during the colonial period.
+bauhaus:
+  name: Bauhaus
+  checked: 2026-08-23
+  getty_aat:
+    accept: aat:300021432
+    method: exact-label-match
+    candidates:
+      - id: aat:300021432
+        url: http://vocab.getty.edu/aat/300021432
+        label: Bauhaus
+  wikidata:
+    accept: null
+    method: ambiguous-exact
+    candidates:
+      - id: Q124354
+        url: https://www.wikidata.org/wiki/Q124354
+        label: Bauhaus
+        description: school in Germany that combined crafts and the fine arts
+      - id: Q672043
+        url: https://www.wikidata.org/wiki/Q672043
+        label: Bauhaus
+        description: multinational DIY store chain based in Switzerland
+      - id: Q83341071
+        url: https://www.wikidata.org/wiki/Q83341071
+        label: Bauhaus
+        description: family name
+      - id: Q180582
+        url: https://www.wikidata.org/wiki/Q180582
+        label: Bauhaus
+        description: English rock band
+      - id: Q811389
+        url: https://www.wikidata.org/wiki/Q811389
+        label: Bauhaus-Archiv
+        description: museum and archive in Berlin
+      - id: Q280594
+        url: https://www.wikidata.org/wiki/Q280594
+        label: 8502 Bauhaus
+        description: asteroid
+      - id: Q108107402
+        url: https://www.wikidata.org/wiki/Q108107402
+        label: Bauhaus modernism
+        description: a particular artistic style of geometric areas through art,
+          architecture, design, that began in the 1920's at the Bauhaus school
+          in Germany and often expressed in working with more resilient
+          materials such as concrete, steel, and glass
+      - id: Q17216779
+        url: https://www.wikidata.org/wiki/Q17216779
+        label: Bauhaus
+        description: Japanese business
+blackletter:
+  name: Blackletter
+  checked: 2026-08-23
+  getty_aat:
+    accept: null
+    method: no-exact-match
+    candidates:
+      - id: aat:300200661
+        url: http://vocab.getty.edu/aat/300200661
+        label: black letter (typefaces)
+  wikidata:
+    accept: Q213686
+    method: exact-label-match
+    candidates:
+      - id: Q213686
+        url: https://www.wikidata.org/wiki/Q213686
+        label: blackletter
+        description: old script typeface used throughout Western Europe
+      - id: Q30537477
+        url: https://www.wikidata.org/wiki/Q30537477
+        label: Calligraphic Blackletter
+        description: ""
+      - id: Q87570513
+        url: https://www.wikidata.org/wiki/Q87570513
+        label: 𝔹
+        description: mathematical double-struck capital B (U+1D539), blackletter or
+          blackboard bold mathematical symbol
+      - id: Q119373900
+        url: https://www.wikidata.org/wiki/Q119373900
+        label: "Blackletter: Type and National Identity"
+        description: Book edited by Peter Bain and Paul Shaw
+      - id: Q119373960
+        url: https://www.wikidata.org/wiki/Q119373960
+        label: "Blackletter: Type and National Identity"
+        description: 1st edition
+brutalist-web-design:
+  name: Brutalist web design
+  checked: 2026-08-23
+  getty_aat:
+    accept: null
+    method: no-exact-match
+    candidates:
+      - id: aat:300375660
+        url: http://vocab.getty.edu/aat/300375660
+        label: Web design
+      - id: aat:300112048
+        url: http://vocab.getty.edu/aat/300112048
+        label: Brutalist
+      - id: aat:300391330
+        url: http://vocab.getty.edu/aat/300391330
+        label: Semantic Web
+      - id: aat:300391013
+        url: http://vocab.getty.edu/aat/300391013
+        label: web suspension (helmet liners)
+      - id: aat:300163107
+        url: http://vocab.getty.edu/aat/300163107
+        label: web saws
+      - id: aat:300400828
+        url: http://vocab.getty.edu/aat/300400828
+        label: webs (animal structures)
+      - id: aat:300410446
+        url: http://vocab.getty.edu/aat/300410446
+        label: web apps
+      - id: aat:300443943
+        url: http://vocab.getty.edu/aat/300443943
+        label: web designers
+  wikidata:
+    accept: null
+    method: no-exact-match
+    candidates: []
+frutiger-aero:
+  name: Frutiger Aero
+  checked: 2026-08-23
+  getty_aat:
+    accept: null
+    method: no-exact-match
+    candidates:
+      - id: aat:300015529
+        url: http://vocab.getty.edu/aat/300015529
+        label: bird's-eye views
+  wikidata:
+    accept: Q118114289
+    method: exact-label-match
+    candidates:
+      - id: Q118114289
+        url: https://www.wikidata.org/wiki/Q118114289
+        label: Frutiger Aero
+        description: graphic design style associated with the 2000s
+memphis:
+  name: Memphis
+  checked: 2026-08-23
+  getty_aat:
+    accept: aat:300265730
+    method: exact-label-match
+    candidates:
+      - id: aat:300265730
+        url: http://vocab.getty.edu/aat/300265730
+        label: Memphis
+  wikidata:
+    accept: null
+    method: ambiguous-exact
+    candidates:
+      - id: Q16563
+        url: https://www.wikidata.org/wiki/Q16563
+        label: Memphis
+        description: city in and county seat of Shelby County, Tennessee, United States
+      - id: Q2094177
+        url: https://www.wikidata.org/wiki/Q2094177
+        label: University of Memphis
+        description: public research university in Memphis, Tennessee, USA
+      - id: Q2708101
+        url: https://www.wikidata.org/wiki/Q2708101
+        label: Memphis
+        description: genus of insects
+      - id: Q962034
+        url: https://www.wikidata.org/wiki/Q962034
+        label: Memphis
+        description: city in and county seat of Scotland County, Missouri, United States
+      - id: Q110857048
+        url: https://www.wikidata.org/wiki/Q110857048
+        label: Memphis
+        description: instrumental track by Peter Tosh;
+      - id: Q106465631
+        url: https://www.wikidata.org/wiki/Q106465631
+        label: Memphis
+        description: male given name
+      - id: Q483132
+        url: https://www.wikidata.org/wiki/Q483132
+        label: Windows 98
+        description: personal computer operating system by Microsoft
+      - id: Q5715
+        url: https://www.wikidata.org/wiki/Q5715
+        label: Memphis
+        description: ancient capital of Egypt
+risograph:
+  name: Risograph
+  checked: 2026-08-23
+  getty_aat:
+    accept: null
+    method: no-exact-match
+    candidates:
+      - id: aat:300445046
+        url: http://vocab.getty.edu/aat/300445046
+        label: Risographs (TM)
+  wikidata:
+    accept: null
+    method: ambiguous-exact
+    candidates:
+      - id: Q1932429
+        url: https://www.wikidata.org/wiki/Q1932429
+        label: Risograph
+        description: brand of digital duplicators
+      - id: Q114079395
+        url: https://www.wikidata.org/wiki/Q114079395
+        label: risograph
+        description: digital print produced by piercing a printing stencil plate with
+          holes and passing ink through the holes to transfer an image onto
+          paper
+      - id: Q137838140
+        url: https://www.wikidata.org/wiki/Q137838140
+        label: Duplicator art
+        description: ""
+swiss-international-style:
+  name: Swiss International Style
+  checked: 2026-08-23
+  getty_aat:
+    accept: null
+    method: no-exact-match
+    candidates:
+      - id: aat:300411462
+        url: http://vocab.getty.edu/aat/300411462
+        label: Swiss chalet style
+      - id: aat:300021472
+        url: http://vocab.getty.edu/aat/300021472
+        label: International Style (modern European architecture style)
+      - id: aat:300020786
+        url: http://vocab.getty.edu/aat/300020786
+        label: International Gothic
+      - id: aat:300448931
+        url: http://vocab.getty.edu/aat/300448931
+        label: international centers
+      - id: aat:300443998
+        url: http://vocab.getty.edu/aat/300443998
+        label: international cooperation
+      - id: aat:300444294
+        url: http://vocab.getty.edu/aat/300444294
+        label: Portland style (architectural style)
+      - id: aat:300403927
+        url: http://vocab.getty.edu/aat/300403927
+        label: Style Sapin
+      - id: aat:300435734
+        url: http://vocab.getty.edu/aat/300435734
+        label: formline style
+  wikidata:
+    accept: null
+    method: no-exact-match
+    candidates: []
+vaporwave:
+  name: Vaporwave
+  checked: 2026-08-23
+  getty_aat:
+    accept: null
+    method: no-exact-match
+    candidates: []
+  wikidata:
+    accept: Q15733887
+    method: exact-label-match
+    candidates:
+      - id: Q15733887
+        url: https://www.wikidata.org/wiki/Q15733887
+        label: vaporwave
+        description: online musical genre and visual aesthetic
+      - id: Q112149217
+        url: https://www.wikidata.org/wiki/Q112149217
+        label: Vaporwave Drift
+        description: 2019 video game
+      - id: Q122341707
+        url: https://www.wikidata.org/wiki/Q122341707
+        label: Vaporwave Simulator
+        description: 2018 video game
+      - id: Q134968864
+        url: https://www.wikidata.org/wiki/Q134968864
+        label: Vaporwave Road VR
+        description: 2024 video game developed by Meng Games
+      - id: Q135032379
+        url: https://www.wikidata.org/wiki/Q135032379
+        label: Vaporwave Pinball
+        description: 2025 video game developed by Jamie D and Mixtape Games UK
+      - id: Q122823790
+        url: https://www.wikidata.org/wiki/Q122823790
+        label: Vaporwave World
+        description: 2022 video game
+      - id: Q102198037
+        url: https://www.wikidata.org/wiki/Q102198037
+        label: VAPORWAVE GOODBYE
+        description: 2020 song by STAR6IXSE7EN
+      - id: Q135919905
+        url: https://www.wikidata.org/wiki/Q135919905
+        label: VAPORWAVE GOODBYE
+        description: music track by STAR6IXSE7EN

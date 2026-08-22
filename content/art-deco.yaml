@@ -3,53 +3,65 @@ term_type: style
 status: stub
 names:
   primary: Art Deco
-  variants: []             # TODO: harvest
-summary: null              # TODO
+  variants:
+    - American Deco
+    - Art Décoratif
+    - Art Moderne
+    - Deco, American
+    - Jazz Modern
+    - Moderne
+    - Style Moderne
+summary: Refers to the style predominently of architecture and the decorative
+  arts, widely disseminated in Europe and the United States in the 1920s and
+  1930s, which became popular after the Exposition Internationale des Arts
+  Décoratifs et Modernes in Paris in 1925. The style is characterized by a
+  synthesis of industrial and fine arts materials used to create a wide variety
+  of both man-made and mass-produced objects, often with an emphasis on
+  rectilinear motifs, vibrant colors, and elegant, abstracted, simplified forms.
 external_ids:
-  getty_aat: null          # TODO
-  wikidata: null           # TODO
+  getty_aat: aat:300021426
+  wikidata: null # TODO
 
 facets:
   era:
-    periods: []            # TODO: harvest
+    periods: [] # TODO: harvest
   geography:
-    origin_places: []      # TODO: harvest
-    spread: []             # TODO — spread is broad; harvest
+    origin_places: [] # TODO: harvest
+    spread: [] # TODO — spread is broad; harvest
   lineage:
-    parents: []            # TODO
+    parents: [] # TODO
     influences: []
     influenced: []
     reacted_against: []
     revival_of: []
   production:
     apparatus: []
-    techniques: []         # TODO
-  formal_properties:       # editorial, unreviewed
+    techniques: [] # TODO
+  formal_properties:
+    # editorial, unreviewed
     grid_discipline: moderate
-    palette_logic: {descriptor: restricted, note: "metallics and saturated accents"}
+    palette_logic: { descriptor: restricted, note: "metallics and saturated accents" }
     contrast: high
     texture: subtle
     hierarchy: strict
     ornament_level: high
-  ideological_stance: mixed   # editorial, unreviewed — geometric order + luxury ornament
+  ideological_stance: mixed # editorial, unreviewed — geometric order + luxury ornament
   commercial_context:
-    contexts: [advertising, architecture, poster, product]   # editorial, unreviewed
+    contexts: [ advertising, architecture, poster, product ] # editorial, unreviewed
   revival:
-    status: null           # TODO — revivals exist; harvest claims
+    status: null # TODO — revivals exist; harvest claims
     revivals: []
   lifecycle:
     state: historical
     first_observed: null
     review_due: null
   practitioners:
-    people: []             # HARVEST-ONLY
+    people: [] # HARVEST-ONLY
     studios: []
 
 images: []
 
 todo:
-  - names.variants
-  - summary
   - external_ids
   - facets.era.periods
   - facets.geography
@@ -60,10 +72,23 @@ todo:
 
 provenance:
   facets.formal_properties:
-    - {source: editorial, reviewed: false}
+    - { source: editorial, reviewed: false }
   facets.ideological_stance:
-    - {source: editorial, reviewed: false}
+    - { source: editorial, reviewed: false }
   facets.commercial_context:
-    - {source: editorial, reviewed: false}
+    - { source: editorial, reviewed: false }
   facets.lifecycle.state:
-    - {source: editorial, reviewed: false}
+    - { source: editorial, reviewed: false }
+  external_ids.getty_aat:
+    - source: getty-aat
+      url: https://vocab.getty.edu/aat/300021426
+      accessed: 2026-08-23
+      method: exact-label-match
+  summary:
+    - source: getty-aat
+      url: https://vocab.getty.edu/aat/300021426
+      accessed: 2026-08-23
+  names.variants:
+    - source: getty-aat
+      url: https://vocab.getty.edu/aat/300021426
+      accessed: 2026-08-23
