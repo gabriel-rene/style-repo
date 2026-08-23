@@ -1,0 +1,66 @@
+# Image blocklist: source URLs that must never be (re-)harvested.
+# These were pulled by auto-search but are not relevant to the term
+# (namesakes, AI-generated images, unrelated subjects). Curation only —
+# no factual claims. Harvesters skip these; prune script removes them.
+
+# memphis
+- https://commons.wikimedia.org/wiki/File:Memphis_Belle.jpg
+- https://commons.wikimedia.org/wiki/File:Beale_Street_in_Memphis_Tennessee.jpg
+- https://commons.wikimedia.org/wiki/File:Clark_Tower_Memphis_TN_01.jpg
+- https://commons.wikimedia.org/wiki/File:Memphis_BW_2.jpg
+- https://commons.wikimedia.org/wiki/File:Memphis_Plough_Blvd_Memphis_TN.jpg
+- https://commons.wikimedia.org/wiki/File:Memphis_phantes_vicinia_MHNT.jpg
+- https://commons.wikimedia.org/wiki/File:Memphis.jpg
+- https://commons.wikimedia.org/wiki/File:Memphis_-_Bird%27s_Eye_View_-_Memphis_Appeal_15_October_1887.jpg
+- https://commons.wikimedia.org/wiki/File:Memphis_acidalia_verso.jpg
+- https://commons.wikimedia.org/wiki/File:Memphis_acidalia_recto.jpg
+- https://commons.wikimedia.org/wiki/File:Memphis_from_the_water_2022j.jpg
+
+# op-art
+- https://commons.wikimedia.org/wiki/File:Hungary_pecs_-_vasarely0.jpg
+- https://commons.wikimedia.org/wiki/File:Goddess_Bhadrakali_Worshipped_by_the_Gods-_from_a_tantric_Devi_series_-_Google_Art_Project.jpg
+- https://commons.wikimedia.org/wiki/File:Johannes_Vermeer_-_Gezicht_op_huizen_in_Delft,_bekend_als_%27Het_straatje%27_-_Google_Art_Project.jpg
+- https://commons.wikimedia.org/wiki/File:Fogo_S%C3%A3o_Filipe_shop.jpg
+- https://commons.wikimedia.org/wiki/File:Ilya_Repin_-_Sadko_-_Google_Art_Project.jpg
+- https://commons.wikimedia.org/wiki/File:ArT_of_opEN_doors_project_-_Travessa_Jo%C3%A3o_Caetano_01.jpg
+- https://commons.wikimedia.org/wiki/File:Katsushika_Hokusai,_published_by_Nishimuraya_Yohachi_(Eijud%C5%8D)_-_Fine_Wind,_Clear_Weather_(Gaif%C5%AB_kaisei),_also_known_as_Red_Fuji,_from_the_series_Thirty-six_Views_o..._-_Google_Art_Project_-_Cropped.jpg
+- https://commons.wikimedia.org/wiki/File:Your_motherland_will_never_forget_-_restoration.jpg
+- https://commons.wikimedia.org/wiki/File:Bernardo_Bellotto_-_View_of_Warsaw_from_the_Royal_Castle_-_Google_Art_Project.jpg
+- https://commons.wikimedia.org/wiki/File:ArT_of_opEN_doors_project_-_Rua_de_Santa_Maria_-_Funchal_37.jpg
+- https://commons.wikimedia.org/wiki/File:%22Everything_is_Going_to_be_Alright%22_artwork,_Christchurch_Art_Gallery,_Christchurch,_New_Zealand.jpg
+- https://commons.wikimedia.org/wiki/File:Lady_with_an_Ermine_-_Leonardo_da_Vinci_-_Google_Art_Project.jpg
+
+# surrealism
+- https://commons.wikimedia.org/wiki/File:Surrealism_(49679583271).jpg
+- https://commons.wikimedia.org/wiki/File:Surrealism_-_Cold_dreamworld_halfreality_of_Ubik;_place_does_not_exist.jpg
+- https://commons.wikimedia.org/wiki/File:Surrealism_-_Cold_dreamworld_halfreality_of_Ubik;_place_does_not_exist_-_perception_of_cryogenically_stored_customer_nr_154,_day_256.jpg
+- https://commons.wikimedia.org/wiki/File:SD_-_Painting_in_Surrealism_style_by_Ren%C3%A9_Magritte,_Rhinoceros_wearing_a_business_suit_screaming_aloud_while_seeing_the_stock_price_crash.png
+- https://commons.wikimedia.org/wiki/File:DALL-E_-_Painting_in_Surrealism_style_by_Ren%C3%A9_Magritte,_Rhinoceros_wearing_a_business_suit_screaming_aloud_while_seeing_the_stock_price_crash.jpg
+
+# vaporwave
+- https://commons.wikimedia.org/wiki/File:Vaporwave_mood_of_coconut.jpg
+- https://commons.wikimedia.org/wiki/File:NZO_Vaporwave_Artist_Press_Photo.png
+
+# letterpress
+- https://commons.wikimedia.org/wiki/File:Gr.Diana_letterpress_machine.png
+- https://commons.wikimedia.org/wiki/File:Gr.diana_Letterpress_printing_process.png
+
+# screen-printing
+- https://commons.wikimedia.org/wiki/File:Heart_Mountain_Relocation_Center,_Heart_Mountain,_Wyoming._Members_of_the_Poster_Shop_Staff_at_the_._._._-_NARA_-_539255.jpg
+
+# bauhaus
+- https://commons.wikimedia.org/wiki/File:Flag_of_Plano,_Texas.png
+
+# psychedelic-art
+- https://commons.wikimedia.org/wiki/File:Kazantip,_Crimea,_Extasy_in_front_of_psychedelic_walls.jpg
+- https://commons.wikimedia.org/wiki/File:Vagator,_Goa,_India,_Psychedelic_art.jpg
+- https://commons.wikimedia.org/wiki/File:Vagator,_Goa,_India,_Trance_party_in_Goa,_Psychedelic_art.jpg
+- https://commons.wikimedia.org/wiki/File:Psychedelic_trance_party,_Art,_Ashwem,_Goa,_India.jpg
+- https://commons.wikimedia.org/wiki/File:Psychedelic_trance_party,_Trance_set,_Ashwem,_Goa,_India.jpg
+
+# op-art (free-text "optical" search noise)
+- https://commons.wikimedia.org/wiki/File:Prussian-optical-teleg-kobl.jpg
+- https://commons.wikimedia.org/wiki/File:The_Art_of_Painting.jpg
+- https://commons.wikimedia.org/wiki/File:Ludovicus_Rijsbrack_-_Allegory_of_Apollo_and_Minerva_bestowing_optical_instruments_to_benefit_the_Arts.jpg
+- https://commons.wikimedia.org/wiki/File:Glaskugel_--_2022_--_9846.jpg
+- https://commons.wikimedia.org/wiki/File:Painting_of_Lehna_Singh_Majithia_gazing_through_a_telescope_with_a_pandit,_from_the_Sarvasiddhantattvacudamani,_ca.1840_(detail_1).jpg

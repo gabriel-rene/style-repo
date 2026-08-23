@@ -15,8 +15,10 @@ import { readFileSync, existsSync } from 'node:fs';
 import { parse } from 'yaml';
 import { cachedDownload, today } from './lib/cache.js';
 import { EntryUpdater } from './lib/apply.js';
+import { loadBlocklist } from './lib/blocklist.js';
 import { loadContentDir } from '../lib/load.js';
 
+const blocklist = loadBlocklist();
 const MAX_PER_TERM = 6;
 const CSV_PATH = 'cache/moma-artworks.csv';
 const CSV_URL = 'https://media.githubusercontent.com/media/MuseumofModernArt/collection/main/Artworks.csv';
@@ -80,7 +82,7 @@ for (const { doc } of entries) {
     const imageUrl = a[col.ImageURL];
     const pageUrl = a[col.URL];
     if (!imageUrl || !pageUrl) continue; // need a viewable image + object page
-    if (existingUrls.has(pageUrl)) continue;
+    if (existingUrls.has(pageUrl) || blocklist.has(pageUrl)) continue;
     const artist = a[col.Artist] || 'Unknown';
     const date = a[col.Date] || '';
     picked.push({

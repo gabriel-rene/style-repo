@@ -12,7 +12,10 @@ import { readFileSync, existsSync } from 'node:fs';
 import { parse } from 'yaml';
 import { cachedJson, cachedDownload } from './lib/cache.js';
 import { EntryUpdater } from './lib/apply.js';
+import { loadBlocklist } from './lib/blocklist.js';
 import { loadContentDir } from '../lib/load.js';
+
+const blocklist = loadBlocklist();
 
 const MAX_PER_TERM = 6;
 // Machine-readable license ids Commons uses (extmetadata.License).
@@ -66,7 +69,7 @@ for (const { doc } of entries) {
       .filter((w) => w.length >= 4 && !GENERIC.has(w));
     if (words.length && !words.some((w) => hay.includes(w))) continue;
     const descUrl = ii.descriptionurl ?? ii.url;
-    if (existingUrls.has(descUrl)) continue;
+    if (existingUrls.has(descUrl) || blocklist.has(descUrl)) continue;
 
     const licenseName = strip(em.LicenseShortName?.value) || licenseId;
     const artist = strip(em.Artist?.value);

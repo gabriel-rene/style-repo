@@ -12,7 +12,10 @@ import { readFileSync, existsSync } from 'node:fs';
 import { parse } from 'yaml';
 import { cachedJson } from './lib/cache.js';
 import { EntryUpdater } from './lib/apply.js';
+import { loadBlocklist } from './lib/blocklist.js';
 import { loadContentDir } from '../lib/load.js';
+
+const blocklist = loadBlocklist();
 
 const MAX_PER_TERM = 6;
 const VAM_TERMS_URL = 'https://www.vam.ac.uk/info/va-websites-terms-conditions';
@@ -48,7 +51,7 @@ for (const { doc } of entries) {
     const imgBase = r._images?._iiif_image_base_url;
     if (!imgBase) continue;
     const objectUrl = `https://collections.vam.ac.uk/item/${r.systemNumber}`;
-    if (existingUrls.has(objectUrl)) continue;
+    if (existingUrls.has(objectUrl) || blocklist.has(objectUrl)) continue;
     const maker = r._primaryMaker?.name;
     const title = r._primaryTitle || r.objectType || 'Untitled object';
     picked.push({
