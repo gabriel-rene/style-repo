@@ -1,0 +1,71 @@
+id: punk-graphics
+term_type: style
+status: stub
+names:
+  primary: Punk graphics
+  variants: []
+summary: null
+external_ids:
+  getty_aat: null
+  wikidata: null
+facets:
+  era:
+    periods: []
+  geography:
+    origin_places: []
+    spread: []
+  lineage:
+    parents: []
+    influences: []
+    influenced: []
+    reacted_against: []
+    revival_of: []
+  production:
+    apparatus: []
+    techniques: []
+  formal_properties:
+    grid_discipline: broken
+    palette_logic:
+      descriptor: restricted
+      note: photocopy black-and-white plus one shock color; ransom-note lettering
+    contrast: high
+    texture: pronounced
+    hierarchy: chaotic
+    ornament_level: minimal
+  ideological_stance: strongly-expressive
+  commercial_context:
+    contexts:
+      - music-packaging
+      - poster
+      - self-published
+  revival:
+    status: null
+    revivals: []
+  lifecycle:
+    state: null
+    first_observed: null
+    review_due: null
+  practitioners:
+    people: []
+    studios: []
+images: []
+todo:
+  - names.variants
+  - summary
+  - external_ids
+  - facets.era.periods
+  - facets.geography
+  - facets.lineage
+  - facets.lifecycle
+  - facets.practitioners
+  - images
+provenance:
+  facets.formal_properties:
+    - source: editorial
+      reviewed: false
+  facets.ideological_stance:
+    - source: editorial
+      reviewed: false
+  facets.commercial_context:
+    - source: editorial
+      reviewed: false

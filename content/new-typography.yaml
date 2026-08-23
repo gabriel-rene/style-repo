@@ -1,0 +1,71 @@
+id: new-typography
+term_type: movement
+status: stub
+names:
+  primary: New Typography
+  variants: []
+summary: null
+external_ids:
+  getty_aat: null
+  wikidata: null
+facets:
+  era:
+    periods: []
+  geography:
+    origin_places: []
+    spread: []
+  lineage:
+    parents: []
+    influences: []
+    influenced: []
+    reacted_against: []
+    revival_of: []
+  production:
+    apparatus: []
+    techniques: []
+  formal_properties:
+    grid_discipline: strict
+    palette_logic:
+      descriptor: restricted
+      note: black plus one accent (often red); asymmetric layouts
+    contrast: high
+    texture: flat
+    hierarchy: strict
+    ornament_level: none
+  ideological_stance: strongly-rationalist
+  commercial_context:
+    contexts:
+      - editorial
+      - advertising
+      - corporate-identity
+  revival:
+    status: null
+    revivals: []
+  lifecycle:
+    state: null
+    first_observed: null
+    review_due: null
+  practitioners:
+    people: []
+    studios: []
+images: []
+todo:
+  - names.variants
+  - summary
+  - external_ids
+  - facets.era.periods
+  - facets.geography
+  - facets.lineage
+  - facets.lifecycle
+  - facets.practitioners
+  - images
+provenance:
+  facets.formal_properties:
+    - source: editorial
+      reviewed: false
+  facets.ideological_stance:
+    - source: editorial
+      reviewed: false
+  facets.commercial_context:
+    - source: editorial
+      reviewed: false

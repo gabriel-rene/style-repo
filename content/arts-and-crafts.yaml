@@ -1,0 +1,71 @@
+id: arts-and-crafts
+term_type: movement
+status: stub
+names:
+  primary: Arts and Crafts
+  variants: []
+summary: null
+external_ids:
+  getty_aat: null
+  wikidata: null
+facets:
+  era:
+    periods: []
+  geography:
+    origin_places: []
+    spread: []
+  lineage:
+    parents: []
+    influences: []
+    influenced: []
+    reacted_against: []
+    revival_of: []
+  production:
+    apparatus: []
+    techniques: []
+  formal_properties:
+    grid_discipline: loose
+    palette_logic:
+      descriptor: restricted
+      note: earthy natural-dye tones; hand-drawn borders
+    contrast: medium
+    texture: pronounced
+    hierarchy: moderate
+    ornament_level: high
+  ideological_stance: strongly-expressive
+  commercial_context:
+    contexts:
+      - editorial
+      - product
+      - architecture
+  revival:
+    status: null
+    revivals: []
+  lifecycle:
+    state: null
+    first_observed: null
+    review_due: null
+  practitioners:
+    people: []
+    studios: []
+images: []
+todo:
+  - names.variants
+  - summary
+  - external_ids
+  - facets.era.periods
+  - facets.geography
+  - facets.lineage
+  - facets.lifecycle
+  - facets.practitioners
+  - images
+provenance:
+  facets.formal_properties:
+    - source: editorial
+      reviewed: false
+  facets.ideological_stance:
+    - source: editorial
+      reviewed: false
+  facets.commercial_context:
+    - source: editorial
+      reviewed: false

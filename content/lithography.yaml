@@ -1,0 +1,64 @@
+id: lithography
+term_type: technique
+status: stub
+names:
+  primary: Lithography
+  variants: []
+summary: null
+external_ids:
+  getty_aat: null
+  wikidata: null
+facets:
+  era:
+    periods: []
+  geography:
+    origin_places: []
+    spread: []
+  lineage:
+    parents: []
+    influences: []
+    influenced: []
+    reacted_against: []
+    revival_of: []
+  formal_consequences:
+    grid_discipline: not-applicable
+    palette_logic:
+      descriptor: other
+      note: continuous-tone crayon texture; multi-stone color printing
+    contrast: medium
+    texture: pronounced
+    hierarchy: not-applicable
+    ornament_level: not-applicable
+  commercial_context:
+    contexts:
+      - poster
+      - advertising
+      - editorial
+  revival:
+    status: null
+    revivals: []
+  lifecycle:
+    state: null
+    first_observed: null
+    review_due: null
+  practitioners:
+    people: []
+    studios: []
+images: []
+todo:
+  - names.variants
+  - summary
+  - external_ids
+  - facets.era.periods
+  - facets.geography
+  - facets.lineage
+  - facets.lifecycle
+  - facets.practitioners
+  - images
+provenance:
+  facets.formal_consequences:
+    - source: editorial
+      reviewed: false
+  facets.commercial_context:
+    - source: editorial
+      reviewed: false

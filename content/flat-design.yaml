@@ -1,0 +1,75 @@
+id: flat-design
+term_type: aesthetic
+status: stub
+names:
+  primary: Flat design
+  variants: []
+summary: null
+external_ids:
+  getty_aat: null
+  wikidata: null
+facets:
+  era:
+    periods: []
+  geography:
+    origin_places: []
+    spread: []
+  lineage:
+    parents: []
+    influences: []
+    influenced: []
+    reacted_against: []
+    revival_of: []
+  production:
+    apparatus: []
+    techniques: []
+  formal_properties:
+    grid_discipline: strict
+    palette_logic:
+      descriptor: restricted
+      note: solid fills; no gradients, bevels, or drop shadows
+    contrast: medium
+    texture: flat
+    hierarchy: strict
+    ornament_level: none
+  ideological_stance: rationalist
+  commercial_context:
+    contexts:
+      - web-ui
+      - corporate-identity
+      - product
+  revival:
+    status: null
+    revivals: []
+  lifecycle:
+    state: residual
+    first_observed: null
+    review_due: null
+  practitioners:
+    people: []
+    studios: []
+images: []
+todo:
+  - names.variants
+  - summary
+  - external_ids
+  - facets.era.periods
+  - facets.geography
+  - facets.lineage
+  - facets.lifecycle.first_observed
+  - facets.lifecycle.review_due
+  - facets.practitioners
+  - images
+provenance:
+  facets.formal_properties:
+    - source: editorial
+      reviewed: false
+  facets.ideological_stance:
+    - source: editorial
+      reviewed: false
+  facets.commercial_context:
+    - source: editorial
+      reviewed: false
+  facets.lifecycle.state:
+    - source: editorial
+      reviewed: false

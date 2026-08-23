@@ -23,3 +23,41 @@ glitch-art: glitch art
 pixel-art: pixel art
 letterpress: letterpress printing
 screen-printing: screen printing poster
+arts-and-crafts: Arts and Crafts movement
+vienna-secession: Vienna Secession poster
+futurism: Futurism poster
+suprematism: Suprematism
+plakatstil: Plakatstil
+# "new" is under the 4-char relevance guard and "typography" is generic;
+# free-text would pass junk. Needs a curated query.
+new-typography: null
+streamline-moderne: Streamline Moderne
+# "modern" and "century" match far too much unrelated material.
+mid-century-modern: null
+# "new" and "wave" match ocean/radio images. Needs a curated query.
+new-wave-typography: null
+punk-graphics: punk flyer
+grunge-typography: grunge typography
+ukiyo-e: ukiyo-e print
+superflat: Superflat
+minimalism: minimalism design
+maximalism: maximalism
+ligne-claire: ligne claire
+flat-design: flat design
+skeuomorphism: skeuomorphism
+# "Y2K" is under the 4-char relevance guard; "aesthetic" is generic.
+y2k-aesthetic: null
+synthwave: synthwave
+cyberpunk-aesthetic: cyberpunk
+woodcut: woodcut print
+linocut: linocut
+lithography: lithograph poster
+etching: etching
+collage: collage
+photomontage: photomontage
+halftone: halftone
+cyanotype: cyanotype
+airbrush: airbrush
+photocopier: photocopier
+pen-plotter: pen plotter
+copperplate-script: copperplate script
