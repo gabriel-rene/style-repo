@@ -212,3 +212,33 @@
   lifecycle states with their review flags (acid-graphics renders its "no
   date" warning) and the pending queue read-only, stating that triage
   happens in trends/queue.yaml, not in the UI.
+
+## 2026-08-23 — Corpus expansion (10 → 23 terms)
+
+- **New terms are stubs + harvest, same as the originals.** scripts/
+  make-stubs.mjs generates 13 new entries (art-nouveau, de-stijl, dada,
+  constructivism, pop-art, op-art, psychedelic-art, surrealism,
+  corporate-memphis, glitch-art, pixel-art, letterpress, screen-printing)
+  carrying only editorial formal readings flagged `reviewed: false`; every
+  date, place, name, and summary came from the harvesters with provenance
+  or stayed null + TODO. Term choice itself is infrastructure (coverage
+  across types and eras), not a historical claim.
+
+- **Harvesters must run serially, never in parallel.** They all
+  read-modify-write content/*.yaml; two concurrent runs clobber each
+  other's additions (observed: a Commons retry erased V&A records on 7
+  terms; recovered by re-running vam-images.js — source_url dedupe makes
+  re-runs safe). Rule recorded here so it is never repeated.
+
+- **Image relevance is curated via a blocklist, not smarter matching.**
+  harvest/image-blocklist.yaml lists source URLs that auto-search pulled
+  in wrongly (Memphis-the-city, Memphis-the-butterfly-genus, AI-generated
+  "surrealism", Goa trance-party photos, "optical" free-text noise for
+  op-art). scripts/prune-blocklisted-images.js removes the records and
+  local files; all three image harvesters skip blocklisted URLs so they
+  cannot return. Blocklisting is a curation judgment, not a factual claim.
+
+- **op-art Commons query set back to `null`.** Both "op art" tokens are
+  under the 4-char relevance-guard threshold, so free-text search noise
+  passes the guard. Needs a human-curated query; V&A + MoMA still supply
+  its imagery.

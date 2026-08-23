@@ -22,6 +22,7 @@ npm run validate         # check all content files (also runs on every commit)
 npm run build:index      # rebuild index/styles.db from YAML
 
 # harvesters (all cached; --refresh to re-hit APIs)
+# ⚠ run ONE at a time — they rewrite content/*.yaml and clobber each other
 node --no-warnings scripts/harvest/reconcile.js      # find AAT/Wikidata ids → mappings.yaml
 node --no-warnings scripts/harvest/getty-aat.js      # scope notes, variants, dates
 node --no-warnings scripts/harvest/wikidata.js       # dates, places, practitioners
@@ -29,6 +30,8 @@ node --no-warnings scripts/harvest/commons-images.js # open-license images (loca
 node --no-warnings scripts/harvest/vam-images.js     # V&A objects (restricted, hotlinked)
 node --no-warnings scripts/harvest/moma-images.js    # MoMA objects (restricted, hotlinked)
 node --no-warnings scripts/coverage-report.js        # → harvest/COVERAGE.md
+node --no-warnings scripts/prune-blocklisted-images.js # drop images listed in
+                                                     # harvest/image-blocklist.yaml
 
 # research ingest
 node --no-warnings scripts/ingest-research.js        # research/inbox → content/drafts
@@ -50,6 +53,9 @@ npm run build             # rebuilds embeddings.json, then site/dist/
   candidate AAT/Wikidata ids.
 - `harvest/image-queries*.yaml` — terms set to `null` need a curated search
   query (their names are too ambiguous for auto-search).
+- `harvest/image-blocklist.yaml` — curated list of never-harvest image URLs;
+  add any irrelevant image's source_url here, then run
+  `scripts/prune-blocklisted-images.js`.
 - `harvest/aat-hierarchy.yaml`, `harvest/wd-relations.yaml` — cross-vocabulary
   relations awaiting your mapping decisions.
 - Cooper Hewitt and Rijksmuseum harvesters need API keys from you.
