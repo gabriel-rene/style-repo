@@ -1,0 +1,252 @@
+id: pop-art
+term_type: style
+status: stub
+names:
+  primary: Pop art
+  variants: []
+summary: null
+external_ids:
+  getty_aat: null
+  wikidata: null
+facets:
+  era:
+    periods: []
+  geography:
+    origin_places: []
+    spread: []
+  lineage:
+    parents: []
+    influences: []
+    influenced: []
+    reacted_against: []
+    revival_of: []
+  production:
+    apparatus: []
+    techniques: []
+  formal_properties:
+    grid_discipline: moderate
+    palette_logic:
+      descriptor: primary
+      note: flat commercial process colors; benday dots
+    contrast: high
+    texture: flat
+    hierarchy: moderate
+    ornament_level: moderate
+  ideological_stance: expressive
+  commercial_context:
+    contexts:
+      - advertising
+      - editorial
+      - music-packaging
+  revival:
+    status: null
+    revivals: []
+  lifecycle:
+    state: null
+    first_observed: null
+    review_due: null
+  practitioners:
+    people: []
+    studios: []
+images:
+  - file: assets/pop-art/GILL_James_519_Pink_Marilyn_2008_.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:GILL,_James,_519_Pink_Marilyn_(2008).jpg
+    license: CC BY 3.0
+    attribution: James Francis Gill
+    rights_status: open
+    caption: "GILL, James (catalogue no. 519): Marilyn Monroe, Pink Marilyn (2008)"
+    depicts: null
+  - file: assets/pop-art/Pintura_em_Pop_Art_para_Elephant_Parade.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Pintura_em_Pop_Art_para_Elephant_Parade.jpg
+    license: CC BY 2.0
+    attribution: Lobo Pop Art, CC BY 2.0, via Wikimedia Commons
+    rights_status: open
+    caption: Artista Lobo faz pintura Pop Art para Elephant Parade
+    depicts: null
+  - file: assets/pop-art/Pop_Artist_Lobo.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Pop_Artist_Lobo.jpg
+    license: CC BY 2.0
+    attribution: Lobo Pop Art, CC BY 2.0, via Wikimedia Commons
+    rights_status: open
+    caption: Pop Artist Lobo
+    depicts: null
+  - file: assets/pop-art/Pop_Art_Cubism_Mind_in_Cave_by_David_S._Soriano.png
+    source_url: https://commons.wikimedia.org/wiki/File:Pop_Art_Cubism_Mind_in_Cave_by_David_S._Soriano.png
+    license: CC BY-SA 4.0
+    attribution: David S. Soriano, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Pop Art Cubism Mind in Cave by David S. Soriano.
+    depicts: null
+  - file: assets/pop-art/Pop_Art_2022_Loved_You_Too.png
+    source_url: https://commons.wikimedia.org/wiki/File:Pop_Art_2022_Loved_You_Too.png
+    license: CC BY-SA 4.0
+    attribution: David S. Soriano, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Pop Art 2022 Loved You Too.
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2021MW2495/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O72161
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Hockney, David, "The Diploma", 1962. © Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: The Diploma, 1962, London
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2011EY3858/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O552682
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Paolozzi, Eduardo (Sir), "Pop Art Redefined", 1971. © Victoria and
+      Albert Museum, London
+    rights_status: restricted
+    caption: Pop Art Redefined, 1971, Britain
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2024NT4901/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O1758561
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Orenstein, Philip, "Orange and silver striped inflatable PVC
+      pillow", 1967. © Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: Orange and silver striped inflatable PVC pillow, 1967, New York
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2006BF3102/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O189164
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Designers Republic, "Very Metal Noise Pollution", 1989. © Victoria
+      and Albert Museum, London
+    rights_status: restricted
+    caption: Very Metal Noise Pollution, 1989, Great Britain
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2006BF3102/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O189272
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Designers Republic, "Very Metal Noise Pollution", 1989. © Victoria
+      and Albert Museum, London
+    rights_status: restricted
+    caption: Very Metal Noise Pollution, 1989, Great Britain
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2006BF3102/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O189271
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Designers Republic, "Very Metal Noise Pollution", 1989. © Victoria
+      and Albert Museum, London
+    rights_status: restricted
+    caption: Very Metal Noise Pollution, 1989, Great Britain
+    depicts: null
+  - file: null
+    remote_image: https://www.moma.org/media/W1siZiIsIjIxMzMxNiJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=b60cf11efe6d095d
+    source_url: https://www.moma.org/collection/works/57875
+    license: "MoMA collection image — rights not cleared for reuse (metadata CC0:
+      https://github.com/MuseumofModernArt/collection)"
+    attribution: Irwin B. Klein, "Super-Pop Artists, Minneapolis, Minnesota", 1964.
+      The Museum of Modern Art, New York (Gift of the artist)
+    rights_status: restricted
+    caption: Super-Pop Artists, Minneapolis, Minnesota. 1964. Gelatin silver print
+    depicts: null
+  - file: null
+    remote_image: https://www.moma.org/media/W1siZiIsIjIwNjI4MCJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=b6eb6049c3033d05
+    source_url: https://www.moma.org/collection/works/65769
+    license: "MoMA collection image — rights not cleared for reuse (metadata CC0:
+      https://github.com/MuseumofModernArt/collection)"
+    attribution: John Wesley, Andy Warhol, James Rosenquist, Peter Phillips, Roy
+      Lichtenstein, Gerald Laing, Allen Jones, Jim Dine, Tom Wesselmann, Allan
+      D'Arcangelo, Mel Ramos, Various Artists, "11 Pop Artists", 1966. The
+      Museum of Modern Art, New York (Gift of Original Editions)
+    rights_status: restricted
+    caption: 11 Pop Artists. 1966. Three volumes of thirty-one screenprints (two
+      with collage additions), and two lithographs
+    depicts: null
+  - file: null
+    remote_image: https://www.moma.org/media/W1siZiIsIjIwNjI4MSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=e59368dbb4f6e6f6
+    source_url: https://www.moma.org/collection/works/65770
+    license: "MoMA collection image — rights not cleared for reuse (metadata CC0:
+      https://github.com/MuseumofModernArt/collection)"
+    attribution: Tom Wesselmann, "Cut Out Nude from 11 Pop Artists, Volume I", 1965,
+      published 1966. The Museum of Modern Art, New York (Gift of Original
+      Editions)
+    rights_status: restricted
+    caption: Cut Out Nude from 11 Pop Artists, Volume I. 1965, published 1966.
+      Screenprint from a portfolio of ten screenprints (one with collage
+      additions), and one lithograph
+    depicts: null
+  - file: null
+    remote_image: https://www.moma.org/media/W1siZiIsIjIwNjI4MiJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=5489854955ebea89
+    source_url: https://www.moma.org/collection/works/65771
+    license: "MoMA collection image — rights not cleared for reuse (metadata CC0:
+      https://github.com/MuseumofModernArt/collection)"
+    attribution: Andy Warhol, "Jacqueline Kennedy I from 11 Pop Artists, Volume I",
+      1965, published 1966. The Museum of Modern Art, New York (Gift of Original
+      Editions)
+    rights_status: restricted
+    caption: Jacqueline Kennedy I from 11 Pop Artists, Volume I. 1965, published
+      1966. Screenprint from a portfolio of ten screenprints (one with collage
+      additions), and one lithograph
+    depicts: null
+  - file: null
+    remote_image: https://www.moma.org/media/W1siZiIsIjIwODY1NiJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=956d7258b22ae0d2
+    source_url: https://www.moma.org/collection/works/65772
+    license: "MoMA collection image — rights not cleared for reuse (metadata CC0:
+      https://github.com/MuseumofModernArt/collection)"
+    attribution: Roy Lichtenstein, "Moonscape from 11 Pop Artists, Volume I", 1965,
+      published 1966. The Museum of Modern Art, New York (Gift of Original
+      Editions)
+    rights_status: restricted
+    caption: Moonscape from 11 Pop Artists, Volume I. 1965, published 1966.
+      Screenprint on moiré Rowlux from a portfolio of ten screenprints (one with
+      collage additions) and one lithograph
+    depicts: null
+  - file: null
+    remote_image: https://www.moma.org/media/W1siZiIsIjIwNTcyNiJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=ca6f3c4ba5eb6782
+    source_url: https://www.moma.org/collection/works/65773
+    license: "MoMA collection image — rights not cleared for reuse (metadata CC0:
+      https://github.com/MuseumofModernArt/collection)"
+    attribution: Allan D'Arcangelo, "Landscape I from 11 Pop Artists, Volume I",
+      1965, published 1966. The Museum of Modern Art, New York (Gift of Original
+      Editions)
+    rights_status: restricted
+    caption: Landscape I from 11 Pop Artists, Volume I. 1965, published 1966.
+      Screenprint from a portfolio of ten screenprints (one with collage
+      additions), and one lithograph
+    depicts: null
+todo:
+  - names.variants
+  - summary
+  - external_ids
+  - facets.era.periods
+  - facets.geography
+  - facets.lineage
+  - facets.lifecycle
+  - facets.practitioners
+provenance:
+  facets.formal_properties:
+    - source: editorial
+      reviewed: false
+  facets.ideological_stance:
+    - source: editorial
+      reviewed: false
+  facets.commercial_context:
+    - source: editorial
+      reviewed: false
+  images:
+    - source: wikimedia-commons
+      url: https://commons.wikimedia.org/w/index.php?search=pop%20art
+      accessed: 2026-08-23
+      note: "query: pop art"
+    - source: vam
+      url: https://api.vam.ac.uk/v2/objects/search?images_exist=1&page_size=20&q=Pop%20art%20print
+      accessed: 2026-08-23
+      note: "query: Pop art print"
+    - source: moma-dataset
+      url: https://github.com/MuseumofModernArt/collection
+      accessed: 2026-08-23
+      note: "title contains: pop art"

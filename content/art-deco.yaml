@@ -150,6 +150,65 @@ images:
       Band, Cs.V. Workshop Band, Atlantis Bear Funeral (Atlantisz Medvetor)
       Performances concert). 1986. Lithograph
     depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2006AL4801/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O1103503
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Bourdelle, Antoine, "Exposition Internationale des Arts Décoratifs,
+      Paris, 1925", 1925. © Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: Exposition Internationale des Arts Décoratifs, Paris, 1925, 1925, France
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2008BT6849/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O192358
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Arthur Sanderson & Sons Ltd., "Print", 1935. © Victoria and Albert
+      Museum, London
+    rights_status: restricted
+    caption: Print, 1935, England
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2006AM3815/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O3059
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Thrower, Frank, "Art Deco", 1967-1981. © Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: Art Deco, 1967-1981, Torrington
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2008BT6986/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O198639
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: M. H. Birge & Sons Co., "Wallpaper", Early 20th century. © Victoria
+      and Albert Museum, London
+    rights_status: restricted
+    caption: Wallpaper, Early 20th century, United States
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2025PG3376/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O175840
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: 'Bonfils, Robert, "Paris, 1925 : Exposition Internationale des Arts
+      Décoratifs", 1925. © Victoria and Albert Museum, London'
+    rights_status: restricted
+    caption: "Paris, 1925 : Exposition Internationale des Arts Décoratifs, 1925, France"
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2008BT6985/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O198637
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: M. H. Birge & Sons Co., "Wallpaper", Early 20th century. © Victoria
+      and Albert Museum, London
+    rights_status: restricted
+    caption: Wallpaper, Early 20th century, United States
+    depicts: null
 
 todo:
   - external_ids

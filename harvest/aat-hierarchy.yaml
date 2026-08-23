@@ -5,6 +5,13 @@ art-deco:
       label: <modern European styles and movements>
   source_url: https://vocab.getty.edu/aat/300021426
   accessed: 2026-08-23
+art-nouveau:
+  aat: aat:300021430
+  parents:
+    - uri: http://vocab.getty.edu/aat/300021424
+      label: <modern European styles and movements>
+  source_url: https://vocab.getty.edu/aat/300021430
+  accessed: 2026-08-23
 bauhaus:
   aat: aat:300021432
   parents:
@@ -12,10 +19,38 @@ bauhaus:
       label: <modern German styles and movements>
   source_url: https://vocab.getty.edu/aat/300021432
   accessed: 2026-08-23
+dada:
+  aat: aat:300021500
+  parents:
+    - uri: http://vocab.getty.edu/aat/300021494
+      label: <modern European fine arts styles and movements>
+  source_url: https://vocab.getty.edu/aat/300021500
+  accessed: 2026-08-23
+de-stijl:
+  aat: aat:300021259
+  parents:
+    - uri: http://vocab.getty.edu/aat/300021258
+      label: <modern Dutch styles and movements>
+  source_url: https://vocab.getty.edu/aat/300021259
+  accessed: 2026-08-23
 memphis:
   aat: aat:300265730
   parents:
     - uri: http://vocab.getty.edu/aat/300111998
       label: <post-1945 architecture and design styles and movements>
   source_url: https://vocab.getty.edu/aat/300265730
+  accessed: 2026-08-23
+op-art:
+  aat: aat:300022195
+  parents:
+    - uri: http://vocab.getty.edu/aat/300134574
+      label: <post-1945 fine arts styles and movements>
+  source_url: https://vocab.getty.edu/aat/300022195
+  accessed: 2026-08-23
+screen-printing:
+  aat: aat:300053281
+  parents:
+    - uri: http://vocab.getty.edu/aat/300053319
+      label: printing (process)
+  source_url: https://vocab.getty.edu/aat/300053281
   accessed: 2026-08-23

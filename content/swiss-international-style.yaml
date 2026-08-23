@@ -129,6 +129,61 @@ images:
     rights_status: restricted
     caption: Cabinet, 1550-1580, South Germany
     depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2007BM9016/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O134386
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Kauffman, Angelica (RA), "Classical Figures", 1770s. © Victoria and
+      Albert Museum, London
+    rights_status: restricted
+    caption: Classical Figures, 1770s, Britain
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2010EA2513/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O282012
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Unknown, "Plate", ca. 1878. © Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: Plate, ca. 1878, Thun
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2010CT5139/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O345117
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Unknown, "Jug", ca. 1878. © Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: Jug, ca. 1878, Thun
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2010EA3135/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O345116
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Unknown, "Jug", ca. 1878. © Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: Jug, ca. 1878, Thun
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2010EA2552/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O337295
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Unknown, "Vase", ca. 1878. © Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: Vase, ca. 1878, Thun
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2010EA2514/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O279873
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Unknown, "Plate", 1878. © Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: Plate, 1878, Thun
+    depicts: null
 
 todo:
   - names.variants

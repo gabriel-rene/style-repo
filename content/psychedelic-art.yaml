@@ -1,0 +1,158 @@
+id: psychedelic-art
+term_type: style
+status: stub
+names:
+  primary: Psychedelic art
+  variants: []
+summary: null
+external_ids:
+  getty_aat: null
+  wikidata: null
+facets:
+  era:
+    periods: []
+  geography:
+    origin_places: []
+    spread: []
+  lineage:
+    parents: []
+    influences: []
+    influenced: []
+    reacted_against: []
+    revival_of: []
+  production:
+    apparatus: []
+    techniques: []
+  formal_properties:
+    grid_discipline: broken
+    palette_logic:
+      descriptor: fluorescent
+      note: vibrating complementary pairs; melted letterforms
+    contrast: high
+    texture: pronounced
+    hierarchy: chaotic
+    ornament_level: maximal
+  ideological_stance: strongly-expressive
+  commercial_context:
+    contexts:
+      - poster
+      - music-packaging
+  revival:
+    status: null
+    revivals: []
+  lifecycle:
+    state: null
+    first_observed: null
+    review_due: null
+  practitioners:
+    people: []
+    studios: []
+images:
+  - file: assets/psychedelic-art/Sun_Ra_Omniverse_Arkestra_1980-10-11_concert_poster_-_Old_Waldorf_San_Francisco_
+    source_url: https://commons.wikimedia.org/wiki/File:Sun_Ra_Omniverse_Arkestra_(1980-10-11_concert_poster_-_Old_Waldorf,_San_Francisco).jpg
+    license: Public domain
+    attribution: 'From bottom right: "Poster design: James McCaffry / Ars Nova
+      Graphic". Based on an uncredited 1973 public domain publicity photo that
+      was likely taken by photographer Francis Ing (see "other versions"
+      below)., Public domain, via Wikimedia Commons'
+    rights_status: open
+    caption: Poster promoting a concert performance of American jazz musician Sun Ra
+      and his band, the Omniverse Arkestra, on October 11, 1980, at the Old
+      Waldorf in San Francisco. The psychedelic design is based on a 1973
+      portrait photo of Sun Ra.
+    depicts: null
+  - file: assets/psychedelic-art/Overriding_the_Psychedelic_Dream_by_David_S._Soriano.png
+    source_url: https://commons.wikimedia.org/wiki/File:Overriding_the_Psychedelic_Dream_by_David_S._Soriano.png
+    license: CC BY-SA 4.0
+    attribution: David S. Soriano, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Overriding the Psychedelic Dream by David S. Soriano.
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2006AY2892/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O108975
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Wilson, Wes, "THEM psychedelic poster no.66", 1966. © Victoria and
+      Albert Museum, London
+    rights_status: restricted
+    caption: THEM psychedelic poster no.66, 1966, United States
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2006AY2198/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O129280
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Unknown, "Piper at the Gates of Dawn", late 1960s. © Victoria and
+      Albert Museum, London
+    rights_status: restricted
+    caption: Piper at the Gates of Dawn, late 1960s, London
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2006AY2287/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O108974
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Wilson, Wes, "Jefferson Airplane psychedelic poster no.41", 1966. ©
+      Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: Jefferson Airplane psychedelic poster no.41, 1966, United States
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2006BC7334/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O195207
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Martin Sharp, "Psychedelic poster for two shows at the Roundhouse
+      UFO", 1967. © Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: Psychedelic poster for two shows at the Roundhouse UFO, 1967, England
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2006AY2196/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O129272
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: English, Michael, "OM.P. Breezes, Brighton", late 1960s. © Victoria
+      and Albert Museum, London
+    rights_status: restricted
+    caption: OM.P. Breezes, Brighton, late 1960s, England
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2015HL3665/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O108997
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Wilson, Wes, "'Van Morrison' psychedelic concert poster No.88-1",
+      1967. © Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: "'Van Morrison' psychedelic concert poster No.88-1, 1967, San Francisco"
+    depicts: null
+todo:
+  - names.variants
+  - summary
+  - external_ids
+  - facets.era.periods
+  - facets.geography
+  - facets.lineage
+  - facets.lifecycle
+  - facets.practitioners
+provenance:
+  facets.formal_properties:
+    - source: editorial
+      reviewed: false
+  facets.ideological_stance:
+    - source: editorial
+      reviewed: false
+  facets.commercial_context:
+    - source: editorial
+      reviewed: false
+  images:
+    - source: wikimedia-commons
+      url: https://commons.wikimedia.org/w/index.php?search=psychedelic%20poster
+      accessed: 2026-08-23
+      note: "query: psychedelic poster"
+    - source: vam
+      url: https://api.vam.ac.uk/v2/objects/search?images_exist=1&page_size=20&q=psychedelic%20poster
+      accessed: 2026-08-23
+      note: "query: psychedelic poster"

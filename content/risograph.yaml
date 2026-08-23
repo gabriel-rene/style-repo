@@ -122,6 +122,66 @@ images:
     rights_status: restricted
     caption: Girls are the future, ca. 2018, London
     depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2023NJ1565/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O1735592
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Ghazal Foroutan, "Rosie the Riveter", 2022. © Victoria and Albert
+      Museum, London
+    rights_status: restricted
+    caption: Rosie the Riveter, 2022, California
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2019LX8835/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O1490119
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Aqui, "If you see something, say somethin", ca. 2018. © Victoria
+      and Albert Museum, London
+    rights_status: restricted
+    caption: If you see something, say somethin, ca. 2018, London
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2026PR3266/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O1508019
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Patrick Caulfield, "Come as a star of a soap opera", c. 1990. ©
+      Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: Come as a star of a soap opera, c. 1990, Britain
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2023NP2458/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O1762813
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Museum of Transology, "Jackie Shane (1940-2019)", February 2023. ©
+      Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: Jackie Shane (1940-2019), February 2023, Britain
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2023NP2462/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O1766429
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Museum of Transology, "April Ashley (1935-2021)", February 2023. ©
+      Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: April Ashley (1935-2021), February 2023, Britain
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2023NP2459/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O1762814
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Museum of Transology, "Sylvia Rivera (1951-2002)", February 2023. ©
+      Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: Sylvia Rivera (1951-2002), February 2023, Britain
+    depicts: null
 
 todo:
   - names.variants

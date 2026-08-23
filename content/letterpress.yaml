@@ -1,0 +1,211 @@
+id: letterpress
+term_type: technique
+status: stub
+names:
+  primary: Letterpress
+  variants: []
+summary: null
+external_ids:
+  getty_aat: null
+  wikidata: null
+facets:
+  era:
+    periods: []
+  geography:
+    origin_places: []
+    spread: []
+  lineage:
+    parents: []
+    influences: []
+    influenced: []
+    reacted_against: []
+    revival_of: []
+  formal_consequences:
+    grid_discipline: not-applicable
+    palette_logic:
+      descriptor: restricted
+      note: one ink per pass; spot colors; physical impression
+    contrast: medium
+    texture: pronounced
+    hierarchy: not-applicable
+    ornament_level: not-applicable
+  commercial_context:
+    contexts:
+      - editorial
+      - poster
+      - self-published
+  revival:
+    status: null
+    revivals: []
+  lifecycle:
+    state: null
+    first_observed: null
+    review_due: null
+  practitioners:
+    people: []
+    studios: []
+images:
+  - file: assets/letterpress/Wood_letterpress_blocks.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Wood_letterpress_blocks.jpg
+    license: CC BY-SA 2.0
+    attribution: Michele M. F., CC BY-SA 2.0, via Wikimedia Commons
+    rights_status: open
+    caption: pile of blocks used for English language letterpress
+    depicts: null
+  - file: assets/letterpress/Letterpress_reglets.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Letterpress_reglets.jpg
+    license: CC BY-SA 4.0
+    attribution: Michellecornelison, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: This image of a case of letterpress reglets was taken at at Yee-Haw
+      Industries in Knoxville, Tennessee.
+    depicts: null
+  - file: assets/letterpress/Wood_letterpress_type.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Wood_letterpress_type.jpg
+    license: CC BY-SA 4.0
+    attribution: Michellecornelison, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: This image of vintage letterpress wood type was taken at at Yee-Haw
+      Industries in Knoxville, Tennessee.
+    depicts: null
+  - file: assets/letterpress/Wood_letterpress_type_and_furniture.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Wood_letterpress_type_and_furniture.jpg
+    license: CC BY-SA 4.0
+    attribution: Michellecornelison, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: This image of vintage letterpress wood type and furniture was taken at
+      at Yee-Haw Industries in Knoxville, Tennessee.
+    depicts: null
+  - file: assets/letterpress/Letterpress_printing_at_Washington_University_in_St._Louis_during_the_2011_SGCI_
+    source_url: https://commons.wikimedia.org/wiki/File:Letterpress_printing_at_Washington_University_in_St._Louis_during_the_2011_SGCI_conference.jpg
+    license: CC BY-SA 4.0
+    attribution: Michellecornelison, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Amos Paul Kennedy, Jr. and others letterpress printing on Vandercook
+      presses at Washington University in St. Louis during the 2011 SGCI
+      conference
+    depicts: null
+  - file: assets/letterpress/Steam-Powered_4-Color_Letterpress_26582090773_.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Steam-Powered_4-Color_Letterpress_(26582090773).jpg
+    license: CC BY 2.0
+    attribution: leighklotz, CC BY 2.0, via Wikimedia Commons
+    rights_status: open
+    caption: Steam-Powered 4-Color Letterpress
+    depicts: null
+  - file: assets/letterpress/Steam-Powered_4-Color_Letterpress_26582091563_.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Steam-Powered_4-Color_Letterpress_(26582091563).jpg
+    license: CC BY 2.0
+    attribution: leighklotz, CC BY 2.0, via Wikimedia Commons
+    rights_status: open
+    caption: Steam-Powered 4-Color Letterpress
+    depicts: null
+  - file: assets/letterpress/Letterpress_posters_by_Amos_Paul_Kennedy_Jr.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Letterpress_posters_by_Amos_Paul_Kennedy_Jr.jpg
+    license: CC BY-SA 4.0
+    attribution: Michellecornelison, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: These event posters were printed during a letterpress printing workshop
+      taught by by Amos Paul Kennedy Jr. at Washington University in St. Louis
+      during the 2011 SGC International conference. Kennedy designed the posters
+      and set the type, and workshop attendees helped print them.
+    depicts: null
+  - file: assets/letterpress/The_Arm_Letterpress_Counter.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:The_Arm_Letterpress_Counter.jpg
+    license: CC BY-SA 4.0
+    attribution: Chive Cream Cheese, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: A photo of a counter in The Arm, a letterpress shop in Brooklyn, New
+      York. Prints are placed in wooden boxes.
+    depicts: null
+  - file: assets/letterpress/Merry_Go_Round_Letterpress_Print.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Merry_Go_Round_Letterpress_Print.jpg
+    license: CC BY 4.0
+    attribution: AlanKitching, CC BY 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Merry Go Round Letterpress Print inspired by the painting by Mark Gertler
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2024NT4966/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O1303311
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Nomad Letterpress, "Choose Letterpress", 2011-2012. © Victoria and
+      Albert Museum, London
+    rights_status: restricted
+    caption: Choose Letterpress, 2011-2012, Britain
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2024NT4965/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O1303310
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Nomad Letterpress, "'If' by Rudyard Kipling (1895)", 2011-2012. ©
+      Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: "'If' by Rudyard Kipling (1895), 2011-2012, Britain"
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2024NT4963/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O1249519
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Nomad Letterpress, "The Whittington Press Open Day", 2012. ©
+      Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: The Whittington Press Open Day, 2012, Britain
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2024NT4964/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O1303309
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Nomad Letterpress, "Health and Safety law", 2011-2012. © Victoria
+      and Albert Museum, London
+    rights_status: restricted
+    caption: Health and Safety law, 2011-2012, Britain
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2025PJ6937/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O1778438
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Emerson, Peter Henry, "In the Barley-Sele", 1887. © Victoria and
+      Albert Museum, London
+    rights_status: restricted
+    caption: In the Barley-Sele, 1887
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2025PJ6936/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O1778436
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Emerson, Peter Henry, "An Autumn Pastoral", 1887. © Victoria and
+      Albert Museum, London
+    rights_status: restricted
+    caption: An Autumn Pastoral, 1887
+    depicts: null
+todo:
+  - names.variants
+  - summary
+  - external_ids
+  - facets.era.periods
+  - facets.geography
+  - facets.lineage
+  - facets.lifecycle
+  - facets.practitioners
+provenance:
+  facets.formal_consequences:
+    - source: editorial
+      reviewed: false
+  facets.commercial_context:
+    - source: editorial
+      reviewed: false
+  images:
+    - source: wikimedia-commons
+      url: https://commons.wikimedia.org/w/index.php?search=letterpress%20printing
+      accessed: 2026-08-23
+      note: "query: letterpress printing"
+    - source: vam
+      url: https://api.vam.ac.uk/v2/objects/search?images_exist=1&page_size=20&q=letterpress
+      accessed: 2026-08-23
+      note: "query: letterpress"

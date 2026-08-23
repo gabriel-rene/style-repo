@@ -1,0 +1,251 @@
+id: op-art
+term_type: style
+status: stub
+names:
+  primary: Op art
+  variants:
+    - Abstract, Perceptual
+    - Art Cinétique
+    - art, Op
+    - art, Optical
+    - Art, Retinal
+    - Art Visuel
+    - Op (Op art)
+    - Optical (Op art)
+    - Optical art
+    - Perceptual Abstract
+    - Retinal Art
+summary: Refers to the international art movement that flourished in Europe and
+  America in the mid-1960s. The style is charcterized by the careful
+  manipulation of bold, sharply contrasting shapes and colors in order to create
+  vitural movement, vibration, or chromatic tension.
+external_ids:
+  getty_aat: aat:300022195
+  wikidata: null
+facets:
+  era:
+    periods: []
+  geography:
+    origin_places: []
+    spread: []
+  lineage:
+    parents: []
+    influences: []
+    influenced: []
+    reacted_against: []
+    revival_of: []
+  production:
+    apparatus: []
+    techniques: []
+  formal_properties:
+    grid_discipline: strict
+    palette_logic:
+      descriptor: monochrome
+      note: high-frequency black/white; some chromatic pairs
+    contrast: high
+    texture: pronounced
+    hierarchy: flat
+    ornament_level: minimal
+  ideological_stance: mixed
+  commercial_context:
+    contexts:
+      - poster
+      - fashion
+      - editorial
+  revival:
+    status: null
+    revivals: []
+  lifecycle:
+    state: null
+    first_observed: null
+    review_due: null
+  practitioners:
+    people: []
+    studios: []
+images:
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2025PH9545/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O133328
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Biba, "Mini-dress", 1965. © Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: Mini-dress, 1965, London
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2014GW4753/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O1274994
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Shumer, Joel, "No More Hiroshimas", ca. 1980. © Victoria and Albert
+      Museum, London
+    rights_status: restricted
+    caption: No More Hiroshimas, ca. 1980, Manchester
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2008BT4422/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O147891
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Scott Paper Company, "Dress", 1966. © Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: Dress, 1966, United States
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2026PN8204/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O1818294
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: '"Op de lucht", 1990. © Victoria and Albert Museum, London'
+    rights_status: restricted
+    caption: Op de lucht, 1990, Enschede
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2026PN4284/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O1313265
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Hulme Community Arts Co-op, "Hulme Carnival 1987", 1987. © Victoria
+      and Albert Museum, London
+    rights_status: restricted
+    caption: Hulme Carnival 1987, 1987, Britain
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2021MX2971/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O1507890
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Gordinne, "Op verkenning", late 19th century - early 20th century.
+      © Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: Op verkenning, late 19th century - early 20th century, Liège (city)
+    depicts: null
+  - file: null
+    remote_image: https://www.moma.org/media/W1siZiIsIjIxMzMxNiJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=b60cf11efe6d095d
+    source_url: https://www.moma.org/collection/works/57875
+    license: "MoMA collection image — rights not cleared for reuse (metadata CC0:
+      https://github.com/MuseumofModernArt/collection)"
+    attribution: Irwin B. Klein, "Super-Pop Artists, Minneapolis, Minnesota", 1964.
+      The Museum of Modern Art, New York (Gift of the artist)
+    rights_status: restricted
+    caption: Super-Pop Artists, Minneapolis, Minnesota. 1964. Gelatin silver print
+    depicts: null
+  - file: null
+    remote_image: https://www.moma.org/media/W1siZiIsIjIwNjI4MCJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=b6eb6049c3033d05
+    source_url: https://www.moma.org/collection/works/65769
+    license: "MoMA collection image — rights not cleared for reuse (metadata CC0:
+      https://github.com/MuseumofModernArt/collection)"
+    attribution: John Wesley, Andy Warhol, James Rosenquist, Peter Phillips, Roy
+      Lichtenstein, Gerald Laing, Allen Jones, Jim Dine, Tom Wesselmann, Allan
+      D'Arcangelo, Mel Ramos, Various Artists, "11 Pop Artists", 1966. The
+      Museum of Modern Art, New York (Gift of Original Editions)
+    rights_status: restricted
+    caption: 11 Pop Artists. 1966. Three volumes of thirty-one screenprints (two
+      with collage additions), and two lithographs
+    depicts: null
+  - file: null
+    remote_image: https://www.moma.org/media/W1siZiIsIjIwNjI4MSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=e59368dbb4f6e6f6
+    source_url: https://www.moma.org/collection/works/65770
+    license: "MoMA collection image — rights not cleared for reuse (metadata CC0:
+      https://github.com/MuseumofModernArt/collection)"
+    attribution: Tom Wesselmann, "Cut Out Nude from 11 Pop Artists, Volume I", 1965,
+      published 1966. The Museum of Modern Art, New York (Gift of Original
+      Editions)
+    rights_status: restricted
+    caption: Cut Out Nude from 11 Pop Artists, Volume I. 1965, published 1966.
+      Screenprint from a portfolio of ten screenprints (one with collage
+      additions), and one lithograph
+    depicts: null
+  - file: null
+    remote_image: https://www.moma.org/media/W1siZiIsIjIwNjI4MiJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=5489854955ebea89
+    source_url: https://www.moma.org/collection/works/65771
+    license: "MoMA collection image — rights not cleared for reuse (metadata CC0:
+      https://github.com/MuseumofModernArt/collection)"
+    attribution: Andy Warhol, "Jacqueline Kennedy I from 11 Pop Artists, Volume I",
+      1965, published 1966. The Museum of Modern Art, New York (Gift of Original
+      Editions)
+    rights_status: restricted
+    caption: Jacqueline Kennedy I from 11 Pop Artists, Volume I. 1965, published
+      1966. Screenprint from a portfolio of ten screenprints (one with collage
+      additions), and one lithograph
+    depicts: null
+  - file: null
+    remote_image: https://www.moma.org/media/W1siZiIsIjIwODY1NiJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=956d7258b22ae0d2
+    source_url: https://www.moma.org/collection/works/65772
+    license: "MoMA collection image — rights not cleared for reuse (metadata CC0:
+      https://github.com/MuseumofModernArt/collection)"
+    attribution: Roy Lichtenstein, "Moonscape from 11 Pop Artists, Volume I", 1965,
+      published 1966. The Museum of Modern Art, New York (Gift of Original
+      Editions)
+    rights_status: restricted
+    caption: Moonscape from 11 Pop Artists, Volume I. 1965, published 1966.
+      Screenprint on moiré Rowlux from a portfolio of ten screenprints (one with
+      collage additions) and one lithograph
+    depicts: null
+  - file: null
+    remote_image: https://www.moma.org/media/W1siZiIsIjIwNTcyNiJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=ca6f3c4ba5eb6782
+    source_url: https://www.moma.org/collection/works/65773
+    license: "MoMA collection image — rights not cleared for reuse (metadata CC0:
+      https://github.com/MuseumofModernArt/collection)"
+    attribution: Allan D'Arcangelo, "Landscape I from 11 Pop Artists, Volume I",
+      1965, published 1966. The Museum of Modern Art, New York (Gift of Original
+      Editions)
+    rights_status: restricted
+    caption: Landscape I from 11 Pop Artists, Volume I. 1965, published 1966.
+      Screenprint from a portfolio of ten screenprints (one with collage
+      additions), and one lithograph
+    depicts: null
+  - file: assets/op-art/2016_Henrique_Matos_Optical_Motion_VII_02.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:2016_Henrique_Matos_Optical_Motion_VII_02.jpg
+    license: CC BY-SA 4.0
+    attribution: Henrique José Teixeira Matos, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Optical Motion VII - Journey into Space
+    depicts: null
+todo:
+  - external_ids
+  - facets.era.periods
+  - facets.geography
+  - facets.lineage
+  - facets.lifecycle
+  - facets.practitioners
+provenance:
+  facets.formal_properties:
+    - source: editorial
+      reviewed: false
+  facets.ideological_stance:
+    - source: editorial
+      reviewed: false
+  facets.commercial_context:
+    - source: editorial
+      reviewed: false
+  external_ids.getty_aat:
+    - source: getty-aat
+      url: https://vocab.getty.edu/aat/300022195
+      accessed: 2026-08-23
+      method: exact-label-match
+  summary:
+    - source: getty-aat
+      url: https://vocab.getty.edu/aat/300022195
+      accessed: 2026-08-23
+  names.variants:
+    - source: getty-aat
+      url: https://vocab.getty.edu/aat/300022195
+      accessed: 2026-08-23
+  images:
+    - source: wikimedia-commons
+      url: https://commons.wikimedia.org/w/index.php?search=op%20art
+      accessed: 2026-08-23
+      note: "query: op art"
+    - source: vam
+      url: https://api.vam.ac.uk/v2/objects/search?images_exist=1&page_size=20&q=Op%20art
+      accessed: 2026-08-23
+      note: "query: Op art"
+    - source: moma-dataset
+      url: https://github.com/MuseumofModernArt/collection
+      accessed: 2026-08-23
+      note: "title contains: op art"
+    - source: wikimedia-commons
+      url: https://commons.wikimedia.org/w/index.php?search=optical%20art%20painting
+      accessed: 2026-08-23
+      note: "query: optical art painting"

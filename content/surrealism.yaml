@@ -1,0 +1,231 @@
+id: surrealism
+term_type: movement
+status: stub
+names:
+  primary: Surrealism
+  variants: []
+summary: null
+external_ids:
+  getty_aat: null
+  wikidata: null
+facets:
+  era:
+    periods: []
+  geography:
+    origin_places: []
+    spread: []
+  lineage:
+    parents: []
+    influences: []
+    influenced: []
+    reacted_against: []
+    revival_of: []
+  production:
+    apparatus: []
+    techniques: []
+  formal_properties:
+    grid_discipline: loose
+    palette_logic:
+      descriptor: full-spectrum
+      note: null
+    contrast: medium
+    texture: pronounced
+    hierarchy: moderate
+    ornament_level: moderate
+  ideological_stance: strongly-expressive
+  commercial_context:
+    contexts:
+      - editorial
+      - advertising
+      - poster
+  revival:
+    status: null
+    revivals: []
+  lifecycle:
+    state: null
+    first_observed: null
+    review_due: null
+  practitioners:
+    people: []
+    studios: []
+images:
+  - file: assets/surrealism/Flow_My_Tears_John_Frum_Said_-_Painting_by_Leigh_Cooney.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Flow_My_Tears_John_Frum_Said_-_Painting_by_Leigh_Cooney.jpg
+    license: CC BY-SA 4.0
+    attribution: Leighcooney, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: John Frum appears frequently as a character in the paintings of Leigh
+      Cooney. This piece titled "Flow My Tears, John Fruma Said" features
+      Cooney's interpretation of John Frum as a Christ Figure to represent the
+      absurdity of turning to Gods as a source of answers for aspects of life we
+      don't understa
+    depicts: null
+  - file: assets/surrealism/DRAWING_SURREALISM_exhibition_2012_at_the_Los_Angeles_County_Museum_of_Art_LACMA
+    source_url: https://commons.wikimedia.org/wiki/File:DRAWING_SURREALISM_exhibition_2012_at_the_Los_Angeles_County_Museum_of_Art_(LACMA).jpg
+    license: CC BY-SA 4.0
+    attribution: Fontanal, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: DRAWING SURREALISM exhibition 2012 at the Los Angeles County Museum of
+      Art (LACMA), U.S.A, included Kansuke Yamamoto works, text by Leslie Jone.
+      （右）山本悍右作品 1938年
+    depicts: null
+  - file: assets/surrealism/Surrealism_2022_Death_Valley_by_David_S._Soriano.png
+    source_url: https://commons.wikimedia.org/wiki/File:Surrealism_2022_Death_Valley_by_David_S._Soriano.png
+    license: CC BY-SA 4.0
+    attribution: David S. Soriano, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Surrealism 2022 Death Valley by David S. Soriano.
+    depicts: null
+  - file: assets/surrealism/EU2024BE_240417_Exhibition_Histoire_de_ne_pas_rire._Surrealism_in_Belgium_-_69.j
+    source_url: https://commons.wikimedia.org/wiki/File:EU2024BE_240417_Exhibition_%27Histoire_de_ne_pas_rire._Surrealism_in_Belgium%27_-_69.jpg
+    license: CC BY 2.0
+    attribution: belgium24.eu, CC BY 2.0, via Wikimedia Commons
+    rights_status: open
+    caption: © Belgian Presidency of the Council of the European Union / Julien Nizet
+    depicts: null
+  - file: assets/surrealism/EU2024BE_240417_Exhibition_Histoire_de_ne_pas_rire._Surrealism_in_Belgium_-_72.j
+    source_url: https://commons.wikimedia.org/wiki/File:EU2024BE_240417_Exhibition_%27Histoire_de_ne_pas_rire._Surrealism_in_Belgium%27_-_72.jpg
+    license: CC BY 2.0
+    attribution: belgium24.eu, CC BY 2.0, via Wikimedia Commons
+    rights_status: open
+    caption: © Belgian Presidency of the Council of the European Union / Julien Nizet
+    depicts: null
+  - file: assets/surrealism/EU2024BE_240417_Exhibition_Histoire_de_ne_pas_rire._Surrealism_in_Belgium_-_75.j
+    source_url: https://commons.wikimedia.org/wiki/File:EU2024BE_240417_Exhibition_%27Histoire_de_ne_pas_rire._Surrealism_in_Belgium%27_-_75.jpg
+    license: CC BY 2.0
+    attribution: belgium24.eu, CC BY 2.0, via Wikimedia Commons
+    rights_status: open
+    caption: © Belgian Presidency of the Council of the European Union / Julien Nizet
+    depicts: null
+  - file: assets/surrealism/EU2024BE_240417_Exhibition_Histoire_de_ne_pas_rire._Surrealism_in_Belgium_-_76.j
+    source_url: https://commons.wikimedia.org/wiki/File:EU2024BE_240417_Exhibition_%27Histoire_de_ne_pas_rire._Surrealism_in_Belgium%27_-_76.jpg
+    license: CC BY 2.0
+    attribution: belgium24.eu, CC BY 2.0, via Wikimedia Commons
+    rights_status: open
+    caption: © Belgian Presidency of the Council of the European Union / Julien Nizet
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2025PG8824/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O1747403
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Biddle, Paul, "Untitled surreal composition", ca. 1990. © Victoria
+      and Albert Museum, London
+    rights_status: restricted
+    caption: Untitled surreal composition, ca. 1990
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2025PG8828/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O1747407
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Biddle, Paul, "Untitled surreal composition", ca. 1990. © Victoria
+      and Albert Museum, London
+    rights_status: restricted
+    caption: Untitled surreal composition, ca. 1990
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2013GU9522/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O1277128
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Angus McBean, "Surreal portrait of Diana Churchill", 1940. ©
+      Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: Surreal portrait of Diana Churchill, 1940, Great Britain
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2013GU9514/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O1277114
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Angus McBean, "Surreal portrait of Diana Churchill", 1940. ©
+      Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: Surreal portrait of Diana Churchill, 1940, Great Britain
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2011ET3784/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O189771
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Unknown, "Surrealism", 1988. © Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: Surrealism, 1988, London
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2025PD1125/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O1069051
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: John Banting, "Discussing Dress", 1937. © Victoria and Albert
+      Museum, London
+    rights_status: restricted
+    caption: Discussing Dress, 1937, Great Britain
+    depicts: null
+  - file: null
+    remote_image: https://www.moma.org/media/W1siZiIsIjMyNzk1MyJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=698691399d51a111
+    source_url: https://www.moma.org/collection/works/35287
+    license: "MoMA collection image — rights not cleared for reuse (metadata CC0:
+      https://github.com/MuseumofModernArt/collection)"
+    attribution: Louis Soutter, "Surrealism (Surréalisme)", n.d.. The Museum of
+      Modern Art, New York (Gift of the artist)
+    rights_status: restricted
+    caption: Surrealism (Surréalisme). n.d.. Oil on board
+    depicts: null
+  - file: null
+    remote_image: https://www.moma.org/media/W1siZiIsIjMxMDIzNSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=1cb1a8d40d9b621e
+    source_url: https://www.moma.org/collection/works/36973
+    license: "MoMA collection image — rights not cleared for reuse (metadata CC0:
+      https://github.com/MuseumofModernArt/collection)"
+    attribution: Max Ernst, "Maternity (Study for Surrealism and Painting)", 1942.
+      The Museum of Modern Art, New York (Given anonymously in memory of William
+      B. Jaffe)
+    rights_status: restricted
+    caption: Maternity (Study for Surrealism and Painting). 1942. Pencil and chalk
+      on colored paper
+    depicts: null
+  - file: null
+    remote_image: https://www.moma.org/media/W1siZiIsIjIxODcxNyJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=f7c4d380ec13f697
+    source_url: https://www.moma.org/collection/works/61332
+    license: "MoMA collection image — rights not cleared for reuse (metadata CC0:
+      https://github.com/MuseumofModernArt/collection)"
+    attribution: Joan Miró, "Poster for International Exhibition of Surrealism
+      (Exhibition internationale du surréalisme)", 1947. The Museum of Modern
+      Art, New York (Given anonymously)
+    rights_status: restricted
+    caption: Poster for International Exhibition of Surrealism (Exhibition
+      internationale du surréalisme). 1947. Lithograph
+    depicts: null
+todo:
+  - names.variants
+  - summary
+  - external_ids
+  - facets.era.periods
+  - facets.geography
+  - facets.lineage
+  - facets.lifecycle
+  - facets.practitioners
+provenance:
+  facets.formal_properties:
+    - source: editorial
+      reviewed: false
+  facets.ideological_stance:
+    - source: editorial
+      reviewed: false
+  facets.commercial_context:
+    - source: editorial
+      reviewed: false
+  images:
+    - source: wikimedia-commons
+      url: https://commons.wikimedia.org/w/index.php?search=surrealism%20painting
+      accessed: 2026-08-23
+      note: "query: surrealism painting"
+    - source: vam
+      url: https://api.vam.ac.uk/v2/objects/search?images_exist=1&page_size=20&q=Surrealism%20print
+      accessed: 2026-08-23
+      note: "query: Surrealism print"
+    - source: moma-dataset
+      url: https://github.com/MuseumofModernArt/collection
+      accessed: 2026-08-23
+      note: "title contains: surrealism"

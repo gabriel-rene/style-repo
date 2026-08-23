@@ -1,0 +1,251 @@
+id: art-nouveau
+term_type: style
+status: stub
+names:
+  primary: Art Nouveau
+  variants: []
+summary: Refers generally to the style of painting, architecture, decorative
+  arts, and applied arts that flourished in Europe and the United States from
+  about 1890 to 1910. The style is characterized by an emphasis on fluid,
+  undulating, or serpentine lines or contours based on organic forms and the use
+  of modern materials such as iron and glass. The style developed as regional
+  variations under various names.
+external_ids:
+  getty_aat: aat:300021430
+  wikidata: null
+facets:
+  era:
+    periods: []
+  geography:
+    origin_places: []
+    spread: []
+  lineage:
+    parents: []
+    influences: []
+    influenced: []
+    reacted_against: []
+    revival_of: []
+  production:
+    apparatus: []
+    techniques: []
+  formal_properties:
+    grid_discipline: loose
+    palette_logic:
+      descriptor: restricted
+      note: organic secondary tones; muted naturals
+    contrast: medium
+    texture: pronounced
+    hierarchy: moderate
+    ornament_level: maximal
+  ideological_stance: strongly-expressive
+  commercial_context:
+    contexts:
+      - poster
+      - advertising
+      - architecture
+      - editorial
+  revival:
+    status: null
+    revivals: []
+  lifecycle:
+    state: null
+    first_observed: null
+    review_due: null
+  practitioners:
+    people: []
+    studios: []
+images:
+  - file: assets/art-nouveau/BLW_Poster-_Victor_Bicycles_.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:BLW_Poster-_%27Victor_Bicycles%27.jpg
+    license: CC BY-SA 2.0 uk
+    attribution: Valerie McGlinchey
+    rights_status: open
+    caption: "Poster: 'Victor Bicycles' 1896 American graphic designers of the
+      1890\\'s were greatly influenced by European poster design. Commercial
+      manufacturers commissioned posters for billboards and locations such as
+      streetcars. Graphic advertising quickly became an industry. This poster by
+      Will H. Bradley, o"
+    depicts: null
+  - file: assets/art-nouveau/Art_Nouveau_Week_poster.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Art_Nouveau_Week_poster.jpg
+    license: CC BY-SA 4.0
+    attribution: Sporteditorfast, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Art Nouveau Week l
+    depicts: null
+  - file: assets/art-nouveau/Art_nouveau_-_Salon_Cent_Rassenfosse.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Art_nouveau_-_Salon_Cent_Rassenfosse.jpg
+    license: CC BY-SA 4.0
+    attribution: Credits to Mourad Ben Abdallah / Wikimedia Commons, CC BY-SA 4.0,
+      via Wikimedia Commons
+    rights_status: open
+    caption: Salon des Cent - Nouvelle exposition d'ensemble (1896) par Armand
+      Rassenfosse dans l'exposition La Belle Époque de l’Art nouveau au musée de
+      Pully
+    depicts: null
+  - file: assets/art-nouveau/Art_nouveau_-_Lembr_e.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Art_nouveau_-_Lembr%C3%A9e.jpg
+    license: CC BY-SA 4.0
+    attribution: Credits to Mourad Ben Abdallah / Wikimedia Commons, CC BY-SA 4.0,
+      via Wikimedia Commons
+    rights_status: open
+    caption: N. Lembrée, encadrements (1897) par Théo Van Rysselberghe dans
+      l'exposition La Belle Époque de l’Art nouveau au musée de Pully
+    depicts: null
+  - file: assets/art-nouveau/Art_nouveau_-_Chemins_fer_Ouest.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Art_nouveau_-_Chemins_fer_Ouest.jpg
+    license: CC BY-SA 4.0
+    attribution: Credits to Mourad Ben Abdallah / Wikimedia Commons, CC BY-SA 4.0,
+      via Wikimedia Commons
+    rights_status: open
+    caption: Chemins de fer de l'Ouest (1900) par Théophile Alexandre Steinlen dans
+      l'exposition La Belle Époque de l’Art nouveau au musée de Pully
+    depicts: null
+  - file: assets/art-nouveau/Art_nouveau_-_Flirt_biscuits.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Art_nouveau_-_Flirt_biscuits.jpg
+    license: CC BY-SA 4.0
+    attribution: Credits to Mourad Ben Abdallah / Wikimedia Commons, CC BY-SA 4.0,
+      via Wikimedia Commons
+    rights_status: open
+    caption: Flirt biscuits (vers 1899) par Alphonse Mucha dans l'exposition La
+      Belle Époque de l’Art nouveau au musée de Pully
+    depicts: null
+  - file: assets/art-nouveau/Art_nouveau_-_Tosca.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Art_nouveau_-_Tosca.jpg
+    license: CC BY-SA 4.0
+    attribution: Credits to Mourad Ben Abdallah / Wikimedia Commons, CC BY-SA 4.0,
+      via Wikimedia Commons
+    rights_status: open
+    caption: La Tosca (1898) par Alphonse Mucha dans l'exposition La Belle Époque de
+      l’Art nouveau au musée de Pully
+    depicts: null
+  - file: assets/art-nouveau/Art_Nouveau_poster_for_the_Peonaru_Co_Cellarage_Bucharest_Calea_Victoriei_no._97
+    source_url: https://commons.wikimedia.org/wiki/File:Art_Nouveau_poster_for_the_Peonaru_%26_Co_Cellarage,_Bucharest,_Calea_Victoriei_no._97.jpg
+    license: Public domain
+    attribution: Unknown, Public domain, via Wikimedia Commons
+    rights_status: open
+    caption: Art Nouveau poster for the Peonaru &amp; Co Cellarage, Bucharest, Calea
+      Victoriei no. 97
+    depicts: null
+  - file: assets/art-nouveau/Art_nouveau_poster_33253014395_.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Art_nouveau_poster_(33253014395).jpg
+    license: CC BY 2.0
+    attribution: Thomas Quine, CC BY 2.0, via Wikimedia Commons
+    rights_status: open
+    caption: Brussels 2015
+    depicts: null
+  - file: assets/art-nouveau/1939_art_nouveau_poster_32975179600_.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:1939_art_nouveau_poster_(32975179600).jpg
+    license: CC BY 2.0
+    attribution: Thomas Quine, CC BY 2.0, via Wikimedia Commons
+    rights_status: open
+    caption: Brussels 2015
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2014HH0932/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O74626
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Brangwyn, Frank William (Sir, RA), "'L'Art Nouveau'", 1899. ©
+      Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: "'L'Art Nouveau', 1899, London"
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2006AK1288/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O89924
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Hohenstein, Adolf, "Cloisonné Artistic Glass", 1899. © Victoria and
+      Albert Museum, London
+    rights_status: restricted
+    caption: Cloisonné Artistic Glass, 1899, Milan
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2012FE8082/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O102397
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: David Lance Goines, "The Antique Guild", ca. 1976. © Victoria and
+      Albert Museum, London
+    rights_status: restricted
+    caption: The Antique Guild, ca. 1976, United States
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2014HH0475/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O1192539
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Unknown, "Poster", 1898. © Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: Poster, 1898, Great Britain
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2025PB9747/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O731837
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Jan Toorop, "Delftsche Slaolie", 1894. © Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: Delftsche Slaolie, 1894, Holland
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2020MM1623/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O1029937
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Mucha, Alphonse, "Société Populaire des Beaux-Arts", 1897. ©
+      Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: Société Populaire des Beaux-Arts, 1897, France
+    depicts: null
+  - file: null
+    remote_image: https://www.moma.org/media/W1siZiIsIjUxOTYzOCJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=bb881ff84187bccb
+    source_url: https://www.moma.org/collection/works/5687
+    license: "MoMA collection image — rights not cleared for reuse (metadata CC0:
+      https://github.com/MuseumofModernArt/collection)"
+    attribution: Frank Brangwyn, "L'Art Nouveau, Grafton Galleries", 1898. The
+      Museum of Modern Art, New York (Gift of Erwin Swann)
+    rights_status: restricted
+    caption: L'Art Nouveau, Grafton Galleries. 1898. Lithograph
+    depicts: null
+todo:
+  - names.variants
+  - external_ids
+  - facets.era.periods
+  - facets.geography
+  - facets.lineage
+  - facets.lifecycle
+  - facets.practitioners
+provenance:
+  facets.formal_properties:
+    - source: editorial
+      reviewed: false
+  facets.ideological_stance:
+    - source: editorial
+      reviewed: false
+  facets.commercial_context:
+    - source: editorial
+      reviewed: false
+  external_ids.getty_aat:
+    - source: getty-aat
+      url: https://vocab.getty.edu/aat/300021430
+      accessed: 2026-08-23
+      method: exact-label-match
+  summary:
+    - source: getty-aat
+      url: https://vocab.getty.edu/aat/300021430
+      accessed: 2026-08-23
+  images:
+    - source: wikimedia-commons
+      url: https://commons.wikimedia.org/w/index.php?search=Art%20Nouveau%20poster
+      accessed: 2026-08-23
+      note: "query: Art Nouveau poster"
+    - source: vam
+      url: https://api.vam.ac.uk/v2/objects/search?images_exist=1&page_size=20&q=Art%20Nouveau%20poster
+      accessed: 2026-08-23
+      note: "query: Art Nouveau poster"
+    - source: moma-dataset
+      url: https://github.com/MuseumofModernArt/collection
+      accessed: 2026-08-23
+      note: "title contains: art nouveau"

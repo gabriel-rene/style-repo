@@ -1,0 +1,302 @@
+id: de-stijl
+term_type: movement
+status: stub
+names:
+  primary: De Stijl
+  variants:
+    - Stijl, De
+summary: Refers to the Dutch artistic movement and periodical of the same name,
+  founded by Theo Van Doesenburg in 1917 and lasting until the early 1930s.  The
+  movement advocated the use of pure abstract form to express the universal in
+  art.  De Stijl theories formed the basis for the art style known as
+  Neo-Plasticism.
+external_ids:
+  getty_aat: aat:300021259
+  wikidata: null
+facets:
+  era:
+    periods: []
+  geography:
+    origin_places: []
+    spread: []
+  lineage:
+    parents: []
+    influences: []
+    influenced: []
+    reacted_against: []
+    revival_of: []
+  production:
+    apparatus: []
+    techniques: []
+  formal_properties:
+    grid_discipline: strict
+    palette_logic:
+      descriptor: primary
+      note: primaries plus black and white only
+    contrast: high
+    texture: flat
+    hierarchy: strict
+    ornament_level: none
+  ideological_stance: strongly-rationalist
+  commercial_context:
+    contexts:
+      - architecture
+      - product
+      - editorial
+  revival:
+    status: null
+    revivals: []
+  lifecycle:
+    state: null
+    first_observed: null
+    review_due: null
+  practitioners:
+    people: []
+    studios: []
+images:
+  - file: assets/de-stijl/Stijl_vol_04_nr_08_p_124.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Stijl_vol_04_nr_08_p_124.jpg
+    license: Public domain
+    attribution: Theo van Doesburg (1883-1931), Public domain, via Wikimedia Commons
+    rights_status: open
+    caption: "Manifest III. Zur neuen weltgestaltung [1]. From / afkomstig uit De
+      Stijl, vol. 4, nr. 8 (August 1921): p. 124."
+    depicts: null
+  - file: assets/de-stijl/Stijl_vol_04_nr_08_p_125.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Stijl_vol_04_nr_08_p_125.jpg
+    license: Public domain
+    attribution: Theo van Doesburg (1883-1931), Public domain, via Wikimedia Commons
+    rights_status: open
+    caption: "Manifest III. Zur neuen weltgestaltung [2]. From / afkomstig uit De
+      Stijl, vol. 4, nr. 8 (August 1921): p. 125."
+    depicts: null
+  - file: assets/de-stijl/Stijl_vol_07_nr_79-84_front_cover.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Stijl_vol_07_nr_79-84_front_cover.jpg
+    license: Public domain
+    attribution: Anonymous (photographer), Theo van Doesburg (typography), Public
+      domain, via Wikimedia Commons
+    rights_status: open
+    caption: Front cover of the Tenth Anniversary issue of De Stijl, vol. 7, nr. 79/84.
+    depicts: null
+  - file: assets/de-stijl/De_Stijl_-_vierde_jaargang_1921_001.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:De_Stijl_-_vierde_jaargang_1921_001.jpg
+    license: Public domain
+    attribution: Theo van Doesburg / Piet Mondrian, Public domain, via Wikimedia Commons
+    rights_status: open
+    caption: Tijdschrift "De Stijl", vierde jaargang 1921
+    depicts: null
+  - file: assets/de-stijl/Stijl_vol_05_nr_08_front_cover.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Stijl_vol_05_nr_08_front_cover.jpg
+    license: Public domain
+    attribution: Theo van Doesburg and Piet Mondriaan, Public domain, via Wikimedia Commons
+    rights_status: open
+    caption: De Stijl, 5e jaargang, nummer 4.
+    depicts: null
+  - file: assets/de-stijl/Stijl_vol_03_nr_08_p_070.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Stijl_vol_03_nr_08_p_070.jpg
+    license: Public domain
+    attribution: Theo van Doesburg, Public domain, via Wikimedia Commons
+    rights_status: open
+    caption: De Stijl, jaargang 3, nummer 8, p. 70.
+    depicts: null
+  - file: assets/de-stijl/Alkmaar_-_Wilhelminalaan_-_Villa_De_Lange_1917_by_Jan_Wils_member_of_De_Stijl_18
+    source_url: https://commons.wikimedia.org/wiki/File:Alkmaar_-_Wilhelminalaan_-_Villa_De_Lange_1917_by_Jan_Wils_(member_of_%27De_Stijl%27)_1891-1972.jpg
+    license: CC BY-SA 4.0
+    attribution: Txllxt TxllxT, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Alkmaar - Wilhelminalaan - Villa De Lange 1917 by Jan Wils (member of
+      'De Stijl') 1891-1972
+    depicts: null
+  - file: assets/de-stijl/Typography_for_De_Stijl_volumes_1_to_3_by_Theo_van_Doesburg_Centraal_Museum_AB49
+    source_url: https://commons.wikimedia.org/wiki/File:Typography_for_De_Stijl_volumes_1_to_3_by_Theo_van_Doesburg_Centraal_Museum_AB4943.jpg
+    license: Public domain
+    attribution: Unknown author, Public domain, via Wikimedia Commons
+    rights_status: open
+    caption: null
+    depicts: null
+  - file: assets/de-stijl/Linen_Binder_for_De_Stijl_by_Theo_van_Doesburg_Centraal_Museum_AB5947.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Linen_Binder_for_De_Stijl_by_Theo_van_Doesburg_Centraal_Museum_AB5947.jpg
+    license: Public domain
+    attribution: Unknown author, Public domain, via Wikimedia Commons
+    rights_status: open
+    caption: null
+    depicts: null
+  - file: assets/de-stijl/Stijl_vol_01_nr_12_p_150.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Stijl_vol_01_nr_12_p_150.jpg
+    license: Public domain
+    attribution: AnonymousUnknown author, Public domain, via Wikimedia Commons
+    rights_status: open
+    caption: De Stijl, oktober 1918.
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2023NJ5519/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O89395
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Rietveld, Gerrit Thomas, "Bolderwagen", 1918. © Victoria and Albert
+      Museum, London
+    rights_status: restricted
+    caption: Bolderwagen, 1918, Netherlands
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2019MB3220/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O198683
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Aldus, John, "Rietveld Schröder House", 2002. © Victoria and Albert
+      Museum, London
+    rights_status: restricted
+    caption: Rietveld Schröder House, 2002, England
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2009CR7306/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O166699
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Rietveld, Gerrit Thomas, "High chair", 1920. © Victoria and Albert
+      Museum, London
+    rights_status: restricted
+    caption: High chair, 1920, Netherlands
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2006AU9915/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O58657
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Breuer, Marcel Lajos, "Wooden armchair", 1922. © Victoria and
+      Albert Museum, London
+    rights_status: restricted
+    caption: Wooden armchair, 1922, Weimar
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2006AR0437/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O58654
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Rietveld, Gerrit, "Armchair", 1918. © Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: Armchair, 1918, Utrecht
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2006BC0682/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O64543
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Bonnell, Sian, "Putting Hills in Holland", 2001. © Victoria and
+      Albert Museum, London
+    rights_status: restricted
+    caption: Putting Hills in Holland, 2001, Netherlands
+    depicts: null
+  - file: null
+    remote_image: https://www.moma.org/media/W1siZiIsIjUyMDg5MiJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=e1c177d9b5f148cc
+    source_url: https://www.moma.org/collection/works/5955
+    license: "MoMA collection image — rights not cleared for reuse (metadata CC0:
+      https://github.com/MuseumofModernArt/collection)"
+    attribution: Izika Gaon, "De Stijl. The Israel Museum, Jerusalem. March 29-May
+      31, 1977", 1977. The Museum of Modern Art, New York (Gift of the Israel
+      Museum, Jerusalem)
+    rights_status: restricted
+    caption: De Stijl. The Israel Museum, Jerusalem. March 29-May 31, 1977. 1977.
+      Offset lithograph
+    depicts: null
+  - file: null
+    remote_image: https://www.moma.org/media/W1siZiIsIjUzMDgwOCJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=ab6befc6100540ee
+    source_url: https://www.moma.org/collection/works/7893
+    license: "MoMA collection image — rights not cleared for reuse (metadata CC0:
+      https://github.com/MuseumofModernArt/collection)"
+    attribution: Vilmos Huszár, "De Stijl", 1917. The Museum of Modern Art, New York
+      (Jan Tschichold Collection, Gift of Philip Johnson)
+    rights_status: restricted
+    caption: De Stijl. 1917. Offset lithograph
+    depicts: null
+  - file: null
+    remote_image: https://www.moma.org/media/W1siZiIsIjUzMDgwOSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=3cb2c8d76c02fdd4
+    source_url: https://www.moma.org/collection/works/7899
+    license: "MoMA collection image — rights not cleared for reuse (metadata CC0:
+      https://github.com/MuseumofModernArt/collection)"
+    attribution: Theo van Doesburg, "De Stijl NB 73/74", 1926. The Museum of Modern
+      Art, New York (Jan Tschichold Collection, Gift of Philip Johnson)
+    rights_status: restricted
+    caption: De Stijl NB 73/74. 1926. Letterpress
+    depicts: null
+  - file: null
+    remote_image: https://www.moma.org/media/W1siZiIsIjM0Njg4NiJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=eb23f12c11ad7aa8
+    source_url: https://www.moma.org/collection/works/198747
+    license: "MoMA collection image — rights not cleared for reuse (metadata CC0:
+      https://github.com/MuseumofModernArt/collection)"
+    attribution: Theo van Doesburg, "De Stijl NB letterhead (Handwritten list of
+      names and addresses)", 1920s. The Museum of Modern Art, New York (Elaine
+      Lustig Cohen Collection, gift of Lawrence Benenson and the Committee on
+      Architecture and Design Funds)
+    rights_status: restricted
+    caption: De Stijl NB letterhead (Handwritten list of names and addresses).
+      1920s. Letterpress
+    depicts: null
+  - file: null
+    remote_image: https://www.moma.org/media/W1siZiIsIjM0NjM3NCJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=ced9b50e3a8caf72
+    source_url: https://www.moma.org/collection/works/198748
+    license: "MoMA collection image — rights not cleared for reuse (metadata CC0:
+      https://github.com/MuseumofModernArt/collection)"
+    attribution: Theo van Doesburg, "De Stijl NB stationery postcard (Addressed to
+      Del Marle)", 1927. The Museum of Modern Art, New York (Elaine Lustig Cohen
+      Collection, gift of Lawrence Benenson and the Committee on Architecture
+      and Design Funds)
+    rights_status: restricted
+    caption: De Stijl NB stationery postcard (Addressed to Del Marle). 1927. Letterpress
+    depicts: null
+  - file: null
+    remote_image: https://www.moma.org/media/W1siZiIsIjM0NjQwOCJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=c7498c09212bdfd5
+    source_url: https://www.moma.org/collection/works/198749
+    license: "MoMA collection image — rights not cleared for reuse (metadata CC0:
+      https://github.com/MuseumofModernArt/collection)"
+    attribution: Theo van Doesburg, "De Stijl NB stationery envelope (Addressed to
+      Jean Badovici)", 1925. The Museum of Modern Art, New York (Elaine Lustig
+      Cohen Collection, gift of Lawrence Benenson and the Committee on
+      Architecture and Design Funds)
+    rights_status: restricted
+    caption: De Stijl NB stationery envelope (Addressed to Jean Badovici). 1925.
+      Letterpress
+    depicts: null
+todo:
+  - external_ids
+  - facets.era.periods
+  - facets.geography
+  - facets.lineage
+  - facets.lifecycle
+  - facets.practitioners
+provenance:
+  facets.formal_properties:
+    - source: editorial
+      reviewed: false
+  facets.ideological_stance:
+    - source: editorial
+      reviewed: false
+  facets.commercial_context:
+    - source: editorial
+      reviewed: false
+  external_ids.getty_aat:
+    - source: getty-aat
+      url: https://vocab.getty.edu/aat/300021259
+      accessed: 2026-08-23
+      method: exact-label-match
+  summary:
+    - source: getty-aat
+      url: https://vocab.getty.edu/aat/300021259
+      accessed: 2026-08-23
+  names.variants:
+    - source: getty-aat
+      url: https://vocab.getty.edu/aat/300021259
+      accessed: 2026-08-23
+  images:
+    - source: wikimedia-commons
+      url: https://commons.wikimedia.org/w/index.php?search=De%20Stijl
+      accessed: 2026-08-23
+      note: "query: De Stijl"
+    - source: vam
+      url: https://api.vam.ac.uk/v2/objects/search?images_exist=1&page_size=20&q=De%20Stijl
+      accessed: 2026-08-23
+      note: "query: De Stijl"
+    - source: moma-dataset
+      url: https://github.com/MuseumofModernArt/collection
+      accessed: 2026-08-23
+      note: "title contains: de stijl"

@@ -1,0 +1,179 @@
+id: glitch-art
+term_type: aesthetic
+status: stub
+names:
+  primary: Glitch art
+  variants: []
+summary: null
+external_ids:
+  getty_aat: null
+  wikidata: Q5569949
+facets:
+  era:
+    periods: []
+  geography:
+    origin_places: []
+    spread: []
+  lineage:
+    parents: []
+    influences: []
+    influenced: []
+    reacted_against: []
+    revival_of: []
+  production:
+    apparatus: []
+    techniques: []
+  formal_properties:
+    grid_discipline: broken
+    palette_logic:
+      descriptor: fluorescent
+      note: RGB channel-split artifacts; databend noise
+    contrast: high
+    texture: pronounced
+    hierarchy: chaotic
+    ornament_level: moderate
+  ideological_stance: expressive
+  commercial_context:
+    contexts:
+      - music-packaging
+      - web-ui
+      - poster
+  revival:
+    status: null
+    revivals: []
+  lifecycle:
+    state: residual
+    first_observed: null
+    review_due: null
+  practitioners:
+    people: []
+    studios: []
+images:
+  - file: assets/glitch-art/Kodak_Moment_2013_sample_animation.gif
+    source_url: https://commons.wikimedia.org/wiki/File:Kodak_Moment_(2013)_sample_animation.gif
+    license: CC BY-SA 3.0
+    attribution: Michaelbetancourt, CC BY-SA 3.0, via Wikimedia Commons
+    rights_status: open
+    caption: this is a glitch sample of my movie Kodak Moment (2013) The actress is
+      Mae Murray, and the source film is a Kodachrome test from 1922.
+    depicts: null
+  - file: assets/glitch-art/Digital-Jackal_glitch_art.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Digital-Jackal_glitch_art.jpg
+    license: CC BY-SA 4.0
+    attribution: Arielinson, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Digital glitch art design
+    depicts: null
+  - file: assets/glitch-art/London_Eye_-_bitblent_glitch_art.jpeg
+    source_url: https://commons.wikimedia.org/wiki/File:London_Eye_-_bitblent_glitch_art.jpeg
+    license: CC BY-SA 4.0
+    attribution: Geoprofi Lars
+    rights_status: open
+    caption: This image is bit-blent from the two images below. Appearance may vary
+      depending on image viewer software.
+    depicts: null
+  - file: assets/glitch-art/Aicp_homescreen.bitflip_glitch_art.rerender.png
+    source_url: https://commons.wikimedia.org/wiki/File:Aicp_homescreen.bitflip_glitch_art.rerender.png
+    license: Public domain
+    attribution: Own work, based on User:Futurwiki's work., Public domain, via
+      Wikimedia Commons
+    rights_status: open
+    caption: This image is re-rendered from
+      File:Aicp_homescreen.bitflip_glitch_art.png, to make the glitch effect
+      viewable on all image viewers, as this re-rendered file is technically
+      undamaged. See the original file's description on how it was generated.
+    depicts: null
+  - file: assets/glitch-art/Glitch_Art_en_Argentina.png
+    source_url: https://commons.wikimedia.org/wiki/File:Glitch_Art_en_Argentina.png
+    license: CC BY-SA 4.0
+    attribution: Lucas Tenllado, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: '"Humanidad" Glitch Art en Argentina'
+    depicts: null
+  - file: assets/glitch-art/Glitch_art_is_dead_2022_logo.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Glitch_art_is_dead_2022_logo.jpg
+    license: CC BY-SA 4.0
+    attribution: Glitch art is dead, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Glitch art is dead 2022 logo
+    depicts: null
+  - file: assets/glitch-art/Fu_bar_glitch_art_archive_in_Karlovac.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Fu_bar_glitch_art_archive_in_Karlovac.jpg
+    license: CC BY-SA 3.0
+    attribution: Clubture Network, CC BY-SA 3.0, via Wikimedia Commons
+    rights_status: open
+    caption: Glitch art workshop organized by Platform C in partnership with KA -
+      Matrix - Association for Social Development in Karlovac's Mala Scena HD,
+      as part of Clubture-HR program
+    depicts: null
+  - file: assets/glitch-art/Fu_bar_glitch_art_archive_in_Karlovac_2.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Fu_bar_glitch_art_archive_in_Karlovac_2.jpg
+    license: CC BY-SA 3.0
+    attribution: Clubture Network, CC BY-SA 3.0, via Wikimedia Commons
+    rights_status: open
+    caption: Glitch art workshop organized by Platform C in partnership with KA -
+      Matrix - Association for Social Development in Karlovac's Mala Scena HD,
+      as part of Clubture-HR program
+    depicts: null
+  - file: assets/glitch-art/Green.qt_slippage.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Green.qt_slippage.jpg
+    license: CC BY-SA 4.0
+    attribution: jonCates, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: 'Exhibitions of green.qt_slippage by jonCates include "Glitch:
+      Investigations into the New Ecology of the Digital Age", curated by Nick
+      Briz in Chicago, "d1sc0nN3ct: The art of the glitch" in Cairo, and
+      "DISRUPTION" at the Vancouver Art Gallery in Canada, the art exhibition of
+      the 21rst International'
+    depicts: null
+  - file: assets/glitch-art/Glitch_Art_by_James_Connolly_and_Eric_Pellegrino.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Glitch_Art_by_James_Connolly_and_Eric_Pellegrino.jpg
+    license: CC BY-SA 4.0
+    attribution: jonCates, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: James Connolly and Eric Pellegrino as "DIE COMPUTER" performing Glitch
+      Art on the Southbridge Slow Electronics radio show hosted by jonCates and
+      Jake Elliott in 2010.
+    depicts: null
+  - file: assets/glitch-art/2026-04-03_Glitch_art_von_einem_Panoramavideo_Vlcsnap-2026-04-03-10h49m51s567.pn
+    source_url: https://commons.wikimedia.org/wiki/File:2026-04-03_Glitch_art_von_einem_Panoramavideo_Vlcsnap-2026-04-03-10h49m51s567.png
+    license: Public domain
+    attribution: "Video: NASA Laptop: MSI Thin GF63 12UC-667 Screenshot:
+      PantheraLeo1359531 😺 (talk), Public domain, via Wikimedia Commons"
+    rights_status: open
+    caption: Glitch art from a panoramic video caused by incorrect decoding due to
+      the laptop being overloaded
+    depicts: null
+todo:
+  - names.variants
+  - summary
+  - external_ids
+  - facets.era.periods
+  - facets.geography
+  - facets.lineage
+  - facets.lifecycle.first_observed
+  - facets.lifecycle.review_due
+  - facets.practitioners
+provenance:
+  facets.formal_properties:
+    - source: editorial
+      reviewed: false
+  facets.ideological_stance:
+    - source: editorial
+      reviewed: false
+  facets.commercial_context:
+    - source: editorial
+      reviewed: false
+  facets.lifecycle.state:
+    - source: editorial
+      reviewed: false
+  external_ids.wikidata:
+    - source: wikidata
+      url: https://www.wikidata.org/wiki/Q5569949
+      accessed: 2026-08-23
+      method: exact-label-match
+  images:
+    - source: wikimedia-commons
+      url: https://commons.wikimedia.org/w/index.php?search=glitch%20art
+      accessed: 2026-08-23
+      note: "query: glitch art"

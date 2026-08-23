@@ -1,0 +1,170 @@
+id: pixel-art
+term_type: style
+status: stub
+names:
+  primary: Pixel art
+  variants: []
+summary: null
+external_ids:
+  getty_aat: null
+  wikidata: Q811179
+facets:
+  era:
+    periods: []
+  geography:
+    origin_places: []
+    spread: []
+  lineage:
+    parents: []
+    influences: []
+    influenced: []
+    reacted_against: []
+    revival_of: []
+  production:
+    apparatus: []
+    techniques: []
+  formal_properties:
+    grid_discipline: strict
+    palette_logic:
+      descriptor: restricted
+      note: hardware-limited palettes
+    contrast: high
+    texture: subtle
+    hierarchy: moderate
+    ornament_level: minimal
+  ideological_stance: mixed
+  commercial_context:
+    contexts:
+      - web-ui
+      - product
+      - self-published
+  revival:
+    status: null
+    revivals: []
+  lifecycle:
+    state: null
+    first_observed: null
+    review_due: null
+  practitioners:
+    people: []
+    studios: []
+images:
+  - file: assets/pixel-art/Pixel_Art_Background.png
+    source_url: https://commons.wikimedia.org/wiki/File:Pixel_Art_Background.png
+    license: CC BY-SA 4.0
+    attribution: JayTholen, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Background pixel art with odd mountain.
+    depicts: null
+  - file: assets/pixel-art/Green_Tiled_Pixel_Art_Background.png
+    source_url: https://commons.wikimedia.org/wiki/File:Green_Tiled_Pixel_Art_Background.png
+    license: CC BY-SA 4.0
+    attribution: JayTholen, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Green pixel art background, meant to be placed in parallax layer under
+      sky. Tiles horizontally.
+    depicts: null
+  - file: assets/pixel-art/Pixel_art_monster_timelapse.gif
+    source_url: https://commons.wikimedia.org/wiki/File:Pixel_art_monster_timelapse.gif
+    license: CC0
+    attribution: Drummyfish, CC0, via Wikimedia Commons
+    rights_status: open
+    caption: This is an animation showing the progress of creating a pixel art
+      monster (timelapse), made by me with GIMP.
+    depicts: null
+  - file: assets/pixel-art/Pixel_art_monster_timelapse_2.gif
+    source_url: https://commons.wikimedia.org/wiki/File:Pixel_art_monster_timelapse_2.gif
+    license: CC0
+    attribution: Drummyfish, CC0, via Wikimedia Commons
+    rights_status: open
+    caption: This is an animation showing the progress of creating a pixel art
+      monster (timelapse), made by me with GIMP.
+    depicts: null
+  - file: assets/pixel-art/Isometric_Pixel_Art_by_Peterson_Freitas_enlarged_.gif
+    source_url: https://commons.wikimedia.org/wiki/File:Isometric_Pixel_Art_by_Peterson_Freitas_(enlarged).gif
+    license: CC BY-SA 4.0
+    attribution: Propeterson, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Isometric Pixel Art representing the city of Curitiba (Brazil) by
+      Peterson Freitas (2004-2005). This is an enlarged version from the
+      original (600x600 = 360'000 real pixels). 174 colors.
+    depicts: null
+  - file: assets/pixel-art/Pixel_Art_Jaggie.png
+    source_url: https://commons.wikimedia.org/wiki/File:Pixel_Art_Jaggie.png
+    license: CC BY-SA 4.0
+    attribution: ClockworkChemist, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Example of a pixel art jaggie in a curve
+    depicts: null
+  - file: assets/pixel-art/Pixel_Art_Anti_aliasing.png
+    source_url: https://commons.wikimedia.org/wiki/File:Pixel_Art_Anti_aliasing.png
+    license: CC BY-SA 4.0
+    attribution: ClockworkChemist, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Example of Pixel Art Anti aliasing in a curve
+    depicts: null
+  - file: assets/pixel-art/Pixel_Art_Anti_Aliasing_in_Clusters.png
+    source_url: https://commons.wikimedia.org/wiki/File:Pixel_Art_Anti_Aliasing_in_Clusters.png
+    license: CC BY-SA 4.0
+    attribution: ClockworkChemist, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Example of Pixel Art Anti Aliasing in Clusters
+    depicts: null
+  - file: assets/pixel-art/Pixel_Art_Diagonal_weight.png
+    source_url: https://commons.wikimedia.org/wiki/File:Pixel_Art_Diagonal_weight.png
+    license: CC BY-SA 4.0
+    attribution: ClockworkChemist, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Example of a Pixel Art Diagonal line using lighter pixels to make it
+      appear thicker, counteracting the effect of certain screens.
+    depicts: null
+  - file: assets/pixel-art/Pixel_Art_line_thickness_Bigx4.png
+    source_url: https://commons.wikimedia.org/wiki/File:Pixel_Art_line_thickness_Bigx4.png
+    license: CC BY-SA 4.0
+    attribution: Reff Pixels, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Pixel Art line thickness Bigx4
+    depicts: null
+  - file: assets/pixel-art/Pixel_Art_Anti_aliasing_Bigx4.png
+    source_url: https://commons.wikimedia.org/wiki/File:Pixel_Art_Anti_aliasing_Bigx4.png
+    license: CC BY-SA 4.0
+    attribution: Reff Pixels, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Pixel Art Anti aliasing Bigx4
+    depicts: null
+  - file: assets/pixel-art/Pixel_Art_Jaggie_Bigx4.png
+    source_url: https://commons.wikimedia.org/wiki/File:Pixel_Art_Jaggie_Bigx4.png
+    license: CC BY-SA 4.0
+    attribution: Reff Pixels, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Pixel Art Jaggie Bigx4
+    depicts: null
+todo:
+  - names.variants
+  - summary
+  - external_ids
+  - facets.era.periods
+  - facets.geography
+  - facets.lineage
+  - facets.lifecycle
+  - facets.practitioners
+provenance:
+  facets.formal_properties:
+    - source: editorial
+      reviewed: false
+  facets.ideological_stance:
+    - source: editorial
+      reviewed: false
+  facets.commercial_context:
+    - source: editorial
+      reviewed: false
+  external_ids.wikidata:
+    - source: wikidata
+      url: https://www.wikidata.org/wiki/Q811179
+      accessed: 2026-08-23
+      method: exact-label-match
+  images:
+    - source: wikimedia-commons
+      url: https://commons.wikimedia.org/w/index.php?search=pixel%20art
+      accessed: 2026-08-23
+      note: "query: pixel art"

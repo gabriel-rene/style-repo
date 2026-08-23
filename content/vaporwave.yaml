@@ -96,6 +96,36 @@ images:
     rights_status: open
     caption: Przykład grafiki utrzymanej w klimacie Vaporwave.
     depicts: null
+  - file: assets/vaporwave/Nine_lives_vaporwave.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Nine_lives_vaporwave.jpg
+    license: CC BY 2.0
+    attribution: yumikrum, CC BY 2.0, via Wikimedia Commons
+    rights_status: open
+    caption: Vaporwave artwork of two winged cats.
+    depicts: null
+  - file: assets/vaporwave/Vaporwave_WP3_Print.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Vaporwave_WP3_Print.jpg
+    license: CC BY 2.0
+    attribution: Mike Grauer Jr, CC BY 2.0, via Wikimedia Commons
+    rights_status: open
+    caption: A new Vaporwave wallpaper! It is free and put under Creative Commons.
+      Enjoy.
+    depicts: null
+  - file: assets/vaporwave/Vaporwave_bust_in_Chiang_Mai.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Vaporwave_bust_in_Chiang_Mai.jpg
+    license: CC BY 4.0
+    attribution: Immanuelle, CC BY 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: September 2024 in Chiang Mai
+    depicts: null
+  - file: assets/vaporwave/Vaporwave_sunset.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Vaporwave_sunset.jpg
+    license: Public domain
+    attribution: '"Created using AI tools" by SeleneBright, no software specified,
+      Public domain, via Wikimedia Commons'
+    rights_status: open
+    caption: Vaporwave style artwork
+    depicts: null
 
 todo:
   - names.variants

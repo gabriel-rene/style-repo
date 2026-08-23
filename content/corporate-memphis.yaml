@@ -1,0 +1,101 @@
+id: corporate-memphis
+term_type: aesthetic
+status: stub
+names:
+  primary: Corporate Memphis
+  variants: []
+summary: null
+external_ids:
+  getty_aat: null
+  wikidata: Q105676972
+facets:
+  era:
+    periods: []
+  geography:
+    origin_places: []
+    spread: []
+  lineage:
+    parents: []
+    influences: []
+    influenced: []
+    reacted_against: []
+    revival_of: []
+  production:
+    apparatus: []
+    techniques: []
+  formal_properties:
+    grid_discipline: moderate
+    palette_logic:
+      descriptor: pastel
+      note: flat corporate brights; oversized limbs
+    contrast: medium
+    texture: flat
+    hierarchy: moderate
+    ornament_level: minimal
+  ideological_stance: mixed
+  commercial_context:
+    contexts:
+      - web-ui
+      - corporate-identity
+      - advertising
+  revival:
+    status: null
+    revivals: []
+  lifecycle:
+    state: saturated
+    first_observed: null
+    review_due: null
+  practitioners:
+    people: []
+    studios: []
+images:
+  - file: assets/corporate-memphis/Corporate_Memphis_-_Diada_de_Sant_Jordi_-_Ajuntament_de_Barcelona.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Corporate_Memphis_-_Diada_de_Sant_Jordi_-_Ajuntament_de_Barcelona.jpg
+    license: CC0
+    attribution: Aniol, CC0, via Wikimedia Commons
+    rights_status: open
+    caption: Exemple de l'estil gràfic Corporate Memphis emprat per l'Ajuntament de
+      Barcelona en la cartelleria de la Diada de Sant Jordi del 2024. Rebé
+      moltes crítiques per la seva despersonalització i omissió de símbols
+      nacionals.
+    depicts: null
+  - file: assets/corporate-memphis/Corporate_Memphis_2019_.png
+    source_url: https://commons.wikimedia.org/wiki/File:Corporate_Memphis_(2019).png
+    license: CC BY 4.0
+    attribution: Katharina Brenner
+    rights_status: open
+    caption: Illustration in the Corporate Memphis style
+    depicts: null
+todo:
+  - names.variants
+  - summary
+  - external_ids
+  - facets.era.periods
+  - facets.geography
+  - facets.lineage
+  - facets.lifecycle.first_observed
+  - facets.lifecycle.review_due
+  - facets.practitioners
+provenance:
+  facets.formal_properties:
+    - source: editorial
+      reviewed: false
+  facets.ideological_stance:
+    - source: editorial
+      reviewed: false
+  facets.commercial_context:
+    - source: editorial
+      reviewed: false
+  facets.lifecycle.state:
+    - source: editorial
+      reviewed: false
+  external_ids.wikidata:
+    - source: wikidata
+      url: https://www.wikidata.org/wiki/Q105676972
+      accessed: 2026-08-23
+      method: exact-label-match
+  images:
+    - source: wikimedia-commons
+      url: https://commons.wikimedia.org/w/index.php?search=corporate%20memphis%20illustration
+      accessed: 2026-08-23
+      note: "query: corporate memphis illustration"

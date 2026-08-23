@@ -1,0 +1,288 @@
+id: screen-printing
+term_type: technique
+status: stub
+names:
+  primary: Screen printing
+  variants:
+    - screen-printed
+    - printing, screen
+    - screenprinting
+    - screen process (printing technique)
+    - screen process printing
+    - serigraphy
+    - silkscreen (process)
+    - silkscreening (process)
+    - silk-screening (process)
+    - silk-screen printing
+    - silkscreen printing
+    - silk screen printing
+summary: "Stencil technique of printing in which ink or dye is forced through a
+  mesh, traditionally silk, on which a design has been formed by stopping out
+  certain areas. "
+external_ids:
+  getty_aat: aat:300053281
+  wikidata: null
+facets:
+  era:
+    periods: []
+  geography:
+    origin_places: []
+    spread: []
+  lineage:
+    parents: []
+    influences: []
+    influenced: []
+    reacted_against: []
+    revival_of: []
+  formal_consequences:
+    grid_discipline: not-applicable
+    palette_logic:
+      descriptor: restricted
+      note: flat opaque spot-color layers
+    contrast: high
+    texture: flat
+    hierarchy: not-applicable
+    ornament_level: not-applicable
+  commercial_context:
+    contexts:
+      - poster
+      - music-packaging
+      - fashion
+      - self-published
+  revival:
+    status: null
+    revivals: []
+  lifecycle:
+    state: null
+    first_observed: null
+    review_due: null
+  practitioners:
+    people: []
+    studios: []
+images:
+  - file: assets/screen-printing/Home_in_Relation_to_Everything.png
+    source_url: https://commons.wikimedia.org/wiki/File:Home_in_Relation_to_Everything.png
+    license: CC BY-SA 3.0
+    attribution: "Compilation: Roland Winkler, Leibnitz Institution of Astrophysics,
+      Potsdam Thanks to: Axel Schwope, Eric Depagne, Hakan Önel, Anne Hutter,
+      Jochen Klar, Adrian Partl and Ethan Siegel for their input. Work from:
+      Andrew Z. Colvin, NASA/JPL-Caltech/R. Hurt, The Millennium Simulation
+      Project at Max Planck Institute, CC BY-SA 3.0, via Wikimedia Commons"
+    rights_status: open
+    caption: "The image shows a poster, meant for A0 printing or just enjoying on
+      the screen. The image is an artwork, created by me. It is compiled from
+      multiple, free sources, listed at the 'original source' section. The image
+      puts home (earth and our solar system) into perspective of the universe as
+      far as we "
+    depicts: null
+  - file: assets/screen-printing/OSCAL_2017_silkscreen_printed_materials_10.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:OSCAL_2017_silkscreen_printed_materials_10.jpg
+    license: CC BY 4.0
+    attribution: Manolis Angelakis, CC BY 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Photos from the production process of the promo materials (posters and
+      tote bags) of the fourth edition of Open Source Conference Albania that
+      takes place in Tirana Albania in the second weekend of May 2017. The
+      materials were printed using the silkscreen method.
+    depicts: null
+  - file: assets/screen-printing/OSCAL_2017_silkscreen_printed_materials_15.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:OSCAL_2017_silkscreen_printed_materials_15.jpg
+    license: CC BY 4.0
+    attribution: Manolis Angelakis, CC BY 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Photos from the production process of the promo materials (posters and
+      tote bags) of the fourth edition of Open Source Conference Albania that
+      takes place in Tirana Albania in the second weekend of May 2017. The
+      materials were printed using the silkscreen method.
+    depicts: null
+  - file: assets/screen-printing/OSCAL_2017_silkscreen_printed_materials_16.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:OSCAL_2017_silkscreen_printed_materials_16.jpg
+    license: CC BY 4.0
+    attribution: Manolis Angelakis, CC BY 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Photos from the production process of the promo materials (posters and
+      tote bags) of the fourth edition of Open Source Conference Albania that
+      takes place in Tirana Albania in the second weekend of May 2017. The
+      materials were printed using the silkscreen method.
+    depicts: null
+  - file: assets/screen-printing/OSCAL_2017_silkscreen_printed_materials_17.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:OSCAL_2017_silkscreen_printed_materials_17.jpg
+    license: CC BY 4.0
+    attribution: Manolis Angelakis, CC BY 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Photos from the production process of the promo materials (posters and
+      tote bags) of the fourth edition of Open Source Conference Albania that
+      takes place in Tirana Albania in the second weekend of May 2017. The
+      materials were printed using the silkscreen method.
+    depicts: null
+  - file: assets/screen-printing/OSCAL_2017_silkscreen_printed_materials_22.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:OSCAL_2017_silkscreen_printed_materials_22.jpg
+    license: CC BY 4.0
+    attribution: Manolis Angelakis, CC BY 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Photos from the production process of the promo materials (posters and
+      tote bags) of the fourth edition of Open Source Conference Albania that
+      takes place in Tirana Albania in the second weekend of May 2017. The
+      materials were printed using the silkscreen method.
+    depicts: null
+  - file: assets/screen-printing/OSCAL_2017_silkscreen_printed_materials_26.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:OSCAL_2017_silkscreen_printed_materials_26.jpg
+    license: CC BY 4.0
+    attribution: Manolis Angelakis, CC BY 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Photos from the production process of the promo materials (posters and
+      tote bags) of the fourth edition of Open Source Conference Albania that
+      takes place in Tirana Albania in the second weekend of May 2017. The
+      materials were printed using the silkscreen method.
+    depicts: null
+  - file: assets/screen-printing/OSCAL_2017_silkscreen_printed_materials_28.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:OSCAL_2017_silkscreen_printed_materials_28.jpg
+    license: CC BY 4.0
+    attribution: Manolis Angelakis, CC BY 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Photos from the production process of the promo materials (posters and
+      tote bags) of the fourth edition of Open Source Conference Albania that
+      takes place in Tirana Albania in the second weekend of May 2017. The
+      materials were printed using the silkscreen method.
+    depicts: null
+  - file: assets/screen-printing/OSCAL_2017_silkscreen_printed_materials_29.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:OSCAL_2017_silkscreen_printed_materials_29.jpg
+    license: CC BY 4.0
+    attribution: Manolis Angelakis, CC BY 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Photos from the production process of the promo materials (posters and
+      tote bags) of the fourth edition of Open Source Conference Albania that
+      takes place in Tirana Albania in the second weekend of May 2017. The
+      materials were printed using the silkscreen method.
+    depicts: null
+  - file: assets/screen-printing/OSCAL_2017_silkscreen_printed_materials_32.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:OSCAL_2017_silkscreen_printed_materials_32.jpg
+    license: CC BY 4.0
+    attribution: Manolis Angelakis, CC BY 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Photos from the production process of the promo materials (posters and
+      tote bags) of the fourth edition of Open Source Conference Albania that
+      takes place in Tirana Albania in the second weekend of May 2017. The
+      materials were printed using the silkscreen method.
+    depicts: null
+  - file: assets/screen-printing/OSCAL_2017_silkscreen_printed_materials_30.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:OSCAL_2017_silkscreen_printed_materials_30.jpg
+    license: CC BY 4.0
+    attribution: Manolis Angelakis, CC BY 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Photos from the production process of the promo materials (posters and
+      tote bags) of the fourth edition of Open Source Conference Albania that
+      takes place in Tirana Albania in the second weekend of May 2017. The
+      materials were printed using the silkscreen method.
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2006AM3154/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O129157
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: English, Michael, "Poster for the Jimi Hendrix Experience", 1967. ©
+      Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: Poster for the Jimi Hendrix Experience, 1967, Great Britain
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2012FE8139/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O117445
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: 'The Poster Collective, "Zimbabwe.  One Enemy: Imperialism
+      [verso]", ca. 1977. © Victoria and Albert Museum, London'
+    rights_status: restricted
+    caption: "Zimbabwe.  One Enemy: Imperialism [verso], ca. 1977, United Kingdom"
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2012FE8198/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O117430
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: The Poster Collective, "Wherever there is oppression there is
+      resistance", ca. 1976. © Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: Wherever there is oppression there is resistance, ca. 1976, London
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2006BB5433/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O102631
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: The Poster Collective, "Chile Resists", ca. 1976. © Victoria and
+      Albert Museum, London
+    rights_status: restricted
+    caption: Chile Resists, ca. 1976, UK
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2012FE8201/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O117425
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: The Poster Collective, "Eritrea, the struggle for liberation", ca.
+      1977. © Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: Eritrea, the struggle for liberation, ca. 1977, United Kingdom
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2012FE8140/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O117447
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Sturrock, John, "Unity Is Strength", ca. 1976. © Victoria and
+      Albert Museum, London
+    rights_status: restricted
+    caption: Unity Is Strength, ca. 1976, United Kingdom
+    depicts: null
+  - file: null
+    remote_image: https://www.moma.org/media/W1siZiIsIjYxNzcxNCJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=5e4137d2c5e43384
+    source_url: https://www.moma.org/collection/works/4993
+    license: "MoMA collection image — rights not cleared for reuse (metadata CC0:
+      https://github.com/MuseumofModernArt/collection)"
+    attribution: Koji Kato, "Mino Shigyo Co., Ltd. Silkscreen Printing", c. 1960.
+      The Museum of Modern Art, New York (Gift of The Lauder Foundation, Leonard
+      and Evelyn Lauder Fund)
+    rights_status: restricted
+    caption: Mino Shigyo Co., Ltd. Silkscreen Printing. c. 1960. Silkscreen
+    depicts: null
+todo:
+  - external_ids
+  - facets.era.periods
+  - facets.geography
+  - facets.lineage
+  - facets.lifecycle
+  - facets.practitioners
+provenance:
+  facets.formal_consequences:
+    - source: editorial
+      reviewed: false
+  facets.commercial_context:
+    - source: editorial
+      reviewed: false
+  external_ids.getty_aat:
+    - source: getty-aat
+      url: https://vocab.getty.edu/aat/300053281
+      accessed: 2026-08-23
+      method: exact-label-match
+  summary:
+    - source: getty-aat
+      url: https://vocab.getty.edu/aat/300053281
+      accessed: 2026-08-23
+  names.variants:
+    - source: getty-aat
+      url: https://vocab.getty.edu/aat/300053281
+      accessed: 2026-08-23
+  images:
+    - source: wikimedia-commons
+      url: https://commons.wikimedia.org/w/index.php?search=screen%20printing%20poster
+      accessed: 2026-08-23
+      note: "query: screen printing poster"
+    - source: vam
+      url: https://api.vam.ac.uk/v2/objects/search?images_exist=1&page_size=20&q=screenprint%20poster
+      accessed: 2026-08-23
+      note: "query: screenprint poster"
+    - source: moma-dataset
+      url: https://github.com/MuseumofModernArt/collection
+      accessed: 2026-08-23
+      note: "title contains: screen printing"

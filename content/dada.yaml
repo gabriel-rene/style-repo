@@ -1,0 +1,273 @@
+id: dada
+term_type: movement
+status: stub
+names:
+  primary: Dada
+  variants:
+    - Dadaism
+    - Dadaist
+summary: Refers to the European artistic and literary movement of violent revolt
+  against the pretentions of Western civilization, begun in Zurich in 1916 as a
+  reaction to World War I. The movement advocated the use of irony, nihilism,
+  iconoclasm, the absurd, and emphasized the importance of chance in the
+  creation of poems, performances, and artworks, which were typically
+  commonplace objects set in an artistic setting. The name Dada was chosen by
+  chance from the dictionary.
+external_ids:
+  getty_aat: aat:300021500
+  wikidata: null
+facets:
+  era:
+    periods: []
+  geography:
+    origin_places: []
+    spread: []
+  lineage:
+    parents: []
+    influences: []
+    influenced: []
+    reacted_against: []
+    revival_of: []
+  production:
+    apparatus: []
+    techniques: []
+  formal_properties:
+    grid_discipline: broken
+    palette_logic:
+      descriptor: other
+      note: found-material collage; newsprint tones
+    contrast: high
+    texture: pronounced
+    hierarchy: chaotic
+    ornament_level: moderate
+  ideological_stance: strongly-expressive
+  commercial_context:
+    contexts:
+      - poster
+      - editorial
+      - self-published
+  revival:
+    status: null
+    revivals: []
+  lifecycle:
+    state: null
+    first_observed: null
+    review_due: null
+  practitioners:
+    people: []
+    studios: []
+images:
+  - file: assets/dada/Johannes_Theodor_Baargeld_Typische_Vertikalklitterung_als_Darstellung_des_Dada_B
+    source_url: https://commons.wikimedia.org/wiki/File:Johannes_Theodor_Baargeld_%E2%80%93_Typische_Vertikalklitterung_als_Darstellung_des_Dada_Baargeld_-_1920.jpg
+    license: Public domain
+    attribution: Johannes Theodor Baargeld, Public domain, via Wikimedia Commons
+    rights_status: open
+    caption: "Johannes Theodor Baargeld (Alfred Emanuel Ferdinand Greunwald;
+      1892–1927): Typical Vertical Mess as Depiction of the Dada Baargeld
+      (Typische Vertikalklitterung als Darstellung des Dada Baargeld), 1920,
+      Kunsthaus Zürich, Graphische Sammlung (Ausschnitt/cropped)"
+    depicts: null
+  - file: assets/dada/Various_Gould_Into_the_wild_2015.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Various_%26_Gould,_Into_the_wild,_2015.jpg
+    license: CC BY-SA 4.0
+    attribution: Studio Various &amp; Gould, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: screenprint acrylic collage on wood, 95 x 65 cm
+    depicts: null
+  - file: assets/dada/Dada_4-5_Zurich-1919-Collage_et_bois_grav_de_Arp_en_couverture_LB.4-0531_mb.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Dada_4-5_Zurich-1919-Collage_et_bois_grav%C3%A9_de_Arp_en_couverture_LB.4-0531_mb.jpg
+    license: CC BY-SA 4.0
+    attribution: "crédit photo : Mathieu Bertola, CC BY-SA 4.0, via Wikimedia Commons"
+    rights_status: open
+    caption: Jean Hans Arp, bois gravé et collage pour la couverture de Dada 4-5
+      (Tristan Tzara dir.), Zurich, 1919
+    depicts: null
+  - file: assets/dada/Theo_van_Doesburg_and_Kurt_Schwitters_Kleine_Dada_Soir_e_Small_Dada_Evening_1922
+    source_url: https://commons.wikimedia.org/wiki/File:Theo_van_Doesburg_and_Kurt_Schwitters,_Kleine_Dada_Soir%C3%A9e_(Small_Dada_Evening),_1922,_NGA_154076.jpg
+    license: CC0
+    attribution: Theo van Doesburg / Kurt Schwitters, CC0, via Wikimedia Commons
+    rights_status: open
+    caption: null
+    depicts: null
+  - file: assets/dada/ClicDADA.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:ClicDADA.jpg
+    license: CC BY-SA 4.0
+    attribution: Yelti, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Collage dans le style dada
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2012FJ6233/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O351042
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Dada, "Shirt", ca. 1970. © Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: Shirt, ca. 1970, Switzerland
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2016JK5497/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O1319488
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: DaDa Underwear, "Shorty briefs", 2015. © Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: Shorty briefs, 2015, Britain
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2006BF0626/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O271116
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Helen David, "Dada", 1986. © Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: Dada, 1986, Great Britain
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2018LD5147/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O271113
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Helen David, "Dada", 1986. © Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: Dada, 1986, Great Britain
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2018LD5153/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O271111
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Helen David, "Dada", 1986. © Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: Dada, 1986, Great Britain
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2018LD5155/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O271115
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Helen David, "Dada", 1986. © Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: Dada, 1986, Great Britain
+    depicts: null
+  - file: null
+    remote_image: https://www.moma.org/media/W1siZiIsIjIxMDA4OSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=05b13f73630b3484
+    source_url: https://www.moma.org/collection/works/1749
+    license: "MoMA collection image — rights not cleared for reuse (metadata CC0:
+      https://github.com/MuseumofModernArt/collection)"
+    attribution: Philippe Starck, "Dadada Stool", 1993. The Museum of Modern Art,
+      New York (David Whitney Collection, Gift of David Whitney)
+    rights_status: restricted
+    caption: Dadada Stool. 1993. Injection-molded polypropylene
+    depicts: null
+  - file: null
+    remote_image: https://www.moma.org/media/W1siZiIsIjI0MjU4OSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=f56efd75f2b18a1f
+    source_url: https://www.moma.org/collection/works/5533
+    license: "MoMA collection image — rights not cleared for reuse (metadata CC0:
+      https://github.com/MuseumofModernArt/collection)"
+    attribution: Theo van Doesburg, Kurt Schwitters, "Kleine Dada Soirée", 1922. The
+      Museum of Modern Art, New York (Gift of Philip Johnson)
+    rights_status: restricted
+    caption: Kleine Dada Soirée. 1922. Lithograph
+    depicts: null
+  - file: null
+    remote_image: https://www.moma.org/media/W1siZiIsIjUxOTIyMiJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=f13b188254951629
+    source_url: https://www.moma.org/collection/works/5886
+    license: "MoMA collection image — rights not cleared for reuse (metadata CC0:
+      https://github.com/MuseumofModernArt/collection)"
+    attribution: Marcel Duchamp, Sidney Janis, "Poster for a Dada exhibition at
+      Sidney Janis Gallery", 1953. The Museum of Modern Art, New York (Gift of
+      the Sidney Janis Gallery)
+    rights_status: restricted
+    caption: Poster for a Dada exhibition at Sidney Janis Gallery. 1953. Lithograph
+    depicts: null
+  - file: null
+    remote_image: https://www.moma.org/media/W1siZiIsIjQ4MTcxNyJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=0c7d3cd7bf614aea
+    source_url: https://www.moma.org/collection/works/18191
+    license: "MoMA collection image — rights not cleared for reuse (metadata CC0:
+      https://github.com/MuseumofModernArt/collection)"
+    attribution: 'Josef Albers, "Plate 1 from Futurists, Abstractionists, Dadaists:
+      the Forerunners of the Avant-Garde, vol. I", 1962. The Museum of Modern
+      Art, New York (Gift of Peter Deitsch Gallery)'
+    rights_status: restricted
+    caption: "Plate 1 from Futurists, Abstractionists, Dadaists: the Forerunners of
+      the Avant-Garde, vol. I. 1962. Engraving from an illustrated book with
+      nineteen etchings (three with drypoint, two with aquatint, and one with
+      aquatint and embossing) and one engraving"
+    depicts: null
+  - file: null
+    remote_image: https://www.moma.org/media/W1siZiIsIjQ3ODQ0OCJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=0fe6a77252f4e9a9
+    source_url: https://www.moma.org/collection/works/18192
+    license: "MoMA collection image — rights not cleared for reuse (metadata CC0:
+      https://github.com/MuseumofModernArt/collection)"
+    attribution: 'Joseph Lacasse, Sonia Delaunay, Alexander Archipenko, Mikhail
+      Larionov, Carl Buchheister, Serge Charchoune, Jean Fautrier, Natalia
+      Goncharova, Josef Albers, Marcel Janco, Georges Vantongerloo, Stanton
+      Macdonald-Wright, Alberto Magnelli, Emilio Pettoruti, Alfred Reth, Hans
+      Richter, Victor Servranckx, Gino Severini, Raoul Hausmann, Farfa, Various
+      Artists, "Futurists, Abstractionists, Dadaists: the Forerunners of the
+      Avant-Garde, vol. I", 1961–62, published 1962. The Museum of Modern Art,
+      New York (Gift of Peter Deitsch Gallery)'
+    rights_status: restricted
+    caption: "Futurists, Abstractionists, Dadaists: the Forerunners of the
+      Avant-Garde, vol. I. 1961–62, published 1962. Illustrated book with
+      nineteen etchings (three with drypoint, two with aquatint, and one with
+      aquatint and embossing) and one engraving"
+    depicts: null
+  - file: null
+    remote_image: https://www.moma.org/media/W1siZiIsIjQ3ODQ0NSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=10514db5280efd53
+    source_url: https://www.moma.org/collection/works/18193
+    license: "MoMA collection image — rights not cleared for reuse (metadata CC0:
+      https://github.com/MuseumofModernArt/collection)"
+    attribution: 'Marcel Janco, "Plate 10 from Futurists, Abstractionists, Dadaists:
+      the Forerunners of the Avant-Garde, vol. I", 1962. The Museum of Modern
+      Art, New York (Gift of Peter Deitsch Gallery)'
+    rights_status: restricted
+    caption: "Plate 10 from Futurists, Abstractionists, Dadaists: the Forerunners of
+      the Avant-Garde, vol. I. 1962. Etching from an illustrated book with
+      nineteen etchings (three with drypoint, two with aquatint, and one with
+      aquatint and embossing) and one engraving"
+    depicts: null
+todo:
+  - external_ids
+  - facets.era.periods
+  - facets.geography
+  - facets.lineage
+  - facets.lifecycle
+  - facets.practitioners
+provenance:
+  facets.formal_properties:
+    - source: editorial
+      reviewed: false
+  facets.ideological_stance:
+    - source: editorial
+      reviewed: false
+  facets.commercial_context:
+    - source: editorial
+      reviewed: false
+  external_ids.getty_aat:
+    - source: getty-aat
+      url: https://vocab.getty.edu/aat/300021500
+      accessed: 2026-08-23
+      method: exact-label-match
+  summary:
+    - source: getty-aat
+      url: https://vocab.getty.edu/aat/300021500
+      accessed: 2026-08-23
+  names.variants:
+    - source: getty-aat
+      url: https://vocab.getty.edu/aat/300021500
+      accessed: 2026-08-23
+  images:
+    - source: wikimedia-commons
+      url: https://commons.wikimedia.org/w/index.php?search=Dada%20collage
+      accessed: 2026-08-23
+      note: "query: Dada collage"
+    - source: vam
+      url: https://api.vam.ac.uk/v2/objects/search?images_exist=1&page_size=20&q=Dada
+      accessed: 2026-08-23
+      note: "query: Dada"
+    - source: moma-dataset
+      url: https://github.com/MuseumofModernArt/collection
+      accessed: 2026-08-23
+      note: "title contains: dada"

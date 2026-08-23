@@ -62,17 +62,6 @@ images:
     caption: A - not totally accurate - computer graphic of a famous chair designed
       by Marcel Breuer and marketed by Knoll.
     depicts: null
-  - file: assets/bauhaus/Flag_of_Plano_Texas.png
-    source_url: https://commons.wikimedia.org/wiki/File:Flag_of_Plano,_Texas.png
-    license: Public domain
-    attribution: António Martins-Tuválkin (PNG), Public domain, via Wikimedia Commons
-    rights_status: open
-    caption: The official city flag of Plano, Texas. In 1981, the Plano City Council
-      officially adopted the logo that is featured on the flag, which was based
-      on a design submitted via a community contest by James R. "Jim" Wainner, a
-      professional artist and graphic designer from Plano. The flag is a
-      5:7-proporti
-    depicts: null
   - file: assets/bauhaus/Herm._E._Warlich_1929_circa_Plakat_Orpil_Seifen-Spender_fl_ssige_Seife_Henkel_Co
     source_url: https://commons.wikimedia.org/wiki/File:Herm._E._Warlich_1929_circa_Plakat_Orpil_Seifen-Spender_fl%C3%BCssige_Seife_Henkel_%26_Co._Hannover.jpg
     license: Public domain
@@ -232,6 +221,151 @@ images:
     rights_status: restricted
     caption: Stiftung Bauhaus Dessau November-Dezember. 1994. Offset lithograph
     depicts: null
+  - file: assets/bauhaus/Postkarte_Bauhaus_Farkas_Moln_r_Stilisiertes_Hochhaus.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Postkarte_Bauhaus_Farkas_Moln%C3%A1r_Stilisiertes_Hochhaus.jpg
+    license: Public domain
+    attribution: Farkas Molnár, Public domain, via Wikimedia Commons
+    rights_status: open
+    caption: Stilisiertes Hochhaus. Postkarte aus der Folge der 20 Postkarten, die
+      aus Anlass der Bauhaus-Ausstellung in Weimar 1923 erschienen.
+    depicts: null
+  - file: assets/bauhaus/Postkarte_Bauhaus_D_rte_Helm_Variation_ber_das_Bauhaus-Signet.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Postkarte_Bauhaus_D%C3%B6rte_Helm_Variation_%C3%BCber_das_Bauhaus-Signet.jpg
+    license: Public domain
+    attribution: Dörte Helm / After Oskar Schlemmer, Public domain, via Wikimedia Commons
+    rights_status: open
+    caption: Variation über das von Oskar Schlemmer entworfene Bauhaus-Signet.
+      Postkarte aus der Folge der 20 Postkarten, die aus Anlass der
+      Bauhaus-Ausstellung in Weimar 1923 erschienen.
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2019LJ4808/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O75627
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Cooper, Austin, "Exhibition of British Industrial Design in the
+      Home, London", 1933. © Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: Exhibition of British Industrial Design in the Home, London, 1933, London
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2006AN5203/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O75867
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Schleger, Hans, "Think ahead, Write instead", 1945. © Victoria and
+      Albert Museum, London
+    rights_status: restricted
+    caption: Think ahead, Write instead, 1945, United Kingdom
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2006AB5702/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O113311
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Mumenthaler, Ernst, "Typenmöbel", 1929. © Victoria and Albert
+      Museum, London
+    rights_status: restricted
+    caption: Typenmöbel, 1929, Switzerland
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2006AN5196/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O75740
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Arpke, Otto, "IPA Internationale Pelzfach-Ausstellung", 1930. ©
+      Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: IPA Internationale Pelzfach-Ausstellung, 1930, Germany
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2016JJ3982/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O1168661
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Publicity & Display Ltd, "Poster", late 20th century. © Victoria
+      and Albert Museum, London
+    rights_status: restricted
+    caption: Poster, late 20th century, Godalming
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2015HJ6430/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O75847
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Havinden, Ashley, "First thing every morning renew your health with
+      Eno's "Fruit Salt"", 1927. © Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: First thing every morning renew your health with Eno's "Fruit Salt",
+      1927, United Kingdom
+    depicts: null
+  - file: null
+    remote_image: https://www.moma.org/media/W1siZiIsIjUyNzQxMSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=1197c24e5c0df7f8
+    source_url: https://www.moma.org/collection/works/5226
+    license: "MoMA collection image — rights not cleared for reuse (metadata CC0:
+      https://github.com/MuseumofModernArt/collection)"
+    attribution: Cyan, Sophie Alex, Wilhelm Ebentreich, Detlef Fiedler, Daniela
+      Haufe, Siegfried Jablonsky, "Kammerkonzert im Bauhaus Dessau 1994", 1994.
+      The Museum of Modern Art, New York (Gift of the designers)
+    rights_status: restricted
+    caption: Kammerkonzert im Bauhaus Dessau 1994. 1994. Offset lithograph
+    depicts: null
+  - file: null
+    remote_image: https://www.moma.org/media/W1siZiIsIjIxMDQ0MiJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=db3b52dc9889d9b2
+    source_url: https://www.moma.org/collection/works/5236
+    license: "MoMA collection image — rights not cleared for reuse (metadata CC0:
+      https://github.com/MuseumofModernArt/collection)"
+    attribution: Cyan, Sophie Alex, Wilhelm Ebentreich, Detlef Fiedler, Daniela
+      Haufe, Siegfried Jablonsky, "Kammerkonzert im Bauhaus Dessau", 1994. The
+      Museum of Modern Art, New York (Gift of the designers)
+    rights_status: restricted
+    caption: Kammerkonzert im Bauhaus Dessau. 1994. Offset lithograph
+    depicts: null
+  - file: null
+    remote_image: https://www.moma.org/media/W1siZiIsIjUyNzQxNSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=140e3d2b4038b35c
+    source_url: https://www.moma.org/collection/works/5246
+    license: "MoMA collection image — rights not cleared for reuse (metadata CC0:
+      https://github.com/MuseumofModernArt/collection)"
+    attribution: Cyan, Sophie Alex, Wilhelm Ebentreich, Detlef Fiedler, Daniela
+      Haufe, Siegfried Jablonsky, "Kammerkonzert im Bauhaus Dessau Sonnabend,
+      16. April 1994", 1994. The Museum of Modern Art, New York (Gift of the
+      designers)
+    rights_status: restricted
+    caption: Kammerkonzert im Bauhaus Dessau Sonnabend, 16. April 1994. 1994. Offset
+      lithograph
+    depicts: null
+  - file: null
+    remote_image: https://www.moma.org/media/W1siZiIsIjYxNzcxMiJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=5888cb99b5650781
+    source_url: https://www.moma.org/collection/works/5258
+    license: "MoMA collection image — rights not cleared for reuse (metadata CC0:
+      https://github.com/MuseumofModernArt/collection)"
+    attribution: Cyan, "Bauhaus - Block von Mischa Kuball 1994", 1994. The Museum of
+      Modern Art, New York (Gift of the designers)
+    rights_status: restricted
+    caption: Bauhaus - Block von Mischa Kuball 1994. 1994. Offset lithograph
+    depicts: null
+  - file: null
+    remote_image: https://www.moma.org/media/W1siZiIsIjU3MDQwNiJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=a8b72be96f2f5a1a
+    source_url: https://www.moma.org/collection/works/5269
+    license: "MoMA collection image — rights not cleared for reuse (metadata CC0:
+      https://github.com/MuseumofModernArt/collection)"
+    attribution: Cyan, "Bauhaus Dessau (Foundation Bauhaus Dessau, July to August)",
+      1994. The Museum of Modern Art, New York (Gift of the designers)
+    rights_status: restricted
+    caption: Bauhaus Dessau (Foundation Bauhaus Dessau, July to August). 1994.
+      Offset lithograph
+    depicts: null
+  - file: null
+    remote_image: https://www.moma.org/media/W1siZiIsIjUyNzQyMCJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=6fca80784c1b3115
+    source_url: https://www.moma.org/collection/works/5278
+    license: "MoMA collection image — rights not cleared for reuse (metadata CC0:
+      https://github.com/MuseumofModernArt/collection)"
+    attribution: Cyan, Sophie Alex, Wilhelm Ebentreich, Detlef Fiedler, Daniela
+      Haufe, Siegfried Jablonsky, "Stiftung Bauhaus Dessau, Januar-Februar
+      1995", 1995. The Museum of Modern Art, New York (Gift of the designers)
+    rights_status: restricted
+    caption: Stiftung Bauhaus Dessau, Januar-Februar 1995. 1995. Offset lithograph
+    depicts: null
 
 todo:
   - names.variants
@@ -272,3 +406,7 @@ provenance:
       url: https://github.com/MuseumofModernArt/collection
       accessed: 2026-08-23
       note: "title contains: bauhaus"
+    - source: vam
+      url: https://api.vam.ac.uk/v2/objects/search?images_exist=1&page_size=20&q=Bauhaus%20poster
+      accessed: 2026-08-23
+      note: "query: Bauhaus poster"

@@ -104,6 +104,75 @@ art-deco:
           blending European architectural forms with Indian materials and
           craftsmanship, often seen in administrative buildings and residences
           during the colonial period.
+art-nouveau:
+  name: Art Nouveau
+  checked: 2026-08-23
+  getty_aat:
+    accept: aat:300021430
+    method: exact-label-match
+    candidates:
+      - id: aat:300403932
+        url: http://vocab.getty.edu/aat/300403932
+        label: Proto-Art Nouveau (English style)
+      - id: aat:300021430
+        url: http://vocab.getty.edu/aat/300021430
+        label: Art Nouveau
+      - id: aat:300112105
+        url: http://vocab.getty.edu/aat/300112105
+        label: Nouveau Réalisme
+      - id: aat:300387102
+        url: http://vocab.getty.edu/aat/300387102
+        label: Nose art
+      - id: aat:300443929
+        url: http://vocab.getty.edu/aat/300443929
+        label: art studios (organizations)
+      - id: aat:300443852
+        url: http://vocab.getty.edu/aat/300443852
+        label: art agents
+      - id: aat:300443853
+        url: http://vocab.getty.edu/aat/300443853
+        label: art brokers
+      - id: aat:300435215
+        url: http://vocab.getty.edu/aat/300435215
+        label: art stores (built works)
+  wikidata:
+    accept: null
+    method: ambiguous-exact
+    candidates:
+      - id: Q34636
+        url: https://www.wikidata.org/wiki/Q34636
+        label: Art Nouveau
+        description: international philosophy and style of art, architecture and applied art
+      - id: Q1295040
+        url: https://www.wikidata.org/wiki/Q1295040
+        label: Art Nouveau architecture
+        description: architectural style of the late 19th/early 20th century
+      - id: Q3501296
+        url: https://www.wikidata.org/wiki/Q3501296
+        label: Sapin style
+        description: artistic movement derivated from Art Nouveau and present in
+          late-19th-century in Switzerland
+      - id: Q83541223
+        url: https://www.wikidata.org/wiki/Q83541223
+        label: Dahlia 'Art Nouveau'
+        description: Dahlia cultivar
+      - id: Q30024698
+        url: https://www.wikidata.org/wiki/Q30024698
+        label: Art nouveau
+        description: entry in Dictionnaire du patrimoine rennais
+      - id: Q20645040
+        url: https://www.wikidata.org/wiki/Q20645040
+        label: Stile Liberty
+        description: architectural and artistic movement derivated from Art Nouveau and
+          present in late-19th-century in Italy
+      - id: Q18565389
+        url: https://www.wikidata.org/wiki/Q18565389
+        label: Art nouveau = Jugendstil
+        description: book about Art Nouveau movement
+      - id: Q2864687
+        url: https://www.wikidata.org/wiki/Q2864687
+        label: Art nouveau in France
+        description: ""
 bauhaus:
   name: Bauhaus
   checked: 2026-08-23
@@ -223,6 +292,217 @@ brutalist-web-design:
     accept: null
     method: no-exact-match
     candidates: []
+constructivism:
+  name: Constructivism
+  checked: 2026-08-23
+  getty_aat:
+    accept: null
+    method: no-exact-match
+    candidates:
+      - id: aat:300112846
+        url: http://vocab.getty.edu/aat/300112846
+        label: Neo-Constructivist
+      - id: aat:300021393
+        url: http://vocab.getty.edu/aat/300021393
+        label: Constructivist
+  wikidata:
+    accept: null
+    method: ambiguous-exact
+    candidates:
+      - id: Q207103
+        url: https://www.wikidata.org/wiki/Q207103
+        label: Constructivism
+        description: artistic and architectural philosophy
+      - id: Q857647
+        url: https://www.wikidata.org/wiki/Q857647
+        label: constructivism
+        description: pedagogical theory that suggests that learners do not passively
+          acquire knowledge through direct instruction
+      - id: Q1137814
+        url: https://www.wikidata.org/wiki/Q1137814
+        label: constructivism
+        description: mathematical viewpoint that existence proofs must be constructive
+      - id: Q1135710
+        url: https://www.wikidata.org/wiki/Q1135710
+        label: social constructivism
+        description: sociological theory of knowledge according to which human
+          development is socially situated, and knowledge is constructed through
+          interaction with others; states that people work together to actively
+          construct artifacts
+      - id: Q1783023
+        url: https://www.wikidata.org/wiki/Q1783023
+        label: constructivism
+        description: theory of international relations
+      - id: Q1405334
+        url: https://www.wikidata.org/wiki/Q1405334
+        label: constructivism
+        description: theories of psychology that critique the postulate of empiricism
+          that the mind passively produces, through perception and knowing, a
+          copy of reality
+      - id: Q27668526
+        url: https://www.wikidata.org/wiki/Q27668526
+        label: Constructivismo universal (Universal Constructivism)
+        description: painting by Joaquín Torres García
+      - id: Q4231562
+        url: https://www.wikidata.org/wiki/Q4231562
+        label: constructivism
+        description: theory in ethnic politics
+corporate-memphis:
+  name: Corporate Memphis
+  checked: 2026-08-23
+  getty_aat:
+    accept: null
+    method: no-exact-match
+    candidates:
+      - id: aat:300265730
+        url: http://vocab.getty.edu/aat/300265730
+        label: Memphis
+      - id: aat:300417252
+        url: http://vocab.getty.edu/aat/300417252
+        label: corporate authors
+      - id: aat:300460277
+        url: http://vocab.getty.edu/aat/300460277
+        label: corporate campuses
+      - id: aat:300445020
+        url: http://vocab.getty.edu/aat/300445020
+        label: corporate names
+      - id: aat:300386361
+        url: http://vocab.getty.edu/aat/300386361
+        label: corporate bodies
+      - id: aat:300195663
+        url: http://vocab.getty.edu/aat/300195663
+        label: corporate image
+      - id: aat:300025979
+        url: http://vocab.getty.edu/aat/300025979
+        label: corporate collections
+      - id: aat:300444150
+        url: http://vocab.getty.edu/aat/300444150
+        label: associated agents
+  wikidata:
+    accept: Q105676972
+    method: exact-label-match
+    candidates:
+      - id: Q105676972
+        url: https://www.wikidata.org/wiki/Q105676972
+        label: Corporate Memphis
+        description: flat, geometric art style, widely used in Big Tech illustrations
+dada:
+  name: Dada
+  checked: 2026-08-23
+  getty_aat:
+    accept: aat:300021500
+    method: exact-label-match
+    candidates:
+      - id: aat:300021500
+        url: http://vocab.getty.edu/aat/300021500
+        label: Dada
+      - id: aat:300022187
+        url: http://vocab.getty.edu/aat/300022187
+        label: Neo-Dada
+  wikidata:
+    accept: null
+    method: ambiguous-exact
+    candidates:
+      - id: Q6034
+        url: https://www.wikidata.org/wiki/Q6034
+        label: Dada
+        description: avant-garde art movement in the early 20th century
+      - id: Q30111581
+        url: https://www.wikidata.org/wiki/Q30111581
+        label: Dada
+        description: magazine (1917-1921)
+      - id: Q10752895
+        url: https://www.wikidata.org/wiki/Q10752895
+        label: Dada
+        description: mahalle (administrative quarter) in Dursunbey, Balıkesir,
+          northwestern Turkey
+      - id: Q96100180
+        url: https://www.wikidata.org/wiki/Q96100180
+        label: Diamond Citra Propertindo
+        description: Indonesian company
+      - id: Q131480810
+        url: https://www.wikidata.org/wiki/Q131480810
+        label: DADA
+        description: Libyan singer-songwriter
+      - id: Q2674056
+        url: https://www.wikidata.org/wiki/Q2674056
+        label: Daday district
+        description: district of Kastamonu, north-central Turkey
+      - id: Q1172352
+        url: https://www.wikidata.org/wiki/Q1172352
+        label: Database of German-language anarchism
+        description: German research project
+      - id: Q1156919
+        url: https://www.wikidata.org/wiki/Q1156919
+        label: Dada Gallotti
+        description: Italian actress
+de-stijl:
+  name: De Stijl
+  checked: 2026-08-23
+  getty_aat:
+    accept: aat:300021259
+    method: exact-label-match
+    candidates:
+      - id: aat:300021259
+        url: http://vocab.getty.edu/aat/300021259
+        label: De Stijl
+      - id: aat:300015846
+        url: http://vocab.getty.edu/aat/300015846
+        label: Western Sudanese
+      - id: aat:300141803
+        url: http://vocab.getty.edu/aat/300141803
+        label: Roman provincial styles
+      - id: aat:300106978
+        url: http://vocab.getty.edu/aat/300106978
+        label: Migration period styles
+      - id: aat:300015759
+        url: http://vocab.getty.edu/aat/300015759
+        label: Ancient West African
+      - id: aat:300015692
+        url: http://vocab.getty.edu/aat/300015692
+        label: Ancient Central African
+      - id: aat:300015702
+        url: http://vocab.getty.edu/aat/300015702
+        label: ancient East African
+      - id: aat:300015723
+        url: http://vocab.getty.edu/aat/300015723
+        label: Ancient North African
+  wikidata:
+    accept: null
+    method: ambiguous-exact
+    candidates:
+      - id: Q207445
+        url: https://www.wikidata.org/wiki/Q207445
+        label: De Stijl
+        description: Dutch artistic movement
+      - id: Q1155719
+        url: https://www.wikidata.org/wiki/Q1155719
+        label: De Stijl
+        description: second studio album by the American garage rock band The White Stripes
+      - id: Q10467327
+        url: https://www.wikidata.org/wiki/Q10467327
+        label: De Stijl
+        description: ""
+      - id: Q114734273
+        url: https://www.wikidata.org/wiki/Q114734273
+        label: De Stijl
+        description: ""
+      - id: Q110891102
+        url: https://www.wikidata.org/wiki/Q110891102
+        label: De Stijl
+        description: 1952 exhibition at Museum of Modern Art
+      - id: Q845421
+        url: https://www.wikidata.org/wiki/Q845421
+        label: neoplasticism
+        description: art theory
+      - id: Q106645374
+        url: https://www.wikidata.org/wiki/Q106645374
+        label: Utrecht - Amersfoort bicycle highway
+        description: bicycle highway in the Netherlands
+      - id: Q116864673
+        url: https://www.wikidata.org/wiki/Q116864673
+        label: De Stijl press card
+        description: ""
 frutiger-aero:
   name: Frutiger Aero
   checked: 2026-08-23
@@ -241,6 +521,111 @@ frutiger-aero:
         url: https://www.wikidata.org/wiki/Q118114289
         label: Frutiger Aero
         description: graphic design style associated with the 2000s
+glitch-art:
+  name: Glitch art
+  checked: 2026-08-23
+  getty_aat:
+    accept: null
+    method: no-exact-match
+    candidates:
+      - id: aat:300387102
+        url: http://vocab.getty.edu/aat/300387102
+        label: Nose art
+      - id: aat:300443929
+        url: http://vocab.getty.edu/aat/300443929
+        label: art studios (organizations)
+      - id: aat:300443852
+        url: http://vocab.getty.edu/aat/300443852
+        label: art agents
+      - id: aat:300443853
+        url: http://vocab.getty.edu/aat/300443853
+        label: art brokers
+      - id: aat:300435215
+        url: http://vocab.getty.edu/aat/300435215
+        label: art stores (built works)
+      - id: aat:300444407
+        url: http://vocab.getty.edu/aat/300444407
+        label: art schools (buildings)
+      - id: aat:300443854
+        url: http://vocab.getty.edu/aat/300443854
+        label: art dealerships
+      - id: aat:300419940
+        url: http://vocab.getty.edu/aat/300419940
+        label: net art
+  wikidata:
+    accept: Q5569949
+    method: exact-label-match
+    candidates:
+      - id: Q5569949
+        url: https://www.wikidata.org/wiki/Q5569949
+        label: glitch art
+        description: practice of using digital or analog errors for aesthetic purposes
+      - id: Q114347466
+        url: https://www.wikidata.org/wiki/Q114347466
+        label: "Glitch Art: Pixel Language"
+        description: First glitch art exhibition in Iran
+      - id: Q114347232
+        url: https://www.wikidata.org/wiki/Q114347232
+        label: glitchartisdead
+        description: artist organized event series
+letterpress:
+  name: Letterpress
+  checked: 2026-08-23
+  getty_aat:
+    accept: null
+    method: no-exact-match
+    candidates:
+      - id: aat:300101057
+        url: http://vocab.getty.edu/aat/300101057
+        label: letterpress copybooks
+      - id: aat:300428162
+        url: http://vocab.getty.edu/aat/300428162
+        label: letterpresses
+      - id: aat:300178926
+        url: http://vocab.getty.edu/aat/300178926
+        label: letterpress printing
+      - id: aat:300028469
+        url: http://vocab.getty.edu/aat/300028469
+        label: letterpress copies
+      - id: aat:300265178
+        url: http://vocab.getty.edu/aat/300265178
+        label: chromotypography (relief printing process)
+  wikidata:
+    accept: null
+    method: ambiguous-exact
+    candidates:
+      - id: Q18353647
+        url: https://www.wikidata.org/wiki/Q18353647
+        label: Letterpress
+        description: 2012 word video game
+      - id: Q582102
+        url: https://www.wikidata.org/wiki/Q582102
+        label: letterpress printing
+        description: technique of relief printing using a printing press
+      - id: Q99890588
+        url: https://www.wikidata.org/wiki/Q99890588
+        label: letterpress print
+        description: print produced by letterpress printing
+      - id: Q133286690
+        url: https://www.wikidata.org/wiki/Q133286690
+        label: Letterpress
+        description: GNOME Circle application
+      - id: Q113861720
+        url: https://www.wikidata.org/wiki/Q113861720
+        label: history of letterpress printing
+        description: ""
+      - id: Q138023338
+        url: https://www.wikidata.org/wiki/Q138023338
+        label: "Letterpress Revolution: The Politics of Anarchist Print Culture"
+        description: book published in 2023
+      - id: Q115617455
+        url: https://www.wikidata.org/wiki/Q115617455
+        label: letterpress shop
+        description: Printing company that produces books
+      - id: Q82025135
+        url: https://www.wikidata.org/wiki/Q82025135
+        label: letterpress researcher
+        description: ""
 memphis:
   name: Memphis
   checked: 2026-08-23
@@ -287,6 +672,242 @@ memphis:
         url: https://www.wikidata.org/wiki/Q5715
         label: Memphis
         description: ancient capital of Egypt
+op-art:
+  name: Op art
+  checked: 2026-08-23
+  getty_aat:
+    accept: aat:300022195
+    method: exact-label-match
+    candidates:
+      - id: aat:300022195
+        url: http://vocab.getty.edu/aat/300022195
+        label: Op art
+      - id: aat:300263177
+        url: http://vocab.getty.edu/aat/300263177
+        label: discipline-based art education
+      - id: aat:300265635
+        url: http://vocab.getty.edu/aat/300265635
+        label: Neo-Geo
+      - id: aat:300387102
+        url: http://vocab.getty.edu/aat/300387102
+        label: Nose art
+      - id: aat:300443929
+        url: http://vocab.getty.edu/aat/300443929
+        label: art studios (organizations)
+      - id: aat:300443852
+        url: http://vocab.getty.edu/aat/300443852
+        label: art agents
+      - id: aat:300443853
+        url: http://vocab.getty.edu/aat/300443853
+        label: art brokers
+      - id: aat:300435215
+        url: http://vocab.getty.edu/aat/300435215
+        label: art stores (built works)
+  wikidata:
+    accept: null
+    method: ambiguous-exact
+    candidates:
+      - id: Q182331
+        url: https://www.wikidata.org/wiki/Q182331
+        label: op art
+        description: style of visual art that uses optical illusions
+      - id: Q103960401
+        url: https://www.wikidata.org/wiki/Q103960401
+        label: Op art
+        description: encyclopedia article
+      - id: Q104011663
+        url: https://www.wikidata.org/wiki/Q104011663
+        label: Op Art in America
+        description: encyclopedia article
+      - id: Q5485610
+        url: https://www.wikidata.org/wiki/Q5485610
+        label: OP Art Foundation
+        description: Finnish art foundation
+      - id: Q67280355
+        url: https://www.wikidata.org/wiki/Q67280355
+        label: Op Art and Visual Perception
+        description: scientific article published on 01 January 1978
+      - id: Q8995975
+        url: https://www.wikidata.org/wiki/Q8995975
+        label: op art donde y en que año nace este movimiento tecnico
+        description: Wikimedia category
+pixel-art:
+  name: Pixel art
+  checked: 2026-08-23
+  getty_aat:
+    accept: null
+    method: no-exact-match
+    candidates:
+      - id: aat:300412057
+        url: http://vocab.getty.edu/aat/300412057
+        label: pixel density
+      - id: aat:300266190
+        url: http://vocab.getty.edu/aat/300266190
+        label: pixels
+      - id: aat:300387102
+        url: http://vocab.getty.edu/aat/300387102
+        label: Nose art
+      - id: aat:300443929
+        url: http://vocab.getty.edu/aat/300443929
+        label: art studios (organizations)
+      - id: aat:300443852
+        url: http://vocab.getty.edu/aat/300443852
+        label: art agents
+      - id: aat:300443853
+        url: http://vocab.getty.edu/aat/300443853
+        label: art brokers
+      - id: aat:300435215
+        url: http://vocab.getty.edu/aat/300435215
+        label: art stores (built works)
+      - id: aat:300444407
+        url: http://vocab.getty.edu/aat/300444407
+        label: art schools (buildings)
+  wikidata:
+    accept: Q811179
+    method: exact-label-match
+    candidates:
+      - id: Q111649884
+        url: https://www.wikidata.org/wiki/Q111649884
+        label: Pixel Art Coloring Book
+        description: 2021 video game
+      - id: Q811179
+        url: https://www.wikidata.org/wiki/Q811179
+        label: pixel art
+        description: digital art created using raster graphics edited on the pixel level
+      - id: Q7199710
+        url: https://www.wikidata.org/wiki/Q7199710
+        label: pixel artist
+        description: artist who works in the raster graphics on the pixel level
+      - id: Q135021359
+        url: https://www.wikidata.org/wiki/Q135021359
+        label: Pixel Artist
+        description: 2022 video game developed by Potion Junkies
+      - id: Q134967435
+        url: https://www.wikidata.org/wiki/Q134967435
+        label: Pixel Art Monster - Color by Number
+        description: 2019 video game developed by Boogygames Studios
+      - id: Q134990131
+        url: https://www.wikidata.org/wiki/Q134990131
+        label: Pixel Art - Mash-Up
+        description: 2020 video game developed by Vonderbear
+      - id: Q135452598
+        url: https://www.wikidata.org/wiki/Q135452598
+        label: "Pixel Art Academy: Learn Mode"
+        description: 2024 video game developed by Matej 'Retro' Jan
+      - id: Q105044723
+        url: https://www.wikidata.org/wiki/Q105044723
+        label: pixel-art editor
+        description: computer software used to make pixels pictures
+pop-art:
+  name: Pop art
+  checked: 2026-08-23
+  getty_aat:
+    accept: null
+    method: no-exact-match
+    candidates:
+      - id: aat:300022205
+        url: http://vocab.getty.edu/aat/300022205
+        label: Pop (fine arts styles)
+      - id: aat:300263412
+        url: http://vocab.getty.edu/aat/300263412
+        label: Young British Art
+      - id: aat:300251301
+        url: http://vocab.getty.edu/aat/300251301
+        label: Neo-Pop
+      - id: aat:300417411
+        url: http://vocab.getty.edu/aat/300417411
+        label: Political Pop
+      - id: aat:300417412
+        url: http://vocab.getty.edu/aat/300417412
+        label: Tokyo Pop
+      - id: aat:300201034
+        url: http://vocab.getty.edu/aat/300201034
+        label: pop-up books
+      - id: aat:300387102
+        url: http://vocab.getty.edu/aat/300387102
+        label: Nose art
+      - id: aat:300443929
+        url: http://vocab.getty.edu/aat/300443929
+        label: art studios (organizations)
+  wikidata:
+    accept: null
+    method: ambiguous-exact
+    candidates:
+      - id: Q134147
+        url: https://www.wikidata.org/wiki/Q134147
+        label: pop art
+        description: art movement
+      - id: Q22129234
+        url: https://www.wikidata.org/wiki/Q22129234
+        label: POP ART
+        description: Best album by Asami Kado (1986)
+      - id: Q135056233
+        url: https://www.wikidata.org/wiki/Q135056233
+        label: Pop Art
+        description: 2024 video game developed by Oleksiy Shtykov
+      - id: Q7228983
+        url: https://www.wikidata.org/wiki/Q7228983
+        label: Pop Art
+        description: album by Transvision Vamp
+      - id: Q114485798
+        url: https://www.wikidata.org/wiki/Q114485798
+        label: Pop Art
+        description: episode of One on One (S2 E5)
+      - id: Q56597086
+        url: https://www.wikidata.org/wiki/Q56597086
+        label: Pop Art
+        description: art exhibition
+      - id: Q103962383
+        url: https://www.wikidata.org/wiki/Q103962383
+        label: Pop art
+        description: encyclopedia article
+      - id: Q25414125
+        url: https://www.wikidata.org/wiki/Q25414125
+        label: Pop Art
+        description: 2008 short film
+psychedelic-art:
+  name: Psychedelic art
+  checked: 2026-08-23
+  getty_aat:
+    accept: null
+    method: no-exact-match
+    candidates:
+      - id: aat:300112743
+        url: http://vocab.getty.edu/aat/300112743
+        label: Psychedelic
+      - id: aat:300387102
+        url: http://vocab.getty.edu/aat/300387102
+        label: Nose art
+      - id: aat:300443929
+        url: http://vocab.getty.edu/aat/300443929
+        label: art studios (organizations)
+      - id: aat:300443852
+        url: http://vocab.getty.edu/aat/300443852
+        label: art agents
+      - id: aat:300443853
+        url: http://vocab.getty.edu/aat/300443853
+        label: art brokers
+      - id: aat:300435215
+        url: http://vocab.getty.edu/aat/300435215
+        label: art stores (built works)
+      - id: aat:300444407
+        url: http://vocab.getty.edu/aat/300444407
+        label: art schools (buildings)
+      - id: aat:300443854
+        url: http://vocab.getty.edu/aat/300443854
+        label: art dealerships
+  wikidata:
+    accept: null
+    method: ambiguous-exact
+    candidates:
+      - id: Q696160
+        url: https://www.wikidata.org/wiki/Q696160
+        label: psychedelic art
+        description: art related to altered states of consciousness
+      - id: Q103962835
+        url: https://www.wikidata.org/wiki/Q103962835
+        label: Psychedelic art
+        description: encyclopedia article
 risograph:
   name: Risograph
   checked: 2026-08-23
@@ -315,6 +936,123 @@ risograph:
         url: https://www.wikidata.org/wiki/Q137838140
         label: Duplicator art
         description: ""
+screen-printing:
+  name: Screen printing
+  checked: 2026-08-23
+  getty_aat:
+    accept: aat:300053281
+    method: exact-label-match
+    candidates:
+      - id: aat:300191733
+        url: http://vocab.getty.edu/aat/300191733
+        label: screen printing units
+      - id: aat:300235073
+        url: http://vocab.getty.edu/aat/300235073
+        label: screen printing stencils
+      - id: aat:300053281
+        url: http://vocab.getty.edu/aat/300053281
+        label: screen printing
+      - id: aat:300233616
+        url: http://vocab.getty.edu/aat/300233616
+        label: screen printing equipment
+      - id: aat:300435282
+        url: http://vocab.getty.edu/aat/300435282
+        label: stencil printing
+      - id: aat:300431541
+        url: http://vocab.getty.edu/aat/300431541
+        label: screen windows
+      - id: aat:300451036
+        url: http://vocab.getty.edu/aat/300451036
+        label: printing houses
+      - id: aat:300199635
+        url: http://vocab.getty.edu/aat/300199635
+        label: printing processes
+  wikidata:
+    accept: null
+    method: ambiguous-exact
+    candidates:
+      - id: Q187791
+        url: https://www.wikidata.org/wiki/Q187791
+        label: screen printing
+        description: printing technique
+      - id: Q26839872
+        url: https://www.wikidata.org/wiki/Q26839872
+        label: Screen printing
+        description: US periodical
+      - id: Q124800158
+        url: https://www.wikidata.org/wiki/Q124800158
+        label: screen printing press
+        description: machine used in the process of screen printing to transfer ink onto
+          substrates such as paper, textiles, or metal
+      - id: Q119823025
+        url: https://www.wikidata.org/wiki/Q119823025
+        label: Screen printing apparatus
+        description: US patent 11285713
+      - id: Q119826408
+        url: https://www.wikidata.org/wiki/Q119826408
+        label: Screen printing apparatus, mask cleaner, and blade
+        description: US patent 11273632
+      - id: Q123423973
+        url: https://www.wikidata.org/wiki/Q123423973
+        label: Screen printing machine
+        description: US patent 11253939
+      - id: Q123424146
+        url: https://www.wikidata.org/wiki/Q123424146
+        label: Screen printing machine
+        description: US patent 11198287
+      - id: Q116960521
+        url: https://www.wikidata.org/wiki/Q116960521
+        label: screen printing squeegee
+        description: arts and crafts item
+surrealism:
+  name: Surrealism
+  checked: 2026-08-23
+  getty_aat:
+    accept: null
+    method: no-exact-match
+    candidates:
+      - id: aat:300410313
+        url: http://vocab.getty.edu/aat/300410313
+        label: Abstract Surrealist
+      - id: aat:300021512
+        url: http://vocab.getty.edu/aat/300021512
+        label: Surrealist
+  wikidata:
+    accept: null
+    method: ambiguous-exact
+    candidates:
+      - id: Q39427
+        url: https://www.wikidata.org/wiki/Q39427
+        label: surrealism
+        description: international cultural movement that began in the early 1920s
+      - id: Q115125070
+        url: https://www.wikidata.org/wiki/Q115125070
+        label: surrealism
+        description: surrealism in literature
+      - id: Q50385277
+        url: https://www.wikidata.org/wiki/Q50385277
+        label: Surrealism
+        description: painting by Eugene Carchesio
+      - id: Q87347219
+        url: https://www.wikidata.org/wiki/Q87347219
+        label: Surrealism
+        description: episode of In Our Time
+      - id: Q103969076
+        url: https://www.wikidata.org/wiki/Q103969076
+        label: Surrealism
+        description: encyclopedia article
+      - id: Q138022869
+        url: https://www.wikidata.org/wiki/Q138022869
+        label: Surrealism at Play
+        description: book published in 2019
+      - id: Q139853490
+        url: https://www.wikidata.org/wiki/Q139853490
+        label: Surrealism and the Gothic
+        description: ""
+      - id: Q4448560
+        url: https://www.wikidata.org/wiki/Q4448560
+        label: surrealist music
+        description: music genre
 swiss-international-style:
   name: Swiss International Style
   checked: 2026-08-23

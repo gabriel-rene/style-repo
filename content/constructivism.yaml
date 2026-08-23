@@ -1,0 +1,162 @@
+id: constructivism
+term_type: movement
+status: stub
+names:
+  primary: Constructivism
+  variants: []
+summary: null
+external_ids:
+  getty_aat: null
+  wikidata: null
+facets:
+  era:
+    periods: []
+  geography:
+    origin_places: []
+    spread: []
+  lineage:
+    parents: []
+    influences: []
+    influenced: []
+    reacted_against: []
+    revival_of: []
+  production:
+    apparatus: []
+    techniques: []
+  formal_properties:
+    grid_discipline: moderate
+    palette_logic:
+      descriptor: restricted
+      note: red, black, and white dominance; diagonal composition
+    contrast: high
+    texture: flat
+    hierarchy: strict
+    ornament_level: minimal
+  ideological_stance: strongly-rationalist
+  commercial_context:
+    contexts:
+      - poster
+      - advertising
+      - editorial
+  revival:
+    status: null
+    revivals: []
+  lifecycle:
+    state: null
+    first_observed: null
+    review_due: null
+  practitioners:
+    people: []
+    studios: []
+images:
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2006AR9133/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O74444
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Okuyama, Gihachiro, "Nikke", ca. 1935. © Victoria and Albert Museum, London
+    rights_status: restricted
+    caption: Nikke, ca. 1935, Japan
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2016JN1722/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O1364138
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Scher, Paula, "Poster to commemorate the 50th anniversary of the
+      National Theatre, designed by Paula Scher", 2013. © Victoria and Albert
+      Museum, London
+    rights_status: restricted
+    caption: Poster to commemorate the 50th anniversary of the National Theatre,
+      designed by Paula Scher, 2013, Great Britain
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2017JT4101/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O1375307
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Mabb, David, "Austerity and Socialist Strategy", 2015. © Victoria
+      and Albert Museum, London
+    rights_status: restricted
+    caption: Austerity and Socialist Strategy, 2015, London
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2017JT4097/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O1375306
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Mabb, David, "How Capitalism Survives", 2014. © Victoria and Albert
+      Museum, London
+    rights_status: restricted
+    caption: How Capitalism Survives, 2014, London
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2017JT4186/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O1375308
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Mabb, David, "Limits, Barriers and Borders", 2016. © Victoria and
+      Albert Museum, London
+    rights_status: restricted
+    caption: Limits, Barriers and Borders, 2016, London
+    depicts: null
+  - file: null
+    remote_image: https://framemark.vam.ac.uk/collections/2017JT4102/full/!800,800/0/default.jpg
+    source_url: https://collections.vam.ac.uk/item/O1375305
+    license: V&A non-commercial terms
+      (https://www.vam.ac.uk/info/va-websites-terms-conditions)
+    attribution: Mabb, David, "Making the World Working Class", 2013. © Victoria and
+      Albert Museum, London
+    rights_status: restricted
+    caption: Making the World Working Class, 2013, London
+    depicts: null
+  - file: null
+    remote_image: https://www.moma.org/media/W1siZiIsIjIxMDU4MSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=8989fe7e109f7d11
+    source_url: https://www.moma.org/collection/works/12867
+    license: "MoMA collection image — rights not cleared for reuse (metadata CC0:
+      https://github.com/MuseumofModernArt/collection)"
+    attribution: Aleksei Gan, "Konstruktivizm (Constructivism)", 1922. The Museum of
+      Modern Art, New York (Gift of The Judith Rothschild Foundation)
+    rights_status: restricted
+    caption: Konstruktivizm (Constructivism). 1922. Book with letterpress cover
+    depicts: null
+  - file: null
+    remote_image: https://www.moma.org/media/W1siZiIsIjExNjcyMiJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=2fed85ff1ef8c0e1
+    source_url: https://www.moma.org/collection/works/96617
+    license: "MoMA collection image — rights not cleared for reuse (metadata CC0:
+      https://github.com/MuseumofModernArt/collection)"
+    attribution: Yuri Masnyj, "A Constructive Constructivism", 2003. The Museum of
+      Modern Art, New York (The Judith Rothschild Foundation Contemporary
+      Drawings Collection Gift)
+    rights_status: restricted
+    caption: A Constructive Constructivism. 2003. Pencil, colored ink, correction
+      fluid, and gouache with cut-and-pasted paper on paper
+    depicts: null
+todo:
+  - names.variants
+  - summary
+  - external_ids
+  - facets.era.periods
+  - facets.geography
+  - facets.lineage
+  - facets.lifecycle
+  - facets.practitioners
+provenance:
+  facets.formal_properties:
+    - source: editorial
+      reviewed: false
+  facets.ideological_stance:
+    - source: editorial
+      reviewed: false
+  facets.commercial_context:
+    - source: editorial
+      reviewed: false
+  images:
+    - source: vam
+      url: https://api.vam.ac.uk/v2/objects/search?images_exist=1&page_size=20&q=Constructivism%20poster
+      accessed: 2026-08-23
+      note: "query: Constructivism poster"
+    - source: moma-dataset
+      url: https://github.com/MuseumofModernArt/collection
+      accessed: 2026-08-23
+      note: "title contains: constructivism"

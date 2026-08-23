@@ -3,3 +3,17 @@
 acid-graphics: null
 memphis: Memphis Milano
 bauhaus: Bauhaus poster
+art-nouveau: Art Nouveau poster
+de-stijl: De Stijl
+dada: Dada
+constructivism: Constructivism poster
+pop-art: Pop art print
+op-art: Op art
+psychedelic-art: psychedelic poster
+surrealism: Surrealism print
+letterpress: letterpress
+screen-printing: screenprint poster
+# too new / not museum-collected — skip auto-search:
+corporate-memphis: null
+glitch-art: null
+pixel-art: null

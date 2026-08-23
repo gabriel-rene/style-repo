@@ -8,3 +8,18 @@ memphis: Memphis Milano design
 risograph: risograph print
 swiss-international-style: Swiss Style poster
 vaporwave: vaporwave
+art-nouveau: Art Nouveau poster
+de-stijl: De Stijl
+dada: Dada collage
+constructivism: constructivism poster
+pop-art: pop art
+# "op art" words are too short for the relevance guard; free-text search
+# drags in unrelated "optical" images. Needs a curated query.
+op-art: null
+psychedelic-art: psychedelic poster
+surrealism: surrealism painting
+corporate-memphis: corporate memphis illustration
+glitch-art: glitch art
+pixel-art: pixel art
+letterpress: letterpress printing
+screen-printing: screen printing poster

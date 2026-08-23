@@ -60,36 +60,6 @@ facets:
     studios: []
 
 images:
-  - file: assets/memphis/Memphis_Belle.jpg
-    source_url: https://commons.wikimedia.org/wiki/File:Memphis_Belle.jpg
-    license: Public domain
-    attribution: Unknown authorUnknown author, Public domain, via Wikimedia Commons
-    rights_status: open
-    caption: The B-17 Flying Fortress "The Memphis Belle" is shown on her way back
-      to the United States June 9, 1943, after successfully completing 25
-      missions from an airbase in England.
-    depicts: null
-  - file: assets/memphis/Beale_Street_in_Memphis_Tennessee.jpg
-    source_url: https://commons.wikimedia.org/wiki/File:Beale_Street_in_Memphis_Tennessee.jpg
-    license: CC BY 2.0
-    attribution: Rafi B. from Somewhere in Texas :), CC BY 2.0, via Wikimedia Commons
-    rights_status: open
-    caption: Beale Street in Memphis, TennesseeMemphis!
-    depicts: null
-  - file: assets/memphis/Clark_Tower_Memphis_TN_01.jpg
-    source_url: https://commons.wikimedia.org/wiki/File:Clark_Tower_Memphis_TN_01.jpg
-    license: CC BY 3.0
-    attribution: Thomas R Machnitzki, CC BY 3.0, via Wikimedia Commons
-    rights_status: open
-    caption: Clark Tower at 5100 Poplar Aveue and Mendenhall Road in Memphis, Tennessee.
-    depicts: null
-  - file: assets/memphis/Memphis_BW_2.jpg
-    source_url: https://commons.wikimedia.org/wiki/File:Memphis_BW_2.jpg
-    license: CC BY 3.0
-    attribution: Berthold Werner, CC BY 3.0, via Wikimedia Commons
-    rights_status: open
-    caption: Egypt, Memphis, Sphinx of Memphis
-    depicts: null
   - file: assets/memphis/Memphis-Milano_Movement.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Memphis-Milano_Movement.jpg
     license: CC BY-SA 3.0
@@ -161,6 +131,27 @@ images:
     attribution: Sowden, George, "Design", 1983. © Victoria and Albert Museum, London
     rights_status: restricted
     caption: Design, 1983, Milano
+    depicts: null
+  - file: assets/memphis/Memphis_Design_Paris_2008-09-_1239.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Memphis_Design_Paris_2008-09-_1239.jpg
+    license: CC BY 2.0
+    attribution: THOR, CC BY 2.0, via Wikimedia Commons
+    rights_status: open
+    caption: Memphis Design
+    depicts: null
+  - file: assets/memphis/Memphis_e_altri_arredo_01.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Memphis_e_altri,_arredo,_01.jpg
+    license: CC BY 3.0
+    attribution: Sailko, CC BY 3.0, via Wikimedia Commons
+    rights_status: open
+    caption: Furniture in the Kunstgewerbemuseum Berlin
+    depicts: null
+  - file: assets/memphis/Memphis_Group_collection_of_the_Mus_e_des_Arts_D_coratifs_in_Paris.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Memphis_Group_collection_of_the_Mus%C3%A9e_des_Arts_D%C3%A9coratifs_in_Paris.jpg
+    license: CC BY-SA 4.0
+    attribution: Neoclassicism Enthusiast, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Memphis Group collection of the Musée des Arts Décoratifs in Paris
     depicts: null
 
 todo:
