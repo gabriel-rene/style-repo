@@ -33,6 +33,13 @@ de-stijl:
       label: <modern Dutch styles and movements>
   source_url: https://vocab.getty.edu/aat/300021259
   accessed: 2026-08-23
+lithography:
+  aat: aat:300053271
+  parents:
+    - uri: http://vocab.getty.edu/aat/300199637
+      label: planographic printing processes
+  source_url: https://vocab.getty.edu/aat/300053271
+  accessed: 2026-08-23
 memphis:
   aat: aat:300265730
   parents:
@@ -53,4 +60,11 @@ screen-printing:
     - uri: http://vocab.getty.edu/aat/300053319
       label: printing (process)
   source_url: https://vocab.getty.edu/aat/300053281
+  accessed: 2026-08-23
+ukiyo-e:
+  aat: aat:300106769
+  parents:
+    - uri: http://vocab.getty.edu/aat/300106750
+      label: Japanese printmaking styles
+  source_url: https://vocab.getty.edu/aat/300106769
   accessed: 2026-08-23

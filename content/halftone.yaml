@@ -7,7 +7,7 @@ names:
 summary: null
 external_ids:
   getty_aat: null
-  wikidata: null
+  wikidata: Q1110021
 facets:
   era:
     periods: []
@@ -44,7 +44,100 @@ facets:
   practitioners:
     people: []
     studios: []
-images: []
+images:
+  - file: assets/halftone/Screens._Halftone_process_in_printing._img_02.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Screens._Halftone_process_in_printing._img_02.jpg
+    license: CC BY-SA 4.0
+    attribution: Dmitry Makeev, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Screens. Halftone process in printing. Purple Screens. Angles 165.
+    depicts: null
+  - file: assets/halftone/Screens._Halftone_process_in_printing._img_03.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Screens._Halftone_process_in_printing._img_03.jpg
+    license: CC BY-SA 4.0
+    attribution: Dmitry Makeev, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Screens. Halftone process in printing. Purple Screens. Angles 90.
+    depicts: null
+  - file: assets/halftone/Screens._Halftone_process_in_printing._img_01.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Screens._Halftone_process_in_printing._img_01.jpg
+    license: CC BY-SA 4.0
+    attribution: Dmitry Makeev, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Screens. Halftone process in printing. Purple Screens. Angles 90, 105 ,
+      165.
+    depicts: null
+  - file: assets/halftone/Screens._Halftone_process_in_printing._img_04.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Screens._Halftone_process_in_printing._img_04.jpg
+    license: CC BY-SA 4.0
+    attribution: Dmitry Makeev, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Screens. Halftone process in printing. Purple Screens. Angles 105.
+    depicts: null
+  - file: assets/halftone/Screens._Halftone_process_in_printing._img_07.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Screens._Halftone_process_in_printing._img_07.jpg
+    license: CC BY-SA 4.0
+    attribution: Dmitry Makeev, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Screens. Halftone process in printing. Purple Screens, photo in
+      transmitted and reflected light.
+    depicts: null
+  - file: assets/halftone/Screens._Halftone_process_in_printing._img_06.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Screens._Halftone_process_in_printing._img_06.jpg
+    license: CC BY-SA 4.0
+    attribution: Dmitry Makeev, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Screens. Halftone process in printing. Purple Screens, photo in
+      reflected light.
+    depicts: null
+  - file: assets/halftone/Screens._Halftone_process_in_printing._img_05.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Screens._Halftone_process_in_printing._img_05.jpg
+    license: CC BY-SA 4.0
+    attribution: Dmitry Makeev, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Screens. Halftone process in printing. Purple Screens, a photograph in
+      transmitted light.
+    depicts: null
+  - file: assets/halftone/Screens._Halftone_process_in_printing._img_10.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Screens._Halftone_process_in_printing._img_10.jpg
+    license: CC BY-SA 4.0
+    attribution: Dmitry Makeev, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Screens. Halftone process in printing. Gray, contact screens, a
+      photograph in transmitted light. Dim lighting.
+    depicts: null
+  - file: assets/halftone/Screens._Halftone_process_in_printing._img_09.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Screens._Halftone_process_in_printing._img_09.jpg
+    license: CC BY-SA 4.0
+    attribution: Dmitry Makeev, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Screens. Halftone process in printing. Gray, contact screens, a
+      photograph in transmitted light. Bright lighting.
+    depicts: null
+  - file: assets/halftone/Screens._Halftone_process_in_printing._img_08.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Screens._Halftone_process_in_printing._img_08.jpg
+    license: CC BY-SA 4.0
+    attribution: Dmitry Makeev, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Screens. Halftone process in printing. Gray, contact screens, photo in
+      reflected light.
+    depicts: null
+  - file: assets/halftone/Screens._Halftone_process_in_printing._img_11.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Screens._Halftone_process_in_printing._img_11.jpg
+    license: CC BY-SA 4.0
+    attribution: Dmitry Makeev, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Screens. Halftone process in printing. Gray Screens, photo in
+      transmitted and reflected light.
+    depicts: null
+  - file: assets/halftone/Screens._Halftone_process_in_printing._img_13.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Screens._Halftone_process_in_printing._img_13.jpg
+    license: CC BY-SA 4.0
+    attribution: Dmitry Makeev, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Screens. Halftone process in printing. Gray and purple screens, photo
+      in transmitted light.
+    depicts: null
 todo:
   - names.variants
   - summary
@@ -54,7 +147,6 @@ todo:
   - facets.lineage
   - facets.lifecycle
   - facets.practitioners
-  - images
 provenance:
   facets.formal_consequences:
     - source: editorial
@@ -62,3 +154,13 @@ provenance:
   facets.commercial_context:
     - source: editorial
       reviewed: false
+  external_ids.wikidata:
+    - source: wikidata
+      url: https://www.wikidata.org/wiki/Q1110021
+      accessed: 2026-08-23
+      method: exact-label-match
+  images:
+    - source: wikimedia-commons
+      url: https://commons.wikimedia.org/w/index.php?search=halftone
+      accessed: 2026-08-23
+      note: "query: halftone"

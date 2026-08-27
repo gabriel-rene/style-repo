@@ -246,6 +246,72 @@ images:
     rights_status: restricted
     caption: Mino Shigyo Co., Ltd. Silkscreen Printing. c. 1960. Silkscreen
     depicts: null
+  - file: assets/screen-printing/Rabbit_Foot_Minstrels_Printing_Block_1946.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Rabbit_Foot_Minstrels_Printing_Block,_1946.jpg
+    license: Public domain
+    attribution: Joe Mabel, Public domain, via Wikimedia Commons
+    rights_status: open
+    caption: "Printing block for posters for the Rabbit Foot Minstrels, a.k.a. The
+      Rabbit's Foot Company, an African American touring tent show that existed
+      in various forms from 1900 until 1959 (formally dissolved 1960). From the
+      Hatch Show Print collection, photographed at the exhibit Act Black:
+      Posters from Bl"
+    depicts: null
+  - file: assets/screen-printing/Rabbit_Foot_Minstrels_Printing_Block_1946_transformed_.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Rabbit_Foot_Minstrels_Printing_Block,_1946_(transformed).jpg
+    license: Public domain
+    attribution: Joe Mabel, Public domain, via Wikimedia Commons
+    rights_status: open
+    caption: "Printing block for posters for the Rabbit Foot Minstrels, a.k.a. The
+      Rabbit's Foot Company, an African American touring tent show that existed
+      in various forms from 1900 until 1959 (formally dissolved 1960). From the
+      Hatch Show Print collection, photographed at the exhibit Act Black:
+      Posters from Bl"
+    depicts: null
+  - file: assets/screen-printing/Rogers_Minstrels_Printing_Block_circa_1925.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Rogers_Minstrels_Printing_Block,_circa_1925.jpg
+    license: Public domain
+    attribution: Joe Mabel, Public domain, via Wikimedia Commons
+    rights_status: open
+    caption: "Printing block for posters for Rogers Minstrels (a.k.a. Rogers
+      Sunshine Minstrels), an African American touring minstrel show. From the
+      Hatch Show Print collection, photographed at the exhibit Act Black:
+      Posters from Black American Stage &amp; Screen, 13 March 2026 - 6
+      September 2006, Poster House ("
+    depicts: null
+  - file: assets/screen-printing/Printing_block_and_partial_poster_for_Silas_Green_from_New_Orleans_-_01.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Printing_block_and_partial_poster_for_Silas_Green_from_New_Orleans_-_01.jpg
+    license: Public domain
+    attribution: Joe Mabel, Public domain, via Wikimedia Commons
+    rights_status: open
+    caption: "Printing block and partial poster (printed from the block) for Silas
+      Green from New Orleans, an African American touring tent show that existed
+      in various forms from circa 1904 until 1957. From the Hatch Show Print
+      collection, photographed at the exhibit Act Black: Posters from Black
+      American Stage "
+    depicts: null
+  - file: assets/screen-printing/Printing_block_and_partial_poster_for_Silas_Green_from_New_Orleans_-_02.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Printing_block_and_partial_poster_for_Silas_Green_from_New_Orleans_-_02.jpg
+    license: Public domain
+    attribution: Joe Mabel, Public domain, via Wikimedia Commons
+    rights_status: open
+    caption: "Printing block and partial poster (printed from the block) for Silas
+      Green from New Orleans, an African American touring tent show that existed
+      in various forms from circa 1904 until 1957. From the Hatch Show Print
+      collection, photographed at the exhibit Act Black: Posters from Black
+      American Stage "
+    depicts: null
+  - file: assets/screen-printing/Partial_poster_for_Silas_Green_from_New_Orleans.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Partial_poster_for_Silas_Green_from_New_Orleans.jpg
+    license: Public domain
+    attribution: Joe Mabel, Public domain, via Wikimedia Commons
+    rights_status: open
+    caption: Partial poster (a production version of the poster would have
+      information about a particular performanc or performances) for Silas Green
+      from New Orleans, an African American touring tent show that existed in
+      various forms from circa 1904 until 1957. From the Hatch Show Print
+      collection, photographe
+    depicts: null
 todo:
   - external_ids
   - facets.era.periods

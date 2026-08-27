@@ -7,7 +7,7 @@ names:
 summary: null
 external_ids:
   getty_aat: null
-  wikidata: null
+  wikidata: Q928960
 facets:
   era:
     periods: []
@@ -46,9 +46,101 @@ facets:
     first_observed: null
     review_due: null
   practitioners:
-    people: []
+    people:
+      - name: Alfonso Iannelli
+        wikidata: Q4722043
+      - name: Vincent G. Raney
+        wikidata: Q134509693
+      - name: Donald Deskey
+        wikidata: Q5294242
     studios: []
-images: []
+images:
+  - file: assets/streamline-moderne/Streamline_Moderne_on_Alvarado.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Streamline_Moderne_on_Alvarado.jpg
+    license: CC BY-SA 3.0
+    attribution: Downtowngal, CC BY-SA 3.0, via Wikimedia Commons
+    rights_status: open
+    caption: Poorly maintained residence on Alvarado Street (1000 South block) in
+      Los Angeles. Mediterranean Revival style, with later Streamline Moderne
+      eaves additions.
+    depicts: null
+  - file: assets/streamline-moderne/Streamline_Moderne_-_Cincinnati_OH_-_Cincinnati_Union_Terminal_1_.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Streamline_Moderne_-_Cincinnati,_OH_-_Cincinnati_Union_Terminal_(1).jpg
+    license: CC BY 4.0
+    attribution: Bmzuckerman, CC BY 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Built 1928-33. Designed by Fellheimer &amp; Wagner.
+    depicts: null
+  - file: assets/streamline-moderne/Streamline_Moderne_-_Cincinnati_OH_-_Cincinnati_Union_Terminal_3_.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Streamline_Moderne_-_Cincinnati,_OH_-_Cincinnati_Union_Terminal_(3).jpg
+    license: CC BY 4.0
+    attribution: Bmzuckerman, CC BY 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Built 1928-33. Designed by Fellheimer &amp; Wagner.
+    depicts: null
+  - file: assets/streamline-moderne/Streamline_Moderne_-_Cincinnati_OH_-_Cincinnati_Union_Terminal_2_.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Streamline_Moderne_-_Cincinnati,_OH_-_Cincinnati_Union_Terminal_(2).jpg
+    license: CC BY 4.0
+    attribution: Bmzuckerman, CC BY 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Built 1928-33. Designed by Fellheimer &amp; Wagner.
+    depicts: null
+  - file: assets/streamline-moderne/Streamline_Moderne_-_Cincinnati_OH_-_Cincinnati_Union_Terminal_5_.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Streamline_Moderne_-_Cincinnati,_OH_-_Cincinnati_Union_Terminal_(5).jpg
+    license: CC BY 4.0
+    attribution: Bmzuckerman, CC BY 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Built 1928-33. Designed by Fellheimer &amp; Wagner.
+    depicts: null
+  - file: assets/streamline-moderne/Streamline_Moderne_-_Cincinnati_OH_-_Cincinnati_Union_Terminal_6_.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Streamline_Moderne_-_Cincinnati,_OH_-_Cincinnati_Union_Terminal_(6).jpg
+    license: CC BY 4.0
+    attribution: Bmzuckerman, CC BY 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Built 1928-33. Designed by Fellheimer &amp; Wagner.
+    depicts: null
+  - file: assets/streamline-moderne/Streamline_Moderne_-_Cincinnati_OH_-_Cincinnati_Union_Terminal_4_.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Streamline_Moderne_-_Cincinnati,_OH_-_Cincinnati_Union_Terminal_(4).jpg
+    license: CC BY 4.0
+    attribution: Bmzuckerman, CC BY 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Built 1928-33. Designed by Fellheimer &amp; Wagner.
+    depicts: null
+  - file: assets/streamline-moderne/Streamline_Moderne_-_Cincinnati_OH_-_Cincinnati_Union_Terminal_7_.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Streamline_Moderne_-_Cincinnati,_OH_-_Cincinnati_Union_Terminal_(7).jpg
+    license: CC BY 4.0
+    attribution: Bmzuckerman, CC BY 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Built 1928-33. Designed by Fellheimer &amp; Wagner.
+    depicts: null
+  - file: assets/streamline-moderne/Streamline_Moderne_-_Cincinnati_OH_-_Cincinnati_Union_Terminal_8_.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Streamline_Moderne_-_Cincinnati,_OH_-_Cincinnati_Union_Terminal_(8).jpg
+    license: CC BY 4.0
+    attribution: Bmzuckerman, CC BY 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Built 1928-33. Designed by Fellheimer &amp; Wagner.
+    depicts: null
+  - file: assets/streamline-moderne/Streamline_Moderne_-_Cincinnati_OH_-_Cincinnati_Union_Terminal_9_.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Streamline_Moderne_-_Cincinnati,_OH_-_Cincinnati_Union_Terminal_(9).jpg
+    license: CC BY 4.0
+    attribution: Bmzuckerman, CC BY 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Built 1928-33. Designed by Fellheimer &amp; Wagner.
+    depicts: null
+  - file: assets/streamline-moderne/Streamline_Moderne_-_Evansville_IN_-_Greyhound_Bus_Terminal_3_.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Streamline_Moderne_-_Evansville,_IN_-_Greyhound_Bus_Terminal_(3).jpg
+    license: CC BY 4.0
+    attribution: Bmzuckerman, CC BY 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Built in 1938. Designed by W. S. Arrasmith.
+    depicts: null
+  - file: assets/streamline-moderne/Streamline_Moderne_-_Evansville_IN_-_Greyhound_Bus_Terminal_1_.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Streamline_Moderne_-_Evansville,_IN_-_Greyhound_Bus_Terminal_(1).jpg
+    license: CC BY 4.0
+    attribution: Bmzuckerman, CC BY 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Built in 1938. Designed by W. S. Arrasmith.
+    depicts: null
 todo:
   - names.variants
   - summary
@@ -58,7 +150,6 @@ todo:
   - facets.lineage
   - facets.lifecycle
   - facets.practitioners
-  - images
 provenance:
   facets.formal_properties:
     - source: editorial
@@ -69,3 +160,18 @@ provenance:
   facets.commercial_context:
     - source: editorial
       reviewed: false
+  external_ids.wikidata:
+    - source: wikidata
+      url: https://www.wikidata.org/wiki/Q928960
+      accessed: 2026-08-23
+      method: exact-label-match
+  facets.practitioners.people:
+    - source: wikidata
+      url: https://www.wikidata.org/wiki/Q928960
+      accessed: 2026-08-23
+      property: P135 (reverse)
+  images:
+    - source: wikimedia-commons
+      url: https://commons.wikimedia.org/w/index.php?search=Streamline%20Moderne
+      accessed: 2026-08-23
+      note: "query: Streamline Moderne"

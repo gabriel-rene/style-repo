@@ -44,7 +44,145 @@ facets:
   practitioners:
     people: []
     studios: []
-images: []
+images:
+  - file: assets/photomontage/Photomontage_Forggensee_Panorama_.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Photomontage_(Forggensee_Panorama).jpg
+    license: CC BY-SA 3.0
+    attribution: "Photomontage by: Mmxx (talk / email) This is a retouched picture,
+      which means that it has been digitally altered from its original version.
+      Modifications made by Mmxx. File:Forggensee Panorama SK 0001.jpg - Simon
+      Koopmann File:Ahu Ko te Riku.jpg - Rivi File:Emirates A380 2.JPG - G
+      patkar on en.wikipedia File:Erdfunkstelle Raisting 2.jpg - Richard Bartz
+      File:Statue of Liberty, NY.jpg - William Warby File:Cristo Redentor -
+      Rio.jpg - Sean Vivek Crasto File:Kerala backwater 20080218-11.jpg - Haros
+      File:Moraine Lake 17092005.jpg - Gorgo File:Matterhorn Riffelsee
+      2005-06-11.jpg - Dirk Beyer File:Mont Saint Michel 2009.JPG -
+      Gustavo.motta File:Sydney opera house side view.jpg - Mfield
+      www.photography.mattfield.com File:Chiang Kai-shek memorial amk.jpg -
+      AngMoKio File:PB050006.JPG - Oreos File:Nasa blue marble.jpg - NASA
+      File:Broadway tower edit.jpg - Newton2 on en.wikipedia File:Egeskov Slot
+      spejling Edit 2.jpg - Malene Thyssen, CC BY-SA 3.0, via Wikimedia Commons"
+    rights_status: open
+    caption: "Phot omontage - Composite of 16 different photos which have been
+      digitally manipulated to give the impression that it is a real landscape.
+      Software used: Adobe Photoshop"
+    depicts: null
+  - file: assets/photomontage/Photomontage_Forggensee_Panorama_-2.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Photomontage_(Forggensee_Panorama)_-2.jpg
+    license: CC BY-SA 3.0
+    attribution: "Photomontage by: Mmxx (talk / email) This is a retouched picture,
+      which means that it has been digitally altered from its original version.
+      Modifications made by Mmxx. File:Forggensee Panorama SK 0001.jpg - Simon
+      Koopmann File:Ahu Ko te Riku.jpg - Rivi File:Emirates A380 2.JPG - G
+      patkar on en.wikipedia File:Erdfunkstelle Raisting 2.jpg - Richard Bartz
+      File:Statue of Liberty, NY.jpg - William Warby File:Cristo Redentor -
+      Rio.jpg - Sean Vivek Crasto File:Kerala backwater 20080218-11.jpg - Haros
+      File:Moraine Lake 17092005.jpg - Gorgo File:Matterhorn Riffelsee
+      2005-06-11.jpg - Dirk Beyer File:Mont Saint Michel 2009.JPG -
+      Gustavo.motta File:Sydney opera house side view.jpg - Mfield
+      www.photography.mattfield.com File:Chiang Kai-shek memorial amk.jpg -
+      AngMoKio File:PB050006.JPG - Oreos File:The Earth seen from Apollo 17.jpg
+      - NASA File:Broadway tower edit.jpg - Newton2 on en.wikipedia File:Egeskov
+      Slot spejling Edit 2.jpg - Malene Thyssen, CC BY-SA 3.0, via Wikimedia
+      Commons"
+    rights_status: open
+    caption: "Photomontage - Composite of 16 different photos which have been
+      digitally manipulated to give the impression that it is a real landscape.
+      Software used: Adobe Photoshop"
+    depicts: null
+  - file: assets/photomontage/Photomontage-gimp-lomit.png
+    source_url: https://commons.wikimedia.org/wiki/File:Photomontage-gimp-lomit.png
+    license: CC BY-SA 3.0
+    attribution: LoMit, CC BY-SA 3.0, via Wikimedia Commons
+    rights_status: open
+    caption: Fotomontaż
+    depicts: null
+  - file: assets/photomontage/Photomontage_SVOMAM_Project.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Photomontage_SVOMAM_Project.jpg
+    license: CC BY-SA 4.0
+    attribution: Mathildesene, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Photomontage SVOMAM Project
+    depicts: null
+  - file: assets/photomontage/Church_of_light.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Church_of_light.jpg
+    license: CC BY 4.0
+    attribution: AstroAnthony, CC BY 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Photomontage - The Víkurkirkja church at Vik in Iceland on a clear
+      night. The aurora was shot separately in Iceland (see File:Flames in the
+      sky.jpg).
+    depicts: null
+  - file: assets/photomontage/Pandemic_photomontage_COVID-19.png
+    source_url: https://commons.wikimedia.org/wiki/File:Pandemic_photomontage_COVID-19.png
+    license: CC BY-SA 4.0
+    attribution: Lofhi, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Pandemic photomontage COVID-19
+    depicts: null
+  - file: assets/photomontage/Ambigram_Escher_and_tessellation_background_-_photomontage_with_reversible_hands
+    source_url: https://commons.wikimedia.org/wiki/File:Ambigram_Escher_and_tessellation_background_-_photomontage_with_reversible_hands.jpg
+    license: CC BY-SA 4.0
+    attribution: Basile Morin, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: "Ambigram Escher with two reversible hands drawing right side up and
+      upside-down. Ambiguous image based on a symmetry of 180 degrees.
+      Photomontage with an ambigram tessellation showing the name \"Escher\" in
+      two colors using negative space upside down. M. C. Escher's work features
+      mathematical objects "
+    depicts: null
+  - file: assets/photomontage/Octalfly_photomontage_with_segments.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Octalfly_photomontage_with_segments.jpg
+    license: CC BY-SA 4.0
+    attribution: CulmSee-Axel-acad.2161, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: "Photomontage with parts for to exemplify: Octalfly *, a hoverfly
+      (Syrphidae spec. mutatio), of a subspecies not yet detailed specified in
+      its species' subspecies (of the minor kind) in the family of Hoverflies
+      shown in a photomontage (= fake-photo): relatively unknown endemic
+      Octalfly * at frozen sp"
+    depicts: null
+  - file: assets/photomontage/Photomontage_Twinning_La_Clusaz_Osatri_in_Listenbourg_derivative_work.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Photomontage_Twinning_La_Clusaz_%26_Osatri_in_Listenbourg_derivative_work.jpg
+    license: Public domain
+    attribution: "Derivative work: La Clusaz official Twitter account Original: Père
+      Igor New version: Tukp, Public domain, via Wikimedia Commons"
+    rights_status: open
+    caption: Photomontage of a town twinning sign between La Clusaz (Haute-Savoie,
+      France) and Osatri, imaginary city of fictional country Listenbourg. The
+      hoax was shared in October 2022 by the official Twitter account of La
+      Clusaz (archive), and reported by the French newspaper Le Dauphiné Libéré
+      (archive)[1][
+    depicts: null
+  - file: assets/photomontage/Photomontage_Listenbourg_passport_-_derivative_work.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Photomontage_Listenbourg_passport_-_derivative_work.jpg
+    license: Public domain
+    attribution: "Various Original: Cytis Derivative work: unknown New version:
+      Tukp, Public domain, via Wikimedia Commons"
+    rights_status: open
+    caption: Photomontage of fictional Listenbourg passport on a world map.
+      Derivative work. The hoax was published by Le Journal Des Enfants
+      (archive), Global News, The Meghalayan, Edge, and other websites.
+    depicts: null
+  - file: assets/photomontage/Photomontage_metro_station_Listenbourg_-_derivative_work.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Photomontage_metro_station_Listenbourg_-_derivative_work.jpg
+    license: Public domain
+    attribution: "Various New version: Tukp Derivative work: unknown (RATP)
+      Original: Jean-Louis Zimmermann, Public domain, via Wikimedia Commons"
+    rights_status: open
+    caption: Photomontage of the fictional metro station Listenbourg. Derivative
+      work. The hoax was originally published by the official Twitter account
+      Serge Lapin RATP (archive), and reported by France Info (TV channel).
+    depicts: null
+  - file: assets/photomontage/Mini-Fex_photomontage_.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Mini-Fex_(photomontage).jpg
+    license: CC BY-SA 4.0
+    attribution: Bertrand Labévue, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: PHOTOMONTAGE The shutter is from a same era 3 x 4 and did not have the
+      correct lens diameter. I corrected as I could but it's not totally right.
+      The other fittings and leather were taken from other same era cameras.
+    depicts: null
 todo:
   - names.variants
   - summary
@@ -54,7 +192,6 @@ todo:
   - facets.lineage
   - facets.lifecycle
   - facets.practitioners
-  - images
 provenance:
   facets.formal_consequences:
     - source: editorial
@@ -62,3 +199,8 @@ provenance:
   facets.commercial_context:
     - source: editorial
       reviewed: false
+  images:
+    - source: wikimedia-commons
+      url: https://commons.wikimedia.org/w/index.php?search=photomontage
+      accessed: 2026-08-23
+      note: "query: photomontage"

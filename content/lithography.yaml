@@ -3,10 +3,13 @@ term_type: technique
 status: stub
 names:
   primary: Lithography
-  variants: []
-summary: null
+  variants:
+    - lithographic
+summary: Planographic printing process in which a design is deposited on a stone
+  or plate with a greasy substance and the surface is chemically treated to
+  accept ink only in the greasy areas.
 external_ids:
-  getty_aat: null
+  getty_aat: aat:300053271
   wikidata: null
 facets:
   era:
@@ -44,17 +47,71 @@ facets:
   practitioners:
     people: []
     studios: []
-images: []
+images:
+  - file: assets/lithography/1899_poster_of_Mme._M._Sissieretta_Jones.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:1899_poster_of_Mme._M._Sissieretta_Jones.jpg
+    license: Public domain
+    attribution: Adam Cuerden, Public domain, via Wikimedia Commons
+    rights_status: open
+    caption: "Poster: \"The Black Patti, Mme. M. Sissieretta Jones, The Greatest
+      Singer of her Race\". Color lithograph ; sheet 77 x 50 cm.
+      Restorationist's Note: I hate the text on this. Hits some of the worst
+      Victorian ways of writing about other races than white. I did this
+      restoration for Jones, not the copyist"
+    depicts: null
+  - file: assets/lithography/Britain_Needs_You_at_Once_-_WWI_recruitment_poster_-_Parliamentary_Recruiting_Co
+    source_url: https://commons.wikimedia.org/wiki/File:Britain_Needs_You_at_Once_-_WWI_recruitment_poster_-_Parliamentary_Recruiting_Committee_Poster_No._108.jpg
+    license: Public domain
+    attribution: Adam Cuerden (restoration), Public domain, via Wikimedia Commons
+    rights_status: open
+    caption: A WWI British recruitment poster. The Imperial War Museum identifies
+      this as Parliamentary Recruiting Committee Poster No. 108. It also points
+      out that St. George and the Dragon served as a national symbol for several
+      parties in the conflict (which includes Germany, ironically enough).
+      Library of Co
+    depicts: null
+  - file: assets/lithography/_Albi_Salon_des_Cents_1894_-_Henri-Gabriel_Ibels_lithographie.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:(Albi)_Salon_des_Cents_1894_-_Henri-Gabriel_Ibels_lithographie.jpg
+    license: Public domain
+    attribution: Didier Descouens, Public domain, via Wikimedia Commons
+    rights_status: open
+    caption: null
+    depicts: null
+  - file: assets/lithography/_Albi_Le_Salon_des_Cents_lithographie_EAL_pour_l_affiche_1896_-_Henry_Detouche.j
+    source_url: https://commons.wikimedia.org/wiki/File:(Albi)_Le_Salon_des_Cents,_lithographie_EAL_pour_l%27affiche_1896_-_Henry_Detouche.jpg
+    license: Public domain
+    attribution: Didier Descouens, Public domain, via Wikimedia Commons
+    rights_status: open
+    caption: null
+    depicts: null
+  - file: assets/lithography/Long_Tack_Sam_poster_by_Adolph_Friedlander.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Long_Tack_Sam_poster_by_Adolph_Friedlander.jpg
+    license: CC0
+    attribution: Adam Cuerden, CC0, via Wikimedia Commons
+    rights_status: open
+    caption: '1919 colour lithograph poster, 95 × 71.6 cm (37 3/8 × 28 3/16"), for
+      Long Tack Sam, printed in Hamburg, Germany. Per the National Portrait
+      Gallery: [Long Tack Sam,] Born Cangzhou, China After training as an
+      acrobat and magician in his native China, Long Tack Sam journeyed to the
+      United States and be'
+    depicts: null
+  - file: assets/lithography/Poster_for_The_Geisha.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Poster_for_The_Geisha.jpg
+    license: Public domain
+    attribution: Published by David Allen and Sons, a publishing house which, in
+      1914, had about 1000 employees, and David Allen died in about 1903. Artist
+      unknown. Restored by Adam Cuerden, Public domain, via Wikimedia Commons
+    rights_status: open
+    caption: Poster advertising The Geisha at Spa Theatre, Scarborough, 1906.
+      Lithograph, 50.7cm by 76cm
+    depicts: null
 todo:
-  - names.variants
-  - summary
   - external_ids
   - facets.era.periods
   - facets.geography
   - facets.lineage
   - facets.lifecycle
   - facets.practitioners
-  - images
 provenance:
   facets.formal_consequences:
     - source: editorial
@@ -62,3 +119,21 @@ provenance:
   facets.commercial_context:
     - source: editorial
       reviewed: false
+  external_ids.getty_aat:
+    - source: getty-aat
+      url: https://vocab.getty.edu/aat/300053271
+      accessed: 2026-08-23
+      method: exact-label-match
+  summary:
+    - source: getty-aat
+      url: https://vocab.getty.edu/aat/300053271
+      accessed: 2026-08-23
+  names.variants:
+    - source: getty-aat
+      url: https://vocab.getty.edu/aat/300053271
+      accessed: 2026-08-23
+  images:
+    - source: wikimedia-commons
+      url: https://commons.wikimedia.org/w/index.php?search=lithograph%20poster
+      accessed: 2026-08-23
+      note: "query: lithograph poster"

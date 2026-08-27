@@ -33,6 +33,60 @@ acid-graphics:
     accept: null
     method: no-exact-match
     candidates: []
+airbrush:
+  name: Airbrush
+  checked: 2026-08-23
+  getty_aat:
+    accept: null
+    method: no-exact-match
+    candidates:
+      - id: aat:300443849
+        url: http://vocab.getty.edu/aat/300443849
+        label: airbrush artists
+      - id: aat:300053405
+        url: http://vocab.getty.edu/aat/300053405
+        label: airbrushing
+      - id: aat:300022706
+        url: http://vocab.getty.edu/aat/300022706
+        label: airbrushes
+  wikidata:
+    accept: null
+    method: ambiguous-exact
+    candidates:
+      - id: Q408151
+        url: https://www.wikidata.org/wiki/Q408151
+        label: airbrush
+        description: small, air-operated tool that sprays various media by a process of
+          nebulization
+      - id: Q83672014
+        url: https://www.wikidata.org/wiki/Q83672014
+        label: Rosa 'Airbrush'
+        description: rose cultivar
+      - id: Q103889430
+        url: https://www.wikidata.org/wiki/Q103889430
+        label: Airbrush
+        description: encyclopedia article
+      - id: Q55842228
+        url: https://www.wikidata.org/wiki/Q55842228
+        label: airbrushing
+        description: subconcept of painting
+      - id: Q4698473
+        url: https://www.wikidata.org/wiki/Q4698473
+        label: airbrush make-up
+        description: makeup sprayed onto the skin using an airbrush
+      - id: Q140592192
+        url: https://www.wikidata.org/wiki/Q140592192
+        label: spray tanning
+        description: sunless tanning technique in which a tanning solution is sprayed
+          onto the skin
+      - id: Q19709465
+        url: https://www.wikidata.org/wiki/Q19709465
+        label: airbrush tanning
+        description: ""
+      - id: Q4698472
+        url: https://www.wikidata.org/wiki/Q4698472
+        label: Airbrush Action Magazine
+        description: magazine in United States
 art-deco:
   name: Art Deco
   checked: 2026-08-23
@@ -173,6 +227,76 @@ art-nouveau:
         url: https://www.wikidata.org/wiki/Q2864687
         label: Art nouveau in France
         description: ""
+arts-and-crafts:
+  name: Arts and Crafts
+  checked: 2026-08-23
+  getty_aat:
+    accept: null
+    method: no-exact-match
+    candidates:
+      - id: aat:300420396
+        url: http://vocab.getty.edu/aat/300420396
+        label: arts and crafts sets
+      - id: aat:300266319
+        url: http://vocab.getty.edu/aat/300266319
+        label: Arts and Crafts (movement)
+      - id: aat:300250482
+        url: http://vocab.getty.edu/aat/300250482
+        label: industrial arts (field of study)
+      - id: aat:300054704
+        url: http://vocab.getty.edu/aat/300054704
+        label: crafts (art genres)
+      - id: aat:300417580
+        url: http://vocab.getty.edu/aat/300417580
+        label: vocal arts
+      - id: aat:300417292
+        url: http://vocab.getty.edu/aat/300417292
+        label: luxury arts
+      - id: aat:300386369
+        url: http://vocab.getty.edu/aat/300386369
+        label: arts associations
+      - id: aat:300443860
+        url: http://vocab.getty.edu/aat/300443860
+        label: arts initiatives (groups)
+  wikidata:
+    accept: null
+    method: ambiguous-exact
+    candidates:
+      - id: Q330369
+        url: https://www.wikidata.org/wiki/Q330369
+        label: Arts and Crafts movement
+        description: international design movement
+      - id: Q810592
+        url: https://www.wikidata.org/wiki/Q810592
+        label: handicraft
+        description: hobby using hands to make small-scale objects
+      - id: Q2865882
+        url: https://www.wikidata.org/wiki/Q2865882
+        label: industrial arts
+        description: academic discipline concerned with the manual, mechanical or
+          industrial production of useful objects
+      - id: Q85723929
+        url: https://www.wikidata.org/wiki/Q85723929
+        label: Arts and Crafts
+        description: Dutch shop and gallery for interior art, arts and crafts shop, and
+          painting in The Hague (1898-1904)
+      - id: Q463382
+        url: https://www.wikidata.org/wiki/Q463382
+        label: American Craftsman
+        description: American domestic architectural, interior design, landscape design,
+          applied arts, and decorative arts style and lifestyle
+      - id: Q114543130
+        url: https://www.wikidata.org/wiki/Q114543130
+        label: Arts and Crafts
+        description: episode of The Mr. Men Show (S2 E7)
+      - id: Q4801490
+        url: https://www.wikidata.org/wiki/Q4801490
+        label: Arts and Crafts Exhibition Society
+        description: exhibition Society in London
+      - id: Q3413219
+        url: https://www.wikidata.org/wiki/Q3413219
+        label: Quartier des Arts-et-Métiers
+        description: administrative quarter in Paris, France
 bauhaus:
   name: Bauhaus
   checked: 2026-08-23
@@ -292,6 +416,76 @@ brutalist-web-design:
     accept: null
     method: no-exact-match
     candidates: []
+collage:
+  name: Collage
+  checked: 2026-08-23
+  getty_aat:
+    accept: null
+    method: no-exact-match
+    candidates:
+      - id: aat:300033963
+        url: http://vocab.getty.edu/aat/300033963
+        label: collages (visual works)
+      - id: aat:300435286
+        url: http://vocab.getty.edu/aat/300435286
+        label: collage intaglio prints
+      - id: aat:300435285
+        url: http://vocab.getty.edu/aat/300435285
+        label: collage relief prints
+      - id: aat:300138699
+        url: http://vocab.getty.edu/aat/300138699
+        label: collage (technique)
+      - id: aat:300021499
+        url: http://vocab.getty.edu/aat/300021499
+        label: Synthetic Cubist
+      - id: aat:300263867
+        url: http://vocab.getty.edu/aat/300263867
+        label: cutout animation
+      - id: aat:300025113
+        url: http://vocab.getty.edu/aat/300025113
+        label: collagists
+      - id: aat:300041339
+        url: http://vocab.getty.edu/aat/300041339
+        label: collagraphs (prints)
+  wikidata:
+    accept: null
+    method: ambiguous-exact
+    candidates:
+      - id: Q16408624
+        url: https://www.wikidata.org/wiki/Q16408624
+        label: Collage
+        description: Estonian musical group
+      - id: Q170593
+        url: https://www.wikidata.org/wiki/Q170593
+        label: collaging
+        description: technique of art production using assemblage of different forms
+      - id: Q22669857
+        url: https://www.wikidata.org/wiki/Q22669857
+        label: collage
+        description: artwork created with collage technique
+      - id: Q3682678
+        url: https://www.wikidata.org/wiki/Q3682678
+        label: Collage
+        description: album by Ratt
+      - id: Q62029973
+        url: https://www.wikidata.org/wiki/Q62029973
+        label: Collage
+        description: family name
+      - id: Q25521921
+        url: https://www.wikidata.org/wiki/Q25521921
+        label: Collage
+        description: 1971 self-titled debut studio album by Collage
+      - id: Q26868
+        url: https://www.wikidata.org/wiki/Q26868
+        label: collagen
+        description: group of fibrous proteins that occur in vertebrates as the chief
+          constituent of connective tissue fibrils and in bones and yield
+          gelatin and glue upon boiling with water
+      - id: Q1779300
+        url: https://www.wikidata.org/wiki/Q1779300
+        label: connective tissue disease
+        description: musculoskeletal system disease that affects tissues such as skin,
+          tendons, and cartilage
 constructivism:
   name: Constructivism
   checked: 2026-08-23
@@ -347,6 +541,45 @@ constructivism:
         url: https://www.wikidata.org/wiki/Q4231562
         label: constructivism
         description: theory in ethnic politics
+copperplate-script:
+  name: Copperplate script
+  checked: 2026-08-23
+  getty_aat:
+    accept: null
+    method: no-exact-match
+    candidates:
+      - id: aat:300404793
+        url: http://vocab.getty.edu/aat/300404793
+        label: Gupta script
+      - id: aat:300026487
+        url: http://vocab.getty.edu/aat/300026487
+        label: scripts (documents)
+      - id: aat:300202354
+        url: http://vocab.getty.edu/aat/300202354
+        label: script (typeface group)
+      - id: aat:300404788
+        url: http://vocab.getty.edu/aat/300404788
+        label: Brahmi script
+      - id: aat:300343579
+        url: http://vocab.getty.edu/aat/300343579
+        label: draft cursive script
+      - id: aat:300253329
+        url: http://vocab.getty.edu/aat/300253329
+        label: shooting scripts
+      - id: aat:300411968
+        url: http://vocab.getty.edu/aat/300411968
+        label: Serbian (Cyrillic script)
+      - id: aat:300391270
+        url: http://vocab.getty.edu/aat/300391270
+        label: slender gold script
+  wikidata:
+    accept: Q5168845
+    method: exact-label-match
+    candidates:
+      - id: Q5168845
+        url: https://www.wikidata.org/wiki/Q5168845
+        label: copperplate script
+        description: script
 corporate-memphis:
   name: Corporate Memphis
   checked: 2026-08-23
@@ -386,6 +619,82 @@ corporate-memphis:
         url: https://www.wikidata.org/wiki/Q105676972
         label: Corporate Memphis
         description: flat, geometric art style, widely used in Big Tech illustrations
+cyanotype:
+  name: Cyanotype
+  checked: 2026-08-23
+  getty_aat:
+    accept: null
+    method: no-exact-match
+    candidates:
+      - id: aat:300134811
+        url: http://vocab.getty.edu/aat/300134811
+        label: cyanotypes (photographic prints)
+  wikidata:
+    accept: null
+    method: ambiguous-exact
+    candidates:
+      - id: Q422321
+        url: https://www.wikidata.org/wiki/Q422321
+        label: blueprint
+        description: document reproduction created by using a contact print process on
+          light-sensitive sheets
+      - id: Q64029200
+        url: https://www.wikidata.org/wiki/Q64029200
+        label: cyanotype
+        description: blue-toned photographic print produced by the blueprint process
+      - id: Q372532
+        url: https://www.wikidata.org/wiki/Q372532
+        label: cyanotype
+        description: photographic printing process using iron salts and producing an
+          image in Prussian blue
+      - id: Q107210102
+        url: https://www.wikidata.org/wiki/Q107210102
+        label: Cyanotype Daydream -The Girl Who Dreamed the World-
+        description: 2022 video game
+      - id: Q140131776
+        url: https://www.wikidata.org/wiki/Q140131776
+        label: Cyanotype
+        description: beer brewed by FUERST WIACEK Berlin
+      - id: Q110825600
+        url: https://www.wikidata.org/wiki/Q110825600
+        label: cyanotype paper
+        description: photographic paper
+      - id: Q65974889
+        url: https://www.wikidata.org/wiki/Q65974889
+        label: Cyanotypes of Camera Obscura Section Activities and Equipment at Aberdeen
+          Proving Ground, Maryland (NAID 532972)
+        description: series in the National Archives and Records Administration's holdings
+      - id: Q65974888
+        url: https://www.wikidata.org/wiki/Q65974888
+        label: Cyanotypes of Bomb Shelter, Pillbox, and Building Panels Tests at
+          Aberdeen Proving Ground, MD (NAID 532971)
+        description: series in the National Archives and Records Administration's holdings
+cyberpunk-aesthetic:
+  name: Cyberpunk aesthetic
+  checked: 2026-08-23
+  getty_aat:
+    accept: null
+    method: no-exact-match
+    candidates:
+      - id: aat:300124083
+        url: http://vocab.getty.edu/aat/300124083
+        label: aesthetic concepts
+      - id: aat:300056182
+        url: http://vocab.getty.edu/aat/300056182
+        label: machine aesthetic
+      - id: aat:300056120
+        url: http://vocab.getty.edu/aat/300056120
+        label: Kunstwollen
+      - id: aat:300060022
+        url: http://vocab.getty.edu/aat/300060022
+        label: High-Tech
+      - id: aat:300018124
+        url: http://vocab.getty.edu/aat/300018124
+        label: Aesthetic Movement
+  wikidata:
+    accept: null
+    method: no-exact-match
+    candidates: []
 dada:
   name: Dada
   checked: 2026-08-23
@@ -503,6 +812,112 @@ de-stijl:
         url: https://www.wikidata.org/wiki/Q116864673
         label: De Stijl press card
         description: ""
+etching:
+  name: Etching
+  checked: 2026-08-23
+  getty_aat:
+    accept: null
+    method: no-exact-match
+    candidates:
+      - id: aat:300425161
+        url: http://vocab.getty.edu/aat/300425161
+        label: etching knives
+      - id: aat:300425163
+        url: http://vocab.getty.edu/aat/300425163
+        label: etching tables
+      - id: aat:300160648
+        url: http://vocab.getty.edu/aat/300160648
+        label: etching needles
+      - id: aat:300251316
+        url: http://vocab.getty.edu/aat/300251316
+        label: electrolytic etching
+      - id: aat:300183765
+        url: http://vocab.getty.edu/aat/300183765
+        label: etching ground
+      - id: aat:300234719
+        url: http://vocab.getty.edu/aat/300234719
+        label: blankets (printing press components)
+      - id: aat:300190346
+        url: http://vocab.getty.edu/aat/300190346
+        label: sugar-lift
+      - id: aat:300264651
+        url: http://vocab.getty.edu/aat/300264651
+        label: sugar-ground etching (printing process)
+  wikidata:
+    accept: null
+    method: ambiguous-exact
+    candidates:
+      - id: Q186986
+        url: https://www.wikidata.org/wiki/Q186986
+        label: etching
+        description: intaglio printmaking technique
+      - id: Q18218093
+        url: https://www.wikidata.org/wiki/Q18218093
+        label: etching print
+        description: print produced with etching technique
+      - id: Q1863826
+        url: https://www.wikidata.org/wiki/Q1863826
+        label: Etchingham
+        description: village in East Sussex, England, UK
+      - id: Q2368605
+        url: https://www.wikidata.org/wiki/Q2368605
+        label: etching
+        description: technique in microfabrication
+      - id: Q2125702
+        url: https://www.wikidata.org/wiki/Q2125702
+        label: etching
+        description: artistic technique (not for printing)
+      - id: Q76852161
+        url: https://www.wikidata.org/wiki/Q76852161
+        label: Etchingham, John
+        description: entry in Thom's Irish Who's Who
+      - id: Q12341928
+        url: https://www.wikidata.org/wiki/Q12341928
+        label: etching
+        description: used in graphics to process metal sheets for printing
+      - id: Q103911183
+        url: https://www.wikidata.org/wiki/Q103911183
+        label: Etching
+        description: encyclopedia article
+flat-design:
+  name: Flat design
+  checked: 2026-08-23
+  getty_aat:
+    accept: null
+    method: no-exact-match
+    candidates:
+      - id: aat:300448962
+        url: http://vocab.getty.edu/aat/300448962
+        label: design schools (buildings)
+      - id: aat:300112822
+        url: http://vocab.getty.edu/aat/300112822
+        label: Nuovo Design
+      - id: aat:300435130
+        url: http://vocab.getty.edu/aat/300435130
+        label: production design
+      - id: aat:300435106
+        url: http://vocab.getty.edu/aat/300435106
+        label: flat landscapes
+      - id: aat:300417284
+        url: http://vocab.getty.edu/aat/300417284
+        label: flat file cabinets
+      - id: aat:300404179
+        url: http://vocab.getty.edu/aat/300404179
+        label: flat-jack testing
+      - id: aat:300457792
+        url: http://vocab.getty.edu/aat/300457792
+        label: communication design
+      - id: aat:300435243
+        url: http://vocab.getty.edu/aat/300435243
+        label: textile design
+  wikidata:
+    accept: Q15266360
+    method: exact-label-match
+    candidates:
+      - id: Q15266360
+        url: https://www.wikidata.org/wiki/Q15266360
+        label: flat design
+        description: design style
 frutiger-aero:
   name: Frutiger Aero
   checked: 2026-08-23
@@ -521,6 +936,59 @@ frutiger-aero:
         url: https://www.wikidata.org/wiki/Q118114289
         label: Frutiger Aero
         description: graphic design style associated with the 2000s
+futurism:
+  name: Futurism
+  checked: 2026-08-23
+  getty_aat:
+    accept: null
+    method: no-exact-match
+    candidates:
+      - id: aat:300410340
+        url: http://vocab.getty.edu/aat/300410340
+        label: Afrofuturist
+      - id: aat:300021374
+        url: http://vocab.getty.edu/aat/300021374
+        label: Futurist
+      - id: aat:300021394
+        url: http://vocab.getty.edu/aat/300021394
+        label: Cubo-Futurist
+  wikidata:
+    accept: null
+    method: ambiguous-exact
+    candidates:
+      - id: Q131221
+        url: https://www.wikidata.org/wiki/Q131221
+        label: Futurism
+        description: artistic and social movement
+      - id: Q188867
+        url: https://www.wikidata.org/wiki/Q188867
+        label: futures studies
+        description: study of possible, probable, and preferable social, technological
+          and political futures
+      - id: Q25345946
+        url: https://www.wikidata.org/wiki/Q25345946
+        label: Futurism
+        description: American science and technology news website
+      - id: Q3831119
+        url: https://www.wikidata.org/wiki/Q3831119
+        label: futurism
+        description: movement in literature
+      - id: Q2195355
+        url: https://www.wikidata.org/wiki/Q2195355
+        label: futurism
+        description: 20th-century movement in music
+      - id: Q1475650
+        url: https://www.wikidata.org/wiki/Q1475650
+        label: futurism
+        description: Christian eschatological view
+      - id: Q84569295
+        url: https://www.wikidata.org/wiki/Q84569295
+        label: Futurism
+        description: Art exhibition at Tate Modern
+      - id: Q69848166
+        url: https://www.wikidata.org/wiki/Q69848166
+        label: Futurism
+        description: 2017 single by Ayahi Takagaki
 glitch-art:
   name: Glitch art
   checked: 2026-08-23
@@ -568,6 +1036,87 @@ glitch-art:
         url: https://www.wikidata.org/wiki/Q114347232
         label: glitchartisdead
         description: artist organized event series
+grunge-typography:
+  name: Grunge typography
+  checked: 2026-08-23
+  getty_aat:
+    accept: null
+    method: no-exact-match
+    candidates:
+      - id: aat:300260967
+        url: http://vocab.getty.edu/aat/300260967
+        label: Grunge
+      - id: aat:300195853
+        url: http://vocab.getty.edu/aat/300195853
+        label: typography
+  wikidata:
+    accept: null
+    method: no-exact-match
+    candidates: []
+halftone:
+  name: Halftone
+  checked: 2026-08-23
+  getty_aat:
+    accept: null
+    method: no-exact-match
+    candidates:
+      - id: aat:300134956
+        url: http://vocab.getty.edu/aat/300134956
+        label: halftone negatives
+      - id: aat:300202113
+        url: http://vocab.getty.edu/aat/300202113
+        label: dropout halftone (color effect)
+      - id: aat:300155640
+        url: http://vocab.getty.edu/aat/300155640
+        label: relief halftone (process)
+      - id: aat:300236164
+        url: http://vocab.getty.edu/aat/300236164
+        label: halftone screens
+      - id: aat:300154372
+        url: http://vocab.getty.edu/aat/300154372
+        label: relief halftones (prints)
+      - id: aat:300202115
+        url: http://vocab.getty.edu/aat/300202115
+        label: halftone (color effect)
+  wikidata:
+    accept: Q1110021
+    method: exact-label-match
+    candidates:
+      - id: Q1110021
+        url: https://www.wikidata.org/wiki/Q1110021
+        label: halftone
+        description: printing process
+      - id: Q1959524
+        url: https://www.wikidata.org/wiki/Q1959524
+        label: halftone pattern
+        description: pattern made from dots that together comprise an image
+      - id: Q99826778
+        url: https://www.wikidata.org/wiki/Q99826778
+        label: relief halftone
+        description: reproductive process used primarily for photographs from the 1880s
+          to the 1950s, utilizing small dots of variable size in relief to
+          reproduce tone in the prints
+      - id: Q5641916
+        url: https://www.wikidata.org/wiki/Q5641916
+        label: Halftone characteristic
+        description: characteristic in facsimile systems
+      - id: Q119351212
+        url: https://www.wikidata.org/wiki/Q119351212
+        label: Halftone image creation
+        description: US patent 11303779
+      - id: Q65974865
+        url: https://www.wikidata.org/wiki/Q65974865
+        label: Halftone Reproductions of Italian Activities in Colonized Territories
+          (NAID 532948)
+        description: series in the National Archives and Records Administration's holdings
+      - id: Q124305437
+        url: https://www.wikidata.org/wiki/Q124305437
+        label: halftone interval system
+        description: ""
+      - id: Q119290032
+        url: https://www.wikidata.org/wiki/Q119290032
+        label: Halftone matrix generation using kernels
+        description: US patent 11418681
 letterpress:
   name: Letterpress
   checked: 2026-08-23
@@ -626,6 +1175,206 @@ letterpress:
         url: https://www.wikidata.org/wiki/Q82025135
         label: letterpress researcher
         description: ""
+ligne-claire:
+  name: Ligne claire
+  checked: 2026-08-23
+  getty_aat:
+    accept: null
+    method: no-exact-match
+    candidates:
+      - id: aat:300435501
+        url: http://vocab.getty.edu/aat/300435501
+        label: lignes (units of measurement)
+      - id: aat:300422196
+        url: http://vocab.getty.edu/aat/300422196
+        label: composing rules
+      - id: aat:300423804
+        url: http://vocab.getty.edu/aat/300423804
+        label: drivelines
+      - id: aat:300428246
+        url: http://vocab.getty.edu/aat/300428246
+        label: lineshafts
+      - id: aat:300024538
+        url: http://vocab.getty.edu/aat/300024538
+        label: line printers
+      - id: aat:300433055
+        url: http://vocab.getty.edu/aat/300433055
+        label: slug cutters
+      - id: aat:300422172
+        url: http://vocab.getty.edu/aat/300422172
+        label: communication insulators
+      - id: aat:300434493
+        url: http://vocab.getty.edu/aat/300434493
+        label: telephone line doublers
+  wikidata:
+    accept: null
+    method: ambiguous-exact
+    candidates:
+      - id: Q1307909
+        url: https://www.wikidata.org/wiki/Q1307909
+        label: ligne claire
+        description: drawing style
+      - id: Q130354354
+        url: https://www.wikidata.org/wiki/Q130354354
+        label: Ligne claire
+        description: Wikimedia disambiguation page
+linocut:
+  name: Linocut
+  checked: 2026-08-23
+  getty_aat:
+    accept: null
+    method: no-exact-match
+    candidates:
+      - id: aat:300041393
+        url: http://vocab.getty.edu/aat/300041393
+        label: linocuts (prints)
+      - id: aat:300060720
+        url: http://vocab.getty.edu/aat/300060720
+        label: linoleum block printing
+  wikidata:
+    accept: Q103950955
+    method: exact-label-match
+    candidates:
+      - id: Q752633
+        url: https://www.wikidata.org/wiki/Q752633
+        label: linocut technique
+        description: printmaking technique
+      - id: Q22060043
+        url: https://www.wikidata.org/wiki/Q22060043
+        label: linocut print
+        description: artwork produced via linocut process
+      - id: Q104713301
+        url: https://www.wikidata.org/wiki/Q104713301
+        label: linocut plate
+        description: plate to make linocut prints
+      - id: Q103950955
+        url: https://www.wikidata.org/wiki/Q103950955
+        label: Linocut
+        description: encyclopedia article
+      - id: Q141085383
+        url: https://www.wikidata.org/wiki/Q141085383
+        label: linocutter
+        description: artist who makes linocuts, which are prints from linoleum plates
+      - id: Q123505593
+        url: https://www.wikidata.org/wiki/Q123505593
+        label: Linocut postcard
+        description: postcard featuring a linocut on the picture side
+      - id: Q116077127
+        url: https://www.wikidata.org/wiki/Q116077127
+        label: linoleum block
+        description: type of printing block
+lithography:
+  name: Lithography
+  checked: 2026-08-23
+  getty_aat:
+    accept: aat:300053271
+    method: exact-label-match
+    candidates:
+      - id: aat:300417370
+        url: http://vocab.getty.edu/aat/300417370
+        label: polyester plate lithography
+      - id: aat:300022770
+        url: http://vocab.getty.edu/aat/300022770
+        label: offset presses
+      - id: aat:300343476
+        url: http://vocab.getty.edu/aat/300343476
+        label: chalk lithography
+      - id: aat:300192900
+        url: http://vocab.getty.edu/aat/300192900
+        label: offset lithography
+      - id: aat:300053276
+        url: http://vocab.getty.edu/aat/300053276
+        label: transfer lithography
+      - id: aat:300053271
+        url: http://vocab.getty.edu/aat/300053271
+        label: lithography
+      - id: aat:300022767
+        url: http://vocab.getty.edu/aat/300022767
+        label: lithographic presses
+      - id: aat:300053272
+        url: http://vocab.getty.edu/aat/300053272
+        label: chromolithography
+  wikidata:
+    accept: null
+    method: ambiguous-exact
+    candidates:
+      - id: Q133036
+        url: https://www.wikidata.org/wiki/Q133036
+        label: lithography
+        description: printing technique
+      - id: Q56682219
+        url: https://www.wikidata.org/wiki/Q56682219
+        label: Lithography of the peach variety Lord Palmerston
+        description: chromolithograph of De Pannemaeker, Pieter
+      - id: Q103951124
+        url: https://www.wikidata.org/wiki/Q103951124
+        label: Lithography
+        description: encyclopedia article
+      - id: Q56682221
+        url: https://www.wikidata.org/wiki/Q56682221
+        label: Lithography of the grape variety Foster White Seedling
+        description: chromolithograph of De Pannemaeker, Pieter
+      - id: Q56682220
+        url: https://www.wikidata.org/wiki/Q56682220
+        label: Lithography of the pear variety Monchallard
+        description: chromolithograph of De Pannemaeker, Pieter
+      - id: Q56682218
+        url: https://www.wikidata.org/wiki/Q56682218
+        label: Lithography of the pear variety Léonce de Vaubernier
+        description: chromolithograph of De Pannemaeker, Pieter
+      - id: Q90733314
+        url: https://www.wikidata.org/wiki/Q90733314
+        label: Sarony & Co.
+        description: New York City photography studio
+      - id: Q56682215
+        url: https://www.wikidata.org/wiki/Q56682215
+        label: Lithography of the pear variety Forelle
+        description: chromolithograph of De Pannemaeker, Pieter
+maximalism:
+  name: Maximalism
+  checked: 2026-08-23
+  getty_aat:
+    accept: null
+    method: no-exact-match
+    candidates: []
+  wikidata:
+    accept: null
+    method: ambiguous-exact
+    candidates:
+      - id: Q27534502
+        url: https://www.wikidata.org/wiki/Q27534502
+        label: Maximalism
+        description: 2016 studio album by Amaranthe
+      - id: Q2246318
+        url: https://www.wikidata.org/wiki/Q2246318
+        label: maximalism
+        description: art movement
+      - id: Q3302467
+        url: https://www.wikidata.org/wiki/Q3302467
+        label: Maximalism
+        description: in Marxist politics, a series of demands aiming to achieve socialism
+      - id: Q3454432
+        url: https://www.wikidata.org/wiki/Q3454432
+        label: hysterical realism
+        description: pejorative term to describe certain realist-genre books
+      - id: Q123011195
+        url: https://www.wikidata.org/wiki/Q123011195
+        label: Maximalism as a Cosmopolitan strategy in the art of Ruth Novaczek and
+          Doug Fishbone
+        description: scientific article published in 2016
+      - id: Q129185999
+        url: https://www.wikidata.org/wiki/Q129185999
+        label: Maximalism in the Pampas. The First Echoes of the Russian Revolution in
+          Argentina
+        description: scholarly article
+      - id: Q1962690
+        url: https://www.wikidata.org/wiki/Q1962690
+        label: Flemish maximalism
+        description: ""
+      - id: Q7056340
+        url: https://www.wikidata.org/wiki/Q7056340
+        label: Revisionist Maximalism
+        description: Jewish fascist ideology
 memphis:
   name: Memphis
   checked: 2026-08-23
@@ -672,6 +1421,196 @@ memphis:
         url: https://www.wikidata.org/wiki/Q5715
         label: Memphis
         description: ancient capital of Egypt
+mid-century-modern:
+  name: Mid-century modern
+  checked: 2026-08-23
+  getty_aat:
+    accept: null
+    method: no-exact-match
+    candidates:
+      - id: aat:300343610
+        url: http://vocab.getty.edu/aat/300343610
+        label: Mid-Century Modernist
+      - id: aat:300379388
+        url: http://vocab.getty.edu/aat/300379388
+        label: modern (generic time frame)
+      - id: aat:300391427
+        url: http://vocab.getty.edu/aat/300391427
+        label: Modern English (language)
+      - id: aat:300379525
+        url: http://vocab.getty.edu/aat/300379525
+        label: modern materials
+      - id: aat:300457625
+        url: http://vocab.getty.edu/aat/300457625
+        label: Desert Modernism
+      - id: aat:300266638
+        url: http://vocab.getty.edu/aat/300266638
+        label: Scandinavian modern
+      - id: aat:300262591
+        url: http://vocab.getty.edu/aat/300262591
+        label: modern Makonde sculpture styles
+      - id: aat:300456642
+        url: http://vocab.getty.edu/aat/300456642
+        label: ale (beverage)
+  wikidata:
+    accept: null
+    method: ambiguous-exact
+    candidates:
+      - id: Q133539880
+        url: https://www.wikidata.org/wiki/Q133539880
+        label: Mid-Century Modern
+        description: 2025 American comedy streaming television series
+      - id: Q6840667
+        url: https://www.wikidata.org/wiki/Q6840667
+        label: mid-century modern
+        description: architectural, interior, product, and graphic design of the
+          mid-20th century
+      - id: Q107747983
+        url: https://www.wikidata.org/wiki/Q107747983
+        label: Mid-Century Modern Residential Architecture in Norwich, Vermont MPS
+        description: multiple listing in the U.S. National Register of Historic Places
+      - id: Q130454024
+        url: https://www.wikidata.org/wiki/Q130454024
+        label: Mid-Century Modern Houses of Lexington, Massachusetts MPS
+        description: multiple listing in the U.S. National Register of Historic Places
+      - id: Q126983103
+        url: https://www.wikidata.org/wiki/Q126983103
+        label: "Mid-Century Modern Interiors: The Ideas the Shaped Interior Design in
+          America"
+        description: scholarly article
+      - id: Q127555564
+        url: https://www.wikidata.org/wiki/Q127555564
+        label: "Mid-Century Modern Interiors: The Ideas that Shaped Interior Design in
+          America, by Lucinda Kaukas Havenhand"
+        description: scholarly article
+      - id: Q133575371
+        url: https://www.wikidata.org/wiki/Q133575371
+        label: Mid-Century Modern
+        description: Wikimedia disambiguation page
+minimalism:
+  name: Minimalism
+  checked: 2026-08-23
+  getty_aat:
+    accept: null
+    method: no-exact-match
+    candidates:
+      - id: aat:300265635
+        url: http://vocab.getty.edu/aat/300265635
+        label: Neo-Geo
+      - id: aat:300065758
+        url: http://vocab.getty.edu/aat/300065758
+        label: Minimal
+  wikidata:
+    accept: null
+    method: ambiguous-exact
+    candidates:
+      - id: Q173436
+        url: https://www.wikidata.org/wiki/Q173436
+        label: Minimalism
+        description: movements in various forms of art and design
+      - id: Q572901
+        url: https://www.wikidata.org/wiki/Q572901
+        label: minimalist music
+        description: form of art music or other compositional practice that employs
+          limited or minimal musical materials
+      - id: Q124068020
+        url: https://www.wikidata.org/wiki/Q124068020
+        label: Minimalism
+        description: 2017 video game
+      - id: Q6865348
+        url: https://www.wikidata.org/wiki/Q6865348
+        label: minimalism
+        description: visual arts movement
+      - id: Q104626604
+        url: https://www.wikidata.org/wiki/Q104626604
+        label: "The Minimalists: Less Is Now"
+        description: 2021 film directed by Matt D'Avella
+      - id: Q1752932
+        url: https://www.wikidata.org/wiki/Q1752932
+        label: minimalism (computing)
+        description: philosophy of computing
+      - id: Q50406576
+        url: https://www.wikidata.org/wiki/Q50406576
+        label: Minimalism
+        description: painting by Miriam Helen Stannage
+      - id: Q109045082
+        url: https://www.wikidata.org/wiki/Q109045082
+        label: minimalism (philosophy)
+        description: philosophical movement
+new-typography:
+  name: New Typography
+  checked: 2026-08-23
+  getty_aat:
+    accept: null
+    method: no-exact-match
+    candidates:
+      - id: aat:300411813
+        url: http://vocab.getty.edu/aat/300411813
+        label: New Hampshirite (of modern U.S. state)
+      - id: aat:300411814
+        url: http://vocab.getty.edu/aat/300411814
+        label: New Jerseyan (of modern U.S. state)
+      - id: aat:300411815
+        url: http://vocab.getty.edu/aat/300411815
+        label: New Mexican (of modern U.S. state)
+      - id: aat:300411816
+        url: http://vocab.getty.edu/aat/300411816
+        label: New Yorker (of modern U.S. state)
+      - id: aat:300411288
+        url: http://vocab.getty.edu/aat/300411288
+        label: New Topographics
+      - id: aat:300417410
+        url: http://vocab.getty.edu/aat/300417410
+        label: New Scene
+      - id: aat:300444997
+        url: http://vocab.getty.edu/aat/300444997
+        label: New-Islamic
+      - id: aat:300417393
+        url: http://vocab.getty.edu/aat/300417393
+        label: "'85 New Wave"
+  wikidata:
+    accept: null
+    method: no-exact-match
+    candidates:
+      - id: Q84937906
+        url: https://www.wikidata.org/wiki/Q84937906
+        label: New Typography of the Journal
+        description: scientific article published on 01 January 1937
+new-wave-typography:
+  name: New Wave typography
+  checked: 2026-08-23
+  getty_aat:
+    accept: null
+    method: no-exact-match
+    candidates:
+      - id: aat:300417393
+        url: http://vocab.getty.edu/aat/300417393
+        label: "'85 New Wave"
+      - id: aat:300266314
+        url: http://vocab.getty.edu/aat/300266314
+        label: No Wave
+      - id: aat:300265810
+        url: http://vocab.getty.edu/aat/300265810
+        label: wave grain
+      - id: aat:300022189
+        url: http://vocab.getty.edu/aat/300022189
+        label: Neo-Expressionist
+      - id: aat:300022194
+        url: http://vocab.getty.edu/aat/300022194
+        label: new wave (film movement)
+      - id: aat:300389646
+        url: http://vocab.getty.edu/aat/300389646
+        label: BWF
+      - id: aat:300444288
+        url: http://vocab.getty.edu/aat/300444288
+        label: wave coursed shingle
+      - id: aat:300429091
+        url: http://vocab.getty.edu/aat/300429091
+        label: permanent wave machines
+  wikidata:
+    accept: null
+    method: no-exact-match
+    candidates: []
 op-art:
   name: Op art
   checked: 2026-08-23
@@ -731,6 +1670,144 @@ op-art:
         url: https://www.wikidata.org/wiki/Q8995975
         label: op art donde y en que año nace este movimiento tecnico
         description: Wikimedia category
+pen-plotter:
+  name: Pen plotter
+  checked: 2026-08-23
+  getty_aat:
+    accept: null
+    method: no-exact-match
+    candidates:
+      - id: aat:300101939
+        url: http://vocab.getty.edu/aat/300101939
+        label: pen plotters
+      - id: aat:300101934
+        url: http://vocab.getty.edu/aat/300101934
+        label: electrostatic plotters
+      - id: aat:300101932
+        url: http://vocab.getty.edu/aat/300101932
+        label: plotters
+      - id: aat:300443955
+        url: http://vocab.getty.edu/aat/300443955
+        label: pen draftsmen
+      - id: aat:300429025
+        url: http://vocab.getty.edu/aat/300429025
+        label: pen cases
+      - id: aat:300429029
+        url: http://vocab.getty.edu/aat/300429029
+        label: pen wipers
+      - id: aat:300256986
+        url: http://vocab.getty.edu/aat/300256986
+        label: pen points
+      - id: aat:300266509
+        url: http://vocab.getty.edu/aat/300266509
+        label: pen rests
+  wikidata:
+    accept: null
+    method: no-exact-match
+    candidates:
+      - id: Q100734573
+        url: https://www.wikidata.org/wiki/Q100734573
+        label: Pen plotter printing of ITO thin film as a highly CO sensitive component
+          of a resistive gas sensor
+        description: scientific article published on 05 August 2020
+photocopier:
+  name: Photocopier
+  checked: 2026-08-23
+  getty_aat:
+    accept: null
+    method: no-exact-match
+    candidates:
+      - id: aat:300265598
+        url: http://vocab.getty.edu/aat/300265598
+        label: photocopying machines
+  wikidata:
+    accept: null
+    method: ambiguous-exact
+    candidates:
+      - id: Q185369
+        url: https://www.wikidata.org/wiki/Q185369
+        label: photocopier
+        description: device for reproducing documents
+      - id: Q3495733
+        url: https://www.wikidata.org/wiki/Q3495733
+        label: Gestetner
+        description: duplicating machine
+      - id: Q108557690
+        url: https://www.wikidata.org/wiki/Q108557690
+        label: Photocopier
+        description: 2021 Indonesian film by Wregas Bhanuteja
+      - id: Q135853446
+        url: https://www.wikidata.org/wiki/Q135853446
+        label: Photocopier Token - Rank Xerox [Num99082]
+        description: › Tokens - Milled - Netherlands
+      - id: Q135738233
+        url: https://www.wikidata.org/wiki/Q135738233
+        label: Photocopier Token - XeroCopiadora Xerox [Num193161]
+        description: › Tokens - Brazil
+      - id: Q46377869
+        url: https://www.wikidata.org/wiki/Q46377869
+        label: Photocopier exposure and risk of sarcoidosis in African-American sibs
+        description: scientific article published on 01 March 2004
+      - id: Q71832833
+        url: https://www.wikidata.org/wiki/Q71832833
+        label: Photocopier toner dust and lung disease
+        description: scientific article published on 01 November 1996
+      - id: Q44228026
+        url: https://www.wikidata.org/wiki/Q44228026
+        label: Photocopier's papillitis
+        description: scientific article
+photomontage:
+  name: Photomontage
+  checked: 2026-08-23
+  getty_aat:
+    accept: null
+    method: no-exact-match
+    candidates:
+      - id: aat:300419270
+        url: http://vocab.getty.edu/aat/300419270
+        label: photomontage (image-making technique)
+      - id: aat:300134699
+        url: http://vocab.getty.edu/aat/300134699
+        label: photomontages (visual works)
+  wikidata:
+    accept: null
+    method: ambiguous-exact
+    candidates:
+      - id: Q828107
+        url: https://www.wikidata.org/wiki/Q828107
+        label: photomontage
+        description: composite image created from two or more photographs
+      - id: Q103961706
+        url: https://www.wikidata.org/wiki/Q103961706
+        label: Photomontage
+        description: encyclopedia article
+      - id: Q131597072
+        url: https://www.wikidata.org/wiki/Q131597072
+        label: photomontage
+        description: technique of juxtaposing or partially overlapping several images or
+          parts of them to obtain a single image
+      - id: Q79864811
+        url: https://www.wikidata.org/wiki/Q79864811
+        label: Photomontage of couple embracing in leaves
+        description: photograph by Mario Giacomelli (Italian, 1925-2000) (2016.490)
+      - id: Q79864807
+        url: https://www.wikidata.org/wiki/Q79864807
+        label: Photomontage of Man and Pigeons
+        description: photograph by Mario Giacomelli (Italian, 1925-2000) (2016.489)
+      - id: Q140550416
+        url: https://www.wikidata.org/wiki/Q140550416
+        label: Photomontage with Texts
+        description: "scholarly article published in Critique of Anthropology, vol. 13,
+          no. 4 (1993) (DOI: 10.1177/0308275X9301300402)"
+      - id: Q91825133
+        url: https://www.wikidata.org/wiki/Q91825133
+        label: Photomontage detection using steganography technique based on a neural
+          network
+        description: scientific article published on 17 April 2019
+      - id: Q69075459
+        url: https://www.wikidata.org/wiki/Q69075459
+        label: Photomontage in the planning of jaw and facial operations
+        description: scientific article published on 01 January 1974
 pixel-art:
   name: Pixel art
   checked: 2026-08-23
@@ -798,6 +1875,21 @@ pixel-art:
         url: https://www.wikidata.org/wiki/Q105044723
         label: pixel-art editor
         description: computer software used to make pixels pictures
+plakatstil:
+  name: Plakatstil
+  checked: 2026-08-23
+  getty_aat:
+    accept: null
+    method: no-exact-match
+    candidates: []
+  wikidata:
+    accept: Q7200825
+    method: exact-label-match
+    candidates:
+      - id: Q7200825
+        url: https://www.wikidata.org/wiki/Q7200825
+        label: Plakatstil
+        description: German 20th century poster art style
 pop-art:
   name: Pop art
   checked: 2026-08-23
@@ -908,6 +2000,41 @@ psychedelic-art:
         url: https://www.wikidata.org/wiki/Q103962835
         label: Psychedelic art
         description: encyclopedia article
+punk-graphics:
+  name: Punk graphics
+  checked: 2026-08-23
+  getty_aat:
+    accept: null
+    method: no-exact-match
+    candidates:
+      - id: aat:300426696
+        url: http://vocab.getty.edu/aat/300426696
+        label: graphics software
+      - id: aat:300055797
+        url: http://vocab.getty.edu/aat/300055797
+        label: punk (international movement)
+      - id: aat:300263421
+        url: http://vocab.getty.edu/aat/300263421
+        label: graphzines
+      - id: aat:300053170
+        url: http://vocab.getty.edu/aat/300053170
+        label: computer graphics
+      - id: aat:300168293
+        url: http://vocab.getty.edu/aat/300168293
+        label: graphics tablets
+      - id: aat:300249788
+        url: http://vocab.getty.edu/aat/300249788
+        label: punk (wood)
+      - id: aat:300215280
+        url: http://vocab.getty.edu/aat/300215280
+        label: raster graphics
+      - id: aat:300215281
+        url: http://vocab.getty.edu/aat/300215281
+        label: vector graphics
+  wikidata:
+    accept: null
+    method: no-exact-match
+    candidates: []
 risograph:
   name: Risograph
   checked: 2026-08-23
@@ -1004,6 +2131,155 @@ screen-printing:
         url: https://www.wikidata.org/wiki/Q116960521
         label: screen printing squeegee
         description: arts and crafts item
+skeuomorphism:
+  name: Skeuomorphism
+  checked: 2026-08-23
+  getty_aat:
+    accept: null
+    method: no-exact-match
+    candidates: []
+  wikidata:
+    accept: Q134445115
+    method: exact-label-match
+    candidates:
+      - id: Q607446
+        url: https://www.wikidata.org/wiki/Q607446
+        label: skeuomorph
+        description: design style
+      - id: Q134445115
+        url: https://www.wikidata.org/wiki/Q134445115
+        label: Skeuomorphism
+        description: ""
+      - id: Q141019175
+        url: https://www.wikidata.org/wiki/Q141019175
+        label: Skeuomorphism in Aksumite Pottery? Remarks on the Origins and Meanings of
+          Some Ceramic Types
+        description: "scholarly article published in Aethiopica, vol. 6 (2013) (DOI:
+          10.15460/AETHIOPICA.6.1.369)"
+      - id: Q113446930
+        url: https://www.wikidata.org/wiki/Q113446930
+        label: "Skeuomorphism in Digital Archeological Practice: A Barrier to Progress,
+          or a Vital Cog in the Wheels of Change?"
+        description: scientific article published in January 2021
+streamline-moderne:
+  name: Streamline Moderne
+  checked: 2026-08-23
+  getty_aat:
+    accept: null
+    method: no-exact-match
+    candidates:
+      - id: aat:300253564
+        url: http://vocab.getty.edu/aat/300253564
+        label: Streamlined Moderne
+      - id: aat:300444344
+        url: http://vocab.getty.edu/aat/300444344
+        label: WPA Moderne style
+      - id: aat:300379525
+        url: http://vocab.getty.edu/aat/300379525
+        label: modern materials
+      - id: aat:300262589
+        url: http://vocab.getty.edu/aat/300262589
+        label: modern East African
+      - id: aat:300262588
+        url: http://vocab.getty.edu/aat/300262588
+        label: modern African
+      - id: aat:300106623
+        url: http://vocab.getty.edu/aat/300106623
+        label: Early Modern Japanese
+      - id: aat:300388361
+        url: http://vocab.getty.edu/aat/300388361
+        label: Greek (modern language)
+      - id: aat:300021426
+        url: http://vocab.getty.edu/aat/300021426
+        label: Art Deco
+  wikidata:
+    accept: Q928960
+    method: exact-label-match
+    candidates:
+      - id: Q928960
+        url: https://www.wikidata.org/wiki/Q928960
+        label: Streamline Moderne
+        description: art movement between Art Deco and modernism
+      - id: Q61459826
+        url: https://www.wikidata.org/wiki/Q61459826
+        label: Streamline Moderne architecture
+        description: architectural style
+superflat:
+  name: Superflat
+  checked: 2026-08-23
+  getty_aat:
+    accept: null
+    method: no-exact-match
+    candidates:
+      - id: aat:300266360
+        url: http://vocab.getty.edu/aat/300266360
+        label: Superflat (style)
+  wikidata:
+    accept: null
+    method: ambiguous-exact
+    candidates:
+      - id: Q1444581
+        url: https://www.wikidata.org/wiki/Q1444581
+        label: Superflat
+        description: art movement
+      - id: Q137918011
+        url: https://www.wikidata.org/wiki/Q137918011
+        label: SUPERFLAT
+        description: ""
+      - id: Q139873771
+        url: https://www.wikidata.org/wiki/Q139873771
+        label: Superflat and the Layers of Image and History in 1990s Japan
+        description: ""
+      - id: Q11245061
+        url: https://www.wikidata.org/wiki/Q11245061
+        label: SUPERFLAT MONOGRAM
+        description: ""
+suprematism:
+  name: Suprematism
+  checked: 2026-08-23
+  getty_aat:
+    accept: null
+    method: no-exact-match
+    candidates:
+      - id: aat:300021405
+        url: http://vocab.getty.edu/aat/300021405
+        label: Suprematist
+  wikidata:
+    accept: null
+    method: ambiguous-exact
+    candidates:
+      - id: Q191970
+        url: https://www.wikidata.org/wiki/Q191970
+        label: Suprematism
+        description: early 20th-century art movement
+      - id: Q28736784
+        url: https://www.wikidata.org/wiki/Q28736784
+        label: Suprematism
+        description: painting by Kazimir Malevich
+      - id: Q27832596
+        url: https://www.wikidata.org/wiki/Q27832596
+        label: Suprematism
+        description: painting by Olga Rozanova (1916, in Ukraine)
+      - id: Q88885500
+        url: https://www.wikidata.org/wiki/Q88885500
+        label: Suprematism
+        description: painting by Kazimir Malevich, 1915
+      - id: Q56488553
+        url: https://www.wikidata.org/wiki/Q56488553
+        label: Suprematism
+        description: painting by Ilya Chashnik
+      - id: Q56459549
+        url: https://www.wikidata.org/wiki/Q56459549
+        label: Suprematism
+        description: painting by Ivan Kliun (Yaroslavl Art Museum)
+      - id: Q27506861
+        url: https://www.wikidata.org/wiki/Q27506861
+        label: Suprematism
+        description: painting by Olga Rozanova (1916, in collection of the YeAM)
+      - id: Q19883762
+        url: https://www.wikidata.org/wiki/Q19883762
+        label: Suprematism
+        description: painting by Ivan Kliun
 surrealism:
   name: Surrealism
   checked: 2026-08-23
@@ -1088,6 +2364,119 @@ swiss-international-style:
     accept: null
     method: no-exact-match
     candidates: []
+synthwave:
+  name: Synthwave
+  checked: 2026-08-23
+  getty_aat:
+    accept: null
+    method: no-exact-match
+    candidates: []
+  wikidata:
+    accept: Q19938910
+    method: exact-label-match
+    candidates:
+      - id: Q19938910
+        url: https://www.wikidata.org/wiki/Q19938910
+        label: synthwave
+        description: 2000s genre of electronic music developed in the 1980s
+      - id: Q135045950
+        url: https://www.wikidata.org/wiki/Q135045950
+        label: Synthwave Runner
+        description: 2023 video game developed by Schwan OG
+      - id: Q122826403
+        url: https://www.wikidata.org/wiki/Q122826403
+        label: Synthwave Burnout
+        description: 2021 early access video game
+      - id: Q122825038
+        url: https://www.wikidata.org/wiki/Q122825038
+        label: Synthwave Dream '85
+        description: 2018 early access video game
+      - id: Q135073256
+        url: https://www.wikidata.org/wiki/Q135073256
+        label: Synthwave Smashers
+        description: 2025 video game developed by Source Industries
+      - id: Q135080172
+        url: https://www.wikidata.org/wiki/Q135080172
+        label: Synthwave Burnout VR
+        description: 2025 video game developed by VR-WRG
+      - id: Q135067237
+        url: https://www.wikidata.org/wiki/Q135067237
+        label: Synthwave Driver
+        description: 2025 video game developed by Runebox Studios
+      - id: Q126696664
+        url: https://www.wikidata.org/wiki/Q126696664
+        label: Synthwave Racers
+        description: 2023 video game
+ukiyo-e:
+  name: Ukiyo-e
+  checked: 2026-08-23
+  getty_aat:
+    accept: aat:300106769
+    method: exact-label-match
+    candidates:
+      - id: aat:300403952
+        url: http://vocab.getty.edu/aat/300403952
+        label: ukiyo-e artists
+      - id: aat:300106769
+        url: http://vocab.getty.edu/aat/300106769
+        label: Ukiyo-e
+      - id: aat:300041502
+        url: http://vocab.getty.edu/aat/300041502
+        label: beni-e
+      - id: aat:300041508
+        url: http://vocab.getty.edu/aat/300041508
+        label: tan-e
+      - id: aat:300310707
+        url: http://vocab.getty.edu/aat/300310707
+        label: tsukuri-e
+      - id: aat:300041515
+        url: http://vocab.getty.edu/aat/300041515
+        label: benizuri-e
+      - id: aat:300404001
+        url: http://vocab.getty.edu/aat/300404001
+        label: hashira-e (print size)
+      - id: aat:300404002
+        url: http://vocab.getty.edu/aat/300404002
+        label: kakemono-e (print size)
+  wikidata:
+    accept: null
+    method: ambiguous-exact
+    candidates:
+      - id: Q185905
+        url: https://www.wikidata.org/wiki/Q185905
+        label: ukiyo-e
+        description: Japanese art genre, fl. 17th–19th c., consisting of woodblock
+          prints and paintings of such subjects as female beauties, kabuki
+          actors, sumo wrestlers, scenes from history and folk tales, travel
+          scenes, landscapes, flora, fauna, and erotica
+      - id: Q33082999
+        url: https://www.wikidata.org/wiki/Q33082999
+        label: ukiyo-e artist
+        description: Person who drew Ukiyo-e
+      - id: Q115919677
+        url: https://www.wikidata.org/wiki/Q115919677
+        label: UKIYO-E
+        description: video artwork by Mia Makela, 2002
+      - id: Q3815442
+        url: https://www.wikidata.org/wiki/Q3815442
+        label: Ōta Memorial Museum of Art
+        description: art museum in Shibuya, Tokyo, Japan
+      - id: Q3516842
+        url: https://www.wikidata.org/wiki/Q3516842
+        label: ukiyo-e print technique
+        description: ""
+      - id: Q106577465
+        url: https://www.wikidata.org/wiki/Q106577465
+        label: Ukiyo E Ruiko
+        description: artist's book by Kitao Masanobu
+      - id: Q50324083
+        url: https://www.wikidata.org/wiki/Q50324083
+        label: Ukiyo-e#6
+        description: painting by Kim Anno
+      - id: Q106577466
+        url: https://www.wikidata.org/wiki/Q106577466
+        label: Ukiyo E Ruiko
+        description: artist's book by Shukuei Itakura
 vaporwave:
   name: Vaporwave
   checked: 2026-08-23
@@ -1131,3 +2520,140 @@ vaporwave:
         url: https://www.wikidata.org/wiki/Q135919905
         label: VAPORWAVE GOODBYE
         description: music track by STAR6IXSE7EN
+vienna-secession:
+  name: Vienna Secession
+  checked: 2026-08-23
+  getty_aat:
+    accept: null
+    method: no-exact-match
+    candidates:
+      - id: aat:300435340
+        url: http://vocab.getty.edu/aat/300435340
+        label: Wiener Secession
+      - id: aat:300108181
+        url: http://vocab.getty.edu/aat/300108181
+        label: Photo-Secession
+      - id: aat:300111580
+        url: http://vocab.getty.edu/aat/300111580
+        label: Secession Movement
+      - id: aat:300181051
+        url: http://vocab.getty.edu/aat/300181051
+        label: Vienna burners
+      - id: aat:300311344
+        url: http://vocab.getty.edu/aat/300311344
+        label: Vienna lake
+      - id: aat:300013266
+        url: http://vocab.getty.edu/aat/300013266
+        label: cobalt blue (pigment)
+      - id: aat:300311380
+        url: http://vocab.getty.edu/aat/300311380
+        label: Mitis green (pigment)
+      - id: aat:300013631
+        url: http://vocab.getty.edu/aat/300013631
+        label: chrome red (pigment)
+  wikidata:
+    accept: null
+    method: ambiguous-exact
+    candidates:
+      - id: Q208208
+        url: https://www.wikidata.org/wiki/Q208208
+        label: Vienna Secession
+        description: group of Austrian artists and architects
+      - id: Q49231944
+        url: https://www.wikidata.org/wiki/Q49231944
+        label: Vienna Secession
+        description: painting by Hermann Nitsch
+woodcut:
+  name: Woodcut
+  checked: 2026-08-23
+  getty_aat:
+    accept: null
+    method: no-exact-match
+    candidates:
+      - id: aat:300419280
+        url: http://vocab.getty.edu/aat/300419280
+        label: color woodcut (process)
+      - id: aat:300417403
+        url: http://vocab.getty.edu/aat/300417403
+        label: Modern Woodcut Movement
+      - id: aat:300456840
+        url: http://vocab.getty.edu/aat/300456840
+        label: chiaroscuro woodcut (process)
+      - id: aat:300458841
+        url: http://vocab.getty.edu/aat/300458841
+        label: ðông Hồ folk woodcut paintings
+      - id: aat:300053296
+        url: http://vocab.getty.edu/aat/300053296
+        label: woodcut (process)
+      - id: aat:300041405
+        url: http://vocab.getty.edu/aat/300041405
+        label: woodcuts (prints)
+      - id: aat:300041410
+        url: http://vocab.getty.edu/aat/300041410
+        label: chiaroscuro woodcuts (prints)
+  wikidata:
+    accept: null
+    method: ambiguous-exact
+    candidates:
+      - id: Q173242
+        url: https://www.wikidata.org/wiki/Q173242
+        label: woodcut process
+        description: relief printing technique
+      - id: Q18219090
+        url: https://www.wikidata.org/wiki/Q18219090
+        label: woodcut print
+        description: print produced by woodcutting, aka. xylography technique
+      - id: Q1437754
+        url: https://www.wikidata.org/wiki/Q1437754
+        label: xylographer
+        description: person who designs a wooden plate for printing
+      - id: Q106535219
+        url: https://www.wikidata.org/wiki/Q106535219
+        label: Woodcut
+        description: woodcut print by Utagawa Kunisada
+      - id: Q634747
+        url: https://www.wikidata.org/wiki/Q634747
+        label: Woodcut Records
+        description: Finnish record label specializing in black metal and death metal
+      - id: Q1124183
+        url: https://www.wikidata.org/wiki/Q1124183
+        label: lumberjack
+        description: worker who performs the initial harvesting of trees
+      - id: Q102977324
+        url: https://www.wikidata.org/wiki/Q102977324
+        label: Woodcut
+        description: print by Utagawa Kuniyoshi
+      - id: Q2883183
+        url: https://www.wikidata.org/wiki/Q2883183
+        label: wordless novel
+        description: narrative genre that uses sequences of pictures to tell a story
+y2k-aesthetic:
+  name: Y2K aesthetic
+  checked: 2026-08-23
+  getty_aat:
+    accept: null
+    method: no-exact-match
+    candidates:
+      - id: aat:300124083
+        url: http://vocab.getty.edu/aat/300124083
+        label: aesthetic concepts
+      - id: aat:300056182
+        url: http://vocab.getty.edu/aat/300056182
+        label: machine aesthetic
+      - id: aat:300056120
+        url: http://vocab.getty.edu/aat/300056120
+        label: Kunstwollen
+      - id: aat:300060022
+        url: http://vocab.getty.edu/aat/300060022
+        label: High-Tech
+      - id: aat:300018124
+        url: http://vocab.getty.edu/aat/300018124
+        label: Aesthetic Movement
+  wikidata:
+    accept: null
+    method: no-exact-match
+    candidates:
+      - id: Q130484971
+        url: https://www.wikidata.org/wiki/Q130484971
+        label: Y2K
+        description: Internet aesthetic

@@ -43,7 +43,103 @@ facets:
   practitioners:
     people: []
     studios: []
-images: []
+images:
+  - file: assets/cyanotype/Anna_Atkins_algae_cyanotype.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Anna_Atkins_algae_cyanotype.jpg
+    license: Public domain
+    attribution: Atkins, Anna, 1799-1871, Public domain, via Wikimedia Commons
+    rights_status: open
+    caption: 'A photogram of Algae, made by Anna Atkins as part of her 1843 book,
+      Photographs of British Algae: Cyanotype Impressions, the first book
+      composed entirely of photographic images. At
+      https://digitalgallery.nypl.org/nypldigital/id?419608 as retrieved 12
+      August 2009, the image details are as follows: "I'
+    depicts: null
+  - file: assets/cyanotype/Cyanotype_gpo_perth.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Cyanotype_gpo_perth.jpg
+    license: CC0
+    attribution: Solarence, CC0, via Wikimedia Commons
+    rights_status: open
+    caption: Created with one hour exposure under standard cool white LED lighting,
+      then washed in commercial vinegar, negative digitally printed.
+    depicts: null
+  - file: assets/cyanotype/Cyanotype.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Cyanotype.jpg
+    license: CC BY-SA 2.0
+    attribution: '"Zwei Blumen" by hutschinetto is licensed under CC BY-SA 2.0 ,
+      recently new license for 4.0, CC BY-SA 2.0, via Wikimedia Commons'
+    rights_status: open
+    caption: This is a process of coating a light-sensitive paper with specific
+      chemicals, and then exposing it under sunlight or UV lights to create this
+      specific emulsion result.
+    depicts: null
+  - file: assets/cyanotype/Paprika_Zweig_Zyanotypie_entwickelt.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Paprika,_Zweig,_Zyanotypie,_entwickelt.jpg
+    license: CC0
+    attribution: Hutschi, CC0, via Wikimedia Commons
+    rights_status: open
+    caption: This file is a photogram of a paprika branch as a cyanotype.
+      Watercolour paper was manually coated with a cyanotype solution according
+      to the classic formula. I used a brush for this. I exposed for 20 minutes
+      with an LED spotlight. I then developed with water and 1/2 ml hydrogen
+      peroxide. Developing
+    depicts: null
+  - file: assets/cyanotype/Cyanotype_-_4755148699.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Cyanotype_-_4755148699.jpg
+    license: CC BY-SA 2.0
+    attribution: Jodimichelle, CC BY-SA 2.0, via Wikimedia Commons
+    rights_status: open
+    caption: Creating a cyanotype
+    depicts: null
+  - file: assets/cyanotype/Cyanotype_-_4755148861.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Cyanotype_-_4755148861.jpg
+    license: CC BY-SA 2.0
+    attribution: Jodimichelle, CC BY-SA 2.0, via Wikimedia Commons
+    rights_status: open
+    caption: Creating a cyanotype
+    depicts: null
+  - file: assets/cyanotype/Cyanotype_-_4755148787.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Cyanotype_-_4755148787.jpg
+    license: CC BY-SA 2.0
+    attribution: Jodimichelle, CC BY-SA 2.0, via Wikimedia Commons
+    rights_status: open
+    caption: Creating a cyanotype
+    depicts: null
+  - file: assets/cyanotype/Cyanotype_-_4755149103.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Cyanotype_-_4755149103.jpg
+    license: CC BY-SA 2.0
+    attribution: Jodimichelle, CC BY-SA 2.0, via Wikimedia Commons
+    rights_status: open
+    caption: Creating a cyanotype
+    depicts: null
+  - file: assets/cyanotype/Cyanotype_-_4755149451.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Cyanotype_-_4755149451.jpg
+    license: CC BY-SA 2.0
+    attribution: Jodimichelle, CC BY-SA 2.0, via Wikimedia Commons
+    rights_status: open
+    caption: Creating a cyanotype
+    depicts: null
+  - file: assets/cyanotype/Cyanotype_-_4755149293.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Cyanotype_-_4755149293.jpg
+    license: CC BY-SA 2.0
+    attribution: Jodimichelle, CC BY-SA 2.0, via Wikimedia Commons
+    rights_status: open
+    caption: Creating a cyanotype
+    depicts: null
+  - file: assets/cyanotype/Cyanotype_-_4755149743.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Cyanotype_-_4755149743.jpg
+    license: CC BY-SA 2.0
+    attribution: Jodimichelle, CC BY-SA 2.0, via Wikimedia Commons
+    rights_status: open
+    caption: Creating a cyanotype
+    depicts: null
+  - file: assets/cyanotype/Cyanotype_-_4755789114.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Cyanotype_-_4755789114.jpg
+    license: CC BY-SA 2.0
+    attribution: Jodimichelle, CC BY-SA 2.0, via Wikimedia Commons
+    rights_status: open
+    caption: Creating a cyanotype
+    depicts: null
 todo:
   - names.variants
   - summary
@@ -53,7 +149,6 @@ todo:
   - facets.lineage
   - facets.lifecycle
   - facets.practitioners
-  - images
 provenance:
   facets.formal_consequences:
     - source: editorial
@@ -61,3 +156,8 @@ provenance:
   facets.commercial_context:
     - source: editorial
       reviewed: false
+  images:
+    - source: wikimedia-commons
+      url: https://commons.wikimedia.org/w/index.php?search=cyanotype
+      accessed: 2026-08-23
+      note: "query: cyanotype"

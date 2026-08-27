@@ -7,7 +7,7 @@ names:
 summary: null
 external_ids:
   getty_aat: null
-  wikidata: null
+  wikidata: Q134445115
 facets:
   era:
     periods: []
@@ -72,3 +72,8 @@ provenance:
   facets.lifecycle.state:
     - source: editorial
       reviewed: false
+  external_ids.wikidata:
+    - source: wikidata
+      url: https://www.wikidata.org/wiki/Q134445115
+      accessed: 2026-08-23
+      method: exact-label-match

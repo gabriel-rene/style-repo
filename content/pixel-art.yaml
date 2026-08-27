@@ -139,6 +139,44 @@ images:
     rights_status: open
     caption: Pixel Art Jaggie Bigx4
     depicts: null
+  - file: assets/pixel-art/Pixel_Art_Diagonal_weight_Bigx4.png
+    source_url: https://commons.wikimedia.org/wiki/File:Pixel_Art_Diagonal_weight_Bigx4.png
+    license: CC BY-SA 4.0
+    attribution: Reff Pixels, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Pixel Art Diagonal weight Bigx4
+    depicts: null
+  - file: assets/pixel-art/Evil_pixel_art_face.png
+    source_url: https://commons.wikimedia.org/wiki/File:Evil_pixel_art_face.png
+    license: CC0
+    attribution: 0x4fdawg, CC0, via Wikimedia Commons
+    rights_status: open
+    caption: A creepy pixel art face with white skin and red tatoos smiling menacingly.
+    depicts: null
+  - file: assets/pixel-art/Pixel_art_opened_envelope_on_table.png
+    source_url: https://commons.wikimedia.org/wiki/File:Pixel_art_opened_envelope_on_table.png
+    license: CC BY-SA 4.0
+    attribution: AnubiArts, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Pixel art of an opened envelope on a table
+    depicts: null
+  - file: assets/pixel-art/Pixel_art_of_buildings_almost_at_night.png
+    source_url: https://commons.wikimedia.org/wiki/File:Pixel_art_of_buildings_almost_at_night.png
+    license: CC BY-SA 4.0
+    attribution: AnubiArts, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Pixel art featuring a character resting on the balcony of a hotel,
+      looking at the front of it. The building this character is located in has
+      tons of "For Sale" signs. There's a few buildings all around, but most of
+      them seem either abandoned or closed. Its beginning to turn into night.
+    depicts: null
+  - file: assets/pixel-art/Landscape_pixel_art.png
+    source_url: https://commons.wikimedia.org/wiki/File:Landscape_pixel_art.png
+    license: CC BY-SA 4.0
+    attribution: Fahmirayan, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: It's a beautiful image of a landscape in pixel art
+    depicts: null
 todo:
   - names.variants
   - summary

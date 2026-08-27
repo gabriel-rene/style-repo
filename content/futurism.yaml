@@ -48,7 +48,38 @@ facets:
   practitioners:
     people: []
     studios: []
-images: []
+images:
+  - file: assets/futurism/Orpheu_group_-_Fernando_Pessoa_1915_-_Almada_Negreiros_April_7_1893_June_15_1970
+    source_url: https://commons.wikimedia.org/wiki/File:Orpheu_group_-_Fernando_Pessoa_(1915)_-_Almada_Negreiros_(April_7,_1893_%E2%80%93_June_15,_1970)_(16762939799).jpg
+    license: CC BY 2.0
+    attribution: Pedro Ribeiro Simões from Lisboa, Portugal, CC BY 2.0, via
+      Wikimedia Commons
+    rights_status: open
+    caption: "Electricity Museum, Belem, Lisbon, Portugal In PUBLICO NEWSPAPER,
+      Edition dated from 24/03/2015 Techniques: Acrylic matrix carved with a
+      burin Material: BFK Rives paper Collection : Calouste Gulbenkian Museum,
+      Modern Collection, Lisbon, Portugal Inv. : GP1005 ORPHEU Orpheu: “O
+      primeiro grito moderno"
+    depicts: null
+  - file: assets/futurism/Composition_1917_-_Liubova_Popova_1889-1924_45056449312_.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Composition_(1917)_-_Liubova_Popova_(1889-1924)_(45056449312).jpg
+    license: CC BY 2.0
+    attribution: Pedro Ribeiro Simões from Lisboa, Portugal, CC BY 2.0, via
+      Wikimedia Commons
+    rights_status: open
+    caption: "Belem, Berardo Collection, Centro Cultural de Belem, Lisbon, Portugal
+      Material: Gouache on paper Collection: Berardo Collection BIOGRAPHY
+      MOVEMENT: CUBIST, SUPREMATIST AND CONSTRUCTIVIST EARLY LIFE Popova was
+      born in Ivanovskoe, near Moscow, to the wealthy family of Sergei
+      Maximovich Popov, a very s"
+    depicts: null
+  - file: assets/futurism/1990s_Marine_Corps_recruitment_poster_with_a_touch_of_retro-futurism.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:1990s_Marine_Corps_recruitment_poster_with_a_touch_of_retro-futurism.jpg
+    license: Public domain
+    attribution: USMC, Public domain, via Wikimedia Commons
+    rights_status: open
+    caption: 1990s Marine Corps recruitment poster with a touch of retro-futurism.
+    depicts: null
 todo:
   - names.variants
   - summary
@@ -58,7 +89,6 @@ todo:
   - facets.lineage
   - facets.lifecycle
   - facets.practitioners
-  - images
 provenance:
   facets.formal_properties:
     - source: editorial
@@ -69,3 +99,8 @@ provenance:
   facets.commercial_context:
     - source: editorial
       reviewed: false
+  images:
+    - source: wikimedia-commons
+      url: https://commons.wikimedia.org/w/index.php?search=Futurism%20poster
+      accessed: 2026-08-23
+      note: "query: Futurism poster"

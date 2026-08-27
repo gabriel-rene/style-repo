@@ -49,7 +49,41 @@ facets:
   practitioners:
     people: []
     studios: []
-images: []
+images:
+  - file: assets/minimalism/Minimalism_creative_svln4821.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Minimalism_creative_svln4821.jpg
+    license: CC BY-SA 4.0
+    attribution: Svln4821, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: kalem
+    depicts: null
+  - file: assets/minimalism/Euro_symbol_-_Minimalism_art_with_counterfeit_money_-_Tableau_Argent_sale_compos
+    source_url: https://commons.wikimedia.org/wiki/File:Euro_symbol_-_Minimalism_art_with_counterfeit_money_-_Tableau_Argent_sale_compos%C3%A9_de_fausses_pi%C3%A8ces_de_monnaie.jpg
+    license: CC BY-SA 4.0
+    attribution: Copyleft, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Euro symbol - Minimalism art with counterfeit money -
+    depicts: null
+  - file: assets/minimalism/Ambigramme_Inoui_-_noir_et_gris_anime.gif
+    source_url: https://commons.wikimedia.org/wiki/File:Ambigramme_Inoui_-_noir_et_gris_anime.gif
+    license: CC BY-SA 4.0
+    attribution: Basile Morin, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Ambigram inouï (incredible in French), rotational symmetry of 180
+      degrees. Minimalist design composed of black and gray strokes regularly
+      spaced. Animated GIF. The name inOui is also the one with an ambigram logo
+      of the TGV inOui train service operated by the French National Railway
+      Company SNCF.
+    depicts: null
+  - file: assets/minimalism/Toilets_minimalism_sign.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Toilets_minimalism_sign.jpg
+    license: CC BY-SA 4.0
+    attribution: Eliran t, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: A restroom sign with minimalistic characteristics of both genders. The
+      body is also the same shape, just inverted, which further adds to the
+      minimalism employed in the design of the sign.
+    depicts: null
 todo:
   - names.variants
   - summary
@@ -59,7 +93,6 @@ todo:
   - facets.lineage
   - facets.lifecycle
   - facets.practitioners
-  - images
 provenance:
   facets.formal_properties:
     - source: editorial
@@ -70,3 +103,8 @@ provenance:
   facets.commercial_context:
     - source: editorial
       reviewed: false
+  images:
+    - source: wikimedia-commons
+      url: https://commons.wikimedia.org/w/index.php?search=minimalism%20design
+      accessed: 2026-08-23
+      note: "query: minimalism design"

@@ -184,6 +184,51 @@ images:
     rights_status: restricted
     caption: An Autumn Pastoral, 1887
     depicts: null
+  - file: assets/letterpress/Braque_Letterpress_Print.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Braque_Letterpress_Print.jpg
+    license: CC BY 4.0
+    attribution: AlanKitching, CC BY 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Still life may be silent, but the silence in Braque is loud
+    depicts: null
+  - file: assets/letterpress/Letterpress_typefaces.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Letterpress_typefaces.jpg
+    license: CC BY 2.0
+    attribution: Kyle Van Horn, CC BY 2.0, via Wikimedia Commons
+    rights_status: open
+    caption: lead typefaces including Balloon Extra Bold (12pt &amp; 14pt), Bookman
+      Caps (10pt), Cloister Black (10pt), Jim Crow (24 pt), Kabel Light Italic
+      (24pt), Label Gothic (36pt), Libra (36pt), Pericles (24pt), Semi Script
+      (36pt), Stymie Open (24pt), Tudor Black / Old English (36pt), and
+      Victorian / Grocer
+    depicts: null
+  - file: assets/letterpress/Historical_Printing_Room_at_the_Cambridge_University_Library.png
+    source_url: https://commons.wikimedia.org/wiki/File:Historical_Printing_Room_at_the_Cambridge_University_Library.png
+    license: CC BY-SA 4.0
+    attribution: ZoneAlarm5, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: In the Historical Printing Room of the Cambridge University Library in
+      the UK are printing presses, type cabinets, and other equipment to teach
+      practical printing to support humanities research and bibliography.
+    depicts: null
+  - file: assets/letterpress/Letterpress_printing_at_Printopia_2024_by_Tatiana_Harper.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Letterpress_printing_at_Printopia_2024_by_Tatiana_Harper.jpg
+    license: CC BY-SA 4.0
+    attribution: Tatiana Harper, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Letterpress printing with Inkiana Press at Printopia printmaking
+      festival 2024 in Auckland, New Zealand
+    depicts: null
+  - file: assets/letterpress/In_Bamberg_the_first_printing_press_in_nowadays_Bavaria_was_built_and_the_first_
+    source_url: https://commons.wikimedia.org/wiki/File:In_Bamberg,_the_first_printing_press_in_nowadays_Bavaria_was_built_and_the_first_German_book_was_printed_in_1461._After_the_painting_by_Rothbart.jpg
+    license: Public domain
+    attribution: Ferdinand Rothbart, Public domain, via Wikimedia Commons
+    rights_status: open
+    caption: In Bamberg, the first printing press in nowadays Bavaria was built and
+      the first German book was printed in 1461. After the painting by Rothbart.
+      (Albrecht Pfister workshop, sitting clergian depicted is Georg I. von
+      Schaumberg)
+    depicts: null
 todo:
   - names.variants
   - summary

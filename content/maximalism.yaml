@@ -48,7 +48,15 @@ facets:
   practitioners:
     people: []
     studios: []
-images: []
+images:
+  - file: assets/maximalism/Neptunian_Maximalism_op_het_Valkhof_Festival_2022.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Neptunian_Maximalism_op_het_Valkhof_Festival_2022.jpg
+    license: CC BY-SA 4.0
+    attribution: FakirNL, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Neptunian Maximalism (Belgian experimental metal band) at the Valkhof
+      Festival 2022
+    depicts: null
 todo:
   - names.variants
   - summary
@@ -58,7 +66,6 @@ todo:
   - facets.lineage
   - facets.lifecycle
   - facets.practitioners
-  - images
 provenance:
   facets.formal_properties:
     - source: editorial
@@ -69,3 +76,8 @@ provenance:
   facets.commercial_context:
     - source: editorial
       reviewed: false
+  images:
+    - source: wikimedia-commons
+      url: https://commons.wikimedia.org/w/index.php?search=maximalism
+      accessed: 2026-08-23
+      note: "query: maximalism"

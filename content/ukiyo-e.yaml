@@ -3,10 +3,20 @@ term_type: style
 status: stub
 names:
   primary: Ukiyo-e
-  variants: []
-summary: null
+  variants:
+    - floating-world
+    - ukiyoe
+summary: Distinctive genre in painting and other media, but most prominently in
+  woodblock printing. It arose in the Edo period (1600-1868) and built up a
+  broad popular market among the middle classes. Subject matter typically
+  focused on brothel districts and kabuki theatres, with formats ranging from
+  single sheet prints to book illustrations. Generally, the style is
+  characterized by a mixture of the realistic narrative of the Kamakura period
+  and the mature decorative style of the Momoyama and Edo periods. Distinctive
+  styles and specialties in subject matter were developed by different schools
+  throughout the period.
 external_ids:
-  getty_aat: null
+  getty_aat: aat:300106769
   wikidata: null
 facets:
   era:
@@ -47,17 +57,58 @@ facets:
   practitioners:
     people: []
     studios: []
-images: []
+images:
+  - file: assets/ukiyo-e/Ukiyo-e_dsc04679.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Ukiyo-e_dsc04679.jpg
+    license: CC BY-SA 3.0
+    attribution: David Monniaux, CC BY-SA 3.0, via Wikimedia Commons
+    rights_status: open
+    caption: Ukiyo-e workshop, Tsukuba, Japan
+    depicts: null
+  - file: assets/ukiyo-e/Ukiyo-e_dsc04680.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Ukiyo-e_dsc04680.jpg
+    license: CC BY-SA 3.0
+    attribution: David Monniaux, CC BY-SA 3.0, via Wikimedia Commons
+    rights_status: open
+    caption: Ukiyo-e workshop, Tsukuba, Japan
+    depicts: null
+  - file: assets/ukiyo-e/Suzuki_Haronubu_oiran_ukiyo-e.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Suzuki_Haronubu_oiran_ukiyo-e.jpg
+    license: Public domain
+    attribution: Unknown author, Public domain, via Wikimedia Commons
+    rights_status: open
+    caption: null
+    depicts: null
+  - file: assets/ukiyo-e/Ukiyo-e_dragon.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Ukiyo-e_dragon.jpg
+    license: Public domain
+    attribution: Unknown authorUnknown author, Public domain, via Wikimedia Commons
+    rights_status: open
+    caption: Japanese dragon, Ukiyo-e print
+    depicts: null
+  - file: assets/ukiyo-e/Ukiyo-e_dragon_2.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Ukiyo-e_dragon_2.jpg
+    license: Public domain
+    attribution: en:Yoshida Gen'ō (吉田源應, d. 1927), Public domain, via Wikimedia Commons
+    rights_status: open
+    caption: Japanese dragon, Ukiyo-e print
+    depicts: null
+  - file: assets/ukiyo-e/Children_Exploring_an_Elephant_Ukiyo-e_ca._1875_.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Children_Exploring_an_Elephant_(Ukiyo-e,_ca._1875).jpg
+    license: Public domain
+    attribution: Unattributed, Public domain, via Wikimedia Commons
+    rights_status: open
+    caption: Ukiyo-e print illustration showing masses of children playing over,
+      under, and around an enormous elephant. Illustration in "Omacha-e,
+      kodomo-e, harimazechō", ca. 1875.
+    depicts: null
 todo:
-  - names.variants
-  - summary
   - external_ids
   - facets.era.periods
   - facets.geography
   - facets.lineage
   - facets.lifecycle
   - facets.practitioners
-  - images
 provenance:
   facets.formal_properties:
     - source: editorial
@@ -68,3 +119,21 @@ provenance:
   facets.commercial_context:
     - source: editorial
       reviewed: false
+  external_ids.getty_aat:
+    - source: getty-aat
+      url: https://vocab.getty.edu/aat/300106769
+      accessed: 2026-08-23
+      method: exact-label-match
+  summary:
+    - source: getty-aat
+      url: https://vocab.getty.edu/aat/300106769
+      accessed: 2026-08-23
+  names.variants:
+    - source: getty-aat
+      url: https://vocab.getty.edu/aat/300106769
+      accessed: 2026-08-23
+  images:
+    - source: wikimedia-commons
+      url: https://commons.wikimedia.org/w/index.php?search=ukiyo-e%20print
+      accessed: 2026-08-23
+      note: "query: ukiyo-e print"

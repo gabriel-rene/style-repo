@@ -44,7 +44,101 @@ facets:
   practitioners:
     people: []
     studios: []
-images: []
+images:
+  - file: assets/airbrush/Airbrush_a.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Airbrush_a.jpg
+    license: CC BY-SA 3.0
+    attribution: Unknown author, CC BY-SA 3.0, via Wikimedia Commons
+    rights_status: open
+    caption: null
+    depicts: null
+  - file: assets/airbrush/PaascheAirbrush.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:PaascheAirbrush.jpg
+    license: CC BY-SA 3.0
+    attribution: The original uploader was Michel90 at English Wikipedia., CC BY-SA
+      3.0, via Wikimedia Commons
+    rights_status: open
+    caption: For the airbrush article. A Paasche F#1 single action external mix airbrush
+    depicts: null
+  - file: assets/airbrush/Airbrush_art.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Airbrush_art.jpg
+    license: CC BY 3.0
+    attribution: "Foto: Jonn Leffmann"
+    rights_status: open
+    caption: En Airbrush konstnär dekorerar aktern på en båt.
+    depicts: null
+  - file: assets/airbrush/Airbrush_artist_with_paints_at_street_fair.JPG
+    source_url: https://commons.wikimedia.org/wiki/File:Airbrush_artist_with_paints_at_street_fair.JPG
+    license: CC0
+    attribution: Tomwsulcer, CC0, via Wikimedia Commons
+    rights_status: open
+    caption: Airbrush artist at a street fair, with paints, which come off after a
+      week, approximately.
+    depicts: null
+  - file: assets/airbrush/Rosa_Airbrush_2018-07-10_5665.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Rosa_Airbrush_2018-07-10_5665.jpg
+    license: CC BY-SA 4.0
+    attribution: Salicyna, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Rosa ‘Airbrush’ (Kordes, 2013), PAN Botanical Garden in Warsaw, Poland.
+    depicts: null
+  - file: assets/airbrush/Rosa_Airbrush_2018-07-10_5664.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Rosa_Airbrush_2018-07-10_5664.jpg
+    license: CC BY-SA 4.0
+    attribution: Salicyna, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Rosa ‘Airbrush’ (Kordes, 2013), PAN Botanical Garden in Warsaw, Poland.
+    depicts: null
+  - file: assets/airbrush/Rosa_Airbrush_2018-07-10_5663.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Rosa_Airbrush_2018-07-10_5663.jpg
+    license: CC BY-SA 4.0
+    attribution: Salicyna, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Rosa ‘Airbrush’ (Kordes, 2013), PAN Botanical Garden in Warsaw, Poland.
+    depicts: null
+  - file: assets/airbrush/Rosa_Airbrush_2018-07-10_5666.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Rosa_Airbrush_2018-07-10_5666.jpg
+    license: CC BY-SA 4.0
+    attribution: Salicyna, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Rosa ‘Airbrush’ (Kordes, 2013), PAN Botanical Garden in Warsaw, Poland.
+    depicts: null
+  - file: assets/airbrush/Rosarium_Baden_Rosa_Airbrush_Kordes_2013_01.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Rosarium_Baden_Rosa_%27Airbrush%27_Kordes_2013_01.jpg
+    license: CC BY-SA 4.0
+    attribution: Geolina163, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: "Rosarium Baden: Rosa 'Airbrush' , W. Kordes &amp; Söhne (2013)"
+    depicts: null
+  - file: assets/airbrush/Rosarium_Baden_Rosa_Airbrush_Kordes_2013_02.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Rosarium_Baden_Rosa_%27Airbrush%27_Kordes_2013_02.jpg
+    license: CC BY-SA 4.0
+    attribution: Geolina163, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: "Rosarium Baden: Rosa 'Airbrush' , W. Kordes &amp; Söhne (2013)"
+    depicts: null
+  - file: assets/airbrush/A_boy_with_the_fruits_of_depression.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:A_boy_with_the_fruits_of_depression.jpg
+    license: CC BY-SA 4.0
+    attribution: Koorosh Orooj, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: "A boy with the fruits of depression By: Koorosh Orooj This painting
+      was painted in 1997, with the technique of airbrush, gravel and brush, on
+      very cheap cardboard. The dimensions of this painting are 63 x 92 cm. The
+      frame of this painting is also made crooked. By purchasing the token of
+      this paintin"
+    depicts: null
+  - file: assets/airbrush/Old_rusty_mouth_airbrush_from_Botevgrad_Bulgaria.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Old_rusty_mouth_airbrush_from_Botevgrad,_Bulgaria.jpg
+    license: CC BY-SA 4.0
+    attribution: Dimitǎr Boevski, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Old rusty mouth airbrush from Botevgrad, Bulgaria. Such mouth powered
+      airbrushes were commonly used in old times. The can is to be filled with
+      paint and the person blows at the wide end of the tube. There's a second
+      tube at the end of the blowing one, perpendicular to it and going inside
+      the can. Th
+    depicts: null
 todo:
   - names.variants
   - summary
@@ -54,7 +148,6 @@ todo:
   - facets.lineage
   - facets.lifecycle
   - facets.practitioners
-  - images
 provenance:
   facets.formal_consequences:
     - source: editorial
@@ -62,3 +155,8 @@ provenance:
   facets.commercial_context:
     - source: editorial
       reviewed: false
+  images:
+    - source: wikimedia-commons
+      url: https://commons.wikimedia.org/w/index.php?search=airbrush
+      accessed: 2026-08-23
+      note: "query: airbrush"

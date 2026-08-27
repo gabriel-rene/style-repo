@@ -7,7 +7,7 @@ names:
 summary: null
 external_ids:
   getty_aat: null
-  wikidata: null
+  wikidata: Q15266360
 facets:
   era:
     periods: []
@@ -48,7 +48,37 @@ facets:
   practitioners:
     people: []
     studios: []
-images: []
+images:
+  - file: assets/flat-design/Flat_design_16605632915_.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Flat_design_(16605632915).jpg
+    license: CC BY-SA 2.0
+    attribution: Sally Wilson, CC BY-SA 2.0, via Wikimedia Commons
+    rights_status: open
+    caption: Flat design
+    depicts: null
+  - file: assets/flat-design/Laptop-coffee-flat-design-by-david-mendoza.png
+    source_url: https://commons.wikimedia.org/wiki/File:Laptop-coffee-flat-design-by-david-mendoza.png
+    license: CC BY-SA 4.0
+    attribution: Zombkid, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Ejemplo del uso del Diseño Plano generado en Adobe Illustrator
+    depicts: null
+  - file: assets/flat-design/Contemporary_design_flat_roofed_bungalow_above_Priest_s_Bridge_-_geograph.org.uk
+    source_url: https://commons.wikimedia.org/wiki/File:Contemporary_design_flat_roofed_bungalow_above_Priest%27s_Bridge_-_geograph.org.uk_-_7982167.jpg
+    license: CC BY-SA 2.0
+    attribution: Contemporary design flat roofed bungalow above Priest's Bridge by
+      Eric Jones
+    rights_status: open
+    caption: Contemporary design flat roofed bungalow above Priest's Bridge
+    depicts: null
+  - file: assets/flat-design/20260520_Bronze_Flat_Flask_with_Design_of_Vermilion_Bird.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:20260520_Bronze_Flat_Flask_with_Design_of_Vermilion_Bird.jpg
+    license: CC BY-SA 4.0
+    attribution: Windmemories, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Bronze Flat Flask with Design of Vermilion Bird. Western Han Dynasty.
+      Excavated in Xincai. Collection of Henan Museum.
+    depicts: null
 todo:
   - names.variants
   - summary
@@ -59,7 +89,6 @@ todo:
   - facets.lifecycle.first_observed
   - facets.lifecycle.review_due
   - facets.practitioners
-  - images
 provenance:
   facets.formal_properties:
     - source: editorial
@@ -73,3 +102,13 @@ provenance:
   facets.lifecycle.state:
     - source: editorial
       reviewed: false
+  external_ids.wikidata:
+    - source: wikidata
+      url: https://www.wikidata.org/wiki/Q15266360
+      accessed: 2026-08-23
+      method: exact-label-match
+  images:
+    - source: wikimedia-commons
+      url: https://commons.wikimedia.org/w/index.php?search=flat%20design
+      accessed: 2026-08-23
+      note: "query: flat design"

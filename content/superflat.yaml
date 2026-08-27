@@ -48,7 +48,48 @@ facets:
   practitioners:
     people: []
     studios: []
-images: []
+images:
+  - file: assets/superflat/Sunshine_and_moon_Caron_Bowman_painting_.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Sunshine_and_moon_(Caron_Bowman_painting).jpg
+    license: CC BY-SA 3.0
+    attribution: Bowmanga1278, CC BY-SA 3.0, via Wikimedia Commons
+    rights_status: open
+    caption: Sunshine and Moon by Caron Bowman, 40x60, Pastel, w:SoFlo Superflat image
+    depicts: null
+  - file: assets/superflat/Battery_Wearable_Computing_06_.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Battery_Wearable_Computing_(06).jpg
+    license: CC0
+    attribution: Ordercrazy, CC0, via Wikimedia Commons
+    rights_status: open
+    caption: Gens ACE 60 mAh-LiPo-Batterypacks, superflat design, considered to
+      power wearable computing devices, manufactured by GREPOW Battery Co.,
+      Ltd.[1], shown at Wearable Technologies Conference 2014 in Munich, Germany
+    depicts: null
+  - file: assets/superflat/Orbiter_500_3.0_superflat_teaser.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Orbiter_500_3.0_superflat_teaser.jpg
+    license: CC BY-SA 4.0
+    attribution: Martin Miniak, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Orbiter 500 3.0 superflat
+    depicts: null
+  - file: assets/superflat/Artist_Takashi_Murakami_with_early_works_at_Galerie_Mars_in_Tokyo_1992._Photogra
+    source_url: https://commons.wikimedia.org/wiki/File:Artist_Takashi_Murakami_with_early_works_at_Galerie_Mars_in_Tokyo_1992._Photographed_by_Ithaka_Darin_Pappas_A.jpg
+    license: CC BY-SA 4.0
+    attribution: IthakaDarinPappas, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: World-renowned "superflat" artist Takashi Murakami, on his thirtieth
+      birthday, with some of his early works at Galerie Mars in Shibuya-Ku,Tokyo
+      1992. Photo by Ithaka Darin Pappas
+    depicts: null
+  - file: assets/superflat/Takashi_Murakami_at_Galerie_Mars_Tokyo_1992._Photo_by_Ithaka_Darin_Pappas.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Takashi_Murakami_at_Galerie_Mars_Tokyo_1992._Photo_by_Ithaka_Darin_Pappas.jpg
+    license: CC BY-SA 4.0
+    attribution: IthakaDarinPappas, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: World-renowned "superflat" artist Takashi Murakami, on his thirtieth
+      birthday, Feburary 1st 1992, at Galerie Mars in Shibuya-Ku,Tokyo 1992.
+      Photographed (with some of his early works) by Ithaka Darin Pappas
+    depicts: null
 todo:
   - names.variants
   - summary
@@ -58,7 +99,6 @@ todo:
   - facets.lineage
   - facets.lifecycle
   - facets.practitioners
-  - images
 provenance:
   facets.formal_properties:
     - source: editorial
@@ -69,3 +109,8 @@ provenance:
   facets.commercial_context:
     - source: editorial
       reviewed: false
+  images:
+    - source: wikimedia-commons
+      url: https://commons.wikimedia.org/w/index.php?search=Superflat
+      accessed: 2026-08-23
+      note: "query: Superflat"

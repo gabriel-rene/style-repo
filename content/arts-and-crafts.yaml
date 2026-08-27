@@ -48,7 +48,66 @@ facets:
   practitioners:
     people: []
     studios: []
-images: []
+images:
+  - file: assets/arts-and-crafts/Milwaukee_Art_Museum_February_2023_29_The_American_Collection--The_Arts_and_Craf
+    source_url: https://commons.wikimedia.org/wiki/File:Milwaukee_Art_Museum_February_2023_29_(The_American_Collection--The_Arts_and_Crafts_Movement_and_the_Prairie_School).jpg
+    license: CC BY-SA 4.0
+    attribution: Michael Barera
+    rights_status: open
+    caption: The Arts and Crafts Movement and the Prairie School gallery in the
+      American Collection at the Milwaukee Art Museum in Milwaukee, Wisconsin
+      (United States).
+    depicts: null
+  - file: assets/arts-and-crafts/Milwaukee_Art_Museum_February_2023_30_The_American_Collection--The_Arts_and_Craf
+    source_url: https://commons.wikimedia.org/wiki/File:Milwaukee_Art_Museum_February_2023_30_(The_American_Collection--The_Arts_and_Crafts_Movement_and_the_Prairie_School).jpg
+    license: CC BY-SA 4.0
+    attribution: Michael Barera
+    rights_status: open
+    caption: The Arts and Crafts Movement and the Prairie School gallery in the
+      American Collection at the Milwaukee Art Museum in Milwaukee, Wisconsin
+      (United States).
+    depicts: null
+  - file: assets/arts-and-crafts/Milwaukee_Art_Museum_February_2023_28_The_American_Collection--The_Arts_and_Craf
+    source_url: https://commons.wikimedia.org/wiki/File:Milwaukee_Art_Museum_February_2023_28_(The_American_Collection--The_Arts_and_Crafts_Movement_and_the_Prairie_School).jpg
+    license: CC BY-SA 4.0
+    attribution: Michael Barera
+    rights_status: open
+    caption: The Arts and Crafts Movement and the Prairie School gallery in the
+      American Collection at the Milwaukee Art Museum in Milwaukee, Wisconsin
+      (United States).
+    depicts: null
+  - file: assets/arts-and-crafts/Museum_of_the_American_Arts_and_Crafts_Movement_corner.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Museum_of_the_American_Arts_and_Crafts_Movement_corner.jpg
+    license: CC BY-SA 4.0
+    attribution: Adog, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Image of the Museum of the American Arts and Crafts Movement from an
+      adjacent street corner.
+    depicts: null
+  - file: assets/arts-and-crafts/Museum_of_the_American_Arts_and_Crafts_Movement_entrance.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Museum_of_the_American_Arts_and_Crafts_Movement_entrance.jpg
+    license: CC BY-SA 4.0
+    attribution: Adog, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: The entrance to the Museum of the American Arts and Crafts Movement in
+      St. Petersburg, Florida.
+    depicts: null
+  - file: assets/arts-and-crafts/2024-Museum_of_the_American_Arts_and_Crafts_Movement.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:2024-Museum_of_the_American_Arts_and_Crafts_Movement.jpg
+    license: CC BY 4.0
+    attribution: Myotus, CC BY 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Museum of the American Arts and Crafts Movement 355 4th St N St.
+      Petersburg, Florida, United States
+    depicts: null
+  - file: assets/arts-and-crafts/2024-Gate_and_sign-Museum_of_the_American_Arts_and_Crafts_Movement.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:2024-Gate_and_sign-Museum_of_the_American_Arts_and_Crafts_Movement.jpg
+    license: CC BY 4.0
+    attribution: Myotus, CC BY 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Gate and sign Museum of the American Arts and Crafts Movement 355 4th
+      St N St. Petersburg, Florida, United States
+    depicts: null
 todo:
   - names.variants
   - summary
@@ -58,7 +117,6 @@ todo:
   - facets.lineage
   - facets.lifecycle
   - facets.practitioners
-  - images
 provenance:
   facets.formal_properties:
     - source: editorial
@@ -69,3 +127,8 @@ provenance:
   facets.commercial_context:
     - source: editorial
       reviewed: false
+  images:
+    - source: wikimedia-commons
+      url: https://commons.wikimedia.org/w/index.php?search=Arts%20and%20Crafts%20movement
+      accessed: 2026-08-23
+      note: "query: Arts and Crafts movement"

@@ -7,12 +7,18 @@ names:
 summary: null
 external_ids:
   getty_aat: null
-  wikidata: null
+  wikidata: Q19938910
 facets:
   era:
-    periods: []
+    periods:
+      - label: Wikidata inception
+        role: origin
+        start_year: 2005
+        end_year: null
   geography:
-    origin_places: []
+    origin_places:
+      - wikidata: Q145
+        label: United Kingdom
     spread: []
   lineage:
     parents: []
@@ -48,18 +54,44 @@ facets:
   practitioners:
     people: []
     studios: []
-images: []
+images:
+  - file: assets/synthwave/Thorshavet_in_Synthwave.png
+    source_url: https://commons.wikimedia.org/wiki/File:Thorshavet_in_Synthwave.png
+    license: CC BY-SA 4.0
+    attribution: Mr. Christopher Bland Whale Genius, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Thorshavet, it's a type of the Norwegian whaling floating factory
+      ships, it's owned by A/S Thor Dahl Ltd, in Sandefjord, Norway, but in
+      about electornic future music which is are synthwave.
+    depicts: null
+  - file: assets/synthwave/Synthwave_cyberspace_sunset_low_res_.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Synthwave_cyberspace_sunset_(low_res).jpg
+    license: CC BY-SA 3.0
+    attribution: G. Casqueiro
+    rights_status: open
+    caption: '"First animation test with Blender 2.8 Beta and Eevee. Followed the
+      great Ducky 3D tutorial (link below). Enjoy the music ;) Video edited with
+      Davinci Resolve. Music: Mt Fuji by Timecrawler 82 (freemusicarchive.org)
+      cc by 3.0 Ducky 3D channel - youtube.com/channel/UCuNh... Social: Official
+      Website: '
+    depicts: null
+  - file: assets/synthwave/Synthwave_Edit_creative_commons_test.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Synthwave_Edit_creative_commons_test.jpg
+    license: CC0
+    attribution: Nocturnal.Gray.Fox, CC0, via Wikimedia Commons
+    rights_status: open
+    caption: A synthwave style image with a purple wave, the word "synthwave" and
+      colorful lines above
+    depicts: null
 todo:
   - names.variants
   - summary
   - external_ids
-  - facets.era.periods
   - facets.geography
   - facets.lineage
   - facets.lifecycle.first_observed
   - facets.lifecycle.review_due
   - facets.practitioners
-  - images
 provenance:
   facets.formal_properties:
     - source: editorial
@@ -73,3 +105,23 @@ provenance:
   facets.lifecycle.state:
     - source: editorial
       reviewed: false
+  external_ids.wikidata:
+    - source: wikidata
+      url: https://www.wikidata.org/wiki/Q19938910
+      accessed: 2026-08-23
+      method: exact-label-match
+  facets.era.periods:
+    - source: wikidata
+      url: https://www.wikidata.org/wiki/Q19938910
+      accessed: 2026-08-23
+      property: P571
+  facets.geography.origin_places:
+    - source: wikidata
+      url: https://www.wikidata.org/wiki/Q19938910
+      accessed: 2026-08-23
+      property: P495
+  images:
+    - source: wikimedia-commons
+      url: https://commons.wikimedia.org/w/index.php?search=synthwave
+      accessed: 2026-08-23
+      note: "query: synthwave"

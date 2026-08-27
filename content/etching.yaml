@@ -43,7 +43,112 @@ facets:
   practitioners:
     people: []
     studios: []
-images: []
+images:
+  - file: assets/etching/The_Soldier_and_his_Wife.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:The_Soldier_and_his_Wife.jpg
+    license: Public domain
+    attribution: Daniel Hopfer, Public domain, via Wikimedia Commons
+    rights_status: open
+    caption: The Soldier and his Wife (B VIII, 62, Holl.70, ii/ii). Etching, a good
+      strong impression though with corrosion marks at edges of plate, with
+      margin or thread margin on three sides, trimmed on the platemark upper
+      left edge and lower right edge, repaired tears in left corners, corners
+      thin. With Funck
+    depicts: null
+  - file: assets/etching/Schneider_Postrum_Fischhaus_Trier.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Schneider_Postrum_Fischhaus_Trier.jpg
+    license: Public domain
+    attribution: Anton Schneider-Postrum, reproduced 100 years later from an
+      original etching by Palauenc05, Public domain, via Wikimedia Commons
+    rights_status: open
+    caption: 'Anton Schneider-Postrum, etching (1919): "Trierisches Fischhaus",
+      Trier, St.-Barbara-Ufer, size: 25.7 cm x 14.5 cm, size of the entire
+      sheet: 27.0 cm x 37.3 cm'
+    depicts: null
+  - file: assets/etching/Michael_E._Arth_Mt._Tamalpais_Etching_1981.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Michael_E._Arth,_%22Mt._Tamalpais,%22_Etching,_1981.jpg
+    license: CC BY-SA 4.0
+    attribution: Michael E. Arth, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: '"Mt. Tamalpais," etching and aquatint original print by Michael E.
+      Arth, 19-¾" x 26-⅝" (50 x 67.7 cm) 1981. The license only applies to this
+      low resolution version.'
+    depicts: null
+  - file: assets/etching/Michael_E._Arth_detail_of_etching_Mt._Tamalpais_1981.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Michael_E._Arth,_detail_of_etching_%22Mt._Tamalpais,%22_1981.jpg
+    license: CC BY-SA 4.0
+    attribution: Michael E. Arth, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: This is a detail from my 1981 etching and aquatint print, Mt.
+      Tamalpais, done at Atelier 63 on Rue de la Guerre, Paris, France. I used a
+      copper plate.
+    depicts: null
+  - file: assets/etching/Dry_etching_test_strucutres.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Dry_etching_test_strucutres.jpg
+    license: CC BY 4.0
+    attribution: Mgerlt, CC BY 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: SEM picture of Inductively Coupled Plasma - Deep Reactive Ion Etching
+      (ICP-DRIE) in silicon. The picture depicts a test structure that was used
+      to test several process parameters.
+    depicts: null
+  - file: assets/etching/Amsterdam_-_Rijksmuseum_-_Late_Rembrandt_Exposition_2015_-_The_Entombment_Etchin
+    source_url: https://commons.wikimedia.org/wiki/File:Amsterdam_-_Rijksmuseum_-_Late_Rembrandt_Exposition_2015_-_The_Entombment_Etching_1654.png
+    license: CC BY-SA 4.0
+    attribution: Txllxt TxllxT, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Amsterdam - Rijksmuseum - Late Rembrandt Exposition 2015 - The
+      Entombment Etching 1654 - RAW Developing by DxO Photolab 4
+    depicts: null
+  - file: assets/etching/Musselburgh_Bridge_Edinburgh.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Musselburgh_Bridge,_Edinburgh.jpg
+    license: CC0
+    attribution: Bertha E. Jaques, CC0, via Wikimedia Commons
+    rights_status: open
+    caption: Etching of Musselburgh Bridge, Edinburgh
+    depicts: null
+  - file: assets/etching/Il_lavoro.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Il_lavoro.jpg
+    license: Public domain
+    attribution: Antonio Fontanesi, Public domain, via Wikimedia Commons
+    rights_status: open
+    caption: "etching of mm. 185 x 258 from the Jolanda and Angelo Dragone Graphic
+      Arts Collection - Location: R. - AG. - folder 3/155"
+    depicts: null
+  - file: assets/etching/Vue_de_Domo_d_Ossola.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Vue_de_Domo_d%27Ossola.jpg
+    license: Public domain
+    attribution: Adolphe Durau, Public domain, via Wikimedia Commons
+    rights_status: open
+    caption: "Etching - mm. 117 x 196 From: A. Martin, La Suisse pittoresque et ses
+      environs [...], Paris 1835 Location: Prints - 80"
+    depicts: null
+  - file: assets/etching/La_rupe.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:La_rupe.jpg
+    license: Public domain
+    attribution: Bosio, Teodoro, Public domain, via Wikimedia Commons
+    rights_status: open
+    caption: "Etching, cm. 36, 4 X 27.5 from the Jolanda and Angelo Dragone Graphic
+      Arts Collection - Location: R.- AG. Folder 2/101"
+    depicts: null
+  - file: assets/etching/In_Morocco_Harold_Herbert_Etching_15.0_x_15.0_cm.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:In_Morocco_Harold_Herbert_Etching_15.0_x_15.0_cm.jpg
+    license: Public domain
+    attribution: Harold Herbert, Public domain, via Wikimedia Commons
+    rights_status: open
+    caption: Harold Herbert (1922) In Morocco, Etching 15.0 x 15.0 cm, courtesy
+      Castlemaine Art Museum
+    depicts: null
+  - file: assets/etching/Fran_ois_Victor_Foveau_de_Courmelles._Etching_by_G._Poynot.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois_Victor_Foveau_de_Courmelles._Etching_by_G._Poynot.jpg
+    license: Public domain
+    attribution: Gabrielle Poynot, Public domain, via Wikimedia Commons
+    rights_status: open
+    caption: François Victor Foveau de Courmelles. Etching by G. Poynot. Poynot,
+      Gabrielle, active approximately 1885-1900 R. Burgess, Portraits of doctors
+      &amp; scientists in the Wellcome Institute, London 1973, no. 1023.1
+      Wellcome Library no.
+    depicts: null
 todo:
   - names.variants
   - summary
@@ -53,7 +158,6 @@ todo:
   - facets.lineage
   - facets.lifecycle
   - facets.practitioners
-  - images
 provenance:
   facets.formal_consequences:
     - source: editorial
@@ -61,3 +165,8 @@ provenance:
   facets.commercial_context:
     - source: editorial
       reviewed: false
+  images:
+    - source: wikimedia-commons
+      url: https://commons.wikimedia.org/w/index.php?search=etching
+      accessed: 2026-08-23
+      note: "query: etching"

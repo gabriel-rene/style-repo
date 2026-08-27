@@ -7,7 +7,7 @@ names:
 summary: null
 external_ids:
   getty_aat: null
-  wikidata: null
+  wikidata: Q103950955
 facets:
   era:
     periods: []
@@ -44,7 +44,93 @@ facets:
   practitioners:
     people: []
     studios: []
-images: []
+images:
+  - file: assets/linocut/Making_a_linocut.JPG
+    source_url: https://commons.wikimedia.org/wiki/File:Making_a_linocut.JPG
+    license: CC BY-SA 2.5
+    attribution: Ivo Kruusamägi, CC BY-SA 2.5, via Wikimedia Commons
+    rights_status: open
+    caption: Making a linocut. Kose Art School.
+    depicts: null
+  - file: assets/linocut/Preparing_a_Linocut_Design.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Preparing_a_Linocut_Design.jpg
+    license: CC BY-SA 3.0
+    attribution: Zephyris, CC BY-SA 3.0, via Wikimedia Commons
+    rights_status: open
+    caption: Using a handheld gouger to cut a design into linoleum for a linocut print.
+    depicts: null
+  - file: assets/linocut/Printing_Using_a_Linocut_Design.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Printing_Using_a_Linocut_Design.jpg
+    license: CC BY-SA 3.0
+    attribution: Zephyris, CC BY-SA 3.0, via Wikimedia Commons
+    rights_status: open
+    caption: Linocut printing; using a design cut into linoleum to make a print on
+      paper.
+    depicts: null
+  - file: assets/linocut/Marina_Spivak_City-Net_1.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Marina_Spivak_City-Net_1.jpg
+    license: CC BY-SA 4.0
+    attribution: Marina Spivak, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: "City — Net. 2019. 420 X 594 mm. Paper: Coloplan natural white, 270
+      g/m2. Colour linocut in three colors / three colour options in print run.
+      Print run — 58 copies + 2 E/A. The print run was done by the author
+      personally in the studio on Pesochnaya, 16 (St. Petersburg). Signature
+      mark, author's signa"
+    depicts: null
+  - file: assets/linocut/Byron_Randall_Rainy_Night_1945_linocut_.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Byron_Randall,_Rainy_Night,_1945_(linocut).jpg
+    license: CC BY-SA 4.0
+    attribution: Byron Randall, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: 1945 linocut of a street scene of figures with an umbrella, by Byron
+      Randall
+    depicts: null
+  - file: assets/linocut/A_D_n_t_ti_Rem_nyik-villa_Nagy_B_la_.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:A_D%C3%B3n%C3%A1t_%C3%BAti_Rem%C3%A9nyik-villa_(Nagy_B%C3%A9la).jpg
+    license: CC BY-SA 4.0
+    attribution: Béla Nagy, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Linocut of Reményik Villa in Cluj-Napoca by Béla Nagy (2015 works)
+    depicts: null
+  - file: assets/linocut/Kapu_Nagy_B_la_.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Kapu_(Nagy_B%C3%A9la).jpg
+    license: CC BY-SA 4.0
+    attribution: Béla Nagy, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Gate. Linocut prints by Béla Nagy (2016)
+    depicts: null
+  - file: assets/linocut/R_gi_temet_Nagy_B_la_.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:R%C3%A9gi_temet%C5%91_(Nagy_B%C3%A9la).jpg
+    license: CC BY-SA 4.0
+    attribution: Béla Nagy, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Béla Nagyː Old cemetery, 2016, linocut print, 35x25 cm, private ownership.
+    depicts: null
+  - file: assets/linocut/Zsoboki_forgatag_Nagy_B_la_.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Zsoboki_forgatag_(Nagy_B%C3%A9la).jpg
+    license: CC BY-SA 4.0
+    attribution: Béla Nagy, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Jebucu (three buildings). Linocut by Béla Nagy. 2020 works
+    depicts: null
+  - file: assets/linocut/Celtic_Knot_2024_Print_Materials_by_Attendee_of_Aoife_Cawley_Linocut_Workshop.jp
+    source_url: https://commons.wikimedia.org/wiki/File:Celtic_Knot_2024_Print_Materials_by_Attendee_of_Aoife_Cawley_Linocut_Workshop.jpg
+    license: CC0
+    attribution: RealityBites, CC0, via Wikimedia Commons
+    rights_status: open
+    caption: Design, tracing paper, and linocut for a print made by attendees of
+      linocut print workshop by Aoife Cawley at the Celtic Knot 2024 conference
+      in Waterford, Ireland
+    depicts: null
+  - file: assets/linocut/Celtic_Knot_2024_Prints_by_Attendees_of_Aoife_Cawley_Linocut_Workshop_2.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Celtic_Knot_2024_Prints_by_Attendees_of_Aoife_Cawley_Linocut_Workshop_2.jpg
+    license: CC0
+    attribution: RealityBites, CC0, via Wikimedia Commons
+    rights_status: open
+    caption: Printing process made by attendees of linocut print workshop by Aoife
+      Cawley at the Celtic Knot 2024 conference in Waterford, Ireland
+    depicts: null
 todo:
   - names.variants
   - summary
@@ -54,7 +140,6 @@ todo:
   - facets.lineage
   - facets.lifecycle
   - facets.practitioners
-  - images
 provenance:
   facets.formal_consequences:
     - source: editorial
@@ -62,3 +147,13 @@ provenance:
   facets.commercial_context:
     - source: editorial
       reviewed: false
+  external_ids.wikidata:
+    - source: wikidata
+      url: https://www.wikidata.org/wiki/Q103950955
+      accessed: 2026-08-23
+      method: exact-label-match
+  images:
+    - source: wikimedia-commons
+      url: https://commons.wikimedia.org/w/index.php?search=linocut
+      accessed: 2026-08-23
+      note: "query: linocut"

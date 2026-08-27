@@ -44,7 +44,71 @@ facets:
   practitioners:
     people: []
     studios: []
-images: []
+images:
+  - file: assets/photocopier/Xerox_photocopier_in_GlenOak_High_School_library_2004.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Xerox_photocopier_in_GlenOak_High_School_library_2004.jpg
+    license: CC BY-SA 3.0
+    attribution: Joseph Barillari at en.wikipedia., CC BY-SA 3.0, via Wikimedia Commons
+    rights_status: open
+    caption: A small, much used Xerox photocopier in the library of GlenOak High
+      School in Canton, Ohio, USA.
+    depicts: null
+  - file: assets/photocopier/The_Closest_Photocopier_3594209596_.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:The_Closest_Photocopier_(3594209596).jpg
+    license: CC0
+    attribution: Dennis Sylvester Hurd from Minuwangoda, WP, Sri Lanka, Canada, CC0,
+      via Wikimedia Commons
+    rights_status: open
+    caption: June 2009 - How'd schools work before these were ubiquitous? Who knows
+      when I'll need a picture of one for &lt;a
+      href="http://www.dennissylvesterhurd.com/blog/" target="_new"
+      rel="nofollow"&gt;my blog&lt;/a&gt;.
+    depicts: null
+  - file: assets/photocopier/Sharp_MX-7500_photocopier.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Sharp_MX-7500_photocopier.jpg
+    license: CC BY 4.0
+    attribution: Baron Maddock, CC BY 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: A Sharp MX-7500 photocopier in a work room. This photocopier is mainly
+      intended for bulk copying.
+    depicts: null
+  - file: assets/photocopier/Photocopier.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Photocopier.jpg
+    license: CC0
+    attribution: Blayten, CC0, via Wikimedia Commons
+    rights_status: open
+    caption: hindi
+    depicts: null
+  - file: assets/photocopier/Xerox_AltaLink_C8045_photocopier.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Xerox_AltaLink_C8045_photocopier.jpg
+    license: CC BY 4.0
+    attribution: Baron Maddock, CC BY 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: A Xerox AltaLink C8045 photocopier at an office building
+    depicts: null
+  - file: assets/photocopier/Konica_Minolta_Bizhub_C454e_photocopier.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Konica_Minolta_Bizhub_C454e_photocopier.jpg
+    license: CC BY 4.0
+    attribution: Baron Maddock, CC BY 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Konica Minolta Bizhub C454e photocopier in an office building
+    depicts: null
+  - file: assets/photocopier/Canon_ImageRUNNER_Advance_C7570i_photocopier.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Canon_ImageRUNNER_Advance_C7570i_photocopier.jpg
+    license: CC BY 4.0
+    attribution: Baron Maddock, CC BY 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Canon ImageRUNNER Advance C7570i photocopier in an office building
+    depicts: null
+  - file: assets/photocopier/Technician_repairing_a_photocopier_in_Uganda.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Technician_repairing_a_photocopier_in_Uganda.jpg
+    license: CC BY-SA 4.0
+    attribution: B722N, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Technicians usually repair and maintain printers in different places in
+      the different regions of Uganda especially those that are dusty or carry
+      out heavy printing.
+    depicts: null
 todo:
   - names.variants
   - summary
@@ -54,7 +118,6 @@ todo:
   - facets.lineage
   - facets.lifecycle
   - facets.practitioners
-  - images
 provenance:
   facets.formal_consequences:
     - source: editorial
@@ -62,3 +125,8 @@ provenance:
   facets.commercial_context:
     - source: editorial
       reviewed: false
+  images:
+    - source: wikimedia-commons
+      url: https://commons.wikimedia.org/w/index.php?search=photocopier
+      accessed: 2026-08-23
+      note: "query: photocopier"

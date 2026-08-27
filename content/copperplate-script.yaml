@@ -7,7 +7,7 @@ names:
 summary: null
 external_ids:
   getty_aat: null
-  wikidata: null
+  wikidata: Q5168845
 facets:
   era:
     periods: []
@@ -45,7 +45,43 @@ facets:
   practitioners:
     people: []
     studios: []
-images: []
+images:
+  - file: assets/copperplate-script/Laguna_Copperplate_Inscription.gif
+    source_url: https://commons.wikimedia.org/wiki/File:Laguna_Copperplate_Inscription.gif
+    license: Public domain
+    attribution: Nordenx, Public domain, via Wikimedia Commons
+    rights_status: open
+    caption: The Laguna Copperplate Inscription (circa 900AD) from the Laguna de Bay
+      area in Luzon, the Philippines. The script used is based on the Indian
+      Pallava used around the same period throughout India and Southeast Asia,
+      showing heavy influence in the pre-colonial period of Philippine culture.
+    depicts: null
+  - file: assets/copperplate-script/Sample_of_Copperplate_Script_with_a_Offhand_Flourishing.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Sample_of_Copperplate_Script_with_a_Offhand_Flourishing.jpg
+    license: CC BY-SA 3.0
+    attribution: Swchuck, CC BY-SA 3.0, via Wikimedia Commons
+    rights_status: open
+    caption: A quote written in Copperplate script with offhand flourishing.
+    depicts: null
+  - file: assets/copperplate-script/Sample_of_Copperplate_Script_with_an_Oblique_Penholder.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Sample_of_Copperplate_Script_with_an_Oblique_Penholder.jpg
+    license: CC BY-SA 3.0
+    attribution: Swchuck, CC BY-SA 3.0, via Wikimedia Commons
+    rights_status: open
+    caption: A sample of copperplate script with offhand flourishing. The pen-holder
+      in the photo (an oblique pen-holder) is commonly used by copperplate
+      calligraphers. The quotation is by Isaac Sharpless, president of Haverford
+      College, from a speech given in 1888.
+    depicts: null
+  - file: assets/copperplate-script/AMH-7084-KB_Sinhalese_script_like_that_seen_in_the_region_of_the_Adamsberg_mount
+    source_url: https://commons.wikimedia.org/wiki/File:AMH-7084-KB_Sinhalese_script_like_that_seen_in_the_region_of_the_Adamsberg_mountain.jpg
+    license: Public domain
+    attribution: Johann Wolffgang Heydt, Public domain, via Wikimedia Commons
+    rights_status: open
+    caption: "Sinhalese script like that seen in the region of the Adamsberg
+      mountain. Schrifften oder Caracteres und Hijrogliph; auf u: um den Adams
+      Berg zu sehen.. Top left: No: LXXVII. Top right: pag. 229."
+    depicts: null
 todo:
   - names.variants
   - summary
@@ -55,7 +91,6 @@ todo:
   - facets.lineage
   - facets.lifecycle
   - facets.practitioners
-  - images
 provenance:
   facets.formal_properties:
     - source: editorial
@@ -66,3 +101,13 @@ provenance:
   facets.commercial_context:
     - source: editorial
       reviewed: false
+  external_ids.wikidata:
+    - source: wikidata
+      url: https://www.wikidata.org/wiki/Q5168845
+      accessed: 2026-08-23
+      method: exact-label-match
+  images:
+    - source: wikimedia-commons
+      url: https://commons.wikimedia.org/w/index.php?search=copperplate%20script
+      accessed: 2026-08-23
+      note: "query: copperplate script"

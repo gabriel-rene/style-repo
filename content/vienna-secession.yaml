@@ -48,7 +48,56 @@ facets:
   practitioners:
     people: []
     studios: []
-images: []
+images:
+  - file: assets/vienna-secession/Alfred_roller_IX_austellung..._secession_vienna_1901.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Alfred_roller,_IX_austellung..._secession,_vienna_1901.jpg
+    license: CC BY-SA 4.0
+    attribution: Sailko, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: The authorisation for taking photos of this object was provided by the
+      World Wide Fund for Nature Italy.
+    depicts: null
+  - file: assets/vienna-secession/Alfred_roller_XII_austellung..._secession_vienna_1901.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Alfred_roller,_XII_austellung..._secession,_vienna_1901.jpg
+    license: CC BY-SA 4.0
+    attribution: Sailko, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: The authorisation for taking photos of this object was provided by the
+      World Wide Fund for Nature Italy.
+    depicts: null
+  - file: assets/vienna-secession/Alfred_roller_XIV_austellung..._secession_vienna_1902_01.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Alfred_roller,_XIV_austellung..._secession,_vienna_1902,_01.jpg
+    license: CC BY-SA 4.0
+    attribution: Sailko, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: The authorisation for taking photos of this object was provided by the
+      World Wide Fund for Nature Italy.
+    depicts: null
+  - file: assets/vienna-secession/Alfred_roller_XIV_austellung..._secession_vienna_1902_02.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Alfred_roller,_XIV_austellung..._secession,_vienna_1902,_02.jpg
+    license: CC BY-SA 4.0
+    attribution: Sailko, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: The authorisation for taking photos of this object was provided by the
+      World Wide Fund for Nature Italy.
+    depicts: null
+  - file: assets/vienna-secession/Koloman_moser_manifesto_per_la_V_secession_kunstaausstellung_vienna_1899_litogra
+    source_url: https://commons.wikimedia.org/wiki/File:Koloman_moser,_manifesto_per_la_V_secession_kunstaausstellung,_vienna_1899,_litografia.jpg
+    license: CC BY-SA 4.0
+    attribution: Sailko, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: The authorisation for taking photos of this object was provided by the
+      World Wide Fund for Nature Italy.
+    depicts: null
+  - file: assets/vienna-secession/Poster_for_the_40th_exposition_of_Vienna_Secession_1912.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Poster_for_the_40th_exposition_of_Vienna_Secession_1912.jpg
+    license: CC BY 3.0
+    attribution: Till Niermann, CC BY 3.0, via Wikimedia Commons
+    rights_status: open
+    caption: 'Ernst Eck (1879–1941): Plakat für die XL. Ausstellung der Wiener
+      Secession, 1912. Lithografie auf Papier (Faksimile). Leopold Museum, Wien.
+      Patron: Brigitta Fuchs.Text: "SECESSION PLAKAT=AUSSTELLUNG"'
+    depicts: null
 todo:
   - names.variants
   - summary
@@ -58,7 +107,6 @@ todo:
   - facets.lineage
   - facets.lifecycle
   - facets.practitioners
-  - images
 provenance:
   facets.formal_properties:
     - source: editorial
@@ -69,3 +117,8 @@ provenance:
   facets.commercial_context:
     - source: editorial
       reviewed: false
+  images:
+    - source: wikimedia-commons
+      url: https://commons.wikimedia.org/w/index.php?search=Vienna%20Secession%20poster
+      accessed: 2026-08-23
+      note: "query: Vienna Secession poster"

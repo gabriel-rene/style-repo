@@ -47,7 +47,49 @@ facets:
   practitioners:
     people: []
     studios: []
-images: []
+images:
+  - file: assets/suprematism/Non-Objective_Composition_Suprematism_Rozanova_1916-1917_-_anagoria.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Non-Objective_Composition_(Suprematism)_(Rozanova,_1916-1917)_-_anagoria.jpg
+    license: Public domain
+    attribution: Olga Rozanova, Public domain, via Wikimedia Commons
+    rights_status: open
+    caption: null
+    depicts: null
+  - file: assets/suprematism/1924-25_Chashnik_Suprematismus_anagoria.JPG
+    source_url: https://commons.wikimedia.org/wiki/File:1924-25_Chashnik_Suprematismus_anagoria.JPG
+    license: Public domain
+    attribution: Ilya Chashnik, Public domain, via Wikimedia Commons
+    rights_status: open
+    caption: null
+    depicts: null
+  - file: assets/suprematism/Suprematism_Rozanova_1916_.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Suprematism_(Rozanova,_1916).jpg
+    license: Public domain
+    attribution: Olga Rozanova, Public domain, via Wikimedia Commons
+    rights_status: open
+    caption: null
+    depicts: null
+  - file: assets/suprematism/Suprematism_-_Abstract_Composition_Malevich_1915_.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Suprematism_-_Abstract_Composition_(Malevich,_1915).jpg
+    license: Public domain
+    attribution: Kazimir Malevich, Public domain, via Wikimedia Commons
+    rights_status: open
+    caption: null
+    depicts: null
+  - file: assets/suprematism/Suprematism_Rozanova_1916_1.jpeg
+    source_url: https://commons.wikimedia.org/wiki/File:Suprematism_(Rozanova,_1916)_1.jpeg
+    license: Public domain
+    attribution: Olga Rozanova, Public domain, via Wikimedia Commons
+    rights_status: open
+    caption: null
+    depicts: null
+  - file: assets/suprematism/Suprematism_Kliun_1915_16_.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Suprematism_(Kliun,_1915,_16).jpg
+    license: Public domain
+    attribution: Ivan Kliun, Public domain, via Wikimedia Commons
+    rights_status: open
+    caption: null
+    depicts: null
 todo:
   - names.variants
   - summary
@@ -57,7 +99,6 @@ todo:
   - facets.lineage
   - facets.lifecycle
   - facets.practitioners
-  - images
 provenance:
   facets.formal_properties:
     - source: editorial
@@ -68,3 +109,8 @@ provenance:
   facets.commercial_context:
     - source: editorial
       reviewed: false
+  images:
+    - source: wikimedia-commons
+      url: https://commons.wikimedia.org/w/index.php?search=Suprematism
+      accessed: 2026-08-23
+      note: "query: Suprematism"

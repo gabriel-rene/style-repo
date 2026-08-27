@@ -209,6 +209,20 @@ images:
     rights_status: restricted
     caption: L'Art Nouveau, Grafton Galleries. 1898. Lithograph
     depicts: null
+  - file: assets/art-nouveau/Poster_Remouchamps_La_Grotte.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Poster_Remouchamps_%E2%80%94_La_Grotte.jpg
+    license: Public domain
+    attribution: Oscar Liedel, Public domain, via Wikimedia Commons
+    rights_status: open
+    caption: Art Nouveau poster for the caves of Remouchamps
+    depicts: null
+  - file: assets/art-nouveau/Japonisme_et_Art_nouveau_13_affiche_d_mile_Berchmans_.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Japonisme_et_Art_nouveau_13_(affiche_d%27%C3%89mile_Berchmans).jpg
+    license: CC BY 4.0
+    attribution: Galpas79, CC BY 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Affiche d'Émile Berchmans.
+    depicts: null
 todo:
   - names.variants
   - external_ids

@@ -43,7 +43,104 @@ facets:
   practitioners:
     people: []
     studios: []
-images: []
+images:
+  - file: assets/pen-plotter/Silver_Reed_Colour_PenGraph_EB50_Plotter_-1005.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Silver_Reed_Colour_PenGraph_EB50_Plotter_-1005.jpg
+    license: CC BY-SA 4.0
+    attribution: Elke Wetzig, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: "Silver Reed Colour PenGraph EB50 Plotter: cover taken off"
+    depicts: null
+  - file: assets/pen-plotter/Silver_Reed_Colour_PenGraph_EB50_Plotter_-1007.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Silver_Reed_Colour_PenGraph_EB50_Plotter_-1007.jpg
+    license: CC BY-SA 4.0
+    attribution: Elke Wetzig, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: Silver Reed Colour PenGraph EB50 Plotter with writing sample in green,
+      red, and blue (black empty); in the back right the power supply
+    depicts: null
+  - file: assets/pen-plotter/Silver_Reed_Colour_PenGraph_EB50_Plotter_-1000.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Silver_Reed_Colour_PenGraph_EB50_Plotter_-1000.jpg
+    license: CC BY-SA 4.0
+    attribution: Elke Wetzig, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: "Silver Reed Colour PenGraph EB50 Plotter: top side with cover and handle"
+    depicts: null
+  - file: assets/pen-plotter/Silver_Reed_Colour_PenGraph_EB50_Plotter_-1015.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Silver_Reed_Colour_PenGraph_EB50_Plotter_-1015.jpg
+    license: CC BY-SA 4.0
+    attribution: Elke Wetzig, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: "Silver Reed Colour PenGraph EB50 Plotter: pie-chart drawn by built-in
+      special funktion"
+    depicts: null
+  - file: assets/pen-plotter/Silver_Reed_Colour_PenGraph_EB50_Plotter_-1018.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Silver_Reed_Colour_PenGraph_EB50_Plotter_-1018.jpg
+    license: CC BY-SA 4.0
+    attribution: Elke Wetzig, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: "Silver Reed Colour PenGraph EB50 Plotter: vertical-bar chart drawn by
+      built-in special function; the clear cover is removed, and the revolving
+      holder with the plotter pen can be seen"
+    depicts: null
+  - file: assets/pen-plotter/Silver_Reed_Colour_PenGraph_EB50_Plotter_-1021.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Silver_Reed_Colour_PenGraph_EB50_Plotter_-1021.jpg
+    license: CC BY-SA 4.0
+    attribution: Elke Wetzig, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: "Silver Reed Colour PenGraph EB50 Plotter: the three font sizes of the
+      machine"
+    depicts: null
+  - file: assets/pen-plotter/Silver_Reed_Colour_PenGraph_EB50_Plotter_-1030.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Silver_Reed_Colour_PenGraph_EB50_Plotter_-1030.jpg
+    license: CC BY-SA 4.0
+    attribution: Elke Wetzig, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: "Silver Reed Colour PenGraph EB50 Plotter: LC-display adjusted to
+      normal contrast"
+    depicts: null
+  - file: assets/pen-plotter/Silver_Reed_Colour_PenGraph_EB50_Plotter_-1031.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Silver_Reed_Colour_PenGraph_EB50_Plotter_-1031.jpg
+    license: CC BY-SA 4.0
+    attribution: Elke Wetzig, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: "Silver Reed Colour PenGraph EB50 Plotter: LC-display on highest
+      adjustment, all elements can be seen"
+    depicts: null
+  - file: assets/pen-plotter/Silver_Reed_Colour_PenGraph_EB50_Plotter_-1032.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Silver_Reed_Colour_PenGraph_EB50_Plotter_-1032.jpg
+    license: CC BY-SA 4.0
+    attribution: Elke Wetzig, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: "Silver Reed Colour PenGraph EB50 Plotter: integrated tray for plotter
+      pens, beneath feed roll release lever, right plug of the power supply"
+    depicts: null
+  - file: assets/pen-plotter/Silver_Reed_Colour_PenGraph_EB50_Plotter_-1033.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Silver_Reed_Colour_PenGraph_EB50_Plotter_-1033.jpg
+    license: CC BY-SA 4.0
+    attribution: Elke Wetzig, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: "Silver Reed Colour PenGraph EB50 Plotter: 36 pin Centronics interface
+      for connecting to a computer"
+    depicts: null
+  - file: assets/pen-plotter/Silver_Reed_Colour_PenGraph_EB50_Plotter_-1034.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Silver_Reed_Colour_PenGraph_EB50_Plotter_-1034.jpg
+    license: CC BY-SA 4.0
+    attribution: Elke Wetzig, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: "Silver Reed Colour PenGraph EB50 Plotter: right side of the device
+      with Centronics interface, on/off switch, and connection to the power
+      supply (left to right); the dark thing beneath is only used as a pedestal
+      for making photos easier – it is no part of the plotter itself"
+    depicts: null
+  - file: assets/pen-plotter/Silver_Reed_Colour_PenGraph_EB50_Plotter_-1036.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Silver_Reed_Colour_PenGraph_EB50_Plotter_-1036.jpg
+    license: CC BY-SA 4.0
+    attribution: Elke Wetzig, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    caption: "Silver Reed Colour PenGraph EB50 Plotter: contrast control on the left
+      side of the case"
+    depicts: null
 todo:
   - names.variants
   - summary
@@ -53,7 +150,6 @@ todo:
   - facets.lineage
   - facets.lifecycle
   - facets.practitioners
-  - images
 provenance:
   facets.formal_consequences:
     - source: editorial
@@ -61,3 +157,8 @@ provenance:
   facets.commercial_context:
     - source: editorial
       reviewed: false
+  images:
+    - source: wikimedia-commons
+      url: https://commons.wikimedia.org/w/index.php?search=pen%20plotter
+      accessed: 2026-08-23
+      note: "query: pen plotter"
