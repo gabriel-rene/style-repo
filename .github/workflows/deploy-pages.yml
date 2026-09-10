@@ -26,7 +26,11 @@ jobs:
       - uses: actions/configure-pages@v5
       - run: npm ci
       - run: npm ci --prefix site
-      - run: npm run build
+      # The static site reads YAML directly. The local SQLite search index is a
+      # tooling artifact and depends on FTS5, which is unavailable in the
+      # Node.js SQLite build used by GitHub-hosted runners.
+      - run: npm run validate
+      - run: npm run build --prefix site
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site/dist
