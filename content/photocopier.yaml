@@ -53,7 +53,7 @@ images:
     caption: A small, much used Xerox photocopier in the library of GlenOak High
       School in Canton, Ohio, USA.
     depicts: null
-    review_status: pending
+    review_status: approved
   - file: assets/photocopier/The_Closest_Photocopier_3594209596_.jpg
     source_url: https://commons.wikimedia.org/wiki/File:The_Closest_Photocopier_(3594209596).jpg
     license: CC0

@@ -57,7 +57,7 @@ images:
     caption: this is a glitch sample of my movie Kodak Moment (2013) The actress is
       Mae Murray, and the source film is a Kodachrome test from 1922.
     depicts: null
-    review_status: pending
+    review_status: approved
   - file: assets/glitch-art/Digital-Jackal_glitch_art.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Digital-Jackal_glitch_art.jpg
     license: CC BY-SA 4.0

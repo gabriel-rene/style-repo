@@ -44,7 +44,20 @@
             ]
         }
     },
-  "images": [],
+  "images": [
+    {
+      "file": null,
+      "remote_image": "https://mir-s3-cdn-cf.behance.net/projects/max_808/fbfe65230527900.Y3JvcCwyNDc1LDE5MzUsMCw2ODA.jpg",
+      "source_url": "https://www.behance.net/gallery/230527900/A-WPA-Style-Inspired-Poster",
+      "license": "Copyright creator; no reuse license stated",
+      "attribution": "Bianca Roncarati, A WPA Style Inspired Poster, 2025, via Behance",
+      "rights_status": "restricted",
+      "caption": "Contemporary poster study explicitly inspired by the WPA poster tradition.",
+      "depicts": null,
+      "review_status": "approved"
+    }
+  ],
+  "featured_image": "https://www.behance.net/gallery/230527900/A-WPA-Style-Inspired-Poster",
   "provenance":
     {
       guide:

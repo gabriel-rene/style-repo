@@ -48,7 +48,17 @@ facets:
   practitioners:
     people: []
     studios: []
-images: []
+images:
+  - file: null
+    remote_image: https://mir-s3-cdn-cf.behance.net/project_modules/1400/0647d1224569809.680d68414c9fa.jpg
+    source_url: https://www.behance.net/gallery/224569809/METAFORA-Type-Experimentation
+    license: Copyright creator; no reuse license stated
+    attribution: Pau Carrión, METÁFORA Type Experimentation, 2025, via Behance
+    rights_status: restricted
+    caption: Contemporary type experiment selected for its asymmetric compositional hierarchy and active typographic contrast.
+    depicts: null
+    review_status: approved
+featured_image: https://www.behance.net/gallery/224569809/METAFORA-Type-Experimentation
 todo:
   - names.variants
   - summary

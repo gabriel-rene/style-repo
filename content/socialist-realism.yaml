@@ -75,7 +75,17 @@ works:
     url: https://www.loc.gov/item/95503600/
     note: Irakli Toidze. The Library of Congress record dates this edition to 1957;
       do not confuse the edition date with the original design.
-images: []
+images:
+  - file: null
+    remote_image: https://mir-s3-cdn-cf.behance.net/project_modules/1400/ffe1e6198490187.664329c82fb13.png
+    source_url: https://www.behance.net/gallery/198490187/Illustration-for-a-skateboard-event-poster-2022
+    license: Copyright creator; no reuse license stated
+    attribution: Jenia F., Illustration for a skateboard event poster, 2022, via Behance
+    rights_status: restricted
+    caption: Modern poster illustration explicitly presented by its creator as a digital take on early Socialist Realism imagery.
+    depicts: null
+    review_status: approved
+featured_image: https://www.behance.net/gallery/198490187/Illustration-for-a-skateboard-event-poster-2022
 todo:
   - images
 provenance:

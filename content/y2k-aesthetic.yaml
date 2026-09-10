@@ -48,7 +48,17 @@ facets:
   practitioners:
     people: []
     studios: []
-images: []
+images:
+  - file: null
+    remote_image: https://mir-s3-cdn-cf.behance.net/project_modules/1400/d55647247842007.69ed4db64f8db.jpg
+    source_url: https://www.behance.net/gallery/247842007/Neox
+    license: Copyright creator; no reuse license stated
+    attribution: Estúdio 017, Neox, 2026, via Behance
+    rights_status: restricted
+    caption: Contemporary identity project described by its makers as using Y2K visual language.
+    depicts: null
+    review_status: approved
+featured_image: https://www.behance.net/gallery/247842007/Neox
 todo:
   - names.variants
   - summary

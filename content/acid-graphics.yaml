@@ -47,7 +47,17 @@ facets:
     people: [] # HARVEST-ONLY
     studios: []
 
-images: []
+images:
+  - file: null
+    remote_image: https://mir-s3-cdn-cf.behance.net/project_modules/1400/e9e2d3219742459.67b706ec37f40.jpg
+    source_url: https://www.behance.net/gallery/219742459/120-Acidrawl-Graphic-Pack
+    license: Copyright creator; no reuse license stated
+    attribution: Ivan Kamzyst, 120 Acidrawl Graphic Pack, 2025, via Behance
+    rights_status: restricted
+    caption: Contemporary acid-graphics asset system with distorted display forms and saturated layered surfaces.
+    depicts: null
+    review_status: approved
+featured_image: https://www.behance.net/gallery/219742459/120-Acidrawl-Graphic-Pack
 
 todo:
   - names.variants

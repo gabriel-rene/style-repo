@@ -47,7 +47,20 @@
             ]
         }
     },
-  "images": [],
+  "images": [
+    {
+      "file": null,
+      "remote_image": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/f61b02221366495.67d2e5752c379.jpg",
+      "source_url": "https://www.behance.net/gallery/221366495/Thesis-Edition-Graphic-Design-and-Contemporary-Art",
+      "license": "Copyright creator; no reuse license stated",
+      "attribution": "Giovani Gil, Thesis Edition: Graphic Design and Contemporary Art, 2025, via Behance",
+      "rights_status": "restricted",
+      "caption": "Contemporary art-publication identity chosen for its layered, expressive graphic composition.",
+      "depicts": null,
+      "review_status": "approved"
+    }
+  ],
+  "featured_image": "https://www.behance.net/gallery/221366495/Thesis-Edition-Graphic-Design-and-Contemporary-Art",
   "provenance":
     {
       guide:

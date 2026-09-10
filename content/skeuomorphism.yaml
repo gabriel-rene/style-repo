@@ -47,7 +47,17 @@ facets:
   practitioners:
     people: []
     studios: []
-images: []
+images:
+  - file: null
+    remote_image: https://mir-s3-cdn-cf.behance.net/project_modules/1400/cd9a48232211667.6897d380682a5.png
+    source_url: https://www.behance.net/gallery/232211667/Smart-Home-App-UIUX-Neumorphism-Minimal-Design
+    license: Copyright creator; no reuse license stated
+    attribution: Parisa Keshavarziyan, Smart Home App UI UX, 2025, via Behance
+    rights_status: restricted
+    caption: Contemporary tactile interface reference using depth and material-like controls to signal interaction.
+    depicts: null
+    review_status: approved
+featured_image: https://www.behance.net/gallery/232211667/Smart-Home-App-UIUX-Neumorphism-Minimal-Design
 todo:
   - names.variants
   - summary

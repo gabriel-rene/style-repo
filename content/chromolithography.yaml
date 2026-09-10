@@ -18,7 +18,20 @@
           "ornament_level": "moderate"
         }
     },
-  "images": [],
+  "images": [
+    {
+      "file": null,
+      "remote_image": "https://cdn.loc.gov/service/pnp/cph/3g00000/3g07000/3g07700/3g07753v.jpg",
+      "source_url": "https://www.loc.gov/pictures/item/00652148/",
+      "license": "No known restrictions on publication",
+      "attribution": "Clifford Carleton, He is keeping the world safe for democracy, 1917; Library of Congress",
+      "rights_status": "open",
+      "caption": "Chromolithograph recruitment poster printed by Erie Lithograph Company.",
+      "depicts": null,
+      "review_status": "approved"
+    }
+  ],
+  "featured_image": "https://www.loc.gov/pictures/item/00652148/",
   "provenance":
     {
       guide:

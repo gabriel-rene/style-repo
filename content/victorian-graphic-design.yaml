@@ -48,7 +48,20 @@
             ]
         }
     },
-  "images": [],
+  "images": [
+    {
+      "file": null,
+      "remote_image": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/e6c3b1234226389.68bf80098d9e2.jpg",
+      "source_url": "https://www.behance.net/gallery/234226389/The-New-Style-2025",
+      "license": "Copyright creator; no reuse license stated",
+      "attribution": "Katt Phatt Studio, The New Style, 2025, via Behance",
+      "rights_status": "restricted",
+      "caption": "Contemporary decorative work mixing Victorian-era references with a new digital material treatment.",
+      "depicts": null,
+      "review_status": "approved"
+    }
+  ],
+  "featured_image": "https://www.behance.net/gallery/234226389/The-New-Style-2025",
   "provenance":
     {
       guide:
