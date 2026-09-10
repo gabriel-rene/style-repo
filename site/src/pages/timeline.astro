@@ -2,6 +2,7 @@
 import Base from "../layouts/Base.astro";
 import { loadAll, eraSpan, typeLabel, description } from "../lib/data.js";
 const { terms } = loadAll();
+const base = import.meta.env.BASE_URL;
 const dated = terms
   .map((t) => ({ t, span: eraSpan(t) }))
   .filter((r) => Number.isInteger(r.span?.start))
@@ -46,7 +47,7 @@ const max = Math.max(
         <div>
           <p class="meta">{typeLabel(t.term_type)}</p>
           <h2>
-            <a href={`/term/${t.id}/`}>{t.names.primary} ↗</a>
+            <a href={`${base}term/${t.id}/`}>{t.names.primary} ↗</a>
           </h2>
           <p>{description(t)}</p>
         </div>
@@ -68,7 +69,7 @@ const max = Math.max(
       recorded. Missing dates do not imply a recent origin.
     </p>
     {undated.map((t) => (
-      <a class="chip" href={`/term/${t.id}/`}>
+      <a class="chip" href={`${base}term/${t.id}/`}>
         {t.names.primary}
       </a>
     ))}

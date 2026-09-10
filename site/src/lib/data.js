@@ -21,6 +21,9 @@ function findRepo() {
 }
 const REPO = findRepo();
 const CONTENT = join(REPO, "content");
+// This module is also loaded directly by the Node embedding-build script, where
+// Astro's import.meta.env is unavailable.
+const SITE_BASE = process.env.GITHUB_ACTIONS ? "/style-repo/" : "/";
 
 // lineage relation -> its computed inverse label
 const INVERSE = {
@@ -92,7 +95,7 @@ export function relationsFor(id) {
 export function thumb(term) {
   for (const img of displayImages(term)) {
     if (typeof img?.file === "string" && img.file)
-      return { src: "/" + img.file, img };
+      return { src: SITE_BASE + img.file, img };
     if (typeof img?.remote_image === "string")
       return { src: img.remote_image, img };
   }
@@ -100,7 +103,7 @@ export function thumb(term) {
 }
 
 export function imageSrc(img) {
-  if (typeof img?.file === "string" && img.file) return "/" + img.file;
+  if (typeof img?.file === "string" && img.file) return SITE_BASE + img.file;
   if (typeof img?.remote_image === "string") return img.remote_image;
   return null;
 }

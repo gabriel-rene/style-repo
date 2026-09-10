@@ -5,6 +5,7 @@ import { loadAll, thumb } from "../lib/data.js";
 const { terms, byId } = loadAll();
 const featured = byId.get("swiss-international-style");
 const poster = thumb(featured);
+const base = import.meta.env.BASE_URL;
 ---
 
 <Base current="index">
@@ -23,7 +24,7 @@ const poster = thumb(featured);
         Explore {terms.length} entries <span>↗</span>
       </a>
     </div>
-    <a class="hero-feature" href="/term/swiss-international-style/">
+    <a class="hero-feature" href={`${base}term/swiss-international-style/`}>
       <div class="hero-poster">
         {poster && (
           <img
@@ -51,7 +52,7 @@ const poster = thumb(featured);
       A working index of movements, aesthetics, letterforms and the processes
       behind them.
     </p>
-    <a href="/about/">How to use this reference ↗</a>
+    <a href={`${base}about/`}>How to use this reference ↗</a>
   </div>
   <Library />
 </Base>

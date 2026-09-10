@@ -3,6 +3,7 @@ import Base from "../layouts/Base.astro";
 import { lifecycleRows, trendQueue, loadAll } from "../lib/data.js";
 import TermCard from "../components/TermCard.astro";
 const rows = lifecycleRows();
+const base = import.meta.env.BASE_URL;
 const queue = trendQueue();
 const { byId } = loadAll();
 const aesthetics = [
@@ -41,7 +42,7 @@ const aesthetics = [
       rows.map(({ term, state, review_due, flag }) => (
         <article class="trend-entry">
           <h3>
-            <a href={`/term/${term.id}/`}>{term.names.primary} ↗</a>
+            <a href={`${base}term/${term.id}/`}>{term.names.primary} ↗</a>
           </h3>
           <p>
             {state} / Review: {review_due ?? "not scheduled"} / {flag}

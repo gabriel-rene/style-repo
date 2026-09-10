@@ -20,6 +20,7 @@ const tags = Object.fromEntries(
     ),
   ]),
 );
+const base = import.meta.env.BASE_URL;
 ---
 
 <section id="library" class="library">
@@ -28,7 +29,7 @@ const tags = Object.fromEntries(
       {expanded ? "Find your visual language." : "Explore the index."}
       <sup>{terms.length}</sup>
     </h2>
-    <a href="/compare/">Compare styles ↗</a>
+    <a href={`${base}compare/`}>Compare styles ↗</a>
   </div>
   <div class="library-toolbar">
     <label class="search-field">

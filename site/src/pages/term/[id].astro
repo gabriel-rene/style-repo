@@ -43,10 +43,11 @@ const labels = {
   technique_used_by: "Technique used by",
 };
 const noteSources = sources.some((s) => s.source === "research-note");
+const base = import.meta.env.BASE_URL;
 ---
 
 <Base title={term.names.primary} description={description(term)}>
-  <a class="back-link" href="/#library">
+  <a class="back-link" href={`${base}#library`}>
     ← Back to the index
   </a>
   <header class="term-heading">
@@ -172,7 +173,7 @@ const noteSources = sources.some((s) => s.source === "research-note");
             <div>
               <p class="meta">{labels[rel] ?? rel}</p>
               {rows.map((r) => (
-                <a class="chip" href={`/term/${r.to}/`}>
+                <a class="chip" href={`${base}term/${r.to}/`}>
                   {byId.get(r.to)?.names.primary}
                   {r.inferred ? " *" : ""}
                 </a>
@@ -219,7 +220,7 @@ const noteSources = sources.some((s) => s.source === "research-note");
             recorded source.
           </p>
         )}
-        <a class="meta" href="/about/">
+        <a class="meta" href={`${base}about/`}>
           Read our approach to sources and image selection ↗
         </a>
       </section>
@@ -281,7 +282,7 @@ const noteSources = sources.some((s) => s.source === "research-note");
     <section id="related" class="related-section">
       <div class="library-heading">
         <h2>Look alongside.</h2>
-        <a href={`/compare/?left=${term.id}&right=${comparisons[0].id}`}>
+        <a href={`${base}compare/?left=${term.id}&right=${comparisons[0].id}`}>
           Compare side by side ↗
         </a>
       </div>
