@@ -204,6 +204,8 @@ todo:
   - facets.lifecycle
   - facets.practitioners
 provenance:
+  works:
+    - source: user
   facets.formal_properties:
     - source: editorial
       reviewed: false
@@ -241,3 +243,7 @@ guide:
     - glitch-art
     - flat-design
 featured_image: https://commons.wikimedia.org/wiki/File:Landscape_pixel_art.png
+works:
+  - title: Pixel art style / Branding in pixel art style
+    url: https://www.behance.net/gallery/181135479/Pixel-art-style-Branding-in-pixel-art-style
+    note: Yulia Mityukova, 2023. Pixel-art identity across character, logo, and app.

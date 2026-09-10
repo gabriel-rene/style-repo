@@ -68,6 +68,8 @@ todo:
   - facets.lifecycle
   - facets.practitioners
 provenance:
+  works:
+    - source: user
   facets.formal_properties:
     - source: editorial
       reviewed: false
@@ -99,3 +101,10 @@ guide:
   compare:
     - memphis
     - psychedelic-art
+works:
+  - title: MUCH — A Visual Exhibition on Maximalism
+    url: https://www.behance.net/gallery/241742037/MUCH-A-Visual-Exhibition-on-Maximalism
+    note: Olya Bobyk, 2026. Poster and motion system treating excess as structure.
+  - title: Human Emotions — Maximalism Poster Collection
+    url: https://www.behance.net/gallery/232068569/Human-Emotions-Maximalism-Poster-Collection-%28vol-01%29
+    note: Ulkar Hajizada, 2025. Dense symbolism, distortion, and colour contrast.

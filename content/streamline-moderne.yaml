@@ -163,6 +163,8 @@ todo:
   - facets.lifecycle
   - facets.practitioners
 provenance:
+  works:
+    - source: user
   facets.formal_properties:
     - source: editorial
       reviewed: false
@@ -205,3 +207,10 @@ guide:
   compare:
     - art-deco
     - airbrush
+works:
+  - title: Stantec EVO
+    url: https://www.behance.net/gallery/182074753/Stantec-EVO
+    note: AIA Tampa Bay / Stantec, 2023. Completed development explicitly inspired by Streamline Moderne.
+  - title: The Normandie Hotel, San Juan
+    url: https://www.normandiehotelpr.com/
+    note: Félix Benítez Rexach, original architect; current hotel operator. Local liner-form reference.

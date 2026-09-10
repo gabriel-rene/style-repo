@@ -78,9 +78,10 @@ const base = import.meta.env.BASE_URL;
     <nav class="term-toc" aria-label="On this page">
       <a href="#recognize">How to recognize it</a>
       {term.summary && <a href="#context">Context & origins</a>}
-      <a href="#practice">In practice</a>
-      <a href="#formal">Visual characteristics</a>
-      <a href="#references">Sources & further reading</a>
+          <a href="#practice">In practice</a>
+          <a href="#formal">Visual characteristics</a>
+          {term.works?.length > 0 && <a href="#works">Contemporary references</a>}
+          <a href="#references">Sources & further reading</a>
       {comparisons.length > 0 && <a href="#related">Explore related styles</a>}
     </nav>
     <div class="term-content">
@@ -167,7 +168,7 @@ const base = import.meta.env.BASE_URL;
         </section>
       )}
       {Object.keys(relations).length > 0 && (
-        <section>
+        <section id="works">
           <h2>Recorded connections.</h2>
           {Object.entries(relations).map(([rel, rows]) => (
             <div>

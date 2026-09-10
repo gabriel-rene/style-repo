@@ -72,6 +72,8 @@ todo:
   - facets.lifecycle
   - images
 provenance:
+  works:
+    - source: user
   facets.formal_properties:
     - source: editorial
       reviewed: false
@@ -137,3 +139,10 @@ guide:
   compare:
     - art-deco
     - minimalism
+works:
+  - title: NIKE MODERN “PLAKATSTIL”
+    url: https://www.behance.net/gallery/118068151/NIKE-MODERN-PLAKATSTIL
+    note: A2X_ Design, 2021. Object isolation and negative-space product advertising.
+  - title: Plakatstil poster design
+    url: https://www.behance.net/gallery/170072391/Plakatstil-poster-design
+    note: Kaden Vela, 2023. Simplified commodity-poster study.

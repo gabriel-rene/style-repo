@@ -162,6 +162,8 @@ todo:
   - facets.lifecycle
   - facets.practitioners
 provenance:
+  works:
+    - source: user
   facets.formal_properties:
     - source: editorial
       reviewed: false
@@ -194,3 +196,13 @@ guide:
     - photocopier
     - dada
 featured_image: https://commons.wikimedia.org/wiki/File:Black_Flag_and_Meat_Puppets_Flyer.jpg
+works:
+  - title: Shibuya Punk Posters — Visual Series
+    url: https://www.behance.net/gallery/237542071/Shibuya-Punk-Posters-Visual-Series
+    note: Rafael Ribeiro de Michelli, 2025. Monochrome photography, halftone, and type collage.
+  - title: The Punk Look Series
+    url: https://www.behance.net/gallery/238295563/The-Punk-Look-Series
+    note: Leslie Daniell, 2025. Punk graphic language applied to book jackets.
+  - title: Punk
+    url: https://www.behance.net/gallery/220108337/Punk
+    note: David Petznick, 2025. Character-led punk treatment with motion variants.

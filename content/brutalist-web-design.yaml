@@ -61,6 +61,8 @@ todo:
   - images
 
 provenance:
+  works:
+    - source: user
   facets.formal_properties:
     - { source: editorial, reviewed: false }
   facets.ideological_stance:
@@ -85,3 +87,13 @@ guide:
   compare:
     - minimalism
     - postmodern-graphic-design
+works:
+  - title: Studio Brot
+    url: https://www.todaymade.com/blog/brutalist-web-design
+    note: Studio Brot, featured 2025. Bold interactive typography and raw web treatment.
+  - title: 56 Digital
+    url: https://elementor.com/blog/brutalism-in-web-design/
+    note: 56 Digital. Minimal portfolio structure with hover-revealed projects.
+  - title: Roze Bunker
+    url: https://reallygooddesigns.com/neo-brutalist-website-examples/
+    note: Roze Bunker, featured 2025. Contemporary neo-brutalist retail application.

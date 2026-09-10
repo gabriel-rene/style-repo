@@ -105,6 +105,8 @@ todo:
   - facets.lifecycle
   - facets.practitioners
 provenance:
+  works:
+    - source: user
   facets.formal_properties:
     - source: editorial
       reviewed: false
@@ -137,3 +139,10 @@ guide:
   compare:
     - pop-art
     - ukiyo-e
+works:
+  - title: Ikebana Murakami
+    url: https://www.behance.net/gallery/112042015/Ikebana-Murakami
+    note: Jon Buckley, ongoing series published 2021. Murakami’s Superflat flowers recontextualized as ikebana.
+  - title: Takashi Murakami — Japan Art Festival, Hanoi
+    url: https://gagosian.com/exhibitions/2025/takashi-murakami-japan-art-festival-hanoi/
+    note: Takashi Murakami / Gagosian, 2025. Current primary-artist exhibition context.

@@ -116,6 +116,8 @@ todo:
   - facets.lifecycle
   - facets.practitioners
 provenance:
+  works:
+    - source: user
   facets.formal_properties:
     - source: editorial
       reviewed: false
@@ -161,3 +163,13 @@ guide:
     - woodcut
     - art-nouveau
 featured_image: https://commons.wikimedia.org/wiki/File:Suzuki_Haronubu_oiran_ukiyo-e.jpg
+works:
+  - title: Yokai in the City — Ukiyo-e Billboards
+    url: https://www.behance.net/gallery/244155221/Yokai-in-the-City-Ukiyo-e-Billboards
+    note: shinjiro kimura, 2026. Ukiyo-e reconstructed for contemporary urban billboards.
+  - title: Ukiyo-e Packaging Prototype
+    url: https://www.behance.net/gallery/241837413/Ukiyo-e-Packaging-Prototype
+    note: shinjiro kimura, 2026. Ukiyo-e treated as a packaging system.
+  - title: Japanese-Inspired Fashion Illustrations
+    url: https://www.behance.net/gallery/233552069/Japanese-Inspired-Fashion-Illustrations
+    note: Anastasia Tkachuk, 2025. Ukiyo-e motifs mixed with current fashion illustration.

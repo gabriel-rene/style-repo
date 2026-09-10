@@ -263,6 +263,8 @@ todo:
   - facets.lineage
   - facets.lifecycle
 provenance:
+  works:
+    - source: user
   facets.formal_properties:
     - source: editorial
       reviewed: false
@@ -344,3 +346,10 @@ guide:
     - vienna-secession
     - arts-and-crafts
 featured_image: https://commons.wikimedia.org/wiki/File:BLW_Poster-_%27Victor_Bicycles%27.jpg
+works:
+  - title: ART NOUVEAU
+    url: https://www.behance.net/gallery/237607045/ART-NOUVEAU
+    note: Guillermo Turiel Ferrero, 2025. Modern, minimalist poster reinterpretation.
+  - title: Social Media Graphic — Art Nouveau
+    url: https://www.behance.net/gallery/216679621/Social-Media-Graphic-Art-Nouveau
+    note: Rosalie Gomez, 2025. Botanical Art Nouveau adapted for social media.

@@ -223,6 +223,8 @@ todo:
   - facets.lifecycle
   - facets.practitioners
 provenance:
+  works:
+    - source: user
   facets.formal_properties:
     - source: editorial
       reviewed: false
@@ -280,3 +282,10 @@ guide:
     - halftone
     - suprematism
 featured_image: https://commons.wikimedia.org/wiki/File:2016_Henrique_Matos_Optical_Motion_VII_02.jpg
+works:
+  - title: Op Art
+    url: https://www.behance.net/gallery/159204401/Op-Art
+    note: Max Drekker, 2022. High-contrast optical poster treatment.
+  - title: Typographic Posters
+    url: https://www.behance.net/gallery/11594575/Typographic-Posters
+    note: Manolo Guerrero, 2013–2015. Type, lines, pattern, and optical effects.

@@ -163,6 +163,8 @@ todo:
   - facets.lineage
   - facets.lifecycle
 provenance:
+  works:
+    - source: user
   facets.formal_properties:
     - source: editorial
       reviewed: false
@@ -234,3 +236,10 @@ guide:
   compare:
     - art-nouveau
     - op-art
+works:
+  - title: Afrodelic Dreamscape — Personal Project
+    url: https://www.behance.net/gallery/230866353/Afrodelic-Dreamscape-Personal-Project
+    note: Leandro Massai, 2025. Psychedelia fused with surrealism and Afrofuturism.
+  - title: ECHO | Rap Culture Catalyst | Immersive Music Branding
+    url: https://www.behance.net/gallery/221972877/ECHO-Rap-Culture-Catalyst-Immersive-Music-Branding
+    note: Mathis Olivencia, 2025. Adjacent reference for fluid forms and kinetic type.

@@ -230,6 +230,8 @@ todo:
   - facets.revival
 
 provenance:
+  works:
+    - source: user
   facets.formal_properties:
     - { source: editorial, reviewed: false }
   facets.ideological_stance:
@@ -301,3 +303,16 @@ guide:
     - new-typography
     - new-wave-typography
 featured_image: https://commons.wikimedia.org/wiki/File:1959_-_Kunsthalle_Basel_-_4_Bildhauer.jpg
+works:
+  - title: 50 Swiss Style Posters
+    url: https://www.behance.net/gallery/221014645/50-Swiss-Style-Posters
+    note: Anton Semjonov, 2025. High-volume contemporary poster reference.
+  - title: Swiss style posters
+    url: https://www.behance.net/gallery/216983667/Swiss-style-posters
+    note: Maria Holovachova, 2025. Explicit grid-construction study.
+  - title: Swiss Style Movie Poster
+    url: https://www.behance.net/gallery/225035539/Swiss-Style-Movie-Poster
+    note: Nessie S, 2025. Swiss composition adapted to entertainment key art.
+  - title: Swiss Style Typography Poster Design
+    url: https://www.behance.net/gallery/236571647/Swiss-Style-Typography-Poster-Design
+    note: Nayem Ur Rahman Shishir, 2025. Grid, hierarchy, negative space, and sans-serif type.

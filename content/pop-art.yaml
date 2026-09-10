@@ -245,6 +245,8 @@ todo:
   - facets.lifecycle
   - facets.practitioners
 provenance:
+  works:
+    - source: user
   facets.formal_properties:
     - source: editorial
       reviewed: false
@@ -285,3 +287,16 @@ guide:
   compare:
     - halftone
     - screen-printing
+works:
+  - title: “A.W” exhibition poster design, Pinelo Art Gallery
+    url: https://www.behance.net/gallery/226166075/AW-exhibition-poster-design-Pinelo-Art-Gallery
+    note: Beyza Yayla, 2025. Screen-print precedent fused with digital-pixel texture.
+  - title: "Retro Glamour: The Pop Art Sensation"
+    url: https://www.behance.net/gallery/221413277/Retro-Glamour-The-Pop-Art-Sensation
+    note: SwatiManish IraAarav, 2025. Contemporary comic-book glamour.
+  - title: Pop Art// Bold Comic Style Posters
+    url: https://www.behance.net/gallery/237255713/Pop-Art-Bold-Comic-Style-Tomato-Poster-
+    note: Romaisa Yasmeen, 2025. Object-led comic poster experiment.
+  - title: Retro Pop Art Abstract Posters Set
+    url: https://www.behance.net/gallery/233733943/Retro-Pop-Art-Abstract-Posters-Set
+    note: Darko Vujic, 2025. Geometric and portrait-led pop revival.

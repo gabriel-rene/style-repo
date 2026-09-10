@@ -180,6 +180,8 @@ todo:
   - facets.lifecycle
   - facets.practitioners
 provenance:
+  works:
+    - source: user
   facets.formal_properties:
     - source: editorial
       reviewed: false
@@ -211,3 +213,13 @@ guide:
   compare:
     - punk-graphics
     - photocopier
+works:
+  - title: Frayed Threadbare Fabric Textured Display Font
+    url: https://www.behance.net/gallery/233469779/Frayed-Threadbare-Fabric-Textured-Display-Font
+    note: Michelle Still, 2025. Distressed fabric-texture display type.
+  - title: Grunge Typography Zine
+    url: https://www.behance.net/gallery/121326077/Grunge-Typography-Zine
+    note: Kavinu Kankanange, 2021. Editorial use of scanned marks and rough texture.
+  - title: Shibuya Punk Posters — Visual Series
+    url: https://www.behance.net/gallery/237542071/Shibuya-Punk-Posters-Visual-Series
+    note: Rafael Ribeiro de Michelli, 2025. Halftone, noise, and experimental typography.

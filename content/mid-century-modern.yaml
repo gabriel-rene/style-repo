@@ -61,6 +61,8 @@ todo:
   - facets.practitioners
   - images
 provenance:
+  works:
+    - source: user
   facets.formal_properties:
     - source: editorial
       reviewed: false
@@ -87,3 +89,13 @@ guide:
   compare:
     - swiss-international-style
     - flat-design
+works:
+  - title: Arches of Armenia
+    url: https://www.behance.net/gallery/237570331/Arches-of-Armenia
+    note: Sona Vardanyan, 2025. Heritage posters using mid-century geometry.
+  - title: Website Design — Case Study Houses
+    url: https://www.behance.net/gallery/223651403/Website-Design-Case-Study-Houses
+    note: Olivia Rudschewski, 2025. Mid-century architectural logic translated to web.
+  - title: "MID CENTURY MODERN WHISKEY BOTTLE DESIGN: BE HUMAN"
+    url: https://www.behance.net/gallery/222095623/MID-CENTURY-MODERN-WHISKEY-BOTTLE-DESIGN-BE-HUMAN
+    note: Ruth Rohrer, 2025. Packaging and label application.

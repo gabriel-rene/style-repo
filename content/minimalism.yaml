@@ -98,6 +98,8 @@ todo:
   - facets.lifecycle
   - facets.practitioners
 provenance:
+  works:
+    - source: user
   facets.formal_properties:
     - source: editorial
       reviewed: false
@@ -129,3 +131,13 @@ guide:
   compare:
     - swiss-international-style
     - brutalist-web-design
+works:
+  - title: Kātde®
+    url: https://www.behance.net/gallery/225541809/Katde
+    note: Wessam Eltantawy, 2025. Warm, intentional contemporary minimalism.
+  - title: 30 DESIGN BOLD MINIMALISM
+    url: https://www.behance.net/gallery/221074571/30-DESIGN-BOLD-MINIMALISM
+    note: Oky Darmawan, 2025. Type-led concise compositions.
+  - title: Poster Series | Safe Place
+    url: https://www.behance.net/gallery/234486807/Poster-Series-Safe-Place
+    note: Anna Zlotina, 2025. Minimalism used for atmosphere and narrative.

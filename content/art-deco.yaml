@@ -240,6 +240,8 @@ todo:
   - facets.revival
 
 provenance:
+  works:
+    - source: user
   facets.formal_properties:
     - { source: editorial, reviewed: false }
   facets.ideological_stance:
@@ -315,3 +317,13 @@ guide:
   compare:
     - streamline-moderne
     - art-nouveau
+works:
+  - title: Conceptual Illustration Poster — Art Deco Style
+    url: https://www.behance.net/gallery/254507479/Conceptual-Illustration-Poster-Art-Deco-Style
+    note: Apurva Kabra, 2026. Contemporary cocktail-poster interpretation.
+  - title: Modern Art Deco Poster
+    url: https://www.behance.net/gallery/245461369/Modern-Art-Deco-Poster
+    note: Anna Elina S., 2026. Contemporary geometric editorial study.
+  - title: Art decó inspired POSTER SERIES
+    url: https://www.behance.net/gallery/234344283/Art-deco-inspired-POSTER-SERIES
+    note: Ainhoa Santana Rúa, 2025. Contemporary cultural-event poster series.

@@ -60,6 +60,8 @@ todo:
   - facets.practitioners
   - images
 provenance:
+  works:
+    - source: user
   facets.formal_properties:
     - source: editorial
       reviewed: false
@@ -86,3 +88,13 @@ guide:
   compare:
     - flat-design
     - ukiyo-e
+works:
+  - title: EUROSTAR — Together We Go Further
+    url: https://www.behance.net/gallery/202117961/EUROSTAR-Together-We-Go-Further
+    note: Felipe Portugal, Daniel Lopes, Max Andrade, Diego Sanchez, and The Mill, 2024.
+  - title: Campus Politics Illustration for The New York Times
+    url: https://www.behance.net/gallery/209792459/Campus-Politics-Illustration-for-The-New-York-Times
+    note: Allie Sullberg, 2024. Editorial clean-line illustration.
+  - title: Illustration for a Book cover in a ligne claire style
+    url: https://www.behance.net/gallery/214528653/Illustration-for-a-Book-cover-in-a-ligne-claire-style
+    note: Marina Giletich, 2024. Contemporary book-cover application.
