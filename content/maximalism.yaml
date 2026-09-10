@@ -49,6 +49,15 @@ facets:
     people: []
     studios: []
 images:
+  - file: null
+    remote_image: https://mir-s3-cdn-cf.behance.net/project_modules/1400/87973b241742037.695eb62ed111e.jpg
+    source_url: https://www.behance.net/gallery/241742037/MUCH-A-Visual-Exhibition-on-Maximalism
+    license: Copyright creator; no reuse license stated
+    attribution: Olya Bobyk, “MUCH — A Visual Exhibition on Maximalism,” via Behance
+    rights_status: restricted
+    caption: Contemporary maximalist poster and motion system, 2026.
+    depicts: null
+    review_status: approved
   - file: assets/maximalism/Neptunian_Maximalism_op_het_Valkhof_Festival_2022.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Neptunian_Maximalism_op_het_Valkhof_Festival_2022.jpg
     license: CC BY-SA 4.0

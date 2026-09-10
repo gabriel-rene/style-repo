@@ -48,7 +48,16 @@ facets:
   practitioners:
     people: []
     studios: []
-images: []
+images:
+  - file: null
+    remote_image: https://mir-s3-cdn-cf.behance.net/project_modules/1400/f7433d202117961.66903bc53e085.jpg
+    source_url: https://www.behance.net/gallery/202117961/EUROSTAR-Together-We-Go-Further
+    license: Copyright creators; no reuse license stated
+    attribution: Felipe Portugal, Daniel Lopes, Max Andrade, Diego Sanchez, and The Mill, “EUROSTAR — Together We Go Further,” via Behance
+    rights_status: restricted
+    caption: Contemporary Brussels animation concept art with a ligne claire homage, 2024.
+    depicts: null
+    review_status: approved
 todo:
   - names.variants
   - summary

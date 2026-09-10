@@ -71,6 +71,15 @@ facets:
         wikidata: null
     studios: []
 images:
+  - file: null
+    remote_image: https://mir-s3-cdn-cf.behance.net/project_modules/1400/a5fa8b237607045.6903b009d5148.png
+    source_url: https://www.behance.net/gallery/237607045/ART-NOUVEAU
+    license: Copyright creator; no reuse license stated
+    attribution: Guillermo Turiel Ferrero, “ART NOUVEAU,” via Behance
+    rights_status: restricted
+    caption: Contemporary Art Nouveau poster reinterpretation, 2025.
+    depicts: null
+    review_status: approved
   - file: assets/art-nouveau/BLW_Poster-_Victor_Bicycles_.jpg
     source_url: https://commons.wikimedia.org/wiki/File:BLW_Poster-_%27Victor_Bicycles%27.jpg
     license: CC BY-SA 2.0 uk
@@ -345,7 +354,7 @@ guide:
   compare:
     - vienna-secession
     - arts-and-crafts
-featured_image: https://commons.wikimedia.org/wiki/File:BLW_Poster-_%27Victor_Bicycles%27.jpg
+featured_image: https://www.behance.net/gallery/237607045/ART-NOUVEAU
 works:
   - title: ART NOUVEAU
     url: https://www.behance.net/gallery/237607045/ART-NOUVEAU

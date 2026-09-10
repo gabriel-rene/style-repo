@@ -71,6 +71,15 @@ facets:
     studios: []
 
 images:
+  - file: null
+    remote_image: https://mir-s3-cdn-cf.behance.net/project_modules/1400/e1c809221014645.67cd7a17e79d2.png
+    source_url: https://www.behance.net/gallery/221014645/50-Swiss-Style-Posters
+    license: Copyright creator; no reuse license stated
+    attribution: Anton Semjonov, “50 Swiss Style Posters,” via Behance
+    rights_status: restricted
+    caption: Contemporary Swiss-style poster series, 2025.
+    depicts: null
+    review_status: approved
   - file: assets/swiss-international-style/1959_-_Kunsthalle_Basel_-_4_Bildhauer.jpg
     source_url: https://commons.wikimedia.org/wiki/File:1959_-_Kunsthalle_Basel_-_4_Bildhauer.jpg
     license: Public domain
@@ -302,7 +311,7 @@ guide:
   compare:
     - new-typography
     - new-wave-typography
-featured_image: https://commons.wikimedia.org/wiki/File:1959_-_Kunsthalle_Basel_-_4_Bildhauer.jpg
+featured_image: https://www.behance.net/gallery/221014645/50-Swiss-Style-Posters
 works:
   - title: 50 Swiss Style Posters
     url: https://www.behance.net/gallery/221014645/50-Swiss-Style-Posters

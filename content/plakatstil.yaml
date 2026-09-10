@@ -65,7 +65,16 @@ facets:
       - name: Julius Gipkens
         wikidata: null
     studios: []
-images: []
+images:
+  - file: null
+    remote_image: https://mir-s3-cdn-cf.behance.net/project_modules/1400/bab7ac118068151.6081ab50339ed.jpg
+    source_url: https://www.behance.net/gallery/118068151/NIKE-MODERN-PLAKATSTIL
+    license: Copyright creator; no reuse license stated
+    attribution: A2X_ Design, “NIKE MODERN ‘PLAKATSTIL’,” via Behance
+    rights_status: restricted
+    caption: Contemporary Plakatstil product-advertising study, 2021.
+    depicts: null
+    review_status: approved
 todo:
   - external_ids
   - facets.lineage

@@ -49,6 +49,15 @@ facets:
     people: []
     studios: []
 images:
+  - file: null
+    remote_image: https://mir-s3-cdn-cf.behance.net/project_modules/1400/4323c0226166075.682a18da05a98.png
+    source_url: https://www.behance.net/gallery/226166075/AW-exhibition-poster-design-Pinelo-Art-Gallery
+    license: Copyright creator; no reuse license stated
+    attribution: Beyza Yayla, “A.W exhibition poster design, Pinelo Art Gallery,” via Behance
+    rights_status: restricted
+    caption: Contemporary Pop Art exhibition poster, 2025.
+    depicts: null
+    review_status: approved
   - file: assets/pop-art/GILL_James_519_Pink_Marilyn_2008_.jpg
     source_url: https://commons.wikimedia.org/wiki/File:GILL,_James,_519_Pink_Marilyn_(2008).jpg
     license: CC BY 3.0

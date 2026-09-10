@@ -70,6 +70,15 @@ facets:
         wikidata: null
     studios: []
 images:
+  - file: null
+    remote_image: https://mir-s3-cdn-cf.behance.net/project_modules/1400/617f7d230866353.687ee8545c744.png
+    source_url: https://www.behance.net/gallery/230866353/Afrodelic-Dreamscape-Personal-Project
+    license: Copyright creator; no reuse license stated
+    attribution: Leandro Massai, “Afrodelic Dreamscape — Personal Project,” via Behance
+    rights_status: restricted
+    caption: Contemporary psychedelic illustration with Afrofuturist influence, 2025.
+    depicts: null
+    review_status: approved
   - file: assets/psychedelic-art/Sun_Ra_Omniverse_Arkestra_1980-10-11_concert_poster_-_Old_Waldorf_San_Francisco_
     source_url: https://commons.wikimedia.org/wiki/File:Sun_Ra_Omniverse_Arkestra_(1980-10-11_concert_poster_-_Old_Waldorf,_San_Francisco).jpg
     license: Public domain

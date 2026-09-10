@@ -49,6 +49,15 @@ facets:
     people: []
     studios: []
 images:
+  - file: null
+    remote_image: https://mir-s3-cdn-cf.behance.net/project_modules/1400/9eb4e6233469779.68b01ae08fef5.jpg
+    source_url: https://www.behance.net/gallery/233469779/Frayed-Threadbare-Fabric-Textured-Display-Font
+    license: Copyright creator; no reuse license stated
+    attribution: Michelle Still, “Frayed Threadbare Fabric Textured Display Font,” via Behance
+    rights_status: restricted
+    caption: Distressed, fabric-texture display type, 2025.
+    depicts: null
+    review_status: approved
   - file: assets/grunge-typography/Vinje_Grunge_kyrkje_fr_s_r.JPG
     source_url: https://commons.wikimedia.org/wiki/File:Vinje,_Grunge_kyrkje_fr%C3%A5_s%C3%B8r.JPG
     license: CC BY-SA 3.0 no

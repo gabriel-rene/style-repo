@@ -65,7 +65,16 @@ facets:
       - name: Dan Friedman
         wikidata: null
     studios: []
-images: []
+images:
+  - file: null
+    remote_image: https://mir-s3-cdn-cf.behance.net/project_modules/1400/6b19d8236348861.68e9bf025d910.jpg
+    source_url: https://www.behance.net/gallery/236348861/Nouvelle-Vague-A-Typographic-Translation
+    license: Copyright creator; no reuse license stated
+    attribution: "Isabella Freeland, ‘Nouvelle Vague: A Typographic Translation,’ via Behance"
+    rights_status: restricted
+    caption: Experimental typographic editorial design, 2025.
+    depicts: null
+    review_status: approved
 todo:
   - external_ids
   - facets.lineage

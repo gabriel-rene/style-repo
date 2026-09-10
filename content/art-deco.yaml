@@ -69,6 +69,15 @@ facets:
     studios: []
 
 images:
+  - file: null
+    remote_image: https://mir-s3-cdn-cf.behance.net/project_modules/1400/b6fabd254507479.6a85941b21dbd.png
+    source_url: https://www.behance.net/gallery/254507479/Conceptual-Illustration-Poster-Art-Deco-Style
+    license: Copyright creator; no reuse license stated
+    attribution: Apurva Kabra, “Conceptual Illustration Poster — Art Deco Style,” via Behance
+    rights_status: restricted
+    caption: Contemporary Art Deco-style commercial illustration poster, 2026.
+    depicts: null
+    review_status: approved
   - file: assets/art-deco/Yvonne_Serruys_-_Douleur.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Yvonne_Serruys_-_Douleur.jpg
     license: CC0

@@ -49,7 +49,16 @@ facets:
   practitioners:
     people: []
     studios: []
-images: []
+images:
+  - file: null
+    remote_image: https://mir-s3-cdn-cf.behance.net/project_modules/1400/dce2cd237570331.69032c1d9ccf0.png
+    source_url: https://www.behance.net/gallery/237570331/Arches-of-Armenia
+    license: Copyright creator; no reuse license stated
+    attribution: Sona Vardanyan, “Arches of Armenia,” via Behance
+    rights_status: restricted
+    caption: Contemporary heritage poster series in a mid-century modern language, 2025.
+    depicts: null
+    review_status: approved
 todo:
   - names.variants
   - summary

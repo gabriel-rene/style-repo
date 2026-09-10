@@ -55,6 +55,15 @@ facets:
         wikidata: Q5294242
     studios: []
 images:
+  - file: null
+    remote_image: https://mir-s3-cdn-cf.behance.net/project_modules/1400/47201d182074753.6526f12b82a2f.jpg
+    source_url: https://www.behance.net/gallery/182074753/Stantec-EVO
+    license: Copyright creator; no reuse license stated
+    attribution: AIA Tampa Bay / Stantec, “Stantec EVO,” via Behance
+    rights_status: restricted
+    caption: Contemporary Streamline Moderne-inspired residential development, 2023.
+    depicts: null
+    review_status: approved
   - file: assets/streamline-moderne/Streamline_Moderne_on_Alvarado.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Streamline_Moderne_on_Alvarado.jpg
     license: CC BY-SA 3.0

@@ -58,6 +58,15 @@ facets:
     people: []
     studios: []
 images:
+  - file: null
+    remote_image: https://mir-s3-cdn-cf.behance.net/project_modules/hd/cd09d5244155221.699118921f8e9.png
+    source_url: https://www.behance.net/gallery/244155221/Yokai-in-the-City-Ukiyo-e-Billboards
+    license: Copyright creator; no reuse license stated
+    attribution: shinjiro kimura, “Yokai in the City — Ukiyo-e Billboards,” via Behance
+    rights_status: restricted
+    caption: Ukiyo-e visual language reactivated for contemporary urban billboards, 2026.
+    depicts: null
+    review_status: approved
   - file: assets/ukiyo-e/Ukiyo-e_dsc04679.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Ukiyo-e_dsc04679.jpg
     license: CC BY-SA 3.0
@@ -162,7 +171,7 @@ guide:
   compare:
     - woodcut
     - art-nouveau
-featured_image: https://commons.wikimedia.org/wiki/File:Suzuki_Haronubu_oiran_ukiyo-e.jpg
+featured_image: https://www.behance.net/gallery/244155221/Yokai-in-the-City-Ukiyo-e-Billboards
 works:
   - title: Yokai in the City — Ukiyo-e Billboards
     url: https://www.behance.net/gallery/244155221/Yokai-in-the-City-Ukiyo-e-Billboards

@@ -48,7 +48,16 @@ facets:
     people: [] # HARVEST-ONLY
     studios: []
 
-images: []
+images:
+  - file: null
+    remote_image: https://mir-s3-cdn-cf.behance.net/project_modules/1400/5f19e880842309.5ced2e9c4d239.jpg
+    source_url: https://www.behance.net/gallery/80842309/Gothenburg-Design-Festival-Website
+    license: Copyright creator; no reuse license stated
+    attribution: Hannes Ahremark, “Gothenburg Design Festival Website,” via Behance
+    rights_status: restricted
+    caption: Brutalist-influenced festival website, 2019.
+    depicts: null
+    review_status: approved
 
 todo:
   - names.variants

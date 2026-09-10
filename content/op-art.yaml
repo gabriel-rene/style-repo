@@ -64,6 +64,15 @@ facets:
     studios: []
 images:
   - file: null
+    remote_image: https://mir-s3-cdn-cf.behance.net/project_modules/hd/47558b159204401.6399d8cfe5520.png
+    source_url: https://www.behance.net/gallery/159204401/Op-Art
+    license: Copyright creator; no reuse license stated
+    attribution: Max Drekker, “Op Art,” via Behance
+    rights_status: restricted
+    caption: High-contrast contemporary optical poster treatment, 2022.
+    depicts: null
+    review_status: approved
+  - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2025PH9545/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O133328
     license: V&A non-commercial terms
@@ -281,7 +290,7 @@ guide:
   compare:
     - halftone
     - suprematism
-featured_image: https://commons.wikimedia.org/wiki/File:2016_Henrique_Matos_Optical_Motion_VII_02.jpg
+featured_image: https://www.behance.net/gallery/159204401/Op-Art
 works:
   - title: Op Art
     url: https://www.behance.net/gallery/159204401/Op-Art

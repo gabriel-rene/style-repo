@@ -50,6 +50,15 @@ facets:
     people: []
     studios: []
 images:
+  - file: null
+    remote_image: https://mir-s3-cdn-cf.behance.net/project_modules/1400/8cb1ec225541809.68a31c4601ff3.jpg
+    source_url: https://www.behance.net/gallery/225541809/Katde
+    license: Copyright creator; no reuse license stated
+    attribution: Wessam Eltantawy, “Kātde®,” via Behance
+    rights_status: restricted
+    caption: Warm contemporary minimalist home-decor identity, 2025.
+    depicts: null
+    review_status: approved
   - file: assets/minimalism/Minimalism_creative_svln4821.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Minimalism_creative_svln4821.jpg
     license: CC BY-SA 4.0

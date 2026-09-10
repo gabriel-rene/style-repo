@@ -49,6 +49,15 @@ facets:
     people: []
     studios: []
 images:
+  - file: null
+    remote_image: https://mir-s3-cdn-cf.behance.net/project_modules/hd/69a59d237542071.69027a98e9f68.png
+    source_url: https://www.behance.net/gallery/237542071/Shibuya-Punk-Posters-Visual-Series
+    license: Copyright creator; no reuse license stated
+    attribution: Rafael Ribeiro de Michelli, “Shibuya Punk Posters — Visual Series,” via Behance
+    rights_status: restricted
+    caption: Contemporary punk poster series with halftone and type collage, 2025.
+    depicts: null
+    review_status: approved
   - file: assets/punk-graphics/DieTotenHosen12-800-sw.jpg
     source_url: https://commons.wikimedia.org/wiki/File:DieTotenHosen12-800-sw.jpg
     license: CC BY-SA 3.0 de
@@ -195,7 +204,7 @@ guide:
   compare:
     - photocopier
     - dada
-featured_image: https://commons.wikimedia.org/wiki/File:Black_Flag_and_Meat_Puppets_Flyer.jpg
+featured_image: https://www.behance.net/gallery/237542071/Shibuya-Punk-Posters-Visual-Series
 works:
   - title: Shibuya Punk Posters — Visual Series
     url: https://www.behance.net/gallery/237542071/Shibuya-Punk-Posters-Visual-Series

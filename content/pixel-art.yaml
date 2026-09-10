@@ -49,6 +49,15 @@ facets:
     people: []
     studios: []
 images:
+  - file: null
+    remote_image: https://mir-s3-cdn-cf.behance.net/project_modules/1400/0ec5e7181135479.65168adde7a89.png
+    source_url: https://www.behance.net/gallery/181135479/Pixel-art-style-Branding-in-pixel-art-style
+    license: Copyright creator; no reuse license stated
+    attribution: Yulia Mityukova, “Pixel art style / Branding in pixel art style,” via Behance
+    rights_status: restricted
+    caption: Pixel-art identity across character, logo, and app, 2023.
+    depicts: null
+    review_status: approved
   - file: assets/pixel-art/Pixel_Art_Background.png
     source_url: https://commons.wikimedia.org/wiki/File:Pixel_Art_Background.png
     license: CC BY-SA 4.0
@@ -242,7 +251,7 @@ guide:
   compare:
     - glitch-art
     - flat-design
-featured_image: https://commons.wikimedia.org/wiki/File:Landscape_pixel_art.png
+featured_image: https://www.behance.net/gallery/181135479/Pixel-art-style-Branding-in-pixel-art-style
 works:
   - title: Pixel art style / Branding in pixel art style
     url: https://www.behance.net/gallery/181135479/Pixel-art-style-Branding-in-pixel-art-style

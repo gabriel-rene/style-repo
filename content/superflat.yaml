@@ -49,6 +49,15 @@ facets:
     people: []
     studios: []
 images:
+  - file: null
+    remote_image: https://mir-s3-cdn-cf.behance.net/project_modules/hd/c714ff112042015.600d78ad2b4ce.jpg
+    source_url: https://www.behance.net/gallery/112042015/Ikebana-Murakami
+    license: Copyright creator; no reuse license stated
+    attribution: Jon Buckley, “Ikebana Murakami,” via Behance
+    rights_status: restricted
+    caption: Superflat flowers recontextualized within contemporary ikebana, 2021.
+    depicts: null
+    review_status: approved
   - file: assets/superflat/Sunshine_and_moon_Caron_Bowman_painting_.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Sunshine_and_moon_(Caron_Bowman_painting).jpg
     license: CC BY-SA 3.0
