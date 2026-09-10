@@ -1,6 +1,6 @@
 id: superflat
 term_type: style
-status: stub
+status: draft
 names:
   primary: Superflat
   variants: []
@@ -56,6 +56,7 @@ images:
     rights_status: open
     caption: Sunshine and Moon by Caron Bowman, 40x60, Pastel, w:SoFlo Superflat image
     depicts: null
+    review_status: pending
   - file: assets/superflat/Battery_Wearable_Computing_06_.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Battery_Wearable_Computing_(06).jpg
     license: CC0
@@ -65,6 +66,7 @@ images:
       power wearable computing devices, manufactured by GREPOW Battery Co.,
       Ltd.[1], shown at Wearable Technologies Conference 2014 in Munich, Germany
     depicts: null
+    review_status: pending
   - file: assets/superflat/Orbiter_500_3.0_superflat_teaser.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Orbiter_500_3.0_superflat_teaser.jpg
     license: CC BY-SA 4.0
@@ -72,6 +74,7 @@ images:
     rights_status: open
     caption: Orbiter 500 3.0 superflat
     depicts: null
+    review_status: pending
   - file: assets/superflat/Artist_Takashi_Murakami_with_early_works_at_Galerie_Mars_in_Tokyo_1992._Photogra
     source_url: https://commons.wikimedia.org/wiki/File:Artist_Takashi_Murakami_with_early_works_at_Galerie_Mars_in_Tokyo_1992._Photographed_by_Ithaka_Darin_Pappas_A.jpg
     license: CC BY-SA 4.0
@@ -81,6 +84,7 @@ images:
       birthday, with some of his early works at Galerie Mars in Shibuya-Ku,Tokyo
       1992. Photo by Ithaka Darin Pappas
     depicts: null
+    review_status: pending
   - file: assets/superflat/Takashi_Murakami_at_Galerie_Mars_Tokyo_1992._Photo_by_Ithaka_Darin_Pappas.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Takashi_Murakami_at_Galerie_Mars_Tokyo_1992._Photo_by_Ithaka_Darin_Pappas.jpg
     license: CC BY-SA 4.0
@@ -90,6 +94,7 @@ images:
       birthday, Feburary 1st 1992, at Galerie Mars in Shibuya-Ku,Tokyo 1992.
       Photographed (with some of his early works) by Ithaka Darin Pappas
     depicts: null
+    review_status: pending
 todo:
   - names.variants
   - summary
@@ -114,3 +119,21 @@ provenance:
       url: https://commons.wikimedia.org/w/index.php?search=Superflat
       accessed: 2026-08-23
       note: "query: Superflat"
+  guide:
+    - source: editorial
+      reviewed: false
+      note: Visual interpretation and practical design guidance; not a historical
+        attribution.
+guide:
+  dek: Flattened space and crisply bounded forms place characters, pattern and
+    surface on a shared plane.
+  signature:
+    - Shallow pictorial space
+    - Crisp contours
+    - Dense surface pattern
+  application: Explore flatness through figure-ground relationships, not just
+    absent shadows.
+  caution: The term describes a specific cultural framework as well as a visual effect.
+  compare:
+    - pop-art
+    - ukiyo-e

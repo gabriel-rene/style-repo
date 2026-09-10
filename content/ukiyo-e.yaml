@@ -1,6 +1,6 @@
 id: ukiyo-e
 term_type: style
-status: stub
+status: draft
 names:
   primary: Ukiyo-e
   variants:
@@ -65,6 +65,7 @@ images:
     rights_status: open
     caption: Ukiyo-e workshop, Tsukuba, Japan
     depicts: null
+    review_status: pending
   - file: assets/ukiyo-e/Ukiyo-e_dsc04680.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Ukiyo-e_dsc04680.jpg
     license: CC BY-SA 3.0
@@ -72,6 +73,7 @@ images:
     rights_status: open
     caption: Ukiyo-e workshop, Tsukuba, Japan
     depicts: null
+    review_status: pending
   - file: assets/ukiyo-e/Suzuki_Haronubu_oiran_ukiyo-e.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Suzuki_Haronubu_oiran_ukiyo-e.jpg
     license: Public domain
@@ -79,6 +81,7 @@ images:
     rights_status: open
     caption: null
     depicts: null
+    review_status: approved
   - file: assets/ukiyo-e/Ukiyo-e_dragon.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Ukiyo-e_dragon.jpg
     license: Public domain
@@ -86,6 +89,7 @@ images:
     rights_status: open
     caption: Japanese dragon, Ukiyo-e print
     depicts: null
+    review_status: pending
   - file: assets/ukiyo-e/Ukiyo-e_dragon_2.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Ukiyo-e_dragon_2.jpg
     license: Public domain
@@ -93,6 +97,7 @@ images:
     rights_status: open
     caption: Japanese dragon, Ukiyo-e print
     depicts: null
+    review_status: pending
   - file: assets/ukiyo-e/Children_Exploring_an_Elephant_Ukiyo-e_ca._1875_.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Children_Exploring_an_Elephant_(Ukiyo-e,_ca._1875).jpg
     license: Public domain
@@ -102,6 +107,7 @@ images:
       under, and around an enormous elephant. Illustration in "Omacha-e,
       kodomo-e, harimazechō", ca. 1875.
     depicts: null
+    review_status: pending
 todo:
   - external_ids
   - facets.era.periods
@@ -137,3 +143,21 @@ provenance:
       url: https://commons.wikimedia.org/w/index.php?search=ukiyo-e%20print
       accessed: 2026-08-23
       note: "query: ukiyo-e print"
+  guide:
+    - source: editorial
+      reviewed: false
+      note: Visual interpretation and practical design guidance; not a historical
+        attribution.
+guide:
+  dek: Clear contour, patterned surfaces and cropped compositions create a strong
+    relationship between figure and surrounding space.
+  signature:
+    - Flat color areas
+    - Asymmetrical cropping
+    - Patterned textiles and landscapes
+  application: Study the organization of the whole print before borrowing a motif.
+  caution: Treat prints as specific cultural works, not a generic decorative resource.
+  compare:
+    - woodcut
+    - art-nouveau
+featured_image: https://commons.wikimedia.org/wiki/File:Suzuki_Haronubu_oiran_ukiyo-e.jpg

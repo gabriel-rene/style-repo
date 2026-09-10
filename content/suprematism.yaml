@@ -1,6 +1,6 @@
 id: suprematism
 term_type: movement
-status: stub
+status: draft
 names:
   primary: Suprematism
   variants: []
@@ -55,6 +55,7 @@ images:
     rights_status: open
     caption: null
     depicts: null
+    review_status: pending
   - file: assets/suprematism/1924-25_Chashnik_Suprematismus_anagoria.JPG
     source_url: https://commons.wikimedia.org/wiki/File:1924-25_Chashnik_Suprematismus_anagoria.JPG
     license: Public domain
@@ -62,6 +63,7 @@ images:
     rights_status: open
     caption: null
     depicts: null
+    review_status: pending
   - file: assets/suprematism/Suprematism_Rozanova_1916_.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Suprematism_(Rozanova,_1916).jpg
     license: Public domain
@@ -69,6 +71,7 @@ images:
     rights_status: open
     caption: null
     depicts: null
+    review_status: pending
   - file: assets/suprematism/Suprematism_-_Abstract_Composition_Malevich_1915_.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Suprematism_-_Abstract_Composition_(Malevich,_1915).jpg
     license: Public domain
@@ -76,6 +79,7 @@ images:
     rights_status: open
     caption: null
     depicts: null
+    review_status: approved
   - file: assets/suprematism/Suprematism_Rozanova_1916_1.jpeg
     source_url: https://commons.wikimedia.org/wiki/File:Suprematism_(Rozanova,_1916)_1.jpeg
     license: Public domain
@@ -83,6 +87,7 @@ images:
     rights_status: open
     caption: null
     depicts: null
+    review_status: pending
   - file: assets/suprematism/Suprematism_Kliun_1915_16_.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Suprematism_(Kliun,_1915,_16).jpg
     license: Public domain
@@ -90,6 +95,7 @@ images:
     rights_status: open
     caption: null
     depicts: null
+    review_status: pending
 todo:
   - names.variants
   - summary
@@ -114,3 +120,21 @@ provenance:
       url: https://commons.wikimedia.org/w/index.php?search=Suprematism
       accessed: 2026-08-23
       note: "query: Suprematism"
+  guide:
+    - source: editorial
+      reviewed: false
+      note: Visual interpretation and practical design guidance; not a historical
+        attribution.
+guide:
+  dek: Elementary geometric forms float in open space, with balance produced
+    through position, angle and scale.
+  signature:
+    - Isolated geometry
+    - Large empty fields
+    - Weightless arrangements
+  application: Use spacing and relative scale as the main expressive material.
+  caution: Geometric similarity does not establish historical membership or influence.
+  compare:
+    - de-stijl
+    - constructivism
+featured_image: https://commons.wikimedia.org/wiki/File:Suprematism_-_Abstract_Composition_(Malevich,_1915).jpg

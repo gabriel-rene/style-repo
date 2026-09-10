@@ -1,6 +1,6 @@
 id: new-typography
 term_type: movement
-status: stub
+status: draft
 names:
   primary: New Typography
   variants: []
@@ -69,3 +69,20 @@ provenance:
   facets.commercial_context:
     - source: editorial
       reviewed: false
+  guide:
+    - source: editorial
+      reviewed: false
+      note: Visual interpretation and practical design guidance; not a historical
+        attribution.
+guide:
+  dek: Asymmetry, directional relationships and clear typographic contrast
+    organize the page around communication.
+  signature:
+    - Flush-left text
+    - Sans-serif hierarchy
+    - Active white space
+  application: Build hierarchy from alignment, size and weight before adding decoration.
+  caution: Do not mistake a single sans-serif face for an entire typographic system.
+  compare:
+    - bauhaus
+    - swiss-international-style

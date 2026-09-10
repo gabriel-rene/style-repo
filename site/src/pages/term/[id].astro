@@ -1,165 +1,308 @@
 ---
-import Base from '../../layouts/Base.astro';
-import { loadAll, relationsFor, imageSrc, eraSpan, related } from '../../lib/data.js';
-
+import Base from "../../layouts/Base.astro";
+import TermCard from "../../components/TermCard.astro";
+import {
+  loadAll,
+  relationsFor,
+  imageSrc,
+  eraSpan,
+  displayImages,
+  sourcesFor,
+  typeLabel,
+  description,
+} from "../../lib/data.js";
 export function getStaticPaths() {
-  return loadAll().terms.map((t) => ({ params: { id: t.id }, props: { term: t } }));
+  return loadAll().terms.map((term) => ({
+    params: { id: term.id },
+    props: { term },
+  }));
 }
-
 const { term } = Astro.props;
 const { byId } = loadAll();
-const rels = relationsFor(term.id);
 const span = eraSpan(term);
-const formal = term.facets?.formal_properties ?? term.facets?.formal_consequences ?? null;
-const formalLabel = term.facets?.formal_properties ? 'Formal properties' : 'Formal consequences';
-const lc = term.facets?.lifecycle ?? null;
-const near = related(term.id)
-  .map((r) => ({ ...r, term: byId.get(r.id) }))
-  .filter((r) => r.term);
-
-const REL_LABEL = {
-  parents: 'descends from',
-  parent_of: 'ancestor of',
-  influences: 'influences',
-  influenced: 'influenced by',
-  reacted_against: 'reacted against',
-  reacted_against_by: 'reacted against by',
-  revival_of: 'revival of',
-  revived_by: 'revived by',
-  uses_apparatus: 'uses apparatus',
-  apparatus_used_by: 'apparatus used by',
-  uses_technique: 'uses technique',
-  technique_used_by: 'technique used by',
+const formal =
+  term.facets?.formal_properties ?? term.facets?.formal_consequences;
+const images = displayImages(term);
+const sources = sourcesFor(term);
+const comparisons = (term.guide?.compare ?? [])
+  .map((id) => byId.get(id))
+  .filter(Boolean);
+const relations = relationsFor(term.id);
+const labels = {
+  parents: "Descends from",
+  parent_of: "Ancestor of",
+  influences: "Influences",
+  influenced: "Influenced by",
+  reacted_against: "Reacted against",
+  reacted_against_by: "Reacted against by",
+  revival_of: "Revival of",
+  revived_by: "Revived by",
+  uses_apparatus: "Uses apparatus",
+  apparatus_used_by: "Apparatus used by",
+  uses_technique: "Uses technique",
+  technique_used_by: "Technique used by",
 };
-
-const name = (id) => byId.get(id)?.names?.primary ?? id;
-
-// Provenance is a top-level map keyed by dotted field path.
-const prov = (path) => term.provenance?.[path] ?? [];
-const eraProv = prov('facets.era.periods').filter((p) => p.url);
-const formalProv = prov(term.facets?.formal_properties ? 'facets.formal_properties' : 'facets.formal_consequences');
-const formalEditorial = formalProv.some((p) => p.source === 'editorial' && p.reviewed === false);
+const noteSources = sources.some((s) => s.source === "research-note");
 ---
-<Base title={term.names?.primary ?? term.id} current="">
-  <div class="term-head">
-    <h1>{term.names?.primary ?? term.id}</h1>
-    <span class="chip">{term.term_type}</span>
-    {(term.secondary_types ?? []).map((s) => <span class="chip">{s}</span>)}
-    <span class="chip">{term.status}</span>
-    {lc?.state && <span class="chip accent">lifecycle: {lc.state}</span>}
-  </div>
 
-  <div class="term-cols">
-    <div>
-      <section>
-        {term.summary
-          ? <p>{term.summary}</p>
-          : <p><span class="todo-slot">summary TODO: not yet harvested or authored</span></p>}
+<Base title={term.names.primary} description={description(term)}>
+  <a class="back-link" href="/#library">
+    ← Back to the index
+  </a>
+  <header class="term-heading">
+    <div class="term-meta">
+      <span>{typeLabel(term.term_type)}</span>
+      {span?.start && (
+        <span>
+          {span.periods.some((p) => p.approximate) ? "c. " : ""}
+          {span.start}
+          {span.end ? `–${span.end}` : ""}
+        </span>
+      )}
+      <span>{term.summary ? "Research overview" : "Visual guide"}</span>
+      <button class="save-button" data-save={term.id} aria-pressed="false">
+        Save +
+      </button>
+    </div>
+    <h1>
+      {term.names.primary}
+      <span class="red-period">.</span>
+    </h1>
+    <p class="term-intro">{description(term)}</p>
+    {term.names.variants?.length > 0 && (
+      <p class="meta">Also known as {term.names.variants.join(", ")}</p>
+    )}
+  </header>
+  <div class="term-body">
+    <nav class="term-toc" aria-label="On this page">
+      <a href="#recognize">How to recognize it</a>
+      {term.summary && <a href="#context">Context & origins</a>}
+      <a href="#practice">In practice</a>
+      <a href="#formal">Visual characteristics</a>
+      <a href="#references">Sources & further reading</a>
+      {comparisons.length > 0 && <a href="#related">Explore related styles</a>}
+    </nav>
+    <div class="term-content">
+      <section id="recognize">
+        <h2>How to recognize it.</h2>
+        <ol class="signature-list">
+          {(term.guide?.signature ?? []).map((s) => (
+            <li>{s}</li>
+          ))}
+        </ol>
       </section>
-
-      <section>
-        <h2>Era</h2>
-        {span ? (
-          <table>
-            <thead><tr><th>Label</th><th>Role</th><th>Years</th><th>Source</th></tr></thead>
-            <tbody>
-              {span.periods.map((p) => (
-                <tr>
-                  <td>{p.label}</td>
-                  <td class="value">{p.role ?? ''}</td>
-                  <td class="value">{p.start_year ?? '?'}{'-'}{p.end_year ?? ''}</td>
-                  <td class="value">
-                    {eraProv.length
-                      ? eraProv.map((s) => (
-                          <a href={s.url}>{s.source}{s.property ? ` ${s.property}` : ''}, accessed {s.accessed}</a>
-                        ))
-                      : <span class="todo-slot">no source recorded</span>}
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        ) : (
-          <p><span class="todo-slot">no dated period yet. A sourced date must be harvested first.</span></p>
-        )}
-      </section>
-
-      <section>
-        <h2>Connections</h2>
-        {Object.keys(rels).length ? (
-          <table>
-            <tbody>
-              {Object.entries(rels).map(([rel, rows]) => (
-                <tr>
-                  <th>{REL_LABEL[rel] ?? rel}</th>
-                  <td>
-                    {rows.map((r) => (
-                      <a class="chip" href={`/term/${r.to}/`}>
-                        {name(r.to)}{r.inferred ? ' *' : ''}
-                      </a>
-                    ))}
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        ) : (
-          <p><span class="todo-slot">no recorded connections yet</span></p>
-        )}
-        <p class="meta">Links with * are computed reverse links, not stored claims.</p>
-      </section>
-
-      {near.length > 0 && (
-        <section>
-          <h2>Reads like</h2>
-          <p class="meta">Nearest terms by text similarity of what is on file. Not a historical claim.</p>
-          <p>{near.map((r) => <a class="chip" href={`/term/${r.id}/`}>{name(r.id)}</a>)}</p>
+      {term.summary && (
+        <section id="context">
+          <h2>Context & origins.</h2>
+          <p>{term.summary}</p>
+          <dl class="fact-pairs">
+            {span?.periods.map((p) => (
+              <div>
+                <dt>{p.label}</dt>
+                <dd>
+                  {p.approximate ? "c. " : ""}
+                  {p.start_year ?? "Unknown"}
+                  {p.end_year ? `–${p.end_year}` : " (end not recorded)"}
+                </dd>
+              </div>
+            ))}
+            {term.facets?.geography?.origin_places?.length > 0 && (
+              <div>
+                <dt>Geographic context</dt>
+                <dd>
+                  {term.facets.geography.origin_places
+                    .map((p) => p.label)
+                    .join("; ")}
+                </dd>
+              </div>
+            )}
+          </dl>
+          {term.facets?.practitioners?.people?.length > 0 && (
+            <>
+              <h3>People to explore</h3>
+              <p>
+                {term.facets.practitioners.people
+                  .map((p) => p.name)
+                  .join(" · ")}
+              </p>
+            </>
+          )}
+          {noteSources && (
+            <p class="reference-note">
+              Historical context draws on the supplied research. Approximate
+              periods are reference ranges, not fixed boundaries. See the source
+              notes below.
+            </p>
+          )}
         </section>
       )}
-    </div>
-
-    <div>
+      <section id="practice">
+        <h2>In practice.</h2>
+        <p>{term.guide?.application}</p>
+        <h3>What to watch for</h3>
+        <p>{term.guide?.caution}</p>
+        <p class="meta">
+          These are editorial design observations, not rules for classifying
+          every work.
+        </p>
+      </section>
       {formal && (
-        <section>
-          <h2>{formalLabel}</h2>
-          {formalEditorial && <p class="meta">Editorial reading, not yet reviewed.</p>}
-          <table>
-            <tbody>
-              {Object.entries(formal).map(([k, v]) => (
-                <tr>
-                  <th>{k.replaceAll('_', ' ')}</th>
-                  <td class="value">{typeof v === 'object' && v ? `${v.descriptor}${v.note ? ` (${v.note})` : ''}` : String(v)}</td>
-                </tr>
+        <section id="formal">
+          <h2>Visual characteristics.</h2>
+          <dl class="formal-grid">
+            {Object.entries(formal)
+              .filter(([, v]) => v !== null)
+              .map(([k, v]) => (
+                <div>
+                  <dt>{k.replaceAll("_", " ")}</dt>
+                  <dd>
+                    {String(
+                      typeof v === "object" ? v.descriptor : v,
+                    ).replaceAll("-", " ")}
+                  </dd>
+                </div>
               ))}
-              {term.facets?.ideological_stance && (
-                <tr><th>stance</th><td class="value">{term.facets.ideological_stance}</td></tr>
-              )}
-            </tbody>
-          </table>
+          </dl>
         </section>
       )}
-
-      <section>
-        <h2>Images</h2>
-        {(term.images ?? []).length ? (
-          term.images.map((img) => {
-            const src = imageSrc(img);
-            return src ? (
-              <figure>
-                <img src={src} alt={img.caption ?? term.names?.primary ?? term.id} loading="lazy" />
-                <figcaption>
-                  {img.caption && <span>{img.caption}. </span>}
-                  {img.attribution}. {img.license}.
-                  {' '}<a href={img.source_url}>source</a>
-                  {img.rights_status === 'restricted' && <span> · shown from the source, not stored here</span>}
-                </figcaption>
-              </figure>
-            ) : null;
-          })
+      {Object.keys(relations).length > 0 && (
+        <section>
+          <h2>Recorded connections.</h2>
+          {Object.entries(relations).map(([rel, rows]) => (
+            <div>
+              <p class="meta">{labels[rel] ?? rel}</p>
+              {rows.map((r) => (
+                <a class="chip" href={`/term/${r.to}/`}>
+                  {byId.get(r.to)?.names.primary}
+                  {r.inferred ? " *" : ""}
+                </a>
+              ))}
+            </div>
+          ))}
+          <p class="meta">* Computed reverse connection.</p>
+        </section>
+      )}
+      {term.works?.length > 0 && (
+        <section>
+          <h2>Works to study.</h2>
+          <ul class="source-list">
+            {term.works.map((w) => (
+              <li>
+                <a href={w.url}>{w.title} ↗</a>
+                <small>{w.note}</small>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+      <section id="references">
+        <h2>Sources & further reading.</h2>
+        {sources.length ? (
+          <ol class="source-list">
+            {sources.map((s) => (
+              <li>
+                <a href={s.url}>
+                  {s.source === "research-note"
+                    ? "Supplied research: Graphic Design Movements 1850–2000"
+                    : s.source.replaceAll("-", " ")}{" "}
+                  ↗
+                </a>
+                {s.note && <small>{s.note}</small>}
+                {s.accessed && <small>Consulted {s.accessed}</small>}
+              </li>
+            ))}
+          </ol>
         ) : (
-          <p><span class="todo-slot">no images harvested yet</span></p>
+          <p class="reference-note">
+            This entry currently offers an editorial visual guide. Historical
+            dates, origins and attributions are omitted until supported by a
+            recorded source.
+          </p>
         )}
+        <a class="meta" href="/about/">
+          Read our approach to sources and image selection ↗
+        </a>
       </section>
     </div>
+    <aside class="term-visual">
+      {images.length > 0 ? (
+        <>
+          <div class="image-toolbar">
+            <span>Selected reference</span>
+            <label>
+              <input type="checkbox" id="image-color" checked />
+              Original color
+            </label>
+          </div>
+          {images.map((img) => (
+            <figure>
+              <a href={img.source_url}>
+                <img
+                  src={imageSrc(img)}
+                  alt={img.caption ?? term.names.primary}
+                  loading="lazy"
+                  width="700"
+                  height="800"
+                />
+              </a>
+              <figcaption>
+                {img.caption && (
+                  <span>
+                    {img.caption}
+                    <br />
+                  </span>
+                )}
+                {img.attribution}
+                <br />
+                {img.license}. <a href={img.source_url}>View source ↗</a>
+                {img.rights_status === "restricted" && (
+                  <span> Image served by the collection.</span>
+                )}
+              </figcaption>
+            </figure>
+          ))}
+        </>
+      ) : (
+        <div class="reference-note">
+          <strong>Read the visual guide</strong>
+          <p class="image-note">
+            An approved representative image is not yet available. The written
+            characteristics offer a starting point for comparison.
+          </p>
+        </div>
+      )}
+      <p class="image-note">
+        Selected for relevance. Source credits describe the individual object;
+        they do not establish it as a canonical example of every characteristic.
+      </p>
+    </aside>
   </div>
+  {comparisons.length > 0 && (
+    <section id="related" class="related-section">
+      <div class="library-heading">
+        <h2>Look alongside.</h2>
+        <a href={`/compare/?left=${term.id}&right=${comparisons[0].id}`}>
+          Compare side by side ↗
+        </a>
+      </div>
+      <p class="meta">
+        Editorial comparisons to help distinguish visual qualities. These are
+        not claims of historical influence.
+      </p>
+      <div class="grid">
+        {comparisons.map((t) => (
+          <TermCard term={t} />
+        ))}
+      </div>
+    </section>
+  )}
+  <script>
+    document
+      .querySelector<HTMLInputElement>("#image-color")
+      ?.addEventListener("change", (e) =>
+        document
+          .querySelector(".term-visual")
+          ?.classList.toggle("mono", !(e.target as HTMLInputElement).checked),
+      );
+  </script>
 </Base>

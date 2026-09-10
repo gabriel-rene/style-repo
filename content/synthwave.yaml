@@ -1,6 +1,6 @@
 id: synthwave
 term_type: aesthetic
-status: stub
+status: draft
 names:
   primary: Synthwave
   variants: []
@@ -64,6 +64,7 @@ images:
       ships, it's owned by A/S Thor Dahl Ltd, in Sandefjord, Norway, but in
       about electornic future music which is are synthwave.
     depicts: null
+    review_status: pending
   - file: assets/synthwave/Synthwave_cyberspace_sunset_low_res_.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Synthwave_cyberspace_sunset_(low_res).jpg
     license: CC BY-SA 3.0
@@ -75,6 +76,7 @@ images:
       cc by 3.0 Ducky 3D channel - youtube.com/channel/UCuNh... Social: Official
       Website: '
     depicts: null
+    review_status: approved
   - file: assets/synthwave/Synthwave_Edit_creative_commons_test.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Synthwave_Edit_creative_commons_test.jpg
     license: CC0
@@ -83,6 +85,7 @@ images:
     caption: A synthwave style image with a purple wave, the word "synthwave" and
       colorful lines above
     depicts: null
+    review_status: pending
 todo:
   - names.variants
   - summary
@@ -125,3 +128,22 @@ provenance:
       url: https://commons.wikimedia.org/w/index.php?search=synthwave
       accessed: 2026-08-23
       note: "query: synthwave"
+  guide:
+    - source: editorial
+      reviewed: false
+      note: Visual interpretation and practical design guidance; not a historical
+        attribution.
+guide:
+  dek: Luminous horizons, reflective surfaces and receding grids build a stylized
+    electronic atmosphere.
+  signature:
+    - Neon-like edges
+    - Horizon gradients
+    - Perspective grids
+  application: Choose a single lighting logic and protect text contrast.
+  caution: A grid and a sunset can become a cliché without a specific
+    compositional idea.
+  compare:
+    - cyberpunk-aesthetic
+    - vaporwave
+featured_image: https://commons.wikimedia.org/wiki/File:Synthwave_cyberspace_sunset_(low_res).jpg

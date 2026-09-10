@@ -28,7 +28,8 @@ function textOf(t) {
   walk(t.names);
   if (t.summary) parts.push(t.summary);
   walk(t.facets);
-  for (const img of t.images ?? []) if (img.caption) parts.push(img.caption);
+  walk(t.guide);
+  for (const img of t.images ?? []) if (img.review_status === 'approved' && img.caption) parts.push(img.caption);
   return parts.join(' ').toLowerCase();
 }
 

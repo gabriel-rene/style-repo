@@ -1,19 +1,33 @@
 id: swiss-international-style
 term_type: style
-status: stub
+status: draft
 names:
   primary: Swiss International Style
-  variants: [] # TODO: harvest (known alternates exist)
-summary: null # TODO
+  variants:
+    - International Typographic Style
+    - Swiss Style
+summary: The International Typographic Style places typography, alignment and
+  carefully structured space at the center of graphic communication. Its
+  familiar vocabulary includes asymmetrical grids, sans-serif type and direct
+  photography. Zurich and Basel approaches were not identical, and the entry
+  treats Swiss design as a set of connected practices rather than a universal
+  formula. # TODO
 external_ids:
   getty_aat: null # TODO
   wikidata: null # TODO
 
 facets:
   era:
-    periods: [] # TODO: harvest
+    periods:
+      - label: Approximate active period
+        role: active
+        start_year: 1950
+        end_year: 1979
+        approximate: true
   geography:
-    origin_places: [] # TODO: harvest
+    origin_places:
+      - label: Zurich and Basel, Switzerland
+        wikidata: null
     spread: []
   lineage:
     parents: [] # TODO: harvest
@@ -43,7 +57,17 @@ facets:
     first_observed: null
     review_due: null
   practitioners:
-    people: [] # HARVEST-ONLY
+    people:
+      - name: Josef Müller-Brockmann
+        wikidata: null
+      - name: Armin Hofmann
+        wikidata: null
+      - name: Emil Ruder
+        wikidata: null
+      - name: Max Bill
+        wikidata: null
+      - name: Karl Gerstner
+        wikidata: null
     studios: []
 
 images:
@@ -56,6 +80,7 @@ images:
       Aeschbacher, Max Bill, Walter Linck, Robert Müller. Poster design by Armin
       Hofmann."
     depicts: null
+    review_status: approved
   - file: assets/swiss-international-style/CH-NB_Poster_Collection_SNL_TOUR_2238.jpg
     source_url: https://commons.wikimedia.org/wiki/File:CH-NB_Poster_Collection_SNL_TOUR_2238.jpg
     license: Public domain
@@ -71,6 +96,7 @@ images:
     rights_status: open
     caption: Swissair, DC-6B, das modernste Flugzeug nach New York / G. Keller
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2010EB0013/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O1155283
@@ -81,6 +107,7 @@ images:
     rights_status: restricted
     caption: Kunsthalle Basel Kunstkredit 76-77, 1977, Switzerland
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2006AP7010/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O77549
@@ -90,6 +117,7 @@ images:
     rights_status: restricted
     caption: Plate, ca. 1855, Stoke-on-Trent
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2022NC8368/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O1663932
@@ -101,6 +129,7 @@ images:
     rights_status: restricted
     caption: Week of World Solidarity with the peoples of Asia, c. 1970, Cuba
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2010CT5648/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O344824
@@ -110,6 +139,7 @@ images:
     rights_status: restricted
     caption: Vase, ca. 1877, Thun
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2007BP3506/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O60303
@@ -120,6 +150,7 @@ images:
     rights_status: restricted
     caption: Panelling, ca. 1900, Strasbourg
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2006AL8267/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O58757
@@ -129,6 +160,7 @@ images:
     rights_status: restricted
     caption: Cabinet, 1550-1580, South Germany
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2007BM9016/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O134386
@@ -139,6 +171,7 @@ images:
     rights_status: restricted
     caption: Classical Figures, 1770s, Britain
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2010EA2513/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O282012
@@ -148,6 +181,7 @@ images:
     rights_status: restricted
     caption: Plate, ca. 1878, Thun
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2010CT5139/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O345117
@@ -157,6 +191,7 @@ images:
     rights_status: restricted
     caption: Jug, ca. 1878, Thun
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2010EA3135/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O345116
@@ -166,6 +201,7 @@ images:
     rights_status: restricted
     caption: Jug, ca. 1878, Thun
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2010EA2552/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O337295
@@ -175,6 +211,7 @@ images:
     rights_status: restricted
     caption: Vase, ca. 1878, Thun
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2010EA2514/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O279873
@@ -184,17 +221,13 @@ images:
     rights_status: restricted
     caption: Plate, 1878, Thun
     depicts: null
+    review_status: pending
 
 todo:
-  - names.variants
-  - summary
   - external_ids
-  - facets.era.periods
-  - facets.geography
   - facets.lineage
   - facets.production.techniques
   - facets.revival
-  - facets.practitioners
 
 provenance:
   facets.formal_properties:
@@ -214,3 +247,57 @@ provenance:
       url: https://api.vam.ac.uk/v2/objects/search?images_exist=1&page_size=20&q=Swiss%20International%20Style
       accessed: 2026-08-23
       note: "query: Swiss International Style"
+  guide:
+    - source: editorial
+      reviewed: false
+      note: Visual interpretation and practical design guidance; not a historical
+        attribution.
+  summary:
+    - source: research-note
+      url: https://docs.google.com/document/d/1KK3Jpu_uVfU7CJ3WykzY8IU8bvWV7SM_SAPWmRy1joc/edit
+      accessed: 2026-09-09
+      note: Adapted from user-supplied Graphic Design Movements 1850-2000. Period
+        bounds are approximate contextual ranges; not independently verified in
+        every case.
+  facets.era.periods:
+    - source: research-note
+      url: https://docs.google.com/document/d/1KK3Jpu_uVfU7CJ3WykzY8IU8bvWV7SM_SAPWmRy1joc/edit
+      accessed: 2026-09-09
+      note: Adapted from user-supplied Graphic Design Movements 1850-2000. Period
+        bounds are approximate contextual ranges; not independently verified in
+        every case.
+  facets.geography.origin_places:
+    - source: research-note
+      url: https://docs.google.com/document/d/1KK3Jpu_uVfU7CJ3WykzY8IU8bvWV7SM_SAPWmRy1joc/edit
+      accessed: 2026-09-09
+      note: Adapted from user-supplied Graphic Design Movements 1850-2000. Period
+        bounds are approximate contextual ranges; not independently verified in
+        every case.
+  facets.practitioners.people:
+    - source: research-note
+      url: https://docs.google.com/document/d/1KK3Jpu_uVfU7CJ3WykzY8IU8bvWV7SM_SAPWmRy1joc/edit
+      accessed: 2026-09-09
+      note: Adapted from user-supplied Graphic Design Movements 1850-2000. Period
+        bounds are approximate contextual ranges; not independently verified in
+        every case.
+  names.variants:
+    - source: research-note
+      url: https://docs.google.com/document/d/1KK3Jpu_uVfU7CJ3WykzY8IU8bvWV7SM_SAPWmRy1joc/edit
+      accessed: 2026-09-09
+      note: Adapted from user-supplied Graphic Design Movements 1850-2000. Period
+        bounds are approximate contextual ranges; not independently verified in
+        every case.
+guide:
+  dek: A precise grid, asymmetrical balance and economical typography give complex
+    information a clear visual order.
+  signature:
+    - Modular alignment
+    - Flush-left sans-serif type
+    - Restrained color and strong contrast
+  application: Build a hierarchy with size, weight and space before introducing an accent.
+  caution: Swiss design contains distinct approaches; avoid presenting one rigid
+    recipe as universal.
+  compare:
+    - new-typography
+    - new-wave-typography
+featured_image: https://commons.wikimedia.org/wiki/File:1959_-_Kunsthalle_Basel_-_4_Bildhauer.jpg

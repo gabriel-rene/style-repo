@@ -1,23 +1,30 @@
 id: de-stijl
 term_type: movement
-status: stub
+status: draft
 names:
   primary: De Stijl
   variants:
     - Stijl, De
-summary: Refers to the Dutch artistic movement and periodical of the same name,
-  founded by Theo Van Doesenburg in 1917 and lasting until the early 1930s.  The
-  movement advocated the use of pure abstract form to express the universal in
-  art.  De Stijl theories formed the basis for the art style known as
-  Neo-Plasticism.
+summary: De Stijl connected geometric abstraction with a search for a wider
+  order in art and daily life. Graphic work associated with the journal uses
+  strong horizontal and vertical relationships, modular lettering and reduced
+  color. Neoplasticism and Elementarism are related positions rather than exact
+  interchangeable names for the entire movement.
 external_ids:
   getty_aat: aat:300021259
   wikidata: null
 facets:
   era:
-    periods: []
+    periods:
+      - label: Approximate active period
+        role: active
+        start_year: 1917
+        end_year: 1931
+        approximate: true
   geography:
-    origin_places: []
+    origin_places:
+      - label: The Netherlands
+        wikidata: null
     spread: []
   lineage:
     parents: []
@@ -51,7 +58,17 @@ facets:
     first_observed: null
     review_due: null
   practitioners:
-    people: []
+    people:
+      - name: Theo van Doesburg
+        wikidata: null
+      - name: Piet Mondrian
+        wikidata: null
+      - name: Vilmos Huszár
+        wikidata: null
+      - name: Bart van der Leck
+        wikidata: null
+      - name: Gerrit Rietveld
+        wikidata: null
     studios: []
 images:
   - file: assets/de-stijl/Stijl_vol_04_nr_08_p_124.jpg
@@ -62,6 +79,7 @@ images:
     caption: "Manifest III. Zur neuen weltgestaltung [1]. From / afkomstig uit De
       Stijl, vol. 4, nr. 8 (August 1921): p. 124."
     depicts: null
+    review_status: pending
   - file: assets/de-stijl/Stijl_vol_04_nr_08_p_125.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Stijl_vol_04_nr_08_p_125.jpg
     license: Public domain
@@ -70,6 +88,7 @@ images:
     caption: "Manifest III. Zur neuen weltgestaltung [2]. From / afkomstig uit De
       Stijl, vol. 4, nr. 8 (August 1921): p. 125."
     depicts: null
+    review_status: pending
   - file: assets/de-stijl/Stijl_vol_07_nr_79-84_front_cover.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Stijl_vol_07_nr_79-84_front_cover.jpg
     license: Public domain
@@ -78,6 +97,7 @@ images:
     rights_status: open
     caption: Front cover of the Tenth Anniversary issue of De Stijl, vol. 7, nr. 79/84.
     depicts: null
+    review_status: approved
   - file: assets/de-stijl/De_Stijl_-_vierde_jaargang_1921_001.jpg
     source_url: https://commons.wikimedia.org/wiki/File:De_Stijl_-_vierde_jaargang_1921_001.jpg
     license: Public domain
@@ -85,6 +105,7 @@ images:
     rights_status: open
     caption: Tijdschrift "De Stijl", vierde jaargang 1921
     depicts: null
+    review_status: pending
   - file: assets/de-stijl/Stijl_vol_05_nr_08_front_cover.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Stijl_vol_05_nr_08_front_cover.jpg
     license: Public domain
@@ -92,6 +113,7 @@ images:
     rights_status: open
     caption: De Stijl, 5e jaargang, nummer 4.
     depicts: null
+    review_status: pending
   - file: assets/de-stijl/Stijl_vol_03_nr_08_p_070.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Stijl_vol_03_nr_08_p_070.jpg
     license: Public domain
@@ -99,6 +121,7 @@ images:
     rights_status: open
     caption: De Stijl, jaargang 3, nummer 8, p. 70.
     depicts: null
+    review_status: pending
   - file: assets/de-stijl/Alkmaar_-_Wilhelminalaan_-_Villa_De_Lange_1917_by_Jan_Wils_member_of_De_Stijl_18
     source_url: https://commons.wikimedia.org/wiki/File:Alkmaar_-_Wilhelminalaan_-_Villa_De_Lange_1917_by_Jan_Wils_(member_of_%27De_Stijl%27)_1891-1972.jpg
     license: CC BY-SA 4.0
@@ -107,6 +130,7 @@ images:
     caption: Alkmaar - Wilhelminalaan - Villa De Lange 1917 by Jan Wils (member of
       'De Stijl') 1891-1972
     depicts: null
+    review_status: pending
   - file: assets/de-stijl/Typography_for_De_Stijl_volumes_1_to_3_by_Theo_van_Doesburg_Centraal_Museum_AB49
     source_url: https://commons.wikimedia.org/wiki/File:Typography_for_De_Stijl_volumes_1_to_3_by_Theo_van_Doesburg_Centraal_Museum_AB4943.jpg
     license: Public domain
@@ -114,6 +138,7 @@ images:
     rights_status: open
     caption: null
     depicts: null
+    review_status: pending
   - file: assets/de-stijl/Linen_Binder_for_De_Stijl_by_Theo_van_Doesburg_Centraal_Museum_AB5947.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Linen_Binder_for_De_Stijl_by_Theo_van_Doesburg_Centraal_Museum_AB5947.jpg
     license: Public domain
@@ -121,6 +146,7 @@ images:
     rights_status: open
     caption: null
     depicts: null
+    review_status: pending
   - file: assets/de-stijl/Stijl_vol_01_nr_12_p_150.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Stijl_vol_01_nr_12_p_150.jpg
     license: Public domain
@@ -128,6 +154,7 @@ images:
     rights_status: open
     caption: De Stijl, oktober 1918.
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2023NJ5519/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O89395
@@ -138,6 +165,7 @@ images:
     rights_status: restricted
     caption: Bolderwagen, 1918, Netherlands
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2019MB3220/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O198683
@@ -148,6 +176,7 @@ images:
     rights_status: restricted
     caption: Rietveld Schröder House, 2002, England
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2009CR7306/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O166699
@@ -158,6 +187,7 @@ images:
     rights_status: restricted
     caption: High chair, 1920, Netherlands
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2006AU9915/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O58657
@@ -168,6 +198,7 @@ images:
     rights_status: restricted
     caption: Wooden armchair, 1922, Weimar
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2006AR0437/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O58654
@@ -177,6 +208,7 @@ images:
     rights_status: restricted
     caption: Armchair, 1918, Utrecht
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2006BC0682/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O64543
@@ -187,6 +219,7 @@ images:
     rights_status: restricted
     caption: Putting Hills in Holland, 2001, Netherlands
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://www.moma.org/media/W1siZiIsIjUyMDg5MiJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=e1c177d9b5f148cc
     source_url: https://www.moma.org/collection/works/5955
@@ -199,6 +232,7 @@ images:
     caption: De Stijl. The Israel Museum, Jerusalem. March 29-May 31, 1977. 1977.
       Offset lithograph
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://www.moma.org/media/W1siZiIsIjUzMDgwOCJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=ab6befc6100540ee
     source_url: https://www.moma.org/collection/works/7893
@@ -209,6 +243,7 @@ images:
     rights_status: restricted
     caption: De Stijl. 1917. Offset lithograph
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://www.moma.org/media/W1siZiIsIjUzMDgwOSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=3cb2c8d76c02fdd4
     source_url: https://www.moma.org/collection/works/7899
@@ -219,6 +254,7 @@ images:
     rights_status: restricted
     caption: De Stijl NB 73/74. 1926. Letterpress
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://www.moma.org/media/W1siZiIsIjM0Njg4NiJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=eb23f12c11ad7aa8
     source_url: https://www.moma.org/collection/works/198747
@@ -232,6 +268,7 @@ images:
     caption: De Stijl NB letterhead (Handwritten list of names and addresses).
       1920s. Letterpress
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://www.moma.org/media/W1siZiIsIjM0NjM3NCJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=ced9b50e3a8caf72
     source_url: https://www.moma.org/collection/works/198748
@@ -244,6 +281,7 @@ images:
     rights_status: restricted
     caption: De Stijl NB stationery postcard (Addressed to Del Marle). 1927. Letterpress
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://www.moma.org/media/W1siZiIsIjM0NjQwOCJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=c7498c09212bdfd5
     source_url: https://www.moma.org/collection/works/198749
@@ -257,13 +295,11 @@ images:
     caption: De Stijl NB stationery envelope (Addressed to Jean Badovici). 1925.
       Letterpress
     depicts: null
+    review_status: pending
 todo:
   - external_ids
-  - facets.era.periods
-  - facets.geography
   - facets.lineage
   - facets.lifecycle
-  - facets.practitioners
 provenance:
   facets.formal_properties:
     - source: editorial
@@ -280,9 +316,12 @@ provenance:
       accessed: 2026-08-23
       method: exact-label-match
   summary:
-    - source: getty-aat
-      url: https://vocab.getty.edu/aat/300021259
-      accessed: 2026-08-23
+    - source: research-note
+      url: https://docs.google.com/document/d/1KK3Jpu_uVfU7CJ3WykzY8IU8bvWV7SM_SAPWmRy1joc/edit
+      accessed: 2026-09-09
+      note: Adapted from user-supplied Graphic Design Movements 1850-2000. Period
+        bounds are approximate contextual ranges; not independently verified in
+        every case.
   names.variants:
     - source: getty-aat
       url: https://vocab.getty.edu/aat/300021259
@@ -300,3 +339,43 @@ provenance:
       url: https://github.com/MuseumofModernArt/collection
       accessed: 2026-08-23
       note: "title contains: de stijl"
+  guide:
+    - source: editorial
+      reviewed: false
+      note: Visual interpretation and practical design guidance; not a historical
+        attribution.
+  facets.era.periods:
+    - source: research-note
+      url: https://docs.google.com/document/d/1KK3Jpu_uVfU7CJ3WykzY8IU8bvWV7SM_SAPWmRy1joc/edit
+      accessed: 2026-09-09
+      note: Adapted from user-supplied Graphic Design Movements 1850-2000. Period
+        bounds are approximate contextual ranges; not independently verified in
+        every case.
+  facets.geography.origin_places:
+    - source: research-note
+      url: https://docs.google.com/document/d/1KK3Jpu_uVfU7CJ3WykzY8IU8bvWV7SM_SAPWmRy1joc/edit
+      accessed: 2026-09-09
+      note: Adapted from user-supplied Graphic Design Movements 1850-2000. Period
+        bounds are approximate contextual ranges; not independently verified in
+        every case.
+  facets.practitioners.people:
+    - source: research-note
+      url: https://docs.google.com/document/d/1KK3Jpu_uVfU7CJ3WykzY8IU8bvWV7SM_SAPWmRy1joc/edit
+      accessed: 2026-09-09
+      note: Adapted from user-supplied Graphic Design Movements 1850-2000. Period
+        bounds are approximate contextual ranges; not independently verified in
+        every case.
+guide:
+  dek: Horizontal and vertical relationships organize flat geometric fields into
+    an asymmetrical equilibrium.
+  signature:
+    - Orthogonal divisions
+    - Primary-color relationships
+    - Modular lettering
+  application: Balance unequal areas rather than centering every element.
+  caution: A fixed rectangular template misses the tension between positive and
+    negative space.
+  compare:
+    - bauhaus
+    - suprematism
+featured_image: https://commons.wikimedia.org/wiki/File:Stijl_vol_07_nr_79-84_front_cover.jpg

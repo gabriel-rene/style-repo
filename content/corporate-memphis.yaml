@@ -1,6 +1,6 @@
 id: corporate-memphis
 term_type: aesthetic
-status: stub
+status: draft
 names:
   primary: Corporate Memphis
   variants: []
@@ -42,7 +42,7 @@ facets:
     status: null
     revivals: []
   lifecycle:
-    state: saturated
+    state: null
     first_observed: null
     review_due: null
   practitioners:
@@ -59,6 +59,7 @@ images:
       moltes crítiques per la seva despersonalització i omissió de símbols
       nacionals.
     depicts: null
+    review_status: pending
   - file: assets/corporate-memphis/Corporate_Memphis_2019_.png
     source_url: https://commons.wikimedia.org/wiki/File:Corporate_Memphis_(2019).png
     license: CC BY 4.0
@@ -66,6 +67,7 @@ images:
     rights_status: open
     caption: Illustration in the Corporate Memphis style
     depicts: null
+    review_status: approved
 todo:
   - names.variants
   - summary
@@ -99,3 +101,21 @@ provenance:
       url: https://commons.wikimedia.org/w/index.php?search=corporate%20memphis%20illustration
       accessed: 2026-08-23
       note: "query: corporate memphis illustration"
+  guide:
+    - source: editorial
+      reviewed: false
+      note: Visual interpretation and practical design guidance; not a historical
+        attribution.
+guide:
+  dek: Simplified figures and large flat shapes create friendly, approachable
+    scenes with little surface detail.
+  signature:
+    - Exaggerated proportions
+    - Flat color fields
+    - Geometric environments
+  application: Give gestures and relationships a specific meaning for the message.
+  caution: Generic characters can make unrelated brands look interchangeable.
+  compare:
+    - flat-design
+    - memphis
+featured_image: https://commons.wikimedia.org/wiki/File:Corporate_Memphis_(2019).png

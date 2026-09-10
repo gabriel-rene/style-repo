@@ -1,6 +1,6 @@
 id: ligne-claire
 term_type: style
-status: stub
+status: draft
 names:
   primary: Ligne claire
   variants: []
@@ -69,3 +69,20 @@ provenance:
   facets.commercial_context:
     - source: editorial
       reviewed: false
+  guide:
+    - source: editorial
+      reviewed: false
+      note: Visual interpretation and practical design guidance; not a historical
+        attribution.
+guide:
+  dek: Even outlines and clean color areas keep figures and environments equally
+    readable.
+  signature:
+    - Consistent contour weight
+    - Flat color
+    - Precise environmental detail
+  application: Use clear silhouettes and avoid unnecessary shading.
+  caution: Simple outlines still require careful perspective and composition.
+  compare:
+    - flat-design
+    - ukiyo-e

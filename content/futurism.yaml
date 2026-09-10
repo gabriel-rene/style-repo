@@ -1,18 +1,29 @@
 id: futurism
 term_type: movement
-status: stub
+status: draft
 names:
   primary: Futurism
   variants: []
-summary: null
+summary: Futurist graphic work explored speed, sound and mechanical energy
+  through unconventional typography. Words and letters became pictorial
+  material, interrupting ordinary syntax and reading order. Its formal
+  experimentation must be understood alongside the movement’s militarism and the
+  political commitments of individual practitioners.
 external_ids:
   getty_aat: null
   wikidata: null
 facets:
   era:
-    periods: []
+    periods:
+      - label: Approximate active period
+        role: active
+        start_year: 1909
+        end_year: 1929
+        approximate: true
   geography:
-    origin_places: []
+    origin_places:
+      - label: Italy
+        wikidata: null
     spread: []
   lineage:
     parents: []
@@ -46,7 +57,13 @@ facets:
     first_observed: null
     review_due: null
   practitioners:
-    people: []
+    people:
+      - name: Filippo Tommaso Marinetti
+        wikidata: null
+      - name: Fortunato Depero
+        wikidata: null
+      - name: Umberto Boccioni
+        wikidata: null
     studios: []
 images:
   - file: assets/futurism/Orpheu_group_-_Fernando_Pessoa_1915_-_Almada_Negreiros_April_7_1893_June_15_1970
@@ -61,6 +78,7 @@ images:
       Modern Collection, Lisbon, Portugal Inv. : GP1005 ORPHEU Orpheu: “O
       primeiro grito moderno"
     depicts: null
+    review_status: pending
   - file: assets/futurism/Composition_1917_-_Liubova_Popova_1889-1924_45056449312_.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Composition_(1917)_-_Liubova_Popova_(1889-1924)_(45056449312).jpg
     license: CC BY 2.0
@@ -73,6 +91,7 @@ images:
       born in Ivanovskoe, near Moscow, to the wealthy family of Sergei
       Maximovich Popov, a very s"
     depicts: null
+    review_status: pending
   - file: assets/futurism/1990s_Marine_Corps_recruitment_poster_with_a_touch_of_retro-futurism.jpg
     source_url: https://commons.wikimedia.org/wiki/File:1990s_Marine_Corps_recruitment_poster_with_a_touch_of_retro-futurism.jpg
     license: Public domain
@@ -80,15 +99,11 @@ images:
     rights_status: open
     caption: 1990s Marine Corps recruitment poster with a touch of retro-futurism.
     depicts: null
+    review_status: pending
 todo:
-  - names.variants
-  - summary
   - external_ids
-  - facets.era.periods
-  - facets.geography
   - facets.lineage
   - facets.lifecycle
-  - facets.practitioners
 provenance:
   facets.formal_properties:
     - source: editorial
@@ -104,3 +119,49 @@ provenance:
       url: https://commons.wikimedia.org/w/index.php?search=Futurism%20poster
       accessed: 2026-08-23
       note: "query: Futurism poster"
+  guide:
+    - source: editorial
+      reviewed: false
+      note: Visual interpretation and practical design guidance; not a historical
+        attribution.
+  summary:
+    - source: research-note
+      url: https://docs.google.com/document/d/1KK3Jpu_uVfU7CJ3WykzY8IU8bvWV7SM_SAPWmRy1joc/edit
+      accessed: 2026-09-09
+      note: Adapted from user-supplied Graphic Design Movements 1850-2000. Period
+        bounds are approximate contextual ranges; not independently verified in
+        every case.
+  facets.era.periods:
+    - source: research-note
+      url: https://docs.google.com/document/d/1KK3Jpu_uVfU7CJ3WykzY8IU8bvWV7SM_SAPWmRy1joc/edit
+      accessed: 2026-09-09
+      note: Adapted from user-supplied Graphic Design Movements 1850-2000. Period
+        bounds are approximate contextual ranges; not independently verified in
+        every case.
+  facets.geography.origin_places:
+    - source: research-note
+      url: https://docs.google.com/document/d/1KK3Jpu_uVfU7CJ3WykzY8IU8bvWV7SM_SAPWmRy1joc/edit
+      accessed: 2026-09-09
+      note: Adapted from user-supplied Graphic Design Movements 1850-2000. Period
+        bounds are approximate contextual ranges; not independently verified in
+        every case.
+  facets.practitioners.people:
+    - source: research-note
+      url: https://docs.google.com/document/d/1KK3Jpu_uVfU7CJ3WykzY8IU8bvWV7SM_SAPWmRy1joc/edit
+      accessed: 2026-09-09
+      note: Adapted from user-supplied Graphic Design Movements 1850-2000. Period
+        bounds are approximate contextual ranges; not independently verified in
+        every case.
+guide:
+  dek: Explosive typography and competing directional forces turn text into a
+    visual expression of motion.
+  signature:
+    - Mixed type scales
+    - Diagonal movement
+    - Words acting as images
+  application: Use disrupted reading order for a deliberate expressive passage.
+  caution: Preserve a clear route to essential information when adapting it to
+    interfaces.
+  compare:
+    - dada
+    - new-wave-typography

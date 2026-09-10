@@ -1,6 +1,6 @@
 id: y2k-aesthetic
 term_type: aesthetic
-status: stub
+status: draft
 names:
   primary: Y2K aesthetic
   variants: []
@@ -73,3 +73,22 @@ provenance:
   facets.lifecycle.state:
     - source: editorial
       reviewed: false
+  guide:
+    - source: editorial
+      reviewed: false
+      note: Visual interpretation and practical design guidance; not a historical
+        attribution.
+guide:
+  dek: Glossy surfaces, synthetic forms and compact digital typography evoke an
+    imagined technological future.
+  signature:
+    - Metallic effects
+    - Translucent plastics
+    - Rounded digital forms
+  application: Choose between glossy futurism and utilitarian interface references
+    before combining them.
+  caution: The label covers multiple visual tendencies rather than one consistent
+    system.
+  compare:
+    - frutiger-aero
+    - cyberpunk-aesthetic

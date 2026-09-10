@@ -1,6 +1,6 @@
 id: etching
 term_type: technique
-status: stub
+status: draft
 names:
   primary: Etching
   variants: []
@@ -55,6 +55,7 @@ images:
       left edge and lower right edge, repaired tears in left corners, corners
       thin. With Funck
     depicts: null
+    review_status: approved
   - file: assets/etching/Schneider_Postrum_Fischhaus_Trier.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Schneider_Postrum_Fischhaus_Trier.jpg
     license: Public domain
@@ -65,6 +66,7 @@ images:
       Trier, St.-Barbara-Ufer, size: 25.7 cm x 14.5 cm, size of the entire
       sheet: 27.0 cm x 37.3 cm'
     depicts: null
+    review_status: pending
   - file: assets/etching/Michael_E._Arth_Mt._Tamalpais_Etching_1981.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Michael_E._Arth,_%22Mt._Tamalpais,%22_Etching,_1981.jpg
     license: CC BY-SA 4.0
@@ -74,6 +76,7 @@ images:
       Arth, 19-¾" x 26-⅝" (50 x 67.7 cm) 1981. The license only applies to this
       low resolution version.'
     depicts: null
+    review_status: pending
   - file: assets/etching/Michael_E._Arth_detail_of_etching_Mt._Tamalpais_1981.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Michael_E._Arth,_detail_of_etching_%22Mt._Tamalpais,%22_1981.jpg
     license: CC BY-SA 4.0
@@ -83,6 +86,7 @@ images:
       Tamalpais, done at Atelier 63 on Rue de la Guerre, Paris, France. I used a
       copper plate.
     depicts: null
+    review_status: pending
   - file: assets/etching/Dry_etching_test_strucutres.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Dry_etching_test_strucutres.jpg
     license: CC BY 4.0
@@ -92,6 +96,7 @@ images:
       (ICP-DRIE) in silicon. The picture depicts a test structure that was used
       to test several process parameters.
     depicts: null
+    review_status: pending
   - file: assets/etching/Amsterdam_-_Rijksmuseum_-_Late_Rembrandt_Exposition_2015_-_The_Entombment_Etchin
     source_url: https://commons.wikimedia.org/wiki/File:Amsterdam_-_Rijksmuseum_-_Late_Rembrandt_Exposition_2015_-_The_Entombment_Etching_1654.png
     license: CC BY-SA 4.0
@@ -100,6 +105,7 @@ images:
     caption: Amsterdam - Rijksmuseum - Late Rembrandt Exposition 2015 - The
       Entombment Etching 1654 - RAW Developing by DxO Photolab 4
     depicts: null
+    review_status: pending
   - file: assets/etching/Musselburgh_Bridge_Edinburgh.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Musselburgh_Bridge,_Edinburgh.jpg
     license: CC0
@@ -107,6 +113,7 @@ images:
     rights_status: open
     caption: Etching of Musselburgh Bridge, Edinburgh
     depicts: null
+    review_status: pending
   - file: assets/etching/Il_lavoro.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Il_lavoro.jpg
     license: Public domain
@@ -115,6 +122,7 @@ images:
     caption: "etching of mm. 185 x 258 from the Jolanda and Angelo Dragone Graphic
       Arts Collection - Location: R. - AG. - folder 3/155"
     depicts: null
+    review_status: pending
   - file: assets/etching/Vue_de_Domo_d_Ossola.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Vue_de_Domo_d%27Ossola.jpg
     license: Public domain
@@ -123,6 +131,7 @@ images:
     caption: "Etching - mm. 117 x 196 From: A. Martin, La Suisse pittoresque et ses
       environs [...], Paris 1835 Location: Prints - 80"
     depicts: null
+    review_status: pending
   - file: assets/etching/La_rupe.jpg
     source_url: https://commons.wikimedia.org/wiki/File:La_rupe.jpg
     license: Public domain
@@ -131,6 +140,7 @@ images:
     caption: "Etching, cm. 36, 4 X 27.5 from the Jolanda and Angelo Dragone Graphic
       Arts Collection - Location: R.- AG. Folder 2/101"
     depicts: null
+    review_status: pending
   - file: assets/etching/In_Morocco_Harold_Herbert_Etching_15.0_x_15.0_cm.jpg
     source_url: https://commons.wikimedia.org/wiki/File:In_Morocco_Harold_Herbert_Etching_15.0_x_15.0_cm.jpg
     license: Public domain
@@ -139,6 +149,7 @@ images:
     caption: Harold Herbert (1922) In Morocco, Etching 15.0 x 15.0 cm, courtesy
       Castlemaine Art Museum
     depicts: null
+    review_status: pending
   - file: assets/etching/Fran_ois_Victor_Foveau_de_Courmelles._Etching_by_G._Poynot.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois_Victor_Foveau_de_Courmelles._Etching_by_G._Poynot.jpg
     license: Public domain
@@ -149,6 +160,7 @@ images:
       &amp; scientists in the Wellcome Institute, London 1973, no. 1023.1
       Wellcome Library no.
     depicts: null
+    review_status: pending
 todo:
   - names.variants
   - summary
@@ -170,3 +182,21 @@ provenance:
       url: https://commons.wikimedia.org/w/index.php?search=etching
       accessed: 2026-08-23
       note: "query: etching"
+  guide:
+    - source: editorial
+      reviewed: false
+      note: Visual interpretation and practical design guidance; not a historical
+        attribution.
+guide:
+  dek: Fine incised lines and layered hatching build tone through a dense, tactile
+    drawing surface.
+  signature:
+    - Delicate linework
+    - Crosshatching
+    - Plate-like edges
+  application: Reserve fine detail for reproduction sizes that can sustain it.
+  caution: Do not confuse an etched visual effect with a verified printing process.
+  compare:
+    - woodcut
+    - linocut
+featured_image: https://commons.wikimedia.org/wiki/File:The_Soldier_and_his_Wife.jpg

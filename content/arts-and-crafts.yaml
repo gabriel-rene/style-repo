@@ -1,18 +1,30 @@
 id: arts-and-crafts
 term_type: movement
-status: stub
+status: draft
 names:
   primary: Arts and Crafts
-  variants: []
-summary: null
+  variants:
+    - Arts and Crafts movement
+summary: Arts and Crafts placed the quality of materials, making and the
+  integrated page at the center of design. In book production, the movement
+  encouraged close relationships between type, illustration, ornament and paper.
+  Its critique of industrial manufacture should be distinguished from the many
+  later designs that borrow its decorative vocabulary.
 external_ids:
   getty_aat: null
   wikidata: null
 facets:
   era:
-    periods: []
+    periods:
+      - label: Approximate active period
+        role: active
+        start_year: 1880
+        end_year: 1919
+        approximate: true
   geography:
-    origin_places: []
+    origin_places:
+      - label: Britain
+        wikidata: null
     spread: []
   lineage:
     parents: []
@@ -46,7 +58,11 @@ facets:
     first_observed: null
     review_due: null
   practitioners:
-    people: []
+    people:
+      - name: William Morris
+        wikidata: null
+      - name: Arthur Wesley Dow
+        wikidata: null
     studios: []
 images:
   - file: assets/arts-and-crafts/Milwaukee_Art_Museum_February_2023_29_The_American_Collection--The_Arts_and_Craf
@@ -58,6 +74,7 @@ images:
       American Collection at the Milwaukee Art Museum in Milwaukee, Wisconsin
       (United States).
     depicts: null
+    review_status: pending
   - file: assets/arts-and-crafts/Milwaukee_Art_Museum_February_2023_30_The_American_Collection--The_Arts_and_Craf
     source_url: https://commons.wikimedia.org/wiki/File:Milwaukee_Art_Museum_February_2023_30_(The_American_Collection--The_Arts_and_Crafts_Movement_and_the_Prairie_School).jpg
     license: CC BY-SA 4.0
@@ -67,6 +84,7 @@ images:
       American Collection at the Milwaukee Art Museum in Milwaukee, Wisconsin
       (United States).
     depicts: null
+    review_status: pending
   - file: assets/arts-and-crafts/Milwaukee_Art_Museum_February_2023_28_The_American_Collection--The_Arts_and_Craf
     source_url: https://commons.wikimedia.org/wiki/File:Milwaukee_Art_Museum_February_2023_28_(The_American_Collection--The_Arts_and_Crafts_Movement_and_the_Prairie_School).jpg
     license: CC BY-SA 4.0
@@ -76,6 +94,7 @@ images:
       American Collection at the Milwaukee Art Museum in Milwaukee, Wisconsin
       (United States).
     depicts: null
+    review_status: pending
   - file: assets/arts-and-crafts/Museum_of_the_American_Arts_and_Crafts_Movement_corner.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Museum_of_the_American_Arts_and_Crafts_Movement_corner.jpg
     license: CC BY-SA 4.0
@@ -84,6 +103,7 @@ images:
     caption: Image of the Museum of the American Arts and Crafts Movement from an
       adjacent street corner.
     depicts: null
+    review_status: pending
   - file: assets/arts-and-crafts/Museum_of_the_American_Arts_and_Crafts_Movement_entrance.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Museum_of_the_American_Arts_and_Crafts_Movement_entrance.jpg
     license: CC BY-SA 4.0
@@ -92,6 +112,7 @@ images:
     caption: The entrance to the Museum of the American Arts and Crafts Movement in
       St. Petersburg, Florida.
     depicts: null
+    review_status: pending
   - file: assets/arts-and-crafts/2024-Museum_of_the_American_Arts_and_Crafts_Movement.jpg
     source_url: https://commons.wikimedia.org/wiki/File:2024-Museum_of_the_American_Arts_and_Crafts_Movement.jpg
     license: CC BY 4.0
@@ -100,6 +121,7 @@ images:
     caption: Museum of the American Arts and Crafts Movement 355 4th St N St.
       Petersburg, Florida, United States
     depicts: null
+    review_status: pending
   - file: assets/arts-and-crafts/2024-Gate_and_sign-Museum_of_the_American_Arts_and_Crafts_Movement.jpg
     source_url: https://commons.wikimedia.org/wiki/File:2024-Gate_and_sign-Museum_of_the_American_Arts_and_Crafts_Movement.jpg
     license: CC BY 4.0
@@ -108,15 +130,11 @@ images:
     caption: Gate and sign Museum of the American Arts and Crafts Movement 355 4th
       St N St. Petersburg, Florida, United States
     depicts: null
+    review_status: pending
 todo:
-  - names.variants
-  - summary
   - external_ids
-  - facets.era.periods
-  - facets.geography
   - facets.lineage
   - facets.lifecycle
-  - facets.practitioners
 provenance:
   facets.formal_properties:
     - source: editorial
@@ -132,3 +150,55 @@ provenance:
       url: https://commons.wikimedia.org/w/index.php?search=Arts%20and%20Crafts%20movement
       accessed: 2026-08-23
       note: "query: Arts and Crafts movement"
+  guide:
+    - source: editorial
+      reviewed: false
+      note: Visual interpretation and practical design guidance; not a historical
+        attribution.
+  summary:
+    - source: research-note
+      url: https://docs.google.com/document/d/1KK3Jpu_uVfU7CJ3WykzY8IU8bvWV7SM_SAPWmRy1joc/edit
+      accessed: 2026-09-09
+      note: Adapted from user-supplied Graphic Design Movements 1850-2000. Period
+        bounds are approximate contextual ranges; not independently verified in
+        every case.
+  facets.era.periods:
+    - source: research-note
+      url: https://docs.google.com/document/d/1KK3Jpu_uVfU7CJ3WykzY8IU8bvWV7SM_SAPWmRy1joc/edit
+      accessed: 2026-09-09
+      note: Adapted from user-supplied Graphic Design Movements 1850-2000. Period
+        bounds are approximate contextual ranges; not independently verified in
+        every case.
+  facets.geography.origin_places:
+    - source: research-note
+      url: https://docs.google.com/document/d/1KK3Jpu_uVfU7CJ3WykzY8IU8bvWV7SM_SAPWmRy1joc/edit
+      accessed: 2026-09-09
+      note: Adapted from user-supplied Graphic Design Movements 1850-2000. Period
+        bounds are approximate contextual ranges; not independently verified in
+        every case.
+  facets.practitioners.people:
+    - source: research-note
+      url: https://docs.google.com/document/d/1KK3Jpu_uVfU7CJ3WykzY8IU8bvWV7SM_SAPWmRy1joc/edit
+      accessed: 2026-09-09
+      note: Adapted from user-supplied Graphic Design Movements 1850-2000. Period
+        bounds are approximate contextual ranges; not independently verified in
+        every case.
+  names.variants:
+    - source: research-note
+      url: https://docs.google.com/document/d/1KK3Jpu_uVfU7CJ3WykzY8IU8bvWV7SM_SAPWmRy1joc/edit
+      accessed: 2026-09-09
+      note: Adapted from user-supplied Graphic Design Movements 1850-2000. Period
+        bounds are approximate contextual ranges; not independently verified in
+        every case.
+guide:
+  dek: Dense page texture, considered borders and integrated illustration give
+    printed matter the character of a crafted object.
+  signature:
+    - Textured type blocks
+    - Botanical ornament
+    - Illustration and type in balance
+  application: Treat the spread as one composition, including its margins and binding edge.
+  caution: Do not substitute a distressed texture for attention to construction.
+  compare:
+    - art-nouveau
+    - letterpress

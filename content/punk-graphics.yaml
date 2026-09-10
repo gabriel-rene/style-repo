@@ -1,6 +1,6 @@
 id: punk-graphics
 term_type: style
-status: stub
+status: draft
 names:
   primary: Punk graphics
   variants: []
@@ -59,6 +59,7 @@ images:
       band Die Toten Hosen. Original snapshot taken in 1987, during a concert in
       Garching bei München (Munich, Bavaria, Germany).
     depicts: null
+    review_status: pending
   - file: assets/punk-graphics/Deine_Jugend_-_Laura_Carbone_-_ColognePride_2011_7572_.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Deine_Jugend_-_Laura_Carbone_-_ColognePride_2011_(7572).jpg
     license: CC BY-SA 4.0
@@ -68,6 +69,7 @@ images:
       Bühnenprogramm zum CSD-Straßenfest/ColognePride 2011. Hauptbühne auf dem
       Heumarkt, Köln.
     depicts: null
+    review_status: pending
   - file: assets/punk-graphics/Deine_Jugend_-_Laura_Carbone_-_ColognePride_2011_7584_.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Deine_Jugend_-_Laura_Carbone_-_ColognePride_2011_(7584).jpg
     license: CC BY-SA 4.0
@@ -77,6 +79,7 @@ images:
       Bühnenprogramm zum CSD-Straßenfest/ColognePride 2011. Hauptbühne auf dem
       Heumarkt, Köln.
     depicts: null
+    review_status: pending
   - file: assets/punk-graphics/Deine_Jugend_-_Laura_Carbone_-_ColognePride_2011_7588_.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Deine_Jugend_-_Laura_Carbone_-_ColognePride_2011_(7588).jpg
     license: CC BY-SA 4.0
@@ -86,6 +89,7 @@ images:
       Bühnenprogramm zum CSD-Straßenfest/ColognePride 2011. Hauptbühne auf dem
       Heumarkt, Köln.
     depicts: null
+    review_status: pending
   - file: assets/punk-graphics/Deine_Jugend_-_ColognePride_2011_7594_.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Deine_Jugend_-_ColognePride_2011_(7594).jpg
     license: CC BY-SA 4.0
@@ -94,6 +98,7 @@ images:
     caption: Electro-Pop-Punk-Band "Deine Jugend" aus Mannheim. Bühnenprogramm zum
       CSD-Straßenfest/ColognePride 2011. Hauptbühne auf dem Heumarkt, Köln.
     depicts: null
+    review_status: pending
   - file: assets/punk-graphics/Deine_Jugend_-_Tim_Bonassis_-_ColognePride_2011_7591_.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Deine_Jugend_-_Tim_Bonassis_-_ColognePride_2011_(7591).jpg
     license: CC BY-SA 4.0
@@ -103,6 +108,7 @@ images:
       Bühnenprogramm zum CSD-Straßenfest/ColognePride 2011. Hauptbühne auf dem
       Heumarkt, Köln.
     depicts: null
+    review_status: pending
   - file: assets/punk-graphics/1941_Western_Flyer_17899878506_.jpg
     source_url: https://commons.wikimedia.org/wiki/File:1941_Western_Flyer_(17899878506).jpg
     license: CC BY 2.0
@@ -110,6 +116,7 @@ images:
     rights_status: open
     caption: 1941 Western FlyerPismo Beach 8th Annual Vintage Trailer Rally 2015
     depicts: null
+    review_status: rejected
   - file: assets/punk-graphics/1941_Western_Flyer_7293324774_.jpg
     source_url: https://commons.wikimedia.org/wiki/File:1941_Western_Flyer_(7293324774).jpg
     license: CC BY 2.0
@@ -117,6 +124,7 @@ images:
     rights_status: open
     caption: 1941 Western FlyerPismo Beach 8th Annual Vintage Trailer Rally 2015
     depicts: null
+    review_status: rejected
   - file: assets/punk-graphics/Punk_Rock_Show_Flyer_33411069975_.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Punk_Rock_Show_Flyer_(33411069975).jpg
     license: CC BY-SA 2.0
@@ -125,6 +133,7 @@ images:
     caption: "La Cavale / Gummø / Les Sales Machines 24 septembre 2016 @ Bistro de
       Paris, Montréal. Flyer: 6530, av. de Châteaubriand, Montréal, 09-27-2016."
     depicts: null
+    review_status: pending
   - file: assets/punk-graphics/Black_Flag_and_Meat_Puppets_Flyer.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Black_Flag_and_Meat_Puppets_Flyer.jpg
     license: CC0
@@ -133,6 +142,7 @@ images:
     caption: Black Flag and Meat Puppets Flyer, 1982. Punk Picnic in the Park poster
       below is from 1981.
     depicts: null
+    review_status: approved
   - file: assets/punk-graphics/Ignition_Swiz_Short_Dogs_Grow_Flyer.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Ignition_Swiz_Short_Dogs_Grow_Flyer.jpg
     license: CC BY 2.0
@@ -141,6 +151,7 @@ images:
     caption: A hand-drawn flyer for a concert featuring Ignition, Swiz, and Short
       Dogs Grow from the late 1980s.
     depicts: null
+    review_status: pending
 todo:
   - names.variants
   - summary
@@ -165,3 +176,21 @@ provenance:
       url: https://commons.wikimedia.org/w/index.php?search=punk%20flyer
       accessed: 2026-08-23
       note: "query: punk flyer"
+  guide:
+    - source: editorial
+      reviewed: false
+      note: Visual interpretation and practical design guidance; not a historical
+        attribution.
+guide:
+  dek: Cut lettering, rough reproduction and abrupt juxtaposition create an
+    urgent, improvised visual voice.
+  signature:
+    - Ransom-note type
+    - Photocopy texture
+    - Torn and taped edges
+  application: Make the hierarchy blunt enough to survive rough reproduction.
+  caution: Do not turn the signs of low-budget making into meaningless decoration.
+  compare:
+    - photocopier
+    - dada
+featured_image: https://commons.wikimedia.org/wiki/File:Black_Flag_and_Meat_Puppets_Flyer.jpg

@@ -1,6 +1,6 @@
 id: letterpress
 term_type: technique
-status: stub
+status: draft
 names:
   primary: Letterpress
   variants: []
@@ -52,6 +52,7 @@ images:
     rights_status: open
     caption: pile of blocks used for English language letterpress
     depicts: null
+    review_status: pending
   - file: assets/letterpress/Letterpress_reglets.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Letterpress_reglets.jpg
     license: CC BY-SA 4.0
@@ -60,6 +61,7 @@ images:
     caption: This image of a case of letterpress reglets was taken at at Yee-Haw
       Industries in Knoxville, Tennessee.
     depicts: null
+    review_status: pending
   - file: assets/letterpress/Wood_letterpress_type.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Wood_letterpress_type.jpg
     license: CC BY-SA 4.0
@@ -68,6 +70,7 @@ images:
     caption: This image of vintage letterpress wood type was taken at at Yee-Haw
       Industries in Knoxville, Tennessee.
     depicts: null
+    review_status: pending
   - file: assets/letterpress/Wood_letterpress_type_and_furniture.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Wood_letterpress_type_and_furniture.jpg
     license: CC BY-SA 4.0
@@ -76,6 +79,7 @@ images:
     caption: This image of vintage letterpress wood type and furniture was taken at
       at Yee-Haw Industries in Knoxville, Tennessee.
     depicts: null
+    review_status: pending
   - file: assets/letterpress/Letterpress_printing_at_Washington_University_in_St._Louis_during_the_2011_SGCI_
     source_url: https://commons.wikimedia.org/wiki/File:Letterpress_printing_at_Washington_University_in_St._Louis_during_the_2011_SGCI_conference.jpg
     license: CC BY-SA 4.0
@@ -85,6 +89,7 @@ images:
       presses at Washington University in St. Louis during the 2011 SGCI
       conference
     depicts: null
+    review_status: pending
   - file: assets/letterpress/Steam-Powered_4-Color_Letterpress_26582090773_.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Steam-Powered_4-Color_Letterpress_(26582090773).jpg
     license: CC BY 2.0
@@ -92,6 +97,7 @@ images:
     rights_status: open
     caption: Steam-Powered 4-Color Letterpress
     depicts: null
+    review_status: pending
   - file: assets/letterpress/Steam-Powered_4-Color_Letterpress_26582091563_.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Steam-Powered_4-Color_Letterpress_(26582091563).jpg
     license: CC BY 2.0
@@ -99,6 +105,7 @@ images:
     rights_status: open
     caption: Steam-Powered 4-Color Letterpress
     depicts: null
+    review_status: pending
   - file: assets/letterpress/Letterpress_posters_by_Amos_Paul_Kennedy_Jr.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Letterpress_posters_by_Amos_Paul_Kennedy_Jr.jpg
     license: CC BY-SA 4.0
@@ -109,6 +116,7 @@ images:
       during the 2011 SGC International conference. Kennedy designed the posters
       and set the type, and workshop attendees helped print them.
     depicts: null
+    review_status: approved
   - file: assets/letterpress/The_Arm_Letterpress_Counter.jpg
     source_url: https://commons.wikimedia.org/wiki/File:The_Arm_Letterpress_Counter.jpg
     license: CC BY-SA 4.0
@@ -117,6 +125,7 @@ images:
     caption: A photo of a counter in The Arm, a letterpress shop in Brooklyn, New
       York. Prints are placed in wooden boxes.
     depicts: null
+    review_status: pending
   - file: assets/letterpress/Merry_Go_Round_Letterpress_Print.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Merry_Go_Round_Letterpress_Print.jpg
     license: CC BY 4.0
@@ -124,6 +133,7 @@ images:
     rights_status: open
     caption: Merry Go Round Letterpress Print inspired by the painting by Mark Gertler
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2024NT4966/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O1303311
@@ -134,6 +144,7 @@ images:
     rights_status: restricted
     caption: Choose Letterpress, 2011-2012, Britain
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2024NT4965/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O1303310
@@ -144,6 +155,7 @@ images:
     rights_status: restricted
     caption: "'If' by Rudyard Kipling (1895), 2011-2012, Britain"
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2024NT4963/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O1249519
@@ -154,6 +166,7 @@ images:
     rights_status: restricted
     caption: The Whittington Press Open Day, 2012, Britain
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2024NT4964/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O1303309
@@ -164,6 +177,7 @@ images:
     rights_status: restricted
     caption: Health and Safety law, 2011-2012, Britain
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2025PJ6937/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O1778438
@@ -174,6 +188,7 @@ images:
     rights_status: restricted
     caption: In the Barley-Sele, 1887
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2025PJ6936/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O1778436
@@ -184,6 +199,7 @@ images:
     rights_status: restricted
     caption: An Autumn Pastoral, 1887
     depicts: null
+    review_status: pending
   - file: assets/letterpress/Braque_Letterpress_Print.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Braque_Letterpress_Print.jpg
     license: CC BY 4.0
@@ -191,6 +207,7 @@ images:
     rights_status: open
     caption: Still life may be silent, but the silence in Braque is loud
     depicts: null
+    review_status: pending
   - file: assets/letterpress/Letterpress_typefaces.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Letterpress_typefaces.jpg
     license: CC BY 2.0
@@ -202,6 +219,7 @@ images:
       (36pt), Stymie Open (24pt), Tudor Black / Old English (36pt), and
       Victorian / Grocer
     depicts: null
+    review_status: pending
   - file: assets/letterpress/Historical_Printing_Room_at_the_Cambridge_University_Library.png
     source_url: https://commons.wikimedia.org/wiki/File:Historical_Printing_Room_at_the_Cambridge_University_Library.png
     license: CC BY-SA 4.0
@@ -211,6 +229,7 @@ images:
       the UK are printing presses, type cabinets, and other equipment to teach
       practical printing to support humanities research and bibliography.
     depicts: null
+    review_status: pending
   - file: assets/letterpress/Letterpress_printing_at_Printopia_2024_by_Tatiana_Harper.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Letterpress_printing_at_Printopia_2024_by_Tatiana_Harper.jpg
     license: CC BY-SA 4.0
@@ -219,6 +238,7 @@ images:
     caption: Letterpress printing with Inkiana Press at Printopia printmaking
       festival 2024 in Auckland, New Zealand
     depicts: null
+    review_status: pending
   - file: assets/letterpress/In_Bamberg_the_first_printing_press_in_nowadays_Bavaria_was_built_and_the_first_
     source_url: https://commons.wikimedia.org/wiki/File:In_Bamberg,_the_first_printing_press_in_nowadays_Bavaria_was_built_and_the_first_German_book_was_printed_in_1461._After_the_painting_by_Rothbart.jpg
     license: Public domain
@@ -229,6 +249,7 @@ images:
       (Albrecht Pfister workshop, sitting clergian depicted is Georg I. von
       Schaumberg)
     depicts: null
+    review_status: pending
 todo:
   - names.variants
   - summary
@@ -254,3 +275,22 @@ provenance:
       url: https://api.vam.ac.uk/v2/objects/search?images_exist=1&page_size=20&q=letterpress
       accessed: 2026-08-23
       note: "query: letterpress"
+  guide:
+    - source: editorial
+      reviewed: false
+      note: Visual interpretation and practical design guidance; not a historical
+        attribution.
+guide:
+  dek: Pressure and raised printing surfaces produce crisp edges, ink variation
+    and sometimes a visible impression.
+  signature:
+    - Tactile type edges
+    - Restricted ink passes
+    - Small material variations
+  application: Design for the actual paper, type size and intended printing pressure.
+  caution: Deep debossing is one treatment, not a defining requirement for all
+    letterpress.
+  compare:
+    - woodcut
+    - blackletter
+featured_image: https://commons.wikimedia.org/wiki/File:Letterpress_posters_by_Amos_Paul_Kennedy_Jr.jpg

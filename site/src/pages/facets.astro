@@ -1,70 +1,16 @@
 ---
-import Base from '../layouts/Base.astro';
-import TermCard from '../components/TermCard.astro';
-import { loadAll, facetDimensions } from '../lib/data.js';
-
-const { terms } = loadAll();
-const dims = facetDimensions();
-
-// term id -> ["dim:value", ...] for the tiny client-side filter
-const tags = Object.fromEntries(
-  terms.map((t) => [
-    t.id,
-    dims.flatMap((d) =>
-      [...d.values.entries()].filter(([, ids]) => ids.has(t.id)).map(([v]) => `${d.dim}:${v}`),
-    ),
-  ]),
-);
+import Base from "../layouts/Base.astro";
+import Library from "../components/Library.astro";
 ---
+
 <Base title="Facets" current="facets">
-  <h1>Compose by facet</h1>
-  <p class="meta">
-    Pick values below. The grid keeps only terms that match every picked facet.
-    Counts show how many terms carry each value now.
-  </p>
-
-  <form id="facet-form">
-    {dims.map((d) => (
-      <div class="facet-group">
-        <span class="facet-key">{d.label}</span>
-        {[...d.values.entries()].sort().map(([v, ids]) => (
-          <label>
-            <input type="checkbox" name={d.dim} value={`${d.dim}:${v}`} />
-            {v} ({ids.size})
-          </label>
-        ))}
-      </div>
-    ))}
-  </form>
-
-  <p class="meta" id="facet-count">{terms.length} terms</p>
-  <div class="grid" id="facet-grid">
-    {terms.map((t) => (
-      <div data-term={t.id} data-tags={tags[t.id].join(' ')} style="display:contents">
-        <TermCard term={t} />
-      </div>
-    ))}
-  </div>
-
-  <script>
-    const form = document.getElementById('facet-form');
-    const count = document.getElementById('facet-count');
-    const cells = [...document.querySelectorAll('#facet-grid [data-term]')];
-    form.addEventListener('change', () => {
-      // AND across dimensions, OR inside a dimension
-      const byDim = new Map();
-      for (const box of form.querySelectorAll('input:checked')) {
-        if (!byDim.has(box.name)) byDim.set(box.name, []);
-        byDim.get(box.name).push(box.value);
-      }
-      let shown = 0;
-      for (const cell of cells) {
-        const tags = cell.dataset.tags.split(' ');
-        const ok = [...byDim.values()].every((wanted) => wanted.some((w) => tags.includes(w)));
-        cell.style.display = ok ? 'contents' : 'none';
-        if (ok) shown++;
-      }
-      count.textContent = `${shown} term${shown === 1 ? '' : 's'}`;
-    });
-  </script>
+  <header class="page-heading">
+    <p class="meta">Browse by visual character</p>
+    <h1>Start with a quality.</h1>
+    <p>
+      Explore by grid, contrast, texture or ornament. Values within a group
+      match either choice; different groups combine.
+    </p>
+  </header>
+  <Library expanded />
 </Base>

@@ -1,6 +1,6 @@
 id: photomontage
 term_type: technique
-status: stub
+status: draft
 names:
   primary: Photomontage
   variants: []
@@ -67,6 +67,7 @@ images:
       digitally manipulated to give the impression that it is a real landscape.
       Software used: Adobe Photoshop"
     depicts: null
+    review_status: pending
   - file: assets/photomontage/Photomontage_Forggensee_Panorama_-2.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Photomontage_(Forggensee_Panorama)_-2.jpg
     license: CC BY-SA 3.0
@@ -90,6 +91,7 @@ images:
       digitally manipulated to give the impression that it is a real landscape.
       Software used: Adobe Photoshop"
     depicts: null
+    review_status: pending
   - file: assets/photomontage/Photomontage-gimp-lomit.png
     source_url: https://commons.wikimedia.org/wiki/File:Photomontage-gimp-lomit.png
     license: CC BY-SA 3.0
@@ -97,6 +99,7 @@ images:
     rights_status: open
     caption: Fotomontaż
     depicts: null
+    review_status: pending
   - file: assets/photomontage/Photomontage_SVOMAM_Project.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Photomontage_SVOMAM_Project.jpg
     license: CC BY-SA 4.0
@@ -104,6 +107,7 @@ images:
     rights_status: open
     caption: Photomontage SVOMAM Project
     depicts: null
+    review_status: pending
   - file: assets/photomontage/Church_of_light.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Church_of_light.jpg
     license: CC BY 4.0
@@ -113,6 +117,7 @@ images:
       night. The aurora was shot separately in Iceland (see File:Flames in the
       sky.jpg).
     depicts: null
+    review_status: pending
   - file: assets/photomontage/Pandemic_photomontage_COVID-19.png
     source_url: https://commons.wikimedia.org/wiki/File:Pandemic_photomontage_COVID-19.png
     license: CC BY-SA 4.0
@@ -120,6 +125,7 @@ images:
     rights_status: open
     caption: Pandemic photomontage COVID-19
     depicts: null
+    review_status: pending
   - file: assets/photomontage/Ambigram_Escher_and_tessellation_background_-_photomontage_with_reversible_hands
     source_url: https://commons.wikimedia.org/wiki/File:Ambigram_Escher_and_tessellation_background_-_photomontage_with_reversible_hands.jpg
     license: CC BY-SA 4.0
@@ -131,6 +137,7 @@ images:
       two colors using negative space upside down. M. C. Escher's work features
       mathematical objects "
     depicts: null
+    review_status: pending
   - file: assets/photomontage/Octalfly_photomontage_with_segments.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Octalfly_photomontage_with_segments.jpg
     license: CC BY-SA 4.0
@@ -142,6 +149,7 @@ images:
       shown in a photomontage (= fake-photo): relatively unknown endemic
       Octalfly * at frozen sp"
     depicts: null
+    review_status: pending
   - file: assets/photomontage/Photomontage_Twinning_La_Clusaz_Osatri_in_Listenbourg_derivative_work.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Photomontage_Twinning_La_Clusaz_%26_Osatri_in_Listenbourg_derivative_work.jpg
     license: Public domain
@@ -154,6 +162,7 @@ images:
       Clusaz (archive), and reported by the French newspaper Le Dauphiné Libéré
       (archive)[1][
     depicts: null
+    review_status: pending
   - file: assets/photomontage/Photomontage_Listenbourg_passport_-_derivative_work.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Photomontage_Listenbourg_passport_-_derivative_work.jpg
     license: Public domain
@@ -164,6 +173,7 @@ images:
       Derivative work. The hoax was published by Le Journal Des Enfants
       (archive), Global News, The Meghalayan, Edge, and other websites.
     depicts: null
+    review_status: pending
   - file: assets/photomontage/Photomontage_metro_station_Listenbourg_-_derivative_work.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Photomontage_metro_station_Listenbourg_-_derivative_work.jpg
     license: Public domain
@@ -174,6 +184,7 @@ images:
       work. The hoax was originally published by the official Twitter account
       Serge Lapin RATP (archive), and reported by France Info (TV channel).
     depicts: null
+    review_status: pending
   - file: assets/photomontage/Mini-Fex_photomontage_.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Mini-Fex_(photomontage).jpg
     license: CC BY-SA 4.0
@@ -183,6 +194,7 @@ images:
       correct lens diameter. I corrected as I could but it's not totally right.
       The other fittings and leather were taken from other same era cameras.
     depicts: null
+    review_status: pending
 todo:
   - names.variants
   - summary
@@ -204,3 +216,20 @@ provenance:
       url: https://commons.wikimedia.org/w/index.php?search=photomontage
       accessed: 2026-08-23
       note: "query: photomontage"
+  guide:
+    - source: editorial
+      reviewed: false
+      note: Visual interpretation and practical design guidance; not a historical
+        attribution.
+guide:
+  dek: Photographic fragments are combined to create an image that a single camera
+    exposure would not produce.
+  signature:
+    - Cut photographic edges
+    - Scale contradictions
+    - Composite scenes
+  application: Match or deliberately contradict lighting and perspective with clear intent.
+  caution: Distinguish a constructed image from documentary evidence.
+  compare:
+    - collage
+    - surrealism

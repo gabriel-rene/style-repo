@@ -1,6 +1,6 @@
 id: skeuomorphism
 term_type: aesthetic
-status: stub
+status: draft
 names:
   primary: Skeuomorphism
   variants: []
@@ -77,3 +77,20 @@ provenance:
       url: https://www.wikidata.org/wiki/Q134445115
       accessed: 2026-08-23
       method: exact-label-match
+  guide:
+    - source: editorial
+      reviewed: false
+      note: Visual interpretation and practical design guidance; not a historical
+        attribution.
+guide:
+  dek: Familiar materials and object-like controls help a digital surface suggest
+    its physical function.
+  signature:
+    - Material cues
+    - Beveled controls
+    - Object-based metaphors
+  application: Use physical cues only when they help explain an interaction.
+  caution: Decorative realism can introduce misleading affordances.
+  compare:
+    - frutiger-aero
+    - flat-design

@@ -92,6 +92,7 @@ for (const { doc } of entries) {
       license: licenseName,
       attribution,
       rights_status: 'open',
+      review_status: 'pending',
       caption: strip(em.ImageDescription?.value).slice(0, 300) || null,
       depicts: null,
     });

@@ -1,65 +1,73 @@
 ---
-import Base from '../layouts/Base.astro';
-import { loadAll, lifecycleRows, trendQueue } from '../lib/data.js';
-
-const { byId } = loadAll();
+import Base from "../layouts/Base.astro";
+import { lifecycleRows, trendQueue, loadAll } from "../lib/data.js";
+import TermCard from "../components/TermCard.astro";
 const rows = lifecycleRows();
-const { pending, counts } = trendQueue();
-const recent = pending.slice(-30).reverse();
+const queue = trendQueue();
+const { byId } = loadAll();
+const aesthetics = [
+  "acid-graphics",
+  "frutiger-aero",
+  "vaporwave",
+  "y2k-aesthetic",
+].map((id) => byId.get(id));
 ---
-<Base title="Trending" current="trending">
-  <h1>Trending</h1>
-  <p class="meta">
-    Nothing on this page publishes itself. Tracked terms carry review dates.
-    Feed candidates wait in a queue until a human accepts or dismisses them.
-  </p>
 
+<Base title="Trending" current="trending">
+  <header class="page-heading">
+    <p class="meta">Aesthetics in circulation</p>
+    <h1>
+      Watch the vocabulary change<span class="red-period">.</span>
+    </h1>
+    <p>
+      Explore digital aesthetics and the research queue. A familiar style is not
+      automatically a current trend.
+    </p>
+  </header>
   <section>
-    <h2>Tracked lifecycle states</h2>
+    <h2>Digital aesthetics.</h2>
+    <p class="meta">
+      Selected for exploration. This selection is not a popularity ranking.
+    </p>
+    <div class="grid">
+      {aesthetics.map((term) => (
+        <TermCard term={term} />
+      ))}
+    </div>
+  </section>
+  <section class="related-section">
+    <h2>Tracked lifecycle reviews.</h2>
     {rows.length ? (
-      <table>
-        <thead><tr><th>Term</th><th>State</th><th>Review due</th><th>Status</th></tr></thead>
-        <tbody>
-          {rows.map((r) => (
-            <tr>
-              <td><a href={`/term/${r.term.id}/`}>{r.term.names?.primary ?? r.term.id}</a></td>
-              <td class="value">{r.state}</td>
-              <td class="value">{r.review_due ?? '(none)'}</td>
-              <td>
-                {r.flag === 'ok'
-                  ? <span class="chip">ok</span>
-                  : <span class="chip warn">{r.flag}: needs a human review date</span>}
-              </td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
+      rows.map(({ term, state, review_due, flag }) => (
+        <article class="trend-entry">
+          <h3>
+            <a href={`/term/${term.id}/`}>{term.names.primary} ↗</a>
+          </h3>
+          <p>
+            {state} / Review: {review_due ?? "not scheduled"} / {flag}
+          </p>
+        </article>
+      ))
     ) : (
-      <p class="meta">No terms are in a tracked state (emerging, peaking, saturated).</p>
+      <p class="reference-note">
+        No current trend claims have a completed review record. Explore the
+        aesthetics above while new evidence is gathered.
+      </p>
     )}
   </section>
-
-  <section>
-    <h2>Candidate queue</h2>
+  <section class="related-section">
+    <h2>Research queue.</h2>
     <p class="meta">
-      {counts.pending} pending, {counts.accepted} accepted, {counts.dismissed} dismissed.
-      Triage lives in trends/queue.yaml, not here.
+      {queue.counts.pending} candidates awaiting review. Inclusion is a research
+      lead, not an endorsement or evidence of a trend.
     </p>
-    {recent.length ? (
-      <table>
-        <thead><tr><th>Seen</th><th>Item</th><th>Feed</th></tr></thead>
-        <tbody>
-          {recent.map((c) => (
-            <tr>
-              <td class="value">{c.published_at ?? c.first_seen}</td>
-              <td><a href={c.url}>{c.title}</a></td>
-              <td class="value">{c.source}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
-    ) : (
-      <p class="meta">Queue is empty. Run the collector to fetch candidates.</p>
-    )}
+    {queue.pending.slice(0, 30).map((c) => (
+      <article class="trend-entry">
+        <h3>
+          <a href={c.url}>{c.title ?? c.name ?? c.url} ↗</a>
+        </h3>
+        <p>{c.source ?? ""}</p>
+      </article>
+    ))}
   </section>
 </Base>

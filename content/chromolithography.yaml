@@ -1,0 +1,45 @@
+{
+  "id": "chromolithography",
+  "term_type": "technique",
+  "status": "draft",
+  "names": { "primary": "Chromolithography", "variants": [] },
+  "summary": null,
+  "facets":
+    {
+      "era": { "periods": [] },
+      "lineage": {},
+      "formal_consequences":
+        {
+          "grid_discipline": "moderate",
+          "palette_logic": { "descriptor": "restricted" },
+          "contrast": "high",
+          "texture": "flat",
+          "hierarchy": "moderate",
+          "ornament_level": "moderate"
+        }
+    },
+  "images": [],
+  "provenance":
+    {
+      guide:
+        [
+          {
+              source: editorial,
+              reviewed: false,
+              note: Visual interpretation and practical design guidance; not a historical
+                attribution.
+            }
+        ]
+    },
+  "todo": [],
+  guide:
+    {
+      dek: Multiple lithographic color passes combine to reproduce richly colored
+        illustration.,
+      signature: [ Layered color, Detailed pictorial surfaces, Integrated drawn lettering ],
+      application: Study how separate colors combine rather than applying a generic
+        vintage filter.,
+      caution: "This is a reproduction technique, not a synonym for Victorian design.",
+      compare: [ lithography, victorian-graphic-design ]
+    }
+}

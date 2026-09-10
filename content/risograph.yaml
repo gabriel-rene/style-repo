@@ -3,7 +3,7 @@ term_type: apparatus
   # THE KEY TEST — a machine, not a style peer.
   # Styles reference it via production.apparatus;
   # the build index computes the reverse link.
-status: stub
+status: draft
 names:
   primary: Risograph
   variants: [] # TODO: harvest (short forms, brand vs generic)
@@ -58,6 +58,7 @@ images:
     rights_status: open
     caption: Modèle MZ 1070E 2 couleurs format A3 atelier Chez Rosi Bruxelles
     depicts: null
+    review_status: pending
   - file: assets/risograph/Risograph-herr-und-frau-rio-muc-2020.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Risograph-herr-und-frau-rio-muc-2020.jpg
     license: CC BY-SA 4.0
@@ -65,6 +66,7 @@ images:
     rights_status: open
     caption: Riso RZ 970 im Atelier von Herr und Frau Rio in München (2020)
     depicts: null
+    review_status: approved
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2019LX8833/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O1490117
@@ -74,6 +76,7 @@ images:
     rights_status: restricted
     caption: Mansplain This, ca. 2018, London
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2019LX8834/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O1490118
@@ -84,6 +87,7 @@ images:
     rights_status: restricted
     caption: Rape is a Weapon of War, ca. 2018, London
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2019LX8825/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O1490114
@@ -93,6 +97,7 @@ images:
     rights_status: restricted
     caption: Food is our archive, ca. 2018, London
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2019LX8826/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O1490115
@@ -102,6 +107,7 @@ images:
     rights_status: restricted
     caption: Resisters, ca. 2018, London
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2023NJ1563/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O1735590
@@ -112,6 +118,7 @@ images:
     rights_status: restricted
     caption: Rosie the Riveter, 2022, California
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2019LX8832/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O1490116
@@ -122,6 +129,7 @@ images:
     rights_status: restricted
     caption: Girls are the future, ca. 2018, London
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2023NJ1565/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O1735592
@@ -132,6 +140,7 @@ images:
     rights_status: restricted
     caption: Rosie the Riveter, 2022, California
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2019LX8835/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O1490119
@@ -142,6 +151,7 @@ images:
     rights_status: restricted
     caption: If you see something, say somethin, ca. 2018, London
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2026PR3266/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O1508019
@@ -152,6 +162,7 @@ images:
     rights_status: restricted
     caption: Come as a star of a soap opera, c. 1990, Britain
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2023NP2458/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O1762813
@@ -162,6 +173,7 @@ images:
     rights_status: restricted
     caption: Jackie Shane (1940-2019), February 2023, Britain
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2023NP2462/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O1766429
@@ -172,6 +184,7 @@ images:
     rights_status: restricted
     caption: April Ashley (1935-2021), February 2023, Britain
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2023NP2459/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O1762814
@@ -182,6 +195,7 @@ images:
     rights_status: restricted
     caption: Sylvia Rivera (1951-2002), February 2023, Britain
     depicts: null
+    review_status: pending
 
 todo:
   - names.variants
@@ -208,3 +222,22 @@ provenance:
       url: https://api.vam.ac.uk/v2/objects/search?images_exist=1&page_size=20&q=Risograph
       accessed: 2026-08-23
       note: "query: Risograph"
+  guide:
+    - source: editorial
+      reviewed: false
+      note: Visual interpretation and practical design guidance; not a historical
+        attribution.
+guide:
+  dek: Spot-color layers and small variations in registration produce vivid,
+    tactile printed surfaces.
+  signature:
+    - Overprinted inks
+    - Visible registration shifts
+    - Grainy tonal screens
+  application: Plan overlapping inks as a third visual relationship.
+  caution: A digital misregistration effect is a simulation, not evidence of a
+    printed original.
+  compare:
+    - screen-printing
+    - halftone
+featured_image: https://commons.wikimedia.org/wiki/File:Risograph-herr-und-frau-rio-muc-2020.jpg

@@ -1,7 +1,37 @@
 # Visual Style Reference Library
 
-A browsable encyclopedia of graphic design, illustration, and typographic
-styles. Facet navigation, historical context, reference imagery.
+A Swiss-inspired reference for graphic design, illustration, typography and
+production methods. White, black and a restrained red accent; self-hosted
+Archivo type; responsive layouts with keyboard-accessible controls.
+
+61 entries have practical visual guides: identifying traits, applications,
+cautions and comparisons. The historical collection includes Socialist
+Realism, Victorian graphic design, Chromolithography, WPA poster design and
+Postmodern graphic design. 21 entries have sourced historical overviews;
+unverified dates and origins remain absent. This is a broad working reference,
+not an exhaustive or independently verified global history.
+
+Browse with text search, type and visual-character filters, grid/list views,
+an approximate timeline, side-by-side comparisons and saved styles stored in
+your browser. URLs preserve search, filter and comparison selections.
+
+## Quick start
+
+Requires Node.js 22.13 or later.
+
+```sh
+npm ci
+npm ci --prefix site
+npm run dev              # http://localhost:4321
+npm run check            # regression tests + validation + SQLite + static build + link checks
+npm run coverage         # regenerate harvest/COVERAGE.md
+```
+
+`npm run build` creates `site/dist/` and rebuilds the disposable SQLite index.
+To preview the production output, run `npm run preview --prefix site`.
+Content edits are read at build time; restart the dev server after editing YAML.
+
+## Repository
 
 - `/content` — one YAML file per term. Source of truth. Human-editable.
 - `/schema` — schema spec. See `schema/SCHEMA.md`.
@@ -68,12 +98,32 @@ npm run build             # rebuilds embeddings.json, then site/dist/
 - `scripts/trends/review-due.js` output — tracked lifecycle states
   (emerging/peaking/saturated) that are overdue or missing a review date.
 
-Status: Phases 3–5 done (harvesting, research ingest, trend pipeline).
-Phase 6 site in `/site`: index, per-term pages, timeline, facet composition,
-trending. Missing facts render as visible TODO slots, never invented.
+## Content and image review
+
+The supplied [Graphic Design Movements 1850–2000 research](https://docs.google.com/document/d/1KK3Jpu_uVfU7CJ3WykzY8IU8bvWV7SM_SAPWmRy1joc/edit)
+informs the historical expansion. Research-note provenance remains distinct
+from museum and archive sources. Selected claims were checked against MoMA,
+Bauhaus-Archiv, the Library of Congress and Bowdoin College Museum of Art.
+Editorial `guide` observations and comparisons are not historical assertions.
+Entries remain `draft` until editorial review is complete.
+
+Image discovery does not establish relevance. Each harvested image starts
+`review_status: pending`; only `approved` records appear on the site. Inspect
+the image, caption, source, rights and relevance before approving it. Set
+`featured_image` to an approved record's `source_url` to choose its cover.
+Rejected and pending records remain available for curation in YAML, but their
+local files are excluded from `site/dist/`. The repository retains the harvest.
+The index shows monochrome previews; detail pages preserve original color with
+an optional monochrome view. Entries without approved imagery use typography
+and a written visual guide. `harvest/COVERAGE.md` lists these gaps.
+
+SQLite rebuilding is atomic: failed builds leave the last valid index intact.
+Both local and remote image records are supported. The tests cover this,
+provenance coverage, asset validation and guide completeness.
 
 Hard rules:
-1. No date, attribution, origin claim, or practitioner name is ever written
-   from model knowledge. Harvested with source URL, or null + TODO.
+1. No date, attribution, origin claim, or practitioner name is written from
+   model memory. Use recorded research or harvested sources with URLs, or
+   leave the value absent with a TODO.
 2. Every image record needs source URL, license, attribution, and rights
    status before commit.

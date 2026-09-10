@@ -1,4 +1,4 @@
-# Style Term Schema — v0.1 (PROPOSAL — not final until approved)
+# Style Term Schema — v0.2
 
 One YAML file per term in `/content`. Filename = `<id>.yaml`. IDs are kebab-case.
 
@@ -61,9 +61,10 @@ external_ids:
 era:
   periods:
     - label: string                       # free label, no claim
-      start_year: int | null              # HARVEST-ONLY, never hand-authored
+      start_year: int | null              # SOURCED: harvest or recorded research
       end_year: int | null
       role: origin | peak | revival | active
+      approximate: boolean               # optional; display as c.
 ```
 A list, not a single span. Blackletter forced this: one start/end cannot hold
 origin + print era + multiple revivals.
@@ -71,7 +72,7 @@ origin + print era + multiple revivals.
 ### geography
 ```yaml
 geography:
-  origin_places: []    # place refs (prefer Getty TGN id / Wikidata QID) — HARVEST-ONLY
+  origin_places: []    # place refs (prefer Getty TGN id / Wikidata QID) — SOURCED
   spread: []
 ```
 
@@ -140,7 +141,7 @@ lifecycle:
   review_due: date | null        # required when state is emerging/peaking/saturated
 ```
 
-### practitioners — HARVEST-ONLY. Never hand-authored. No exceptions.
+### practitioners — SOURCED: harvest or recorded research
 ```yaml
 practitioners:
   people: []     # {name, wikidata} with provenance entries
@@ -150,7 +151,9 @@ practitioners:
 ### images — all four rights fields required before any commit
 ```yaml
 images:
-  - file: path               # local file under /assets
+  - file: path | null        # existing local file under assets/
+    remote_image: URL | null  # restricted records hotlink; never a local copy
+    review_status: pending | approved | rejected # only approved images render
     source_url: string       # REQUIRED
     license: string          # REQUIRED
     attribution: string      # REQUIRED
@@ -158,6 +161,27 @@ images:
     caption: string | null
     depicts: string | null
 ```
+
+## Practical visual guides
+
+```yaml
+guide:
+  dek: string                # concise visual introduction
+  signature: [string]       # at least three identifying qualities
+  application: string       # practical design observations
+  caution: string           # useful distinctions and limitations
+  compare: [term-id]         # valid other entries, not historical lineage
+featured_image: URL | null   # source_url of an approved image
+works:                     # optional, factual references with provenance
+  - title: string
+    url: URL
+    note: string
+```
+
+Guide content needs `source: editorial`, `reviewed: true|false` provenance.
+Guide comparisons must resolve to another term. Published entries cannot
+contain unreviewed editorial provenance. Image review is a separate relevance
+check and does not establish publication rights.
 
 ## Provenance
 
@@ -176,10 +200,10 @@ provenance:
 ```
 
 Validator rules (Phase 2):
-- Every non-null factual field needs a provenance entry.
+- Every populated factual branch needs provenance at that branch or an ancestor. A source for practitioner people cannot cover unsourced studios.
 - `source: editorial` is only legal on formal_properties, formal_consequences,
-  ideological_stance, commercial_context, and lifecycle.state.
-- Dates, places, practitioner names, lineage relations: harvested sources only.
+  ideological_stance, commercial_context, lifecycle.state, and guide.
+- Dates, places, practitioner names, lineage relations, summaries, aliases and works need recorded sources. `research-note` identifies supplied research and requires its URL; it is not independently verified merely by ingestion.
 - `status: stub` relaxes completeness checks but never the rights rules.
 
 ## TODO convention

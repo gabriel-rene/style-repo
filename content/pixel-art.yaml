@@ -1,6 +1,6 @@
 id: pixel-art
 term_type: style
-status: stub
+status: draft
 names:
   primary: Pixel art
   variants: []
@@ -56,6 +56,7 @@ images:
     rights_status: open
     caption: Background pixel art with odd mountain.
     depicts: null
+    review_status: pending
   - file: assets/pixel-art/Green_Tiled_Pixel_Art_Background.png
     source_url: https://commons.wikimedia.org/wiki/File:Green_Tiled_Pixel_Art_Background.png
     license: CC BY-SA 4.0
@@ -64,6 +65,7 @@ images:
     caption: Green pixel art background, meant to be placed in parallax layer under
       sky. Tiles horizontally.
     depicts: null
+    review_status: pending
   - file: assets/pixel-art/Pixel_art_monster_timelapse.gif
     source_url: https://commons.wikimedia.org/wiki/File:Pixel_art_monster_timelapse.gif
     license: CC0
@@ -72,6 +74,7 @@ images:
     caption: This is an animation showing the progress of creating a pixel art
       monster (timelapse), made by me with GIMP.
     depicts: null
+    review_status: pending
   - file: assets/pixel-art/Pixel_art_monster_timelapse_2.gif
     source_url: https://commons.wikimedia.org/wiki/File:Pixel_art_monster_timelapse_2.gif
     license: CC0
@@ -80,6 +83,7 @@ images:
     caption: This is an animation showing the progress of creating a pixel art
       monster (timelapse), made by me with GIMP.
     depicts: null
+    review_status: pending
   - file: assets/pixel-art/Isometric_Pixel_Art_by_Peterson_Freitas_enlarged_.gif
     source_url: https://commons.wikimedia.org/wiki/File:Isometric_Pixel_Art_by_Peterson_Freitas_(enlarged).gif
     license: CC BY-SA 4.0
@@ -89,6 +93,7 @@ images:
       Peterson Freitas (2004-2005). This is an enlarged version from the
       original (600x600 = 360'000 real pixels). 174 colors.
     depicts: null
+    review_status: pending
   - file: assets/pixel-art/Pixel_Art_Jaggie.png
     source_url: https://commons.wikimedia.org/wiki/File:Pixel_Art_Jaggie.png
     license: CC BY-SA 4.0
@@ -96,6 +101,7 @@ images:
     rights_status: open
     caption: Example of a pixel art jaggie in a curve
     depicts: null
+    review_status: pending
   - file: assets/pixel-art/Pixel_Art_Anti_aliasing.png
     source_url: https://commons.wikimedia.org/wiki/File:Pixel_Art_Anti_aliasing.png
     license: CC BY-SA 4.0
@@ -103,6 +109,7 @@ images:
     rights_status: open
     caption: Example of Pixel Art Anti aliasing in a curve
     depicts: null
+    review_status: pending
   - file: assets/pixel-art/Pixel_Art_Anti_Aliasing_in_Clusters.png
     source_url: https://commons.wikimedia.org/wiki/File:Pixel_Art_Anti_Aliasing_in_Clusters.png
     license: CC BY-SA 4.0
@@ -110,6 +117,7 @@ images:
     rights_status: open
     caption: Example of Pixel Art Anti Aliasing in Clusters
     depicts: null
+    review_status: pending
   - file: assets/pixel-art/Pixel_Art_Diagonal_weight.png
     source_url: https://commons.wikimedia.org/wiki/File:Pixel_Art_Diagonal_weight.png
     license: CC BY-SA 4.0
@@ -118,6 +126,7 @@ images:
     caption: Example of a Pixel Art Diagonal line using lighter pixels to make it
       appear thicker, counteracting the effect of certain screens.
     depicts: null
+    review_status: pending
   - file: assets/pixel-art/Pixel_Art_line_thickness_Bigx4.png
     source_url: https://commons.wikimedia.org/wiki/File:Pixel_Art_line_thickness_Bigx4.png
     license: CC BY-SA 4.0
@@ -125,6 +134,7 @@ images:
     rights_status: open
     caption: Pixel Art line thickness Bigx4
     depicts: null
+    review_status: pending
   - file: assets/pixel-art/Pixel_Art_Anti_aliasing_Bigx4.png
     source_url: https://commons.wikimedia.org/wiki/File:Pixel_Art_Anti_aliasing_Bigx4.png
     license: CC BY-SA 4.0
@@ -132,6 +142,7 @@ images:
     rights_status: open
     caption: Pixel Art Anti aliasing Bigx4
     depicts: null
+    review_status: pending
   - file: assets/pixel-art/Pixel_Art_Jaggie_Bigx4.png
     source_url: https://commons.wikimedia.org/wiki/File:Pixel_Art_Jaggie_Bigx4.png
     license: CC BY-SA 4.0
@@ -139,6 +150,7 @@ images:
     rights_status: open
     caption: Pixel Art Jaggie Bigx4
     depicts: null
+    review_status: pending
   - file: assets/pixel-art/Pixel_Art_Diagonal_weight_Bigx4.png
     source_url: https://commons.wikimedia.org/wiki/File:Pixel_Art_Diagonal_weight_Bigx4.png
     license: CC BY-SA 4.0
@@ -146,6 +158,7 @@ images:
     rights_status: open
     caption: Pixel Art Diagonal weight Bigx4
     depicts: null
+    review_status: pending
   - file: assets/pixel-art/Evil_pixel_art_face.png
     source_url: https://commons.wikimedia.org/wiki/File:Evil_pixel_art_face.png
     license: CC0
@@ -153,6 +166,7 @@ images:
     rights_status: open
     caption: A creepy pixel art face with white skin and red tatoos smiling menacingly.
     depicts: null
+    review_status: pending
   - file: assets/pixel-art/Pixel_art_opened_envelope_on_table.png
     source_url: https://commons.wikimedia.org/wiki/File:Pixel_art_opened_envelope_on_table.png
     license: CC BY-SA 4.0
@@ -160,6 +174,7 @@ images:
     rights_status: open
     caption: Pixel art of an opened envelope on a table
     depicts: null
+    review_status: pending
   - file: assets/pixel-art/Pixel_art_of_buildings_almost_at_night.png
     source_url: https://commons.wikimedia.org/wiki/File:Pixel_art_of_buildings_almost_at_night.png
     license: CC BY-SA 4.0
@@ -170,6 +185,7 @@ images:
       tons of "For Sale" signs. There's a few buildings all around, but most of
       them seem either abandoned or closed. Its beginning to turn into night.
     depicts: null
+    review_status: pending
   - file: assets/pixel-art/Landscape_pixel_art.png
     source_url: https://commons.wikimedia.org/wiki/File:Landscape_pixel_art.png
     license: CC BY-SA 4.0
@@ -177,6 +193,7 @@ images:
     rights_status: open
     caption: It's a beautiful image of a landscape in pixel art
     depicts: null
+    review_status: approved
 todo:
   - names.variants
   - summary
@@ -206,3 +223,21 @@ provenance:
       url: https://commons.wikimedia.org/w/index.php?search=pixel%20art
       accessed: 2026-08-23
       note: "query: pixel art"
+  guide:
+    - source: editorial
+      reviewed: false
+      note: Visual interpretation and practical design guidance; not a historical
+        attribution.
+guide:
+  dek: Discrete pixel placement defines contours, texture and shading at a
+    deliberately limited resolution.
+  signature:
+    - Stepped contours
+    - Controlled pixel clusters
+    - Restricted shading ramps
+  application: Choose a working resolution and scale it by whole-number multiples.
+  caution: Automatic pixelation does not replace deliberate cluster design.
+  compare:
+    - glitch-art
+    - flat-design
+featured_image: https://commons.wikimedia.org/wiki/File:Landscape_pixel_art.png

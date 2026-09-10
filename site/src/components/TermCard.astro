@@ -1,24 +1,65 @@
 ---
-import { thumb, eraSpan } from '../lib/data.js';
-
-const { term } = Astro.props;
+import { thumb, eraSpan, typeLabel, description } from "../lib/data.js";
+const { term, index = 0 } = Astro.props;
 const t = thumb(term);
 const span = eraSpan(term);
-const era = span
-  ? `${span.start ?? '?'}-${span.end ?? ''}`
-  : null;
 ---
-<a class="card" href={`/term/${term.id}/`}>
-  {t ? (
-    <div class="card-img">
-      <img src={t.src} alt={t.img.caption ?? term.names?.primary ?? term.id} loading="lazy" />
-    </div>
-  ) : (
-    <div class="card-img empty">no image yet</div>
-  )}
-  <span class="card-name">{term.names?.primary ?? term.id}</span>
-  <span class="card-meta meta">
-    <span>{term.term_type}</span>
-    {era ? <span>{era}</span> : <span class="todo-slot">era TODO</span>}
-  </span>
-</a>
+
+<article
+  class="term-card"
+  data-card
+  data-id={term.id}
+  data-type={term.term_type}
+  data-year={span?.start ?? 9999}
+  data-name={term.names.primary}
+  data-search={`${term.names.primary} ${(term.names.variants ?? []).join(" ")} ${description(term)} ${(term.guide?.signature ?? []).join(" ")}`.toLowerCase()}
+>
+  <a
+    class={`card-image ${t ? "" : "type-specimen"}`}
+    href={`/term/${term.id}/`}
+    aria-label={`Explore ${term.names.primary}`}
+  >
+    {t ? (
+      <img
+        src={t.src}
+        alt={t.img.caption ?? term.names.primary}
+        loading="lazy"
+        width="480"
+        height="360"
+      />
+    ) : (
+      <span class="specimen-name" aria-hidden="true">
+        {term.names.primary}
+      </span>
+    )}
+    {!t && <span class="specimen-note">Visual guide</span>}
+  </a>
+  <div class="card-caption">
+    <span>{typeLabel(term.term_type)}</span>
+    <span>
+      {span?.start
+        ? `${span.periods.some((p) => p.approximate) ? "c. " : ""}${span.start}${span.end ? `–${span.end}` : ""}`
+        : "Undated"}
+    </span>
+  </div>
+  <h3>
+    <a href={`/term/${term.id}/`}>
+      {term.names.primary}
+      <span aria-hidden="true">↗</span>
+    </a>
+  </h3>
+  <p class="card-description">{description(term)}</p>
+  <div class="card-bottom">
+    <span class="card-tag">
+      {term.guide?.signature?.[0] ?? "Explore the reference"}
+    </span>
+    <button
+      class="save-button"
+      data-save={term.id}
+      aria-pressed="false"
+      aria-label={`Save ${term.names.primary}`}
+    >
+      Save +
+    </button>
+  </div>
+</article>

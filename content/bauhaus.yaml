@@ -1,24 +1,31 @@
 id: bauhaus
 term_type: movement
 secondary_types: [ style ] # movement that was also a school; hybrid via secondary_types
-status: stub
+status: draft
 names:
   primary: Bauhaus
   variants: [] # TODO: harvest
-summary: Refers to the German School of art, design, and architecture active in
-  Weimar from 1919 to 1925, in Dessau from 1925 to 1932, and in Berlin from 1932
-  to 1933. Training students in both fine art and craftsmanship, it produced
-  objects and building designs intended for mass production using simple,
-  geometric forms.
+summary: The Bauhaus was a school whose teaching joined art, craft and design
+  through several changing programs. Its graphic work explored geometric
+  typography, photography and asymmetrical organization. The institution’s three
+  directors were Walter Gropius, Hannes Meyer and Ludwig Mies van der Rohe.
+  Moholy-Nagy contributed as a teacher, not as a director of the German Bauhaus.
 external_ids:
   getty_aat: aat:300021432
   wikidata: null # TODO: harvest
 
 facets:
   era:
-    periods: [] # TODO: harvest (origin span; influence continues)
+    periods:
+      - label: Approximate active period
+        role: active
+        start_year: 1919
+        end_year: 1933
+        approximate: true
   geography:
-    origin_places: [] # TODO: harvest
+    origin_places:
+      - label: Weimar, Dessau and Berlin, Germany
+        wikidata: null
     spread: []
   lineage:
     parents: [] # TODO: harvest from AAT hierarchy
@@ -49,7 +56,19 @@ facets:
     review_due: null
   practitioners:
     # HARVEST-ONLY (Wikidata, Phase 3)
-    people: []
+    people:
+      - name: Walter Gropius
+        wikidata: null
+      - name: Hannes Meyer
+        wikidata: null
+      - name: Ludwig Mies van der Rohe
+        wikidata: null
+      - name: Herbert Bayer
+        wikidata: null
+      - name: László Moholy-Nagy
+        wikidata: null
+      - name: Joost Schmidt
+        wikidata: null
     studios: []
 
 images:
@@ -62,6 +81,7 @@ images:
     caption: A - not totally accurate - computer graphic of a famous chair designed
       by Marcel Breuer and marketed by Knoll.
     depicts: null
+    review_status: pending
   - file: assets/bauhaus/Herm._E._Warlich_1929_circa_Plakat_Orpil_Seifen-Spender_fl_ssige_Seife_Henkel_Co
     source_url: https://commons.wikimedia.org/wiki/File:Herm._E._Warlich_1929_circa_Plakat_Orpil_Seifen-Spender_fl%C3%BCssige_Seife_Henkel_%26_Co._Hannover.jpg
     license: Public domain
@@ -73,6 +93,7 @@ images:
       der 1920er Jahre steht lächelnd an einem Waschbecken, eine Hand an einem
       kippbaren Flüss
     depicts: null
+    review_status: pending
   - file: assets/bauhaus/Armchair_-_Josef_Albers_39733421922_.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Armchair_-_Josef_Albers_(39733421922).jpg
     license: CC BY-SA 2.0
@@ -85,6 +106,7 @@ images:
       school teacher from 1908 to 1913 before returning to school and getting an
       education a
     depicts: null
+    review_status: pending
   - file: assets/bauhaus/Hermann_Warlich_Plakat_Orpil_Seifen-Spender_ca_1929.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Hermann_Warlich_Plakat_Orpil_Seifen-Spender_ca_1929.jpg
     license: Public domain
@@ -96,6 +118,7 @@ images:
       der 1920er Jahre steht lächelnd an einem Waschbecken, eine Hand an einem
       kippbaren Flüssigseif
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2006AU9915/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O58657
@@ -106,6 +129,7 @@ images:
     rights_status: restricted
     caption: Wooden armchair, 1922, Weimar
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2012FM3065/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O95603
@@ -116,6 +140,7 @@ images:
     rights_status: restricted
     caption: Sugar Bowl, ca. 1925, Weimar
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2012FM3065/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O95604
@@ -125,6 +150,7 @@ images:
     rights_status: restricted
     caption: Tray, ca. 1925, Weimar
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2006AB5929/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O113442
@@ -135,6 +161,7 @@ images:
     rights_status: restricted
     caption: Bauhaus Verlag Bauhaus Bücher, ca. 1924, Germany
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2012FM3065/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O95602
@@ -144,6 +171,7 @@ images:
     rights_status: restricted
     caption: Milk Jug, ca. 1925, Weimar
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2012FM3065/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O94916
@@ -153,6 +181,7 @@ images:
     rights_status: restricted
     caption: Teapot, ca. 1925, Weimar
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://www.moma.org/media/W1siZiIsIjUyNjcyNyJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=76245560497bac0e
     source_url: https://www.moma.org/collection/works/287
@@ -166,6 +195,7 @@ images:
       Art, New York, December 7, 1938-January 30, 1939. 1938. Ink, gouache, and
       cut-and-pasted coated papers
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://www.moma.org/media/W1siZiIsIjUxNzkyNyJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=f94460422c7c8dcf
     source_url: https://www.moma.org/collection/works/2724
@@ -178,6 +208,7 @@ images:
     caption: Bauhaus Stencil Lettering System (Kombinations-Schrift). 1926–1928.
       Milk glass and painted wood
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://www.moma.org/media/W1siZiIsIjU3MDQwMSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=19541ce9ad4c3cc2
     source_url: https://www.moma.org/collection/works/5179
@@ -188,6 +219,7 @@ images:
     rights_status: restricted
     caption: Bauhaus-Block von Mischa Kuball. 1992. Offset lithograph
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://www.moma.org/media/W1siZiIsIjU0MDAwOCJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=7ff00e8316e8ec3b
     source_url: https://www.moma.org/collection/works/5188
@@ -199,6 +231,7 @@ images:
     rights_status: restricted
     caption: Buhnenklasse am Bauhaus. 1993. Offset lithograph
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://www.moma.org/media/W1siZiIsIjU3MDQwNCJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=acf4222fd67568e6
     source_url: https://www.moma.org/collection/works/5205
@@ -210,6 +243,7 @@ images:
     caption: Bauhaus-Block von Mischa Kuball (Installations by Mischa Kuball). 1993.
       Offset lithograph
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://www.moma.org/media/W1siZiIsIjUyNzQwNSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=8da7d4848f17c82f
     source_url: https://www.moma.org/collection/works/5211
@@ -221,6 +255,7 @@ images:
     rights_status: restricted
     caption: Stiftung Bauhaus Dessau November-Dezember. 1994. Offset lithograph
     depicts: null
+    review_status: pending
   - file: assets/bauhaus/Postkarte_Bauhaus_Farkas_Moln_r_Stilisiertes_Hochhaus.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Postkarte_Bauhaus_Farkas_Moln%C3%A1r_Stilisiertes_Hochhaus.jpg
     license: Public domain
@@ -229,6 +264,7 @@ images:
     caption: Stilisiertes Hochhaus. Postkarte aus der Folge der 20 Postkarten, die
       aus Anlass der Bauhaus-Ausstellung in Weimar 1923 erschienen.
     depicts: null
+    review_status: approved
   - file: assets/bauhaus/Postkarte_Bauhaus_D_rte_Helm_Variation_ber_das_Bauhaus-Signet.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Postkarte_Bauhaus_D%C3%B6rte_Helm_Variation_%C3%BCber_das_Bauhaus-Signet.jpg
     license: Public domain
@@ -238,6 +274,7 @@ images:
       Postkarte aus der Folge der 20 Postkarten, die aus Anlass der
       Bauhaus-Ausstellung in Weimar 1923 erschienen.
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2019LJ4808/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O75627
@@ -248,6 +285,7 @@ images:
     rights_status: restricted
     caption: Exhibition of British Industrial Design in the Home, London, 1933, London
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2006AN5203/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O75867
@@ -258,6 +296,7 @@ images:
     rights_status: restricted
     caption: Think ahead, Write instead, 1945, United Kingdom
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2006AB5702/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O113311
@@ -268,6 +307,7 @@ images:
     rights_status: restricted
     caption: Typenmöbel, 1929, Switzerland
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2006AN5196/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O75740
@@ -278,6 +318,7 @@ images:
     rights_status: restricted
     caption: IPA Internationale Pelzfach-Ausstellung, 1930, Germany
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2016JJ3982/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O1168661
@@ -288,6 +329,7 @@ images:
     rights_status: restricted
     caption: Poster, late 20th century, Godalming
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2015HJ6430/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O75847
@@ -299,6 +341,7 @@ images:
     caption: First thing every morning renew your health with Eno's "Fruit Salt",
       1927, United Kingdom
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://www.moma.org/media/W1siZiIsIjUyNzQxMSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=1197c24e5c0df7f8
     source_url: https://www.moma.org/collection/works/5226
@@ -310,6 +353,7 @@ images:
     rights_status: restricted
     caption: Kammerkonzert im Bauhaus Dessau 1994. 1994. Offset lithograph
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://www.moma.org/media/W1siZiIsIjIxMDQ0MiJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=db3b52dc9889d9b2
     source_url: https://www.moma.org/collection/works/5236
@@ -321,6 +365,7 @@ images:
     rights_status: restricted
     caption: Kammerkonzert im Bauhaus Dessau. 1994. Offset lithograph
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://www.moma.org/media/W1siZiIsIjUyNzQxNSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=140e3d2b4038b35c
     source_url: https://www.moma.org/collection/works/5246
@@ -334,6 +379,7 @@ images:
     caption: Kammerkonzert im Bauhaus Dessau Sonnabend, 16. April 1994. 1994. Offset
       lithograph
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://www.moma.org/media/W1siZiIsIjYxNzcxMiJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=5888cb99b5650781
     source_url: https://www.moma.org/collection/works/5258
@@ -344,6 +390,7 @@ images:
     rights_status: restricted
     caption: Bauhaus - Block von Mischa Kuball 1994. 1994. Offset lithograph
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://www.moma.org/media/W1siZiIsIjU3MDQwNiJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=a8b72be96f2f5a1a
     source_url: https://www.moma.org/collection/works/5269
@@ -355,6 +402,7 @@ images:
     caption: Bauhaus Dessau (Foundation Bauhaus Dessau, July to August). 1994.
       Offset lithograph
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://www.moma.org/media/W1siZiIsIjUyNzQyMCJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=6fca80784c1b3115
     source_url: https://www.moma.org/collection/works/5278
@@ -366,16 +414,14 @@ images:
     rights_status: restricted
     caption: Stiftung Bauhaus Dessau, Januar-Februar 1995. 1995. Offset lithograph
     depicts: null
+    review_status: pending
 
 todo:
-  - names.variants
   - external_ids.wikidata
-  - facets.era.periods
   - facets.geography.origin_places
   - facets.lineage
   - facets.commercial_context
   - facets.revival
-  - facets.practitioners
 
 provenance:
   facets.formal_properties:
@@ -390,9 +436,11 @@ provenance:
       accessed: 2026-08-23
       method: exact-label-match
   summary:
-    - source: getty-aat
-      url: https://vocab.getty.edu/aat/300021432
-      accessed: 2026-08-23
+    - source: bauhaus-archiv
+      url: https://www.bauhaus.de/de/das_bauhaus/
+      accessed: 2026-09-09
+      note: Institution dates and directors checked against Bauhaus-Archiv; visual
+        interpretation follows the supplied research.
   images:
     - source: wikimedia-commons
       url: https://commons.wikimedia.org/w/index.php?search=Bauhaus%20graphic%20design
@@ -410,3 +458,41 @@ provenance:
       url: https://api.vam.ac.uk/v2/objects/search?images_exist=1&page_size=20&q=Bauhaus%20poster
       accessed: 2026-08-23
       note: "query: Bauhaus poster"
+  guide:
+    - source: editorial
+      reviewed: false
+      note: Visual interpretation and practical design guidance; not a historical
+        attribution.
+  facets.era.periods:
+    - source: bauhaus-archiv
+      url: https://www.bauhaus.de/de/das_bauhaus/
+      accessed: 2026-09-09
+      note: Institution dates and directors checked against Bauhaus-Archiv; visual
+        interpretation follows the supplied research.
+  facets.geography.origin_places:
+    - source: research-note
+      url: https://docs.google.com/document/d/1KK3Jpu_uVfU7CJ3WykzY8IU8bvWV7SM_SAPWmRy1joc/edit
+      accessed: 2026-09-09
+      note: Adapted from user-supplied Graphic Design Movements 1850-2000. Period
+        bounds are approximate contextual ranges; not independently verified in
+        every case.
+  facets.practitioners.people:
+    - source: research-note
+      url: https://docs.google.com/document/d/1KK3Jpu_uVfU7CJ3WykzY8IU8bvWV7SM_SAPWmRy1joc/edit
+      accessed: 2026-09-09
+      note: Adapted from user-supplied Graphic Design Movements 1850-2000. Period
+        bounds are approximate contextual ranges; not independently verified in
+        every case.
+guide:
+  dek: Geometric form, asymmetrical organization and economical typography make
+    communication feel constructed and purposeful.
+  signature:
+    - Primary geometric shapes
+    - Strong scale contrast
+    - Type and image as a system
+  application: Choose a small vocabulary of shapes and make every placement serve hierarchy.
+  caution: The school cannot be reduced to circles, triangles and primary colors.
+  compare:
+    - de-stijl
+    - new-typography
+featured_image: https://commons.wikimedia.org/wiki/File:Postkarte_Bauhaus_Farkas_Moln%C3%A1r_Stilisiertes_Hochhaus.jpg

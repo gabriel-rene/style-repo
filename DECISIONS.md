@@ -242,3 +242,39 @@
   under the 4-char relevance-guard threshold, so free-text search noise
   passes the guard. Needs a human-curated query; V&A + MoMA still supply
   its imagery.
+
+
+## 2026-09-09 — Reference expansion and Swiss redesign
+
+- **61 practical guides, with separate factual and editorial layers.** Added
+  Victorian graphic design, Chromolithography, WPA poster design, Postmodern
+  graphic design and the explicitly requested Socialist Realism. Every term
+  has a visual introduction, three identifying qualities, application advice,
+  a caution and editorial comparisons. Research-note provenance points to the
+  supplied Google Doc; museum and archive checks are recorded separately.
+  Unsupported historical facts remain absent. All entries remain drafts.
+- **Corrected research rather than importing it verbatim.** Bauhaus leadership
+  follows Bauhaus-Archiv. Socialist Realism is distinguished from Social Realism;
+  its displayed 1932–1956 range is explicitly MoMA exhibition scope. The LOC
+  Toidze reference labels its cataloged edition date rather than presenting it
+  as the date of the original design. Approximate periods are marked as such.
+- **Image approval is independent of rights metadata.** Harvesters now create
+  pending records. Only approved examples render, with an optional approved
+  featured selection. Unselected local images stay in the repository but are
+  removed from the generated build. No restricted images are downloaded.
+- **Swiss visual direction.** White #fff, ink #141414, red #d52b1e; Archivo
+  Variable; asymmetrical print-inspired grid, fine rules, strong typography,
+  square controls and restrained motion. Design dials: variance 6, motion 2,
+  density 5. The user's palette overrides automatic dark-mode preferences.
+  Index imagery is monochrome; detail views retain original artwork colors.
+- **Useful navigation without a client framework.** Text search, type and
+  composable facet filters, A–Z/date sorting, grid/list views, saved styles,
+  comparison, timeline and source methodology use Astro plus native browser
+  controls. Saved entries remain local; malformed or unavailable storage is
+  handled. Filter and comparison state is linkable. Trending is a review queue,
+  not a claim of measured popularity.
+- **Reliable derived artifacts.** SQLite accepts both local and remote images,
+  builds in a transaction to a temporary file and replaces the old index only
+  after success. Provenance checks cover each populated branch independently.
+  The build validates content; regression tests and generated route/resource
+  checks run through `npm run check`. Coverage is regenerated from all entries.

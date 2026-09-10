@@ -1,5 +1,7 @@
 node_modules/
 index/*.db
+index/*.db-*
+index/*.tmp*
 cache/
 site/dist/
 site/.astro/

@@ -1,52 +1,76 @@
 ---
-import Base from '../layouts/Base.astro';
-import { loadAll, eraSpan } from '../lib/data.js';
-
+import Base from "../layouts/Base.astro";
+import { loadAll, eraSpan, typeLabel, description } from "../lib/data.js";
 const { terms } = loadAll();
 const dated = terms
   .map((t) => ({ t, span: eraSpan(t) }))
-  .filter((r) => r.span && Number.isInteger(r.span.start))
+  .filter((r) => Number.isInteger(r.span?.start))
   .sort((a, b) => a.span.start - b.span.start);
 const undated = terms.filter((t) => !dated.some((r) => r.t.id === t.id));
-
-const min = dated.length ? Math.min(...dated.map((r) => r.span.start)) : 0;
-const max = new Date().getFullYear();
-const pct = (y) => ((y - min) / (max - min)) * 100;
+const min = Math.min(...dated.map((r) => r.span.start));
+const max = Math.max(
+  new Date().getFullYear(),
+  ...dated.map((r) => r.span.end ?? r.span.start),
+);
 ---
+
 <Base title="Timeline" current="timeline">
-  <h1>Timeline</h1>
-  <p class="meta">
-    Only harvested dates appear here. A term with no sourced date stays in the
-    "not dated yet" list. We do not guess.
-  </p>
-
-  {dated.length > 0 && (
-    <section>
-      <div class="tl-scale" aria-hidden="true"><span>{min}</span><span>{max}</span></div>
-      {dated.map(({ t, span }) => {
-        const left = pct(span.start);
-        const right = span.end ? pct(span.end) : null;
-        return (
-          <div class="tl-row">
-            <a href={`/term/${t.id}/`}>{t.names?.primary ?? t.id}</a>
-            <div class="tl-track">
-              <div
-                class={`tl-bar${span.end ? '' : ' open-ended'}`}
-                style={`left:${left}%; width:${span.end ? Math.max(right - left, 1) : Math.min(100 - left, 12)}%`}
-                title={`${span.start ?? '?'} to ${span.end ?? 'no sourced end date'}`}
-              />
-            </div>
-          </div>
-        );
-      })}
-    </section>
-  )}
-
-  <section>
-    <h2>Not dated yet ({undated.length})</h2>
-    <p class="meta">These terms have no harvested period. Each needs a sourced date before it can join the chart above.</p>
+  <header class="page-heading">
+    <p class="meta">Design in context</p>
+    <h1>
+      Across time.
+      <br />
+      Never in isolation<span class="red-period">.</span>
+    </h1>
     <p>
-      {undated.map((t) => <a class="chip" href={`/term/${t.id}/`}>{t.names?.primary ?? t.id}</a>)}
+      Movements overlap. Processes endure. Explore the recorded periods, with
+      approximate dates identified and sources on every entry.
     </p>
+  </header>
+  <div class="results-meta">
+    <span>{dated.length} dated entries</span>
+    <span>
+      {min}–{max}
+    </span>
+  </div>
+  <div class="timeline-list">
+    {dated.map(({ t, span }) => (
+      <article class="timeline-row">
+        <div class="timeline-date">
+          {span.periods.some((p) => p.approximate) ? "c. " : ""}
+          {span.start}
+          <div class="meta">
+            {span.end ? `to ${span.end}` : "no recorded end date"}
+          </div>
+        </div>
+        <div>
+          <p class="meta">{typeLabel(t.term_type)}</p>
+          <h2>
+            <a href={`/term/${t.id}/`}>{t.names.primary} ↗</a>
+          </h2>
+          <p>{description(t)}</p>
+        </div>
+        <div>
+          <div class="period-bars" aria-hidden="true">
+            <span
+              class="period-bar"
+              style={`margin-left:${((span.start - min) / (max - min)) * 100}%;width:${Math.max(1, (((span.end ?? span.start) - span.start) / (max - min)) * 100)}%`}
+            ></span>
+          </div>
+        </div>
+      </article>
+    ))}
+  </div>
+  <section class="timeline-undated">
+    <h2>Beyond the dated record.</h2>
+    <p class="meta">
+      {undated.length} entries have a visual guide but no sourced period
+      recorded. Missing dates do not imply a recent origin.
+    </p>
+    {undated.map((t) => (
+      <a class="chip" href={`/term/${t.id}/`}>
+        {t.names.primary}
+      </a>
+    ))}
   </section>
 </Base>

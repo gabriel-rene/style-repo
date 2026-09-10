@@ -1,17 +1,57 @@
 ---
-import Base from '../layouts/Base.astro';
-import TermCard from '../components/TermCard.astro';
-import { loadAll } from '../lib/data.js';
-
-const { terms } = loadAll();
-const stubs = terms.filter((t) => t.status === 'stub').length;
+import Base from "../layouts/Base.astro";
+import Library from "../components/Library.astro";
+import { loadAll, thumb } from "../lib/data.js";
+const { terms, byId } = loadAll();
+const featured = byId.get("swiss-international-style");
+const poster = thumb(featured);
 ---
+
 <Base current="index">
-  <h1>Style Index</h1>
-  <p class="meta">
-    {terms.length} terms. {stubs} are stubs waiting for harvested facts.
-  </p>
-  <div class="grid">
-    {terms.map((t) => <TermCard term={t} />)}
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="hero-kicker">The visual reference library</p>
+      <h1>
+        A vocabulary
+        <br />
+        for the visual<span class="red-period">.</span>
+      </h1>
+      <p class="hero-description">
+        Explore the movements, methods and ideas that shape how we see.
+      </p>
+      <a class="button" href="#library">
+        Explore {terms.length} entries <span>↗</span>
+      </a>
+    </div>
+    <a class="hero-feature" href="/term/swiss-international-style/">
+      <div class="hero-poster">
+        {poster && (
+          <img
+            src={poster.src}
+            alt="Armin Hofmann’s typographic poster for 4 Bildhauer, 1959"
+            width="500"
+            height="700"
+            fetchpriority="high"
+          />
+        )}
+      </div>
+      <div class="feature-caption">
+        <span>
+          In focus
+          <br />
+          <strong>Swiss International Style</strong>
+        </span>
+        <span aria-hidden="true">↗</span>
+      </div>
+    </a>
+  </section>
+  <div class="intro-rule">
+    <span>Look. Understand. Make.</span>
+    <p>
+      A working index of movements, aesthetics, letterforms and the processes
+      behind them.
+    </p>
+    <a href="/about/">How to use this reference ↗</a>
   </div>
+  <Library />
 </Base>

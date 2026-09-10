@@ -1,6 +1,6 @@
 id: airbrush
 term_type: apparatus
-status: stub
+status: draft
 names:
   primary: Airbrush
   variants: []
@@ -52,6 +52,7 @@ images:
     rights_status: open
     caption: null
     depicts: null
+    review_status: pending
   - file: assets/airbrush/PaascheAirbrush.jpg
     source_url: https://commons.wikimedia.org/wiki/File:PaascheAirbrush.jpg
     license: CC BY-SA 3.0
@@ -60,6 +61,7 @@ images:
     rights_status: open
     caption: For the airbrush article. A Paasche F#1 single action external mix airbrush
     depicts: null
+    review_status: approved
   - file: assets/airbrush/Airbrush_art.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Airbrush_art.jpg
     license: CC BY 3.0
@@ -67,6 +69,7 @@ images:
     rights_status: open
     caption: En Airbrush konstnär dekorerar aktern på en båt.
     depicts: null
+    review_status: pending
   - file: assets/airbrush/Airbrush_artist_with_paints_at_street_fair.JPG
     source_url: https://commons.wikimedia.org/wiki/File:Airbrush_artist_with_paints_at_street_fair.JPG
     license: CC0
@@ -75,6 +78,7 @@ images:
     caption: Airbrush artist at a street fair, with paints, which come off after a
       week, approximately.
     depicts: null
+    review_status: pending
   - file: assets/airbrush/Rosa_Airbrush_2018-07-10_5665.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Rosa_Airbrush_2018-07-10_5665.jpg
     license: CC BY-SA 4.0
@@ -82,6 +86,7 @@ images:
     rights_status: open
     caption: Rosa ‘Airbrush’ (Kordes, 2013), PAN Botanical Garden in Warsaw, Poland.
     depicts: null
+    review_status: rejected
   - file: assets/airbrush/Rosa_Airbrush_2018-07-10_5664.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Rosa_Airbrush_2018-07-10_5664.jpg
     license: CC BY-SA 4.0
@@ -89,6 +94,7 @@ images:
     rights_status: open
     caption: Rosa ‘Airbrush’ (Kordes, 2013), PAN Botanical Garden in Warsaw, Poland.
     depicts: null
+    review_status: rejected
   - file: assets/airbrush/Rosa_Airbrush_2018-07-10_5663.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Rosa_Airbrush_2018-07-10_5663.jpg
     license: CC BY-SA 4.0
@@ -96,6 +102,7 @@ images:
     rights_status: open
     caption: Rosa ‘Airbrush’ (Kordes, 2013), PAN Botanical Garden in Warsaw, Poland.
     depicts: null
+    review_status: rejected
   - file: assets/airbrush/Rosa_Airbrush_2018-07-10_5666.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Rosa_Airbrush_2018-07-10_5666.jpg
     license: CC BY-SA 4.0
@@ -103,6 +110,7 @@ images:
     rights_status: open
     caption: Rosa ‘Airbrush’ (Kordes, 2013), PAN Botanical Garden in Warsaw, Poland.
     depicts: null
+    review_status: rejected
   - file: assets/airbrush/Rosarium_Baden_Rosa_Airbrush_Kordes_2013_01.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Rosarium_Baden_Rosa_%27Airbrush%27_Kordes_2013_01.jpg
     license: CC BY-SA 4.0
@@ -110,6 +118,7 @@ images:
     rights_status: open
     caption: "Rosarium Baden: Rosa 'Airbrush' , W. Kordes &amp; Söhne (2013)"
     depicts: null
+    review_status: rejected
   - file: assets/airbrush/Rosarium_Baden_Rosa_Airbrush_Kordes_2013_02.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Rosarium_Baden_Rosa_%27Airbrush%27_Kordes_2013_02.jpg
     license: CC BY-SA 4.0
@@ -117,6 +126,7 @@ images:
     rights_status: open
     caption: "Rosarium Baden: Rosa 'Airbrush' , W. Kordes &amp; Söhne (2013)"
     depicts: null
+    review_status: rejected
   - file: assets/airbrush/A_boy_with_the_fruits_of_depression.jpg
     source_url: https://commons.wikimedia.org/wiki/File:A_boy_with_the_fruits_of_depression.jpg
     license: CC BY-SA 4.0
@@ -128,6 +138,7 @@ images:
       frame of this painting is also made crooked. By purchasing the token of
       this paintin"
     depicts: null
+    review_status: pending
   - file: assets/airbrush/Old_rusty_mouth_airbrush_from_Botevgrad_Bulgaria.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Old_rusty_mouth_airbrush_from_Botevgrad,_Bulgaria.jpg
     license: CC BY-SA 4.0
@@ -139,6 +150,7 @@ images:
       tube at the end of the blowing one, perpendicular to it and going inside
       the can. Th
     depicts: null
+    review_status: pending
 todo:
   - names.variants
   - summary
@@ -160,3 +172,21 @@ provenance:
       url: https://commons.wikimedia.org/w/index.php?search=airbrush
       accessed: 2026-08-23
       note: "query: airbrush"
+  guide:
+    - source: editorial
+      reviewed: false
+      note: Visual interpretation and practical design guidance; not a historical
+        attribution.
+guide:
+  dek: Soft tonal transitions and precise masks create polished volume with an
+    almost seamless surface.
+  signature:
+    - Feathered edges
+    - Specular highlights
+    - Smooth tonal modelling
+  application: Pair a soft image with sharply defined type for contrast.
+  caution: A digital gradient can imitate the appearance without sharing the process.
+  compare:
+    - art-deco
+    - synthwave
+featured_image: https://commons.wikimedia.org/wiki/File:PaascheAirbrush.jpg

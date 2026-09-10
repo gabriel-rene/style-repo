@@ -61,6 +61,7 @@ for (const { doc } of entries) {
       license: `V&A non-commercial terms (${VAM_TERMS_URL})`,
       attribution: `${maker ? maker + ', ' : ''}"${title}"${r._primaryDate ? ', ' + r._primaryDate : ''}. © Victoria and Albert Museum, London`,
       rights_status: 'restricted',
+      review_status: 'pending',
       caption: [title, r._primaryDate, r._primaryPlace].filter(Boolean).join(', '),
       depicts: null,
     });

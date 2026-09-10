@@ -1,6 +1,6 @@
 id: art-deco
 term_type: style
-status: stub
+status: draft
 names:
   primary: Art Deco
   variants:
@@ -11,22 +11,27 @@ names:
     - Jazz Modern
     - Moderne
     - Style Moderne
-summary: Refers to the style predominently of architecture and the decorative
-  arts, widely disseminated in Europe and the United States in the 1920s and
-  1930s, which became popular after the Exposition Internationale des Arts
-  Décoratifs et Modernes in Paris in 1925. The style is characterized by a
-  synthesis of industrial and fine arts materials used to create a wide variety
-  of both man-made and mass-produced objects, often with an emphasis on
-  rectilinear motifs, vibrant colors, and elegant, abstracted, simplified forms.
+summary: Art Deco graphic design brought geometric stylization, monumental scale
+  and polished volume to commercial communication. Transport and product posters
+  often treated lettering and imagery as parts of a single architectural
+  composition. Pictorial modernism and Streamline Moderne are related contexts,
+  not exact substitutes for the term.
 external_ids:
   getty_aat: aat:300021426
   wikidata: null # TODO
 
 facets:
   era:
-    periods: [] # TODO: harvest
+    periods:
+      - label: Approximate active period
+        role: active
+        start_year: 1920
+        end_year: 1939
+        approximate: true
   geography:
-    origin_places: [] # TODO: harvest
+    origin_places:
+      - label: France and international contexts
+        wikidata: null
     spread: [] # TODO — spread is broad; harvest
   lineage:
     parents: [] # TODO
@@ -56,7 +61,11 @@ facets:
     first_observed: null
     review_due: null
   practitioners:
-    people: [] # HARVEST-ONLY
+    people:
+      - name: A. M. Cassandre
+        wikidata: null
+      - name: Charles Peignot
+        wikidata: null
     studios: []
 
 images:
@@ -69,6 +78,7 @@ images:
       Serruys (1873-1953) - Tuin van het O.C.M.W. in Menen (België) - Stijl:Art
       Deco - Foto Paul Gosselin 2012
     depicts: null
+    review_status: pending
   - file: assets/art-deco/20er_ArtDeco.png
     source_url: https://commons.wikimedia.org/wiki/File:20er_ArtDeco.png
     license: CC BY 4.0
@@ -76,6 +86,7 @@ images:
     rights_status: open
     caption: Möbel des Art Deco
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2012FE8115/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O107751
@@ -86,6 +97,7 @@ images:
     rights_status: restricted
     caption: "Art Deco: French Decorative arts in the Twenties, 1972, UK"
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2012FE8113/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O107750
@@ -96,6 +108,7 @@ images:
     rights_status: restricted
     caption: "Art Deco: French Decorative arts in the Twenties, 1972, UK"
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2010EJ2299/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O152349
@@ -105,6 +118,7 @@ images:
     rights_status: restricted
     caption: Clock, ca. 1935, Shanghai
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2026PP9772/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O1820167
@@ -115,6 +129,7 @@ images:
     rights_status: restricted
     caption: Art Deco Interior, ca. 1945 - 1955, Great Britain
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2008BT9054/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O198636
@@ -125,6 +140,7 @@ images:
     rights_status: restricted
     caption: Wallpaper, Early 20th century, United States
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2006AL4799/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O1103502
@@ -135,6 +151,7 @@ images:
     rights_status: restricted
     caption: Exposition Internationale des Arts Décoratifs, Paris, 1925, 1925, France
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://www.moma.org/media/W1siZiIsIjMyNDU4NSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=e70fb75400942c23
     source_url: https://www.moma.org/collection/works/192193
@@ -150,6 +167,7 @@ images:
       Band, Cs.V. Workshop Band, Atlantis Bear Funeral (Atlantisz Medvetor)
       Performances concert). 1986. Lithograph
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2006AL4801/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O1103503
@@ -160,6 +178,7 @@ images:
     rights_status: restricted
     caption: Exposition Internationale des Arts Décoratifs, Paris, 1925, 1925, France
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2008BT6849/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O192358
@@ -170,6 +189,7 @@ images:
     rights_status: restricted
     caption: Print, 1935, England
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2006AM3815/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O3059
@@ -179,6 +199,7 @@ images:
     rights_status: restricted
     caption: Art Deco, 1967-1981, Torrington
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2008BT6986/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O198639
@@ -189,6 +210,7 @@ images:
     rights_status: restricted
     caption: Wallpaper, Early 20th century, United States
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2025PG3376/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O175840
@@ -199,6 +221,7 @@ images:
     rights_status: restricted
     caption: "Paris, 1925 : Exposition Internationale des Arts Décoratifs, 1925, France"
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2008BT6985/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O198637
@@ -209,14 +232,12 @@ images:
     rights_status: restricted
     caption: Wallpaper, Early 20th century, United States
     depicts: null
+    review_status: pending
 
 todo:
   - external_ids
-  - facets.era.periods
-  - facets.geography
   - facets.lineage
   - facets.revival
-  - facets.practitioners
 
 provenance:
   facets.formal_properties:
@@ -233,9 +254,12 @@ provenance:
       accessed: 2026-08-23
       method: exact-label-match
   summary:
-    - source: getty-aat
-      url: https://vocab.getty.edu/aat/300021426
-      accessed: 2026-08-23
+    - source: research-note
+      url: https://docs.google.com/document/d/1KK3Jpu_uVfU7CJ3WykzY8IU8bvWV7SM_SAPWmRy1joc/edit
+      accessed: 2026-09-09
+      note: Adapted from user-supplied Graphic Design Movements 1850-2000. Period
+        bounds are approximate contextual ranges; not independently verified in
+        every case.
   names.variants:
     - source: getty-aat
       url: https://vocab.getty.edu/aat/300021426
@@ -253,3 +277,41 @@ provenance:
       url: https://github.com/MuseumofModernArt/collection
       accessed: 2026-08-23
       note: "title contains: art deco"
+  guide:
+    - source: editorial
+      reviewed: false
+      note: Visual interpretation and practical design guidance; not a historical
+        attribution.
+  facets.era.periods:
+    - source: research-note
+      url: https://docs.google.com/document/d/1KK3Jpu_uVfU7CJ3WykzY8IU8bvWV7SM_SAPWmRy1joc/edit
+      accessed: 2026-09-09
+      note: Adapted from user-supplied Graphic Design Movements 1850-2000. Period
+        bounds are approximate contextual ranges; not independently verified in
+        every case.
+  facets.geography.origin_places:
+    - source: research-note
+      url: https://docs.google.com/document/d/1KK3Jpu_uVfU7CJ3WykzY8IU8bvWV7SM_SAPWmRy1joc/edit
+      accessed: 2026-09-09
+      note: Adapted from user-supplied Graphic Design Movements 1850-2000. Period
+        bounds are approximate contextual ranges; not independently verified in
+        every case.
+  facets.practitioners.people:
+    - source: research-note
+      url: https://docs.google.com/document/d/1KK3Jpu_uVfU7CJ3WykzY8IU8bvWV7SM_SAPWmRy1joc/edit
+      accessed: 2026-09-09
+      note: Adapted from user-supplied Graphic Design Movements 1850-2000. Period
+        bounds are approximate contextual ranges; not independently verified in
+        every case.
+guide:
+  dek: Geometric ornament and stylized volume give the page a monumental,
+    carefully staged presence.
+  signature:
+    - Stepped silhouettes
+    - Architectural lettering
+    - Balanced geometric ornament
+  application: Build the composition around one commanding shape and a compact palette.
+  caution: Avoid treating every geometric composition as Art Deco.
+  compare:
+    - streamline-moderne
+    - art-nouveau

@@ -1,18 +1,30 @@
 id: new-wave-typography
 term_type: style
-status: stub
+status: draft
 names:
   primary: New Wave typography
-  variants: []
-summary: null
+  variants:
+    - Swiss Punk
+summary: New Wave typography experimented with the conventions of modernist
+  typesetting through altered spacing, layering and unexpected relationships
+  between text and image. April Greiman carried a Swiss training into a practice
+  that embraced digital tools. Her 1986 Design Quarterly issue is a useful
+  primary collection reference for this transition.
 external_ids:
   getty_aat: null
   wikidata: null
 facets:
   era:
-    periods: []
+    periods:
+      - label: Approximate active period
+        role: active
+        start_year: 1968
+        end_year: 1989
+        approximate: true
   geography:
-    origin_places: []
+    origin_places:
+      - label: Basel and the United States
+        wikidata: null
     spread: []
   lineage:
     parents: []
@@ -45,18 +57,19 @@ facets:
     first_observed: null
     review_due: null
   practitioners:
-    people: []
+    people:
+      - name: Wolfgang Weingart
+        wikidata: null
+      - name: April Greiman
+        wikidata: null
+      - name: Dan Friedman
+        wikidata: null
     studios: []
 images: []
 todo:
-  - names.variants
-  - summary
   - external_ids
-  - facets.era.periods
-  - facets.geography
   - facets.lineage
   - facets.lifecycle
-  - facets.practitioners
   - images
 provenance:
   facets.formal_properties:
@@ -68,3 +81,59 @@ provenance:
   facets.commercial_context:
     - source: editorial
       reviewed: false
+  guide:
+    - source: editorial
+      reviewed: false
+      note: Visual interpretation and practical design guidance; not a historical
+        attribution.
+  summary:
+    - source: research-note
+      url: https://docs.google.com/document/d/1KK3Jpu_uVfU7CJ3WykzY8IU8bvWV7SM_SAPWmRy1joc/edit
+      accessed: 2026-09-09
+      note: Adapted from user-supplied Graphic Design Movements 1850-2000. Period
+        bounds are approximate contextual ranges; not independently verified in
+        every case.
+    - source: moma
+      url: https://www.moma.org/collection/works/172729
+      accessed: 2026-09-09
+      note: Greiman’s Swiss training, digital practice, and 1986 work.
+  facets.era.periods:
+    - source: research-note
+      url: https://docs.google.com/document/d/1KK3Jpu_uVfU7CJ3WykzY8IU8bvWV7SM_SAPWmRy1joc/edit
+      accessed: 2026-09-09
+      note: Adapted from user-supplied Graphic Design Movements 1850-2000. Period
+        bounds are approximate contextual ranges; not independently verified in
+        every case.
+  facets.geography.origin_places:
+    - source: research-note
+      url: https://docs.google.com/document/d/1KK3Jpu_uVfU7CJ3WykzY8IU8bvWV7SM_SAPWmRy1joc/edit
+      accessed: 2026-09-09
+      note: Adapted from user-supplied Graphic Design Movements 1850-2000. Period
+        bounds are approximate contextual ranges; not independently verified in
+        every case.
+  facets.practitioners.people:
+    - source: research-note
+      url: https://docs.google.com/document/d/1KK3Jpu_uVfU7CJ3WykzY8IU8bvWV7SM_SAPWmRy1joc/edit
+      accessed: 2026-09-09
+      note: Adapted from user-supplied Graphic Design Movements 1850-2000. Period
+        bounds are approximate contextual ranges; not independently verified in
+        every case.
+  names.variants:
+    - source: research-note
+      url: https://docs.google.com/document/d/1KK3Jpu_uVfU7CJ3WykzY8IU8bvWV7SM_SAPWmRy1joc/edit
+      accessed: 2026-09-09
+      note: Adapted from user-supplied Graphic Design Movements 1850-2000. Period
+        bounds are approximate contextual ranges; not independently verified in
+        every case.
+guide:
+  dek: A disciplined typographic foundation is stretched through layering, altered
+    spacing and unconventional reading paths.
+  signature:
+    - Expanded letterspacing
+    - Overlapping planes
+    - Disrupted baselines
+  application: Establish a readable base, then choose exactly where to interrupt it.
+  caution: If everything is disrupted, the intended contrast disappears.
+  compare:
+    - postmodern-graphic-design
+    - grunge-typography

@@ -1,49 +1,51 @@
 id: brutalist-web-design
 term_type: style
-status: stub
+status: draft
 names:
   primary: Brutalist web design
-  variants: []             # TODO: harvest
-summary: null              # TODO
+  variants: [] # TODO: harvest
+summary: null # TODO
 external_ids:
-  getty_aat: null          # likely absent — record null result in Phase 3
-  wikidata: null           # TODO
+  getty_aat: null # likely absent — record null result in Phase 3
+  wikidata: null # TODO
 
 facets:
   era:
-    periods: []            # TODO: harvest
+    periods: [] # TODO: harvest
   geography:
-    origin_places: []      # TODO — likely web-native, may stay empty
+    origin_places: [] # TODO — likely web-native, may stay empty
     spread: []
   lineage:
-    parents: []            # TODO
-    influences: []         # NOTE: relation to architectural brutalism is a
-                           # contested factual claim — harvest, don't assume
+    parents: [] # TODO
+    influences: []
+      # NOTE: relation to architectural brutalism is a
+      # contested factual claim — harvest, don't assume
     influenced: []
-    reacted_against: []    # TODO: harvest
+    reacted_against: [] # TODO: harvest
     revival_of: []
   production:
     apparatus: []
     techniques: []
-  formal_properties:       # editorial, unreviewed
+  formal_properties:
+    # editorial, unreviewed
     grid_discipline: broken
-    palette_logic: {descriptor: restricted, note: "defaults-as-palette; system colors"}
+    palette_logic: { descriptor: restricted, note: "defaults-as-palette; system colors" }
     contrast: high
     texture: flat
     hierarchy: chaotic
     ornament_level: none
-  ideological_stance: expressive   # editorial, unreviewed — anti-polish as statement
+  ideological_stance: expressive # editorial, unreviewed — anti-polish as statement
   commercial_context:
-    contexts: [web-ui, editorial]  # editorial, unreviewed
+    contexts: [ web-ui, editorial ] # editorial, unreviewed
   revival:
     status: null
     revivals: []
   lifecycle:
-    state: null            # TODO — your call (residual? revived?)
+    state: null # TODO — your call (residual? revived?)
     first_observed: null
     review_due: null
   practitioners:
-    people: []             # HARVEST-ONLY
+    people: [] # HARVEST-ONLY
     studios: []
 
 images: []
@@ -60,8 +62,26 @@ todo:
 
 provenance:
   facets.formal_properties:
-    - {source: editorial, reviewed: false}
+    - { source: editorial, reviewed: false }
   facets.ideological_stance:
-    - {source: editorial, reviewed: false}
+    - { source: editorial, reviewed: false }
   facets.commercial_context:
-    - {source: editorial, reviewed: false}
+    - { source: editorial, reviewed: false }
+  guide:
+    - source: editorial
+      reviewed: false
+      note: Visual interpretation and practical design guidance; not a historical
+        attribution.
+guide:
+  dek: Exposed structure, blunt typography and deliberately plain controls give
+    the interface a direct, unvarnished character.
+  signature:
+    - Visible page structure
+    - Hard edges
+    - Unembellished links
+  application: Keep navigation, focus states and reading order predictable.
+  caution: Intentional roughness is no excuse for inaccessible controls or broken
+    layouts.
+  compare:
+    - minimalism
+    - postmodern-graphic-design

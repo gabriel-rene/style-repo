@@ -1,18 +1,29 @@
 id: constructivism
 term_type: movement
-status: stub
+status: draft
 names:
   primary: Constructivism
   variants: []
-summary: null
+summary: Constructivist graphic communication connected experimental form with
+  social and political purposes. Diagonal structures, bold typography and
+  photographic montage recur in posters and publications. Constructivism,
+  Productivism and agitprop overlap historically but describe different things;
+  they are not stored as synonyms here.
 external_ids:
   getty_aat: null
   wikidata: null
 facets:
   era:
-    periods: []
+    periods:
+      - label: Approximate active period
+        role: active
+        start_year: 1917
+        end_year: 1933
+        approximate: true
   geography:
-    origin_places: []
+    origin_places:
+      - label: Russia and the Soviet Union
+        wikidata: null
     spread: []
   lineage:
     parents: []
@@ -46,7 +57,17 @@ facets:
     first_observed: null
     review_due: null
   practitioners:
-    people: []
+    people:
+      - name: El Lissitzky
+        wikidata: null
+      - name: Alexander Rodchenko
+        wikidata: null
+      - name: Varvara Stepanova
+        wikidata: null
+      - name: Gustav Klutsis
+        wikidata: null
+      - name: Vladimir Tatlin
+        wikidata: null
     studios: []
 images:
   - file: null
@@ -58,6 +79,7 @@ images:
     rights_status: restricted
     caption: Nikke, ca. 1935, Japan
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2016JN1722/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O1364138
@@ -70,6 +92,7 @@ images:
     caption: Poster to commemorate the 50th anniversary of the National Theatre,
       designed by Paula Scher, 2013, Great Britain
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2017JT4101/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O1375307
@@ -80,6 +103,7 @@ images:
     rights_status: restricted
     caption: Austerity and Socialist Strategy, 2015, London
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2017JT4097/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O1375306
@@ -90,6 +114,7 @@ images:
     rights_status: restricted
     caption: How Capitalism Survives, 2014, London
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2017JT4186/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O1375308
@@ -100,6 +125,7 @@ images:
     rights_status: restricted
     caption: Limits, Barriers and Borders, 2016, London
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2017JT4102/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O1375305
@@ -110,6 +136,7 @@ images:
     rights_status: restricted
     caption: Making the World Working Class, 2013, London
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://www.moma.org/media/W1siZiIsIjIxMDU4MSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=8989fe7e109f7d11
     source_url: https://www.moma.org/collection/works/12867
@@ -120,6 +147,7 @@ images:
     rights_status: restricted
     caption: Konstruktivizm (Constructivism). 1922. Book with letterpress cover
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://www.moma.org/media/W1siZiIsIjExNjcyMiJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=2fed85ff1ef8c0e1
     source_url: https://www.moma.org/collection/works/96617
@@ -132,15 +160,11 @@ images:
     caption: A Constructive Constructivism. 2003. Pencil, colored ink, correction
       fluid, and gouache with cut-and-pasted paper on paper
     depicts: null
+    review_status: pending
 todo:
-  - names.variants
-  - summary
   - external_ids
-  - facets.era.periods
-  - facets.geography
   - facets.lineage
   - facets.lifecycle
-  - facets.practitioners
 provenance:
   facets.formal_properties:
     - source: editorial
@@ -160,3 +184,48 @@ provenance:
       url: https://github.com/MuseumofModernArt/collection
       accessed: 2026-08-23
       note: "title contains: constructivism"
+  guide:
+    - source: editorial
+      reviewed: false
+      note: Visual interpretation and practical design guidance; not a historical
+        attribution.
+  summary:
+    - source: research-note
+      url: https://docs.google.com/document/d/1KK3Jpu_uVfU7CJ3WykzY8IU8bvWV7SM_SAPWmRy1joc/edit
+      accessed: 2026-09-09
+      note: Adapted from user-supplied Graphic Design Movements 1850-2000. Period
+        bounds are approximate contextual ranges; not independently verified in
+        every case.
+  facets.era.periods:
+    - source: research-note
+      url: https://docs.google.com/document/d/1KK3Jpu_uVfU7CJ3WykzY8IU8bvWV7SM_SAPWmRy1joc/edit
+      accessed: 2026-09-09
+      note: Adapted from user-supplied Graphic Design Movements 1850-2000. Period
+        bounds are approximate contextual ranges; not independently verified in
+        every case.
+  facets.geography.origin_places:
+    - source: research-note
+      url: https://docs.google.com/document/d/1KK3Jpu_uVfU7CJ3WykzY8IU8bvWV7SM_SAPWmRy1joc/edit
+      accessed: 2026-09-09
+      note: Adapted from user-supplied Graphic Design Movements 1850-2000. Period
+        bounds are approximate contextual ranges; not independently verified in
+        every case.
+  facets.practitioners.people:
+    - source: research-note
+      url: https://docs.google.com/document/d/1KK3Jpu_uVfU7CJ3WykzY8IU8bvWV7SM_SAPWmRy1joc/edit
+      accessed: 2026-09-09
+      note: Adapted from user-supplied Graphic Design Movements 1850-2000. Period
+        bounds are approximate contextual ranges; not independently verified in
+        every case.
+guide:
+  dek: Heavy typography, diagonals and geometric structures make a page feel
+    active and forceful.
+  signature:
+    - Diagonal axes
+    - Photographic fragments
+    - Type used as structure
+  application: Use one dominant directional axis to organize contrasting scales.
+  caution: A red-and-black palette is not enough; structure carries the composition.
+  compare:
+    - suprematism
+    - new-typography

@@ -1,0 +1,246 @@
+---
+import { loadAll, facetDimensions, typeLabel } from "../lib/data.js";
+import TermCard from "./TermCard.astro";
+const { expanded = false } = Astro.props;
+const { terms } = loadAll();
+const sorted = [...terms].sort((a, b) =>
+  a.names.primary.localeCompare(b.names.primary),
+);
+const types = [...new Set(terms.map((t) => t.term_type))];
+const dims = facetDimensions().filter(
+  (d) => d.dim !== "term_type" && d.dim !== "lifecycle",
+);
+const tags = Object.fromEntries(
+  terms.map((t) => [
+    t.id,
+    dims.flatMap((d) =>
+      [...d.values.entries()]
+        .filter(([, ids]) => ids.has(t.id))
+        .map(([v]) => `${d.dim}:${v}`),
+    ),
+  ]),
+);
+---
+
+<section id="library" class="library">
+  <div class="library-heading">
+    <h2>
+      {expanded ? "Find your visual language." : "Explore the index."}
+      <sup>{terms.length}</sup>
+    </h2>
+    <a href="/compare/">Compare styles ↗</a>
+  </div>
+  <div class="library-toolbar">
+    <label class="search-field">
+      <span aria-hidden="true">⌕</span>
+      <input
+        type="search"
+        id="style-search"
+        aria-label="Search styles"
+        placeholder="Search styles, characteristics, or techniques…"
+        autocomplete="off"
+      />
+      <kbd>/</kbd>
+    </label>
+    <label class="sort-control">
+      Sort by
+      <select id="style-sort">
+        <option value="name">Name A–Z</option>
+        <option value="era">Earliest first</option>
+      </select>
+    </label>
+    <div class="view-control" role="group" aria-label="Display layout">
+      <button data-view="grid" aria-pressed="true">
+        Grid
+      </button>
+      <button data-view="list" aria-pressed="false">
+        List
+      </button>
+    </div>
+  </div>
+  <div class="library-layout">
+    <aside class="library-sidebar">
+      <div class="sidebar-title">Browse by type</div>
+      <div class="type-filters" role="group" aria-label="Filter by type">
+        <button data-filter="all" aria-pressed="true">
+          All entries<span>{terms.length}</span>
+        </button>
+        {types.map((type) => (
+          <button data-filter={type} aria-pressed="false">
+            {typeLabel(type)}
+            <span>{terms.filter((t) => t.term_type === type).length}</span>
+          </button>
+        ))}
+        <button data-filter="saved" aria-pressed="false">
+          Saved styles<span aria-hidden="true">↗</span>
+        </button>
+      </div>
+      <details class="facet-disclosure" open={expanded}>
+        <summary>
+          Refine by character <span>+</span>
+        </summary>
+        <form id="facet-form">
+          {dims.map((d) => (
+            <fieldset>
+              <legend>{d.label}</legend>
+              {[...d.values.entries()].sort().map(([v, ids]) => (
+                <label>
+                  <input type="checkbox" name={d.dim} value={`${d.dim}:${v}`} />
+                  {v.replaceAll("-", " ")}
+                  <span>{ids.size}</span>
+                </label>
+              ))}
+            </fieldset>
+          ))}
+        </form>
+      </details>
+      <button id="reset-filters" class="text-button">
+        Reset filters ↺
+      </button>
+      <p class="sidebar-note">
+        Movements describe a context.
+        <br />
+        Styles describe a visual language.
+        <br />
+        Techniques describe a process.
+      </p>
+    </aside>
+    <div class="library-results">
+      <div class="results-meta">
+        <span id="result-count" role="status" aria-live="polite">
+          {terms.length} entries
+        </span>
+        <span>Graphic design / Illustration / Type</span>
+      </div>
+      <div class="grid" id="style-grid">
+        {sorted.map((term, index) => (
+          <div class="card-cell" data-tags={tags[term.id].join("|")}>
+            <TermCard term={term} index={index} />
+          </div>
+        ))}
+      </div>
+      <div class="empty-results" id="empty-results" hidden>
+        <h3>No matching styles.</h3>
+        <p>Try a broader search or remove a filter.</p>
+        <button class="button" id="empty-reset">
+          Clear all filters ↗
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+<script>
+  const search = document.querySelector<HTMLInputElement>("#style-search")!;
+  const sort = document.querySelector<HTMLSelectElement>("#style-sort")!;
+  const grid = document.querySelector<HTMLElement>("#style-grid")!;
+  const cells = [...grid.querySelectorAll<HTMLElement>(".card-cell")];
+  const filters = [
+    ...document.querySelectorAll<HTMLButtonElement>("[data-filter]"),
+  ];
+  const boxes = [
+    ...document.querySelectorAll<HTMLInputElement>("#facet-form input"),
+  ];
+  const params = new URLSearchParams(location.search);
+  let selected = params.get("type") ?? "all";
+  if (!filters.some((b) => b.dataset.filter === selected)) selected = "all";
+  search.value = params.get("q") ?? "";
+  sort.value = params.get("sort") === "era" ? "era" : "name";
+  boxes.forEach((b) => (b.checked = params.getAll("facet").includes(b.value)));
+  const update = () => {
+    const query = search.value.toLowerCase().trim();
+    const dimensions = new Map<string, string[]>();
+    boxes
+      .filter((b) => b.checked)
+      .forEach((b) =>
+        dimensions.set(b.name, [...(dimensions.get(b.name) ?? []), b.value]),
+      );
+    let saved: string[] = [];
+    try {
+      const s = JSON.parse(localStorage.getItem("style-index-saved") || "[]");
+      if (Array.isArray(s)) saved = s;
+    } catch {}
+    let count = 0;
+    cells.forEach((cell) => {
+      const card = cell.querySelector<HTMLElement>("[data-card]")!;
+      const tags = cell.dataset.tags!.split("|");
+      const show =
+        (selected === "all" ||
+          selected === card.dataset.type ||
+          (selected === "saved" && saved.includes(card.dataset.id!))) &&
+        query
+          .split(/\s+/)
+          .every((word) => card.dataset.search!.includes(word)) &&
+        [...dimensions.values()].every((values) =>
+          values.some((v) => tags.includes(v)),
+        );
+      cell.hidden = !show;
+      if (show) count++;
+    });
+    cells
+      .sort((a, b) => {
+        const x = a.querySelector<HTMLElement>("[data-card]")!.dataset,
+          y = b.querySelector<HTMLElement>("[data-card]")!.dataset;
+        return (
+          (sort.value === "era" ? Number(x.year) - Number(y.year) : 0) ||
+          x.name!.localeCompare(y.name!)
+        );
+      })
+      .forEach((c) => grid.append(c));
+    filters.forEach((b) =>
+      b.setAttribute("aria-pressed", String(b.dataset.filter === selected)),
+    );
+    document.querySelector("#result-count")!.textContent =
+      `${count} ${count === 1 ? "entry" : "entries"}`;
+    document.querySelector<HTMLElement>("#empty-results")!.hidden = count > 0;
+    const p = new URLSearchParams();
+    if (query) p.set("q", search.value);
+    if (selected !== "all") p.set("type", selected);
+    if (sort.value === "era") p.set("sort", "era");
+    boxes.filter((b) => b.checked).forEach((b) => p.append("facet", b.value));
+    history.replaceState(
+      null,
+      "",
+      `${location.pathname}${p.size ? "?" + p : ""}${location.hash}`,
+    );
+  };
+  const reset = () => {
+    search.value = "";
+    selected = "all";
+    sort.value = "name";
+    boxes.forEach((b) => (b.checked = false));
+    update();
+  };
+  filters.forEach((b) =>
+    b.addEventListener("click", () => {
+      selected = b.dataset.filter!;
+      update();
+    }),
+  );
+  search.addEventListener("input", update);
+  sort.addEventListener("change", update);
+  boxes.forEach((b) => b.addEventListener("change", update));
+  document.querySelector("#reset-filters")!.addEventListener("click", reset);
+  document.querySelector("#empty-reset")!.addEventListener("click", reset);
+  document.addEventListener("saved-changed", update);
+  document.querySelectorAll<HTMLButtonElement>("[data-view]").forEach((b) =>
+    b.addEventListener("click", () => {
+      grid.classList.toggle("list-view", b.dataset.view === "list");
+      document
+        .querySelectorAll("[data-view]")
+        .forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
+    }),
+  );
+  document.addEventListener("keydown", (e) => {
+    if (
+      e.key === "/" &&
+      !["INPUT", "TEXTAREA", "SELECT"].includes(
+        (e.target as HTMLElement).tagName,
+      ) &&
+      !(e.target as HTMLElement).isContentEditable
+    ) {
+      e.preventDefault();
+      search.focus();
+    }
+  });
+  update();
+</script>

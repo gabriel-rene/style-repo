@@ -1,0 +1,141 @@
+---
+import Base from "../layouts/Base.astro";
+import { loadAll, description, typeLabel, eraSpan } from "../lib/data.js";
+const { terms } = loadAll();
+const sorted = [...terms].sort((a, b) =>
+  a.names.primary.localeCompare(b.names.primary),
+);
+---
+
+<Base title="Compare" current="compare">
+  <header class="page-heading">
+    <p class="meta">Look closer, side by side</p>
+    <h1>
+      Similar is not the same<span class="red-period">.</span>
+    </h1>
+    <p>
+      Compare visual signatures, composition and practical considerations.
+      Shared features do not imply shared origins.
+    </p>
+  </header>
+  <div class="compare-controls">
+    {["left", "right"].map((side, i) => (
+      <label>
+        {i === 0 ? "First entry" : "Second entry"}
+        <select id={`compare-${side}`}>
+          {sorted.map((t) => (
+            <option
+              value={t.id}
+              selected={
+                t.id ===
+                (i === 0 ? "swiss-international-style" : "new-wave-typography")
+              }
+            >
+              {t.names.primary}
+            </option>
+          ))}
+        </select>
+      </label>
+    ))}
+  </div>
+  <p id="compare-status" class="meta" role="status" aria-live="polite"></p>
+  <div class="compare-grid">
+    {["left", "right"].map((side) => (
+      <div>
+        {sorted.map((t) => {
+          const span = eraSpan(t),
+            formal =
+              t.facets?.formal_properties ??
+              t.facets?.formal_consequences ??
+              {};
+          return (
+            <article
+              class="comparison-panel"
+              data-side={side}
+              data-term={t.id}
+              hidden={
+                t.id !==
+                (side === "left"
+                  ? "swiss-international-style"
+                  : "new-wave-typography")
+              }
+            >
+              <p class="meta">
+                {typeLabel(t.term_type)}{" "}
+                {span?.start
+                  ? `/ ${span.periods.some((p) => p.approximate) ? "c. " : ""}${span.start}${span.end ? `–${span.end}` : ""}`
+                  : ""}
+              </p>
+              <h2>
+                <a href={`/term/${t.id}/`}>{t.names.primary} ↗</a>
+              </h2>
+              <p>{description(t)}</p>
+              <h3>Visual signature</h3>
+              <ol class="signature-list">
+                {t.guide?.signature?.map((s) => (
+                  <li>{s}</li>
+                ))}
+              </ol>
+              <h3>Characteristics</h3>
+              <dl class="formal-grid">
+                {Object.entries(formal)
+                  .filter(([, v]) => v !== null)
+                  .map(([k, v]) => (
+                    <div>
+                      <dt>{k.replaceAll("_", " ")}</dt>
+                      <dd>
+                        {String(
+                          typeof v === "object" ? v.descriptor : v,
+                        ).replaceAll("-", " ")}
+                      </dd>
+                    </div>
+                  ))}
+              </dl>
+              <h3>In practice</h3>
+              <p>{t.guide?.application}</p>
+              <div class="reference-note">{t.guide?.caution}</div>
+            </article>
+          );
+        })}
+      </div>
+    ))}
+  </div>
+  <noscript>
+    <p class="reference-note">
+      Enable JavaScript to change the two entries. The default comparison
+      remains available below the selectors.
+    </p>
+  </noscript>
+  <script>
+    const left = document.querySelector<HTMLSelectElement>("#compare-left")!,
+      right = document.querySelector<HTMLSelectElement>("#compare-right")!;
+    const params = new URLSearchParams(location.search);
+    for (const [side, select] of [
+      ["left", left],
+      ["right", right],
+    ] as const) {
+      const value = params.get(side);
+      if (value && [...select.options].some((o) => o.value === value))
+        select.value = value;
+    }
+    function update() {
+      document
+        .querySelectorAll<HTMLElement>("[data-side]")
+        .forEach(
+          (p) =>
+            (p.hidden =
+              p.dataset.term !==
+              (p.dataset.side === "left" ? left.value : right.value)),
+        );
+      document.querySelector("#compare-status")!.textContent =
+        left.value === right.value
+          ? "You are comparing the same entry. Choose another to see the differences."
+          : "";
+      const p = new URLSearchParams({ left: left.value, right: right.value });
+      history.replaceState(null, "", `?${p}`);
+    }
+    left.addEventListener("change", update);
+    right.addEventListener("change", update);
+    update();
+  </script>
+</Base>

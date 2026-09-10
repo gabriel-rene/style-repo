@@ -1,0 +1,118 @@
+id: socialist-realism
+term_type: movement
+secondary_types:
+  - style
+status: draft
+names:
+  primary: Socialist Realism
+  variants: []
+summary: Socialist Realism was an officially sanctioned Soviet artistic doctrine
+  that shaped posters as well as painting and other media. Its visual
+  communication often centered legible narratives, idealized figures and the
+  celebration of labor or state goals. Retouched photography could be integrated
+  into a convincing pictorial whole, so the transition from Constructivism was
+  not simply a switch from photographs to painting. It is distinct from Social
+  Realism, a broader term for art concerned with social conditions.
+facets:
+  era:
+    periods:
+      - label: "Exhibition scope: Stalin’s Choice (MoMA); doctrine continued beyond this range"
+        role: active
+        start_year: 1932
+        end_year: 1956
+        approximate: true
+  geography:
+    origin_places:
+      - label: Soviet Union
+        wikidata: null
+  practitioners:
+    people:
+      - name: Viktor Koretsky
+        wikidata: null
+      - name: Vera Gitsevich
+        wikidata: null
+      - name: Boris Knoklok
+        wikidata: null
+    studios: []
+  lineage: {}
+  formal_properties:
+    grid_discipline: moderate
+    palette_logic:
+      descriptor: restricted
+      note: Palette varies by object; red is often symbolic rather than the only
+        color.
+    contrast: high
+    texture: subtle
+    hierarchy: strict
+    ornament_level: moderate
+guide:
+  dek: Idealized figures, emphatic scale and clear narrative framing make a
+    political or civic message immediately legible.
+  signature:
+    - Heroic scale and idealized figures
+    - Clear narrative hierarchy
+    - Unified, carefully retouched imagery
+  application: Study how gaze, gesture and relative scale direct attention toward
+    a central message. Identify the political context and intended audience of
+    each example.
+  caution: Do not confuse Socialist Realism with Social Realism, or label every
+    Soviet poster alike. A visual resemblance alone does not establish doctrine
+    or political intent.
+  compare:
+    - constructivism
+    - wpa-poster-design
+    - photomontage
+works:
+  - title: Shock Workers, to the Battle for Cast Iron (1934)
+    url: https://www.bowdoin.edu/art-museum/pdf/Bowdoin-Constructing-Revolution-checklist.pdf#page=17
+    note: Brigade KGK. Bowdoin’s checklist discusses the move toward idealized,
+      coherent photographic compositions.
+  - title: Sign Up for Nursing Courses (1946)
+    url: https://www.bowdoin.edu/art-museum/pdf/Bowdoin-Constructing-Revolution-checklist.pdf#page=21
+    note: Viktor Koretsky. A documented example of the combination of staged
+      photography and idealizing retouching.
+  - title: "The Motherland Is Calling You (cataloged edition: 1957)"
+    url: https://www.loc.gov/item/95503600/
+    note: Irakli Toidze. The Library of Congress record dates this edition to 1957;
+      do not confuse the edition date with the original design.
+images: []
+todo:
+  - images
+provenance:
+  summary:
+    - source: bowdoin-college-museum-of-art
+      url: https://www.bowdoin.edu/art-museum/pdf/Bowdoin-Constructing-Revolution-checklist.pdf
+      accessed: 2026-09-09
+      note: Poster composition and doctrine, pp. 10, 17 and 21.
+    - source: moma
+      url: https://www.moma.org/collection/terms/social-realism
+      accessed: 2026-09-09
+      note: Related term used to distinguish Social Realism.
+  facets.era.periods:
+    - source: moma
+      url: https://www.moma.org/calendar/exhibitions/4583
+      accessed: 2026-09-09
+      note: The 1932–1956 span is the exhibition’s scope, not the full lifespan of the
+        doctrine.
+  facets.geography.origin_places:
+    - source: moma
+      url: https://www.moma.org/calendar/exhibitions/4583
+      accessed: 2026-09-09
+  facets.practitioners.people:
+    - source: bowdoin-college-museum-of-art
+      url: https://www.bowdoin.edu/art-museum/pdf/Bowdoin-Constructing-Revolution-checklist.pdf
+      accessed: 2026-09-09
+      note: Brigade KGK, p. 17.
+  facets.formal_properties:
+    - source: editorial
+      reviewed: false
+  guide:
+    - source: editorial
+      reviewed: false
+  works:
+    - source: bowdoin-college-museum-of-art
+      url: https://www.bowdoin.edu/art-museum/pdf/Bowdoin-Constructing-Revolution-checklist.pdf
+      accessed: 2026-09-09
+    - source: library-of-congress
+      url: https://www.loc.gov/item/95503600/
+      accessed: 2026-09-09

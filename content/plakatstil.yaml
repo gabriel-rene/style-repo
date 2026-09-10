@@ -1,10 +1,16 @@
 id: plakatstil
 term_type: style
-status: stub
+status: draft
 names:
   primary: Plakatstil
-  variants: []
-summary: null
+  variants:
+    - Sachplakat
+    - Poster style
+summary: Plakatstil reduced advertising posters to a forceful relationship
+  between a product and its name. Instead of surrounding the object with an
+  elaborate narrative, designers emphasized its silhouette, a limited palette
+  and prominent lettering. Sachplakat describes the closely associated
+  object-poster approach.
 external_ids:
   getty_aat: null
   wikidata: Q7200825
@@ -16,7 +22,9 @@ facets:
         start_year: 1906
         end_year: null
   geography:
-    origin_places: []
+    origin_places:
+      - label: Berlin, Germany
+        wikidata: null
     spread: []
   lineage:
     parents: []
@@ -49,17 +57,19 @@ facets:
     first_observed: null
     review_due: null
   practitioners:
-    people: []
+    people:
+      - name: Lucian Bernhard
+        wikidata: null
+      - name: Ludwig Hohlwein
+        wikidata: null
+      - name: Julius Gipkens
+        wikidata: null
     studios: []
 images: []
 todo:
-  - names.variants
-  - summary
   - external_ids
-  - facets.geography
   - facets.lineage
   - facets.lifecycle
-  - facets.practitioners
   - images
 provenance:
   facets.formal_properties:
@@ -81,3 +91,49 @@ provenance:
       url: https://www.wikidata.org/wiki/Q7200825
       accessed: 2026-08-23
       property: P571
+  guide:
+    - source: editorial
+      reviewed: false
+      note: Visual interpretation and practical design guidance; not a historical
+        attribution.
+  summary:
+    - source: research-note
+      url: https://docs.google.com/document/d/1KK3Jpu_uVfU7CJ3WykzY8IU8bvWV7SM_SAPWmRy1joc/edit
+      accessed: 2026-09-09
+      note: Adapted from user-supplied Graphic Design Movements 1850-2000. Period
+        bounds are approximate contextual ranges; not independently verified in
+        every case.
+  facets.geography.origin_places:
+    - source: research-note
+      url: https://docs.google.com/document/d/1KK3Jpu_uVfU7CJ3WykzY8IU8bvWV7SM_SAPWmRy1joc/edit
+      accessed: 2026-09-09
+      note: Adapted from user-supplied Graphic Design Movements 1850-2000. Period
+        bounds are approximate contextual ranges; not independently verified in
+        every case.
+  facets.practitioners.people:
+    - source: research-note
+      url: https://docs.google.com/document/d/1KK3Jpu_uVfU7CJ3WykzY8IU8bvWV7SM_SAPWmRy1joc/edit
+      accessed: 2026-09-09
+      note: Adapted from user-supplied Graphic Design Movements 1850-2000. Period
+        bounds are approximate contextual ranges; not independently verified in
+        every case.
+  names.variants:
+    - source: research-note
+      url: https://docs.google.com/document/d/1KK3Jpu_uVfU7CJ3WykzY8IU8bvWV7SM_SAPWmRy1joc/edit
+      accessed: 2026-09-09
+      note: Adapted from user-supplied Graphic Design Movements 1850-2000. Period
+        bounds are approximate contextual ranges; not independently verified in
+        every case.
+guide:
+  dek: A reduced object and a commanding name make the advertising message
+    immediately recognizable.
+  signature:
+    - Isolated object
+    - Large brand lettering
+    - Uncluttered background
+  application: Choose the single object that best expresses the proposition.
+  caution: Additional decorative elements can weaken the direct object-message
+    relationship.
+  compare:
+    - art-deco
+    - minimalism

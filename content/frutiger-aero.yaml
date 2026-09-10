@@ -1,6 +1,6 @@
 id: frutiger-aero
 term_type: aesthetic # retrospectively-named internet aesthetic
-status: stub
+status: draft
 names:
   primary: Frutiger Aero
   variants: [] # TODO: harvest
@@ -60,6 +60,7 @@ images:
     caption: Close-up of green grass seen from the ground, floating bubbles in the
       air bathed in the sunlight, trees and a yellow sky in the background.
     depicts: null
+    review_status: pending
   - file: assets/frutiger-aero/Frutiger_Aero_4_.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Frutiger_Aero_(4).jpg
     license: CC0
@@ -67,6 +68,7 @@ images:
     rights_status: open
     caption: Artwork depicting Frutiger Aero
     depicts: null
+    review_status: pending
   - file: assets/frutiger-aero/Frutiger_Aero_2_.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Frutiger_Aero_(2).jpg
     license: CC0
@@ -74,6 +76,7 @@ images:
     rights_status: open
     caption: Artwork depicting Frutiger Aero
     depicts: null
+    review_status: pending
   - file: assets/frutiger-aero/Frutiger_Aero_1_.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Frutiger_Aero_(1).jpg
     license: CC0
@@ -81,6 +84,7 @@ images:
     rights_status: open
     caption: Artwork depicting Frutiger Aero
     depicts: null
+    review_status: pending
   - file: assets/frutiger-aero/Frutiger_Aero_3_.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Frutiger_Aero_(3).jpg
     license: CC0
@@ -88,6 +92,7 @@ images:
     rights_status: open
     caption: Artwork depicting Frutiger Aero
     depicts: null
+    review_status: pending
   - file: assets/frutiger-aero/Frutiger_aero-style_wallpaper.png
     source_url: https://commons.wikimedia.org/wiki/File:Frutiger_aero-style_wallpaper.png
     license: Public domain
@@ -95,6 +100,7 @@ images:
     rights_status: open
     caption: Изображение, напоминающее обои для рабочего стола середины 00-х
     depicts: null
+    review_status: pending
   - file: assets/frutiger-aero/Frutiger_aero-style_wallpaper_cropped_.png
     source_url: https://commons.wikimedia.org/wiki/File:Frutiger_aero-style_wallpaper_(cropped).png
     license: Public domain
@@ -102,6 +108,7 @@ images:
     rights_status: open
     caption: Изображение, напоминающее обои для рабочего стола середины 00-х
     depicts: null
+    review_status: pending
   - file: assets/frutiger-aero/Frutiger_Aero_Bubbles_And_Grass-Square.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Frutiger_Aero_Bubbles_And_Grass-Square.jpg
     license: CC0
@@ -110,6 +117,7 @@ images:
     caption: A square version of this excellent Frutiger Aero aesthetic piece, for
       use in user templates. Simply crop it.
     depicts: null
+    review_status: pending
   - file: assets/frutiger-aero/Frutiger_Metro_Type.png
     source_url: https://commons.wikimedia.org/wiki/File:Frutiger_Metro_Type.png
     license: CC0
@@ -119,6 +127,7 @@ images:
       and musical elements on a green background. Includes a speaker with notes
       and a Wikipedia globe
     depicts: null
+    review_status: pending
   - file: assets/frutiger-aero/Frutiger_Aero_Composite.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Frutiger_Aero_Composite.jpg
     license: Public domain
@@ -126,6 +135,7 @@ images:
     rights_status: open
     caption: Frutiger Aero landscape
     depicts: null
+    review_status: pending
   - file: assets/frutiger-aero/Frutiger_aero_icons_-_Beautiful_3D_Business_Icons.png
     source_url: https://commons.wikimedia.org/wiki/File:Frutiger_aero_icons_-_Beautiful_3D_Business_Icons.png
     license: CC0
@@ -133,6 +143,7 @@ images:
     rights_status: open
     caption: frutiger aero icons 3D - Beautiful 3D Business Icons
     depicts: null
+    review_status: pending
 
 todo:
   - names.variants
@@ -164,3 +175,20 @@ provenance:
       url: https://commons.wikimedia.org/w/index.php?search=Frutiger%20Aero%20graphic%20design
       accessed: 2026-08-23
       note: "query: Frutiger Aero graphic design"
+  guide:
+    - source: editorial
+      reviewed: false
+      note: Visual interpretation and practical design guidance; not a historical
+        attribution.
+guide:
+  dek: Glossy, translucent surfaces combine idealized nature with a clean,
+    optimistic digital atmosphere.
+  signature:
+    - Glass-like panels
+    - Water and sky imagery
+    - Soft specular highlights
+  application: Keep translucent layers behind readable, high-contrast controls.
+  caution: A glossy button alone is not a coherent visual world.
+  compare:
+    - skeuomorphism
+    - y2k-aesthetic

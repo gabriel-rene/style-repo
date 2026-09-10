@@ -1,6 +1,6 @@
 id: dada
 term_type: movement
-status: stub
+status: draft
 names:
   primary: Dada
   variants:
@@ -67,6 +67,7 @@ images:
       (Typische Vertikalklitterung als Darstellung des Dada Baargeld), 1920,
       Kunsthaus Zürich, Graphische Sammlung (Ausschnitt/cropped)"
     depicts: null
+    review_status: pending
   - file: assets/dada/Various_Gould_Into_the_wild_2015.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Various_%26_Gould,_Into_the_wild,_2015.jpg
     license: CC BY-SA 4.0
@@ -74,6 +75,7 @@ images:
     rights_status: open
     caption: screenprint acrylic collage on wood, 95 x 65 cm
     depicts: null
+    review_status: pending
   - file: assets/dada/Dada_4-5_Zurich-1919-Collage_et_bois_grav_de_Arp_en_couverture_LB.4-0531_mb.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Dada_4-5_Zurich-1919-Collage_et_bois_grav%C3%A9_de_Arp_en_couverture_LB.4-0531_mb.jpg
     license: CC BY-SA 4.0
@@ -82,6 +84,7 @@ images:
     caption: Jean Hans Arp, bois gravé et collage pour la couverture de Dada 4-5
       (Tristan Tzara dir.), Zurich, 1919
     depicts: null
+    review_status: approved
   - file: assets/dada/Theo_van_Doesburg_and_Kurt_Schwitters_Kleine_Dada_Soir_e_Small_Dada_Evening_1922
     source_url: https://commons.wikimedia.org/wiki/File:Theo_van_Doesburg_and_Kurt_Schwitters,_Kleine_Dada_Soir%C3%A9e_(Small_Dada_Evening),_1922,_NGA_154076.jpg
     license: CC0
@@ -89,6 +92,7 @@ images:
     rights_status: open
     caption: null
     depicts: null
+    review_status: pending
   - file: assets/dada/ClicDADA.jpg
     source_url: https://commons.wikimedia.org/wiki/File:ClicDADA.jpg
     license: CC BY-SA 4.0
@@ -96,6 +100,7 @@ images:
     rights_status: open
     caption: Collage dans le style dada
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2012FJ6233/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O351042
@@ -105,6 +110,7 @@ images:
     rights_status: restricted
     caption: Shirt, ca. 1970, Switzerland
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2016JK5497/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O1319488
@@ -114,6 +120,7 @@ images:
     rights_status: restricted
     caption: Shorty briefs, 2015, Britain
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2006BF0626/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O271116
@@ -123,6 +130,7 @@ images:
     rights_status: restricted
     caption: Dada, 1986, Great Britain
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2018LD5147/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O271113
@@ -132,6 +140,7 @@ images:
     rights_status: restricted
     caption: Dada, 1986, Great Britain
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2018LD5153/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O271111
@@ -141,6 +150,7 @@ images:
     rights_status: restricted
     caption: Dada, 1986, Great Britain
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2018LD5155/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O271115
@@ -150,6 +160,7 @@ images:
     rights_status: restricted
     caption: Dada, 1986, Great Britain
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://www.moma.org/media/W1siZiIsIjIxMDA4OSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=05b13f73630b3484
     source_url: https://www.moma.org/collection/works/1749
@@ -160,6 +171,7 @@ images:
     rights_status: restricted
     caption: Dadada Stool. 1993. Injection-molded polypropylene
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://www.moma.org/media/W1siZiIsIjI0MjU4OSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=f56efd75f2b18a1f
     source_url: https://www.moma.org/collection/works/5533
@@ -170,6 +182,7 @@ images:
     rights_status: restricted
     caption: Kleine Dada Soirée. 1922. Lithograph
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://www.moma.org/media/W1siZiIsIjUxOTIyMiJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=f13b188254951629
     source_url: https://www.moma.org/collection/works/5886
@@ -181,6 +194,7 @@ images:
     rights_status: restricted
     caption: Poster for a Dada exhibition at Sidney Janis Gallery. 1953. Lithograph
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://www.moma.org/media/W1siZiIsIjQ4MTcxNyJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=0c7d3cd7bf614aea
     source_url: https://www.moma.org/collection/works/18191
@@ -195,6 +209,7 @@ images:
       nineteen etchings (three with drypoint, two with aquatint, and one with
       aquatint and embossing) and one engraving"
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://www.moma.org/media/W1siZiIsIjQ3ODQ0OCJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=0fe6a77252f4e9a9
     source_url: https://www.moma.org/collection/works/18192
@@ -214,6 +229,7 @@ images:
       nineteen etchings (three with drypoint, two with aquatint, and one with
       aquatint and embossing) and one engraving"
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://www.moma.org/media/W1siZiIsIjQ3ODQ0NSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=10514db5280efd53
     source_url: https://www.moma.org/collection/works/18193
@@ -228,6 +244,7 @@ images:
       nineteen etchings (three with drypoint, two with aquatint, and one with
       aquatint and embossing) and one engraving"
     depicts: null
+    review_status: pending
 todo:
   - external_ids
   - facets.era.periods
@@ -271,3 +288,21 @@ provenance:
       url: https://github.com/MuseumofModernArt/collection
       accessed: 2026-08-23
       note: "title contains: dada"
+  guide:
+    - source: editorial
+      reviewed: false
+      note: Visual interpretation and practical design guidance; not a historical
+        attribution.
+guide:
+  dek: Disjointed type, found material and abrupt changes in scale interrupt
+    ordinary reading and visual expectation.
+  signature:
+    - Found typography
+    - Cut-and-paste collisions
+    - Unstable hierarchy
+  application: Let an unexpected juxtaposition carry the concept.
+  caution: Random arrangement alone cannot communicate a critical or playful intention.
+  compare:
+    - collage
+    - photomontage
+featured_image: https://commons.wikimedia.org/wiki/File:Dada_4-5_Zurich-1919-Collage_et_bois_grav%C3%A9_de_Arp_en_couverture_LB.4-0531_mb.jpg

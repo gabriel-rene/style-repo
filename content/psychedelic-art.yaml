@@ -1,18 +1,30 @@
 id: psychedelic-art
 term_type: style
-status: stub
+status: draft
 names:
   primary: Psychedelic art
-  variants: []
-summary: null
+  variants:
+    - Psychedelic design
+summary: Psychedelic graphics used interlocking lettering, dense ornament and
+  vibrating color to accompany countercultural communication. Posters often
+  reward sustained looking rather than immediate reading. The research connects
+  this visual vocabulary with renewed interest in Art Nouveau curves and
+  decorative historical imagery.
 external_ids:
   getty_aat: null
   wikidata: null
 facets:
   era:
-    periods: []
+    periods:
+      - label: Approximate active period
+        role: active
+        start_year: 1960
+        end_year: 1979
+        approximate: true
   geography:
-    origin_places: []
+    origin_places:
+      - label: San Francisco and London
+        wikidata: null
     spread: []
   lineage:
     parents: []
@@ -45,7 +57,17 @@ facets:
     first_observed: null
     review_due: null
   practitioners:
-    people: []
+    people:
+      - name: Victor Moscoso
+        wikidata: null
+      - name: Milton Glaser
+        wikidata: null
+      - name: Peter Max
+        wikidata: null
+      - name: Heinz Edelmann
+        wikidata: null
+      - name: Alan Aldridge
+        wikidata: null
     studios: []
 images:
   - file: assets/psychedelic-art/Sun_Ra_Omniverse_Arkestra_1980-10-11_concert_poster_-_Old_Waldorf_San_Francisco_
@@ -61,6 +83,7 @@ images:
       Waldorf in San Francisco. The psychedelic design is based on a 1973
       portrait photo of Sun Ra.
     depicts: null
+    review_status: pending
   - file: assets/psychedelic-art/Overriding_the_Psychedelic_Dream_by_David_S._Soriano.png
     source_url: https://commons.wikimedia.org/wiki/File:Overriding_the_Psychedelic_Dream_by_David_S._Soriano.png
     license: CC BY-SA 4.0
@@ -68,6 +91,7 @@ images:
     rights_status: open
     caption: Overriding the Psychedelic Dream by David S. Soriano.
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2006AY2892/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O108975
@@ -78,6 +102,7 @@ images:
     rights_status: restricted
     caption: THEM psychedelic poster no.66, 1966, United States
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2006AY2198/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O129280
@@ -88,6 +113,7 @@ images:
     rights_status: restricted
     caption: Piper at the Gates of Dawn, late 1960s, London
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2006AY2287/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O108974
@@ -98,6 +124,7 @@ images:
     rights_status: restricted
     caption: Jefferson Airplane psychedelic poster no.41, 1966, United States
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2006BC7334/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O195207
@@ -108,6 +135,7 @@ images:
     rights_status: restricted
     caption: Psychedelic poster for two shows at the Roundhouse UFO, 1967, England
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2006AY2196/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O129272
@@ -118,6 +146,7 @@ images:
     rights_status: restricted
     caption: OM.P. Breezes, Brighton, late 1960s, England
     depicts: null
+    review_status: pending
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2015HL3665/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O108997
@@ -128,15 +157,11 @@ images:
     rights_status: restricted
     caption: "'Van Morrison' psychedelic concert poster No.88-1, 1967, San Francisco"
     depicts: null
+    review_status: pending
 todo:
-  - names.variants
-  - summary
   - external_ids
-  - facets.era.periods
-  - facets.geography
   - facets.lineage
   - facets.lifecycle
-  - facets.practitioners
 provenance:
   facets.formal_properties:
     - source: editorial
@@ -156,3 +181,56 @@ provenance:
       url: https://api.vam.ac.uk/v2/objects/search?images_exist=1&page_size=20&q=psychedelic%20poster
       accessed: 2026-08-23
       note: "query: psychedelic poster"
+  guide:
+    - source: editorial
+      reviewed: false
+      note: Visual interpretation and practical design guidance; not a historical
+        attribution.
+  summary:
+    - source: research-note
+      url: https://docs.google.com/document/d/1KK3Jpu_uVfU7CJ3WykzY8IU8bvWV7SM_SAPWmRy1joc/edit
+      accessed: 2026-09-09
+      note: Adapted from user-supplied Graphic Design Movements 1850-2000. Period
+        bounds are approximate contextual ranges; not independently verified in
+        every case.
+  facets.era.periods:
+    - source: research-note
+      url: https://docs.google.com/document/d/1KK3Jpu_uVfU7CJ3WykzY8IU8bvWV7SM_SAPWmRy1joc/edit
+      accessed: 2026-09-09
+      note: Adapted from user-supplied Graphic Design Movements 1850-2000. Period
+        bounds are approximate contextual ranges; not independently verified in
+        every case.
+  facets.geography.origin_places:
+    - source: research-note
+      url: https://docs.google.com/document/d/1KK3Jpu_uVfU7CJ3WykzY8IU8bvWV7SM_SAPWmRy1joc/edit
+      accessed: 2026-09-09
+      note: Adapted from user-supplied Graphic Design Movements 1850-2000. Period
+        bounds are approximate contextual ranges; not independently verified in
+        every case.
+  facets.practitioners.people:
+    - source: research-note
+      url: https://docs.google.com/document/d/1KK3Jpu_uVfU7CJ3WykzY8IU8bvWV7SM_SAPWmRy1joc/edit
+      accessed: 2026-09-09
+      note: Adapted from user-supplied Graphic Design Movements 1850-2000. Period
+        bounds are approximate contextual ranges; not independently verified in
+        every case.
+  names.variants:
+    - source: research-note
+      url: https://docs.google.com/document/d/1KK3Jpu_uVfU7CJ3WykzY8IU8bvWV7SM_SAPWmRy1joc/edit
+      accessed: 2026-09-09
+      note: Adapted from user-supplied Graphic Design Movements 1850-2000. Period
+        bounds are approximate contextual ranges; not independently verified in
+        every case.
+guide:
+  dek: Interlocking shapes and vibrating color relationships produce an immersive,
+    visually unstable field.
+  signature:
+    - Swelling letterforms
+    - Dense organic pattern
+    - Optical color tension
+  application: Design display lettering as part of the image, with practical
+    details separate.
+  caution: Illegibility can be expressive, but it should be a deliberate choice.
+  compare:
+    - art-nouveau
+    - op-art

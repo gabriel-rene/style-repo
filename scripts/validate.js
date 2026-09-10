@@ -9,25 +9,35 @@
 // Usage: node scripts/validate.js [contentDir]
 //   also validates /content/drafts if present (same rules, status must be stub|draft)
 
-import { existsSync } from 'node:fs';
-import { join } from 'node:path';
-import { loadContentDir } from './lib/load.js';
+import { existsSync } from "node:fs";
+import { join, resolve } from "node:path";
+import { loadContentDir } from "./lib/load.js";
 import {
-  TERM_TYPES, STATUSES, PRODUCTION_TYPES, ENUMS,
-  TRACKED_LIFECYCLE_STATES, COMMERCIAL_CONTEXTS, LINEAGE_KEYS,
-  EDITORIAL_OK_PREFIXES, HARVEST_ONLY_PATHS,
-} from './lib/schema.js';
+  TERM_TYPES,
+  STATUSES,
+  PRODUCTION_TYPES,
+  ENUMS,
+  TRACKED_LIFECYCLE_STATES,
+  COMMERCIAL_CONTEXTS,
+  LINEAGE_KEYS,
+  EDITORIAL_OK_PREFIXES,
+  HARVEST_ONLY_PATHS,
+} from "./lib/schema.js";
 
-const contentDir = process.argv[2] ?? 'content';
+const contentDir = process.argv[2] ?? "content";
 const problems = [];
 const warnings = [];
 
-function err(file, msg) { problems.push(`${file}: ${msg}`); }
-function warn(file, msg) { warnings.push(`${file}: ${msg}`); }
+function err(file, msg) {
+  problems.push(`${file}: ${msg}`);
+}
+function warn(file, msg) {
+  warnings.push(`${file}: ${msg}`);
+}
 
-const isStr = (v) => typeof v === 'string' && v.length > 0;
+const isStr = (v) => typeof v === "string" && v.length > 0;
 const isArr = Array.isArray;
-const isObj = (v) => v !== null && typeof v === 'object' && !isArr(v);
+const isObj = (v) => v !== null && typeof v === "object" && !isArr(v);
 
 function checkEnum(file, value, allowed, label, { nullable = true } = {}) {
   if (value === undefined || value === null) {
@@ -35,21 +45,43 @@ function checkEnum(file, value, allowed, label, { nullable = true } = {}) {
     return;
   }
   if (!allowed.includes(value)) {
-    err(file, `${label} has invalid value "${value}" (allowed: ${allowed.join(', ')})`);
+    err(
+      file,
+      `${label} has invalid value "${value}" (allowed: ${allowed.join(", ")})`,
+    );
   }
 }
 
 function checkFormalBlock(file, block, label) {
-  if (!isObj(block)) { err(file, `${label} must be a mapping`); return; }
-  checkEnum(file, block.grid_discipline, ENUMS.grid_discipline, `${label}.grid_discipline`);
+  if (!isObj(block)) {
+    err(file, `${label} must be a mapping`);
+    return;
+  }
+  checkEnum(
+    file,
+    block.grid_discipline,
+    ENUMS.grid_discipline,
+    `${label}.grid_discipline`,
+  );
   checkEnum(file, block.contrast, ENUMS.contrast, `${label}.contrast`);
   checkEnum(file, block.texture, ENUMS.texture, `${label}.texture`);
   checkEnum(file, block.hierarchy, ENUMS.hierarchy, `${label}.hierarchy`);
-  checkEnum(file, block.ornament_level, ENUMS.ornament_level, `${label}.ornament_level`);
+  checkEnum(
+    file,
+    block.ornament_level,
+    ENUMS.ornament_level,
+    `${label}.ornament_level`,
+  );
   const pal = block.palette_logic;
   if (pal !== undefined && pal !== null) {
     if (!isObj(pal)) err(file, `${label}.palette_logic must be a mapping`);
-    else checkEnum(file, pal.descriptor, ENUMS.palette_descriptor, `${label}.palette_logic.descriptor`);
+    else
+      checkEnum(
+        file,
+        pal.descriptor,
+        ENUMS.palette_descriptor,
+        `${label}.palette_logic.descriptor`,
+      );
   }
 }
 
@@ -57,12 +89,16 @@ function checkFormalBlock(file, block, label) {
 const { entries, errors: loadErrors } = loadContentDir(contentDir);
 for (const e of loadErrors) problems.push(e);
 
-const draftsDir = join(contentDir, 'drafts');
+const draftsDir = join(contentDir, "drafts");
 let draftEntries = [];
 if (existsSync(draftsDir)) {
   const r = loadContentDir(draftsDir);
   for (const e of r.errors) problems.push(`drafts/${e}`);
-  draftEntries = r.entries.map((x) => ({ ...x, file: `drafts/${x.file}`, isDraft: true }));
+  draftEntries = r.entries.map((x) => ({
+    ...x,
+    file: `drafts/${x.file}`,
+    isDraft: true,
+  }));
 }
 
 const all = [...entries, ...draftEntries];
@@ -73,79 +109,157 @@ const typeById = new Map(entries.map((e) => [e.doc?.id, e.doc?.term_type]));
 const seen = new Map();
 for (const e of entries) {
   const id = e.doc?.id;
-  if (id && seen.has(id)) err(e.file, `duplicate id "${id}" (also in ${seen.get(id)})`);
+  if (id && seen.has(id))
+    err(e.file, `duplicate id "${id}" (also in ${seen.get(id)})`);
   else if (id) seen.set(id, e.file);
 }
 
 for (const { file, stem, doc, isDraft } of all) {
   // ---- identity ----
-  if (!isStr(doc.id)) err(file, 'missing id');
+  if (!isStr(doc.id)) err(file, "missing id");
   else {
-    if (!/^[a-z0-9]+(-[a-z0-9]+)*$/.test(doc.id)) err(file, `id "${doc.id}" is not kebab-case`);
-    if (doc.id !== stem) err(file, `id "${doc.id}" does not match filename stem "${stem}"`);
+    if (!/^[a-z0-9]+(-[a-z0-9]+)*$/.test(doc.id))
+      err(file, `id "${doc.id}" is not kebab-case`);
+    if (doc.id !== stem)
+      err(file, `id "${doc.id}" does not match filename stem "${stem}"`);
   }
   // drafts may not know their term_type yet — warn instead of fail
-  checkEnum(file, doc.term_type, TERM_TYPES, 'term_type', { nullable: isDraft });
-  if (isDraft && doc.term_type === null) warn(file, 'term_type still null (fine for a draft)');
+  checkEnum(file, doc.term_type, TERM_TYPES, "term_type", {
+    nullable: isDraft,
+  });
+  if (isDraft && doc.term_type === null)
+    warn(file, "term_type still null (fine for a draft)");
   if (doc.secondary_types !== undefined) {
-    if (!isArr(doc.secondary_types)) err(file, 'secondary_types must be a list');
-    else for (const t of doc.secondary_types) checkEnum(file, t, TERM_TYPES, 'secondary_types entry');
+    if (!isArr(doc.secondary_types))
+      err(file, "secondary_types must be a list");
+    else
+      for (const t of doc.secondary_types)
+        checkEnum(file, t, TERM_TYPES, "secondary_types entry");
   }
-  checkEnum(file, doc.status, STATUSES, 'status', { nullable: false });
-  if (isDraft && doc.status === 'published') err(file, 'a draft cannot have status published');
+  checkEnum(file, doc.status, STATUSES, "status", { nullable: false });
+  if (isDraft && doc.status === "published")
+    err(file, "a draft cannot have status published");
 
   if (!isObj(doc.names) || !isStr(doc.names.primary)) {
-    if (isDraft) warn(file, 'names.primary still null (required before promotion)');
-    else err(file, 'names.primary is required');
+    if (isDraft)
+      warn(file, "names.primary still null (required before promotion)");
+    else err(file, "names.primary is required");
+  }
+
+  // Practical guides are editorial; comparison links are not historical lineage.
+  if (doc.guide !== undefined) {
+    if (!isObj(doc.guide)) err(file, "guide must be a mapping");
+    else {
+      for (const key of ["dek", "application", "caution"]) {
+        if (!isStr(doc.guide[key]))
+          err(file, `guide.${key} must be a non-empty string`);
+      }
+      if (
+        !isArr(doc.guide.signature) ||
+        doc.guide.signature.length < 3 ||
+        !doc.guide.signature.every(isStr)
+      ) {
+        err(file, "guide.signature needs at least three non-empty strings");
+      }
+      if (!isArr(doc.guide.compare)) err(file, "guide.compare must be a list");
+      else
+        for (const ref of doc.guide.compare) {
+          if (!idSet.has(ref) || ref === doc.id)
+            err(file, `guide.compare has invalid reference "${ref}"`);
+        }
+      if (
+        !isArr(doc.provenance?.guide) ||
+        !doc.provenance.guide.some((s) => s?.source === "editorial")
+      ) {
+        err(file, "guide requires editorial provenance");
+      }
+    }
   }
 
   const isProduction = PRODUCTION_TYPES.includes(doc.term_type);
   const facets = doc.facets;
-  if (!isObj(facets)) { err(file, 'facets is required'); continue; }
+  if (!isObj(facets)) {
+    err(file, "facets is required");
+    continue;
+  }
 
   // ---- era ----
   if (facets.era !== undefined) {
-    if (!isObj(facets.era) || !isArr(facets.era.periods ?? [])) err(file, 'facets.era.periods must be a list');
-    else for (const [i, p] of (facets.era.periods ?? []).entries()) {
-      if (!isObj(p)) { err(file, `era.periods[${i}] must be a mapping`); continue; }
-      if (!isStr(p.label)) err(file, `era.periods[${i}].label is required`);
-      checkEnum(file, p.role, ENUMS.period_role, `era.periods[${i}].role`, { nullable: false });
-      for (const k of ['start_year', 'end_year']) {
-        if (p[k] !== undefined && p[k] !== null && !Number.isInteger(p[k])) {
-          err(file, `era.periods[${i}].${k} must be an integer or null`);
+    if (!isObj(facets.era) || !isArr(facets.era.periods ?? []))
+      err(file, "facets.era.periods must be a list");
+    else
+      for (const [i, p] of (facets.era.periods ?? []).entries()) {
+        if (!isObj(p)) {
+          err(file, `era.periods[${i}] must be a mapping`);
+          continue;
+        }
+        if (!isStr(p.label)) err(file, `era.periods[${i}].label is required`);
+        checkEnum(file, p.role, ENUMS.period_role, `era.periods[${i}].role`, {
+          nullable: false,
+        });
+        for (const k of ["start_year", "end_year"]) {
+          if (p[k] !== undefined && p[k] !== null && !Number.isInteger(p[k])) {
+            err(file, `era.periods[${i}].${k} must be an integer or null`);
+          }
         }
       }
-    }
   }
 
   // ---- lineage / production refs ----
   const lin = facets.lineage;
   if (lin !== undefined) {
-    if (!isObj(lin)) err(file, 'facets.lineage must be a mapping');
-    else for (const key of Object.keys(lin)) {
-      if (!LINEAGE_KEYS.includes(key)) { err(file, `facets.lineage.${key} is not a known relation`); continue; }
-      if (!isArr(lin[key])) { err(file, `facets.lineage.${key} must be a list`); continue; }
-      for (const ref of lin[key]) {
-        if (!isStr(ref)) err(file, `facets.lineage.${key} entries must be term-id strings`);
-        else if (!idSet.has(ref)) {
-          // drafts may reference terms that don't exist yet; ingest flags them in todo
-          if (isDraft) warn(file, `facets.lineage.${key} references unknown term "${ref}"`);
-          else err(file, `facets.lineage.${key} references unknown term "${ref}"`);
+    if (!isObj(lin)) err(file, "facets.lineage must be a mapping");
+    else
+      for (const key of Object.keys(lin)) {
+        if (!LINEAGE_KEYS.includes(key)) {
+          err(file, `facets.lineage.${key} is not a known relation`);
+          continue;
         }
-        else if (ref === doc.id) err(file, `facets.lineage.${key} references itself`);
+        if (!isArr(lin[key])) {
+          err(file, `facets.lineage.${key} must be a list`);
+          continue;
+        }
+        for (const ref of lin[key]) {
+          if (!isStr(ref))
+            err(file, `facets.lineage.${key} entries must be term-id strings`);
+          else if (!idSet.has(ref)) {
+            // drafts may reference terms that don't exist yet; ingest flags them in todo
+            if (isDraft)
+              warn(
+                file,
+                `facets.lineage.${key} references unknown term "${ref}"`,
+              );
+            else
+              err(
+                file,
+                `facets.lineage.${key} references unknown term "${ref}"`,
+              );
+          } else if (ref === doc.id)
+            err(file, `facets.lineage.${key} references itself`);
+        }
       }
-    }
   }
   const prod = facets.production;
   if (prod !== undefined && prod !== null) {
-    if (isProduction) err(file, `${doc.term_type} entries do not take a production facet`);
-    else if (!isObj(prod)) err(file, 'facets.production must be a mapping');
+    if (isProduction)
+      err(file, `${doc.term_type} entries do not take a production facet`);
+    else if (!isObj(prod)) err(file, "facets.production must be a mapping");
     else {
-      for (const [key, wantType] of [['apparatus', 'apparatus'], ['techniques', 'technique']]) {
+      for (const [key, wantType] of [
+        ["apparatus", "apparatus"],
+        ["techniques", "technique"],
+      ]) {
         for (const ref of prod[key] ?? []) {
-          if (!idSet.has(ref)) err(file, `facets.production.${key} references unknown term "${ref}"`);
+          if (!idSet.has(ref))
+            err(
+              file,
+              `facets.production.${key} references unknown term "${ref}"`,
+            );
           else if (typeById.get(ref) !== wantType) {
-            err(file, `facets.production.${key} ref "${ref}" is a ${typeById.get(ref)}, expected ${wantType}`);
+            err(
+              file,
+              `facets.production.${key} ref "${ref}" is a ${typeById.get(ref)}, expected ${wantType}`,
+            );
           }
         }
       }
@@ -155,53 +269,80 @@ for (const { file, stem, doc, isDraft } of all) {
   // ---- formal properties vs consequences (term_type gating) ----
   if (isProduction) {
     if (facets.formal_properties !== undefined) {
-      err(file, `${doc.term_type} entries use formal_consequences, not formal_properties`);
+      err(
+        file,
+        `${doc.term_type} entries use formal_consequences, not formal_properties`,
+      );
     }
-    if (facets.ideological_stance !== undefined && facets.ideological_stance !== null) {
+    if (
+      facets.ideological_stance !== undefined &&
+      facets.ideological_stance !== null
+    ) {
       err(file, `${doc.term_type} entries do not take ideological_stance`);
     }
     if (facets.formal_consequences !== undefined) {
-      checkFormalBlock(file, facets.formal_consequences, 'formal_consequences');
+      checkFormalBlock(file, facets.formal_consequences, "formal_consequences");
     }
   } else {
     if (facets.formal_consequences !== undefined) {
       err(file, `only apparatus/technique entries take formal_consequences`);
     }
-    if (facets.formal_properties !== undefined && facets.formal_properties !== null) {
-      checkFormalBlock(file, facets.formal_properties, 'formal_properties');
+    if (
+      facets.formal_properties !== undefined &&
+      facets.formal_properties !== null
+    ) {
+      checkFormalBlock(file, facets.formal_properties, "formal_properties");
     }
-    checkEnum(file, facets.ideological_stance, ENUMS.ideological_stance, 'ideological_stance');
+    checkEnum(
+      file,
+      facets.ideological_stance,
+      ENUMS.ideological_stance,
+      "ideological_stance",
+    );
   }
 
   // ---- commercial context ----
   const cc = facets.commercial_context;
   if (cc !== undefined && cc !== null) {
-    if (!isObj(cc) || !isArr(cc.contexts ?? [])) err(file, 'commercial_context.contexts must be a list');
-    else for (const c of cc.contexts ?? []) {
-      if (!COMMERCIAL_CONTEXTS.includes(c)) {
-        err(file, `commercial_context "${c}" not in vocabulary (extend scripts/lib/schema.js + note in DECISIONS.md)`);
+    if (!isObj(cc) || !isArr(cc.contexts ?? []))
+      err(file, "commercial_context.contexts must be a list");
+    else
+      for (const c of cc.contexts ?? []) {
+        if (!COMMERCIAL_CONTEXTS.includes(c)) {
+          err(
+            file,
+            `commercial_context "${c}" not in vocabulary (extend scripts/lib/schema.js + note in DECISIONS.md)`,
+          );
+        }
       }
-    }
   }
 
   // ---- revival ----
   const rev = facets.revival;
   if (rev !== undefined && rev !== null) {
-    if (!isObj(rev)) err(file, 'facets.revival must be a mapping');
-    else checkEnum(file, rev.status, ENUMS.revival_status, 'revival.status');
+    if (!isObj(rev)) err(file, "facets.revival must be a mapping");
+    else checkEnum(file, rev.status, ENUMS.revival_status, "revival.status");
   }
 
   // ---- lifecycle ----
   const lc = facets.lifecycle;
-  if (doc.term_type === 'aesthetic' && (!isObj(lc) || lc.state === undefined)) {
-    err(file, 'aesthetic entries require facets.lifecycle.state (null allowed on stubs only)');
+  if (doc.term_type === "aesthetic" && (!isObj(lc) || lc.state === undefined)) {
+    err(
+      file,
+      "aesthetic entries require facets.lifecycle.state (null allowed on stubs only)",
+    );
   }
   if (isObj(lc)) {
-    checkEnum(file, lc.state, ENUMS.lifecycle_state, 'lifecycle.state');
-    if (TRACKED_LIFECYCLE_STATES.includes(lc.state) && doc.status !== 'stub') {
-      for (const k of ['first_observed', 'review_due']) {
-        if (!isStr(lc[k])) err(file, `lifecycle.state "${lc.state}" requires lifecycle.${k} (ISO date)`);
-        else if (!/^\d{4}-\d{2}-\d{2}$/.test(lc[k])) err(file, `lifecycle.${k} must be YYYY-MM-DD`);
+    checkEnum(file, lc.state, ENUMS.lifecycle_state, "lifecycle.state");
+    if (TRACKED_LIFECYCLE_STATES.includes(lc.state) && doc.status !== "stub") {
+      for (const k of ["first_observed", "review_due"]) {
+        if (!isStr(lc[k]))
+          err(
+            file,
+            `lifecycle.state "${lc.state}" requires lifecycle.${k} (ISO date)`,
+          );
+        else if (!/^\d{4}-\d{2}-\d{2}$/.test(lc[k]))
+          err(file, `lifecycle.${k} must be YYYY-MM-DD`);
       }
     }
   }
@@ -209,94 +350,183 @@ for (const { file, stem, doc, isDraft } of all) {
   // ---- practitioners: harvest-only shape ----
   const pract = facets.practitioners;
   if (isObj(pract)) {
-    for (const kind of ['people', 'studios']) {
+    for (const kind of ["people", "studios"]) {
       for (const [i, p] of (pract[kind] ?? []).entries()) {
-        if (!isObj(p) || !isStr(p.name)) err(file, `practitioners.${kind}[${i}] needs a name`);
+        if (!isObj(p) || !isStr(p.name))
+          err(file, `practitioners.${kind}[${i}] needs a name`);
       }
     }
   }
 
   // ---- images: rights fields, NO EXCEPTIONS ----
   const images = doc.images;
-  if (images !== undefined && !isArr(images)) err(file, 'images must be a list');
+  if (images !== undefined && !isArr(images))
+    err(file, "images must be a list");
   for (const [i, img] of (isArr(images) ? images : []).entries()) {
-    if (!isObj(img)) { err(file, `images[${i}] must be a mapping`); continue; }
-    for (const field of ['source_url', 'license', 'attribution']) {
-      if (!isStr(img[field])) err(file, `images[${i}] missing rights field "${field}"`);
+    if (!isObj(img)) {
+      err(file, `images[${i}] must be a mapping`);
+      continue;
     }
-    checkEnum(file, img.rights_status, ENUMS.rights_status, `images[${i}].rights_status`, { nullable: false });
+    for (const field of ["source_url", "license", "attribution"]) {
+      if (!isStr(img[field]))
+        err(file, `images[${i}] missing rights field "${field}"`);
+    }
+    checkEnum(
+      file,
+      img.rights_status,
+      ENUMS.rights_status,
+      `images[${i}].rights_status`,
+      { nullable: false },
+    );
     if (isStr(img.source_url) && !/^https?:\/\//.test(img.source_url)) {
       err(file, `images[${i}].source_url must be an http(s) URL`);
     }
     // Open images are downloaded locally; restricted ones may only hotlink.
     const hasFile = isStr(img.file);
-    const hasRemote = isStr(img.remote_image) && /^https?:\/\//.test(img.remote_image);
+    const hasRemote =
+      isStr(img.remote_image) && /^https?:\/\//.test(img.remote_image);
     if (!hasFile && !hasRemote) {
       err(file, `images[${i}] needs a local "file" or a "remote_image" URL`);
     }
-    if (img.rights_status === 'restricted' && hasFile) {
+    if (img.rights_status === "restricted" && hasFile) {
       err(file, `images[${i}] is restricted — must not have a local file copy`);
     }
+    if (
+      hasFile &&
+      (!img.file.startsWith("assets/") ||
+        img.file.split("/").includes("..") ||
+        !existsSync(resolve(img.file)))
+    ) {
+      err(
+        file,
+        `images[${i}].file must reference an existing file under assets/`,
+      );
+    }
+    if (img.review_status !== undefined)
+      checkEnum(
+        file,
+        img.review_status,
+        ["approved", "pending", "rejected"],
+        `images[${i}].review_status`,
+        { nullable: false },
+      );
+  }
+  if (
+    doc.featured_image &&
+    !(isArr(images) ? images : []).some(
+      (img) =>
+        img?.source_url === doc.featured_image &&
+        img.review_status === "approved",
+    )
+  ) {
+    err(file, "featured_image must reference an approved image source_url");
   }
 
   // ---- provenance ----
   const prov = doc.provenance ?? {};
-  if (!isObj(prov)) err(file, 'provenance must be a mapping');
+  if (!isObj(prov)) err(file, "provenance must be a mapping");
   else {
     for (const [path, sources] of Object.entries(prov)) {
-      if (!pathExists(doc, path)) err(file, `provenance path "${path}" does not exist in the document`);
-      if (!isArr(sources)) { err(file, `provenance["${path}"] must be a list of sources`); continue; }
+      if (!pathExists(doc, path))
+        err(file, `provenance path "${path}" does not exist in the document`);
+      if (!isArr(sources)) {
+        err(file, `provenance["${path}"] must be a list of sources`);
+        continue;
+      }
       for (const s of sources) {
-        if (!isObj(s) || !isStr(s.source)) { err(file, `provenance["${path}"] entry needs a source`); continue; }
-        if (s.source === 'editorial') {
-          if (!EDITORIAL_OK_PREFIXES.some((p) => path === p || path.startsWith(p + '.'))) {
-            err(file, `provenance["${path}"]: editorial source not allowed here — harvested source with URL required`);
+        if (!isObj(s) || !isStr(s.source)) {
+          err(file, `provenance["${path}"] entry needs a source`);
+          continue;
+        }
+        if (s.source === "editorial") {
+          if (
+            !EDITORIAL_OK_PREFIXES.some(
+              (p) => path === p || path.startsWith(p + "."),
+            )
+          ) {
+            err(
+              file,
+              `provenance["${path}"]: editorial source not allowed here — harvested source with URL required`,
+            );
           }
-          if (typeof s.reviewed !== 'boolean') err(file, `provenance["${path}"]: editorial entries need reviewed: true|false`);
-        } else if (s.source !== 'user') {
-          if (!isStr(s.url)) err(file, `provenance["${path}"]: harvested source "${s.source}" needs a url`);
+          if (typeof s.reviewed !== "boolean")
+            err(
+              file,
+              `provenance["${path}"]: editorial entries need reviewed: true|false`,
+            );
+        } else if (s.source !== "user") {
+          if (!isStr(s.url))
+            err(
+              file,
+              `provenance["${path}"]: harvested source "${s.source}" needs a url`,
+            );
         }
       }
     }
     // harvest-only fields with data must have non-editorial provenance
     for (const hPath of HARVEST_ONLY_PATHS) {
       if (!hasNonEmptyData(doc, hPath)) continue;
-      const covered = Object.entries(prov).some(([p, srcs]) =>
-        (p === hPath || p.startsWith(hPath + '.') || hPath.startsWith(p + '.')) &&
-        isArr(srcs) && srcs.some((s) => isObj(s) && s.source && s.source !== 'editorial'));
-      if (!covered) err(file, `"${hPath}" contains data but has no harvested/user provenance — hand-authoring is forbidden here`);
+      for (const leaf of populatedPaths(doc, hPath)) {
+        const covered = Object.entries(prov).some(
+          ([p, srcs]) =>
+            (p === leaf || leaf.startsWith(p + ".")) &&
+            isArr(srcs) &&
+            srcs.some((s) => isObj(s) && s.source && s.source !== "editorial"),
+        );
+        if (!covered)
+          err(
+            file,
+            `"${leaf}" contains data but has no harvested/user provenance`,
+          );
+      }
     }
     // published entries: all editorial provenance must be reviewed
-    if (doc.status === 'published') {
+    if (doc.status === "published") {
       for (const [path, sources] of Object.entries(prov)) {
-        if (isArr(sources)) for (const s of sources) {
-          if (isObj(s) && s.source === 'editorial' && s.reviewed !== true) {
-            err(file, `published entry has unreviewed editorial field "${path}"`);
+        if (isArr(sources))
+          for (const s of sources) {
+            if (isObj(s) && s.source === "editorial" && s.reviewed !== true) {
+              err(
+                file,
+                `published entry has unreviewed editorial field "${path}"`,
+              );
+            }
           }
-        }
       }
-      if (!isStr(doc.summary)) err(file, 'published entries require a summary');
-      if (isArr(doc.todo) && doc.todo.length > 0) warn(file, `published with ${doc.todo.length} open TODOs`);
+      if (!isStr(doc.summary)) err(file, "published entries require a summary");
+      if (isArr(doc.todo) && doc.todo.length > 0)
+        warn(file, `published with ${doc.todo.length} open TODOs`);
     }
   }
 }
 
 function pathExists(doc, dotted) {
   let node = doc;
-  for (const part of dotted.split('.')) {
+  for (const part of dotted.split(".")) {
     if (!isObj(node) || !(part in node)) return false;
     node = node[part];
   }
   return true;
 }
+function populatedPaths(doc, dotted) {
+  const value = dotted.split(".").reduce((node, key) => node?.[key], doc);
+  if (value === null || value === undefined || value === "") return [];
+  if (isArr(value)) return value.length ? [dotted] : [];
+  if (isObj(value))
+    return Object.keys(value).flatMap((key) =>
+      populatedPaths(doc, `${dotted}.${key}`),
+    );
+  return [dotted];
+}
 function hasNonEmptyData(doc, dotted) {
   let node = doc;
-  for (const part of dotted.split('.')) {
+  for (const part of dotted.split(".")) {
     if (!isObj(node) || !(part in node)) return false;
     node = node[part];
   }
   const empty = (v) =>
-    v === null || v === undefined ||
+    v === null ||
+    v === undefined ||
     (isArr(v) && v.length === 0) ||
     (isObj(v) && Object.values(v).every(empty));
   return !empty(node);
@@ -306,7 +536,11 @@ function hasNonEmptyData(doc, dotted) {
 for (const w of warnings) console.warn(`WARN  ${w}`);
 if (problems.length) {
   for (const p of problems) console.error(`ERROR ${p}`);
-  console.error(`\nvalidate: FAILED — ${problems.length} error(s) in ${all.length} file(s)`);
+  console.error(
+    `\nvalidate: FAILED — ${problems.length} error(s) in ${all.length} file(s)`,
+  );
   process.exit(1);
 }
-console.log(`validate: OK — ${all.length} file(s), ${warnings.length} warning(s)`);
+console.log(
+  `validate: OK — ${all.length} file(s), ${warnings.length} warning(s)`,
+);

@@ -1,6 +1,6 @@
 id: glitch-art
 term_type: aesthetic
-status: stub
+status: draft
 names:
   primary: Glitch art
   variants: []
@@ -57,6 +57,7 @@ images:
     caption: this is a glitch sample of my movie Kodak Moment (2013) The actress is
       Mae Murray, and the source film is a Kodachrome test from 1922.
     depicts: null
+    review_status: pending
   - file: assets/glitch-art/Digital-Jackal_glitch_art.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Digital-Jackal_glitch_art.jpg
     license: CC BY-SA 4.0
@@ -64,6 +65,7 @@ images:
     rights_status: open
     caption: Digital glitch art design
     depicts: null
+    review_status: pending
   - file: assets/glitch-art/London_Eye_-_bitblent_glitch_art.jpeg
     source_url: https://commons.wikimedia.org/wiki/File:London_Eye_-_bitblent_glitch_art.jpeg
     license: CC BY-SA 4.0
@@ -72,6 +74,7 @@ images:
     caption: This image is bit-blent from the two images below. Appearance may vary
       depending on image viewer software.
     depicts: null
+    review_status: pending
   - file: assets/glitch-art/Aicp_homescreen.bitflip_glitch_art.rerender.png
     source_url: https://commons.wikimedia.org/wiki/File:Aicp_homescreen.bitflip_glitch_art.rerender.png
     license: Public domain
@@ -83,6 +86,7 @@ images:
       viewable on all image viewers, as this re-rendered file is technically
       undamaged. See the original file's description on how it was generated.
     depicts: null
+    review_status: pending
   - file: assets/glitch-art/Glitch_Art_en_Argentina.png
     source_url: https://commons.wikimedia.org/wiki/File:Glitch_Art_en_Argentina.png
     license: CC BY-SA 4.0
@@ -90,6 +94,7 @@ images:
     rights_status: open
     caption: '"Humanidad" Glitch Art en Argentina'
     depicts: null
+    review_status: pending
   - file: assets/glitch-art/Glitch_art_is_dead_2022_logo.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Glitch_art_is_dead_2022_logo.jpg
     license: CC BY-SA 4.0
@@ -97,6 +102,7 @@ images:
     rights_status: open
     caption: Glitch art is dead 2022 logo
     depicts: null
+    review_status: pending
   - file: assets/glitch-art/Fu_bar_glitch_art_archive_in_Karlovac.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Fu_bar_glitch_art_archive_in_Karlovac.jpg
     license: CC BY-SA 3.0
@@ -106,6 +112,7 @@ images:
       Matrix - Association for Social Development in Karlovac's Mala Scena HD,
       as part of Clubture-HR program
     depicts: null
+    review_status: pending
   - file: assets/glitch-art/Fu_bar_glitch_art_archive_in_Karlovac_2.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Fu_bar_glitch_art_archive_in_Karlovac_2.jpg
     license: CC BY-SA 3.0
@@ -115,6 +122,7 @@ images:
       Matrix - Association for Social Development in Karlovac's Mala Scena HD,
       as part of Clubture-HR program
     depicts: null
+    review_status: pending
   - file: assets/glitch-art/Green.qt_slippage.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Green.qt_slippage.jpg
     license: CC BY-SA 4.0
@@ -126,6 +134,7 @@ images:
       "DISRUPTION" at the Vancouver Art Gallery in Canada, the art exhibition of
       the 21rst International'
     depicts: null
+    review_status: pending
   - file: assets/glitch-art/Glitch_Art_by_James_Connolly_and_Eric_Pellegrino.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Glitch_Art_by_James_Connolly_and_Eric_Pellegrino.jpg
     license: CC BY-SA 4.0
@@ -135,6 +144,7 @@ images:
       Art on the Southbridge Slow Electronics radio show hosted by jonCates and
       Jake Elliott in 2010.
     depicts: null
+    review_status: pending
   - file: assets/glitch-art/2026-04-03_Glitch_art_von_einem_Panoramavideo_Vlcsnap-2026-04-03-10h49m51s567.pn
     source_url: https://commons.wikimedia.org/wiki/File:2026-04-03_Glitch_art_von_einem_Panoramavideo_Vlcsnap-2026-04-03-10h49m51s567.png
     license: Public domain
@@ -144,6 +154,7 @@ images:
     caption: Glitch art from a panoramic video caused by incorrect decoding due to
       the laptop being overloaded
     depicts: null
+    review_status: pending
 todo:
   - names.variants
   - summary
@@ -177,3 +188,20 @@ provenance:
       url: https://commons.wikimedia.org/w/index.php?search=glitch%20art
       accessed: 2026-08-23
       note: "query: glitch art"
+  guide:
+    - source: editorial
+      reviewed: false
+      note: Visual interpretation and practical design guidance; not a historical
+        attribution.
+guide:
+  dek: Displacement, corruption and interrupted repetition make the image appear
+    to malfunction.
+  signature:
+    - Channel offsets
+    - Compression blocks
+    - Broken scan lines
+  application: Choose a specific kind of disruption and apply it consistently.
+  caution: Keep animated distortion optional and honor reduced-motion preferences.
+  compare:
+    - acid-graphics
+    - pixel-art

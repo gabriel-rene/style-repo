@@ -1,6 +1,6 @@
 id: flat-design
 term_type: aesthetic
-status: stub
+status: draft
 names:
   primary: Flat design
   variants: []
@@ -56,6 +56,7 @@ images:
     rights_status: open
     caption: Flat design
     depicts: null
+    review_status: pending
   - file: assets/flat-design/Laptop-coffee-flat-design-by-david-mendoza.png
     source_url: https://commons.wikimedia.org/wiki/File:Laptop-coffee-flat-design-by-david-mendoza.png
     license: CC BY-SA 4.0
@@ -63,6 +64,7 @@ images:
     rights_status: open
     caption: Ejemplo del uso del Diseño Plano generado en Adobe Illustrator
     depicts: null
+    review_status: approved
   - file: assets/flat-design/Contemporary_design_flat_roofed_bungalow_above_Priest_s_Bridge_-_geograph.org.uk
     source_url: https://commons.wikimedia.org/wiki/File:Contemporary_design_flat_roofed_bungalow_above_Priest%27s_Bridge_-_geograph.org.uk_-_7982167.jpg
     license: CC BY-SA 2.0
@@ -71,6 +73,7 @@ images:
     rights_status: open
     caption: Contemporary design flat roofed bungalow above Priest's Bridge
     depicts: null
+    review_status: rejected
   - file: assets/flat-design/20260520_Bronze_Flat_Flask_with_Design_of_Vermilion_Bird.jpg
     source_url: https://commons.wikimedia.org/wiki/File:20260520_Bronze_Flat_Flask_with_Design_of_Vermilion_Bird.jpg
     license: CC BY-SA 4.0
@@ -79,6 +82,7 @@ images:
     caption: Bronze Flat Flask with Design of Vermilion Bird. Western Han Dynasty.
       Excavated in Xincai. Collection of Henan Museum.
     depicts: null
+    review_status: rejected
 todo:
   - names.variants
   - summary
@@ -112,3 +116,21 @@ provenance:
       url: https://commons.wikimedia.org/w/index.php?search=flat%20design
       accessed: 2026-08-23
       note: "query: flat design"
+  guide:
+    - source: editorial
+      reviewed: false
+      note: Visual interpretation and practical design guidance; not a historical
+        attribution.
+guide:
+  dek: Simple silhouettes and clear color separation reduce the appearance of
+    physical depth.
+  signature:
+    - Solid fills
+    - Minimal shading
+    - Simple icon geometry
+  application: Use spacing, labels and contrast to make interactive elements identifiable.
+  caution: Removing depth must not remove affordances.
+  compare:
+    - corporate-memphis
+    - minimalism
+featured_image: https://commons.wikimedia.org/wiki/File:Laptop-coffee-flat-design-by-david-mendoza.png

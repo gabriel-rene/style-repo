@@ -1,6 +1,6 @@
 id: maximalism
 term_type: style
-status: stub
+status: draft
 names:
   primary: Maximalism
   variants: []
@@ -57,6 +57,7 @@ images:
     caption: Neptunian Maximalism (Belgian experimental metal band) at the Valkhof
       Festival 2022
     depicts: null
+    review_status: rejected
 todo:
   - names.variants
   - summary
@@ -81,3 +82,20 @@ provenance:
       url: https://commons.wikimedia.org/w/index.php?search=maximalism
       accessed: 2026-08-23
       note: "query: maximalism"
+  guide:
+    - source: editorial
+      reviewed: false
+      note: Visual interpretation and practical design guidance; not a historical
+        attribution.
+guide:
+  dek: Abundant pattern, layered references and competing scales create a
+    deliberately full visual field.
+  signature:
+    - High density
+    - Layered ornament
+    - Multiple visual rhythms
+  application: Give the composition a dominant anchor so abundance remains navigable.
+  caution: Maximum quantity without hierarchy becomes accidental clutter.
+  compare:
+    - memphis
+    - psychedelic-art

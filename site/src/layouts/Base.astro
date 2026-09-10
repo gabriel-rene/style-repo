@@ -1,43 +1,121 @@
 ---
-import '@fontsource-variable/archivo';
-import '../styles/global.css';
-
-const { title, current = '' } = Astro.props;
+import "@fontsource-variable/archivo";
+import "../styles/global.css";
+const {
+  title,
+  description = "Explore graphic design movements, visual styles, typography and print techniques. A practical, source-aware reference for designers.",
+  current = "",
+} = Astro.props;
 const nav = [
-  ['/', 'index', 'index'],
-  ['/timeline/', 'timeline', 'timeline'],
-  ['/facets/', 'facets', 'facets'],
-  ['/trending/', 'trending', 'trending'],
+  ["/", "Index", "index"],
+  ["/timeline/", "Timeline", "timeline"],
+  ["/facets/", "Facets", "facets"],
+  ["/compare/", "Compare", "compare"],
+  ["/trending/", "Trending", "trending"],
 ];
 ---
+
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <title>{title ? `${title} | Style Index` : 'Style Index'}</title>
-    <meta name="description" content="A browsable reference library of graphic design, illustration, and typographic styles." />
+    <title>{title ? `${title} | Style Index` : 'Style Index | A visual design reference'}</title>
+    <meta name="description" content={description} />
   </head>
   <body>
+    <a href="#main" class="skip-link">
+      Skip to content
+    </a>
     <header class="site-head">
-      <div class="wrap">
-        <a class="site-name" href="/">Style Index</a>
+      <div class="wrap header-inner">
+        <a class="site-name" href="/">
+          Style Index
+          <span class="brand-mark" aria-hidden="true">
+            ↗
+          </span>
+        </a>
         <nav class="site-nav" aria-label="Main">
           {nav.map(([href, label, key]) => (
-            <a href={href} aria-current={current === key ? 'page' : undefined}>{label}</a>
+            <a href={href} aria-current={current === key ? "page" : undefined}>
+              {label}
+            </a>
           ))}
         </nav>
+        <a class="header-about" href="/about/">
+          About the archive ↗
+        </a>
       </div>
     </header>
-    <main>
+    <main id="main">
       <div class="wrap">
         <slot />
       </div>
     </main>
     <footer class="site-foot">
-      <div class="wrap">
-        Every date and claim on this site is either harvested with a source, or shown as an open TODO. Blanks are honest.
+      <div class="wrap footer-inner">
+        <a class="footer-name" href="/">
+          Style Index<span>↗</span>
+        </a>
+        <p>
+          A reference for looking closer.
+          <br />
+          Graphic design, illustration & typography.
+        </p>
+        <a href="/about/">Sources & methodology ↗</a>
+        <a href="#main">Back to top ↑</a>
       </div>
     </footer>
+    <script>
+      // Storage is optional: browsing remains usable in private or restricted contexts.
+      const readSaved = () => {
+        try {
+          const value = JSON.parse(
+            localStorage.getItem("style-index-saved") || "[]",
+          );
+          return Array.isArray(value)
+            ? value.filter((v) => typeof v === "string")
+            : [];
+        } catch {
+          return [];
+        }
+      };
+      const syncSaved = () => {
+        const saved = readSaved();
+        document
+          .querySelectorAll<HTMLButtonElement>("[data-save]")
+          .forEach((b) => {
+            const on = saved.includes(b.dataset.save);
+            b.setAttribute("aria-pressed", String(on));
+            b.title = on ? "Remove from saved styles" : "Save style";
+            b.textContent = on ? "Saved −" : "Save +";
+          });
+      };
+      syncSaved();
+      document.addEventListener("click", (e) => {
+        const button = (e.target as Element).closest<HTMLButtonElement>(
+          "[data-save]",
+        );
+        if (!button) return;
+        const saved = new Set(readSaved());
+        const id = button.dataset.save!;
+        saved.has(id) ? saved.delete(id) : saved.add(id);
+        try {
+          localStorage.setItem("style-index-saved", JSON.stringify([...saved]));
+          syncSaved();
+          document.dispatchEvent(new Event("saved-changed"));
+        } catch {
+          button.textContent = "Saving unavailable";
+        }
+      });
+      document.querySelectorAll<HTMLImageElement>("img").forEach((img) => {
+        const fail = () => {
+          img.hidden = true;
+          img.parentElement?.classList.add("image-unavailable");
+        };
+        img.addEventListener("error", fail);
+        if (img.complete && img.naturalWidth === 0) fail();
+      });
+    </script>
   </body>
 </html>

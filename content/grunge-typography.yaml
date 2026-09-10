@@ -1,6 +1,6 @@
 id: grunge-typography
 term_type: style
-status: stub
+status: draft
 names:
   primary: Grunge typography
   variants: []
@@ -60,6 +60,7 @@ images:
       a monument in Norway, number: 84436 in the Norwegian Directorate for
       Cultural Heritag"
     depicts: null
+    review_status: rejected
   - file: assets/grunge-typography/Vinje_Grunge_kyrkje_t_rnet_og_inngangen.JPG
     source_url: https://commons.wikimedia.org/wiki/File:Vinje,_Grunge_kyrkje,_t%C3%A5rnet_og_inngangen.JPG
     license: CC BY-SA 3.0 no
@@ -69,6 +70,7 @@ images:
       i Telemark. Ho er bygd etter ei typeteikning av slottsarkitekt H.D.F.
       Lindstow, og tilpassa av sokneprest Anton Elias Smitt.
     depicts: null
+    review_status: rejected
   - file: assets/grunge-typography/Vinje_Grunge_kyrkje_fr_nord.JPG
     source_url: https://commons.wikimedia.org/wiki/File:Vinje,_Grunge_kyrkje_fr%C3%A5_nord.JPG
     license: CC BY-SA 3.0 no
@@ -78,6 +80,7 @@ images:
       i Telemark. Ho er bygd etter ei typeteikning av slottsarkitekt H.D.F.
       Lindstow, og tilpassa av sokneprest Anton Elias Smitt.
     depicts: null
+    review_status: rejected
   - file: assets/grunge-typography/Panorama_of_Seattle_Sound-Grunge_Exhibit_-_Rock_Roll_Hall_of_Fame_and_Museum_Cle
     source_url: https://commons.wikimedia.org/wiki/File:Panorama_of_Seattle_Sound-Grunge_Exhibit_-_Rock_%26_Roll_Hall_of_Fame_and_Museum,_Cleveland_(by_Adam_Jones).jpg
     license: CC BY-SA 2.0
@@ -86,6 +89,7 @@ images:
     caption: Panorama of Seattle Sound-Grunge Exhibit - Rock &amp; Roll Hall of Fame
       and Museum - Cleveland - Ohio - USA
     depicts: null
+    review_status: pending
   - file: assets/grunge-typography/90s_Grunge_Today.jpg
     source_url: https://commons.wikimedia.org/wiki/File:90s_Grunge_Today.jpg
     license: CC BY-SA 4.0
@@ -93,6 +97,7 @@ images:
     rights_status: open
     caption: More modernize grunge outfit that is worn today.
     depicts: null
+    review_status: pending
   - file: assets/grunge-typography/Grunge_H_M.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Grunge_H%26M.jpg
     license: CC BY-SA 4.0
@@ -103,6 +108,7 @@ images:
       black flannel shirt, and slightly ripped jeans, along with a black
       surgical mask.
     depicts: null
+    review_status: pending
   - file: assets/grunge-typography/Foto_de_Korven_Brox_y_su_grupo_Grunjeo.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Foto_de_Korven_Brox_y_su_grupo_Grunjeo.jpg
     license: CC BY-SA 4.0
@@ -110,6 +116,7 @@ images:
     rights_status: open
     caption: Fotografía de Korven Brox, músico y productor dominicano de folk grunge.
     depicts: null
+    review_status: rejected
   - file: assets/grunge-typography/Foto_promocional_de_Korven_Brox_m_sico_y_productor_dominicano.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Foto_promocional_de_Korven_Brox,_m%C3%BAsico_y_productor_dominicano.jpg
     license: CC BY-SA 4.0
@@ -119,6 +126,7 @@ images:
       dominicano reconocido por su enfoque en el folk grunge, fusionando lo
       orgánico con lo crudo.
     depicts: null
+    review_status: rejected
   - file: assets/grunge-typography/Korven_Brox_artista_zurdo.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Korven_Brox,_artista_zurdo.jpg
     license: CC BY-SA 4.0
@@ -128,6 +136,7 @@ images:
       resalta su enfoque único en la música folk grunge, siendo zurdo, lo que
       influye en su manera de componer y tocar.
     depicts: null
+    review_status: rejected
   - file: assets/grunge-typography/Korven_Brox_ensayando.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Korven_Brox_ensayando.jpg
     license: CC BY-SA 4.0
@@ -136,6 +145,7 @@ images:
     caption: Korven Brox en su proceso de ensayo, preparando su estilo folk grunge
       crudo y emocional para una de sus presentaciones en vivo.
     depicts: null
+    review_status: rejected
   - file: assets/grunge-typography/Grunjeo_Concierto_en_Santo_Domingo_23_de_agosto_de_2025.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Grunjeo_%E2%80%93_Concierto_en_Santo_Domingo,_23_de_agosto_de_2025.jpg
     license: CC BY 4.0
@@ -147,6 +157,7 @@ images:
       agosto de 2025. La imagen documenta a la banda en la escena musical
       alternativa dominican
     depicts: null
+    review_status: rejected
   - file: assets/grunge-typography/Concierto_Grunjeo_23_de_agosto_2025_en_rocknrollard.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Concierto_Grunjeo_23_de_agosto_2025_en_rocknrollard.jpg
     license: CC BY 4.0
@@ -158,6 +169,7 @@ images:
       capturando la energía y el estilo grunge alternativo de la banda. Grunjeo,
       fundada en 2024, "
     depicts: null
+    review_status: rejected
 todo:
   - names.variants
   - summary
@@ -182,3 +194,20 @@ provenance:
       url: https://commons.wikimedia.org/w/index.php?search=grunge%20typography
       accessed: 2026-08-23
       note: "query: grunge typography"
+  guide:
+    - source: editorial
+      reviewed: false
+      note: Visual interpretation and practical design guidance; not a historical
+        attribution.
+guide:
+  dek: Eroded letterforms and unstable spacing give type a worn, abrasive and
+    imperfect surface.
+  signature:
+    - Distressed outlines
+    - Uneven alignment
+    - Rough reproduction
+  application: Separate expressive display type from sustained reading text.
+  caution: A texture overlay should not obscure every word equally.
+  compare:
+    - punk-graphics
+    - photocopier

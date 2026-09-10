@@ -1,6 +1,6 @@
 id: photocopier
 term_type: apparatus
-status: stub
+status: draft
 names:
   primary: Photocopier
   variants: []
@@ -53,6 +53,7 @@ images:
     caption: A small, much used Xerox photocopier in the library of GlenOak High
       School in Canton, Ohio, USA.
     depicts: null
+    review_status: pending
   - file: assets/photocopier/The_Closest_Photocopier_3594209596_.jpg
     source_url: https://commons.wikimedia.org/wiki/File:The_Closest_Photocopier_(3594209596).jpg
     license: CC0
@@ -64,6 +65,7 @@ images:
       href="http://www.dennissylvesterhurd.com/blog/" target="_new"
       rel="nofollow"&gt;my blog&lt;/a&gt;.
     depicts: null
+    review_status: pending
   - file: assets/photocopier/Sharp_MX-7500_photocopier.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Sharp_MX-7500_photocopier.jpg
     license: CC BY 4.0
@@ -72,6 +74,7 @@ images:
     caption: A Sharp MX-7500 photocopier in a work room. This photocopier is mainly
       intended for bulk copying.
     depicts: null
+    review_status: pending
   - file: assets/photocopier/Photocopier.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Photocopier.jpg
     license: CC0
@@ -79,6 +82,7 @@ images:
     rights_status: open
     caption: hindi
     depicts: null
+    review_status: pending
   - file: assets/photocopier/Xerox_AltaLink_C8045_photocopier.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Xerox_AltaLink_C8045_photocopier.jpg
     license: CC BY 4.0
@@ -86,6 +90,7 @@ images:
     rights_status: open
     caption: A Xerox AltaLink C8045 photocopier at an office building
     depicts: null
+    review_status: pending
   - file: assets/photocopier/Konica_Minolta_Bizhub_C454e_photocopier.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Konica_Minolta_Bizhub_C454e_photocopier.jpg
     license: CC BY 4.0
@@ -93,6 +98,7 @@ images:
     rights_status: open
     caption: Konica Minolta Bizhub C454e photocopier in an office building
     depicts: null
+    review_status: pending
   - file: assets/photocopier/Canon_ImageRUNNER_Advance_C7570i_photocopier.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Canon_ImageRUNNER_Advance_C7570i_photocopier.jpg
     license: CC BY 4.0
@@ -100,6 +106,7 @@ images:
     rights_status: open
     caption: Canon ImageRUNNER Advance C7570i photocopier in an office building
     depicts: null
+    review_status: pending
   - file: assets/photocopier/Technician_repairing_a_photocopier_in_Uganda.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Technician_repairing_a_photocopier_in_Uganda.jpg
     license: CC BY-SA 4.0
@@ -109,6 +116,7 @@ images:
       the different regions of Uganda especially those that are dusty or carry
       out heavy printing.
     depicts: null
+    review_status: pending
 todo:
   - names.variants
   - summary
@@ -130,3 +138,20 @@ provenance:
       url: https://commons.wikimedia.org/w/index.php?search=photocopier
       accessed: 2026-08-23
       note: "query: photocopier"
+  guide:
+    - source: editorial
+      reviewed: false
+      note: Visual interpretation and practical design guidance; not a historical
+        attribution.
+guide:
+  dek: High-contrast reproduction, grain and repeated degradation create a rough
+    documentary surface.
+  signature:
+    - Crushed shadows
+    - Toner-like grain
+    - Copied cut-and-paste edges
+  application: Keep a clean master of essential type before introducing degradation.
+  caution: Loss of detail should support the message rather than erase it.
+  compare:
+    - punk-graphics
+    - grunge-typography

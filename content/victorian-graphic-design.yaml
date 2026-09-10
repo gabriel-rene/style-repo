@@ -1,0 +1,129 @@
+{
+  "id": "victorian-graphic-design",
+  "term_type": "style",
+  "status": "draft",
+  "names":
+    {
+      "primary": "Victorian graphic design",
+      "variants": [ Chromolithographic era ]
+    },
+  "summary": "Victorian commercial print combined detailed illustration, ornate
+    lettering and dense decorative framing. Expanding reproduction technologies
+    made richly illustrated advertising and printed ephemera increasingly
+    visible. This entry focuses on graphic work rather than using Victorian as a
+    label for every design made during the period.",
+  "facets":
+    {
+      "era":
+        {
+          "periods":
+            [
+              {
+                  label: Approximate active period,
+                  role: active,
+                  start_year: 1850,
+                  end_year: 1899,
+                  approximate: true
+                }
+            ]
+        },
+      "lineage": {},
+      "formal_properties":
+        {
+          "grid_discipline": "moderate",
+          "palette_logic": { "descriptor": "restricted" },
+          "contrast": "high",
+          "texture": "flat",
+          "hierarchy": "moderate",
+          "ornament_level": "moderate"
+        },
+      geography: { origin_places: [ { label: Britain and the United States, wikidata: null } ] },
+      practitioners:
+        {
+          people:
+            [
+              { name: Louis Prang, wikidata: null },
+              { name: Thomas Nast, wikidata: null },
+              { name: Ellen Robbins, wikidata: null }
+            ]
+        }
+    },
+  "images": [],
+  "provenance":
+    {
+      guide:
+        [
+          {
+              source: editorial,
+              reviewed: false,
+              note: Visual interpretation and practical design guidance; not a historical
+                attribution.
+            }
+        ],
+      summary:
+        [
+          {
+              source: research-note,
+              url: https://docs.google.com/document/d/1KK3Jpu_uVfU7CJ3WykzY8IU8bvWV7SM_SAPWmRy1joc/edit,
+              accessed: 2026-09-09,
+              note: Adapted from user-supplied Graphic Design Movements 1850-2000. Period
+                bounds are approximate contextual ranges; not independently
+                verified in every case.
+            }
+        ],
+      facets.era.periods:
+        [
+          {
+              source: research-note,
+              url: https://docs.google.com/document/d/1KK3Jpu_uVfU7CJ3WykzY8IU8bvWV7SM_SAPWmRy1joc/edit,
+              accessed: 2026-09-09,
+              note: Adapted from user-supplied Graphic Design Movements 1850-2000. Period
+                bounds are approximate contextual ranges; not independently
+                verified in every case.
+            }
+        ],
+      facets.geography.origin_places:
+        [
+          {
+              source: research-note,
+              url: https://docs.google.com/document/d/1KK3Jpu_uVfU7CJ3WykzY8IU8bvWV7SM_SAPWmRy1joc/edit,
+              accessed: 2026-09-09,
+              note: Adapted from user-supplied Graphic Design Movements 1850-2000. Period
+                bounds are approximate contextual ranges; not independently
+                verified in every case.
+            }
+        ],
+      facets.practitioners.people:
+        [
+          {
+              source: research-note,
+              url: https://docs.google.com/document/d/1KK3Jpu_uVfU7CJ3WykzY8IU8bvWV7SM_SAPWmRy1joc/edit,
+              accessed: 2026-09-09,
+              note: Adapted from user-supplied Graphic Design Movements 1850-2000. Period
+                bounds are approximate contextual ranges; not independently
+                verified in every case.
+            }
+        ],
+      names.variants:
+        [
+          {
+              source: research-note,
+              url: https://docs.google.com/document/d/1KK3Jpu_uVfU7CJ3WykzY8IU8bvWV7SM_SAPWmRy1joc/edit,
+              accessed: 2026-09-09,
+              note: Adapted from user-supplied Graphic Design Movements 1850-2000. Period
+                bounds are approximate contextual ranges; not independently
+                verified in every case.
+            }
+        ]
+    },
+  "todo": [],
+  guide:
+    {
+      dek: "Ornate lettering, detailed illustration and layered framing create a rich
+        commercial page.",
+      signature: [ Decorated display type, Pictorial borders, Dense visual hierarchy ],
+      application: Use a clear central subject to hold elaborate framing together.,
+      caution: Avoid treating all nineteenth-century print as uniformly ornamental.,
+      compare: [ chromolithography, arts-and-crafts ]
+    }
+}

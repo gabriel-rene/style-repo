@@ -92,6 +92,7 @@ for (const { doc } of entries) {
       license: `MoMA collection image — rights not cleared for reuse (metadata CC0: ${DATASET_URL})`,
       attribution: `${artist}, "${title}"${date ? ', ' + date : ''}. The Museum of Modern Art, New York (${a[col.CreditLine] || 'credit line unknown'})`,
       rights_status: 'restricted',
+      review_status: 'pending',
       caption: [title, date, a[col.Medium]].filter(Boolean).join('. ').slice(0, 300),
       depicts: null,
     });

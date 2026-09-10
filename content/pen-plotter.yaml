@@ -1,6 +1,6 @@
 id: pen-plotter
 term_type: apparatus
-status: stub
+status: draft
 names:
   primary: Pen plotter
   variants: []
@@ -51,6 +51,7 @@ images:
     rights_status: open
     caption: "Silver Reed Colour PenGraph EB50 Plotter: cover taken off"
     depicts: null
+    review_status: pending
   - file: assets/pen-plotter/Silver_Reed_Colour_PenGraph_EB50_Plotter_-1007.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Silver_Reed_Colour_PenGraph_EB50_Plotter_-1007.jpg
     license: CC BY-SA 4.0
@@ -59,6 +60,7 @@ images:
     caption: Silver Reed Colour PenGraph EB50 Plotter with writing sample in green,
       red, and blue (black empty); in the back right the power supply
     depicts: null
+    review_status: pending
   - file: assets/pen-plotter/Silver_Reed_Colour_PenGraph_EB50_Plotter_-1000.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Silver_Reed_Colour_PenGraph_EB50_Plotter_-1000.jpg
     license: CC BY-SA 4.0
@@ -66,6 +68,7 @@ images:
     rights_status: open
     caption: "Silver Reed Colour PenGraph EB50 Plotter: top side with cover and handle"
     depicts: null
+    review_status: pending
   - file: assets/pen-plotter/Silver_Reed_Colour_PenGraph_EB50_Plotter_-1015.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Silver_Reed_Colour_PenGraph_EB50_Plotter_-1015.jpg
     license: CC BY-SA 4.0
@@ -74,6 +77,7 @@ images:
     caption: "Silver Reed Colour PenGraph EB50 Plotter: pie-chart drawn by built-in
       special funktion"
     depicts: null
+    review_status: pending
   - file: assets/pen-plotter/Silver_Reed_Colour_PenGraph_EB50_Plotter_-1018.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Silver_Reed_Colour_PenGraph_EB50_Plotter_-1018.jpg
     license: CC BY-SA 4.0
@@ -83,6 +87,7 @@ images:
       built-in special function; the clear cover is removed, and the revolving
       holder with the plotter pen can be seen"
     depicts: null
+    review_status: pending
   - file: assets/pen-plotter/Silver_Reed_Colour_PenGraph_EB50_Plotter_-1021.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Silver_Reed_Colour_PenGraph_EB50_Plotter_-1021.jpg
     license: CC BY-SA 4.0
@@ -91,6 +96,7 @@ images:
     caption: "Silver Reed Colour PenGraph EB50 Plotter: the three font sizes of the
       machine"
     depicts: null
+    review_status: pending
   - file: assets/pen-plotter/Silver_Reed_Colour_PenGraph_EB50_Plotter_-1030.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Silver_Reed_Colour_PenGraph_EB50_Plotter_-1030.jpg
     license: CC BY-SA 4.0
@@ -99,6 +105,7 @@ images:
     caption: "Silver Reed Colour PenGraph EB50 Plotter: LC-display adjusted to
       normal contrast"
     depicts: null
+    review_status: pending
   - file: assets/pen-plotter/Silver_Reed_Colour_PenGraph_EB50_Plotter_-1031.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Silver_Reed_Colour_PenGraph_EB50_Plotter_-1031.jpg
     license: CC BY-SA 4.0
@@ -107,6 +114,7 @@ images:
     caption: "Silver Reed Colour PenGraph EB50 Plotter: LC-display on highest
       adjustment, all elements can be seen"
     depicts: null
+    review_status: pending
   - file: assets/pen-plotter/Silver_Reed_Colour_PenGraph_EB50_Plotter_-1032.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Silver_Reed_Colour_PenGraph_EB50_Plotter_-1032.jpg
     license: CC BY-SA 4.0
@@ -115,6 +123,7 @@ images:
     caption: "Silver Reed Colour PenGraph EB50 Plotter: integrated tray for plotter
       pens, beneath feed roll release lever, right plug of the power supply"
     depicts: null
+    review_status: pending
   - file: assets/pen-plotter/Silver_Reed_Colour_PenGraph_EB50_Plotter_-1033.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Silver_Reed_Colour_PenGraph_EB50_Plotter_-1033.jpg
     license: CC BY-SA 4.0
@@ -123,6 +132,7 @@ images:
     caption: "Silver Reed Colour PenGraph EB50 Plotter: 36 pin Centronics interface
       for connecting to a computer"
     depicts: null
+    review_status: pending
   - file: assets/pen-plotter/Silver_Reed_Colour_PenGraph_EB50_Plotter_-1034.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Silver_Reed_Colour_PenGraph_EB50_Plotter_-1034.jpg
     license: CC BY-SA 4.0
@@ -133,6 +143,7 @@ images:
       supply (left to right); the dark thing beneath is only used as a pedestal
       for making photos easier – it is no part of the plotter itself"
     depicts: null
+    review_status: pending
   - file: assets/pen-plotter/Silver_Reed_Colour_PenGraph_EB50_Plotter_-1036.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Silver_Reed_Colour_PenGraph_EB50_Plotter_-1036.jpg
     license: CC BY-SA 4.0
@@ -141,6 +152,7 @@ images:
     caption: "Silver Reed Colour PenGraph EB50 Plotter: contrast control on the left
       side of the case"
     depicts: null
+    review_status: pending
 todo:
   - names.variants
   - summary
@@ -162,3 +174,19 @@ provenance:
       url: https://commons.wikimedia.org/w/index.php?search=pen%20plotter
       accessed: 2026-08-23
       note: "query: pen plotter"
+  guide:
+    - source: editorial
+      reviewed: false
+      note: Visual interpretation and practical design guidance; not a historical
+        attribution.
+guide:
+  dek: Continuous paths and repeated strokes expose the logic of a drawing machine.
+  signature:
+    - Monoline paths
+    - Repeated passes
+    - Visible path structure
+  application: Consider pen width, travel order and the density of overlapping marks.
+  caution: A simulated plot needs coherent paths, not merely a thin-line filter.
+  compare:
+    - minimalism
+    - halftone

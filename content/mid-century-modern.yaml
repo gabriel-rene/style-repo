@@ -1,6 +1,6 @@
 id: mid-century-modern
 term_type: style
-status: stub
+status: draft
 names:
   primary: Mid-century modern
   variants: []
@@ -70,3 +70,20 @@ provenance:
   facets.commercial_context:
     - source: editorial
       reviewed: false
+  guide:
+    - source: editorial
+      reviewed: false
+      note: Visual interpretation and practical design guidance; not a historical
+        attribution.
+guide:
+  dek: Economical shapes and expressive composition balance a clean structure with
+    warmth and visual wit.
+  signature:
+    - Simplified organic forms
+    - Confident negative space
+    - Playful geometric accents
+  application: Use one memorable visual idea and support it with a disciplined layout.
+  caution: This broad label should not flatten distinct designers into one palette.
+  compare:
+    - swiss-international-style
+    - flat-design

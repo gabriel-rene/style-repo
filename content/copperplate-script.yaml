@@ -1,6 +1,6 @@
 id: copperplate-script
 term_type: letterform-tradition
-status: stub
+status: draft
 names:
   primary: Copperplate script
   variants: []
@@ -56,6 +56,7 @@ images:
       Pallava used around the same period throughout India and Southeast Asia,
       showing heavy influence in the pre-colonial period of Philippine culture.
     depicts: null
+    review_status: rejected
   - file: assets/copperplate-script/Sample_of_Copperplate_Script_with_a_Offhand_Flourishing.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Sample_of_Copperplate_Script_with_a_Offhand_Flourishing.jpg
     license: CC BY-SA 3.0
@@ -63,6 +64,7 @@ images:
     rights_status: open
     caption: A quote written in Copperplate script with offhand flourishing.
     depicts: null
+    review_status: pending
   - file: assets/copperplate-script/Sample_of_Copperplate_Script_with_an_Oblique_Penholder.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Sample_of_Copperplate_Script_with_an_Oblique_Penholder.jpg
     license: CC BY-SA 3.0
@@ -73,6 +75,7 @@ images:
       calligraphers. The quotation is by Isaac Sharpless, president of Haverford
       College, from a speech given in 1888.
     depicts: null
+    review_status: approved
   - file: assets/copperplate-script/AMH-7084-KB_Sinhalese_script_like_that_seen_in_the_region_of_the_Adamsberg_mount
     source_url: https://commons.wikimedia.org/wiki/File:AMH-7084-KB_Sinhalese_script_like_that_seen_in_the_region_of_the_Adamsberg_mountain.jpg
     license: Public domain
@@ -82,6 +85,7 @@ images:
       mountain. Schrifften oder Caracteres und Hijrogliph; auf u: um den Adams
       Berg zu sehen.. Top left: No: LXXVII. Top right: pag. 229."
     depicts: null
+    review_status: pending
 todo:
   - names.variants
   - summary
@@ -111,3 +115,20 @@ provenance:
       url: https://commons.wikimedia.org/w/index.php?search=copperplate%20script
       accessed: 2026-08-23
       note: "query: copperplate script"
+  guide:
+    - source: editorial
+      reviewed: false
+      note: Visual interpretation and practical design guidance; not a historical
+        attribution.
+guide:
+  dek: Slender connecting strokes and swelling curves produce a flowing, highly
+    controlled writing rhythm.
+  signature:
+    - Slanted letterforms
+    - Fine hairlines
+    - Looped connections
+  application: Allow space for ascenders and flourishes; pair with a restrained text face.
+  caution: Small reproduction can erase hairlines and close delicate counters.
+  compare:
+    - blackletter
+featured_image: https://commons.wikimedia.org/wiki/File:Sample_of_Copperplate_Script_with_an_Oblique_Penholder.jpg

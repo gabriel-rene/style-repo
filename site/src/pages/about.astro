@@ -1,0 +1,126 @@
+---
+import Base from "../layouts/Base.astro";
+import { loadAll, displayImages } from "../lib/data.js";
+const { terms } = loadAll();
+const count = terms.reduce((n, t) => n + displayImages(t).length, 0);
+---
+
+<Base title="About the archive">
+  <header class="page-heading">
+    <p class="meta">About the reference</p>
+    <h1>
+      A way of seeing.
+      <br />A place to begin<span class="red-period">.</span>
+    </h1>
+    <p>
+      Style Index brings visual characteristics, historical context and
+      production methods into one browsable reference.
+    </p>
+  </header>
+  <div class="about-grid">
+    <div>
+      <section>
+        <h2>Read beyond the label.</h2>
+        <p>
+          A movement is a historical and social context. A style is a
+          recognizable visual language. An aesthetic is a looser grouping of
+          visual preferences. A technique describes how something is made; an
+          apparatus is the equipment involved. A letterform tradition concerns
+          the construction of writing and type.
+        </p>
+        <p>
+          Keeping these distinctions makes it possible to compare related ideas
+          without pretending they are the same kind of thing.
+        </p>
+      </section>
+      <section>
+        <h2>Use it as a working reference.</h2>
+        <ol>
+          <li>
+            Search a name or a visual quality such as “geometric,” “layered” or
+            “contour.”
+          </li>
+          <li>
+            Refine by type, grid, palette, contrast, texture and ornament.
+          </li>
+          <li>
+            Open an entry for its signature, context, practical guidance and
+            sources.
+          </li>
+          <li>
+            Compare two entries to understand their differences. Save useful
+            entries in this browser.
+          </li>
+        </ol>
+      </section>
+      <section>
+        <h2>What is in the archive?</h2>
+        <p>
+          {terms.length} entries currently have practical visual guides.{" "}
+          {terms.filter((t) => t.summary).length} also have historical
+          overviews. {count} images have been selected for display. Coverage is
+          strongest in European and North American graphic design, with selected
+          Japanese traditions and digital aesthetics.
+        </p>
+        <p>
+          This is a growing reference, not an exhaustive global history. The
+          gaps matter: additional regional histories, non-Latin typography and
+          more primary-source examples are needed.
+        </p>
+      </section>
+    </div>
+    <div>
+      <section>
+        <h2>Evidence and interpretation.</h2>
+        <p>
+          Historical claims have recorded sources. The supplied research,{" "}
+          <em>Graphic Design Movements 1850–2000</em>, informed the expansion.
+          Its useful structure has been retained, while overly broad synonyms,
+          dubious examples and unsupported claims have been corrected or
+          omitted.
+        </p>
+        <p>
+          Entries distinguish material adapted from this research from primary
+          collection records. A source reference does not mean that every claim
+          in the supplied report has been independently verified.
+        </p>
+        <p>
+          Visual signatures, suggested uses and comparisons are editorial
+          observations. They are tools for looking and making, not historical
+          claims or rigid rules.
+        </p>
+      </section>
+      <section>
+        <h2>Images have a context.</h2>
+        <p>
+          Only approved image selections appear in the interface. Unreviewed
+          search results remain outside the gallery, and rejected examples are
+          excluded. Every displayed image retains its source, attribution and
+          rights information.
+        </p>
+        <p>
+          Index thumbnails are monochrome to keep browsing consistent. Entry
+          pages show original color by default and offer a monochrome study
+          view. Always consult the original before making color judgments.
+        </p>
+      </section>
+      <section>
+        <h2>Dates are not borders.</h2>
+        <p>
+          Approximate active periods are marked with “c.” They describe a useful
+          historical frame, not the first and last time a visual language
+          existed. Entries without supported dates remain outside the timeline
+          rather than receiving a guessed date.
+        </p>
+      </section>
+      <section>
+        <h2>Private by design.</h2>
+        <p>
+          Search and comparison run in your browser. Saved entries are stored
+          locally on this device; there is no account or cross-device
+          synchronization.
+        </p>
+      </section>
+    </div>
+  </div>
+</Base>

@@ -1,0 +1,119 @@
+{
+  "id": "wpa-poster-design",
+  "term_type": "style",
+  "status": "draft",
+  "names": { "primary": "WPA poster design", "variants": [ WPA posters ] },
+  "summary": "Posters produced by branches of the Works Progress Administration
+    advertised public programs, exhibitions, health messages and civic
+    destinations. The Library of Congress collection covers work from 1936 to
+    1943. These posters show varied approaches rather than a single mandated
+    style; flat shapes and economical color separation are especially useful
+    visual points of comparison.",
+  "facets":
+    {
+      "era":
+        {
+          "periods":
+            [
+              {
+                  label: Approximate active period,
+                  role: active,
+                  start_year: 1936,
+                  end_year: 1943,
+                  approximate: true
+                }
+            ]
+        },
+      "lineage": {},
+      "formal_properties":
+        {
+          "grid_discipline": "moderate",
+          "palette_logic": { "descriptor": "restricted" },
+          "contrast": "high",
+          "texture": "flat",
+          "hierarchy": "moderate",
+          "ornament_level": "moderate"
+        },
+      geography: { origin_places: [ { label: United States, wikidata: null } ] },
+      practitioners:
+        {
+          people:
+            [
+              { name: Anthony Velonis, wikidata: null },
+              { name: Richard Floethe, wikidata: null }
+            ]
+        }
+    },
+  "images": [],
+  "provenance":
+    {
+      guide:
+        [
+          {
+              source: editorial,
+              reviewed: false,
+              note: Visual interpretation and practical design guidance; not a historical
+                attribution.
+            }
+        ],
+      summary:
+        [
+          {
+              source: library-of-congress,
+              url: https://www.loc.gov/collections/works-progress-administration-posters/about-this-collection/,
+              accessed: 2026-09-09
+            }
+        ],
+      facets.era.periods:
+        [
+          {
+              source: library-of-congress,
+              url: https://www.loc.gov/collections/works-progress-administration-posters/about-this-collection/,
+              accessed: 2026-09-09
+            }
+        ],
+      facets.geography.origin_places:
+        [
+          {
+              source: research-note,
+              url: https://docs.google.com/document/d/1KK3Jpu_uVfU7CJ3WykzY8IU8bvWV7SM_SAPWmRy1joc/edit,
+              accessed: 2026-09-09,
+              note: Adapted from user-supplied Graphic Design Movements 1850-2000. Period
+                bounds are approximate contextual ranges; not independently
+                verified in every case.
+            }
+        ],
+      facets.practitioners.people:
+        [
+          {
+              source: research-note,
+              url: https://docs.google.com/document/d/1KK3Jpu_uVfU7CJ3WykzY8IU8bvWV7SM_SAPWmRy1joc/edit,
+              accessed: 2026-09-09,
+              note: Adapted from user-supplied Graphic Design Movements 1850-2000. Period
+                bounds are approximate contextual ranges; not independently
+                verified in every case.
+            }
+        ],
+      names.variants:
+        [
+          {
+              source: research-note,
+              url: https://docs.google.com/document/d/1KK3Jpu_uVfU7CJ3WykzY8IU8bvWV7SM_SAPWmRy1joc/edit,
+              accessed: 2026-09-09,
+              note: Adapted from user-supplied Graphic Design Movements 1850-2000. Period
+                bounds are approximate contextual ranges; not independently
+                verified in every case.
+            }
+        ]
+    },
+  "todo": [],
+  guide:
+    {
+      dek: "Reduced illustration and clearly organized lettering turn civic messages
+        into direct, accessible posters.",
+      signature: [ Broad flat shapes, Bold lettering, Compact color separation ],
+      application: Organize one clear civic message around a strong silhouette.,
+      caution: "The WPA was a program with varied work, not a single uniform aesthetic.",
+      compare: [ screen-printing, art-deco ]
+    }
+}

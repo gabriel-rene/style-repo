@@ -1,6 +1,6 @@
 id: minimalism
 term_type: style
-status: stub
+status: draft
 names:
   primary: Minimalism
   variants: []
@@ -57,6 +57,7 @@ images:
     rights_status: open
     caption: kalem
     depicts: null
+    review_status: pending
   - file: assets/minimalism/Euro_symbol_-_Minimalism_art_with_counterfeit_money_-_Tableau_Argent_sale_compos
     source_url: https://commons.wikimedia.org/wiki/File:Euro_symbol_-_Minimalism_art_with_counterfeit_money_-_Tableau_Argent_sale_compos%C3%A9_de_fausses_pi%C3%A8ces_de_monnaie.jpg
     license: CC BY-SA 4.0
@@ -64,6 +65,7 @@ images:
     rights_status: open
     caption: Euro symbol - Minimalism art with counterfeit money -
     depicts: null
+    review_status: pending
   - file: assets/minimalism/Ambigramme_Inoui_-_noir_et_gris_anime.gif
     source_url: https://commons.wikimedia.org/wiki/File:Ambigramme_Inoui_-_noir_et_gris_anime.gif
     license: CC BY-SA 4.0
@@ -75,6 +77,7 @@ images:
       of the TGV inOui train service operated by the French National Railway
       Company SNCF.
     depicts: null
+    review_status: pending
   - file: assets/minimalism/Toilets_minimalism_sign.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Toilets_minimalism_sign.jpg
     license: CC BY-SA 4.0
@@ -84,6 +87,7 @@ images:
       body is also the same shape, just inverted, which further adds to the
       minimalism employed in the design of the sign.
     depicts: null
+    review_status: pending
 todo:
   - names.variants
   - summary
@@ -108,3 +112,20 @@ provenance:
       url: https://commons.wikimedia.org/w/index.php?search=minimalism%20design
       accessed: 2026-08-23
       note: "query: minimalism design"
+  guide:
+    - source: editorial
+      reviewed: false
+      note: Visual interpretation and practical design guidance; not a historical
+        attribution.
+guide:
+  dek: Reduction concentrates attention on a few elements, their proportions and
+    the space between them.
+  signature:
+    - Limited visual vocabulary
+    - Generous negative space
+    - Precise alignment
+  application: Remove competing signals while preserving context and usability.
+  caution: Sparse content is not automatically a resolved composition.
+  compare:
+    - swiss-international-style
+    - brutalist-web-design

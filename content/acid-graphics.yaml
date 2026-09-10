@@ -1,48 +1,50 @@
 id: acid-graphics
 term_type: aesthetic
-status: stub
+status: draft
 names:
   primary: Acid graphics
-  variants: []             # TODO: harvest
-summary: null              # TODO
+  variants: [] # TODO: harvest
+summary: null # TODO
 external_ids:
-  getty_aat: null          # likely absent from AAT — record null result in Phase 3
-  wikidata: null           # TODO — may not exist; record the null result
+  getty_aat: null # likely absent from AAT — record null result in Phase 3
+  wikidata: null # TODO — may not exist; record the null result
 
 facets:
   era:
-    periods: []            # TODO: harvest — thin institutional coverage expected
+    periods: [] # TODO: harvest — thin institutional coverage expected
   geography:
-    origin_places: []      # TODO
+    origin_places: [] # TODO
     spread: []
   lineage:
-    parents: []            # TODO
-    influences: []         # TODO: harvest (rave/club-flyer ancestry is a factual claim)
+    parents: [] # TODO
+    influences: [] # TODO: harvest (rave/club-flyer ancestry is a factual claim)
     influenced: []
     reacted_against: []
     revival_of: []
   production:
     apparatus: []
     techniques: []
-  formal_properties:       # editorial, unreviewed
+  formal_properties:
+    # editorial, unreviewed
     grid_discipline: broken
-    palette_logic: {descriptor: fluorescent, note: "chrome and toxic-bright combinations"}
+    palette_logic: { descriptor: fluorescent, note: "chrome and toxic-bright combinations" }
     contrast: high
     texture: pronounced
     hierarchy: chaotic
     ornament_level: maximal
-  ideological_stance: strongly-expressive   # editorial, unreviewed
+  ideological_stance: strongly-expressive # editorial, unreviewed
   commercial_context:
-    contexts: [music-packaging, poster, fashion]   # editorial, unreviewed
+    contexts: [ music-packaging, poster, fashion ] # editorial, unreviewed
   revival:
     status: null
     revivals: []
-  lifecycle:               # aesthetic ⇒ lifecycle required
-    state: saturated       # editorial, unreviewed — needs your call
-    first_observed: null   # TODO
-    review_due: null       # TODO: required for this state — you set
+  lifecycle:
+    # aesthetic ⇒ lifecycle required
+    state: null # editorial, unreviewed — needs your call
+    first_observed: null # TODO
+    review_due: null # TODO: required for this state — you set
   practitioners:
-    people: []             # HARVEST-ONLY
+    people: [] # HARVEST-ONLY
     studios: []
 
 images: []
@@ -61,10 +63,27 @@ todo:
 
 provenance:
   facets.formal_properties:
-    - {source: editorial, reviewed: false}
+    - { source: editorial, reviewed: false }
   facets.ideological_stance:
-    - {source: editorial, reviewed: false}
+    - { source: editorial, reviewed: false }
   facets.commercial_context:
-    - {source: editorial, reviewed: false}
+    - { source: editorial, reviewed: false }
   facets.lifecycle.state:
-    - {source: editorial, reviewed: false}
+    - { source: editorial, reviewed: false }
+  guide:
+    - source: editorial
+      reviewed: false
+      note: Visual interpretation and practical design guidance; not a historical
+        attribution.
+guide:
+  dek: Distorted lettering, abrasive surfaces and synthetic imagery assembled into
+    deliberately unstable compositions.
+  signature:
+    - Warped display type
+    - Clashing scales
+    - Dense, layered surfaces
+  application: Keep practical event details in a clear, separate zone.
+  caution: A fluorescent palette alone does not create the visual tension.
+  compare:
+    - glitch-art
+    - psychedelic-art
