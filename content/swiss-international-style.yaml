@@ -105,7 +105,7 @@ images:
     rights_status: open
     caption: Swissair, DC-6B, das modernste Flugzeug nach New York / G. Keller
     depicts: null
-    review_status: pending
+    review_status: approved
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2010EB0013/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O1155283
@@ -116,7 +116,7 @@ images:
     rights_status: restricted
     caption: Kunsthalle Basel Kunstkredit 76-77, 1977, Switzerland
     depicts: null
-    review_status: pending
+    review_status: approved
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2006AP7010/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O77549
@@ -126,7 +126,7 @@ images:
     rights_status: restricted
     caption: Plate, ca. 1855, Stoke-on-Trent
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2022NC8368/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O1663932
@@ -138,7 +138,7 @@ images:
     rights_status: restricted
     caption: Week of World Solidarity with the peoples of Asia, c. 1970, Cuba
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2010CT5648/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O344824
@@ -148,7 +148,7 @@ images:
     rights_status: restricted
     caption: Vase, ca. 1877, Thun
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2007BP3506/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O60303
@@ -159,7 +159,7 @@ images:
     rights_status: restricted
     caption: Panelling, ca. 1900, Strasbourg
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2006AL8267/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O58757
@@ -169,7 +169,7 @@ images:
     rights_status: restricted
     caption: Cabinet, 1550-1580, South Germany
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2007BM9016/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O134386
@@ -180,7 +180,7 @@ images:
     rights_status: restricted
     caption: Classical Figures, 1770s, Britain
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2010EA2513/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O282012
@@ -190,7 +190,7 @@ images:
     rights_status: restricted
     caption: Plate, ca. 1878, Thun
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2010CT5139/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O345117
@@ -200,7 +200,7 @@ images:
     rights_status: restricted
     caption: Jug, ca. 1878, Thun
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2010EA3135/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O345116
@@ -210,7 +210,7 @@ images:
     rights_status: restricted
     caption: Jug, ca. 1878, Thun
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2010EA2552/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O337295
@@ -220,7 +220,7 @@ images:
     rights_status: restricted
     caption: Vase, ca. 1878, Thun
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2010EA2514/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O279873
@@ -230,7 +230,7 @@ images:
     rights_status: restricted
     caption: Plate, 1878, Thun
     depicts: null
-    review_status: pending
+    review_status: rejected
 
 todo:
   - external_ids

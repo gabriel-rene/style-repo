@@ -83,7 +83,7 @@ images:
     rights_status: open
     caption: Orbiter 500 3.0 superflat
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/superflat/Artist_Takashi_Murakami_with_early_works_at_Galerie_Mars_in_Tokyo_1992._Photogra
     source_url: https://commons.wikimedia.org/wiki/File:Artist_Takashi_Murakami_with_early_works_at_Galerie_Mars_in_Tokyo_1992._Photographed_by_Ithaka_Darin_Pappas_A.jpg
     license: CC BY-SA 4.0
@@ -93,7 +93,7 @@ images:
       birthday, with some of his early works at Galerie Mars in Shibuya-Ku,Tokyo
       1992. Photo by Ithaka Darin Pappas
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/superflat/Takashi_Murakami_at_Galerie_Mars_Tokyo_1992._Photo_by_Ithaka_Darin_Pappas.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Takashi_Murakami_at_Galerie_Mars_Tokyo_1992._Photo_by_Ithaka_Darin_Pappas.jpg
     license: CC BY-SA 4.0
@@ -103,7 +103,7 @@ images:
       birthday, Feburary 1st 1992, at Galerie Mars in Shibuya-Ku,Tokyo 1992.
       Photographed (with some of his early works) by Ithaka Darin Pappas
     depicts: null
-    review_status: pending
+    review_status: rejected
 todo:
   - names.variants
   - summary

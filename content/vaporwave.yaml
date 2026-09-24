@@ -61,7 +61,7 @@ images:
     rights_status: open
     caption: A primeira obra do movimento Portuguese Vaporwave
     depicts: null
-    review_status: pending
+    review_status: approved
   - file: assets/vaporwave/Vaporwave_art_example.png
     source_url: https://commons.wikimedia.org/wiki/File:Vaporwave_art_example.png
     license: CC BY-SA 4.0
@@ -77,7 +77,7 @@ images:
     rights_status: open
     caption: A primeira obra do movimento Portuguese Vaporwave
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/vaporwave/Vaporwave_for_China.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Vaporwave_for_China.jpg
     license: CC BY-SA 4.0
@@ -85,7 +85,7 @@ images:
     rights_status: open
     caption: The Album cover of Vaporwave for China
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/vaporwave/Wikiwave_00000.png
     source_url: https://commons.wikimedia.org/wiki/File:Wikiwave_00000.png
     license: CC BY-SA 4.0
@@ -93,7 +93,7 @@ images:
     rights_status: open
     caption: an example of vaporwave art
     depicts: null
-    review_status: pending
+    review_status: approved
   - file: assets/vaporwave/Sample_Vaporwave_Artwork.png
     source_url: https://commons.wikimedia.org/wiki/File:Sample_Vaporwave_Artwork.png
     license: Public domain
@@ -101,7 +101,7 @@ images:
     rights_status: open
     caption: Przykład grafiki utrzymanej w klimacie Vaporwave.
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/vaporwave/Nine_lives_vaporwave.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Nine_lives_vaporwave.jpg
     license: CC BY 2.0
@@ -109,7 +109,7 @@ images:
     rights_status: open
     caption: Vaporwave artwork of two winged cats.
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/vaporwave/Vaporwave_WP3_Print.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Vaporwave_WP3_Print.jpg
     license: CC BY 2.0
@@ -118,7 +118,7 @@ images:
     caption: A new Vaporwave wallpaper! It is free and put under Creative Commons.
       Enjoy.
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/vaporwave/Vaporwave_bust_in_Chiang_Mai.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Vaporwave_bust_in_Chiang_Mai.jpg
     license: CC BY 4.0
@@ -126,7 +126,7 @@ images:
     rights_status: open
     caption: September 2024 in Chiang Mai
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/vaporwave/Vaporwave_sunset.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Vaporwave_sunset.jpg
     license: Public domain
@@ -135,7 +135,7 @@ images:
     rights_status: open
     caption: Vaporwave style artwork
     depicts: null
-    review_status: pending
+    review_status: approved
 
 todo:
   - names.variants

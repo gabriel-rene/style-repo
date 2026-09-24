@@ -64,7 +64,7 @@ images:
       ships, it's owned by A/S Thor Dahl Ltd, in Sandefjord, Norway, but in
       about electornic future music which is are synthwave.
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/synthwave/Synthwave_cyberspace_sunset_low_res_.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Synthwave_cyberspace_sunset_(low_res).jpg
     license: CC BY-SA 3.0
@@ -85,7 +85,7 @@ images:
     caption: A synthwave style image with a purple wave, the word "synthwave" and
       colorful lines above
     depicts: null
-    review_status: pending
+    review_status: rejected
 todo:
   - names.variants
   - summary

@@ -62,7 +62,7 @@ images:
     caption: "Marsilius Ficinus. Woodcut by T. Stimmer. Iconographic Collections
       Keywords: portrait prints; woodcuts; Tobias Stimmer; Marsilius Ficinus"
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/woodcut/Pythagoras._Woodcut._Wellcome_V0004828.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Pythagoras._Woodcut._Wellcome_V0004828.jpg
     license: CC BY 4.0
@@ -71,7 +71,7 @@ images:
     caption: "Pythagoras. Woodcut. Iconographic Collections Keywords: portrait
       prints; woodcuts; Pythagoras"
     depicts: null
-    review_status: pending
+    review_status: approved
   - file: assets/woodcut/Archive-ugent-be-E898690E-0C16-11E3-8D98-58C697481370_DS-24.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Archive-ugent-be-E898690E-0C16-11E3-8D98-58C697481370_DS-24.jpg
     license: CC BY-SA 4.0
@@ -80,7 +80,7 @@ images:
     caption: Excerpt from the Flemish magazine "Regenboog". Draft for the woodcut
       "Pan" of Jozef Cantré. Published in 1918.
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/woodcut/Archive-ugent-be-E898690E-0C16-11E3-8D98-58C697481370_DS-24_2_.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Archive-ugent-be-E898690E-0C16-11E3-8D98-58C697481370_DS-24_(2).jpg
     license: CC BY-SA 4.0
@@ -89,7 +89,7 @@ images:
     caption: Excerpt from the Flemish magazine "Regenboog". Draft for the woodcut
       "Pan" of Jozef Cantré. Published in 1918.
     depicts: null
-    review_status: pending
+    review_status: approved
   - file: assets/woodcut/Woodcut_Arabic_alphabet_of_Pedro_de_Alcal_printed_1505.png
     source_url: https://commons.wikimedia.org/wiki/File:Woodcut_Arabic_alphabet_of_Pedro_de_Alcal%C3%A1,_printed_1505.png
     license: Public domain
@@ -98,7 +98,7 @@ images:
     caption: woodcut Arabic alphabet of Pedro de Alcalá, printed in Arte Para
       Ligeramente Saber la Lengua Arauica, 1505
     depicts: null
-    review_status: pending
+    review_status: rejected
 todo:
   - names.variants
   - summary

@@ -74,7 +74,7 @@ images:
     rights_status: open
     caption: Ukiyo-e workshop, Tsukuba, Japan
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/ukiyo-e/Ukiyo-e_dsc04680.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Ukiyo-e_dsc04680.jpg
     license: CC BY-SA 3.0
@@ -82,7 +82,7 @@ images:
     rights_status: open
     caption: Ukiyo-e workshop, Tsukuba, Japan
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/ukiyo-e/Suzuki_Haronubu_oiran_ukiyo-e.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Suzuki_Haronubu_oiran_ukiyo-e.jpg
     license: Public domain
@@ -98,7 +98,7 @@ images:
     rights_status: open
     caption: Japanese dragon, Ukiyo-e print
     depicts: null
-    review_status: pending
+    review_status: approved
   - file: assets/ukiyo-e/Ukiyo-e_dragon_2.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Ukiyo-e_dragon_2.jpg
     license: Public domain
@@ -106,7 +106,7 @@ images:
     rights_status: open
     caption: Japanese dragon, Ukiyo-e print
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/ukiyo-e/Children_Exploring_an_Elephant_Ukiyo-e_ca._1875_.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Children_Exploring_an_Elephant_(Ukiyo-e,_ca._1875).jpg
     license: Public domain
@@ -116,7 +116,7 @@ images:
       under, and around an enormous elephant. Illustration in "Omacha-e,
       kodomo-e, harimazechō", ca. 1875.
     depicts: null
-    review_status: pending
+    review_status: approved
 todo:
   - external_ids
   - facets.era.periods

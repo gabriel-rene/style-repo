@@ -55,7 +55,7 @@ images:
     rights_status: open
     caption: null
     depicts: null
-    review_status: pending
+    review_status: approved
   - file: assets/suprematism/1924-25_Chashnik_Suprematismus_anagoria.JPG
     source_url: https://commons.wikimedia.org/wiki/File:1924-25_Chashnik_Suprematismus_anagoria.JPG
     license: Public domain
@@ -63,7 +63,7 @@ images:
     rights_status: open
     caption: null
     depicts: null
-    review_status: pending
+    review_status: approved
   - file: assets/suprematism/Suprematism_Rozanova_1916_.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Suprematism_(Rozanova,_1916).jpg
     license: Public domain
@@ -71,7 +71,7 @@ images:
     rights_status: open
     caption: null
     depicts: null
-    review_status: pending
+    review_status: approved
   - file: assets/suprematism/Suprematism_-_Abstract_Composition_Malevich_1915_.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Suprematism_-_Abstract_Composition_(Malevich,_1915).jpg
     license: Public domain
@@ -87,7 +87,7 @@ images:
     rights_status: open
     caption: null
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/suprematism/Suprematism_Kliun_1915_16_.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Suprematism_(Kliun,_1915,_16).jpg
     license: Public domain
@@ -95,7 +95,7 @@ images:
     rights_status: open
     caption: null
     depicts: null
-    review_status: pending
+    review_status: approved
 todo:
   - names.variants
   - summary
