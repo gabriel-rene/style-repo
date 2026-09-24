@@ -31,6 +31,7 @@ jobs:
       # Node.js SQLite build used by GitHub-hosted runners.
       - run: npm run validate
       - run: npm run build --prefix site
+      - run: node scripts/check-site.js
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site/dist

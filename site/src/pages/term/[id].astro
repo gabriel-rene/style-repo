@@ -168,7 +168,7 @@ const base = import.meta.env.BASE_URL;
         </section>
       )}
       {Object.keys(relations).length > 0 && (
-        <section id="works">
+        <section id="connections">
           <h2>Recorded connections.</h2>
           {Object.entries(relations).map(([rel, rows]) => (
             <div>
@@ -185,7 +185,7 @@ const base = import.meta.env.BASE_URL;
         </section>
       )}
       {term.works?.length > 0 && (
-        <section>
+        <section id="works">
           <h2>Works to study.</h2>
           <ul class="source-list">
             {term.works.map((w) => (
