@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Review Queue</title>
+<style>
+  :root { --ink: #111; --paper: #fff; --muted: #666; --line: #ddd; --soft: #f4f4f4; --red: #e10600; --ok: #0a7a2f; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 15px/1.45 system-ui, sans-serif; color: var(--ink); background: var(--paper); }
+  header { display: flex; gap: 20px; align-items: stretch; padding: 0 20px; border-bottom: 2px solid var(--ink); flex-wrap: wrap; }
+  header h1 { font-size: 15px; margin: 0; padding: 14px 0; text-transform: uppercase; letter-spacing: .04em; }
+  nav { display: flex; }
+  nav button { border: 0; border-bottom: 3px solid transparent; background: none; font: inherit; padding: 14px 12px 11px; cursor: pointer; color: var(--muted); }
+  nav button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--red); font-weight: 600; }
+  main { max-width: 1100px; margin: 0 auto; padding: 24px 20px 60px; }
+  h2 { font-size: 28px; line-height: 1.1; margin: 0 0 6px; }
+  h3 { font-size: 13px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); margin: 22px 0 8px; }
+  .meta { color: var(--muted); font-size: 13px; margin: 0; }
+  .dek { margin: 8px 0 0; }
+  a { color: inherit; }
+  button.act { font: inherit; padding: 8px 12px; border: 2px solid var(--ink); background: var(--paper); cursor: pointer; }
+  button.act:hover:not(:disabled) { background: var(--soft); }
+  button.act:disabled { opacity: .35; cursor: not-allowed; }
+  button.ok { border-color: var(--ok); color: var(--ok); }
+  button.no { border-color: var(--red); color: var(--red); }
+  kbd { font: 12px ui-monospace, monospace; color: var(--muted); border: 1px solid var(--line); padding: 0 4px; margin-left: 6px; }
+  .row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+  .cands { display: grid; gap: 8px; margin-top: 8px; }
+  .cand { display: grid; grid-template-columns: 34px 1fr auto; gap: 12px; align-items: start; text-align: left; width: 100%; border: 1px solid var(--line); padding: 10px 12px; background: var(--paper); font: inherit; cursor: pointer; }
+  .cand:hover { border-color: var(--ink); }
+  .cand .n { font: 600 14px ui-monospace, monospace; }
+  .cand .lab { font-weight: 600; }
+  .cand small { color: var(--muted); display: block; }
+  .split { display: grid; grid-template-columns: 260px minmax(0, 1fr); gap: 28px; }
+  .list { border-top: 1px solid var(--line); max-height: calc(100vh - 140px); overflow: auto; position: sticky; top: 16px; }
+  .list button { display: block; width: 100%; text-align: left; border: 0; border-bottom: 1px solid var(--line); background: none; font: inherit; padding: 8px 6px; cursor: pointer; }
+  .list button[aria-current="true"] { background: var(--soft); font-weight: 600; }
+  .list small { display: block; color: var(--muted); font-weight: 400; }
+  .field { border-top: 1px solid var(--line); padding: 12px 0; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 16px; align-items: start; }
+  .field code { font-size: 12px; color: var(--muted); }
+  .val { margin-top: 4px; }
+  .val ul { margin: 4px 0; padding-left: 18px; }
+  .val dl { margin: 0; display: grid; grid-template-columns: 110px 1fr; gap: 2px 10px; }
+  .val dt { color: var(--muted); }
+  .val dd { margin: 0; }
+  .blockers { background: var(--soft); border-left: 3px solid var(--red); padding: 8px 12px; margin: 12px 0; }
+  .ready { background: var(--soft); border-left: 3px solid var(--ok); padding: 8px 12px; margin: 12px 0; }
+  table { width: 100%; border-collapse: collapse; }
+  td { border-top: 1px solid var(--line); padding: 10px 8px 10px 0; vertical-align: top; }
+  select { font: inherit; padding: 6px; max-width: 220px; }
+  td .row { flex-wrap: nowrap; }
+  .empty { font-size: 20px; padding: 30px 0; }
+  #toast { position: fixed; bottom: 16px; left: 16px; background: var(--ink); color: var(--paper); padding: 8px 12px; opacity: 0; transition: opacity .2s; pointer-events: none; }
+  #toast.show { opacity: 1; }
+  @media (max-width: 760px) { .split { grid-template-columns: 1fr; } .list { position: static; max-height: 240px; } .field { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>Review queue</h1>
+  <nav role="tablist">
+    <button role="tab" data-tab="ids">IDs <span id="n-ids"></span></button>
+    <button role="tab" data-tab="drafts">Drafts <span id="n-drafts"></span></button>
+    <button role="tab" data-tab="trends">Trends <span id="n-trends"></span></button>
+  </nav>
+</header>
+<main id="main"></main>
+<div id="toast"></div>
+<script>
+const $ = (s) => document.querySelector(s);
+const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+const human = (s) => String(s).replaceAll("_", " ").replaceAll("-", " ");
+let tab = "ids", ids = [], idPos = 0, idHistory = [], drafts = [], draftSel = null, trends = { items: [], terms: [] };
+
+function toast(msg) { const t = $("#toast"); t.textContent = msg; t.classList.add("show"); clearTimeout(t._h); t._h = setTimeout(() => t.classList.remove("show"), 1600); }
+async function post(path, body) {
+  const r = await fetch(path, { method: "POST", body: JSON.stringify(body) });
+  if (!r.ok) throw new Error(await r.text());
+}
+async function load() {
+  [ids, drafts, trends] = await Promise.all(["/api/ids", "/api/drafts", "/api/trends"].map((u) => fetch(u).then((r) => r.json())));
+  counts(); render();
+}
+function counts() {
+  $("#n-ids").textContent = `(${ids.length - idPos})`;
+  $("#n-drafts").textContent = `(${drafts.length})`;
+  $("#n-trends").textContent = `(${trends.items.length})`;
+}
+function setTab(t) {
+  tab = t;
+  document.querySelectorAll("nav button").forEach((b) => b.setAttribute("aria-selected", b.dataset.tab === t));
+  try { localStorage.setItem("review-tab", t); } catch {}
+  render();
+}
+
+// ---------- IDs ----------
+function renderIds() {
+  const m = ids[idPos];
+  if (!m) return `<p class="empty">No ID mappings left to decide.</p><p>Next: run the harvesters to pull facts for the IDs you accepted (see README).</p>`;
+  const cands = m.candidates.map((c, i) => `
+    <button class="cand" data-pick="${esc(c.id)}">
+      <span class="n">${i < 9 ? i + 1 : ""}</span>
+      <span><span class="lab">${esc(c.label)}</span><small>${esc(c.description ?? "")}</small><small>${esc(c.id)}</small></span>
+      <a href="${esc(c.url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Open ↗</a>
+    </button>`).join("");
+  return `
+    <p class="meta">${idPos + 1} of ${ids.length} · ${esc(m.vocabName)} · ${esc(human(m.method ?? ""))}</p>
+    <h2>${esc(m.term.name)}</h2>
+    <p class="meta">${esc(m.term.type ?? "")}</p>
+    ${m.term.dek ? `<p class="dek">${esc(m.term.dek)}</p>` : ""}
+    ${m.term.summary ? `<p class="dek">${esc(m.term.summary)}</p>` : ""}
+    <h3>Which ${esc(m.vocabName)} entry means the same thing as this style?</h3>
+    ${m.error ? `<p class="blockers">Search failed: ${esc(m.error)}</p>` : ""}
+    <div class="cands">${cands || `<p class="meta">No candidates were found.</p>`}</div>
+    <div class="row" style="margin-top:16px">
+      <button class="act no" data-idact="none">None of these match <kbd>X</kbd></button>
+      <button class="act" data-idact="skip">Skip <kbd>S</kbd></button>
+      <button class="act" data-idact="undo" ${idHistory.length ? "" : "disabled"}>Undo <kbd>U</kbd></button>
+    </div>
+    <p class="meta" style="margin-top:14px">Pick only an exact match. A related word, a tool, or a person is not a match.</p>`;
+}
+async function idAct(kind, value) {
+  const m = ids[idPos];
+  if (kind === "undo") {
+    const h = idHistory.pop(); if (!h) return;
+    if (h.saved) { try { await post("/api/ids", { id: h.m.id, vocab: h.m.vocab, accept: null }); } catch (e) { return toast("Undo failed: " + e.message); } }
+    idPos = h.pos; toast("Undone"); counts(); return render();
+  }
+  if (!m) return;
+  if (kind === "skip") { idHistory.push({ pos: idPos, m }); idPos++; counts(); return render(); }
+  const accept = kind === "none" ? false : value;
+  try { await post("/api/ids", { id: m.id, vocab: m.vocab, accept }); } catch (e) { return toast("Save failed: " + e.message); }
+  idHistory.push({ pos: idPos, m, saved: true });
+  idPos++; toast(accept ? `Accepted ${accept}` : "Marked: no match"); counts(); render();
+}
+
+// ---------- Drafts ----------
+function renderValue(v) {
+  if (v == null || v === "") return `<span class="meta">empty</span>`;
+  if (Array.isArray(v)) return `<ul>${v.map((x) => `<li>${typeof x === "object" ? esc(JSON.stringify(x)) : esc(human(x))}</li>`).join("")}</ul>`;
+  if (typeof v === "object") return `<dl>${Object.entries(v).map(([k, x]) => `<dt>${esc(human(k))}</dt><dd>${Array.isArray(x) ? esc(x.map(human).join(", ")) : typeof x === "object" && x ? esc(JSON.stringify(x)) : esc(x)}</dd>`).join("")}</dl>`;
+  return esc(typeof v === "string" ? v : String(v));
+}
+function renderDrafts() {
+  if (!drafts.length) return `<p class="empty">No drafts left.</p>`;
+  if (!drafts.some((d) => d.file === draftSel)) draftSel = drafts[0].file;
+  const d = drafts.find((x) => x.file === draftSel);
+  const list = drafts.map((x) => `<button data-draft="${esc(x.file)}" aria-current="${x.file === draftSel}">${esc(x.name)}<small>${x.blockers.length ? esc(x.blockers.join(" · ")) : "Ready to publish"}</small></button>`).join("");
+  const fields = d.fields.map((f) => `
+    <div class="field">
+      <div><code>${esc(f.path)}</code><div class="val">${renderValue(f.value)}</div></div>
+      <button class="act ok" data-review="${esc(f.path)}">Looks right</button>
+    </div>`).join("");
+  return `<div class="split">
+    <div class="list">${list}</div>
+    <div>
+      <p class="meta">${esc(d.type ?? "")} · ${esc(d.file)}</p>
+      <h2>${esc(d.name)}</h2>
+      ${d.blockers.length ? `<div class="blockers">Cannot publish yet: ${esc(d.blockers.join("; "))}.</div>` : `<div class="ready">All checks pass. You can publish this entry.</div>`}
+      <div class="row">
+        <button class="act ok" data-publish ${d.blockers.length ? "disabled" : ""}>Publish</button>
+        ${d.fields.length > 1 ? `<button class="act" data-review-all>Mark all ${d.fields.length} fields as right</button>` : ""}
+      </div>
+      <h3>Summary</h3>
+      <p>${d.summary ? esc(d.summary) : `<span class="meta">No sourced summary. Add one from research with a source URL. The rules do not allow a summary from model memory.</span>`}</p>
+      ${d.fields.length ? `<h3>Editorial fields to check</h3><p class="meta">These are design judgments, not historical facts. Mark a field only if it describes the style well. To change a value, edit ${esc(d.file)} and reload.</p>${fields}` : ""}
+      ${d.todo.length ? `<h3>Open TODOs</h3><ul>${d.todo.map((t) => `<li>${esc(typeof t === "string" ? t : JSON.stringify(t))}</li>`).join("")}</ul>` : ""}
+    </div></div>`;
+}
+async function reloadDrafts() { drafts = await fetch("/api/drafts").then((r) => r.json()); counts(); render(); }
+async function reviewField(path) {
+  try { await post("/api/drafts/review", { file: draftSel, path }); } catch (e) { return toast("Save failed: " + e.message); }
+  toast("Marked as reviewed"); reloadDrafts();
+}
+async function reviewAll() {
+  const d = drafts.find((x) => x.file === draftSel);
+  for (const f of d.fields) { try { await post("/api/drafts/review", { file: draftSel, path: f.path }); } catch (e) { toast("Save failed: " + e.message); break; } }
+  toast("All fields marked"); reloadDrafts();
+}
+async function publishDraft() {
+  const d = drafts.find((x) => x.file === draftSel);
+  if (!confirm(`Publish ${d.name}? This sets status: published.`)) return;
+  try { await post("/api/drafts/publish", { file: draftSel }); } catch (e) { return toast("Publish failed: " + e.message); }
+  toast(`${d.name} published`); reloadDrafts();
+}
+
+// ---------- Trends ----------
+function renderTrends() {
+  if (!trends.items.length) return `<p class="empty">No pending trend candidates.</p>`;
+  const opts = `<option value="">Evidence for…</option>` + trends.terms.map((t) => `<option value="${esc(t.id)}">${esc(t.name)}</option>`).join("");
+  const rows = trends.items.map((c) => `<tr>
+    <td><a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.title)} ↗</a><br><span class="meta">${esc(c.source)} · ${esc(c.published_at ?? "")}</span></td>
+    <td><div class="row"><select data-accept="${esc(c.url)}">${opts}</select><button class="act no" data-dismiss="${esc(c.url)}">Dismiss</button></div></td>
+  </tr>`).join("");
+  return `
+    <h2>Trend candidates</h2>
+    <p class="meta">Dismiss items that are not a style signal. To accept one, pick the style it is evidence for. Then cite its URL in that style's research note.</p>
+    <div class="row" style="margin:14px 0"><button class="act no" data-dismiss-all>Dismiss all ${trends.items.length}</button></div>
+    <table>${rows}</table>`;
+}
+async function setTrend(url, status) {
+  try { await post("/api/trends", { url, status }); } catch (e) { return toast("Save failed: " + e.message); }
+  trends.items = trends.items.filter((c) => c.url !== url);
+  toast(status === "dismissed" ? "Dismissed" : `Accepted for ${status.slice(9)}`); counts(); render();
+}
+async function dismissAll() {
+  if (!confirm(`Dismiss all ${trends.items.length} candidates?`)) return;
+  for (const c of [...trends.items]) await setTrend(c.url, "dismissed");
+}
+
+// ---------- wiring ----------
+function render() { $("#main").innerHTML = tab === "ids" ? renderIds() : tab === "drafts" ? renderDrafts() : renderTrends(); }
+document.addEventListener("click", (e) => {
+  const t = e.target.closest("button, a"); if (!t || t.tagName === "A") return;
+  if (t.dataset.tab) return setTab(t.dataset.tab);
+  if (t.dataset.pick) return idAct("pick", t.dataset.pick);
+  if (t.dataset.idact) return idAct(t.dataset.idact);
+  if (t.dataset.draft) { draftSel = t.dataset.draft; return render(); }
+  if (t.dataset.review) return reviewField(t.dataset.review);
+  if ("reviewAll" in t.dataset) return reviewAll();
+  if ("publish" in t.dataset) return publishDraft();
+  if (t.dataset.dismiss) return setTrend(t.dataset.dismiss, "dismissed");
+  if ("dismissAll" in t.dataset) return dismissAll();
+});
+document.addEventListener("change", (e) => { if (e.target.dataset.accept && e.target.value) setTrend(e.target.dataset.accept, "accepted:" + e.target.value); });
+document.addEventListener("keydown", (e) => {
+  if (tab !== "ids" || e.metaKey || e.ctrlKey || e.altKey || e.target.tagName === "SELECT") return;
+  const k = e.key.toLowerCase(), m = ids[idPos];
+  if (/^[1-9]$/.test(k) && m?.candidates[+k - 1]) idAct("pick", m.candidates[+k - 1].id);
+  else if (k === "x") idAct("none");
+  else if (k === "s") idAct("skip");
+  else if (k === "u") idAct("undo");
+});
+try { const t = localStorage.getItem("review-tab"); if (t) tab = t; } catch {}
+setTab(tab);
+load();
+</script>
+</body>
+</html>

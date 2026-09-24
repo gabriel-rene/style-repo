@@ -2,7 +2,7 @@ acid-graphics:
   name: Acid graphics
   checked: 2026-08-23
   getty_aat:
-    accept: null
+    accept: false
     method: no-exact-match
     candidates:
       - id: aat:300426696
@@ -30,14 +30,14 @@ acid-graphics:
         url: http://vocab.getty.edu/aat/300379610
         label: formic acid
   wikidata:
-    accept: null
+    accept: false
     method: no-exact-match
     candidates: []
 airbrush:
   name: Airbrush
   checked: 2026-08-23
   getty_aat:
-    accept: null
+    accept: aat:300443849
     method: no-exact-match
     candidates:
       - id: aat:300443849
@@ -50,7 +50,7 @@ airbrush:
         url: http://vocab.getty.edu/aat/300022706
         label: airbrushes
   wikidata:
-    accept: null
+    accept: Q55842228
     method: ambiguous-exact
     candidates:
       - id: Q408151
@@ -119,7 +119,7 @@ art-deco:
         url: http://vocab.getty.edu/aat/300444407
         label: art schools (buildings)
   wikidata:
-    accept: null
+    accept: Q173782
     method: ambiguous-exact
     candidates:
       - id: Q173782
@@ -190,7 +190,7 @@ art-nouveau:
         url: http://vocab.getty.edu/aat/300435215
         label: art stores (built works)
   wikidata:
-    accept: null
+    accept: Q34636
     method: ambiguous-exact
     candidates:
       - id: Q34636
@@ -231,7 +231,7 @@ arts-and-crafts:
   name: Arts and Crafts
   checked: 2026-08-23
   getty_aat:
-    accept: null
+    accept: aat:300054704
     method: no-exact-match
     candidates:
       - id: aat:300420396
@@ -259,7 +259,7 @@ arts-and-crafts:
         url: http://vocab.getty.edu/aat/300443860
         label: arts initiatives (groups)
   wikidata:
-    accept: null
+    accept: Q330369
     method: ambiguous-exact
     candidates:
       - id: Q330369
@@ -308,7 +308,7 @@ bauhaus:
         url: http://vocab.getty.edu/aat/300021432
         label: Bauhaus
   wikidata:
-    accept: null
+    accept: Q124354
     method: ambiguous-exact
     candidates:
       - id: Q124354
@@ -350,7 +350,7 @@ blackletter:
   name: Blackletter
   checked: 2026-08-23
   getty_aat:
-    accept: null
+    accept: aat:300200661
     method: no-exact-match
     candidates:
       - id: aat:300200661
@@ -385,7 +385,7 @@ brutalist-web-design:
   name: Brutalist web design
   checked: 2026-08-23
   getty_aat:
-    accept: null
+    accept: aat:300112048
     method: no-exact-match
     candidates:
       - id: aat:300375660
@@ -413,14 +413,14 @@ brutalist-web-design:
         url: http://vocab.getty.edu/aat/300443943
         label: web designers
   wikidata:
-    accept: null
+    accept: false
     method: no-exact-match
     candidates: []
 collage:
   name: Collage
   checked: 2026-08-23
   getty_aat:
-    accept: null
+    accept: aat:300033963
     method: no-exact-match
     candidates:
       - id: aat:300033963
@@ -448,7 +448,7 @@ collage:
         url: http://vocab.getty.edu/aat/300041339
         label: collagraphs (prints)
   wikidata:
-    accept: null
+    accept: Q22669857
     method: ambiguous-exact
     candidates:
       - id: Q16408624
@@ -490,7 +490,7 @@ constructivism:
   name: Constructivism
   checked: 2026-08-23
   getty_aat:
-    accept: null
+    accept: aat:300021393
     method: no-exact-match
     candidates:
       - id: aat:300112846
@@ -500,7 +500,7 @@ constructivism:
         url: http://vocab.getty.edu/aat/300021393
         label: Constructivist
   wikidata:
-    accept: null
+    accept: Q207103
     method: ambiguous-exact
     candidates:
       - id: Q207103
@@ -545,7 +545,7 @@ copperplate-script:
   name: Copperplate script
   checked: 2026-08-23
   getty_aat:
-    accept: null
+    accept: aat:300202354
     method: no-exact-match
     candidates:
       - id: aat:300404793
@@ -584,7 +584,7 @@ corporate-memphis:
   name: Corporate Memphis
   checked: 2026-08-23
   getty_aat:
-    accept: null
+    accept: aat:300265730
     method: no-exact-match
     candidates:
       - id: aat:300265730
@@ -623,14 +623,14 @@ cyanotype:
   name: Cyanotype
   checked: 2026-08-23
   getty_aat:
-    accept: null
+    accept: aat:300134811
     method: no-exact-match
     candidates:
       - id: aat:300134811
         url: http://vocab.getty.edu/aat/300134811
         label: cyanotypes (photographic prints)
   wikidata:
-    accept: null
+    accept: Q64029200
     method: ambiguous-exact
     candidates:
       - id: Q422321
@@ -673,7 +673,7 @@ cyberpunk-aesthetic:
   name: Cyberpunk aesthetic
   checked: 2026-08-23
   getty_aat:
-    accept: null
+    accept: false
     method: no-exact-match
     candidates:
       - id: aat:300124083
@@ -692,7 +692,7 @@ cyberpunk-aesthetic:
         url: http://vocab.getty.edu/aat/300018124
         label: Aesthetic Movement
   wikidata:
-    accept: null
+    accept: false
     method: no-exact-match
     candidates: []
 dada:
@@ -709,7 +709,7 @@ dada:
         url: http://vocab.getty.edu/aat/300022187
         label: Neo-Dada
   wikidata:
-    accept: null
+    accept: Q6034
     method: ambiguous-exact
     candidates:
       - id: Q6034
@@ -777,7 +777,7 @@ de-stijl:
         url: http://vocab.getty.edu/aat/300015723
         label: Ancient North African
   wikidata:
-    accept: null
+    accept: Q207445
     method: ambiguous-exact
     candidates:
       - id: Q207445
@@ -816,7 +816,7 @@ etching:
   name: Etching
   checked: 2026-08-23
   getty_aat:
-    accept: null
+    accept: false
     method: no-exact-match
     candidates:
       - id: aat:300425161
@@ -844,7 +844,7 @@ etching:
         url: http://vocab.getty.edu/aat/300264651
         label: sugar-ground etching (printing process)
   wikidata:
-    accept: null
+    accept: Q18218093
     method: ambiguous-exact
     candidates:
       - id: Q186986
@@ -883,7 +883,7 @@ flat-design:
   name: Flat design
   checked: 2026-08-23
   getty_aat:
-    accept: null
+    accept: false
     method: no-exact-match
     candidates:
       - id: aat:300448962
@@ -922,7 +922,7 @@ frutiger-aero:
   name: Frutiger Aero
   checked: 2026-08-23
   getty_aat:
-    accept: null
+    accept: false
     method: no-exact-match
     candidates:
       - id: aat:300015529
@@ -940,7 +940,7 @@ futurism:
   name: Futurism
   checked: 2026-08-23
   getty_aat:
-    accept: null
+    accept: aat:300021374
     method: no-exact-match
     candidates:
       - id: aat:300410340
@@ -953,7 +953,7 @@ futurism:
         url: http://vocab.getty.edu/aat/300021394
         label: Cubo-Futurist
   wikidata:
-    accept: null
+    accept: Q131221
     method: ambiguous-exact
     candidates:
       - id: Q131221
@@ -993,7 +993,7 @@ glitch-art:
   name: Glitch art
   checked: 2026-08-23
   getty_aat:
-    accept: null
+    accept: false
     method: no-exact-match
     candidates:
       - id: aat:300387102
@@ -1040,7 +1040,7 @@ grunge-typography:
   name: Grunge typography
   checked: 2026-08-23
   getty_aat:
-    accept: null
+    accept: aat:300260967
     method: no-exact-match
     candidates:
       - id: aat:300260967
@@ -1050,14 +1050,14 @@ grunge-typography:
         url: http://vocab.getty.edu/aat/300195853
         label: typography
   wikidata:
-    accept: null
+    accept: false
     method: no-exact-match
     candidates: []
 halftone:
   name: Halftone
   checked: 2026-08-23
   getty_aat:
-    accept: null
+    accept: aat:300202115
     method: no-exact-match
     candidates:
       - id: aat:300134956
@@ -1121,7 +1121,7 @@ letterpress:
   name: Letterpress
   checked: 2026-08-23
   getty_aat:
-    accept: null
+    accept: aat:300178926
     method: no-exact-match
     candidates:
       - id: aat:300101057
@@ -1140,7 +1140,7 @@ letterpress:
         url: http://vocab.getty.edu/aat/300265178
         label: chromotypography (relief printing process)
   wikidata:
-    accept: null
+    accept: Q582102
     method: ambiguous-exact
     candidates:
       - id: Q18353647
@@ -1179,7 +1179,7 @@ ligne-claire:
   name: Ligne claire
   checked: 2026-08-23
   getty_aat:
-    accept: null
+    accept: false
     method: no-exact-match
     candidates:
       - id: aat:300435501
@@ -1207,7 +1207,7 @@ ligne-claire:
         url: http://vocab.getty.edu/aat/300434493
         label: telephone line doublers
   wikidata:
-    accept: null
+    accept: Q1307909
     method: ambiguous-exact
     candidates:
       - id: Q1307909
@@ -1222,7 +1222,7 @@ linocut:
   name: Linocut
   checked: 2026-08-23
   getty_aat:
-    accept: null
+    accept: aat:300041393
     method: no-exact-match
     candidates:
       - id: aat:300041393
@@ -1295,7 +1295,7 @@ lithography:
         url: http://vocab.getty.edu/aat/300053272
         label: chromolithography
   wikidata:
-    accept: null
+    accept: Q133036
     method: ambiguous-exact
     candidates:
       - id: Q133036
@@ -1334,11 +1334,11 @@ maximalism:
   name: Maximalism
   checked: 2026-08-23
   getty_aat:
-    accept: null
+    accept: false
     method: no-exact-match
     candidates: []
   wikidata:
-    accept: null
+    accept: Q2246318
     method: ambiguous-exact
     candidates:
       - id: Q27534502
@@ -1386,7 +1386,7 @@ memphis:
         url: http://vocab.getty.edu/aat/300265730
         label: Memphis
   wikidata:
-    accept: null
+    accept: false
     method: ambiguous-exact
     candidates:
       - id: Q16563
@@ -1425,7 +1425,7 @@ mid-century-modern:
   name: Mid-century modern
   checked: 2026-08-23
   getty_aat:
-    accept: null
+    accept: aat:300343610
     method: no-exact-match
     candidates:
       - id: aat:300343610
@@ -1453,7 +1453,7 @@ mid-century-modern:
         url: http://vocab.getty.edu/aat/300456642
         label: ale (beverage)
   wikidata:
-    accept: null
+    accept: Q6840667
     method: ambiguous-exact
     candidates:
       - id: Q133539880
@@ -1491,7 +1491,7 @@ minimalism:
   name: Minimalism
   checked: 2026-08-23
   getty_aat:
-    accept: null
+    accept: aat:300065758
     method: no-exact-match
     candidates:
       - id: aat:300265635
@@ -1501,7 +1501,7 @@ minimalism:
         url: http://vocab.getty.edu/aat/300065758
         label: Minimal
   wikidata:
-    accept: null
+    accept: Q173436
     method: ambiguous-exact
     candidates:
       - id: Q173436
@@ -1541,7 +1541,7 @@ new-typography:
   name: New Typography
   checked: 2026-08-23
   getty_aat:
-    accept: null
+    accept: false
     method: no-exact-match
     candidates:
       - id: aat:300411813
@@ -1569,7 +1569,7 @@ new-typography:
         url: http://vocab.getty.edu/aat/300417393
         label: "'85 New Wave"
   wikidata:
-    accept: null
+    accept: false
     method: no-exact-match
     candidates:
       - id: Q84937906
@@ -1580,7 +1580,7 @@ new-wave-typography:
   name: New Wave typography
   checked: 2026-08-23
   getty_aat:
-    accept: null
+    accept: false
     method: no-exact-match
     candidates:
       - id: aat:300417393
@@ -1608,7 +1608,7 @@ new-wave-typography:
         url: http://vocab.getty.edu/aat/300429091
         label: permanent wave machines
   wikidata:
-    accept: null
+    accept: false
     method: no-exact-match
     candidates: []
 op-art:
@@ -1643,7 +1643,7 @@ op-art:
         url: http://vocab.getty.edu/aat/300435215
         label: art stores (built works)
   wikidata:
-    accept: null
+    accept: Q182331
     method: ambiguous-exact
     candidates:
       - id: Q182331
@@ -1674,7 +1674,7 @@ pen-plotter:
   name: Pen plotter
   checked: 2026-08-23
   getty_aat:
-    accept: null
+    accept: aat:300101939
     method: no-exact-match
     candidates:
       - id: aat:300101939
@@ -1702,7 +1702,7 @@ pen-plotter:
         url: http://vocab.getty.edu/aat/300266509
         label: pen rests
   wikidata:
-    accept: null
+    accept: false
     method: no-exact-match
     candidates:
       - id: Q100734573
@@ -1714,14 +1714,14 @@ photocopier:
   name: Photocopier
   checked: 2026-08-23
   getty_aat:
-    accept: null
+    accept: false
     method: no-exact-match
     candidates:
       - id: aat:300265598
         url: http://vocab.getty.edu/aat/300265598
         label: photocopying machines
   wikidata:
-    accept: null
+    accept: false
     method: ambiguous-exact
     candidates:
       - id: Q185369
@@ -1760,7 +1760,7 @@ photomontage:
   name: Photomontage
   checked: 2026-08-23
   getty_aat:
-    accept: null
+    accept: aat:300419270
     method: no-exact-match
     candidates:
       - id: aat:300419270
@@ -1770,7 +1770,7 @@ photomontage:
         url: http://vocab.getty.edu/aat/300134699
         label: photomontages (visual works)
   wikidata:
-    accept: null
+    accept: Q828107
     method: ambiguous-exact
     candidates:
       - id: Q828107
@@ -1812,7 +1812,7 @@ pixel-art:
   name: Pixel art
   checked: 2026-08-23
   getty_aat:
-    accept: null
+    accept: aat:300266190
     method: no-exact-match
     candidates:
       - id: aat:300412057
@@ -1879,7 +1879,7 @@ plakatstil:
   name: Plakatstil
   checked: 2026-08-23
   getty_aat:
-    accept: null
+    accept: false
     method: no-exact-match
     candidates: []
   wikidata:
@@ -1894,7 +1894,7 @@ pop-art:
   name: Pop art
   checked: 2026-08-23
   getty_aat:
-    accept: null
+    accept: aat:300022205
     method: no-exact-match
     candidates:
       - id: aat:300022205
@@ -1922,7 +1922,7 @@ pop-art:
         url: http://vocab.getty.edu/aat/300443929
         label: art studios (organizations)
   wikidata:
-    accept: null
+    accept: Q134147
     method: ambiguous-exact
     candidates:
       - id: Q134147
@@ -1961,7 +1961,7 @@ psychedelic-art:
   name: Psychedelic art
   checked: 2026-08-23
   getty_aat:
-    accept: null
+    accept: aat:300112743
     method: no-exact-match
     candidates:
       - id: aat:300112743
@@ -1989,7 +1989,7 @@ psychedelic-art:
         url: http://vocab.getty.edu/aat/300443854
         label: art dealerships
   wikidata:
-    accept: null
+    accept: Q696160
     method: ambiguous-exact
     candidates:
       - id: Q696160
@@ -2004,7 +2004,7 @@ punk-graphics:
   name: Punk graphics
   checked: 2026-08-23
   getty_aat:
-    accept: null
+    accept: aat:300055797
     method: no-exact-match
     candidates:
       - id: aat:300426696
@@ -2032,21 +2032,21 @@ punk-graphics:
         url: http://vocab.getty.edu/aat/300215281
         label: vector graphics
   wikidata:
-    accept: null
+    accept: false
     method: no-exact-match
     candidates: []
 risograph:
   name: Risograph
   checked: 2026-08-23
   getty_aat:
-    accept: null
+    accept: aat:300445046
     method: no-exact-match
     candidates:
       - id: aat:300445046
         url: http://vocab.getty.edu/aat/300445046
         label: Risographs (TM)
   wikidata:
-    accept: null
+    accept: Q114079395
     method: ambiguous-exact
     candidates:
       - id: Q1932429
@@ -2095,7 +2095,7 @@ screen-printing:
         url: http://vocab.getty.edu/aat/300199635
         label: printing processes
   wikidata:
-    accept: null
+    accept: Q187791
     method: ambiguous-exact
     candidates:
       - id: Q187791
@@ -2135,7 +2135,7 @@ skeuomorphism:
   name: Skeuomorphism
   checked: 2026-08-23
   getty_aat:
-    accept: null
+    accept: false
     method: no-exact-match
     candidates: []
   wikidata:
@@ -2165,7 +2165,7 @@ streamline-moderne:
   name: Streamline Moderne
   checked: 2026-08-23
   getty_aat:
-    accept: null
+    accept: aat:300253564
     method: no-exact-match
     candidates:
       - id: aat:300253564
@@ -2208,14 +2208,14 @@ superflat:
   name: Superflat
   checked: 2026-08-23
   getty_aat:
-    accept: null
+    accept: aat:300266360
     method: no-exact-match
     candidates:
       - id: aat:300266360
         url: http://vocab.getty.edu/aat/300266360
         label: Superflat (style)
   wikidata:
-    accept: null
+    accept: Q1444581
     method: ambiguous-exact
     candidates:
       - id: Q1444581
@@ -2238,14 +2238,14 @@ suprematism:
   name: Suprematism
   checked: 2026-08-23
   getty_aat:
-    accept: null
+    accept: aat:300021405
     method: no-exact-match
     candidates:
       - id: aat:300021405
         url: http://vocab.getty.edu/aat/300021405
         label: Suprematist
   wikidata:
-    accept: null
+    accept: Q191970
     method: ambiguous-exact
     candidates:
       - id: Q191970
@@ -2284,7 +2284,7 @@ surrealism:
   name: Surrealism
   checked: 2026-08-23
   getty_aat:
-    accept: null
+    accept: aat:300021512
     method: no-exact-match
     candidates:
       - id: aat:300410313
@@ -2294,7 +2294,7 @@ surrealism:
         url: http://vocab.getty.edu/aat/300021512
         label: Surrealist
   wikidata:
-    accept: null
+    accept: Q39427
     method: ambiguous-exact
     candidates:
       - id: Q39427
@@ -2333,7 +2333,7 @@ swiss-international-style:
   name: Swiss International Style
   checked: 2026-08-23
   getty_aat:
-    accept: null
+    accept: false
     method: no-exact-match
     candidates:
       - id: aat:300411462
@@ -2361,14 +2361,14 @@ swiss-international-style:
         url: http://vocab.getty.edu/aat/300435734
         label: formline style
   wikidata:
-    accept: null
+    accept: false
     method: no-exact-match
     candidates: []
 synthwave:
   name: Synthwave
   checked: 2026-08-23
   getty_aat:
-    accept: null
+    accept: false
     method: no-exact-match
     candidates: []
   wikidata:
@@ -2439,7 +2439,7 @@ ukiyo-e:
         url: http://vocab.getty.edu/aat/300404002
         label: kakemono-e (print size)
   wikidata:
-    accept: null
+    accept: Q185905
     method: ambiguous-exact
     candidates:
       - id: Q185905
@@ -2481,7 +2481,7 @@ vaporwave:
   name: Vaporwave
   checked: 2026-08-23
   getty_aat:
-    accept: null
+    accept: false
     method: no-exact-match
     candidates: []
   wikidata:
@@ -2524,7 +2524,7 @@ vienna-secession:
   name: Vienna Secession
   checked: 2026-08-23
   getty_aat:
-    accept: null
+    accept: false
     method: no-exact-match
     candidates:
       - id: aat:300435340
@@ -2552,7 +2552,7 @@ vienna-secession:
         url: http://vocab.getty.edu/aat/300013631
         label: chrome red (pigment)
   wikidata:
-    accept: null
+    accept: Q208208
     method: ambiguous-exact
     candidates:
       - id: Q208208
@@ -2567,7 +2567,7 @@ woodcut:
   name: Woodcut
   checked: 2026-08-23
   getty_aat:
-    accept: null
+    accept: aat:300041405
     method: no-exact-match
     candidates:
       - id: aat:300419280
@@ -2592,7 +2592,7 @@ woodcut:
         url: http://vocab.getty.edu/aat/300041410
         label: chiaroscuro woodcuts (prints)
   wikidata:
-    accept: null
+    accept: Q18219090
     method: ambiguous-exact
     candidates:
       - id: Q173242
@@ -2631,7 +2631,7 @@ y2k-aesthetic:
   name: Y2K aesthetic
   checked: 2026-08-23
   getty_aat:
-    accept: null
+    accept: false
     method: no-exact-match
     candidates:
       - id: aat:300124083
@@ -2650,7 +2650,7 @@ y2k-aesthetic:
         url: http://vocab.getty.edu/aat/300018124
         label: Aesthetic Movement
   wikidata:
-    accept: null
+    accept: Q130484971
     method: no-exact-match
     candidates:
       - id: Q130484971

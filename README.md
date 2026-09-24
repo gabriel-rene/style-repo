@@ -81,6 +81,8 @@ npm run build             # rebuilds embeddings.json, then site/dist/
 
 - `harvest/mappings.yaml` — entries with `accept: null` need your yes/no on
   candidate AAT/Wikidata ids.
+- Run `npm run review:queue` and open http://localhost:4331 to decide IDs,
+  review draft fields and publish entries, and triage trend candidates.
 - `harvest/image-queries*.yaml` — terms set to `null` need a curated search
   query (their names are too ambiguous for auto-search).
 - `harvest/image-blocklist.yaml` — curated list of never-harvest image URLs;

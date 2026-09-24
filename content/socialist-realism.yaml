@@ -115,10 +115,10 @@ provenance:
       note: Brigade KGK, p. 17.
   facets.formal_properties:
     - source: editorial
-      reviewed: false
+      reviewed: true
   guide:
     - source: editorial
-      reviewed: false
+      reviewed: true
   works:
     - source: bowdoin-college-museum-of-art
       url: https://www.bowdoin.edu/art-museum/pdf/Bowdoin-Constructing-Revolution-checklist.pdf

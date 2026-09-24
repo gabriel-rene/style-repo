@@ -10,7 +10,8 @@
     "check": "npm test && npm run build && node scripts/check-site.js",
     "coverage": "node scripts/coverage-report.js",
     "dev": "npm run dev --prefix site",
-    "review:images": "node --no-warnings scripts/review-images.js"
+    "review:images": "node --no-warnings scripts/review-images.js",
+    "review:queue": "node --no-warnings scripts/review-queue.js"
   },
   "keywords": [],
   "author": "",
