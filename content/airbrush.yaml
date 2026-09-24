@@ -52,7 +52,7 @@ images:
     rights_status: open
     caption: null
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/airbrush/PaascheAirbrush.jpg
     source_url: https://commons.wikimedia.org/wiki/File:PaascheAirbrush.jpg
     license: CC BY-SA 3.0
@@ -69,7 +69,7 @@ images:
     rights_status: open
     caption: En Airbrush konstnär dekorerar aktern på en båt.
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/airbrush/Airbrush_artist_with_paints_at_street_fair.JPG
     source_url: https://commons.wikimedia.org/wiki/File:Airbrush_artist_with_paints_at_street_fair.JPG
     license: CC0
@@ -78,7 +78,7 @@ images:
     caption: Airbrush artist at a street fair, with paints, which come off after a
       week, approximately.
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/airbrush/Rosa_Airbrush_2018-07-10_5665.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Rosa_Airbrush_2018-07-10_5665.jpg
     license: CC BY-SA 4.0
@@ -138,7 +138,7 @@ images:
       frame of this painting is also made crooked. By purchasing the token of
       this paintin"
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/airbrush/Old_rusty_mouth_airbrush_from_Botevgrad_Bulgaria.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Old_rusty_mouth_airbrush_from_Botevgrad,_Bulgaria.jpg
     license: CC BY-SA 4.0
@@ -150,7 +150,7 @@ images:
       tube at the end of the blowing one, perpendicular to it and going inside
       the can. Th
     depicts: null
-    review_status: pending
+    review_status: rejected
 todo:
   - names.variants
   - summary

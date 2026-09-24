@@ -65,7 +65,7 @@ images:
     rights_status: open
     caption: "GILL, James (catalogue no. 519): Marilyn Monroe, Pink Marilyn (2008)"
     depicts: null
-    review_status: pending
+    review_status: approved
   - file: assets/pop-art/Pintura_em_Pop_Art_para_Elephant_Parade.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Pintura_em_Pop_Art_para_Elephant_Parade.jpg
     license: CC BY 2.0
@@ -73,7 +73,7 @@ images:
     rights_status: open
     caption: Artista Lobo faz pintura Pop Art para Elephant Parade
     depicts: null
-    review_status: pending
+    review_status: approved
   - file: assets/pop-art/Pop_Artist_Lobo.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Pop_Artist_Lobo.jpg
     license: CC BY 2.0
@@ -81,7 +81,7 @@ images:
     rights_status: open
     caption: Pop Artist Lobo
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/pop-art/Pop_Art_Cubism_Mind_in_Cave_by_David_S._Soriano.png
     source_url: https://commons.wikimedia.org/wiki/File:Pop_Art_Cubism_Mind_in_Cave_by_David_S._Soriano.png
     license: CC BY-SA 4.0
@@ -89,7 +89,7 @@ images:
     rights_status: open
     caption: Pop Art Cubism Mind in Cave by David S. Soriano.
     depicts: null
-    review_status: pending
+    review_status: approved
   - file: assets/pop-art/Pop_Art_2022_Loved_You_Too.png
     source_url: https://commons.wikimedia.org/wiki/File:Pop_Art_2022_Loved_You_Too.png
     license: CC BY-SA 4.0
@@ -97,7 +97,7 @@ images:
     rights_status: open
     caption: Pop Art 2022 Loved You Too.
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2021MW2495/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O72161
@@ -107,7 +107,7 @@ images:
     rights_status: restricted
     caption: The Diploma, 1962, London
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2011EY3858/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O552682
@@ -118,7 +118,7 @@ images:
     rights_status: restricted
     caption: Pop Art Redefined, 1971, Britain
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2024NT4901/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O1758561
@@ -129,7 +129,7 @@ images:
     rights_status: restricted
     caption: Orange and silver striped inflatable PVC pillow, 1967, New York
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2006BF3102/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O189164
@@ -140,7 +140,7 @@ images:
     rights_status: restricted
     caption: Very Metal Noise Pollution, 1989, Great Britain
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2006BF3102/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O189272
@@ -151,7 +151,7 @@ images:
     rights_status: restricted
     caption: Very Metal Noise Pollution, 1989, Great Britain
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2006BF3102/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O189271
@@ -162,7 +162,7 @@ images:
     rights_status: restricted
     caption: Very Metal Noise Pollution, 1989, Great Britain
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: null
     remote_image: https://www.moma.org/media/W1siZiIsIjIxMzMxNiJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=b60cf11efe6d095d
     source_url: https://www.moma.org/collection/works/57875
@@ -173,7 +173,7 @@ images:
     rights_status: restricted
     caption: Super-Pop Artists, Minneapolis, Minnesota. 1964. Gelatin silver print
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: null
     remote_image: https://www.moma.org/media/W1siZiIsIjIwNjI4MCJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=b6eb6049c3033d05
     source_url: https://www.moma.org/collection/works/65769
@@ -187,7 +187,7 @@ images:
     caption: 11 Pop Artists. 1966. Three volumes of thirty-one screenprints (two
       with collage additions), and two lithographs
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: null
     remote_image: https://www.moma.org/media/W1siZiIsIjIwNjI4MSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=e59368dbb4f6e6f6
     source_url: https://www.moma.org/collection/works/65770
@@ -201,7 +201,7 @@ images:
       Screenprint from a portfolio of ten screenprints (one with collage
       additions), and one lithograph
     depicts: null
-    review_status: pending
+    review_status: approved
   - file: null
     remote_image: https://www.moma.org/media/W1siZiIsIjIwNjI4MiJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=5489854955ebea89
     source_url: https://www.moma.org/collection/works/65771
@@ -215,7 +215,7 @@ images:
       1966. Screenprint from a portfolio of ten screenprints (one with collage
       additions), and one lithograph
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: null
     remote_image: https://www.moma.org/media/W1siZiIsIjIwODY1NiJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=956d7258b22ae0d2
     source_url: https://www.moma.org/collection/works/65772
@@ -229,7 +229,7 @@ images:
       Screenprint on moiré Rowlux from a portfolio of ten screenprints (one with
       collage additions) and one lithograph
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: null
     remote_image: https://www.moma.org/media/W1siZiIsIjIwNTcyNiJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=ca6f3c4ba5eb6782
     source_url: https://www.moma.org/collection/works/65773
@@ -243,7 +243,7 @@ images:
       Screenprint from a portfolio of ten screenprints (one with collage
       additions), and one lithograph
     depicts: null
-    review_status: pending
+    review_status: rejected
 todo:
   - names.variants
   - summary

@@ -75,7 +75,7 @@ images:
       puts home (earth and our solar system) into perspective of the universe as
       far as we "
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/screen-printing/OSCAL_2017_silkscreen_printed_materials_10.jpg
     source_url: https://commons.wikimedia.org/wiki/File:OSCAL_2017_silkscreen_printed_materials_10.jpg
     license: CC BY 4.0
@@ -97,7 +97,7 @@ images:
       takes place in Tirana Albania in the second weekend of May 2017. The
       materials were printed using the silkscreen method.
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/screen-printing/OSCAL_2017_silkscreen_printed_materials_16.jpg
     source_url: https://commons.wikimedia.org/wiki/File:OSCAL_2017_silkscreen_printed_materials_16.jpg
     license: CC BY 4.0
@@ -108,7 +108,7 @@ images:
       takes place in Tirana Albania in the second weekend of May 2017. The
       materials were printed using the silkscreen method.
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/screen-printing/OSCAL_2017_silkscreen_printed_materials_17.jpg
     source_url: https://commons.wikimedia.org/wiki/File:OSCAL_2017_silkscreen_printed_materials_17.jpg
     license: CC BY 4.0
@@ -119,7 +119,7 @@ images:
       takes place in Tirana Albania in the second weekend of May 2017. The
       materials were printed using the silkscreen method.
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/screen-printing/OSCAL_2017_silkscreen_printed_materials_22.jpg
     source_url: https://commons.wikimedia.org/wiki/File:OSCAL_2017_silkscreen_printed_materials_22.jpg
     license: CC BY 4.0
@@ -130,7 +130,7 @@ images:
       takes place in Tirana Albania in the second weekend of May 2017. The
       materials were printed using the silkscreen method.
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/screen-printing/OSCAL_2017_silkscreen_printed_materials_26.jpg
     source_url: https://commons.wikimedia.org/wiki/File:OSCAL_2017_silkscreen_printed_materials_26.jpg
     license: CC BY 4.0
@@ -141,7 +141,7 @@ images:
       takes place in Tirana Albania in the second weekend of May 2017. The
       materials were printed using the silkscreen method.
     depicts: null
-    review_status: pending
+    review_status: approved
   - file: assets/screen-printing/OSCAL_2017_silkscreen_printed_materials_28.jpg
     source_url: https://commons.wikimedia.org/wiki/File:OSCAL_2017_silkscreen_printed_materials_28.jpg
     license: CC BY 4.0
@@ -152,7 +152,7 @@ images:
       takes place in Tirana Albania in the second weekend of May 2017. The
       materials were printed using the silkscreen method.
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/screen-printing/OSCAL_2017_silkscreen_printed_materials_29.jpg
     source_url: https://commons.wikimedia.org/wiki/File:OSCAL_2017_silkscreen_printed_materials_29.jpg
     license: CC BY 4.0
@@ -163,7 +163,7 @@ images:
       takes place in Tirana Albania in the second weekend of May 2017. The
       materials were printed using the silkscreen method.
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/screen-printing/OSCAL_2017_silkscreen_printed_materials_32.jpg
     source_url: https://commons.wikimedia.org/wiki/File:OSCAL_2017_silkscreen_printed_materials_32.jpg
     license: CC BY 4.0
@@ -174,7 +174,7 @@ images:
       takes place in Tirana Albania in the second weekend of May 2017. The
       materials were printed using the silkscreen method.
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/screen-printing/OSCAL_2017_silkscreen_printed_materials_30.jpg
     source_url: https://commons.wikimedia.org/wiki/File:OSCAL_2017_silkscreen_printed_materials_30.jpg
     license: CC BY 4.0
@@ -185,7 +185,7 @@ images:
       takes place in Tirana Albania in the second weekend of May 2017. The
       materials were printed using the silkscreen method.
     depicts: null
-    review_status: pending
+    review_status: approved
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2006AM3154/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O129157
@@ -196,7 +196,7 @@ images:
     rights_status: restricted
     caption: Poster for the Jimi Hendrix Experience, 1967, Great Britain
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2012FE8139/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O117445
@@ -207,7 +207,7 @@ images:
     rights_status: restricted
     caption: "Zimbabwe.  One Enemy: Imperialism [verso], ca. 1977, United Kingdom"
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2012FE8198/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O117430
@@ -218,7 +218,7 @@ images:
     rights_status: restricted
     caption: Wherever there is oppression there is resistance, ca. 1976, London
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2006BB5433/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O102631
@@ -229,7 +229,7 @@ images:
     rights_status: restricted
     caption: Chile Resists, ca. 1976, UK
     depicts: null
-    review_status: pending
+    review_status: approved
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2012FE8201/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O117425
@@ -240,7 +240,7 @@ images:
     rights_status: restricted
     caption: Eritrea, the struggle for liberation, ca. 1977, United Kingdom
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2012FE8140/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O117447
@@ -251,7 +251,7 @@ images:
     rights_status: restricted
     caption: Unity Is Strength, ca. 1976, United Kingdom
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: null
     remote_image: https://www.moma.org/media/W1siZiIsIjYxNzcxNCJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=5e4137d2c5e43384
     source_url: https://www.moma.org/collection/works/4993
@@ -263,7 +263,7 @@ images:
     rights_status: restricted
     caption: Mino Shigyo Co., Ltd. Silkscreen Printing. c. 1960. Silkscreen
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/screen-printing/Rabbit_Foot_Minstrels_Printing_Block_1946.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Rabbit_Foot_Minstrels_Printing_Block,_1946.jpg
     license: Public domain
@@ -275,7 +275,7 @@ images:
       Hatch Show Print collection, photographed at the exhibit Act Black:
       Posters from Bl"
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/screen-printing/Rabbit_Foot_Minstrels_Printing_Block_1946_transformed_.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Rabbit_Foot_Minstrels_Printing_Block,_1946_(transformed).jpg
     license: Public domain
@@ -287,7 +287,7 @@ images:
       Hatch Show Print collection, photographed at the exhibit Act Black:
       Posters from Bl"
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/screen-printing/Rogers_Minstrels_Printing_Block_circa_1925.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Rogers_Minstrels_Printing_Block,_circa_1925.jpg
     license: Public domain
@@ -299,7 +299,7 @@ images:
       Posters from Black American Stage &amp; Screen, 13 March 2026 - 6
       September 2006, Poster House ("
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/screen-printing/Printing_block_and_partial_poster_for_Silas_Green_from_New_Orleans_-_01.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Printing_block_and_partial_poster_for_Silas_Green_from_New_Orleans_-_01.jpg
     license: Public domain
@@ -311,7 +311,7 @@ images:
       collection, photographed at the exhibit Act Black: Posters from Black
       American Stage "
     depicts: null
-    review_status: pending
+    review_status: approved
   - file: assets/screen-printing/Printing_block_and_partial_poster_for_Silas_Green_from_New_Orleans_-_02.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Printing_block_and_partial_poster_for_Silas_Green_from_New_Orleans_-_02.jpg
     license: Public domain
@@ -323,7 +323,7 @@ images:
       collection, photographed at the exhibit Act Black: Posters from Black
       American Stage "
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/screen-printing/Partial_poster_for_Silas_Green_from_New_Orleans.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Partial_poster_for_Silas_Green_from_New_Orleans.jpg
     license: Public domain
@@ -335,7 +335,7 @@ images:
       various forms from circa 1904 until 1957. From the Hatch Show Print
       collection, photographe
     depicts: null
-    review_status: pending
+    review_status: rejected
 todo:
   - external_ids
   - facets.era.periods

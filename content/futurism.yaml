@@ -91,7 +91,7 @@ images:
       born in Ivanovskoe, near Moscow, to the wealthy family of Sergei
       Maximovich Popov, a very s"
     depicts: null
-    review_status: pending
+    review_status: approved
   - file: assets/futurism/1990s_Marine_Corps_recruitment_poster_with_a_touch_of_retro-futurism.jpg
     source_url: https://commons.wikimedia.org/wiki/File:1990s_Marine_Corps_recruitment_poster_with_a_touch_of_retro-futurism.jpg
     license: Public domain
@@ -99,7 +99,7 @@ images:
     rights_status: open
     caption: 1990s Marine Corps recruitment poster with a touch of retro-futurism.
     depicts: null
-    review_status: pending
+    review_status: rejected
 todo:
   - external_ids
   - facets.lineage

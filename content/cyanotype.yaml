@@ -64,7 +64,7 @@ images:
     caption: Created with one hour exposure under standard cool white LED lighting,
       then washed in commercial vinegar, negative digitally printed.
     depicts: null
-    review_status: pending
+    review_status: approved
   - file: assets/cyanotype/Cyanotype.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Cyanotype.jpg
     license: CC BY-SA 2.0
@@ -75,7 +75,7 @@ images:
       chemicals, and then exposing it under sunlight or UV lights to create this
       specific emulsion result.
     depicts: null
-    review_status: pending
+    review_status: approved
   - file: assets/cyanotype/Paprika_Zweig_Zyanotypie_entwickelt.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Paprika,_Zweig,_Zyanotypie,_entwickelt.jpg
     license: CC0
@@ -87,7 +87,7 @@ images:
       with an LED spotlight. I then developed with water and 1/2 ml hydrogen
       peroxide. Developing
     depicts: null
-    review_status: pending
+    review_status: approved
   - file: assets/cyanotype/Cyanotype_-_4755148699.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Cyanotype_-_4755148699.jpg
     license: CC BY-SA 2.0
@@ -95,7 +95,7 @@ images:
     rights_status: open
     caption: Creating a cyanotype
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/cyanotype/Cyanotype_-_4755148861.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Cyanotype_-_4755148861.jpg
     license: CC BY-SA 2.0
@@ -103,7 +103,7 @@ images:
     rights_status: open
     caption: Creating a cyanotype
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/cyanotype/Cyanotype_-_4755148787.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Cyanotype_-_4755148787.jpg
     license: CC BY-SA 2.0
@@ -111,7 +111,7 @@ images:
     rights_status: open
     caption: Creating a cyanotype
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/cyanotype/Cyanotype_-_4755149103.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Cyanotype_-_4755149103.jpg
     license: CC BY-SA 2.0
@@ -119,7 +119,7 @@ images:
     rights_status: open
     caption: Creating a cyanotype
     depicts: null
-    review_status: pending
+    review_status: approved
   - file: assets/cyanotype/Cyanotype_-_4755149451.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Cyanotype_-_4755149451.jpg
     license: CC BY-SA 2.0
@@ -127,7 +127,7 @@ images:
     rights_status: open
     caption: Creating a cyanotype
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/cyanotype/Cyanotype_-_4755149293.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Cyanotype_-_4755149293.jpg
     license: CC BY-SA 2.0
@@ -135,7 +135,7 @@ images:
     rights_status: open
     caption: Creating a cyanotype
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/cyanotype/Cyanotype_-_4755149743.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Cyanotype_-_4755149743.jpg
     license: CC BY-SA 2.0
@@ -143,7 +143,7 @@ images:
     rights_status: open
     caption: Creating a cyanotype
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/cyanotype/Cyanotype_-_4755789114.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Cyanotype_-_4755789114.jpg
     license: CC BY-SA 2.0
@@ -151,7 +151,7 @@ images:
     rights_status: open
     caption: Creating a cyanotype
     depicts: null
-    review_status: pending
+    review_status: rejected
 todo:
   - names.variants
   - summary

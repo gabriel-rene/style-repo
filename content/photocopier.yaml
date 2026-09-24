@@ -65,7 +65,7 @@ images:
       href="http://www.dennissylvesterhurd.com/blog/" target="_new"
       rel="nofollow"&gt;my blog&lt;/a&gt;.
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/photocopier/Sharp_MX-7500_photocopier.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Sharp_MX-7500_photocopier.jpg
     license: CC BY 4.0
@@ -74,7 +74,7 @@ images:
     caption: A Sharp MX-7500 photocopier in a work room. This photocopier is mainly
       intended for bulk copying.
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/photocopier/Photocopier.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Photocopier.jpg
     license: CC0
@@ -82,7 +82,7 @@ images:
     rights_status: open
     caption: hindi
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/photocopier/Xerox_AltaLink_C8045_photocopier.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Xerox_AltaLink_C8045_photocopier.jpg
     license: CC BY 4.0
@@ -90,7 +90,7 @@ images:
     rights_status: open
     caption: A Xerox AltaLink C8045 photocopier at an office building
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/photocopier/Konica_Minolta_Bizhub_C454e_photocopier.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Konica_Minolta_Bizhub_C454e_photocopier.jpg
     license: CC BY 4.0
@@ -98,7 +98,7 @@ images:
     rights_status: open
     caption: Konica Minolta Bizhub C454e photocopier in an office building
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/photocopier/Canon_ImageRUNNER_Advance_C7570i_photocopier.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Canon_ImageRUNNER_Advance_C7570i_photocopier.jpg
     license: CC BY 4.0
@@ -106,7 +106,7 @@ images:
     rights_status: open
     caption: Canon ImageRUNNER Advance C7570i photocopier in an office building
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/photocopier/Technician_repairing_a_photocopier_in_Uganda.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Technician_repairing_a_photocopier_in_Uganda.jpg
     license: CC BY-SA 4.0
@@ -116,7 +116,7 @@ images:
       the different regions of Uganda especially those that are dusty or carry
       out heavy printing.
     depicts: null
-    review_status: pending
+    review_status: rejected
 todo:
   - names.variants
   - summary

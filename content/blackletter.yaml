@@ -70,7 +70,7 @@ images:
       historical documents can help optical character recognition (OCR) systems
       produce more accurate text transcriptions.
     depicts: null
-    review_status: pending
+    review_status: approved
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2015HV9352/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O118936
@@ -80,7 +80,7 @@ images:
     rights_status: restricted
     caption: Ring, early 16th century, England
     depicts: null
-    review_status: pending
+    review_status: approved
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2014HH1073/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O1023971
@@ -90,7 +90,7 @@ images:
     rights_status: restricted
     caption: Poster, ca. 1938, Austria
     depicts: null
-    review_status: pending
+    review_status: approved
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2014HH1101/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O1023965
@@ -100,7 +100,7 @@ images:
     rights_status: restricted
     caption: Poster, 1941, Germany
     depicts: null
-    review_status: pending
+    review_status: approved
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2025PG7503/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O38501
@@ -111,7 +111,7 @@ images:
     rights_status: restricted
     caption: Weekly Dispatch...Baby Girl Competition, 1921 (dated), United Kingdom
     depicts: null
-    review_status: pending
+    review_status: approved
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2015HM0367/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O118934
@@ -121,7 +121,7 @@ images:
     rights_status: restricted
     caption: Ring, 16th century, Ireland
     depicts: null
-    review_status: pending
+    review_status: rejected
 
 todo:
   - names.variants

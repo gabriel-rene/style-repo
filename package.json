@@ -9,7 +9,8 @@
     "build": "npm run validate && npm run build:index && npm run build --prefix site",
     "check": "npm test && npm run build && node scripts/check-site.js",
     "coverage": "node scripts/coverage-report.js",
-    "dev": "npm run dev --prefix site"
+    "dev": "npm run dev --prefix site",
+    "review:images": "node --no-warnings scripts/review-images.js"
   },
   "keywords": [],
   "author": "",

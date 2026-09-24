@@ -92,7 +92,7 @@ images:
       Waldorf in San Francisco. The psychedelic design is based on a 1973
       portrait photo of Sun Ra.
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/psychedelic-art/Overriding_the_Psychedelic_Dream_by_David_S._Soriano.png
     source_url: https://commons.wikimedia.org/wiki/File:Overriding_the_Psychedelic_Dream_by_David_S._Soriano.png
     license: CC BY-SA 4.0
@@ -100,7 +100,7 @@ images:
     rights_status: open
     caption: Overriding the Psychedelic Dream by David S. Soriano.
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2006AY2892/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O108975
@@ -111,7 +111,7 @@ images:
     rights_status: restricted
     caption: THEM psychedelic poster no.66, 1966, United States
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2006AY2198/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O129280
@@ -122,7 +122,7 @@ images:
     rights_status: restricted
     caption: Piper at the Gates of Dawn, late 1960s, London
     depicts: null
-    review_status: pending
+    review_status: approved
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2006AY2287/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O108974
@@ -133,7 +133,7 @@ images:
     rights_status: restricted
     caption: Jefferson Airplane psychedelic poster no.41, 1966, United States
     depicts: null
-    review_status: pending
+    review_status: approved
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2006BC7334/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O195207
@@ -144,7 +144,7 @@ images:
     rights_status: restricted
     caption: Psychedelic poster for two shows at the Roundhouse UFO, 1967, England
     depicts: null
-    review_status: pending
+    review_status: approved
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2006AY2196/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O129272
@@ -155,7 +155,7 @@ images:
     rights_status: restricted
     caption: OM.P. Breezes, Brighton, late 1960s, England
     depicts: null
-    review_status: pending
+    review_status: approved
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2015HL3665/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O108997
@@ -166,7 +166,7 @@ images:
     rights_status: restricted
     caption: "'Van Morrison' psychedelic concert poster No.88-1, 1967, San Francisco"
     depicts: null
-    review_status: pending
+    review_status: approved
 todo:
   - external_ids
   - facets.lineage

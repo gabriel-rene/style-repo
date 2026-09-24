@@ -67,7 +67,7 @@ images:
     caption: Glittery silver sign, torn and on the ground, with the text "Worst
       dystopian cyberpunk LARP ever". Cyberpunk, January 21, 2017.
     depicts: null
-    review_status: pending
+    review_status: approved
   - file: assets/cyberpunk-aesthetic/PGA_2019_Cyberpunk_2077.jpg
     source_url: https://commons.wikimedia.org/wiki/File:PGA_2019_Cyberpunk_2077.jpg
     license: CC BY-SA 4.0
@@ -75,7 +75,7 @@ images:
     rights_status: open
     caption: Stoisko gry Cyberpunk 2077 na Poznań Game Arena 2019 (PGA)
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/cyberpunk-aesthetic/Cyberpunk_Lobby_51173530721_.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Cyberpunk_Lobby_(51173530721).jpg
     license: CC BY 2.0
@@ -83,7 +83,7 @@ images:
     rights_status: open
     caption: We pretty much had the multiplex to ourselves.
     depicts: null
-    review_status: pending
+    review_status: approved
   - file: assets/cyberpunk-aesthetic/2021-09-29_lofi_cyberpunk_by_david-revoy.jpg
     source_url: https://commons.wikimedia.org/wiki/File:2021-09-29_lofi_cyberpunk_by_david-revoy.jpg
     license: CC BY 4.0
@@ -92,7 +92,7 @@ images:
     caption: An artwork inspired by Lofi Girl and cyberpunk by David Revoy. Drawing
       done in Krita.
     depicts: null
-    review_status: pending
+    review_status: approved
   - file: assets/cyberpunk-aesthetic/Cyberpunk_corridor.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Cyberpunk_corridor.jpg
     license: CC0
@@ -100,7 +100,7 @@ images:
     rights_status: open
     caption: Artwork of an android police officer walking down a corridor.
     depicts: null
-    review_status: pending
+    review_status: approved
   - file: assets/cyberpunk-aesthetic/Cyberpunk_Edgerunners_logo.png
     source_url: https://commons.wikimedia.org/wiki/File:Cyberpunk_Edgerunners_logo.png
     license: Public domain
@@ -108,7 +108,7 @@ images:
     rights_status: open
     caption: "Cyberpunk: Edgerunners anime logo"
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/cyberpunk-aesthetic/2023_NYCC_Cosplay_of_Adam_Smasher_and_V_from_Cyberpunk_2077.jpg
     source_url: https://commons.wikimedia.org/wiki/File:2023_NYCC_Cosplay_of_Adam_Smasher_and_V_from_Cyberpunk_2077.jpg
     license: CC BY-SA 4.0
@@ -125,7 +125,7 @@ images:
     rights_status: open
     caption: Cyberpunk Cityscape remeniscent of Blade Runner.
     depicts: null
-    review_status: pending
+    review_status: approved
   - file: assets/cyberpunk-aesthetic/City_Scene_in_the_style_of_Blade_Runner_01.jpg
     source_url: https://commons.wikimedia.org/wiki/File:City_Scene_in_the_style_of_Blade_Runner_01.jpg
     license: Public domain
@@ -134,7 +134,7 @@ images:
     rights_status: open
     caption: Cyberpunk Cityscape remeniscent of Blade Runner.
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/cyberpunk-aesthetic/2023_NYCC_Cosplay_of_Adam_Smasher_from_Cyberpunk_2077.jpg
     source_url: https://commons.wikimedia.org/wiki/File:2023_NYCC_Cosplay_of_Adam_Smasher_from_Cyberpunk_2077.jpg
     license: CC BY-SA 4.0
@@ -150,7 +150,7 @@ images:
     rights_status: open
     caption: Cyberpunk Orion
     depicts: null
-    review_status: pending
+    review_status: rejected
 todo:
   - names.variants
   - summary

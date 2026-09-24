@@ -61,7 +61,7 @@ images:
     caption: Vue d'un mur à Genève sur lequel est collé le texte "ta bite de violeur
       au mixeur".
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/collage/Collage_F_minisme.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Collage_F%C3%A9minisme.jpg
     license: CC BY-SA 4.0
@@ -70,7 +70,7 @@ images:
     caption: « Le féminisme est une théorie extrémiste qui considère les femmes
       comme des êtres humains »
     depicts: null
-    review_status: pending
+    review_status: approved
   - file: assets/collage/Collage_Lacoste_Rostov-on-Don_Russia.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Collage,_Lacoste,_Rostov-on-Don,_Russia.jpg
     license: CC BY 4.0
@@ -78,7 +78,7 @@ images:
     rights_status: open
     caption: Collage. Rostov-on-Don, Russia.
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/collage/Collage_Montage_with_coins_Rostov-on-Don_Russia.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Collage,_Montage_with_coins,_Rostov-on-Don,_Russia.jpg
     license: CC BY 4.0
@@ -86,7 +86,7 @@ images:
     rights_status: open
     caption: Collage. Mood board with coins. Rostov-on-Don, Russia.
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/collage/Collage_Art_Montage_Objects_in_a_composition_Rostov-on-Don_Russia.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Collage,_Art,_Montage,_Objects_in_a_composition,_Rostov-on-Don,_Russia.jpg
     license: CC BY 4.0
@@ -95,7 +95,7 @@ images:
     caption: Collage. Art. Montage. Mood board. Objects in a composition.
       Rostov-on-Don, Russia.
     depicts: null
-    review_status: pending
+    review_status: approved
   - file: assets/collage/Collage_Montage_Mood_board_with_coins_Rostov-on-Don_Russia.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Collage,_Montage,_Mood_board_with_coins,_Rostov-on-Don,_Russia.jpg
     license: CC BY 4.0
@@ -103,7 +103,7 @@ images:
     rights_status: open
     caption: Collage. Montage. Mood board with coins. Rostov-on-Don, Russia.
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/collage/Collage_Art_Montage_Moodboard_Rostov-on-Don_Russia.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Collage,_Art,_Montage,_Moodboard,_Rostov-on-Don,_Russia.jpg
     license: CC BY 4.0
@@ -112,7 +112,7 @@ images:
     caption: Collage art. Montage art. Objects in a composition. Moodboard with
       coins. Rostov-on-Don, Russia.
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/collage/Collage_Art_montage_Mood_board_Coins_Rostov-on-Don_Russia.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Collage,_Art_montage,_Mood_board,_Coins,_Rostov-on-Don,_Russia.jpg
     license: CC BY 4.0
@@ -120,7 +120,7 @@ images:
     rights_status: open
     caption: Art collage. Mood board with coins. Rostov-on-Don, Russia.
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/collage/Collage_Photo_collage_Rostov-on-Don_Russia.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Collage,_Photo_collage,_Rostov-on-Don,_Russia.jpg
     license: CC BY 4.0
@@ -128,7 +128,7 @@ images:
     rights_status: open
     caption: Photo collage. Rostov-on-Don, Russia.
     depicts: null
-    review_status: pending
+    review_status: approved
   - file: assets/collage/Collage_Rostov-on-Don_Russia.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Collage,_Rostov-on-Don,_Russia.jpg
     license: CC BY 4.0
@@ -136,7 +136,7 @@ images:
     rights_status: open
     caption: Collage. Montage. Objects. Rostov-on-Don, Russia.
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/collage/Collage_Objects_Rostov-on-Don_Russia.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Collage,_Objects,_Rostov-on-Don,_Russia.jpg
     license: CC BY 4.0
@@ -144,7 +144,7 @@ images:
     rights_status: open
     caption: Collage. Montage. Objects. Rostov-on-Don, Russia.
     depicts: null
-    review_status: pending
+    review_status: rejected
 todo:
   - names.variants
   - summary

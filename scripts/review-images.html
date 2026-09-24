@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Image Review</title>
+<style>
+  :root { --ink: #111; --paper: #fff; --muted: #666; --line: #ddd; --red: #e10600; --ok: #0a7a2f; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 15px/1.45 system-ui, sans-serif; color: var(--ink); background: var(--paper); }
+  header { display: flex; gap: 16px; align-items: baseline; padding: 12px 20px; border-bottom: 2px solid var(--ink); }
+  header h1 { font-size: 15px; margin: 0; text-transform: uppercase; letter-spacing: .04em; }
+  #progress { color: var(--muted); font-variant-numeric: tabular-nums; }
+  main { display: grid; grid-template-columns: minmax(0, 1fr) 360px; height: calc(100vh - 50px); }
+  #stage { display: flex; align-items: center; justify-content: center; background: #f4f4f4; padding: 16px; min-height: 0; }
+  #stage img { max-width: 100%; max-height: 100%; object-fit: contain; box-shadow: 0 1px 4px rgba(0,0,0,.15); }
+  aside { border-left: 1px solid var(--line); padding: 20px; overflow: auto; display: flex; flex-direction: column; gap: 14px; }
+  .term { font-size: 26px; font-weight: 700; line-height: 1.1; margin: 0; }
+  .meta { color: var(--muted); font-size: 13px; }
+  .dek { margin: 0; }
+  ul.sig { margin: 0; padding-left: 18px; }
+  dl { margin: 0; display: grid; grid-template-columns: 80px 1fr; gap: 4px 10px; font-size: 13px; }
+  dt { color: var(--muted); }
+  dd { margin: 0; overflow-wrap: anywhere; }
+  .keys { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: auto; }
+  button { font: inherit; padding: 10px; border: 2px solid var(--ink); background: var(--paper); cursor: pointer; text-align: left; }
+  button kbd { float: right; font: 12px ui-monospace, monospace; color: var(--muted); }
+  button.approve { border-color: var(--ok); color: var(--ok); }
+  button.reject { border-color: var(--red); color: var(--red); }
+  button:hover { background: #f4f4f4; }
+  #toast { position: fixed; bottom: 16px; left: 16px; background: var(--ink); color: var(--paper); padding: 8px 12px; opacity: 0; transition: opacity .2s; }
+  #toast.show { opacity: 1; }
+  .empty { padding: 40px; font-size: 20px; }
+  @media (max-width: 800px) { main { grid-template-columns: 1fr; height: auto; } #stage { height: 60vh; } aside { border-left: 0; } }
+</style>
+</head>
+<body>
+<header><h1>Image review</h1><span id="progress"></span></header>
+<main id="main"></main>
+<div id="toast"></div>
+<script>
+let queue = [], ti = 0, ii = 0, history = [], done = 0, total = 0;
+const $ = (s) => document.querySelector(s);
+const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+
+function toast(msg) { const t = $("#toast"); t.textContent = msg; t.classList.add("show"); clearTimeout(t._h); t._h = setTimeout(() => t.classList.remove("show"), 1400); }
+
+function render() {
+  $("#progress").textContent = `${done} of ${total} reviewed`;
+  const term = queue[ti], img = term?.pending[ii];
+  if (!img) { $("#main").innerHTML = `<p class="empty">No pending images left. Run <code>npm run check</code>, then commit.</p>`; return; }
+  $("#main").innerHTML = `
+    <div id="stage">${img.src ? `<img src="${esc(img.src)}" alt="">` : "<p>No image file</p>"}</div>
+    <aside>
+      <div>
+        <p class="meta">${esc(term.type)} · image ${ii + 1} of ${term.pending.length} · ${term.approved} approved${term.featured ? " · has cover" : " · no cover"}</p>
+        <h2 class="term">${esc(term.name)}</h2>
+      </div>
+      <p class="dek">${esc(term.dek)}</p>
+      ${term.signature.length ? `<ul class="sig">${term.signature.map((s) => `<li>${esc(s)}</li>`).join("")}</ul>` : ""}
+      <dl>
+        <dt>Caption</dt><dd>${esc(img.caption)}</dd>
+        <dt>License</dt><dd>${esc(img.license)}</dd>
+        <dt>Credit</dt><dd>${esc(img.attribution)}</dd>
+        <dt>Rights</dt><dd>${esc(img.rights)}</dd>
+        <dt>Source</dt><dd><a href="${esc(img.source_url)}" target="_blank" rel="noopener">Open source page ↗</a></dd>
+      </dl>
+      <div class="keys">
+        <button class="approve" data-act="approved">Approve <kbd>A</kbd></button>
+        <button class="reject" data-act="rejected">Reject <kbd>R</kbd></button>
+        <button data-act="cover">Approve as cover <kbd>C</kbd></button>
+        <button data-act="skip">Skip <kbd>S</kbd></button>
+        <button data-act="undo">Undo <kbd>U</kbd></button>
+        <button data-act="term">Skip style <kbd>N</kbd></button>
+      </div>
+    </aside>`;
+}
+
+function advance() {
+  ii++;
+  while (queue[ti] && ii >= queue[ti].pending.length) { ti++; ii = 0; }
+}
+
+async function post(file, source_url, status, featured) {
+  const r = await fetch("/api/decide", { method: "POST", body: JSON.stringify({ file, source_url, status, featured }) });
+  if (!r.ok) throw new Error(await r.text());
+}
+
+async function act(a) {
+  const term = queue[ti], img = term?.pending[ii];
+  if (a === "undo") {
+    const h = history.pop(); if (!h) return;
+    if (h.status) { await post(h.file, h.source_url, "pending", false); done--; if (h.status === "approved") queue[h.ti].approved--; }
+    ti = h.ti; ii = h.ii; toast("Undone" + (h.featured ? " (cover left in place)" : "")); return render();
+  }
+  if (!img) return;
+  if (a === "term") { history.push({ ti, ii }); ti++; ii = 0; while (queue[ti] && !queue[ti].pending.length) ti++; return render(); }
+  if (a === "skip") { history.push({ ti, ii }); advance(); return render(); }
+  const status = a === "cover" ? "approved" : a, featured = a === "cover";
+  try { await post(term.file, img.source_url, status, featured); }
+  catch (e) { return toast("Save failed: " + e.message); }
+  history.push({ ti, ii, file: term.file, source_url: img.source_url, status, featured });
+  done++;
+  if (status === "approved") term.approved++;
+  if (featured) term.featured = img.source_url;
+  toast(featured ? "Approved as cover" : status === "approved" ? "Approved" : "Rejected");
+  advance(); render();
+}
+
+document.addEventListener("click", (e) => { const b = e.target.closest("button[data-act]"); if (b) act(b.dataset.act); });
+document.addEventListener("keydown", (e) => {
+  if (e.metaKey || e.ctrlKey || e.altKey) return;
+  const map = { a: "approved", r: "rejected", c: "cover", s: "skip", u: "undo", n: "term" };
+  const a = map[e.key.toLowerCase()]; if (a) { e.preventDefault(); act(a); }
+});
+
+fetch("/api/queue").then((r) => r.json()).then((q) => {
+  queue = q; total = q.reduce((n, t) => n + t.pending.length, 0); render();
+});
+</script>
+</body>
+</html>

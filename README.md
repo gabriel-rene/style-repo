@@ -111,6 +111,9 @@ Image discovery does not establish relevance. Each harvested image starts
 `review_status: pending`; only `approved` records appear on the site. Inspect
 the image, caption, source, rights and relevance before approving it. Set
 `featured_image` to an approved record's `source_url` to choose its cover.
+To review pending images one at a time, run `npm run review:images` and open
+http://localhost:4330. Keys: A approve, R reject, C approve as cover,
+S skip, N skip style, U undo. Each choice is written to the YAML file at once.
 Rejected and pending records remain available for curation in YAML, but their
 local files are excluded from `site/dist/`. The repository retains the harvest.
 The index shows monochrome previews; detail pages preserve original color with

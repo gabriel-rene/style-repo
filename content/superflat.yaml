@@ -65,7 +65,7 @@ images:
     rights_status: open
     caption: Sunshine and Moon by Caron Bowman, 40x60, Pastel, w:SoFlo Superflat image
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/superflat/Battery_Wearable_Computing_06_.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Battery_Wearable_Computing_(06).jpg
     license: CC0
@@ -75,7 +75,7 @@ images:
       power wearable computing devices, manufactured by GREPOW Battery Co.,
       Ltd.[1], shown at Wearable Technologies Conference 2014 in Munich, Germany
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/superflat/Orbiter_500_3.0_superflat_teaser.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Orbiter_500_3.0_superflat_teaser.jpg
     license: CC BY-SA 4.0

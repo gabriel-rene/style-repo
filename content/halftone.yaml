@@ -60,7 +60,7 @@ images:
     rights_status: open
     caption: Screens. Halftone process in printing. Purple Screens. Angles 90.
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/halftone/Screens._Halftone_process_in_printing._img_01.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Screens._Halftone_process_in_printing._img_01.jpg
     license: CC BY-SA 4.0
@@ -69,7 +69,7 @@ images:
     caption: Screens. Halftone process in printing. Purple Screens. Angles 90, 105 ,
       165.
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/halftone/Screens._Halftone_process_in_printing._img_04.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Screens._Halftone_process_in_printing._img_04.jpg
     license: CC BY-SA 4.0
@@ -77,7 +77,7 @@ images:
     rights_status: open
     caption: Screens. Halftone process in printing. Purple Screens. Angles 105.
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/halftone/Screens._Halftone_process_in_printing._img_07.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Screens._Halftone_process_in_printing._img_07.jpg
     license: CC BY-SA 4.0
@@ -86,7 +86,7 @@ images:
     caption: Screens. Halftone process in printing. Purple Screens, photo in
       transmitted and reflected light.
     depicts: null
-    review_status: pending
+    review_status: approved
   - file: assets/halftone/Screens._Halftone_process_in_printing._img_06.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Screens._Halftone_process_in_printing._img_06.jpg
     license: CC BY-SA 4.0
@@ -95,7 +95,7 @@ images:
     caption: Screens. Halftone process in printing. Purple Screens, photo in
       reflected light.
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/halftone/Screens._Halftone_process_in_printing._img_05.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Screens._Halftone_process_in_printing._img_05.jpg
     license: CC BY-SA 4.0
@@ -104,7 +104,7 @@ images:
     caption: Screens. Halftone process in printing. Purple Screens, a photograph in
       transmitted light.
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/halftone/Screens._Halftone_process_in_printing._img_10.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Screens._Halftone_process_in_printing._img_10.jpg
     license: CC BY-SA 4.0
@@ -113,7 +113,7 @@ images:
     caption: Screens. Halftone process in printing. Gray, contact screens, a
       photograph in transmitted light. Dim lighting.
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/halftone/Screens._Halftone_process_in_printing._img_09.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Screens._Halftone_process_in_printing._img_09.jpg
     license: CC BY-SA 4.0
@@ -122,7 +122,7 @@ images:
     caption: Screens. Halftone process in printing. Gray, contact screens, a
       photograph in transmitted light. Bright lighting.
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/halftone/Screens._Halftone_process_in_printing._img_08.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Screens._Halftone_process_in_printing._img_08.jpg
     license: CC BY-SA 4.0
@@ -131,7 +131,7 @@ images:
     caption: Screens. Halftone process in printing. Gray, contact screens, photo in
       reflected light.
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/halftone/Screens._Halftone_process_in_printing._img_11.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Screens._Halftone_process_in_printing._img_11.jpg
     license: CC BY-SA 4.0
@@ -140,7 +140,7 @@ images:
     caption: Screens. Halftone process in printing. Gray Screens, photo in
       transmitted and reflected light.
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/halftone/Screens._Halftone_process_in_printing._img_13.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Screens._Halftone_process_in_printing._img_13.jpg
     license: CC BY-SA 4.0
@@ -149,7 +149,7 @@ images:
     caption: Screens. Halftone process in printing. Gray and purple screens, photo
       in transmitted light.
     depicts: null
-    review_status: pending
+    review_status: rejected
 todo:
   - names.variants
   - summary

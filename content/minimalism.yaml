@@ -66,7 +66,7 @@ images:
     rights_status: open
     caption: kalem
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/minimalism/Euro_symbol_-_Minimalism_art_with_counterfeit_money_-_Tableau_Argent_sale_compos
     source_url: https://commons.wikimedia.org/wiki/File:Euro_symbol_-_Minimalism_art_with_counterfeit_money_-_Tableau_Argent_sale_compos%C3%A9_de_fausses_pi%C3%A8ces_de_monnaie.jpg
     license: CC BY-SA 4.0
@@ -74,7 +74,7 @@ images:
     rights_status: open
     caption: Euro symbol - Minimalism art with counterfeit money -
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/minimalism/Ambigramme_Inoui_-_noir_et_gris_anime.gif
     source_url: https://commons.wikimedia.org/wiki/File:Ambigramme_Inoui_-_noir_et_gris_anime.gif
     license: CC BY-SA 4.0
@@ -86,7 +86,7 @@ images:
       of the TGV inOui train service operated by the French National Railway
       Company SNCF.
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/minimalism/Toilets_minimalism_sign.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Toilets_minimalism_sign.jpg
     license: CC BY-SA 4.0
@@ -96,7 +96,7 @@ images:
       body is also the same shape, just inverted, which further adds to the
       minimalism employed in the design of the sign.
     depicts: null
-    review_status: pending
+    review_status: rejected
 todo:
   - names.variants
   - summary

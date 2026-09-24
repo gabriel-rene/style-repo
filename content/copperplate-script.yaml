@@ -64,7 +64,7 @@ images:
     rights_status: open
     caption: A quote written in Copperplate script with offhand flourishing.
     depicts: null
-    review_status: pending
+    review_status: approved
   - file: assets/copperplate-script/Sample_of_Copperplate_Script_with_an_Oblique_Penholder.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Sample_of_Copperplate_Script_with_an_Oblique_Penholder.jpg
     license: CC BY-SA 3.0
@@ -85,7 +85,7 @@ images:
       mountain. Schrifften oder Caracteres und Hijrogliph; auf u: um den Adams
       Berg zu sehen.. Top left: No: LXXVII. Top right: pag. 229."
     depicts: null
-    review_status: pending
+    review_status: approved
 todo:
   - names.variants
   - summary

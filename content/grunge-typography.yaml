@@ -98,7 +98,7 @@ images:
     caption: Panorama of Seattle Sound-Grunge Exhibit - Rock &amp; Roll Hall of Fame
       and Museum - Cleveland - Ohio - USA
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/grunge-typography/90s_Grunge_Today.jpg
     source_url: https://commons.wikimedia.org/wiki/File:90s_Grunge_Today.jpg
     license: CC BY-SA 4.0
@@ -106,7 +106,7 @@ images:
     rights_status: open
     caption: More modernize grunge outfit that is worn today.
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/grunge-typography/Grunge_H_M.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Grunge_H%26M.jpg
     license: CC BY-SA 4.0
@@ -117,7 +117,7 @@ images:
       black flannel shirt, and slightly ripped jeans, along with a black
       surgical mask.
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/grunge-typography/Foto_de_Korven_Brox_y_su_grupo_Grunjeo.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Foto_de_Korven_Brox_y_su_grupo_Grunjeo.jpg
     license: CC BY-SA 4.0

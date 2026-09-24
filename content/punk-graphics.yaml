@@ -68,7 +68,7 @@ images:
       band Die Toten Hosen. Original snapshot taken in 1987, during a concert in
       Garching bei München (Munich, Bavaria, Germany).
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/punk-graphics/Deine_Jugend_-_Laura_Carbone_-_ColognePride_2011_7572_.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Deine_Jugend_-_Laura_Carbone_-_ColognePride_2011_(7572).jpg
     license: CC BY-SA 4.0
@@ -78,7 +78,7 @@ images:
       Bühnenprogramm zum CSD-Straßenfest/ColognePride 2011. Hauptbühne auf dem
       Heumarkt, Köln.
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/punk-graphics/Deine_Jugend_-_Laura_Carbone_-_ColognePride_2011_7584_.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Deine_Jugend_-_Laura_Carbone_-_ColognePride_2011_(7584).jpg
     license: CC BY-SA 4.0
@@ -88,7 +88,7 @@ images:
       Bühnenprogramm zum CSD-Straßenfest/ColognePride 2011. Hauptbühne auf dem
       Heumarkt, Köln.
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/punk-graphics/Deine_Jugend_-_Laura_Carbone_-_ColognePride_2011_7588_.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Deine_Jugend_-_Laura_Carbone_-_ColognePride_2011_(7588).jpg
     license: CC BY-SA 4.0
@@ -98,7 +98,7 @@ images:
       Bühnenprogramm zum CSD-Straßenfest/ColognePride 2011. Hauptbühne auf dem
       Heumarkt, Köln.
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/punk-graphics/Deine_Jugend_-_ColognePride_2011_7594_.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Deine_Jugend_-_ColognePride_2011_(7594).jpg
     license: CC BY-SA 4.0
@@ -107,7 +107,7 @@ images:
     caption: Electro-Pop-Punk-Band "Deine Jugend" aus Mannheim. Bühnenprogramm zum
       CSD-Straßenfest/ColognePride 2011. Hauptbühne auf dem Heumarkt, Köln.
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/punk-graphics/Deine_Jugend_-_Tim_Bonassis_-_ColognePride_2011_7591_.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Deine_Jugend_-_Tim_Bonassis_-_ColognePride_2011_(7591).jpg
     license: CC BY-SA 4.0
@@ -117,7 +117,7 @@ images:
       Bühnenprogramm zum CSD-Straßenfest/ColognePride 2011. Hauptbühne auf dem
       Heumarkt, Köln.
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/punk-graphics/1941_Western_Flyer_17899878506_.jpg
     source_url: https://commons.wikimedia.org/wiki/File:1941_Western_Flyer_(17899878506).jpg
     license: CC BY 2.0
@@ -142,7 +142,7 @@ images:
     caption: "La Cavale / Gummø / Les Sales Machines 24 septembre 2016 @ Bistro de
       Paris, Montréal. Flyer: 6530, av. de Châteaubriand, Montréal, 09-27-2016."
     depicts: null
-    review_status: pending
+    review_status: approved
   - file: assets/punk-graphics/Black_Flag_and_Meat_Puppets_Flyer.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Black_Flag_and_Meat_Puppets_Flyer.jpg
     license: CC0
@@ -160,7 +160,7 @@ images:
     caption: A hand-drawn flyer for a concert featuring Ignition, Swiz, and Short
       Dogs Grow from the late 1980s.
     depicts: null
-    review_status: pending
+    review_status: approved
 todo:
   - names.variants
   - summary

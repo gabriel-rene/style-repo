@@ -68,7 +68,7 @@ images:
     rights_status: open
     caption: Artwork depicting Frutiger Aero
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/frutiger-aero/Frutiger_Aero_2_.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Frutiger_Aero_(2).jpg
     license: CC0
@@ -76,7 +76,7 @@ images:
     rights_status: open
     caption: Artwork depicting Frutiger Aero
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/frutiger-aero/Frutiger_Aero_1_.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Frutiger_Aero_(1).jpg
     license: CC0
@@ -84,7 +84,7 @@ images:
     rights_status: open
     caption: Artwork depicting Frutiger Aero
     depicts: null
-    review_status: pending
+    review_status: approved
   - file: assets/frutiger-aero/Frutiger_Aero_3_.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Frutiger_Aero_(3).jpg
     license: CC0
@@ -92,7 +92,7 @@ images:
     rights_status: open
     caption: Artwork depicting Frutiger Aero
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/frutiger-aero/Frutiger_aero-style_wallpaper.png
     source_url: https://commons.wikimedia.org/wiki/File:Frutiger_aero-style_wallpaper.png
     license: Public domain
@@ -100,7 +100,7 @@ images:
     rights_status: open
     caption: Изображение, напоминающее обои для рабочего стола середины 00-х
     depicts: null
-    review_status: pending
+    review_status: approved
   - file: assets/frutiger-aero/Frutiger_aero-style_wallpaper_cropped_.png
     source_url: https://commons.wikimedia.org/wiki/File:Frutiger_aero-style_wallpaper_(cropped).png
     license: Public domain
@@ -108,7 +108,7 @@ images:
     rights_status: open
     caption: Изображение, напоминающее обои для рабочего стола середины 00-х
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/frutiger-aero/Frutiger_Aero_Bubbles_And_Grass-Square.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Frutiger_Aero_Bubbles_And_Grass-Square.jpg
     license: CC0
@@ -117,7 +117,7 @@ images:
     caption: A square version of this excellent Frutiger Aero aesthetic piece, for
       use in user templates. Simply crop it.
     depicts: null
-    review_status: pending
+    review_status: approved
   - file: assets/frutiger-aero/Frutiger_Metro_Type.png
     source_url: https://commons.wikimedia.org/wiki/File:Frutiger_Metro_Type.png
     license: CC0
@@ -127,7 +127,7 @@ images:
       and musical elements on a green background. Includes a speaker with notes
       and a Wikipedia globe
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/frutiger-aero/Frutiger_Aero_Composite.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Frutiger_Aero_Composite.jpg
     license: Public domain
@@ -135,7 +135,7 @@ images:
     rights_status: open
     caption: Frutiger Aero landscape
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/frutiger-aero/Frutiger_aero_icons_-_Beautiful_3D_Business_Icons.png
     source_url: https://commons.wikimedia.org/wiki/File:Frutiger_aero_icons_-_Beautiful_3D_Business_Icons.png
     license: CC0
@@ -143,7 +143,7 @@ images:
     rights_status: open
     caption: frutiger aero icons 3D - Beautiful 3D Business Icons
     depicts: null
-    review_status: pending
+    review_status: rejected
 
 todo:
   - names.variants

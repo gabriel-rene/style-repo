@@ -71,7 +71,7 @@ images:
       parties in the conflict (which includes Germany, ironically enough).
       Library of Co
     depicts: null
-    review_status: pending
+    review_status: approved
   - file: assets/lithography/_Albi_Salon_des_Cents_1894_-_Henri-Gabriel_Ibels_lithographie.jpg
     source_url: https://commons.wikimedia.org/wiki/File:(Albi)_Salon_des_Cents_1894_-_Henri-Gabriel_Ibels_lithographie.jpg
     license: Public domain
@@ -79,7 +79,7 @@ images:
     rights_status: open
     caption: null
     depicts: null
-    review_status: pending
+    review_status: approved
   - file: assets/lithography/_Albi_Le_Salon_des_Cents_lithographie_EAL_pour_l_affiche_1896_-_Henry_Detouche.j
     source_url: https://commons.wikimedia.org/wiki/File:(Albi)_Le_Salon_des_Cents,_lithographie_EAL_pour_l%27affiche_1896_-_Henry_Detouche.jpg
     license: Public domain
@@ -87,7 +87,7 @@ images:
     rights_status: open
     caption: null
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/lithography/Long_Tack_Sam_poster_by_Adolph_Friedlander.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Long_Tack_Sam_poster_by_Adolph_Friedlander.jpg
     license: CC0
@@ -99,7 +99,7 @@ images:
       acrobat and magician in his native China, Long Tack Sam journeyed to the
       United States and be'
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: assets/lithography/Poster_for_The_Geisha.jpg
     source_url: https://commons.wikimedia.org/wiki/File:Poster_for_The_Geisha.jpg
     license: Public domain
@@ -110,7 +110,7 @@ images:
     caption: Poster advertising The Geisha at Spa Theatre, Scarborough, 1906.
       Lithograph, 50.7cm by 76cm
     depicts: null
-    review_status: pending
+    review_status: rejected
 todo:
   - external_ids
   - facets.era.periods

@@ -92,7 +92,7 @@ images:
     caption: Poster to commemorate the 50th anniversary of the National Theatre,
       designed by Paula Scher, 2013, Great Britain
     depicts: null
-    review_status: pending
+    review_status: approved
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2017JT4101/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O1375307
@@ -103,7 +103,7 @@ images:
     rights_status: restricted
     caption: Austerity and Socialist Strategy, 2015, London
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2017JT4097/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O1375306
@@ -114,7 +114,7 @@ images:
     rights_status: restricted
     caption: How Capitalism Survives, 2014, London
     depicts: null
-    review_status: pending
+    review_status: approved
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2017JT4186/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O1375308
@@ -125,7 +125,7 @@ images:
     rights_status: restricted
     caption: Limits, Barriers and Borders, 2016, London
     depicts: null
-    review_status: pending
+    review_status: approved
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2017JT4102/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O1375305
@@ -136,7 +136,7 @@ images:
     rights_status: restricted
     caption: Making the World Working Class, 2013, London
     depicts: null
-    review_status: pending
+    review_status: approved
   - file: null
     remote_image: https://www.moma.org/media/W1siZiIsIjIxMDU4MSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=8989fe7e109f7d11
     source_url: https://www.moma.org/collection/works/12867
@@ -147,7 +147,7 @@ images:
     rights_status: restricted
     caption: Konstruktivizm (Constructivism). 1922. Book with letterpress cover
     depicts: null
-    review_status: pending
+    review_status: approved
   - file: null
     remote_image: https://www.moma.org/media/W1siZiIsIjExNjcyMiJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=2fed85ff1ef8c0e1
     source_url: https://www.moma.org/collection/works/96617
@@ -160,7 +160,7 @@ images:
     caption: A Constructive Constructivism. 2003. Pencil, colored ink, correction
       fluid, and gouache with cut-and-pasted paper on paper
     depicts: null
-    review_status: pending
+    review_status: approved
 todo:
   - external_ids
   - facets.lineage

@@ -81,7 +81,7 @@ images:
     rights_status: restricted
     caption: Mini-dress, 1965, London
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2014GW4753/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O1274994
@@ -92,7 +92,7 @@ images:
     rights_status: restricted
     caption: No More Hiroshimas, ca. 1980, Manchester
     depicts: null
-    review_status: pending
+    review_status: approved
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2008BT4422/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O147891
@@ -102,7 +102,7 @@ images:
     rights_status: restricted
     caption: Dress, 1966, United States
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2026PN8204/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O1818294
@@ -112,7 +112,7 @@ images:
     rights_status: restricted
     caption: Op de lucht, 1990, Enschede
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2026PN4284/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O1313265
@@ -123,7 +123,7 @@ images:
     rights_status: restricted
     caption: Hulme Carnival 1987, 1987, Britain
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: null
     remote_image: https://framemark.vam.ac.uk/collections/2021MX2971/full/!800,800/0/default.jpg
     source_url: https://collections.vam.ac.uk/item/O1507890
@@ -134,7 +134,7 @@ images:
     rights_status: restricted
     caption: Op verkenning, late 19th century - early 20th century, Liège (city)
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: null
     remote_image: https://www.moma.org/media/W1siZiIsIjIxMzMxNiJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=b60cf11efe6d095d
     source_url: https://www.moma.org/collection/works/57875
@@ -145,7 +145,7 @@ images:
     rights_status: restricted
     caption: Super-Pop Artists, Minneapolis, Minnesota. 1964. Gelatin silver print
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: null
     remote_image: https://www.moma.org/media/W1siZiIsIjIwNjI4MCJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=b6eb6049c3033d05
     source_url: https://www.moma.org/collection/works/65769
@@ -159,7 +159,7 @@ images:
     caption: 11 Pop Artists. 1966. Three volumes of thirty-one screenprints (two
       with collage additions), and two lithographs
     depicts: null
-    review_status: pending
+    review_status: approved
   - file: null
     remote_image: https://www.moma.org/media/W1siZiIsIjIwNjI4MSJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=e59368dbb4f6e6f6
     source_url: https://www.moma.org/collection/works/65770
@@ -173,7 +173,7 @@ images:
       Screenprint from a portfolio of ten screenprints (one with collage
       additions), and one lithograph
     depicts: null
-    review_status: pending
+    review_status: approved
   - file: null
     remote_image: https://www.moma.org/media/W1siZiIsIjIwNjI4MiJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=5489854955ebea89
     source_url: https://www.moma.org/collection/works/65771
@@ -187,7 +187,7 @@ images:
       1966. Screenprint from a portfolio of ten screenprints (one with collage
       additions), and one lithograph
     depicts: null
-    review_status: pending
+    review_status: rejected
   - file: null
     remote_image: https://www.moma.org/media/W1siZiIsIjIwODY1NiJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=956d7258b22ae0d2
     source_url: https://www.moma.org/collection/works/65772
@@ -201,7 +201,7 @@ images:
       Screenprint on moiré Rowlux from a portfolio of ten screenprints (one with
       collage additions) and one lithograph
     depicts: null
-    review_status: pending
+    review_status: approved
   - file: null
     remote_image: https://www.moma.org/media/W1siZiIsIjIwNTcyNiJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4MTAyNFx1MDAzZSJdXQ.jpg?sha=ca6f3c4ba5eb6782
     source_url: https://www.moma.org/collection/works/65773
@@ -215,7 +215,7 @@ images:
       Screenprint from a portfolio of ten screenprints (one with collage
       additions), and one lithograph
     depicts: null
-    review_status: pending
+    review_status: approved
   - file: assets/op-art/2016_Henrique_Matos_Optical_Motion_VII_02.jpg
     source_url: https://commons.wikimedia.org/wiki/File:2016_Henrique_Matos_Optical_Motion_VII_02.jpg
     license: CC BY-SA 4.0
