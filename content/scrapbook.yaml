@@ -1,0 +1,87 @@
+id: scrapbook
+term_type: style
+status: stub
+names:
+  primary: Scrapbook
+  variants: []
+summary: null
+external_ids:
+  getty_aat: null
+  wikidata: null
+facets:
+  era:
+    periods: []
+  geography:
+    origin_places: []
+    spread: []
+  lineage:
+    parents: []
+    influences: []
+    influenced: []
+    reacted_against: []
+    revival_of: []
+  production:
+    apparatus: []
+    techniques: []
+  formal_properties:
+    grid_discipline: broken
+    palette_logic:
+      descriptor: other
+      note: paper, tape and photo tones; mixed found colors
+    contrast: medium
+    texture: pronounced
+    hierarchy: moderate
+    ornament_level: high
+  ideological_stance: expressive
+  commercial_context:
+    contexts:
+      - editorial
+      - self-published
+      - advertising
+      - web-ui
+  revival:
+    status: null
+    revivals: []
+  lifecycle:
+    state: null
+    first_observed: null
+    review_due: null
+  practitioners:
+    people: []
+    studios: []
+images: []
+guide:
+  dek: Photos, paper scraps, tape and handwritten notes are layered as if pasted
+    into a personal album.
+  signature:
+    - Taped and torn edges
+    - Paper textures
+    - Handwritten notes
+  application: Give each page one main image and let the pasted pieces support it.
+  caution: Too many stickers and textures turn a personal layout into clutter.
+  compare:
+    - collage
+    - maximalism
+todo:
+  - names.variants
+  - summary
+  - external_ids
+  - facets.era.periods
+  - facets.geography
+  - facets.lineage
+  - facets.lifecycle
+  - facets.practitioners
+  - images
+provenance:
+  facets.formal_properties:
+    - source: editorial
+      reviewed: false
+  facets.ideological_stance:
+    - source: editorial
+      reviewed: false
+  facets.commercial_context:
+    - source: editorial
+      reviewed: false
+  guide:
+    - source: editorial
+      reviewed: false

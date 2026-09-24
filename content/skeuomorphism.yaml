@@ -1,10 +1,17 @@
 id: skeuomorphism
 term_type: aesthetic
-status: draft
+status: published
 names:
   primary: Skeuomorphism
   variants: []
-summary: null
+summary: Skeuomorphism is a design practice that brings real-world elements into
+  digital interfaces so that new interfaces feel familiar; the term can mean
+  either a functional learning aid or a visual trend of unnecessary real-world
+  detail. The trend grew in the early 2000s and peaked in the early 2010s, with
+  interfaces using realistic textures, shadows and gradients for a
+  three-dimensional effect, such as wooden bookshelves in an e-reader or
+  leather-bound notepads. Its excesses came to seem cluttered and dated, and
+  flat design emerged in response.
 external_ids:
   getty_aat: null
   wikidata: Q134445115
@@ -60,7 +67,6 @@ images:
 featured_image: https://www.behance.net/gallery/232211667/Smart-Home-App-UIUX-Neumorphism-Minimal-Design
 todo:
   - names.variants
-  - summary
   - external_ids
   - facets.era.periods
   - facets.geography
@@ -70,6 +76,11 @@ todo:
   - facets.practitioners
   - images
 provenance:
+  summary:
+    - source: research-note
+      url: https://www.nngroup.com/articles/skeuomorphism/
+      note: skeuomorphism.md
+      accessed: 2026-09-24
   facets.formal_properties:
     - source: editorial
       reviewed: true

@@ -1,10 +1,17 @@
 id: pixel-art
 term_type: style
-status: draft
+status: published
 names:
   primary: Pixel art
   variants: []
-summary: null
+summary: Pixel art is digital art made in graphics software with the individual
+  pixel as its only building unit. It is closely tied to the low-resolution
+  imagery of 8-bit and 16-bit era computers, arcade machines and game consoles,
+  and works typically limit colour palettes and file size, whether from
+  technical constraint or for aesthetic effect. The term was first published in
+  1982 by Adele Goldberg and Robert Flegal at Xerox PARC, and the form saw
+  renewed popularity in the 2010s through games such as Undertale and Stardew
+  Valley.
 external_ids:
   getty_aat: null
   wikidata: Q811179
@@ -205,7 +212,6 @@ images:
     review_status: approved
 todo:
   - names.variants
-  - summary
   - external_ids
   - facets.era.periods
   - facets.geography
@@ -213,6 +219,11 @@ todo:
   - facets.lifecycle
   - facets.practitioners
 provenance:
+  summary:
+    - source: research-note
+      url: https://en.wikipedia.org/wiki/Pixel_art
+      note: pixel-art.md
+      accessed: 2026-09-24
   works:
     - source: user
   facets.formal_properties:

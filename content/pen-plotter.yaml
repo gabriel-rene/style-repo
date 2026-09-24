@@ -1,10 +1,17 @@
 id: pen-plotter
 term_type: apparatus
-status: draft
+status: published
 names:
   primary: Pen plotter
   variants: []
-summary: null
+summary: A pen plotter is a drawing machine that makes marks with pen and ink on
+  paper, directed either directly or through code. Architects and engineers used
+  pen plotters from the early computer era of the 1960s and 1970s to produce
+  construction drawings, but from the 1990s they were largely replaced by faster
+  inkjet printers. The machines have since been revived by artists, who value
+  the blend of digital accuracy with the analogue relationship of pen, ink and
+  paper, and who use them to generate algorithmic marks, sometimes on
+  custom-built flatbed or hanging plotters.
 external_ids:
   getty_aat: null
   wikidata: null
@@ -155,7 +162,6 @@ images:
     review_status: rejected
 todo:
   - names.variants
-  - summary
   - external_ids
   - facets.era.periods
   - facets.geography
@@ -163,6 +169,11 @@ todo:
   - facets.lifecycle
   - facets.practitioners
 provenance:
+  summary:
+    - source: research-note
+      url: https://aub.ac.uk/latest/drawing-from-machines
+      note: pen-plotter.md
+      accessed: 2026-09-24
   facets.formal_consequences:
     - source: editorial
       reviewed: true

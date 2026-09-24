@@ -1,10 +1,17 @@
 id: photocopier
 term_type: apparatus
-status: draft
+status: published
 names:
   primary: Photocopier
   variants: []
-summary: null
+summary: The photocopier became a creative and activist tool from the 1960s
+  onward, used by artists and by communities producing independent music
+  presses, activist papers and feminist publications in the 1970s and 1980s.
+  Copier-based work surveyed in a Bay Area exhibition includes fanzines,
+  postcards, mailers and collage, sometimes hand-coloured after copying. Artists
+  used it, for example, to assemble collage booklets mixing traditional Mexican
+  imagery with American comic characters, circulating tactile printed matter in
+  the era before the internet.
 external_ids:
   getty_aat: null
   wikidata: null
@@ -119,7 +126,6 @@ images:
     review_status: rejected
 todo:
   - names.variants
-  - summary
   - external_ids
   - facets.era.periods
   - facets.geography
@@ -127,6 +133,11 @@ todo:
   - facets.lifecycle
   - facets.practitioners
 provenance:
+  summary:
+    - source: research-note
+      url: https://www.kqed.org/arts/13924431/xerox-art-sf-library-copier-zines-rebellion-bay-area-history
+      note: photocopier.md
+      accessed: 2026-09-24
   facets.formal_consequences:
     - source: editorial
       reviewed: true

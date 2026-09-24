@@ -1,10 +1,17 @@
 id: pop-art
 term_type: style
-status: draft
+status: published
 names:
   primary: Pop art
   variants: []
-summary: null
+summary: Pop art is an art movement that arose in Britain in the mid 1950s and
+  in America in the late 1950s, reaching its height in the 1960s. Rebelling
+  against prevailing ideas of what art should be, its artists drew imagery from
+  popular and commercial sources such as Hollywood films, advertising,
+  packaging, pop music and comic books. American pop marked a return to
+  representation after abstract expressionism, while British pop took a more
+  academic approach, examining what American popular imagery signified and how
+  it shaped lifestyles.
 external_ids:
   getty_aat: null
   wikidata: null
@@ -246,7 +253,6 @@ images:
     review_status: rejected
 todo:
   - names.variants
-  - summary
   - external_ids
   - facets.era.periods
   - facets.geography
@@ -254,6 +260,11 @@ todo:
   - facets.lifecycle
   - facets.practitioners
 provenance:
+  summary:
+    - source: research-note
+      url: https://www.tate.org.uk/art/art-terms/p/pop-art
+      note: pop-art.md
+      accessed: 2026-09-24
   works:
     - source: user
   facets.formal_properties:

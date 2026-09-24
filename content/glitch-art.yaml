@@ -1,10 +1,17 @@
 id: glitch-art
 term_type: aesthetic
-status: draft
+status: published
 names:
   primary: Glitch art
   variants: []
-summary: null
+summary: Glitch art is an art movement that uses digital or analogue errors for
+  aesthetic purposes, either by corrupting digital data or by physically
+  manipulating electronic devices. The word glitch became attached to a genre of
+  experimental electronic music in the mid-1990s, and shortly afterwards, as VJs
+  and other visual artists embraced glitch as an aesthetic of the digital age,
+  the term came to cover a range of visual arts. An early related current was
+  net.art, including the collective JODI, which deliberately caused layout
+  errors on its website to expose underlying code and error messages.
 external_ids:
   getty_aat: null
   wikidata: Q5569949
@@ -157,7 +164,6 @@ images:
     review_status: rejected
 todo:
   - names.variants
-  - summary
   - external_ids
   - facets.era.periods
   - facets.geography
@@ -166,6 +172,11 @@ todo:
   - facets.lifecycle.review_due
   - facets.practitioners
 provenance:
+  summary:
+    - source: research-note
+      url: https://en.wikipedia.org/wiki/Glitch_art
+      note: glitch-art.md
+      accessed: 2026-09-24
   facets.formal_properties:
     - source: editorial
       reviewed: true

@@ -1,10 +1,19 @@
 id: mid-century-modern
 term_type: style
-status: draft
+status: published
 names:
   primary: Mid-century modern
   variants: []
-summary: null
+summary: Mid-century modern design, covering roughly the 1930s to the 1960s,
+  balanced expression with efficiency and utility, recasting housewares,
+  furniture and decorative arts as functional yet attractive products in which
+  form followed function. Drawing on European modernists such as the Bauhaus,
+  American industrial designers including Raymond Loewy and Walter Dorwin Teague
+  produced sleek, sweeping, streamlined shapes in the 1930s. By the early 1950s
+  a more refined American modern design had emerged, and mid-century designers
+  worked with new materials such as plastic, aluminium and molded plywood,
+  finished in natural tones and bold colours, with Charles and Ray Eames among
+  the most prominent.
 external_ids:
   getty_aat: null
   wikidata: null
@@ -61,7 +70,6 @@ images:
     review_status: approved
 todo:
   - names.variants
-  - summary
   - external_ids
   - facets.era.periods
   - facets.geography
@@ -70,6 +78,11 @@ todo:
   - facets.practitioners
   - images
 provenance:
+  summary:
+    - source: research-note
+      url: https://www.sfomuseum.org/exhibitions/modern-approach-mid-century-design
+      note: mid-century-modern.md
+      accessed: 2026-09-24
   works:
     - source: user
   facets.formal_properties:

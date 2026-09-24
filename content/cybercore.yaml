@@ -1,0 +1,89 @@
+id: cybercore
+term_type: aesthetic
+status: stub
+names:
+  primary: Cybercore
+  variants: []
+summary: null
+external_ids:
+  getty_aat: null
+  wikidata: null
+facets:
+  era:
+    periods: []
+  geography:
+    origin_places: []
+    spread: []
+  lineage:
+    parents: []
+    influences: []
+    influenced: []
+    reacted_against: []
+    revival_of: []
+  production:
+    apparatus: []
+    techniques: []
+  formal_properties:
+    grid_discipline: loose
+    palette_logic:
+      descriptor: fluorescent
+      note: neon on black; digital greens and blues
+    contrast: high
+    texture: pronounced
+    hierarchy: chaotic
+    ornament_level: high
+  ideological_stance: expressive
+  commercial_context:
+    contexts:
+      - fashion
+      - music-packaging
+      - web-ui
+  revival:
+    status: null
+    revivals: []
+  lifecycle:
+    state: null
+    first_observed: null
+    review_due: null
+  practitioners:
+    people: []
+    studios: []
+images: []
+guide:
+  dek: Digital grids, neon light and computer imagery build a future imagined
+    through technology.
+  signature:
+    - Neon on black
+    - Circuit and grid motifs
+    - Pixel and techno type
+  application: Keep one readable text layer above the technical decoration.
+  caution: Keep it distinct from cyberpunk, which adds urban decay and a dystopian
+    story.
+  compare:
+    - cyberpunk-aesthetic
+    - y2k-aesthetic
+    - glitch-art
+todo:
+  - names.variants
+  - summary
+  - external_ids
+  - facets.era.periods
+  - facets.geography
+  - facets.lineage
+  - facets.lifecycle.first_observed
+  - facets.lifecycle.review_due
+  - facets.practitioners
+  - images
+provenance:
+  facets.formal_properties:
+    - source: editorial
+      reviewed: false
+  facets.ideological_stance:
+    - source: editorial
+      reviewed: false
+  facets.commercial_context:
+    - source: editorial
+      reviewed: false
+  guide:
+    - source: editorial
+      reviewed: false

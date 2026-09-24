@@ -1,10 +1,17 @@
 id: blackletter
 term_type: letterform-tradition # NOT a style peer — spans eras, scripts, revivals
-status: draft
+status: published
 names:
   primary: Blackletter
   variants: [] # TODO: harvest (sub-script names are factual claims)
-summary: null # TODO
+summary: Blackletter, often popularly called Gothic, began as a medieval book
+  hand of the Gothic script family, known as Textualis or Textura, and was later
+  turned into typefaces that remain in use in calligraphy and typesetting. The
+  script arose in the late twelfth century and was used across Western Europe
+  until around the seventeenth century. Johannes Gutenberg cut a textualis type,
+  rich in ligatures and abbreviations, for his 42-line Bible. The Fraktur
+  variant became the most common German blackletter by the middle of the
+  sixteenth century.
 external_ids:
   getty_aat: null # TODO
   wikidata: Q213686
@@ -125,7 +132,6 @@ images:
 
 todo:
   - names.variants
-  - summary
   - external_ids
   - facets.geography
   - facets.lineage
@@ -136,6 +142,11 @@ todo:
   - facets.practitioners
 
 provenance:
+  summary:
+    - source: research-note
+      url: https://en.wikipedia.org/wiki/Blackletter
+      note: blackletter.md
+      accessed: 2026-09-24
   facets.formal_properties:
     - { source: editorial, reviewed: true }
   external_ids.wikidata:

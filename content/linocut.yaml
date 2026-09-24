@@ -1,10 +1,17 @@
 id: linocut
 term_type: technique
-status: draft
+status: published
 names:
   primary: Linocut
   variants: []
-summary: null
+summary: A linocut is a relief print made much like a woodcut, except that the
+  design is cut into and printed from linoleum. The block is a thin layer of
+  linoleum, a canvas backing coated with solidified linseed oil, generally
+  mounted on wood. Because linoleum is soft and has no grain, it can be cut in
+  any direction more easily than wood, leaving a raised surface whose slight
+  texture takes ink evenly. Linoleum was invented as flooring in the nineteenth
+  century and became popular for printmaking among artists and amateurs in the
+  twentieth.
 external_ids:
   getty_aat: null
   wikidata: Q103950955
@@ -144,7 +151,6 @@ images:
     review_status: rejected
 todo:
   - names.variants
-  - summary
   - external_ids
   - facets.era.periods
   - facets.geography
@@ -152,6 +158,11 @@ todo:
   - facets.lifecycle
   - facets.practitioners
 provenance:
+  summary:
+    - source: research-note
+      url: https://www.tate.org.uk/art/art-terms/l/linocut
+      note: linocut.md
+      accessed: 2026-09-24
   facets.formal_consequences:
     - source: editorial
       reviewed: true

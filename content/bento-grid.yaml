@@ -1,0 +1,86 @@
+id: bento-grid
+term_type: style
+status: stub
+names:
+  primary: Bento grid
+  variants: []
+summary: null
+external_ids:
+  getty_aat: null
+  wikidata: null
+facets:
+  era:
+    periods: []
+  geography:
+    origin_places: []
+    spread: []
+  lineage:
+    parents: []
+    influences: []
+    influenced: []
+    reacted_against: []
+    revival_of: []
+  production:
+    apparatus: []
+    techniques: []
+  formal_properties:
+    grid_discipline: strict
+    palette_logic:
+      descriptor: restricted
+      note: often a neutral ground with one accent per tile
+    contrast: medium
+    texture: flat
+    hierarchy: strict
+    ornament_level: minimal
+  ideological_stance: rationalist
+  commercial_context:
+    contexts:
+      - web-ui
+      - product
+      - corporate-identity
+  revival:
+    status: null
+    revivals: []
+  lifecycle:
+    state: null
+    first_observed: null
+    review_due: null
+  practitioners:
+    people: []
+    studios: []
+images: []
+guide:
+  dek: Content is split into rounded tiles of different sizes, packed into one
+    tidy grid like a bento box.
+  signature:
+    - Modular tiles of varied size
+    - Rounded corners
+    - One idea per tile
+  application: Size tiles by importance and keep a clear reading order on small screens.
+  caution: Giving every tile equal weight removes the hierarchy the grid should create.
+  compare:
+    - swiss-international-style
+    - minimalism
+todo:
+  - names.variants
+  - summary
+  - external_ids
+  - facets.era.periods
+  - facets.geography
+  - facets.lineage
+  - facets.lifecycle
+  - facets.practitioners
+  - images
+provenance:
+  facets.formal_properties:
+    - source: editorial
+      reviewed: false
+  facets.ideological_stance:
+    - source: editorial
+      reviewed: false
+  facets.commercial_context:
+    - source: editorial
+      reviewed: false
+  guide:
+    - source: editorial
+      reviewed: false

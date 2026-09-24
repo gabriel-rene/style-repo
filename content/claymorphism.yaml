@@ -1,0 +1,87 @@
+id: claymorphism
+term_type: aesthetic
+status: stub
+names:
+  primary: Claymorphism
+  variants: []
+summary: null
+external_ids:
+  getty_aat: null
+  wikidata: null
+facets:
+  era:
+    periods: []
+  geography:
+    origin_places: []
+    spread: []
+  lineage:
+    parents: []
+    influences: []
+    influenced: []
+    reacted_against: []
+    revival_of: []
+  production:
+    apparatus: []
+    techniques: []
+  formal_properties:
+    grid_discipline: moderate
+    palette_logic:
+      descriptor: pastel
+      note: soft candy pastels; inner and outer shadows
+    contrast: low
+    texture: subtle
+    hierarchy: moderate
+    ornament_level: minimal
+  ideological_stance: mixed
+  commercial_context:
+    contexts:
+      - web-ui
+      - product
+      - advertising
+  revival:
+    status: null
+    revivals: []
+  lifecycle:
+    state: null
+    first_observed: null
+    review_due: null
+  practitioners:
+    people: []
+    studios: []
+images: []
+guide:
+  dek: Rounded, inflated shapes with soft inner and outer shadows make interface
+    elements look like pressed clay.
+  signature:
+    - Puffy rounded forms
+    - Pastel fills
+    - Paired soft shadows
+  application: Keep text on plain, high-contrast surfaces rather than on shaded forms.
+  caution: Soft, low-contrast shadows can hide which elements are interactive.
+  compare:
+    - neumorphism
+    - skeuomorphism
+todo:
+  - names.variants
+  - summary
+  - external_ids
+  - facets.era.periods
+  - facets.geography
+  - facets.lineage
+  - facets.lifecycle.first_observed
+  - facets.lifecycle.review_due
+  - facets.practitioners
+  - images
+provenance:
+  facets.formal_properties:
+    - source: editorial
+      reviewed: false
+  facets.ideological_stance:
+    - source: editorial
+      reviewed: false
+  facets.commercial_context:
+    - source: editorial
+      reviewed: false
+  guide:
+    - source: editorial
+      reviewed: false

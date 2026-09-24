@@ -1,10 +1,17 @@
 id: new-typography
 term_type: movement
-status: draft
+status: published
 names:
   primary: New Typography
   variants: []
-summary: null
+summary: The New Typography was a graphic design movement based in the Weimar
+  Republic, defined in 1928 by the typographer Jan Tschichold in his book Die
+  Neue Typographie. It rejected the traditional arrangement of type in favour of
+  asymmetry, sans-serif letterforms and the active combination of photography
+  and text, applied to posters, advertisements, business cards, stationery and
+  brochures. Its participants included El Lissitzky, Kurt Schwitters, László
+  Moholy-Nagy and Aleksandr Rodchenko, who held that graphic design could change
+  society and convey the dynamism of modern life.
 external_ids:
   getty_aat: null
   wikidata: null
@@ -61,7 +68,6 @@ images:
 featured_image: https://www.behance.net/gallery/224569809/METAFORA-Type-Experimentation
 todo:
   - names.variants
-  - summary
   - external_ids
   - facets.era.periods
   - facets.geography
@@ -70,6 +76,11 @@ todo:
   - facets.practitioners
   - images
 provenance:
+  summary:
+    - source: research-note
+      url: https://metropolismag.com/viewpoints/bard-graduate-center-exhibition-new-typography/
+      note: new-typography.md
+      accessed: 2026-09-24
   facets.formal_properties:
     - source: editorial
       reviewed: true

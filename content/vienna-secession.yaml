@@ -1,10 +1,17 @@
 id: vienna-secession
 term_type: movement
-status: draft
+status: published
 names:
   primary: Vienna Secession
   variants: []
-summary: null
+summary: The Vienna Secession was formed in 1897 when Gustav Klimt led a group
+  of young Austrian artists and architects out of the Vienna Künstlerhaus, then
+  dominated by academic traditionalists. The group aimed to transform not just
+  the visual arts but aesthetic life as a whole. In 1898 it launched the journal
+  Ver Sacrum and built its own exhibition hall, which showed its members' work
+  and brought international avant-garde art to Vienna. In this period Klimt's
+  art turned toward a flatter, more linear manner influenced by Greek vase
+  painting and Japanese woodcuts.
 external_ids:
   getty_aat: null
   wikidata: null
@@ -106,7 +113,6 @@ images:
     review_status: rejected
 todo:
   - names.variants
-  - summary
   - external_ids
   - facets.era.periods
   - facets.geography
@@ -114,6 +120,11 @@ todo:
   - facets.lifecycle
   - facets.practitioners
 provenance:
+  summary:
+    - source: research-note
+      url: https://www.getty.edu/art/exhibitions/klimt/secession.html
+      note: vienna-secession.md
+      accessed: 2026-09-24
   facets.formal_properties:
     - source: editorial
       reviewed: true

@@ -1,10 +1,15 @@
 id: y2k-aesthetic
 term_type: aesthetic
-status: draft
+status: published
 names:
   primary: Y2K aesthetic
   variants: []
-summary: null
+summary: The Y2K aesthetic is a design style tied to the turn of the millennium,
+  spanning the late 1990s and early 2000s. It is known for rounded, inflated
+  typefaces and a hyper-digital finish of metallic, glossy, mirrored and 3D
+  surfaces, along with interface cues such as loading bars and rendered buttons.
+  Holographic gradients, iridescent colours and shiny silver are among its most
+  recognisable traits, reflecting enthusiasm for new technology at the time.
 external_ids:
   getty_aat: null
   wikidata: null
@@ -61,7 +66,6 @@ images:
 featured_image: https://www.behance.net/gallery/247842007/Neox
 todo:
   - names.variants
-  - summary
   - external_ids
   - facets.era.periods
   - facets.geography
@@ -71,6 +75,11 @@ todo:
   - facets.practitioners
   - images
 provenance:
+  summary:
+    - source: research-note
+      url: https://eyeondesign.aiga.org/the-y2k-aesthetic-is-fully-back-but-can-it-stick-around/
+      note: y2k-aesthetic.md
+      accessed: 2026-09-24
   facets.formal_properties:
     - source: editorial
       reviewed: true

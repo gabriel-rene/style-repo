@@ -1,0 +1,87 @@
+id: neumorphism
+term_type: aesthetic
+status: stub
+names:
+  primary: Neumorphism
+  variants: []
+summary: null
+external_ids:
+  getty_aat: null
+  wikidata: null
+facets:
+  era:
+    periods: []
+  geography:
+    origin_places: []
+    spread: []
+  lineage:
+    parents: []
+    influences: []
+    influenced: []
+    reacted_against: []
+    revival_of: []
+  production:
+    apparatus: []
+    techniques: []
+  formal_properties:
+    grid_discipline: moderate
+    palette_logic:
+      descriptor: monochrome
+      note: one background hue; light and dark shadows only
+    contrast: low
+    texture: subtle
+    hierarchy: flat
+    ornament_level: minimal
+  ideological_stance: mixed
+  commercial_context:
+    contexts:
+      - web-ui
+      - product
+  revival:
+    status: null
+    revivals: []
+  lifecycle:
+    state: null
+    first_observed: null
+    review_due: null
+  practitioners:
+    people: []
+    studios: []
+images: []
+guide:
+  dek: Controls seem pressed out of, or into, one soft surface through paired
+    light and dark shadows.
+  signature:
+    - Same-color surfaces
+    - Paired soft shadows
+    - Low-contrast relief
+  application: Add labels, focus rings and state changes that do not rely on shadow alone.
+  caution: Very low contrast often fails accessibility guidelines.
+  compare:
+    - skeuomorphism
+    - claymorphism
+    - flat-design
+todo:
+  - names.variants
+  - summary
+  - external_ids
+  - facets.era.periods
+  - facets.geography
+  - facets.lineage
+  - facets.lifecycle.first_observed
+  - facets.lifecycle.review_due
+  - facets.practitioners
+  - images
+provenance:
+  facets.formal_properties:
+    - source: editorial
+      reviewed: false
+  facets.ideological_stance:
+    - source: editorial
+      reviewed: false
+  facets.commercial_context:
+    - source: editorial
+      reviewed: false
+  guide:
+    - source: editorial
+      reviewed: false

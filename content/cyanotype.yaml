@@ -1,10 +1,17 @@
 id: cyanotype
 term_type: technique
-status: draft
+status: published
 names:
   primary: Cyanotype
   variants: []
-summary: null
+summary: The cyanotype is a photographic process devised by Sir John Herschel in
+  1841 that produces a continuous-tone image in Prussian blue. It relies on a
+  sensitising solution of ferric ammonium citrate and potassium ferricyanide,
+  whose iron salts are reduced when exposed to natural or artificial ultraviolet
+  light and then yield a high-contrast blue image on oxidation. The process was
+  long used to copy engineering and architectural drawings before photocopiers
+  became common, and photographers also used it for botanical records, still
+  lifes and proof prints from negatives.
 external_ids:
   getty_aat: null
   wikidata: null
@@ -154,7 +161,6 @@ images:
     review_status: rejected
 todo:
   - names.variants
-  - summary
   - external_ids
   - facets.era.periods
   - facets.geography
@@ -162,6 +168,11 @@ todo:
   - facets.lifecycle
   - facets.practitioners
 provenance:
+  summary:
+    - source: research-note
+      url: https://blog.scienceandmediamuseum.org.uk/introduction-cyanotype-process/
+      note: cyanotype.md
+      accessed: 2026-09-24
   facets.formal_consequences:
     - source: editorial
       reviewed: true

@@ -1,10 +1,16 @@
 id: airbrush
 term_type: apparatus
-status: draft
+status: published
 names:
   primary: Airbrush
   variants: []
-summary: null
+summary: An airbrush is a small handheld tool attached to a supply of compressed
+  air that sprays paint in a controlled manner, and airbrushing is the painting
+  technique that uses it to produce smooth, even surfaces, often in pursuit of
+  strong realism. The instrument was invented in the late nineteenth century but
+  was taken up widely by artists only in the mid-twentieth century. Illustrators
+  of the 1930s and 1940s used it, as did later Pop and science fiction artists,
+  and digital airbrush software appeared in the early 1980s.
 external_ids:
   getty_aat: null
   wikidata: null
@@ -153,7 +159,6 @@ images:
     review_status: rejected
 todo:
   - names.variants
-  - summary
   - external_ids
   - facets.era.periods
   - facets.geography
@@ -161,6 +166,11 @@ todo:
   - facets.lifecycle
   - facets.practitioners
 provenance:
+  summary:
+    - source: research-note
+      url: https://www.tate.org.uk/art/art-terms/a/airbrushing
+      note: airbrush.md
+      accessed: 2026-09-24
   facets.formal_consequences:
     - source: editorial
       reviewed: true

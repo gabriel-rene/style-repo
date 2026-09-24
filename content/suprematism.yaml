@@ -1,10 +1,16 @@
 id: suprematism
 term_type: movement
-status: draft
+status: published
 names:
   primary: Suprematism
   variants: []
-summary: null
+summary: Suprematism is an abstract art movement that Kazimir Malevich named and
+  developed from 1913. Its paintings are built from simple geometric shapes such
+  as squares, circles, lines and rectangles in a restricted palette, usually set
+  floating on a white ground, with colour and spatial relations central to the
+  effect. The first suprematist exhibition was held in St Petersburg in December
+  1915, and artists including El Lissitzky and László Moholy-Nagy later took up
+  its approach.
 external_ids:
   getty_aat: null
   wikidata: null
@@ -98,7 +104,6 @@ images:
     review_status: approved
 todo:
   - names.variants
-  - summary
   - external_ids
   - facets.era.periods
   - facets.geography
@@ -106,6 +111,11 @@ todo:
   - facets.lifecycle
   - facets.practitioners
 provenance:
+  summary:
+    - source: research-note
+      url: https://www.tate.org.uk/art/art-terms/s/suprematism
+      note: suprematism.md
+      accessed: 2026-09-24
   facets.formal_properties:
     - source: editorial
       reviewed: true

@@ -1,10 +1,17 @@
 id: flat-design
 term_type: aesthetic
-status: draft
+status: published
 names:
   primary: Flat design
   variants: []
-summary: null
+summary: Flat design is a web and interface style defined by the absence of
+  glossy or three-dimensional visual effects, avoiding shadows, gradients,
+  highlights and realistic textures. It gained prominence around 2011 and 2012,
+  strongly shaped by Microsoft's Metro design language and the release of
+  Windows 8, which Microsoft presented as exploring the digital medium rather
+  than imitating the physical world. Apple's adoption around 2013 further
+  confirmed the trend, which arose as a reaction against overused 3D effects and
+  skeuomorphism.
 external_ids:
   getty_aat: null
   wikidata: Q15266360
@@ -85,7 +92,6 @@ images:
     review_status: rejected
 todo:
   - names.variants
-  - summary
   - external_ids
   - facets.era.periods
   - facets.geography
@@ -94,6 +100,11 @@ todo:
   - facets.lifecycle.review_due
   - facets.practitioners
 provenance:
+  summary:
+    - source: research-note
+      url: https://www.nngroup.com/articles/flat-design/
+      note: flat-design.md
+      accessed: 2026-09-24
   facets.formal_properties:
     - source: editorial
       reviewed: true

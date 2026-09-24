@@ -1,0 +1,87 @@
+id: glassmorphism
+term_type: aesthetic
+status: stub
+names:
+  primary: Glassmorphism
+  variants: []
+summary: null
+external_ids:
+  getty_aat: null
+  wikidata: null
+facets:
+  era:
+    periods: []
+  geography:
+    origin_places: []
+    spread: []
+  lineage:
+    parents: []
+    influences: []
+    influenced: []
+    reacted_against: []
+    revival_of: []
+  production:
+    apparatus: []
+    techniques: []
+  formal_properties:
+    grid_discipline: moderate
+    palette_logic:
+      descriptor: full-spectrum
+      note: vivid gradient backdrops behind frosted panels
+    contrast: low
+    texture: subtle
+    hierarchy: moderate
+    ornament_level: minimal
+  ideological_stance: mixed
+  commercial_context:
+    contexts:
+      - web-ui
+      - product
+  revival:
+    status: null
+    revivals: []
+  lifecycle:
+    state: null
+    first_observed: null
+    review_due: null
+  practitioners:
+    people: []
+    studios: []
+images: []
+guide:
+  dek: Translucent, blurred panels float above colorful backgrounds like sheets of
+    frosted glass.
+  signature:
+    - Background blur
+    - Semi-transparent panels
+    - Thin light borders
+  application: Test text contrast over the brightest and darkest parts of the background.
+  caution: Blur alone is not a hierarchy; many stacked glass layers become muddy.
+  compare:
+    - frutiger-aero
+    - flat-design
+    - neumorphism
+todo:
+  - names.variants
+  - summary
+  - external_ids
+  - facets.era.periods
+  - facets.geography
+  - facets.lineage
+  - facets.lifecycle.first_observed
+  - facets.lifecycle.review_due
+  - facets.practitioners
+  - images
+provenance:
+  facets.formal_properties:
+    - source: editorial
+      reviewed: false
+  facets.ideological_stance:
+    - source: editorial
+      reviewed: false
+  facets.commercial_context:
+    - source: editorial
+      reviewed: false
+  guide:
+    - source: editorial
+      reviewed: false

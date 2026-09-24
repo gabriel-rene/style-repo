@@ -1,10 +1,16 @@
 id: punk-graphics
 term_type: style
-status: draft
+status: published
 names:
   primary: Punk graphics
   variants: []
-summary: null
+summary: Punk graphics are the flyers, posters, album covers, promotional
+  material, zines and related ephemera produced around punk and post-punk music,
+  surveyed in an exhibition covering 1976 to 1986 that included material from
+  New York's CBGB scene. Designers relied on strategies such as parody,
+  pastiche, appropriation and collage, and drew on science fiction, horror and
+  comics. Over the decade the look shifted from spare black-and-white minimalism
+  toward the broader colour and expressive forms of New Wave graphics.
 external_ids:
   getty_aat: null
   wikidata: null
@@ -163,7 +169,6 @@ images:
     review_status: approved
 todo:
   - names.variants
-  - summary
   - external_ids
   - facets.era.periods
   - facets.geography
@@ -171,6 +176,11 @@ todo:
   - facets.lifecycle
   - facets.practitioners
 provenance:
+  summary:
+    - source: research-note
+      url: https://madmuseum.org/press/releases/museum-arts-and-design-exhibition-explores-visual-culture-punk-through-over-400-works
+      note: punk-graphics.md
+      accessed: 2026-09-24
   works:
     - source: user
   facets.formal_properties:

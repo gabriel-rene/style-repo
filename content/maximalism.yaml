@@ -1,10 +1,17 @@
 id: maximalism
 term_type: style
-status: draft
+status: published
 names:
   primary: Maximalism
   variants: []
-summary: null
+summary: Maximalism in graphic design is an aesthetic of excess, framed as a
+  reaction against minimalism. It relies on bold colours, patterns, textures,
+  layering, repetition, intricate detail, serif type and ornament, leaves little
+  or no white space, and freely mixes elements that would not sit together in a
+  minimalist layout. The column traces its roots to advertising trade cards,
+  which date from the 1700s and multiplied with colour lithography in the 1870s,
+  and links it to horror vacui, the fear of empty space. It names Peter Max,
+  David Carson and Stefan Sagmeister as contemporary maximalists.
 external_ids:
   getty_aat: null
   wikidata: null
@@ -69,7 +76,6 @@ images:
     review_status: rejected
 todo:
   - names.variants
-  - summary
   - external_ids
   - facets.era.periods
   - facets.geography
@@ -77,6 +83,11 @@ todo:
   - facets.lifecycle
   - facets.practitioners
 provenance:
+  summary:
+    - source: research-note
+      url: https://www.commarts.com/columns/make-the-most-of-maximalism
+      note: maximalism.md
+      accessed: 2026-09-24
   works:
     - source: user
   facets.formal_properties:

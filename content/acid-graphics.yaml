@@ -4,7 +4,14 @@ status: draft
 names:
   primary: Acid graphics
   variants: [] # TODO: harvest
-summary: null # TODO
+summary: Acid graphics is a graphic design trend that revisits psychedelic
+  visual language but treats it with irony and cynicism rather than utopian
+  optimism. It is marked by bright colours, heavy use of neon green, warped or
+  inverted experimental lettering, op-art patterning, sci-fi futurism and
+  organic forms combined with a heavy metal feel. The style borrows from 1990s
+  rave and acid house nightclub posters and from punk's do-it-yourself attitude.
+  It appears mainly on music posters and record sleeves, and also in editorial,
+  branding and digital design.
 external_ids:
   getty_aat: null # likely absent from AAT — record null result in Phase 3
   wikidata: null # TODO — may not exist; record the null result
@@ -61,7 +68,6 @@ featured_image: https://www.behance.net/gallery/219742459/120-Acidrawl-Graphic-P
 
 todo:
   - names.variants
-  - summary
   - external_ids
   - facets.era.periods
   - facets.geography
@@ -72,6 +78,11 @@ todo:
   - images
 
 provenance:
+  summary:
+    - source: research-note
+      url: https://eyeondesign.aiga.org/acid-graphics-are-the-new-psychedelia-with-a-heady-dose-of-cynicism/
+      note: acid-graphics.md
+      accessed: 2026-09-24
   facets.formal_properties:
     - { source: editorial, reviewed: true }
   facets.ideological_stance:

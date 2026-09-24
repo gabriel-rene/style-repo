@@ -1,10 +1,16 @@
 id: superflat
 term_type: style
-status: draft
+status: published
 names:
   primary: Superflat
   variants: []
-summary: null
+summary: Superflat is a term devised by the artist Murakami Takashi to name both
+  a pull toward flat, planar imagery in Japanese art and a perceived
+  superficiality in the culture around it. It refers to an art movement that
+  began in Japan in the mid-1990s and to a critical lens on postwar Japanese
+  society, developed through exhibitions such as Superflat in 2000. Visually it
+  favours flatness and lavish decoration, borrows from anime and manga, and
+  blurs the line between fine art and popular or commercial culture.
 external_ids:
   getty_aat: null
   wikidata: null
@@ -106,7 +112,6 @@ images:
     review_status: rejected
 todo:
   - names.variants
-  - summary
   - external_ids
   - facets.era.periods
   - facets.geography
@@ -114,6 +119,11 @@ todo:
   - facets.lifecycle
   - facets.practitioners
 provenance:
+  summary:
+    - source: research-note
+      url: https://jmpc-utokyo.com/keyword/superflat/
+      note: superflat.md
+      accessed: 2026-09-24
   works:
     - source: user
   facets.formal_properties:

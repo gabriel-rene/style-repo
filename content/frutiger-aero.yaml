@@ -1,10 +1,16 @@
 id: frutiger-aero
 term_type: aesthetic # retrospectively-named internet aesthetic
-status: draft
+status: published
 names:
   primary: Frutiger Aero
   variants: [] # TODO: harvest
-summary: null # TODO
+summary: Frutiger Aero is a name catalogued by the Consumer Aesthetics Research
+  Institute for a corporate technology aesthetic of roughly the mid-2000s to the
+  early 2010s. The label joins Windows Vista's Aero design guidelines with
+  Adrian Frutiger's typeface Frutiger. Its typical features include skeuomorphic
+  interfaces, glossy finishes, glassy or transparent materials, humanist
+  sans-serif type and photographic motifs such as auroras, bokeh and close-up
+  grass. It is also known as Aero, Aqua or Web 2.0.
 external_ids:
   getty_aat: null # likely absent from AAT — record null result
   wikidata: Q118114289
@@ -147,7 +153,6 @@ images:
 
 todo:
   - names.variants
-  - summary
   - external_ids
   - facets.era.periods
   - facets.lineage
@@ -157,6 +162,11 @@ todo:
   - facets.practitioners
 
 provenance:
+  summary:
+    - source: research-note
+      url: https://cari.institute/aesthetics/frutiger-aero
+      note: frutiger-aero.md
+      accessed: 2026-09-24
   facets.formal_properties:
     - { source: editorial, reviewed: true }
   facets.ideological_stance:

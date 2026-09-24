@@ -1,10 +1,15 @@
 id: collage
 term_type: technique
-status: draft
+status: published
 names:
   primary: Collage
   variants: []
-summary: null
+summary: Collage names both a technique and the artwork it produces, in which
+  paper, photographs, fabric and other ephemera are arranged and glued onto a
+  support. The word comes from the French papiers collés, or découpage, which
+  referred to pasting cut paper onto surfaces. Artists first adopted it as a
+  technique in the early twentieth century. A collage may also combine painting
+  and drawing and can include three-dimensional elements.
 external_ids:
   getty_aat: null
   wikidata: null
@@ -147,7 +152,6 @@ images:
     review_status: rejected
 todo:
   - names.variants
-  - summary
   - external_ids
   - facets.era.periods
   - facets.geography
@@ -155,6 +159,11 @@ todo:
   - facets.lifecycle
   - facets.practitioners
 provenance:
+  summary:
+    - source: research-note
+      url: https://www.tate.org.uk/art/art-terms/c/collage
+      note: collage.md
+      accessed: 2026-09-24
   facets.formal_consequences:
     - source: editorial
       reviewed: true

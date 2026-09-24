@@ -1,10 +1,16 @@
 id: vaporwave
 term_type: aesthetic # internet-native, loosely bounded, lifecycle-active
-status: draft
+status: published
 names:
   primary: Vaporwave
   variants: [] # TODO: harvest
-summary: null # TODO
+summary: Vaporwave is an internet-born music culture that surfaced in online
+  forums in the 2010s, partly as a satire of chillwave and synthwave, built from
+  slowed and chopped samples of smooth jazz, R&B and elevator music. Its visuals
+  suggest a deserted 1980s shopping mall, mixing bright colours, blurred images,
+  checkered tiles, obsolete technology, horizons, Greek sculpture, 3D renders
+  and anime references. The resulting mood is melancholy and nostalgic, and
+  scholars often read it as a critique of consumerism.
 external_ids:
   getty_aat: null # likely absent from AAT — record null result in Phase 3
   wikidata: Q15733887
@@ -139,13 +145,17 @@ images:
 
 todo:
   - names.variants
-  - summary
   - facets.lineage
   - facets.lifecycle.first_observed
   - facets.lifecycle.review_due
   - facets.practitioners
 
 provenance:
+  summary:
+    - source: research-note
+      url: https://haenfler.sites.grinnell.edu/vaporwave/
+      note: vaporwave.md
+      accessed: 2026-09-24
   facets.formal_properties:
     - { source: editorial, reviewed: true }
   facets.ideological_stance:
