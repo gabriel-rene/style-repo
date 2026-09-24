@@ -1,10 +1,16 @@
 id: scrapbook
 term_type: style
-status: stub
+status: published
 names:
   primary: Scrapbook
   variants: []
-summary: null
+summary: A scrapbook is a personal assemblage of found visual material, such as
+  cutouts and glued-in artifacts, that records an individual life in a way
+  comparable to a diary. Writing in Print magazine in 2016, Steven Heller draws
+  on Jessica Helfand's 2008 study of American scrapbooks, which framed the form
+  as an early open means of self-expression built on visual sampling, cultural
+  mixing and the reuse of existing media. Meaning in a scrapbook often emerges
+  from the juxtaposition of its pasted-in pieces.
 external_ids:
   getty_aat: null
   wikidata: null
@@ -49,7 +55,65 @@ facets:
   practitioners:
     people: []
     studios: []
-images: []
+images:
+  - file: assets/scrapbook/Scrapbook_old_Womens_Museum.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Scrapbook_old_Womens_Museum.jpg
+    license: Public domain
+    attribution: "Photo: User:FA2010, Public domain, via Wikimedia Commons"
+    rights_status: open
+    review_status: approved
+    caption: Scrapbook (19th or early 20th century?) The Women's Museum, Dallas, Texas
+    depicts: null
+  - file: assets/scrapbook/Brandenburger_family_World_s_Fair_scrapbook_page_23_1904_-_DPLA_-_35353ac8eb196d
+    source_url: https://commons.wikimedia.org/wiki/File:Brandenburger_family_World%27s_Fair_scrapbook,_page_23,_1904_-_DPLA_-_35353ac8eb196d71c8415d470d9d0f0a.jpg
+    license: Public domain
+    attribution: Brandenburger family, Public domain, via Wikimedia Commons
+    rights_status: open
+    review_status: approved
+    caption: A large cutout image of the Louisiana Purchase Monument.
+    depicts: null
+  - file: assets/scrapbook/Frank_Fahy_Scrapbook_cover_slnsw.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Frank_Fahy_Scrapbook_cover_slnsw.jpg
+    license: Public domain
+    attribution: Unknown authorUnknown author, Public domain, via Wikimedia Commons
+    rights_status: open
+    review_status: rejected
+    caption: Frank Fahy - Scrapbook of an undercover policeman, 1920-1952 Open page
+      images to be used as promo and in published guide
+    depicts: null
+  - file: assets/scrapbook/Brandenburger_family_World_s_Fair_scrapbook_page_19_1904_-_DPLA_-_43dc6d1daac05c
+    source_url: https://commons.wikimedia.org/wiki/File:Brandenburger_family_World%27s_Fair_scrapbook,_page_19,_1904_-_DPLA_-_43dc6d1daac05ca63de838ee81390dd5_(page_1).jpg
+    license: Public domain
+    attribution: Brandenburger family, Public domain, via Wikimedia Commons
+    rights_status: open
+    review_status: rejected
+    caption: A booklet featuring pictures from the Boer War Spectacle exhibit.
+      Images include reenacted scenes and battles, Boer War veterans, Boer
+      generals Ben Viljoen and Piet Cronje, and the event organizer Frank E.
+      Fillis.
+    depicts: null
+  - file: assets/scrapbook/Brandenburger_family_World_s_Fair_scrapbook_page_19_1904_-_DPLA_-_43dc6d1daac05c
+    source_url: https://commons.wikimedia.org/wiki/File:Brandenburger_family_World%27s_Fair_scrapbook,_page_19,_1904_-_DPLA_-_43dc6d1daac05ca63de838ee81390dd5_(page_2).jpg
+    license: Public domain
+    attribution: Brandenburger family, Public domain, via Wikimedia Commons
+    rights_status: open
+    review_status: rejected
+    caption: A booklet featuring pictures from the Boer War Spectacle exhibit.
+      Images include reenacted scenes and battles, Boer War veterans, Boer
+      generals Ben Viljoen and Piet Cronje, and the event organizer Frank E.
+      Fillis.
+    depicts: null
+  - file: assets/scrapbook/Brandenburger_family_World_s_Fair_scrapbook_page_19_1904_-_DPLA_-_43dc6d1daac05c
+    source_url: https://commons.wikimedia.org/wiki/File:Brandenburger_family_World%27s_Fair_scrapbook,_page_19,_1904_-_DPLA_-_43dc6d1daac05ca63de838ee81390dd5_(page_3).jpg
+    license: Public domain
+    attribution: Brandenburger family, Public domain, via Wikimedia Commons
+    rights_status: open
+    review_status: rejected
+    caption: A booklet featuring pictures from the Boer War Spectacle exhibit.
+      Images include reenacted scenes and battles, Boer War veterans, Boer
+      generals Ben Viljoen and Piet Cronje, and the event organizer Frank E.
+      Fillis.
+    depicts: null
 guide:
   dek: Photos, paper scraps, tape and handwritten notes are layered as if pasted
     into a personal album.
@@ -64,24 +128,32 @@ guide:
     - maximalism
 todo:
   - names.variants
-  - summary
   - external_ids
   - facets.era.periods
   - facets.geography
   - facets.lineage
   - facets.lifecycle
   - facets.practitioners
-  - images
 provenance:
+  summary:
+    - source: research-note
+      url: https://www.printmag.com/daily-heller/the-world-of-historic-scrapbooks/
+      note: scrapbook.md
+      accessed: 2026-09-24
   facets.formal_properties:
     - source: editorial
-      reviewed: false
+      reviewed: true
   facets.ideological_stance:
     - source: editorial
-      reviewed: false
+      reviewed: true
   facets.commercial_context:
     - source: editorial
-      reviewed: false
+      reviewed: true
   guide:
     - source: editorial
-      reviewed: false
+      reviewed: true
+  images:
+    - source: wikimedia-commons
+      url: https://commons.wikimedia.org/w/index.php?search=scrapbook%20page
+      accessed: 2026-09-24
+      note: "query: scrapbook page"

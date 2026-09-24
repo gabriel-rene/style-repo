@@ -1,10 +1,18 @@
 id: wabi-sabi
 term_type: style
-status: stub
+status: published
 names:
   primary: Wabi-sabi
   variants: []
-summary: null
+summary: Wabi-sabi is a concept in traditional Japanese aesthetics centered on
+  accepting transience and imperfection, valuing beauty that is imperfect,
+  impermanent and incomplete. It stems from the Buddhist teaching of the three
+  marks of existence and was shaped in the tea ceremony by Murata Jukō, who
+  favored simple rough utensils, and by Sen no Rikyū through his teahouse
+  design. Its qualities include asymmetry, roughness, simplicity, economy,
+  austerity and an appreciation of natural forms. Designer Leonard Koren's 1994
+  book contrasted it with Western ideals of beauty and became a reference point
+  for designers.
 external_ids:
   getty_aat: null
   wikidata: null
@@ -48,7 +56,56 @@ facets:
   practitioners:
     people: []
     studios: []
-images: []
+images:
+  - file: assets/wabi-sabi/Contemporary_wabi-sabi_tea_bowl.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Contemporary_wabi-sabi_tea_bowl.jpg
+    license: CC BY-SA 2.0
+    attribution: ottmarliebert.com from Santa Fe, Turtle Island, CC BY-SA 2.0, via
+      Wikimedia Commons
+    rights_status: open
+    review_status: rejected
+    caption: Contemporary wabi-sabi tea bowl
+    depicts: null
+  - file: assets/wabi-sabi/ENI_02208320_WABI-SABI_01_.JPG
+    source_url: https://commons.wikimedia.org/wiki/File:ENI_02208320_WABI-SABI_(01).JPG
+    license: CC BY 3.0
+    attribution: S.J. de Waard, CC BY 3.0, via Wikimedia Commons
+    rights_status: open
+    review_status: rejected
+    caption: De WABI-SABI opvarend op de Noord
+    depicts: null
+  - file: assets/wabi-sabi/ENI_02208320_WABI-SABI_02_.JPG
+    source_url: https://commons.wikimedia.org/wiki/File:ENI_02208320_WABI-SABI_(02).JPG
+    license: CC BY 3.0
+    attribution: S.J. de Waard, CC BY 3.0, via Wikimedia Commons
+    rights_status: open
+    review_status: rejected
+    caption: De WABI-SABI opvarend op de Noord
+    depicts: null
+  - file: assets/wabi-sabi/ENI_02208320_WABI-SABI_03_.JPG
+    source_url: https://commons.wikimedia.org/wiki/File:ENI_02208320_WABI-SABI_(03).JPG
+    license: CC BY 3.0
+    attribution: S.J. de Waard, CC BY 3.0, via Wikimedia Commons
+    rights_status: open
+    review_status: rejected
+    caption: De WABI-SABI opvarend op de Noord
+    depicts: null
+  - file: assets/wabi-sabi/ENI_02208320_WABI-SABI_04_.JPG
+    source_url: https://commons.wikimedia.org/wiki/File:ENI_02208320_WABI-SABI_(04).JPG
+    license: CC BY 3.0
+    attribution: S.J. de Waard, CC BY 3.0, via Wikimedia Commons
+    rights_status: open
+    review_status: rejected
+    caption: De WABI-SABI opvarend op de Noord
+    depicts: null
+  - file: assets/wabi-sabi/ENI_02208320_WABI-SABI_05_.JPG
+    source_url: https://commons.wikimedia.org/wiki/File:ENI_02208320_WABI-SABI_(05).JPG
+    license: CC BY 3.0
+    attribution: S.J. de Waard, CC BY 3.0, via Wikimedia Commons
+    rights_status: open
+    review_status: rejected
+    caption: De WABI-SABI opvarend op de Noord
+    depicts: null
 guide:
   dek: Muted natural materials, asymmetry and visible wear express a quiet beauty
     in imperfection.
@@ -62,24 +119,32 @@ guide:
     - minimalism
 todo:
   - names.variants
-  - summary
   - external_ids
   - facets.era.periods
   - facets.geography
   - facets.lineage
   - facets.lifecycle
   - facets.practitioners
-  - images
 provenance:
+  summary:
+    - source: research-note
+      url: https://en.wikipedia.org/wiki/Wabi-sabi
+      note: wabi-sabi.md
+      accessed: 2026-09-24
   facets.formal_properties:
     - source: editorial
-      reviewed: false
+      reviewed: true
   facets.ideological_stance:
     - source: editorial
-      reviewed: false
+      reviewed: true
   facets.commercial_context:
     - source: editorial
-      reviewed: false
+      reviewed: true
   guide:
     - source: editorial
-      reviewed: false
+      reviewed: true
+  images:
+    - source: wikimedia-commons
+      url: https://commons.wikimedia.org/w/index.php?search=wabi-sabi
+      accessed: 2026-09-24
+      note: "query: wabi-sabi"

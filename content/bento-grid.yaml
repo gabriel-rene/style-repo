@@ -1,10 +1,16 @@
 id: bento-grid
 term_type: style
-status: stub
+status: published
 names:
   primary: Bento grid
   variants: []
-summary: null
+summary: A bento grid is a user interface layout pattern modeled on the
+  compartments of a traditional Japanese bento box, dividing content into
+  distinct, clearly organized sections. A 2024 Muzli article describes it as a
+  design trend that has become a fixture of UI and UX work, pairing a
+  well-defined visual hierarchy with a minimalist, functional look. The article
+  notes the approach is not entirely new, and its examples include work from
+  companies such as Apple and GitHub.
 external_ids:
   getty_aat: null
   wikidata: null
@@ -63,7 +69,6 @@ guide:
     - minimalism
 todo:
   - names.variants
-  - summary
   - external_ids
   - facets.era.periods
   - facets.geography
@@ -72,15 +77,20 @@ todo:
   - facets.practitioners
   - images
 provenance:
+  summary:
+    - source: research-note
+      url: https://muz.li/blog/bento-ui-grids/
+      note: bento-grid.md
+      accessed: 2026-09-24
   facets.formal_properties:
     - source: editorial
-      reviewed: false
+      reviewed: true
   facets.ideological_stance:
     - source: editorial
-      reviewed: false
+      reviewed: true
   facets.commercial_context:
     - source: editorial
-      reviewed: false
+      reviewed: true
   guide:
     - source: editorial
-      reviewed: false
+      reviewed: true

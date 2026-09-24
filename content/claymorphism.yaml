@@ -1,10 +1,16 @@
 id: claymorphism
 term_type: aesthetic
-status: stub
+status: published
 names:
   primary: Claymorphism
   variants: []
-summary: null
+summary: Claymorphism is a user interface design trend that gives elements a
+  soft, inflated three-dimensional look. A 2022 Smashing Magazine article
+  credits the term to Michal Malewicz, who had also been behind the earlier
+  neumorphism trend. The effect is built from two inner shadows, one dark and
+  one light, plus a usually darker outer shadow, which together make elements
+  appear soft and floating. Unlike neumorphism, it can be used on any background
+  color, easing that style's problems with visual hierarchy and contrast.
 external_ids:
   getty_aat: null
   wikidata: null
@@ -63,7 +69,6 @@ guide:
     - skeuomorphism
 todo:
   - names.variants
-  - summary
   - external_ids
   - facets.era.periods
   - facets.geography
@@ -73,15 +78,20 @@ todo:
   - facets.practitioners
   - images
 provenance:
+  summary:
+    - source: research-note
+      url: https://www.smashingmagazine.com/2022/03/claymorphism-css-ui-design-trend/
+      note: claymorphism.md
+      accessed: 2026-09-24
   facets.formal_properties:
     - source: editorial
-      reviewed: false
+      reviewed: true
   facets.ideological_stance:
     - source: editorial
-      reviewed: false
+      reviewed: true
   facets.commercial_context:
     - source: editorial
-      reviewed: false
+      reviewed: true
   guide:
     - source: editorial
-      reviewed: false
+      reviewed: true

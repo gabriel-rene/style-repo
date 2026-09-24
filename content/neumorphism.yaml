@@ -1,10 +1,17 @@
 id: neumorphism
 term_type: aesthetic
-status: stub
+status: published
 names:
   primary: Neumorphism
   variants: []
-summary: null
+summary: Neumorphism is a user interface trend that blends skeuomorphism with
+  minimalism to produce soft, almost three-dimensional surfaces. Its name is a
+  contraction of new skeuomorphism, and it is also called soft UI because of its
+  low contrast. According to the Interaction Design Foundation, Michał Malewicz
+  of Hype4 coined the term in 2019 after noticing such designs on Dribbble and
+  Behance, with a viral banking app by Alexander Plyuto often cited as the first
+  example. Typical traits include subtle light and dark shadows, muted semi-flat
+  colors and rounded corners.
 external_ids:
   getty_aat: null
   wikidata: null
@@ -47,7 +54,23 @@ facets:
   practitioners:
     people: []
     studios: []
-images: []
+images:
+  - file: assets/neumorphism/Neumorphism.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Neumorphism.jpg
+    license: CC BY-SA 4.0
+    attribution: Vectorium, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    review_status: approved
+    caption: Exemple d'éléments adoptant les style neumorphique
+    depicts: null
+  - file: assets/neumorphism/Neumorphism-fixed.jpg
+    source_url: https://commons.wikimedia.org/wiki/File:Neumorphism-fixed.jpg
+    license: CC BY-SA 4.0
+    attribution: Awesomecat, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    review_status: rejected
+    caption: File:Neumorphism.jpg with the Accept text fixed with GIMP
+    depicts: null
 guide:
   dek: Controls seem pressed out of, or into, one soft surface through paired
     light and dark shadows.
@@ -63,7 +86,6 @@ guide:
     - flat-design
 todo:
   - names.variants
-  - summary
   - external_ids
   - facets.era.periods
   - facets.geography
@@ -71,17 +93,26 @@ todo:
   - facets.lifecycle.first_observed
   - facets.lifecycle.review_due
   - facets.practitioners
-  - images
 provenance:
+  summary:
+    - source: research-note
+      url: https://ixdf.org/literature/topics/neumorphism
+      note: neumorphism.md
+      accessed: 2026-09-24
   facets.formal_properties:
     - source: editorial
-      reviewed: false
+      reviewed: true
   facets.ideological_stance:
     - source: editorial
-      reviewed: false
+      reviewed: true
   facets.commercial_context:
     - source: editorial
-      reviewed: false
+      reviewed: true
   guide:
     - source: editorial
-      reviewed: false
+      reviewed: true
+  images:
+    - source: wikimedia-commons
+      url: https://commons.wikimedia.org/w/index.php?search=neumorphism
+      accessed: 2026-09-24
+      note: "query: neumorphism"

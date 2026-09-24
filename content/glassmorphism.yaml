@@ -1,10 +1,17 @@
 id: glassmorphism
 term_type: aesthetic
-status: stub
+status: published
 names:
   primary: Glassmorphism
   variants: []
-summary: null
+summary: Glassmorphism is a visual design style that imitates frosted glass,
+  using varying degrees of translucency to separate foreground elements from the
+  background and suggest depth. According to Nielsen Norman Group, it has been
+  gaining popularity since 2020 and features prominently in the design systems
+  of Apple and Microsoft. Its main ingredients are reduced opacity and
+  background blur, often refined with strokes and gradients. Used carefully it
+  can build hierarchy, but overuse can create accessibility and usability
+  problems.
 external_ids:
   getty_aat: null
   wikidata: null
@@ -47,7 +54,31 @@ facets:
   practitioners:
     people: []
     studios: []
-images: []
+images:
+  - file: assets/glassmorphism/Forum-Logo-KomuMech.png
+    source_url: https://commons.wikimedia.org/wiki/File:Forum-Logo-KomuMech.png
+    license: CC BY 4.0
+    attribution: Komumech, CC BY 4.0, via Wikimedia Commons
+    rights_status: open
+    review_status: rejected
+    caption: Official branding for Forum, the core communication node of the Komu
+      Ecosystem. Forum is a high-fidelity, web-based platform for video calls
+      and meetings, engineered by KomuMech with a focus on Glassmorphism and
+      sub-second latency. This logo represents the synergy between aesthetic
+      design and high-p
+    depicts: null
+  - file: assets/glassmorphism/_a_a_aN.png
+    source_url: https://commons.wikimedia.org/wiki/File:%C3%91%C3%B1a%C3%B1a%C3%B1aN.png
+    license: CC BY-SA 4.0
+    attribution: Divertido8008, CC BY-SA 4.0, via Wikimedia Commons
+    rights_status: open
+    review_status: rejected
+    caption: Usadas en AMBOS sistemas Tailwind CSS Chart.js Remix Icon Lucide Icons
+      ⁠getBoundingClientRect()⁠ Generación Dinámica de Partículas (⁠setInterval⁠
+      / ⁠setTimeout⁠) Glassmorphism &amp; Drop-Shadow CSS Usadas ÚNICAMENTE en
+      el segundo sistema (Cohete Volador) ⁠Math.atan2()⁠ (para calcular el
+      ángulo y apu
+    depicts: null
 guide:
   dek: Translucent, blurred panels float above colorful backgrounds like sheets of
     frosted glass.
@@ -63,7 +94,6 @@ guide:
     - neumorphism
 todo:
   - names.variants
-  - summary
   - external_ids
   - facets.era.periods
   - facets.geography
@@ -71,17 +101,26 @@ todo:
   - facets.lifecycle.first_observed
   - facets.lifecycle.review_due
   - facets.practitioners
-  - images
 provenance:
+  summary:
+    - source: research-note
+      url: https://www.nngroup.com/articles/glassmorphism/
+      note: glassmorphism.md
+      accessed: 2026-09-24
   facets.formal_properties:
     - source: editorial
-      reviewed: false
+      reviewed: true
   facets.ideological_stance:
     - source: editorial
-      reviewed: false
+      reviewed: true
   facets.commercial_context:
     - source: editorial
-      reviewed: false
+      reviewed: true
   guide:
     - source: editorial
-      reviewed: false
+      reviewed: true
+  images:
+    - source: wikimedia-commons
+      url: https://commons.wikimedia.org/w/index.php?search=glassmorphism
+      accessed: 2026-09-24
+      note: "query: glassmorphism"
