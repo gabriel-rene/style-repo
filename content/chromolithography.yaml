@@ -38,7 +38,7 @@
         [
           {
               source: editorial,
-              reviewed: false,
+              reviewed: true,
               note: Visual interpretation and practical design guidance; not a historical
                 attribution.
             }

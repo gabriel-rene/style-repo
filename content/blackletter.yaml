@@ -137,7 +137,7 @@ todo:
 
 provenance:
   facets.formal_properties:
-    - { source: editorial, reviewed: false }
+    - { source: editorial, reviewed: true }
   external_ids.wikidata:
     - source: wikidata
       url: https://www.wikidata.org/wiki/Q213686
@@ -159,7 +159,7 @@ provenance:
       note: "query: Blackletter"
   guide:
     - source: editorial
-      reviewed: false
+      reviewed: true
       note: Visual interpretation and practical design guidance; not a historical
         attribution.
 guide:

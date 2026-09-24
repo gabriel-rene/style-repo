@@ -1,7 +1,7 @@
 id: bauhaus
 term_type: movement
 secondary_types: [ style ] # movement that was also a school; hybrid via secondary_types
-status: draft
+status: published
 names:
   primary: Bauhaus
   variants: [] # TODO: harvest

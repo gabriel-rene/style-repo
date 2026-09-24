@@ -73,6 +73,15 @@ const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<
 const human = (s) => String(s).replaceAll("_", " ").replaceAll("-", " ");
 let tab = "ids", ids = [], idPos = 0, idHistory = [], drafts = [], draftSel = null, trends = { items: [], terms: [] };
 
+// Browser pop-ups (confirm) are blocked in some embedded browsers, so a risky
+// button asks for a second click instead.
+let armedKey = null, armedTimer;
+function confirmClick(btn, key, label) {
+  if (armedKey === key) { armedKey = null; clearTimeout(armedTimer); return true; }
+  armedKey = key; btn.textContent = label;
+  clearTimeout(armedTimer); armedTimer = setTimeout(() => { armedKey = null; render(); }, 4000);
+  return false;
+}
 function toast(msg) { const t = $("#toast"); t.textContent = msg; t.classList.add("show"); clearTimeout(t._h); t._h = setTimeout(() => t.classList.remove("show"), 1600); }
 async function post(path, body) {
   const r = await fetch(path, { method: "POST", body: JSON.stringify(body) });
@@ -178,9 +187,9 @@ async function reviewAll() {
   for (const f of d.fields) { try { await post("/api/drafts/review", { file: draftSel, path: f.path }); } catch (e) { toast("Save failed: " + e.message); break; } }
   toast("All fields marked"); reloadDrafts();
 }
-async function publishDraft() {
+async function publishDraft(btn) {
   const d = drafts.find((x) => x.file === draftSel);
-  if (!confirm(`Publish ${d.name}? This sets status: published.`)) return;
+  if (!confirmClick(btn, "publish:" + d.file, `Click again to publish ${d.name}`)) return;
   try { await post("/api/drafts/publish", { file: draftSel }); } catch (e) { return toast("Publish failed: " + e.message); }
   toast(`${d.name} published`); reloadDrafts();
 }
@@ -204,8 +213,8 @@ async function setTrend(url, status) {
   trends.items = trends.items.filter((c) => c.url !== url);
   toast(status === "dismissed" ? "Dismissed" : `Accepted for ${status.slice(9)}`); counts(); render();
 }
-async function dismissAll() {
-  if (!confirm(`Dismiss all ${trends.items.length} candidates?`)) return;
+async function dismissAll(btn) {
+  if (!confirmClick(btn, "dismiss-all", `Click again to dismiss all ${trends.items.length}`)) return;
   for (const c of [...trends.items]) await setTrend(c.url, "dismissed");
 }
 
@@ -219,9 +228,9 @@ document.addEventListener("click", (e) => {
   if (t.dataset.draft) { draftSel = t.dataset.draft; return render(); }
   if (t.dataset.review) return reviewField(t.dataset.review);
   if ("reviewAll" in t.dataset) return reviewAll();
-  if ("publish" in t.dataset) return publishDraft();
+  if ("publish" in t.dataset) return publishDraft(t);
   if (t.dataset.dismiss) return setTrend(t.dataset.dismiss, "dismissed");
-  if ("dismissAll" in t.dataset) return dismissAll();
+  if ("dismissAll" in t.dataset) return dismissAll(t);
 });
 document.addEventListener("change", (e) => { if (e.target.dataset.accept && e.target.value) setTrend(e.target.dataset.accept, "accepted:" + e.target.value); });
 document.addEventListener("keydown", (e) => {

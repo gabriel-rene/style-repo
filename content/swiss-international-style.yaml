@@ -1,6 +1,6 @@
 id: swiss-international-style
 term_type: style
-status: draft
+status: published
 names:
   primary: Swiss International Style
   variants:
@@ -242,13 +242,13 @@ provenance:
   works:
     - source: user
   facets.formal_properties:
-    - { source: editorial, reviewed: false }
+    - { source: editorial, reviewed: true }
   facets.ideological_stance:
-    - { source: editorial, reviewed: false }
+    - { source: editorial, reviewed: true }
   facets.commercial_context:
-    - { source: editorial, reviewed: false }
+    - { source: editorial, reviewed: true }
   facets.lifecycle.state:
-    - { source: editorial, reviewed: false }
+    - { source: editorial, reviewed: true }
   images:
     - source: wikimedia-commons
       url: https://commons.wikimedia.org/w/index.php?search=Swiss%20Style%20poster
@@ -260,7 +260,7 @@ provenance:
       note: "query: Swiss International Style"
   guide:
     - source: editorial
-      reviewed: false
+      reviewed: true
       note: Visual interpretation and practical design guidance; not a historical
         attribution.
   summary:
