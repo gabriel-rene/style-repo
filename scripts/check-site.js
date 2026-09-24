@@ -3,6 +3,8 @@
 import { readdirSync, readFileSync, existsSync, statSync } from "node:fs";
 import { join, resolve } from "node:path";
 const root = resolve("site/dist");
+// Must match the base path in site/astro.config.mjs.
+const base = process.env.GITHUB_ACTIONS ? "/style-repo/" : "/";
 const files = [];
 function walk(dir) {
   for (const e of readdirSync(dir, { withFileTypes: true })) {
@@ -23,7 +25,10 @@ for (const file of files) {
       value,
       "https://local.test" + file.slice(root.length).replace(/index.html$/, ""),
     );
-    let path = join(root, decodeURIComponent(u.pathname));
+    const pathname = u.pathname.startsWith(base)
+      ? "/" + u.pathname.slice(base.length)
+      : u.pathname;
+    let path = join(root, decodeURIComponent(pathname));
     if (existsSync(path) && statSync(path).isDirectory())
       path = join(path, "index.html");
     if (!existsSync(path)) {
