@@ -55,7 +55,17 @@ facets:
   practitioners:
     people: []
     studios: []
-images: []
+images:
+  - file: null
+    remote_image: https://cdn.dribbble.com/userupload/9295222/file/original-fc5ec45500e9468d5dbffa026e69feb2.png?resize=1600x1200
+    source_url: https://dribbble.com/shots/22272452-Neubrutalism-NFT-Waitlist
+    license: Copyright creator; no reuse license stated
+    attribution: Kirill Kuts, Neubrutalism NFT Waitlist, 2023, via Dribbble
+    rights_status: restricted
+    caption: Acid-yellow ground, heavy black borders and hard offset shadows on
+      every card and button.
+    depicts: null
+    review_status: approved
 guide:
   dek: Thick black outlines, hard offset shadows and flat bright colors give an
     interface a bold, deliberately blunt look.
@@ -96,3 +106,26 @@ provenance:
   guide:
     - source: editorial
       reviewed: true
+  works:
+    - source: project-page
+      url: https://dribbble.com/shots/22272452-Neubrutalism-NFT-Waitlist
+      accessed: 2026-09-25
+    - source: project-page
+      url: https://dribbble.com/shots/27619686-MINTZILLA-Neubrutalism-NFT-Marketplace-Landing-Page
+      accessed: 2026-09-25
+    - source: project-page
+      url: https://dribbble.com/shots/22478620-Dino-World-Neubrutalism-Game-Design-Style
+      accessed: 2026-09-25
+works:
+  - title: Neubrutalism NFT Waitlist
+    url: https://dribbble.com/shots/22272452-Neubrutalism-NFT-Waitlist
+    note: Kirill Kuts, 2023. Acid-yellow ground, heavy black borders and hard offset
+      shadows on every card and button.
+  - title: MINTZILLA - Neubrutalism NFT Marketplace Landing Page
+    url: https://dribbble.com/shots/27619686-MINTZILLA-Neubrutalism-NFT-Marketplace-Landing-Page
+    note: Muhammad Ali Mushan, 2026. Chunky display type with highlighter blocks and
+      tilted outlined cards for a full landing page.
+  - title: Dino World - Neubrutalism Game Design Style
+    url: https://dribbble.com/shots/22478620-Dino-World-Neubrutalism-Game-Design-Style
+    note: Randompopsycle for Orenji Studio, 2023. Extends the outlined, flat-color
+      look into illustration-heavy mobile game screens.

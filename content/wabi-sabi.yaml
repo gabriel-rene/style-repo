@@ -106,6 +106,16 @@ images:
     review_status: rejected
     caption: De WABI-SABI opvarend op de Noord
     depicts: null
+  - file: null
+    remote_image: https://mir-s3-cdn-cf.behance.net/project_modules/1400/42d958220522451.67c4cf601bbe0.jpg
+    source_url: https://www.behance.net/gallery/220522451/Matcha-Brand-design-WABI
+    license: Copyright creator; no reuse license stated
+    attribution: Valentyna Silakova, Matcha Brand design | WABI, 2025, via Behance
+    rights_status: restricted
+    caption: Full identity, packaging and café system explicitly built on wabi-sabi
+      restraint and natural materials.
+    depicts: null
+    review_status: rejected
 guide:
   dek: Muted natural materials, asymmetry and visible wear express a quiet beauty
     in imperfection.
@@ -148,3 +158,26 @@ provenance:
       url: https://commons.wikimedia.org/w/index.php?search=wabi-sabi
       accessed: 2026-09-24
       note: "query: wabi-sabi"
+  works:
+    - source: project-page
+      url: https://www.behance.net/gallery/220522451/Matcha-Brand-design-WABI
+      accessed: 2026-09-25
+    - source: project-page
+      url: https://www.behance.net/gallery/167122479/Esaku-wabi-sabi-flower-studio
+      accessed: 2026-09-25
+    - source: project-page
+      url: https://www.behance.net/gallery/197088903/Wabi-Sabi-Handmade-Ceramics
+      accessed: 2026-09-25
+works:
+  - title: Matcha Brand design | WABI
+    url: https://www.behance.net/gallery/220522451/Matcha-Brand-design-WABI
+    note: Valentyna Silakova, 2025. Full identity, packaging and café system
+      explicitly built on wabi-sabi restraint and natural materials.
+  - title: Esaku | wabi sabi flower studio
+    url: https://www.behance.net/gallery/167122479/Esaku-wabi-sabi-flower-studio
+    note: Lesse Studio, 2023. Quiet greige palette, sparse type and generous
+      negative space in a studio brand and website.
+  - title: Wabi Sabi Handmade Ceramics
+    url: https://www.behance.net/gallery/197088903/Wabi-Sabi-Handmade-Ceramics
+    note: Prachi Sharma, 2024. Hand-drawn wobbly linework on earthy clay textures
+      conveys handmade imperfection.

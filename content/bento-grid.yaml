@@ -54,7 +54,17 @@ facets:
   practitioners:
     people: []
     studios: []
-images: []
+images:
+  - file: null
+    remote_image: https://cdn.dribbble.com/userupload/12471352/file/original-f17bf857675b962bad0c5371cf89350f.jpg?resize=1600x1200
+    source_url: https://dribbble.com/shots/23440662-Bento-grid-v2-0
+    license: Copyright creator; no reuse license stated
+    attribution: Ghulam for Upnow Studio, Bento grid v2.0, 2024, via Dribbble
+    rights_status: restricted
+    caption: Widely referenced shot mixing stat, photo and text tiles of varied
+      spans in soft rounded cells.
+    depicts: null
+    review_status: approved
 guide:
   dek: Content is split into rounded tiles of different sizes, packed into one
     tidy grid like a bento box.
@@ -94,3 +104,26 @@ provenance:
   guide:
     - source: editorial
       reviewed: true
+  works:
+    - source: project-page
+      url: https://dribbble.com/shots/23440662-Bento-grid-v2-0
+      accessed: 2026-09-25
+    - source: project-page
+      url: https://dribbble.com/shots/26498185-Bento-Grid-for-Reading-App
+      accessed: 2026-09-25
+    - source: project-page
+      url: https://dribbble.com/shots/27534166-Bento-Grid-AI-Smart-App
+      accessed: 2026-09-25
+works:
+  - title: Bento grid v2.0
+    url: https://dribbble.com/shots/23440662-Bento-grid-v2-0
+    note: Ghulam for Upnow Studio, 2024. Widely referenced shot mixing stat, photo
+      and text tiles of varied spans in soft rounded cells.
+  - title: Bento Grid for Reading App
+    url: https://dribbble.com/shots/26498185-Bento-Grid-for-Reading-App
+    note: Yara Ony, 2025. Warm, calm feature grid where each tile pairs a headline
+      with a small illustrative widget.
+  - title: Bento Grid - AI Smart App
+    url: https://dribbble.com/shots/27534166-Bento-Grid-AI-Smart-App
+    note: Sam Halpert for Awsmd, 2026. Dark photographic tiles with overlaid UI
+      chips show bento used for product storytelling.

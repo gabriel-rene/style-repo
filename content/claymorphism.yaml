@@ -54,7 +54,18 @@ facets:
   practitioners:
     people: []
     studios: []
-images: []
+images:
+  - file: null
+    remote_image: https://cdn.dribbble.com/userupload/48197938/file/e0300bfcc3893dd4fce60c9d62bb206f.png?resize=1448x1086
+    source_url: https://dribbble.com/shots/27508244-Clay-Dashboard-Claymorphism-Dashboard-UI
+    license: Copyright creator; no reuse license stated
+    attribution: Muhammad Farhan Juna, Clay Dashboard - Claymorphism Dashboard UI,
+      2026, via Dribbble
+    rights_status: restricted
+    caption: "Shows a full clay design system: puffy pastel cards, inner shadows,
+      inflated buttons and chart widgets."
+    depicts: null
+    review_status: approved
 guide:
   dek: Rounded, inflated shapes with soft inner and outer shadows make interface
     elements look like pressed clay.
@@ -95,3 +106,26 @@ provenance:
   guide:
     - source: editorial
       reviewed: true
+  works:
+    - source: project-page
+      url: https://dribbble.com/shots/27508244-Clay-Dashboard-Claymorphism-Dashboard-UI
+      accessed: 2026-09-25
+    - source: project-page
+      url: https://dribbble.com/shots/26109019-Claymorphism-UI-Style
+      accessed: 2026-09-25
+    - source: project-page
+      url: https://dribbble.com/shots/22643326-Onboarding-Mobile-Game-Claymorphism-3D
+      accessed: 2026-09-25
+works:
+  - title: Clay Dashboard - Claymorphism Dashboard UI
+    url: https://dribbble.com/shots/27508244-Clay-Dashboard-Claymorphism-Dashboard-UI
+    note: "Muhammad Farhan Juna, 2026. Shows a full clay design system: puffy pastel
+      cards, inner shadows, inflated buttons and chart widgets."
+  - title: Claymorphism - UI Style
+    url: https://dribbble.com/shots/26109019-Claymorphism-UI-Style
+    note: Anwash, 2025. Explainer-style shot pairing soft inflated UI panels with
+      floating clay 3D props.
+  - title: Onboarding Mobile Game - Claymorphism 3D
+    url: https://dribbble.com/shots/22643326-Onboarding-Mobile-Game-Claymorphism-3D
+    note: Vitali Stsiapanau, 2023. Playful clay 3D characters and objects driving a
+      dark-mode game onboarding.

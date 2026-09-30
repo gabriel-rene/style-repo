@@ -79,6 +79,17 @@ images:
       el segundo sistema (Cohete Volador) ⁠Math.atan2()⁠ (para calcular el
       ángulo y apu
     depicts: null
+  - file: null
+    remote_image: https://mir-s3-cdn-cf.behance.net/project_modules/1400/e81355228170241.684e54985af49.jpg
+    source_url: https://www.behance.net/gallery/228170241/Recreated-Liquid-Glass-Apples-iOS-26-Design
+    license: Copyright creator; no reuse license stated
+    attribution: Duong Hoang Tien, [Recreated] Liquid Glass - Apple's iOS 26 Design,
+      2025, via Behance
+    rights_status: restricted
+    caption: Isolates frosted, refractive glass components over saturated gradients,
+      showing the 2025 Liquid Glass evolution.
+    depicts: null
+    review_status: approved
 guide:
   dek: Translucent, blurred panels float above colorful backgrounds like sheets of
     frosted glass.
@@ -124,3 +135,26 @@ provenance:
       url: https://commons.wikimedia.org/w/index.php?search=glassmorphism
       accessed: 2026-09-24
       note: "query: glassmorphism"
+  works:
+    - source: project-page
+      url: https://www.behance.net/gallery/228170241/Recreated-Liquid-Glass-Apples-iOS-26-Design
+      accessed: 2026-09-25
+    - source: project-page
+      url: https://www.behance.net/gallery/217532845/Glassmorphism-login-page-Ui-liquid-glass-UiUx-design
+      accessed: 2026-09-25
+    - source: project-page
+      url: https://www.behance.net/gallery/229354845/UI-Liquid-Glass-App-Ecommerce
+      accessed: 2026-09-25
+works:
+  - title: "[Recreated] Liquid Glass - Apple's iOS 26 Design"
+    url: https://www.behance.net/gallery/228170241/Recreated-Liquid-Glass-Apples-iOS-26-Design
+    note: Duong Hoang Tien, 2025. Isolates frosted, refractive glass components over
+      saturated gradients, showing the 2025 Liquid Glass evolution.
+  - title: Glassmorphism login page Ui | liquid glass Ui/Ux design
+    url: https://www.behance.net/gallery/217532845/Glassmorphism-login-page-Ui-liquid-glass-UiUx-design
+    note: Ajay Biswas, 2025. Textbook frosted form panel floating over bright
+      blurred orbs on a dark field.
+  - title: UI Liquid Glass App - Ecommerce
+    url: https://www.behance.net/gallery/229354845/UI-Liquid-Glass-App-Ecommerce
+    note: N Design, 2025. Applies translucent glass cards and controls to a
+      practical e-commerce mobile flow.

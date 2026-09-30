@@ -55,7 +55,17 @@ facets:
   practitioners:
     people: []
     studios: []
-images: []
+images:
+  - file: null
+    remote_image: https://mir-s3-cdn-cf.behance.net/project_modules/1400/8ceed1204856913.66b0ce9b1264b.jpg
+    source_url: https://www.behance.net/gallery/204856913/Cybercore-YK2-Futurism
+    license: Copyright creator; no reuse license stated
+    attribution: Leila Edits, Cybercore YK2 Futurism, 2024, via Behance
+    rights_status: restricted
+    caption: Wireframe globe, repeated outline type and black-field layout distill
+      cybercore into editorial graphic design.
+    depicts: null
+    review_status: approved
 guide:
   dek: Digital grids, neon light and computer imagery build a future imagined
     through technology.
@@ -98,3 +108,26 @@ provenance:
   guide:
     - source: editorial
       reviewed: true
+  works:
+    - source: project-page
+      url: https://www.behance.net/gallery/204856913/Cybercore-YK2-Futurism
+      accessed: 2026-09-25
+    - source: project-page
+      url: https://www.behance.net/gallery/247325167/defact-brand-portfolio-CYBERCORESOLARPUNK
+      accessed: 2026-09-25
+    - source: project-page
+      url: https://www.behance.net/gallery/184598539/BUNNY-CYBERCORE-23-Personal-Project
+      accessed: 2026-09-25
+works:
+  - title: Cybercore YK2 Futurism
+    url: https://www.behance.net/gallery/204856913/Cybercore-YK2-Futurism
+    note: Leila Edits, 2024. Wireframe globe, repeated outline type and black-field
+      layout distill cybercore into editorial graphic design.
+  - title: defact brand portfolio [CYBERCORE/SOLARPUNK]
+    url: https://www.behance.net/gallery/247325167/defact-brand-portfolio-CYBERCORESOLARPUNK
+    note: Lia Schulze, Hoang Bui, 2026. Chrome-blue imagery and warped digital
+      wordmark show cybercore applied to a studio identity.
+  - title: BUNNY CYBERCORE-23 | Personal Project
+    url: https://www.behance.net/gallery/184598539/BUNNY-CYBERCORE-23-Personal-Project
+    note: BAO KIEU, 2023. Mixed-media poster series layering photography with HUD
+      marks and techno type.
